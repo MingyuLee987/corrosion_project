@@ -1,0 +1,972 @@
+{
+  "rows": 51,
+  "papers": 11,
+  "configs": [
+    {
+      "id": 0,
+      "panel": "compact",
+      "model": "GB",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 1,
+        "learning_rate": 0.05,
+        "loss": "huber",
+        "random_state": 42
+      }
+    },
+    {
+      "id": 1,
+      "panel": "compact",
+      "model": "GB",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 2,
+        "learning_rate": 0.05,
+        "loss": "huber",
+        "random_state": 42
+      }
+    },
+    {
+      "id": 2,
+      "panel": "compact",
+      "model": "ExtraTrees",
+      "params": {
+        "n_estimators": 80,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "random_state": 42,
+        "n_jobs": 1
+      }
+    },
+    {
+      "id": 3,
+      "panel": "compact",
+      "model": "RF",
+      "params": {
+        "n_estimators": 80,
+        "max_depth": 3,
+        "min_samples_leaf": 2,
+        "random_state": 42,
+        "n_jobs": 1
+      }
+    },
+    {
+      "id": 4,
+      "panel": "compact",
+      "model": "Ridge",
+      "params": {
+        "alpha": 100
+      }
+    },
+    {
+      "id": 5,
+      "panel": "compact",
+      "model": "SVR",
+      "params": {
+        "C": 1,
+        "gamma": 0.01
+      }
+    },
+    {
+      "id": 6,
+      "panel": "full",
+      "model": "GB",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 1,
+        "learning_rate": 0.05,
+        "loss": "huber",
+        "random_state": 42
+      }
+    },
+    {
+      "id": 7,
+      "panel": "full",
+      "model": "GB",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 2,
+        "learning_rate": 0.05,
+        "loss": "huber",
+        "random_state": 42
+      }
+    },
+    {
+      "id": 8,
+      "panel": "full",
+      "model": "ExtraTrees",
+      "params": {
+        "n_estimators": 80,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "random_state": 42,
+        "n_jobs": 1
+      }
+    },
+    {
+      "id": 9,
+      "panel": "full",
+      "model": "RF",
+      "params": {
+        "n_estimators": 80,
+        "max_depth": 3,
+        "min_samples_leaf": 2,
+        "random_state": 42,
+        "n_jobs": 1
+      }
+    },
+    {
+      "id": 10,
+      "panel": "full",
+      "model": "Ridge",
+      "params": {
+        "alpha": 100
+      }
+    },
+    {
+      "id": 11,
+      "panel": "full",
+      "model": "SVR",
+      "params": {
+        "C": 1,
+        "gamma": 0.01
+      }
+    },
+    {
+      "id": 12,
+      "panel": "transfer",
+      "model": "GB",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 1,
+        "learning_rate": 0.05,
+        "loss": "huber",
+        "random_state": 42
+      }
+    },
+    {
+      "id": 13,
+      "panel": "transfer",
+      "model": "GB",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 2,
+        "learning_rate": 0.05,
+        "loss": "huber",
+        "random_state": 42
+      }
+    },
+    {
+      "id": 14,
+      "panel": "transfer",
+      "model": "ExtraTrees",
+      "params": {
+        "n_estimators": 80,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "random_state": 42,
+        "n_jobs": 1
+      }
+    },
+    {
+      "id": 15,
+      "panel": "transfer",
+      "model": "RF",
+      "params": {
+        "n_estimators": 80,
+        "max_depth": 3,
+        "min_samples_leaf": 2,
+        "random_state": 42,
+        "n_jobs": 1
+      }
+    },
+    {
+      "id": 16,
+      "panel": "transfer",
+      "model": "Ridge",
+      "params": {
+        "alpha": 100
+      }
+    },
+    {
+      "id": 17,
+      "panel": "transfer",
+      "model": "SVR",
+      "params": {
+        "C": 1,
+        "gamma": 0.01
+      }
+    }
+  ],
+  "panels": {
+    "compact": [
+      [
+        "RE_wt_pct",
+        "C_wt_pct",
+        "Cr_wt_pct",
+        "Ni_wt_pct",
+        "final_heat_treatment_temp_C",
+        "final_heat_treatment_time_min",
+        "temperature_C",
+        "NaCl_wt_pct",
+        "Cl_mol_L",
+        "H2SO4_mol_L",
+        "NaHSO3_mol_L",
+        "log_pre_exposure_h"
+      ],
+      [
+        "RE_element_cat",
+        "melting_route_cat",
+        "casting_method_cat",
+        "cooling_method_cat",
+        "processing_state_cat",
+        "surface_state_cat",
+        "electrolyte_family",
+        "gas_condition_cat"
+      ]
+    ],
+    "full": [
+      [
+        "RE_wt_pct",
+        "C_wt_pct",
+        "Si_wt_pct",
+        "Mn_wt_pct",
+        "Cr_wt_pct",
+        "Ni_wt_pct",
+        "Mo_wt_pct",
+        "Cu_wt_pct",
+        "S_wt_pct",
+        "P_wt_pct",
+        "final_heat_treatment_temp_C",
+        "final_heat_treatment_time_min",
+        "temperature_C",
+        "NaCl_wt_pct",
+        "Cl_mol_L",
+        "H2SO4_mol_L",
+        "NaHSO3_mol_L",
+        "log_pre_exposure_h"
+      ],
+      [
+        "RE_element_cat",
+        "material_class",
+        "melting_route_cat",
+        "casting_method_cat",
+        "cooling_method_cat",
+        "processing_state_cat",
+        "surface_state_cat",
+        "electrolyte_family",
+        "gas_condition_cat"
+      ]
+    ],
+    "transfer": [
+      [
+        "RE_log1p_ppm",
+        "C_wt_pct",
+        "Si_wt_pct",
+        "Mn_wt_pct",
+        "Cr_wt_pct",
+        "Ni_wt_pct",
+        "Mo_wt_pct",
+        "Cu_wt_pct",
+        "S_wt_pct",
+        "final_heat_treatment_temp_C",
+        "final_heat_treatment_time_min",
+        "temperature_C",
+        "NaCl_wt_pct",
+        "Cl_mol_L",
+        "H2SO4_mol_L",
+        "NaHSO3_mol_L",
+        "log_pre_exposure_h"
+      ],
+      [
+        "RE_element_cat",
+        "process_family",
+        "surface_family",
+        "electrolyte_family",
+        "gas_condition_cat"
+      ]
+    ]
+  },
+  "protocol": "18 candidates, log target; nested leave-one-paper-out; inner pooledlogR2; all preprocessing fit ontraining only; paperweights; no targetderived inputs; retrospective experiment",
+  "fixed_same9paper_benchmark": {
+    "before": {
+      "log_R2": 0.24618983074234013,
+      "raw_R2": -0.06236057621536473,
+      "log_MAE": 0.8158042962521503
+    },
+    "after": {
+      "log_R2": -0.7104470280223791,
+      "raw_R2": -0.15647579123269018,
+      "log_MAE": 1.2787958739378256
+    },
+    "config": {
+      "id": 0,
+      "panel": "compact",
+      "model": "GB",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 1,
+        "learning_rate": 0.05,
+        "loss": "huber",
+        "random_state": 42
+      }
+    },
+    "scope": "Retrospective same34testrecords; each heldpaper excluded. Both before/after use revised compact panel including NaHSO3; differs from the earlier original pipeline; not prospective external validation"
+  },
+  "frozen_original_new17": {
+    "interpaper": {
+      "metrics": {
+        "log_R2": -4.99893935676561,
+        "raw_R2": -1.471844292560382,
+        "log_MAE": 1.125796791856348
+      },
+      "predictions": [
+        {
+          "record_id": "Al10_26_0_pre72h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000274,
+          "predicted_icorr": 7.1770512814879656e-06,
+          "actual_log": -3.562249437179612,
+          "predicted_log": -5.144053950634386
+        },
+        {
+          "record_id": "Al10_26_0_pre120h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.00026,
+          "predicted_icorr": 7.1770512814879656e-06,
+          "actual_log": -3.5850266520291822,
+          "predicted_log": -5.144053950634386
+        },
+        {
+          "record_id": "Al10_26_0_pre168h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000146,
+          "predicted_icorr": 7.1770512814879656e-06,
+          "actual_log": -3.835647144215563,
+          "predicted_log": -5.144053950634386
+        },
+        {
+          "record_id": "Al10_26_0_pre216h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000151,
+          "predicted_icorr": 7.1770512814879656e-06,
+          "actual_log": -3.8210230527068307,
+          "predicted_log": -5.144053950634386
+        },
+        {
+          "record_id": "Al10_26_1_pre72h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000259,
+          "predicted_icorr": 6.487951932839072e-06,
+          "actual_log": -3.586700235918748,
+          "predicted_log": -5.187892376333904
+        },
+        {
+          "record_id": "Al10_26_1_pre120h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000136,
+          "predicted_icorr": 6.487951932839072e-06,
+          "actual_log": -3.8664610916297826,
+          "predicted_log": -5.187892376333904
+        },
+        {
+          "record_id": "Al10_26_1_pre168h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000124,
+          "predicted_icorr": 6.487951932839072e-06,
+          "actual_log": -3.906578314837765,
+          "predicted_log": -5.187892376333904
+        },
+        {
+          "record_id": "Al10_26_1_pre216h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000107,
+          "predicted_icorr": 6.487951932839072e-06,
+          "actual_log": -3.9706162223147903,
+          "predicted_log": -5.187892376333904
+        },
+        {
+          "record_id": "Al10_26_2_pre72h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000119,
+          "predicted_icorr": 6.487951932839072e-06,
+          "actual_log": -3.9244530386074694,
+          "predicted_log": -5.187892376333904
+        },
+        {
+          "record_id": "Al10_26_2_pre120h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000111,
+          "predicted_icorr": 6.487951932839072e-06,
+          "actual_log": -3.9546770212133424,
+          "predicted_log": -5.187892376333904
+        },
+        {
+          "record_id": "Al10_26_2_pre168h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000108,
+          "predicted_icorr": 6.487951932839072e-06,
+          "actual_log": -3.96657624451305,
+          "predicted_log": -5.187892376333904
+        },
+        {
+          "record_id": "Al10_26_2_pre216h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 4.1e-05,
+          "predicted_icorr": 6.487951932839072e-06,
+          "actual_log": -4.3872161432802645,
+          "predicted_log": -5.187892376333904
+        },
+        {
+          "record_id": "La24Q355_verified_0",
+          "reference_id": "La24Q355",
+          "actual_icorr": 0.000404,
+          "predicted_icorr": 6.0849167793779494e-06,
+          "actual_log": -3.393618634889395,
+          "predicted_log": -5.215745357040175
+        },
+        {
+          "record_id": "La24Q355_verified_1",
+          "reference_id": "La24Q355",
+          "actual_icorr": 2.52e-05,
+          "predicted_icorr": 5.500677929076362e-06,
+          "actual_log": -4.598599459218456,
+          "predicted_log": -5.259583782739694
+        },
+        {
+          "record_id": "La24Q355_verified_2",
+          "reference_id": "La24Q355",
+          "actual_icorr": 1.91e-05,
+          "predicted_icorr": 5.500677929076362e-06,
+          "actual_log": -4.718966632752273,
+          "predicted_log": -5.259583782739694
+        },
+        {
+          "record_id": "La24Q355_verified_3",
+          "reference_id": "La24Q355",
+          "actual_icorr": 1.15e-05,
+          "predicted_icorr": 5.500677929076362e-06,
+          "actual_log": -4.939302159646388,
+          "predicted_log": -5.259583782739694
+        },
+        {
+          "record_id": "La24Q355_verified_4",
+          "reference_id": "La24Q355",
+          "actual_icorr": 6.65e-06,
+          "predicted_icorr": 5.500677929076362e-06,
+          "actual_log": -5.1771783546968955,
+          "predicted_log": -5.259583782739694
+        }
+      ]
+    },
+    "withinpaper": {
+      "metrics": {
+        "log_R2": -0.9451018729233445,
+        "raw_R2": -2.745881427055847,
+        "log_MAE": 0.553494581807465
+      },
+      "predictions": [
+        {
+          "record_id": "Al10_26_0_pre72h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000274,
+          "predicted_icorr": 0.0004065707701521941,
+          "actual_log": -3.562249437179612,
+          "predicted_log": -3.3908638475816986
+        },
+        {
+          "record_id": "Al10_26_0_pre120h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.00026,
+          "predicted_icorr": 0.0004065707701521941,
+          "actual_log": -3.5850266520291822,
+          "predicted_log": -3.3908638475816986
+        },
+        {
+          "record_id": "Al10_26_0_pre168h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000146,
+          "predicted_icorr": 0.0004065707701521941,
+          "actual_log": -3.835647144215563,
+          "predicted_log": -3.3908638475816986
+        },
+        {
+          "record_id": "Al10_26_0_pre216h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000151,
+          "predicted_icorr": 0.0004065707701521941,
+          "actual_log": -3.8210230527068307,
+          "predicted_log": -3.3908638475816986
+        },
+        {
+          "record_id": "Al10_26_1_pre72h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000259,
+          "predicted_icorr": 0.0003373488528038843,
+          "actual_log": -3.586700235918748,
+          "predicted_log": -3.4719207623777835
+        },
+        {
+          "record_id": "Al10_26_1_pre120h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000136,
+          "predicted_icorr": 0.0003373488528038843,
+          "actual_log": -3.8664610916297826,
+          "predicted_log": -3.4719207623777835
+        },
+        {
+          "record_id": "Al10_26_1_pre168h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000124,
+          "predicted_icorr": 0.0003373488528038843,
+          "actual_log": -3.906578314837765,
+          "predicted_log": -3.4719207623777835
+        },
+        {
+          "record_id": "Al10_26_1_pre216h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000107,
+          "predicted_icorr": 0.0003373488528038843,
+          "actual_log": -3.9706162223147903,
+          "predicted_log": -3.4719207623777835
+        },
+        {
+          "record_id": "Al10_26_2_pre72h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000119,
+          "predicted_icorr": 0.0003373488528038843,
+          "actual_log": -3.9244530386074694,
+          "predicted_log": -3.4719207623777835
+        },
+        {
+          "record_id": "Al10_26_2_pre120h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000111,
+          "predicted_icorr": 0.0003373488528038843,
+          "actual_log": -3.9546770212133424,
+          "predicted_log": -3.4719207623777835
+        },
+        {
+          "record_id": "Al10_26_2_pre168h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 0.000108,
+          "predicted_icorr": 0.0003373488528038843,
+          "actual_log": -3.96657624451305,
+          "predicted_log": -3.4719207623777835
+        },
+        {
+          "record_id": "Al10_26_2_pre216h",
+          "reference_id": "Al10_26",
+          "actual_icorr": 4.1e-05,
+          "predicted_icorr": 0.0003373488528038843,
+          "actual_log": -4.3872161432802645,
+          "predicted_log": -3.4719207623777835
+        },
+        {
+          "record_id": "La24Q355_verified_0",
+          "reference_id": "La24Q355",
+          "actual_icorr": 0.000404,
+          "predicted_icorr": 4.040621417659045e-06,
+          "actual_log": -3.393618634889395,
+          "predicted_log": -5.393551838476876
+        },
+        {
+          "record_id": "La24Q355_verified_1",
+          "reference_id": "La24Q355",
+          "actual_icorr": 2.52e-05,
+          "predicted_icorr": 3.5726463163854137e-06,
+          "actual_log": -4.598599459218456,
+          "predicted_log": -5.4470099758056945
+        },
+        {
+          "record_id": "La24Q355_verified_2",
+          "reference_id": "La24Q355",
+          "actual_icorr": 1.91e-05,
+          "predicted_icorr": 3.5158713075208057e-06,
+          "actual_log": -4.718966632752273,
+          "predicted_log": -5.453967029916938
+        },
+        {
+          "record_id": "La24Q355_verified_3",
+          "reference_id": "La24Q355",
+          "actual_icorr": 1.15e-05,
+          "predicted_icorr": 3.4908357155360187e-06,
+          "actual_log": -4.939302159646388,
+          "predicted_log": -5.457070589316734
+        },
+        {
+          "record_id": "La24Q355_verified_4",
+          "reference_id": "La24Q355",
+          "actual_icorr": 6.65e-06,
+          "predicted_icorr": 3.4908357155360187e-06,
+          "actual_log": -5.1771783546968955,
+          "predicted_log": -5.457070589316734
+        }
+      ]
+    }
+  },
+  "old34_nested18": {
+    "metrics": {
+      "log_R2": -0.20372991779326677,
+      "raw_R2": -0.1519062948905836,
+      "log_MAE": 1.0136781154864618
+    },
+    "folds": [
+      {
+        "held_out_paper": "Bridge25",
+        "selected_id": 9,
+        "selected_model": "RF",
+        "selected_panel": "full",
+        "inner_log_R2": 0.660351797438915,
+        "outer_log_MAE": 2.064472961330859,
+        "train_papers": "CC25|Coat24|GCr23|MDPI26LaCe|Ma19FSS|Tang2019|UCS23|Zhang2025"
+      },
+      {
+        "held_out_paper": "CC25",
+        "selected_id": 5,
+        "selected_model": "SVR",
+        "selected_panel": "compact",
+        "inner_log_R2": -0.30572917832191404,
+        "outer_log_MAE": 0.8822665907922582,
+        "train_papers": "Bridge25|Coat24|GCr23|MDPI26LaCe|Ma19FSS|Tang2019|UCS23|Zhang2025"
+      },
+      {
+        "held_out_paper": "Coat24",
+        "selected_id": 15,
+        "selected_model": "RF",
+        "selected_panel": "transfer",
+        "inner_log_R2": 0.13627235069578214,
+        "outer_log_MAE": 0.1966289152507109,
+        "train_papers": "Bridge25|CC25|GCr23|MDPI26LaCe|Ma19FSS|Tang2019|UCS23|Zhang2025"
+      },
+      {
+        "held_out_paper": "GCr23",
+        "selected_id": 0,
+        "selected_model": "GB",
+        "selected_panel": "compact",
+        "inner_log_R2": 0.18944509381444974,
+        "outer_log_MAE": 1.0152364098558828,
+        "train_papers": "Bridge25|CC25|Coat24|MDPI26LaCe|Ma19FSS|Tang2019|UCS23|Zhang2025"
+      },
+      {
+        "held_out_paper": "MDPI26LaCe",
+        "selected_id": 12,
+        "selected_model": "GB",
+        "selected_panel": "transfer",
+        "inner_log_R2": -0.4458421528310028,
+        "outer_log_MAE": 0.637184971268972,
+        "train_papers": "Bridge25|CC25|Coat24|GCr23|Ma19FSS|Tang2019|UCS23|Zhang2025"
+      },
+      {
+        "held_out_paper": "Ma19FSS",
+        "selected_id": 12,
+        "selected_model": "GB",
+        "selected_panel": "transfer",
+        "inner_log_R2": 0.16455289106937476,
+        "outer_log_MAE": 1.0798035072150203,
+        "train_papers": "Bridge25|CC25|Coat24|GCr23|MDPI26LaCe|Tang2019|UCS23|Zhang2025"
+      },
+      {
+        "held_out_paper": "Tang2019",
+        "selected_id": 0,
+        "selected_model": "GB",
+        "selected_panel": "compact",
+        "inner_log_R2": 0.22242203700209828,
+        "outer_log_MAE": 0.3172212764668985,
+        "train_papers": "Bridge25|CC25|Coat24|GCr23|MDPI26LaCe|Ma19FSS|UCS23|Zhang2025"
+      },
+      {
+        "held_out_paper": "UCS23",
+        "selected_id": 5,
+        "selected_model": "SVR",
+        "selected_panel": "compact",
+        "inner_log_R2": -0.3425478846514989,
+        "outer_log_MAE": 1.9523835346319545,
+        "train_papers": "Bridge25|CC25|Coat24|GCr23|MDPI26LaCe|Ma19FSS|Tang2019|Zhang2025"
+      },
+      {
+        "held_out_paper": "Zhang2025",
+        "selected_id": 12,
+        "selected_model": "GB",
+        "selected_panel": "transfer",
+        "inner_log_R2": 0.01697065028992284,
+        "outer_log_MAE": 0.9575565495481447,
+        "train_papers": "Bridge25|CC25|Coat24|GCr23|MDPI26LaCe|Ma19FSS|Tang2019|UCS23"
+      }
+    ],
+    "predictions": [
+      {
+        "record_id": "RECORR_000001",
+        "reference_id": "Tang2019",
+        "actual_icorr": 5.31e-05,
+        "predicted_icorr": 9.618435268336836e-05,
+        "actual_log": -4.274905478918531,
+        "predicted_log": -4.0168955734506575
+      },
+      {
+        "record_id": "RECORR_000002",
+        "reference_id": "Tang2019",
+        "actual_icorr": 4.6e-05,
+        "predicted_icorr": 8.159051755047842e-05,
+        "actual_log": -4.337242168318426,
+        "predicted_log": -4.088360312015747
+      },
+      {
+        "record_id": "RECORR_000003",
+        "reference_id": "Tang2019",
+        "actual_icorr": 2.93e-05,
+        "predicted_icorr": 8.159051755047842e-05,
+        "actual_log": -4.533132379645891,
+        "predicted_log": -4.088360312015747
+      },
+      {
+        "record_id": "RECORR_000004",
+        "reference_id": "MDPI26LaCe",
+        "actual_icorr": 1.893e-06,
+        "predicted_icorr": 7.671290136086175e-06,
+        "actual_log": -5.722849386036203,
+        "predicted_log": -5.115131591479216
+      },
+      {
+        "record_id": "RECORR_000005",
+        "reference_id": "MDPI26LaCe",
+        "actual_icorr": 1.829e-06,
+        "predicted_icorr": 6.8916032559622284e-06,
+        "actual_log": -5.737786294523583,
+        "predicted_log": -5.161679732487203
+      },
+      {
+        "record_id": "RECORR_000006",
+        "reference_id": "MDPI26LaCe",
+        "actual_icorr": 1.29e-06,
+        "predicted_icorr": 6.8916032559622284e-06,
+        "actual_log": -5.889410289700751,
+        "predicted_log": -5.161679732487203
+      },
+      {
+        "record_id": "RECORR_000007",
+        "reference_id": "Zhang2025",
+        "actual_icorr": 3.07e-06,
+        "predicted_icorr": 2.313052942830709e-05,
+        "actual_log": -5.512861624522814,
+        "predicted_log": -4.635814426669029
+      },
+      {
+        "record_id": "RECORR_000008",
+        "reference_id": "Zhang2025",
+        "actual_icorr": 2.13e-06,
+        "predicted_icorr": 1.6880103361241042e-05,
+        "actual_log": -5.671620396561262,
+        "predicted_log": -4.772624898404724
+      },
+      {
+        "record_id": "RECORR_000009",
+        "reference_id": "Zhang2025",
+        "actual_icorr": 1.71e-06,
+        "predicted_icorr": 2.1361072942595538e-05,
+        "actual_log": -5.767003889607846,
+        "predicted_log": -4.670376936973734
+      },
+      {
+        "record_id": "RECORR_000010",
+        "reference_id": "Coat24",
+        "actual_icorr": 0.000182,
+        "predicted_icorr": 5.8290229735862914e-05,
+        "actual_log": -3.7399286120149253,
+        "predicted_log": -4.234404233017818
+      },
+      {
+        "record_id": "RECORR_000011",
+        "reference_id": "Coat24",
+        "actual_icorr": 6.59e-05,
+        "predicted_icorr": 6.2375118673451e-05,
+        "actual_log": -4.18111458540599,
+        "predicted_log": -4.204988615089181
+      },
+      {
+        "record_id": "RECORR_000012",
+        "reference_id": "Coat24",
+        "actual_icorr": 7.57e-05,
+        "predicted_icorr": 6.2375118673451e-05,
+        "actual_log": -4.120904120499927,
+        "predicted_log": -4.204988615089181
+      },
+      {
+        "record_id": "RECORR_000013",
+        "reference_id": "Coat24",
+        "actual_icorr": 9.53e-05,
+        "predicted_icorr": 6.2375118673451e-05,
+        "actual_log": -4.020907099361674,
+        "predicted_log": -4.204988615089181
+      },
+      {
+        "record_id": "NEW_Ma19FSS_FSS1",
+        "reference_id": "Ma19FSS",
+        "actual_icorr": 0.000317,
+        "predicted_icorr": 2.483717603337654e-05,
+        "actual_log": -3.4989407377822483,
+        "predicted_log": -4.60489778461628
+      },
+      {
+        "record_id": "NEW_Ma19FSS_FSS2",
+        "reference_id": "Ma19FSS",
+        "actual_icorr": 0.00025,
+        "predicted_icorr": 1.8355227794313133e-05,
+        "actual_log": -3.6020599913279625,
+        "predicted_log": -4.736240221391576
+      },
+      {
+        "record_id": "NEW_Ma19FSS_FSS3",
+        "reference_id": "Ma19FSS",
+        "actual_icorr": 0.000235,
+        "predicted_icorr": 1.8355227794313133e-05,
+        "actual_log": -3.6289321377282637,
+        "predicted_log": -4.736240221391576
+      },
+      {
+        "record_id": "NEW_Ma19FSS_FSS4",
+        "reference_id": "Ma19FSS",
+        "actual_icorr": 0.00017199999999999998,
+        "predicted_icorr": 1.8355227794313133e-05,
+        "actual_log": -3.7644715530924513,
+        "predicted_log": -4.736240221391576
+      },
+      {
+        "record_id": "NEW_Bridge25_1",
+        "reference_id": "Bridge25",
+        "actual_icorr": 0.000477,
+        "predicted_icorr": 3.1829729293056173e-06,
+        "actual_log": -3.321481620959886,
+        "predicted_log": -5.49716705497095
+      },
+      {
+        "record_id": "NEW_Bridge25_2",
+        "reference_id": "Bridge25",
+        "actual_icorr": 0.00033,
+        "predicted_icorr": 3.178963829284799e-06,
+        "actual_log": -3.4814860601221125,
+        "predicted_log": -5.497714413523222
+      },
+      {
+        "record_id": "NEW_Bridge25_3",
+        "reference_id": "Bridge25",
+        "actual_icorr": 0.000319,
+        "predicted_icorr": 3.178963829284799e-06,
+        "actual_log": -3.496209316942819,
+        "predicted_log": -5.497714413523222
+      },
+      {
+        "record_id": "NEW_UCS23_UCS-Q235BRE(C)",
+        "reference_id": "UCS23",
+        "actual_icorr": 0.00202,
+        "predicted_icorr": 2.8110377877614985e-05,
+        "actual_log": -2.694648630553376,
+        "predicted_log": -4.551133316290105
+      },
+      {
+        "record_id": "NEW_UCS23_UCS-Q235BRE(R)",
+        "reference_id": "UCS23",
+        "actual_icorr": 0.00135,
+        "predicted_icorr": 2.8110377877614985e-05,
+        "actual_log": -2.869666231504994,
+        "predicted_log": -4.551133316290105
+      },
+      {
+        "record_id": "NEW_UCS23_UCS-Q235B(R)",
+        "reference_id": "UCS23",
+        "actual_icorr": 0.00384,
+        "predicted_icorr": 3.0105219243214977e-05,
+        "actual_log": -2.415668775632469,
+        "predicted_log": -4.521358205667537
+      },
+      {
+        "record_id": "NEW_UCS23_UCS-SPA-H(R)",
+        "reference_id": "UCS23",
+        "actual_icorr": 0.00441,
+        "predicted_icorr": 3.0098555375932274e-05,
+        "actual_log": -2.3555614105321614,
+        "predicted_log": -4.52145434850307
+      },
+      {
+        "record_id": "GCr23_hot_rolled_0",
+        "reference_id": "GCr23",
+        "actual_icorr": 4.2e-06,
+        "predicted_icorr": 4.207706670080544e-05,
+        "actual_log": -5.376750709602099,
+        "predicted_log": -4.375954543570498
+      },
+      {
+        "record_id": "GCr23_hot_rolled_1",
+        "reference_id": "GCr23",
+        "actual_icorr": 3.1699999999999997e-06,
+        "predicted_icorr": 3.785405261513987e-05,
+        "actual_log": -5.498940737782249,
+        "predicted_log": -4.421887618563492
+      },
+      {
+        "record_id": "GCr23_annealed_0",
+        "reference_id": "GCr23",
+        "actual_icorr": 3.24e-06,
+        "predicted_icorr": 4.207706670080544e-05,
+        "actual_log": -5.489454989793388,
+        "predicted_log": -4.375954543570498
+      },
+      {
+        "record_id": "GCr23_annealed_1",
+        "reference_id": "GCr23",
+        "actual_icorr": 2.08e-06,
+        "predicted_icorr": 3.785405261513987e-05,
+        "actual_log": -5.681936665037238,
+        "predicted_log": -4.421887618563492
+      },
+      {
+        "record_id": "GCr23_quenched_tempered_0",
+        "reference_id": "GCr23",
+        "actual_icorr": 6.82e-06,
+        "predicted_icorr": 4.207706670080544e-05,
+        "actual_log": -5.166215625343521,
+        "predicted_log": -4.375954543570498
+      },
+      {
+        "record_id": "GCr23_quenched_tempered_1",
+        "reference_id": "GCr23",
+        "actual_icorr": 5.35e-06,
+        "predicted_icorr": 3.785405261513987e-05,
+        "actual_log": -5.2716462179787715,
+        "predicted_log": -4.421887618563492
+      },
+      {
+        "record_id": "CC25_verified_1",
+        "reference_id": "CC25",
+        "actual_icorr": 7.253e-06,
+        "predicted_icorr": 4.5983865420337745e-05,
+        "actual_log": -5.139482322538254,
+        "predicted_log": -4.337394524581233
+      },
+      {
+        "record_id": "CC25_verified_2",
+        "reference_id": "CC25",
+        "actual_icorr": 6.592999999999999e-06,
+        "predicted_icorr": 4.082640264831302e-05,
+        "actual_log": -5.180916924256297,
+        "predicted_log": -4.389058885539048
+      },
+      {
+        "record_id": "CC25_verified_3",
+        "reference_id": "CC25",
+        "actual_icorr": 5.439e-06,
+        "predicted_icorr": 4.0305764695911364e-05,
+        "actual_log": -5.264480941184829,
+        "predicted_log": -4.39463283483706
+      },
+      {
+        "record_id": "CC25_verified_4",
+        "reference_id": "CC25",
+        "actual_icorr": 3.4119999999999997e-06,
+        "predicted_icorr": 3.965349237340964e-05,
+        "actual_log": -5.466990977504515,
+        "predicted_log": -4.401718557357521
+      }
+    ]
+  }
+}

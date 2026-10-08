@@ -1,0 +1,31 @@
+﻿category,column,unit,reported_or_derived_rows,panels,description
+조성,RE_wt_pct,wt.%,51,compact|full,최종 target/평가 뒤 측정값 사용 안 함
+조성,C_wt_pct,wt.%,43,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+조성,Cr_wt_pct,wt.%,25,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+조성,Ni_wt_pct,wt.%,15,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+제조 및 공정,final_heat_treatment_temp_C,°C,11,compact|full|transfer,최종 열처리와 재가열/압연 온도를 구분; 미보고=빈칸
+제조 및 공정,final_heat_treatment_time_min,min,8,compact|full|transfer,최종 열처리와 재가열/압연 온도를 구분; 미보고=빈칸
+부식 환경,temperature_C,°C,15,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+부식 환경,NaCl_wt_pct,wt.%,24,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+부식 환경,Cl_mol_L,mol/L,37,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+부식 환경,H2SO4_mol_L,mol/L,51,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+부식 환경,NaHSO3_mol_L,mol/L,17,compact|full|transfer,시험 용액 농도; 사전 노출 용액과 구분
+부식 환경,log_pre_exposure_h,ln(1+사전 노출 h),19,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+조성,RE_element_cat,범주,51,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+제조 및 공정,melting_route_cat,범주,34,compact|full,최종 target/평가 뒤 측정값 사용 안 함
+제조 및 공정,casting_method_cat,범주,25,compact|full,최종 target/평가 뒤 측정값 사용 안 함
+제조 및 공정,cooling_method_cat,범주,16,compact|full,최종 target/평가 뒤 측정값 사용 안 함
+제조 및 공정,processing_state_cat,범주,34,compact|full,최종 target/평가 뒤 측정값 사용 안 함
+제조 및 공정,surface_state_cat,범주,42,compact|full,최종 target/평가 뒤 측정값 사용 안 함
+부식 환경,electrolyte_family,범주,51,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+부식 환경,gas_condition_cat,범주,4,compact|full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+조성,Si_wt_pct,wt.%,43,full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+조성,Mn_wt_pct,wt.%,43,full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+조성,Mo_wt_pct,wt.%,10,full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+조성,Cu_wt_pct,wt.%,15,full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+조성,S_wt_pct,wt.%,37,full|transfer,최종 target/평가 뒤 측정값 사용 안 함
+조성,P_wt_pct,wt.%,37,full,최종 target/평가 뒤 측정값 사용 안 함
+조성,material_class,범주,51,full,최종 target/평가 뒤 측정값 사용 안 함
+조성,RE_log1p_ppm,ln(1+RE wt.% ×10000),51,transfer,최종 target/평가 뒤 측정값 사용 안 함
+제조 및 공정,process_family,범주,34,transfer,최종 target/평가 뒤 측정값 사용 안 함
+제조 및 공정,surface_family,범주,42,transfer,최종 target/평가 뒤 측정값 사용 안 함

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-08 Asia/Seoul",
+  "fresh_actions": [
+    "current CSV preparation and validation",
+    "exact model inputs and targets compared to full nested-validation dataset: identical",
+    "final selected model freshly fitted on all 51 rows",
+    "saved model reloaded and all 51 rows predicted",
+    "reports and held-out error tables generated"
+  ],
+  "model_config": {
+    "id": 5,
+    "panel": "compact",
+    "model": "SVR",
+    "params": {
+      "C": 1,
+      "gamma": 0.01
+    }
+  },
+  "rows": 51,
+  "papers": 11,
+  "validation_results": "full nested leave-one-paper-out results already executed in results/retrained; not recomputed this time because model inputs and targets are unchanged",
+  "median_heldout_error_factor": 16.76029869710657
+}

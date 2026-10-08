@@ -1,0 +1,10 @@
+﻿column,observed_category_values
+RE_element_cat,Ce | La | La+Ce | La_Ce | Pr | none
+casting_method_cat,continuous_casting | ingot_casting | twin_roll_strip
+cooling_method_cat,air_after_tempering | air_cool | controlled_cooling | furnace_to_500_then_air | water_then_coiling_550C
+electrolyte_family,H2SO4_NaCl | NaCl | NaCl_CaCl2_Na2SO4 | NaHSO3
+gas_condition_cat,N2_deaerated | not_reported
+material_class,austenitic stainless steel | bearing_steel | carbon steel | ferritic stainless steel | low alloy steel | low-alloy steel
+melting_route_cat,KR_BOF_LF_RH | VIM | induction_AOD_LF | vacuum_induction
+processing_state_cat,annealed | as_continuously_cast | hot_rolled | quenched_tempered | solution_treated
+surface_state_cat,not_reported | polished | rusted

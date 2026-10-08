@@ -1,0 +1,2 @@
+﻿record_id,prediction_log10_A_cm2,prediction_A_cm2,prediction_uA_cm2,missing_model_inputs,status
+La24Q355_verified_4,-4.731149113171885,1.857166695288922e-05,18.57166695288922,Cr_wt_pct|Ni_wt_pct|final_heat_treatment_temp_C|final_heat_treatment_time_min|temperature_C|NaCl_wt_pct|log_pre_exposure_h,탐색용: 새로운 논문에 대한 예측 성능 미확보

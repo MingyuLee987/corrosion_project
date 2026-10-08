@@ -1,0 +1,12 @@
+﻿doi,decision,reason,source_url
+10.13228/j.boyuan.issn1006-9356.20250594,added_12,New primary paper: Tables1/3 visuallychecked; time series3steels4times; PDP0.1MNaHSO3 vs pre-exposure0.01M;PDPtemperaturemissing,https://doi.org/10.13228/j.boyuan.issn1006-9356.20250594
+10.3390/ma17174467,requalified_5,Replaced estimated values with exactTable2;solutioninhibitor3rows excluded;PDPsurface/exposureambiguitypreserved,https://doi.org/10.3390/ma17174467
+10.3390/ma14123254,supplementary_3,Newpaper Table4 3targets; REadditionnominal notresidual andNaClconcentrationbasisunknown: heldoutsideprimary,https://doi.org/10.3390/ma14123254
+10.1155/2018/4071352,not_merged_5,FluxREE-Si-Feinput differs frombulkRE; Table6 depositedweldcompositionhas noRE; noinventedbulkRE,https://doi.org/10.1155/2018/4071352
+10.1007/s40195-023-01624-6,no_numeric_target,Composition/EIS/cathodicpolarizability tables; absoluteicorrtableunobtained,https://doi.org/10.1007/s40195-023-01624-6
+10.1016/j.isci.2025.113319,no_numeric_target,"icorrfigures but no numeric table;0.12uA/cm2 ispassivationcurrent,noticorr",https://doi.org/10.1016/j.isci.2025.113319
+10.1038/s41598-024-67799-9,unit_value_conflict,MaintextC2icorr3.35 vs conclusion6.350mA/cm2; unresolvednotmerged,https://doi.org/10.1038/s41598-024-67799-9
+NETL_2024_draft,unit_conflict,Table3A/m2 inconsistentwithcorrosionrate/draftnotices;no guessedx10000,https://netl.doe.gov/projects/VueConnection/download.aspx?filename=EffectofMinorCeAdditionsonCorrosionBehaviorofExperimentalPipelineSteel_030324.pdf&id=ccdc6afc-4fb1-49ae-9c7c-737d0869e7c5
+10.1016/j.corsci.2026.114142,separate_scope,PureFeCenotsteel;2abstracttargetsnotmerged,https://doi.org/10.1016/j.corsci.2026.114142
+10.1016/j.ijoes.2023.100242,pending_fulltext,Q420CeLa newcandidate; noexacticorrtableobtained,https://doi.org/10.1016/j.ijoes.2023.100242
+10.1016/j.jmst.2025.07.015,pending_numeric_target,Q345Lamultipleexposuretimes; primaryfulltextnotobtained; donotextractnumbersfromsecondarysearch,https://doi.org/10.1016/j.jmst.2025.07.015

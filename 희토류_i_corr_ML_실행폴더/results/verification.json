@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "primary_rows": 51,
+  "primary_papers": 11,
+  "main_validation": "nested leave-one-paper-out; 18 candidates; fold training IDs exclude held paper",
+  "launcher_environment_install_and_check": "PASS",
+  "full_launcher_training": "PASS",
+  "csv_training_preparation": "PASS",
+  "saved_model_example_prediction": "PASS; existing specimen, not external validation",
+  "recomputed_metrics_match": "all 3 experiments within 1e-8",
+  "new51_metrics": {
+    "log_R2": -1.174659057822939,
+    "raw_R2": -0.15773998996421978,
+    "log_MAE": 1.2586218962300055
+  },
+  "archive_excludes": "local venv and generated Python caches; first run creates own environment"
+}
