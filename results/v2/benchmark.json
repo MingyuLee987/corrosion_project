@@ -1,0 +1,175 @@
+{
+  "scope": "Measured matched control is required for every new prediction",
+  "validation": "Nested leave-one-paper-out; model choice uses only training papers; fixed feature schema",
+  "rows": 33,
+  "papers": 11,
+  "absolute_log_R2": 0.6528697977058235,
+  "absolute_log_MAE": 0.2771134786246133,
+  "delta_R2": -0.23304929546099085,
+  "delta_MAE": 0.2771134786246133,
+  "control_only_log_R2": 0.5210405587939052,
+  "fixed_SVR_diagnostic": {
+    "absolute_log_R2": 0.6824659511188782,
+    "absolute_log_MAE": 0.2657791816452346,
+    "note": "Fixed SVR was informed by prior analysis on these same papers; nested result is the primary model-selection estimate"
+  },
+  "observed_error_p90_log10": 1.0384199206645128,
+  "error_interval_note": "Descriptive held-out error quantile, not a validated prediction interval",
+  "folds": [
+    {
+      "held_out_paper": "Al10_26",
+      "selected_model": "svr",
+      "inner_paper_MAE": {
+        "control_only": 0.3382346296307254,
+        "median_delta": 0.24911239783789677,
+        "ridge": 0.5864593320004154,
+        "svr": 0.243263879092578
+      },
+      "outer_rows": 8,
+      "outer_delta_MAE": 0.15774930890850486
+    },
+    {
+      "held_out_paper": "Bridge25",
+      "selected_model": "svr",
+      "inner_paper_MAE": {
+        "control_only": 0.3459403446241279,
+        "median_delta": 0.25419892859334486,
+        "ridge": 0.6245963690828398,
+        "svr": 0.24906984857503697
+      },
+      "outer_rows": 2,
+      "outer_delta_MAE": 0.034008524210180455
+    },
+    {
+      "held_out_paper": "CC25",
+      "selected_model": "svr",
+      "inner_paper_MAE": {
+        "control_only": 0.3462122222036899,
+        "median_delta": 0.25128019376350247,
+        "ridge": 0.6153384869209326,
+        "svr": 0.244683697405296
+      },
+      "outer_rows": 3,
+      "outer_delta_MAE": 0.15024151878675032
+    },
+    {
+      "held_out_paper": "Coat24",
+      "selected_model": "median_delta",
+      "inner_paper_MAE": {
+        "control_only": 0.3259056190739587,
+        "median_delta": 0.22215562208585998,
+        "ridge": 0.631570254496123,
+        "svr": 0.23537245754308705
+      },
+      "outer_rows": 3,
+      "outer_delta_MAE": 0.19706902325053152
+    },
+    {
+      "held_out_paper": "GCr23",
+      "selected_model": "svr",
+      "inner_paper_MAE": {
+        "control_only": 0.3486735415127442,
+        "median_delta": 0.2494812318706357,
+        "ridge": 0.5334584284862439,
+        "svr": 0.24298364127928038
+      },
+      "outer_rows": 3,
+      "outer_delta_MAE": 0.13143047793274212
+    },
+    {
+      "held_out_paper": "La24Q355",
+      "selected_model": "median_delta",
+      "inner_paper_MAE": {
+        "control_only": 0.21618764971247506,
+        "median_delta": 0.11099007802340063,
+        "ridge": 0.22139632999932163,
+        "svr": 0.12136114924258586
+      },
+      "outer_rows": 4,
+      "outer_delta_MAE": 1.2983321130245602
+    },
+    {
+      "held_out_paper": "MDPI26LaCe",
+      "selected_model": "median_delta",
+      "inner_paper_MAE": {
+        "control_only": 0.35360206077378953,
+        "median_delta": 0.24531219359592554,
+        "ridge": 0.8240127660508803,
+        "svr": 0.24589882289127113
+      },
+      "outer_rows": 2,
+      "outer_delta_MAE": 0.16339335900906876
+    },
+    {
+      "held_out_paper": "Ma19FSS",
+      "selected_model": "svr",
+      "inner_paper_MAE": {
+        "control_only": 0.34605556908797974,
+        "median_delta": 0.25556870285626637,
+        "ridge": 0.6784465427904479,
+        "svr": 0.24896035240317302
+      },
+      "outer_rows": 3,
+      "outer_delta_MAE": 0.09710801652417234
+    },
+    {
+      "held_out_paper": "Tang2019",
+      "selected_model": "svr",
+      "inner_paper_MAE": {
+        "control_only": 0.3466487718750232,
+        "median_delta": 0.2547277987696691,
+        "ridge": 0.6309964808414282,
+        "svr": 0.24691866343069932
+      },
+      "outer_rows": 2,
+      "outer_delta_MAE": 0.11692965872925082
+    },
+    {
+      "held_out_paper": "UCS23",
+      "selected_model": "svr",
+      "inner_paper_MAE": {
+        "control_only": 0.3172772057941334,
+        "median_delta": 0.22942835566106895,
+        "ridge": 0.5390574050336017,
+        "svr": 0.22113351894674196
+      },
+      "outer_rows": 1,
+      "outer_delta_MAE": 0.2378281848197855
+    },
+    {
+      "held_out_paper": "Zhang2025",
+      "selected_model": "svr",
+      "inner_paper_MAE": {
+        "control_only": 0.3420318995252118,
+        "median_delta": 0.2609104481157058,
+        "ridge": 0.46572342807014977,
+        "svr": 0.250638390859314
+      },
+      "outer_rows": 2,
+      "outer_delta_MAE": 0.04769174652329193
+    }
+  ],
+  "final_model": {
+    "selected_model": "svr",
+    "all_paper_LOPO_delta_MAE": {
+      "control_only": 0.3297063194376235,
+      "median_delta": 0.24014283055171595,
+      "ridge": 0.5736763510849734,
+      "svr": 0.23001712331300975
+    }
+  },
+  "method_paper_Q1_AI": {
+    "title": "Integration of hybrid machine learning model with differential evolution algorithm for underground Pipeline corrosion prediction",
+    "journal": "Engineering Applications of Artificial Intelligence",
+    "year": 2025,
+    "doi": "10.1016/j.engappai.2025.111511",
+    "used": "SVR as a regression candidate; no claim of reproducing the paper's dataset or optimization"
+  },
+  "evaluation_paper_Q1_AI": {
+    "title": "A framework to evaluate machine learning crystal stability predictions",
+    "journal": "Nature Machine Intelligence",
+    "year": 2025,
+    "doi": "10.1038/s42256-025-01055-1",
+    "used": "task-aligned, paper-held-out evaluation"
+  }
+}

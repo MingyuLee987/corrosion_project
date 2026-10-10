@@ -1,0 +1,83 @@
+{
+  "protocol": "Nested leave-one-paper-out, 18 prior candidates plus 2 TabPFN-2 feature panels; log target",
+  "model_paper": "Hollmann et al., Nature (2025), doi:10.1038/s41586-024-08328-6",
+  "evaluation_paper_Q1_AI_journal": "Riebesell et al., Nature Machine Intelligence (2025), doi:10.1038/s42256-025-01055-1",
+  "baseline_metrics": {
+    "log_R2": -1.174659057822939,
+    "raw_R2": -0.15773998996421978,
+    "log_MAE": 1.2586218962300055
+  },
+  "extended_metrics": {
+    "log_R2": -1.2971149710168866,
+    "raw_R2": -0.15807973933081731,
+    "log_MAE": 1.2936991771557074
+  },
+  "folds": [
+    {
+      "held_out_paper": "Al10_26",
+      "selected": "baseline_18",
+      "tabpfn_best_inner_log_R2": -0.2871207293839937,
+      "baseline_best_inner_log_R2": 0.07374903189963122
+    },
+    {
+      "held_out_paper": "Bridge25",
+      "selected": "baseline_18",
+      "tabpfn_best_inner_log_R2": -0.1677037198130893,
+      "baseline_best_inner_log_R2": 0.12048415758394748
+    },
+    {
+      "held_out_paper": "CC25",
+      "selected": "baseline_18",
+      "tabpfn_best_inner_log_R2": -0.2945899100685314,
+      "baseline_best_inner_log_R2": -0.0023874145399676028
+    },
+    {
+      "held_out_paper": "Coat24",
+      "selected": "baseline_18",
+      "tabpfn_best_inner_log_R2": -0.3377195484284492,
+      "baseline_best_inner_log_R2": -0.1256586558647408
+    },
+    {
+      "held_out_paper": "GCr23",
+      "selected": "baseline_18",
+      "tabpfn_best_inner_log_R2": -0.035600960060835574,
+      "baseline_best_inner_log_R2": 0.3219713451615851
+    },
+    {
+      "held_out_paper": "La24Q355",
+      "selected": "baseline_18",
+      "tabpfn_best_inner_log_R2": -0.4888335432112181,
+      "baseline_best_inner_log_R2": 0.31030718099337073
+    },
+    {
+      "held_out_paper": "MDPI26LaCe",
+      "selected": "baseline_18",
+      "tabpfn_best_inner_log_R2": -0.4893180576166809,
+      "baseline_best_inner_log_R2": -0.20973661821060507
+    },
+    {
+      "held_out_paper": "Ma19FSS",
+      "selected": "TabPFN-2_transfer",
+      "tabpfn_best_inner_log_R2": 0.23918099307749197,
+      "baseline_best_inner_log_R2": 0.08638795314971548
+    },
+    {
+      "held_out_paper": "Tang2019",
+      "selected": "baseline_18",
+      "tabpfn_best_inner_log_R2": -0.35812954731917035,
+      "baseline_best_inner_log_R2": -0.0313055702059537
+    },
+    {
+      "held_out_paper": "UCS23",
+      "selected": "baseline_18",
+      "tabpfn_best_inner_log_R2": -0.6354307589333041,
+      "baseline_best_inner_log_R2": -0.03993437372393149
+    },
+    {
+      "held_out_paper": "Zhang2025",
+      "selected": "baseline_18",
+      "tabpfn_best_inner_log_R2": -0.14112587073816463,
+      "baseline_best_inner_log_R2": -0.09754074693827874
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+﻿record_id,control_icorr_A_cm2,RE_wt_pct,C_wt_pct,Cr_wt_pct,Ni_wt_pct,temperature_C,NaCl_wt_pct,Cl_mol_L,H2SO4_mol_L,NaHSO3_mol_L,pre_exposure_h,steel_family,RE_element_cat,electrolyte_family,processing_state_cat,surface_state_cat,control_log10,predicted_delta_log10,predicted_icorr_A_cm2,applicability_warnings
+Al10_26_1_pre72h,0.000274,0.0017,0.12,,,,,0.0,0,0.1,72.0,carbon,La_Ce,NaHSO3,hot_rolled,rusted,-3.562249437179612,-0.26074758430193434,0.00015031522751121805,

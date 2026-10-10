@@ -1,0 +1,91 @@
+{
+  "scope": "Nested leave-one-paper-out; 18 prior candidates plus 3 CatBoost candidates",
+  "catboost_params": {
+    "iterations": 250,
+    "depth": 2,
+    "learning_rate": 0.04,
+    "l2_leaf_reg": 8,
+    "loss_function": "RMSE",
+    "verbose": false,
+    "thread_count": 1,
+    "random_seed": 42
+  },
+  "baseline_metrics": {
+    "log_R2": -1.174659057822939,
+    "raw_R2": -0.15773998996421978,
+    "log_MAE": 1.2586218962300055
+  },
+  "extended_metrics": {
+    "log_R2": -1.3081421747060764,
+    "raw_R2": -0.15823406663273354,
+    "log_MAE": 1.2969413092377486
+  },
+  "folds": [
+    {
+      "held_out_paper": "Al10_26",
+      "selected": "baseline_18",
+      "best_catboost_inner_log_R2": -0.3430960641558676,
+      "baseline_best_inner_log_R2": 0.07374903189963122
+    },
+    {
+      "held_out_paper": "Bridge25",
+      "selected": "CatBoost_full",
+      "best_catboost_inner_log_R2": 0.3774009493211382,
+      "baseline_best_inner_log_R2": 0.12048415758394748
+    },
+    {
+      "held_out_paper": "CC25",
+      "selected": "baseline_18",
+      "best_catboost_inner_log_R2": -0.3773271227545776,
+      "baseline_best_inner_log_R2": -0.0023874145399676028
+    },
+    {
+      "held_out_paper": "Coat24",
+      "selected": "baseline_18",
+      "best_catboost_inner_log_R2": -0.2445100349949052,
+      "baseline_best_inner_log_R2": -0.1256586558647408
+    },
+    {
+      "held_out_paper": "GCr23",
+      "selected": "baseline_18",
+      "best_catboost_inner_log_R2": 0.06581277400576047,
+      "baseline_best_inner_log_R2": 0.3219713451615851
+    },
+    {
+      "held_out_paper": "La24Q355",
+      "selected": "baseline_18",
+      "best_catboost_inner_log_R2": -0.31194486552699385,
+      "baseline_best_inner_log_R2": 0.31030718099337073
+    },
+    {
+      "held_out_paper": "MDPI26LaCe",
+      "selected": "baseline_18",
+      "best_catboost_inner_log_R2": -0.5239860296785146,
+      "baseline_best_inner_log_R2": -0.20973661821060507
+    },
+    {
+      "held_out_paper": "Ma19FSS",
+      "selected": "CatBoost_transfer",
+      "best_catboost_inner_log_R2": 0.08903658221512412,
+      "baseline_best_inner_log_R2": 0.08638795314971548
+    },
+    {
+      "held_out_paper": "Tang2019",
+      "selected": "baseline_18",
+      "best_catboost_inner_log_R2": -0.27414132997061014,
+      "baseline_best_inner_log_R2": -0.0313055702059537
+    },
+    {
+      "held_out_paper": "UCS23",
+      "selected": "baseline_18",
+      "best_catboost_inner_log_R2": -0.23440662495012776,
+      "baseline_best_inner_log_R2": -0.03993437372393149
+    },
+    {
+      "held_out_paper": "Zhang2025",
+      "selected": "baseline_18",
+      "best_catboost_inner_log_R2": -0.4172018423381898,
+      "baseline_best_inner_log_R2": -0.09754074693827874
+    }
+  ]
+}

@@ -51,3 +51,9 @@ model_comparison.csv의 점수는 동일 검증 결과로 후보를 비교한 �
 예측: python predict.py --input prediction_input.csv --out results/new_predictions.csv
 주의: 직접 학습 명령은 JSON 기준입니다. CSV 수정 후에는 실행.bat을 사용하세요.
 
+2026-10-09 추가: 대조군 기반 예측
+- 같은 시험 조건의 무첨가 대조군 i_corr를 실측한 경우, paired_prediction_input.csv를 채우고 대조군_새조건예측.bat을 실행하세요.
+- 대조군 모델의 논문 단위 검증과 재학습은 대조군_모델검증.bat으로 실행합니다.
+- 이 방법은 대조군 측정값이 필요한 별도 예측 문제입니다. 33짝/11논문 검증 log R²는 0.683이며, 변화량 자체의 R²는 -0.126입니다.
+- 완전 신규 논문 예측의 R²는 여전히 음수입니다. 두 결과와 사용 조건은 MODEL_IMPROVEMENT.md에 정리했습니다.
+

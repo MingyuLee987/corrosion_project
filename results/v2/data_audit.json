@@ -1,0 +1,98 @@
+{
+  "rows": 51,
+  "papers": 11,
+  "target_unit": "A/cm2",
+  "coverage": {
+    "RE_wt_pct": {
+      "reported": 51,
+      "missing": 0
+    },
+    "C_wt_pct": {
+      "reported": 43,
+      "missing": 8
+    },
+    "Cr_wt_pct": {
+      "reported": 25,
+      "missing": 26
+    },
+    "Ni_wt_pct": {
+      "reported": 15,
+      "missing": 36
+    },
+    "temperature_C": {
+      "reported": 15,
+      "missing": 36
+    },
+    "NaCl_wt_pct": {
+      "reported": 24,
+      "missing": 27
+    },
+    "Cl_mol_L": {
+      "reported": 37,
+      "missing": 14
+    },
+    "H2SO4_mol_L": {
+      "reported": 51,
+      "missing": 0
+    },
+    "NaHSO3_mol_L": {
+      "reported": 17,
+      "missing": 34
+    },
+    "pre_exposure_h": {
+      "reported": 12,
+      "missing": 39
+    },
+    "steel_family": {
+      "reported": 51,
+      "missing": 0
+    },
+    "RE_element_cat": {
+      "reported": 51,
+      "missing": 0
+    },
+    "electrolyte_family": {
+      "reported": 51,
+      "missing": 0
+    },
+    "processing_state_cat": {
+      "reported": 34,
+      "missing": 17
+    },
+    "surface_state_cat": {
+      "reported": 51,
+      "missing": 0
+    }
+  },
+  "input_features": [
+    "RE_wt_pct",
+    "C_wt_pct",
+    "Cr_wt_pct",
+    "Ni_wt_pct",
+    "temperature_C",
+    "NaCl_wt_pct",
+    "Cl_mol_L",
+    "H2SO4_mol_L",
+    "NaHSO3_mol_L",
+    "pre_exposure_h",
+    "steel_family",
+    "RE_element_cat",
+    "electrolyte_family",
+    "processing_state_cat",
+    "surface_state_cat"
+  ],
+  "excluded_examples": [
+    "record_id",
+    "sample_id",
+    "doi",
+    "paper_title",
+    "journal",
+    "source_url",
+    "target_locator",
+    "Ecorr_V",
+    "log_icorr",
+    "inclusion_number_density_mm2",
+    "inclusion_mean_area_um2"
+  ],
+  "warning": "Missing is kept missing; no source value is silently replaced by a physical zero"
+}

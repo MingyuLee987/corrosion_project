@@ -1,4 +1,4 @@
-﻿param([ValidateSet('Train','Predict','Check')][string]$Mode='Train')
+﻿param([ValidateSet('Train','Predict','Check','PairTrain','PairPredict','V2Audit','V2Train','V2Predict')][string]$Mode='Train')
 $ErrorActionPreference='Stop'
 Set-Location -LiteralPath $PSScriptRoot
 try {
@@ -38,6 +38,19 @@ try {
   & $taskPython train.py --data results/current_input.json --out results/retrained
   if ($LASTEXITCODE -eq 0) {Copy-Item -LiteralPath 'results/retrained/exploratory_model.joblib' -Destination 'models/exploratory_model.joblib' -Force}
  } elseif ($Mode -eq 'Predict') {& $taskPython predict.py}
+ elseif ($Mode -eq 'PairTrain') {& $taskPython paired_benchmark.py}
+ elseif ($Mode -eq 'PairPredict') {& $taskPython predict_paired.py}
+ elseif ($Mode -eq 'V2Audit') {
+  & $taskPython build_v2_31.py
+  if ($LASTEXITCODE -ne 0) {throw '31컬럼 데이터 구성 실패'}
+  & $taskPython corrosion_v2.py audit
+ }
+ elseif ($Mode -eq 'V2Train') {
+  & $taskPython build_v2_31.py
+  if ($LASTEXITCODE -ne 0) {throw '31컬럼 데이터 구성 실패'}
+  & $taskPython corrosion_v2.py benchmark
+ }
+ elseif ($Mode -eq 'V2Predict') {& $taskPython corrosion_v2.py predict}
  else {& $taskPython check.py}
  if ($LASTEXITCODE -ne 0) {throw '실행 실패. 위 오류 메시지를 확인하세요.'}
  Write-Host '완료. results 폴더에서 결과를 확인하세요.'

@@ -1,0 +1,144 @@
+{
+  "scope": "Matched-control prediction; one held-out-paper control measurement is provided",
+  "method_reference": {
+    "paper": "Al-Nouti and Yaseen (2025), Integration of hybrid machine learning model with differential evolution algorithm for underground Pipeline corrosion prediction",
+    "journal": "Engineering Applications of Artificial Intelligence, 158, 111511",
+    "doi": "10.1016/j.engappai.2025.111511",
+    "journal_rank": "2025 SJR Artificial Intelligence Q1",
+    "adopted_part": "SVR as a corrosion regression candidate; this project independently uses a matched-control log ratio, its own feature set, and paper-held-out validation",
+    "not_reproduced": "The paper's underground-pipeline dataset, differential-evolution optimization, and reported R2 are not used here"
+  },
+  "paired_rows": 33,
+  "papers": 11,
+  "excluded": "UCS23 cast RE row lacks a matching cast control",
+  "baseline_control_unchanged": {
+    "delta": {
+      "R2": -0.7013230126056966,
+      "MAE": 0.36468107414074225
+    },
+    "absolute_log": {
+      "R2": 0.5210405587939191,
+      "MAE": 0.3646810741407423
+    }
+  },
+  "models_exploratory": {
+    "ridge": {
+      "delta": {
+        "R2": -2.4118351064027306,
+        "MAE": 0.620349252096571
+      },
+      "absolute_log": {
+        "R2": 0.039494191319286664,
+        "MAE": 0.620349252096571
+      }
+    },
+    "svr": {
+      "delta": {
+        "R2": -0.1256905265552648,
+        "MAE": 0.26565713786402195
+      },
+      "absolute_log": {
+        "R2": 0.683093626798049,
+        "MAE": 0.26565713786402195
+      }
+    },
+    "rf": {
+      "delta": {
+        "R2": -1.2152279761221938,
+        "MAE": 0.5031178235458335
+      },
+      "absolute_log": {
+        "R2": 0.376365131297107,
+        "MAE": 0.5031178235458335
+      }
+    },
+    "extra": {
+      "delta": {
+        "R2": -2.6168649812121263,
+        "MAE": 0.649047593798383
+      },
+      "absolute_log": {
+        "R2": -0.018226178969985574,
+        "MAE": 0.649047593798383
+      }
+    },
+    "gb": {
+      "delta": {
+        "R2": -1.0265024160470908,
+        "MAE": 0.4686011730227038
+      },
+      "absolute_log": {
+        "R2": 0.4294954822799193,
+        "MAE": 0.4686011730227038
+      }
+    }
+  },
+  "nested_selected": {
+    "selection_metric": "mean paper-level delta MAE",
+    "delta": {
+      "R2": -0.1256905265552648,
+      "MAE": 0.26565713786402195
+    },
+    "absolute_log": {
+      "R2": 0.683093626798049,
+      "MAE": 0.26565713786402195
+    },
+    "folds": [
+      {
+        "held_out_paper": "Al10_26",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.24302269810163243
+      },
+      {
+        "held_out_paper": "Bridge25",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.2485402683829784
+      },
+      {
+        "held_out_paper": "CC25",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.2444689895722311
+      },
+      {
+        "held_out_paper": "Coat24",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.2355196525114945
+      },
+      {
+        "held_out_paper": "GCr23",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.24264515462893566
+      },
+      {
+        "held_out_paper": "La24Q355",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.12156384746889637
+      },
+      {
+        "held_out_paper": "MDPI26LaCe",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.24562037014626376
+      },
+      {
+        "held_out_paper": "Ma19FSS",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.24871299114831014
+      },
+      {
+        "held_out_paper": "Tang2019",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.246739541503557
+      },
+      {
+        "held_out_paper": "UCS23",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.22137852000254413
+      },
+      {
+        "held_out_paper": "Zhang2025",
+        "selected_model": "svr",
+        "inner_delta_MAE": 0.25056105773484283
+      }
+    ]
+  }
+}
