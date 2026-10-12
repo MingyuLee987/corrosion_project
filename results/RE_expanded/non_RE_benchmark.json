@@ -1,0 +1,1659 @@
+{
+  "auxiliary_rows": 264,
+  "auxiliary_papers": 8,
+  "combined_rows": 314,
+  "target_RE_positive_rows": 33,
+  "new_public_dataset": {
+    "rows": 216,
+    "independent_conditions": 72,
+    "experimental_replicates_per_condition": 3,
+    "source_papers": 1,
+    "composition_status": "Exact steel chemistry not verified in public appendix; numeric chemistry left missing and imputed within training folds only.",
+    "environment_status": "144 mortar-embedded measurements and 72 simulated pore-solution measurements; distinct electrolyte families, not plain NaCl.",
+    "dataset_doi": "10.5281/zenodo.10150202",
+    "source_paper_doi": "10.1016/j.conbuildmat.2023.134160",
+    "source_sha256": "89cf4197b925b61e8bb5072e93ee1c94b0a527f3eb723829a8eb8685ab586fd6",
+    "weighting": "All 216 records are ONE paper; inverse-paper-size weights prevent count from giving 216 independent-paper equivalents."
+  },
+  "comparison": [
+    {
+      "scenario": "target_only_fixed_core",
+      "scope": "all_RE_study_rows",
+      "rows": 50,
+      "papers": 11,
+      "log10_R2": -0.6598171277302585,
+      "log10_MAE": 0.9563382585481881,
+      "paper_balanced_log10_MAE": 1.031082239125203
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "scope": "RE_positive_only",
+      "rows": 33,
+      "papers": 11,
+      "log10_R2": -0.3902707718272693,
+      "log10_MAE": 0.8459209888639156,
+      "paper_balanced_log10_MAE": 0.918483828621514
+    },
+    {
+      "scenario": "target_only_nested",
+      "scope": "all_RE_study_rows",
+      "rows": 50,
+      "papers": 11,
+      "log10_R2": -0.7362237972620258,
+      "log10_MAE": 0.9893325055784449,
+      "paper_balanced_log10_MAE": 1.0810735225043802
+    },
+    {
+      "scenario": "target_only_nested",
+      "scope": "RE_positive_only",
+      "rows": 33,
+      "papers": 11,
+      "log10_R2": -0.4820731423424405,
+      "log10_MAE": 0.880636282915705,
+      "paper_balanced_log10_MAE": 0.970556769699198
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "scope": "all_RE_study_rows",
+      "rows": 50,
+      "papers": 11,
+      "log10_R2": -0.6423986307089782,
+      "log10_MAE": 1.0217968470882548,
+      "paper_balanced_log10_MAE": 1.1129528337939605
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "scope": "RE_positive_only",
+      "rows": 33,
+      "papers": 11,
+      "log10_R2": -0.7664126056688305,
+      "log10_MAE": 0.9697550046466342,
+      "paper_balanced_log10_MAE": 1.096616698844404
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "scope": "all_RE_study_rows",
+      "rows": 50,
+      "papers": 11,
+      "log10_R2": -0.31583473486792335,
+      "log10_MAE": 0.8831853798130908,
+      "paper_balanced_log10_MAE": 0.9541689566190954
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "scope": "RE_positive_only",
+      "rows": 33,
+      "papers": 11,
+      "log10_R2": -0.3697060356444275,
+      "log10_MAE": 0.8181269721349067,
+      "paper_balanced_log10_MAE": 0.9391837159020118
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "scope": "all_RE_study_rows",
+      "rows": 50,
+      "papers": 11,
+      "log10_R2": -0.5595239231925231,
+      "log10_MAE": 0.9792983993345369,
+      "paper_balanced_log10_MAE": 1.0763462746997146
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "scope": "RE_positive_only",
+      "rows": 33,
+      "papers": 11,
+      "log10_R2": -0.7828292067150084,
+      "log10_MAE": 0.9547039325457315,
+      "paper_balanced_log10_MAE": 1.110158328289654
+    },
+    {
+      "scenario": "historical_fixed8",
+      "scope": "all_RE_study_rows",
+      "rows": 50,
+      "papers": 11,
+      "log10_R2": -0.6462467470315494,
+      "log10_MAE": 0.9526135957189859,
+      "paper_balanced_log10_MAE": 1.028260524860656
+    },
+    {
+      "scenario": "historical_fixed8",
+      "scope": "RE_positive_only",
+      "rows": 33,
+      "papers": 11,
+      "log10_R2": -0.4380429658456899,
+      "log10_MAE": 0.8572785396912634,
+      "paper_balanced_log10_MAE": 0.9298413794488618
+    }
+  ],
+  "folds": [
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "Al10_26",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7508506055916854,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.23684210526315788,
+        "S_wt_pct": 0.23684210526315788,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8832433173866349,
+        "('core', 'ridge10', 0.0)": 0.7508506055916854,
+        "('core', 'svr03', 0.0)": 0.9575955739692292
+      }
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "Bridge25",
+      "feature_set": "core",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.9153118412265824,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1276595744680851,
+        "S_wt_pct": 0.1276595744680851,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9153118412265824,
+        "('core', 'ridge10', 0.0)": 0.9392048900601594,
+        "('core', 'svr03', 0.0)": 0.9273328663028009
+      }
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "Ce75Cr1_24",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7339936013606134,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1276595744680851,
+        "S_wt_pct": 0.1276595744680851,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9465651373084618,
+        "('core', 'ridge10', 0.0)": 0.7339936013606134,
+        "('core', 'svr03', 0.0)": 1.0933416448617441
+      }
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "Coat24",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.8005739998971588,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1956521739130435,
+        "S_wt_pct": 0.1956521739130435,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 1.0310209649622422,
+        "('core', 'ridge10', 0.0)": 0.8005739998971588,
+        "('core', 'svr03', 0.0)": 1.0209513878822296
+      }
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "GCr23",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7730924270630123,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.20454545454545456,
+        "S_wt_pct": 0.20454545454545456,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8007777003243358,
+        "('core', 'ridge10', 0.0)": 0.7730924270630123,
+        "('core', 'svr03', 0.0)": 0.9345838607192389
+      }
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "La24Q355",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7717046975021506,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.2,
+        "S_wt_pct": 0.2,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8775597822550345,
+        "('core', 'ridge10', 0.0)": 0.7717046975021506,
+        "('core', 'svr03', 0.0)": 0.9287008109070796
+      }
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "MDPI26LaCe",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.6233317750427197,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1276595744680851,
+        "S_wt_pct": 0.1276595744680851,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.782062987414369,
+        "('core', 'ridge10', 0.0)": 0.6233317750427197,
+        "('core', 'svr03', 0.0)": 0.8403284434918339
+      }
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "Ma19FSS",
+      "feature_set": "core",
+      "model": "svr03",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.8635467989305805,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1956521739130435,
+        "S_wt_pct": 0.1956521739130435,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.924729887105704,
+        "('core', 'ridge10', 0.0)": 0.9750481991992974,
+        "('core', 'svr03', 0.0)": 0.8635467989305805
+      }
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "Tang2019",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7091957187661146,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.19148936170212766,
+        "S_wt_pct": 0.19148936170212766,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9213987121457791,
+        "('core', 'ridge10', 0.0)": 0.7091957187661146,
+        "('core', 'svr03', 0.0)": 0.9557266345715373
+      }
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "UCS23",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7598911258390986,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1956521739130435,
+        "S_wt_pct": 0.1956521739130435,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8364301741369999,
+        "('core', 'ridge10', 0.0)": 0.7598911258390986,
+        "('core', 'svr03', 0.0)": 0.8133491991910281
+      }
+    },
+    {
+      "scenario": "target_only_fixed_core",
+      "held_out_paper": "Zhang2025",
+      "feature_set": "core",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7914797331044297,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.19148936170212766,
+        "S_wt_pct": 0.19148936170212766,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.7914797331044297,
+        "('core', 'ridge10', 0.0)": 0.92122158722425,
+        "('core', 'svr03', 0.0)": 0.8324951398330379
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "Al10_26",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7508506055916854,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.23684210526315788,
+        "S_wt_pct": 0.23684210526315788,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8832433173866349,
+        "('core', 'ridge10', 0.0)": 0.7508506055916854,
+        "('core', 'svr03', 0.0)": 0.9575955739692292,
+        "('context', 'ridge10', 0.0)": 1.9789400046329888,
+        "('context', 'svr03', 0.0)": 0.9905808927716014
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "Bridge25",
+      "feature_set": "context",
+      "model": "svr03",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.9106642030052823,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1276595744680851,
+        "S_wt_pct": 0.1276595744680851,
+        "RE_log1p_ppm": 0.0,
+        "Cr_wt_pct": 0.44680851063829785,
+        "Ni_wt_pct": 0.723404255319149,
+        "Mo_wt_pct": 0.7872340425531915,
+        "Cu_wt_pct": 0.723404255319149,
+        "Al_wt_pct": 0.6808510638297872,
+        "NaCl_wt_pct": 0.574468085106383,
+        "H2SO4_mol_L": 0.06382978723404255,
+        "pH": 1.0,
+        "temperature_C": 0.6808510638297872,
+        "TP_scan_rate_mV_s": 0.19148936170212766,
+        "flow_velocity_m_s": 1.0,
+        "water_cement_ratio": 1.0,
+        "relative_humidity_pct": 1.0,
+        "chloride_by_cement_wt_pct": 1.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0,
+        "material_class": 0.0,
+        "processing_state_cat": 0.2978723404255319,
+        "gas_condition_cat": 0.9148936170212766,
+        "hydrodynamic_condition_cat": 1.0,
+        "surface_state_cat": 0.10638297872340426,
+        "test_specimen_type": 0.0,
+        "carbonation_state": 0.0,
+        "moisture_condition": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9153118412265824,
+        "('core', 'ridge10', 0.0)": 0.9392048900601594,
+        "('core', 'svr03', 0.0)": 0.9273328663028009,
+        "('context', 'ridge10', 0.0)": 1.6112339430868303,
+        "('context', 'svr03', 0.0)": 0.9106642030052823
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "Ce75Cr1_24",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7339936013606134,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1276595744680851,
+        "S_wt_pct": 0.1276595744680851,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9465651373084618,
+        "('core', 'ridge10', 0.0)": 0.7339936013606134,
+        "('core', 'svr03', 0.0)": 1.0933416448617441,
+        "('context', 'ridge10', 0.0)": 2.1537543056140165,
+        "('context', 'svr03', 0.0)": 1.072099809374727
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "Coat24",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.8005739998971588,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1956521739130435,
+        "S_wt_pct": 0.1956521739130435,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 1.0310209649622422,
+        "('core', 'ridge10', 0.0)": 0.8005739998971588,
+        "('core', 'svr03', 0.0)": 1.0209513878822296,
+        "('context', 'ridge10', 0.0)": 1.8866809003593712,
+        "('context', 'svr03', 0.0)": 1.0349954766971063
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "GCr23",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7730924270630123,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.20454545454545456,
+        "S_wt_pct": 0.20454545454545456,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8007777003243358,
+        "('core', 'ridge10', 0.0)": 0.7730924270630123,
+        "('core', 'svr03', 0.0)": 0.9345838607192389,
+        "('context', 'ridge10', 0.0)": 1.7972834763820162,
+        "('context', 'svr03', 0.0)": 0.9266452212930544
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "La24Q355",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7717046975021506,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.2,
+        "S_wt_pct": 0.2,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8775597822550345,
+        "('core', 'ridge10', 0.0)": 0.7717046975021506,
+        "('core', 'svr03', 0.0)": 0.9287008109070796,
+        "('context', 'ridge10', 0.0)": 2.2264848872612637,
+        "('context', 'svr03', 0.0)": 0.994041560842984
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "MDPI26LaCe",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.6233317750427197,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1276595744680851,
+        "S_wt_pct": 0.1276595744680851,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.782062987414369,
+        "('core', 'ridge10', 0.0)": 0.6233317750427197,
+        "('core', 'svr03', 0.0)": 0.8403284434918339,
+        "('context', 'ridge10', 0.0)": 2.418492685694356,
+        "('context', 'svr03', 0.0)": 0.8613623547127245
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "Ma19FSS",
+      "feature_set": "core",
+      "model": "svr03",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.8635467989305805,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1956521739130435,
+        "S_wt_pct": 0.1956521739130435,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.924729887105704,
+        "('core', 'ridge10', 0.0)": 0.9750481991992974,
+        "('core', 'svr03', 0.0)": 0.8635467989305805,
+        "('context', 'ridge10', 0.0)": 2.2191816693977815,
+        "('context', 'svr03', 0.0)": 0.938493880185379
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "Tang2019",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7091957187661146,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.19148936170212766,
+        "S_wt_pct": 0.19148936170212766,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9213987121457791,
+        "('core', 'ridge10', 0.0)": 0.7091957187661146,
+        "('core', 'svr03', 0.0)": 0.9557266345715373,
+        "('context', 'ridge10', 0.0)": 2.1165719226937436,
+        "('context', 'svr03', 0.0)": 1.0242830438250266
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "UCS23",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7598911258390986,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1956521739130435,
+        "S_wt_pct": 0.1956521739130435,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8364301741369999,
+        "('core', 'ridge10', 0.0)": 0.7598911258390986,
+        "('core', 'svr03', 0.0)": 0.8133491991910281,
+        "('context', 'ridge10', 0.0)": 2.0707784932812614,
+        "('context', 'svr03', 0.0)": 0.8532662447963679
+      }
+    },
+    {
+      "scenario": "target_only_nested",
+      "held_out_paper": "Zhang2025",
+      "feature_set": "core",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7914797331044297,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.19148936170212766,
+        "S_wt_pct": 0.19148936170212766,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.7914797331044297,
+        "('core', 'ridge10', 0.0)": 0.92122158722425,
+        "('core', 'svr03', 0.0)": 0.8324951398330379,
+        "('context', 'ridge10', 0.0)": 1.9783612633698149,
+        "('context', 'svr03', 0.0)": 0.8874906879638355
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "Al10_26",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7508506055916854,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.23684210526315788,
+        "S_wt_pct": 0.23684210526315788,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8832433173866349,
+        "('core', 'ridge10', 0.0)": 0.7508506055916854,
+        "('core', 'ridge10', 0.25)": 1.0163017091244717,
+        "('core', 'ridge10', 1.0)": 1.0985882207198174,
+        "('core', 'svr03', 0.0)": 0.9575955739692292,
+        "('core', 'svr03', 0.25)": 0.9760537894949481,
+        "('core', 'svr03', 1.0)": 0.9512130934723096,
+        "('context', 'ridge10', 0.0)": 1.9789400046329888,
+        "('context', 'ridge10', 0.25)": 1.787660758462333,
+        "('context', 'ridge10', 1.0)": 1.8138792242237667,
+        "('context', 'svr03', 0.0)": 0.9905808927716014,
+        "('context', 'svr03', 0.25)": 0.8554672090257961,
+        "('context', 'svr03', 1.0)": 0.8561754691153709
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "Bridge25",
+      "feature_set": "context",
+      "model": "svr03",
+      "auxiliary_weight": 0.25,
+      "inner_RE_positive_paper_MAE": 0.8516574847376809,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.6945337620578779,
+        "Si_wt_pct": 0.6977491961414791,
+        "Mn_wt_pct": 0.6945337620578779,
+        "P_wt_pct": 0.7620578778135049,
+        "S_wt_pct": 0.7652733118971061,
+        "RE_log1p_ppm": 0.0,
+        "Cr_wt_pct": 0.8842443729903537,
+        "Ni_wt_pct": 0.8810289389067524,
+        "Mo_wt_pct": 0.9067524115755627,
+        "Cu_wt_pct": 0.8520900321543409,
+        "Al_wt_pct": 0.9356913183279743,
+        "NaCl_wt_pct": 0.5787781350482315,
+        "H2SO4_mol_L": 0.8585209003215434,
+        "pH": 0.9421221864951769,
+        "temperature_C": 0.8713826366559485,
+        "TP_scan_rate_mV_s": 0.7459807073954984,
+        "flow_velocity_m_s": 0.9807073954983923,
+        "water_cement_ratio": 0.5369774919614148,
+        "relative_humidity_pct": 0.6527331189710611,
+        "chloride_by_cement_wt_pct": 0.5369774919614148,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0,
+        "material_class": 0.0,
+        "processing_state_cat": 0.08038585209003216,
+        "gas_condition_cat": 0.9710610932475884,
+        "hydrodynamic_condition_cat": 0.9646302250803859,
+        "surface_state_cat": 0.01607717041800643,
+        "test_specimen_type": 0.0,
+        "carbonation_state": 0.0,
+        "moisture_condition": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9153118412265824,
+        "('core', 'ridge10', 0.0)": 0.9392048900601594,
+        "('core', 'ridge10', 0.25)": 1.2038975089764117,
+        "('core', 'ridge10', 1.0)": 1.1726058360704505,
+        "('core', 'svr03', 0.0)": 0.9273328663028009,
+        "('core', 'svr03', 0.25)": 0.9018003674929901,
+        "('core', 'svr03', 1.0)": 0.8741137927944239,
+        "('context', 'ridge10', 0.0)": 1.6112339430868303,
+        "('context', 'ridge10', 0.25)": 1.4752175152529958,
+        "('context', 'ridge10', 1.0)": 1.5409028518660122,
+        "('context', 'svr03', 0.0)": 0.9106642030052823,
+        "('context', 'svr03', 0.25)": 0.8516574847376809,
+        "('context', 'svr03', 1.0)": 0.8547540321605751
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "Ce75Cr1_24",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7339936013606134,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1276595744680851,
+        "S_wt_pct": 0.1276595744680851,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9465651373084618,
+        "('core', 'ridge10', 0.0)": 0.7339936013606134,
+        "('core', 'ridge10', 0.25)": 1.0610160481993856,
+        "('core', 'ridge10', 1.0)": 1.07281456280508,
+        "('core', 'svr03', 0.0)": 1.0933416448617441,
+        "('core', 'svr03', 0.25)": 0.916970561497344,
+        "('core', 'svr03', 1.0)": 0.8728041600855295,
+        "('context', 'ridge10', 0.0)": 2.1537543056140165,
+        "('context', 'ridge10', 0.25)": 2.0104829977251852,
+        "('context', 'ridge10', 1.0)": 2.0438560547093605,
+        "('context', 'svr03', 0.0)": 1.072099809374727,
+        "('context', 'svr03', 0.25)": 0.9173031296607379,
+        "('context', 'svr03', 1.0)": 0.9198322163015472
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "Coat24",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.8005739998971588,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1956521739130435,
+        "S_wt_pct": 0.1956521739130435,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 1.0310209649622422,
+        "('core', 'ridge10', 0.0)": 0.8005739998971588,
+        "('core', 'ridge10', 0.25)": 0.990267266409105,
+        "('core', 'ridge10', 1.0)": 1.0002037575621952,
+        "('core', 'svr03', 0.0)": 1.0209513878822296,
+        "('core', 'svr03', 0.25)": 0.9750288574814935,
+        "('core', 'svr03', 1.0)": 0.931739196649729,
+        "('context', 'ridge10', 0.0)": 1.8866809003593712,
+        "('context', 'ridge10', 0.25)": 0.9229336963345572,
+        "('context', 'ridge10', 1.0)": 0.8870519098044998,
+        "('context', 'svr03', 0.0)": 1.0349954766971063,
+        "('context', 'svr03', 0.25)": 0.9324627319553969,
+        "('context', 'svr03', 1.0)": 0.9345649487640291
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "GCr23",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7730924270630123,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.20454545454545456,
+        "S_wt_pct": 0.20454545454545456,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8007777003243358,
+        "('core', 'ridge10', 0.0)": 0.7730924270630123,
+        "('core', 'ridge10', 0.25)": 1.1179074130669044,
+        "('core', 'ridge10', 1.0)": 0.9941163278291603,
+        "('core', 'svr03', 0.0)": 0.9345838607192389,
+        "('core', 'svr03', 0.25)": 0.8838197769231456,
+        "('core', 'svr03', 1.0)": 0.8481129449441045,
+        "('context', 'ridge10', 0.0)": 1.7972834763820162,
+        "('context', 'ridge10', 0.25)": 1.9255120404205983,
+        "('context', 'ridge10', 1.0)": 1.9585280953037423,
+        "('context', 'svr03', 0.0)": 0.9266452212930544,
+        "('context', 'svr03', 0.25)": 0.8353471496449334,
+        "('context', 'svr03', 1.0)": 0.8442015207631017
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "La24Q355",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7717046975021506,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.2,
+        "S_wt_pct": 0.2,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8775597822550345,
+        "('core', 'ridge10', 0.0)": 0.7717046975021506,
+        "('core', 'ridge10', 0.25)": 1.0592141498350265,
+        "('core', 'ridge10', 1.0)": 1.1652632863352594,
+        "('core', 'svr03', 0.0)": 0.9287008109070796,
+        "('core', 'svr03', 0.25)": 0.9845780259746008,
+        "('core', 'svr03', 1.0)": 0.9484921766684874,
+        "('context', 'ridge10', 0.0)": 2.2264848872612637,
+        "('context', 'ridge10', 0.25)": 2.0143385496552937,
+        "('context', 'ridge10', 1.0)": 2.031577502356531,
+        "('context', 'svr03', 0.0)": 0.994041560842984,
+        "('context', 'svr03', 0.25)": 0.9334011208535209,
+        "('context', 'svr03', 1.0)": 0.9351243202437669
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "MDPI26LaCe",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.6233317750427197,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1276595744680851,
+        "S_wt_pct": 0.1276595744680851,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.782062987414369,
+        "('core', 'ridge10', 0.0)": 0.6233317750427197,
+        "('core', 'ridge10', 0.25)": 0.8489453910954696,
+        "('core', 'ridge10', 1.0)": 0.883055472750273,
+        "('core', 'svr03', 0.0)": 0.8403284434918339,
+        "('core', 'svr03', 0.25)": 0.8722975624151339,
+        "('core', 'svr03', 1.0)": 0.8360164679331372,
+        "('context', 'ridge10', 0.0)": 2.418492685694356,
+        "('context', 'ridge10', 0.25)": 1.711392037994401,
+        "('context', 'ridge10', 1.0)": 1.8587728359607383,
+        "('context', 'svr03', 0.0)": 0.8613623547127245,
+        "('context', 'svr03', 0.25)": 0.8064706472696386,
+        "('context', 'svr03', 1.0)": 0.8105593470757931
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "Ma19FSS",
+      "feature_set": "core",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.7665501156447838,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.6967741935483871,
+        "Si_wt_pct": 0.7,
+        "Mn_wt_pct": 0.6967741935483871,
+        "P_wt_pct": 0.7741935483870968,
+        "S_wt_pct": 0.7774193548387097,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.924729887105704,
+        "('core', 'ridge10', 0.0)": 0.9750481991992974,
+        "('core', 'ridge10', 0.25)": 0.8207974104335308,
+        "('core', 'ridge10', 1.0)": 0.9207978559812762,
+        "('core', 'svr03', 0.0)": 0.8635467989305805,
+        "('core', 'svr03', 0.25)": 0.7806041082178512,
+        "('core', 'svr03', 1.0)": 0.7665501156447838,
+        "('context', 'ridge10', 0.0)": 2.2191816693977815,
+        "('context', 'ridge10', 0.25)": 2.0081348781722257,
+        "('context', 'ridge10', 1.0)": 2.1226470438259746,
+        "('context', 'svr03', 0.0)": 0.938493880185379,
+        "('context', 'svr03', 0.25)": 0.8566263934001915,
+        "('context', 'svr03', 1.0)": 0.8621401989921404
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "Tang2019",
+      "feature_set": "core",
+      "model": "ridge10",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7091957187661146,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.19148936170212766,
+        "S_wt_pct": 0.19148936170212766,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9213987121457791,
+        "('core', 'ridge10', 0.0)": 0.7091957187661146,
+        "('core', 'ridge10', 0.25)": 0.936306323008304,
+        "('core', 'ridge10', 1.0)": 1.094040339372332,
+        "('core', 'svr03', 0.0)": 0.9557266345715373,
+        "('core', 'svr03', 0.25)": 0.8602238442888005,
+        "('core', 'svr03', 1.0)": 0.8346157036389915,
+        "('context', 'ridge10', 0.0)": 2.1165719226937436,
+        "('context', 'ridge10', 0.25)": 1.1017044583982203,
+        "('context', 'ridge10', 1.0)": 1.0874065212144424,
+        "('context', 'svr03', 0.0)": 1.0242830438250266,
+        "('context', 'svr03', 0.25)": 0.8855110273322241,
+        "('context', 'svr03', 1.0)": 0.8900513154114318
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "UCS23",
+      "feature_set": "core",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.6549113978320958,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.6967741935483871,
+        "Si_wt_pct": 0.7,
+        "Mn_wt_pct": 0.6967741935483871,
+        "P_wt_pct": 0.7741935483870968,
+        "S_wt_pct": 0.7774193548387097,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8364301741369999,
+        "('core', 'ridge10', 0.0)": 0.7598911258390986,
+        "('core', 'ridge10', 0.25)": 1.05401896546899,
+        "('core', 'ridge10', 1.0)": 1.0746932901630033,
+        "('core', 'svr03', 0.0)": 0.8133491991910281,
+        "('core', 'svr03', 0.25)": 0.6602602203342256,
+        "('core', 'svr03', 1.0)": 0.6549113978320958,
+        "('context', 'ridge10', 0.0)": 2.0707784932812614,
+        "('context', 'ridge10', 0.25)": 1.0326454126897393,
+        "('context', 'ridge10', 1.0)": 0.9799236730158019,
+        "('context', 'svr03', 0.0)": 0.8532662447963679,
+        "('context', 'svr03', 0.25)": 0.7743888836866354,
+        "('context', 'svr03', 1.0)": 0.7773145879907677
+      }
+    },
+    {
+      "scenario": "auxiliary_nested",
+      "held_out_paper": "Zhang2025",
+      "feature_set": "core",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7914797331044297,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.19148936170212766,
+        "S_wt_pct": 0.19148936170212766,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.7914797331044297,
+        "('core', 'ridge10', 0.0)": 0.92122158722425,
+        "('core', 'ridge10', 0.25)": 0.9400334375749656,
+        "('core', 'ridge10', 1.0)": 0.9003130478427739,
+        "('core', 'svr03', 0.0)": 0.8324951398330379,
+        "('core', 'svr03', 0.25)": 0.8874391574539106,
+        "('core', 'svr03', 1.0)": 0.8539520744620681,
+        "('context', 'ridge10', 0.0)": 1.9783612633698149,
+        "('context', 'ridge10', 0.25)": 1.7874563609622545,
+        "('context', 'ridge10', 1.0)": 1.902586998216827,
+        "('context', 'svr03', 0.0)": 0.8874906879638355,
+        "('context', 'svr03', 0.25)": 0.815086699123086,
+        "('context', 'svr03', 1.0)": 0.8211799635472528
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "Al10_26",
+      "feature_set": "core98",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.8749657217319875,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.011627906976744186,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.27906976744186046,
+        "S_wt_pct": 0.29069767441860467,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 0.8832433173866349,
+        "('core98', 'ridge10', 1.0)": 1.0771121821297815,
+        "('core98', 'svr03', 1.0)": 0.8749657217319875
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "Bridge25",
+      "feature_set": "core98",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.8646266526224473,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.010526315789473684,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.22105263157894736,
+        "S_wt_pct": 0.23157894736842105,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 0.9153118412265824,
+        "('core98', 'ridge10', 1.0)": 1.1629956598159013,
+        "('core98', 'svr03', 1.0)": 0.8646266526224473
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "Ce75Cr1_24",
+      "feature_set": "core98",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.9061772479067691,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.010526315789473684,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.22105263157894736,
+        "S_wt_pct": 0.23157894736842105,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 0.9465651373084618,
+        "('core98', 'ridge10', 1.0)": 1.0319993574953463,
+        "('core98', 'svr03', 1.0)": 0.9061772479067691
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "Coat24",
+      "feature_set": "core98",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.8733254274461613,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.010638297872340425,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.2553191489361702,
+        "S_wt_pct": 0.26595744680851063,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 1.0310209649622422,
+        "('core98', 'ridge10', 1.0)": 1.0240505021032191,
+        "('core98', 'svr03', 1.0)": 0.8733254274461613
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "GCr23",
+      "feature_set": "core98",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.8007777003243358,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.20454545454545456,
+        "S_wt_pct": 0.20454545454545456,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 0.8007777003243358,
+        "('core98', 'ridge10', 1.0)": 1.1039167168762969,
+        "('core98', 'svr03', 1.0)": 0.8439599141996187
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "La24Q355",
+      "feature_set": "core98",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.8436285195037294,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.010752688172043012,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.25806451612903225,
+        "S_wt_pct": 0.26881720430107525,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 0.8775597822550345,
+        "('core98', 'ridge10', 1.0)": 1.1505986530925487,
+        "('core98', 'svr03', 1.0)": 0.8436285195037294
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "MDPI26LaCe",
+      "feature_set": "core98",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.7590509501553209,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.010526315789473684,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.22105263157894736,
+        "S_wt_pct": 0.23157894736842105,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 0.782062987414369,
+        "('core98', 'ridge10', 1.0)": 0.8808058040347992,
+        "('core98', 'svr03', 1.0)": 0.7590509501553209
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "Ma19FSS",
+      "feature_set": "core98",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.7869603223114611,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.010638297872340425,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.2553191489361702,
+        "S_wt_pct": 0.26595744680851063,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 0.924729887105704,
+        "('core98', 'ridge10', 1.0)": 0.9909853216962221,
+        "('core98', 'svr03', 1.0)": 0.7869603223114611
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "Tang2019",
+      "feature_set": "core98",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.850349728273024,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.010526315789473684,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.25263157894736843,
+        "S_wt_pct": 0.2631578947368421,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 0.9213987121457791,
+        "('core98', 'ridge10', 1.0)": 1.0817480816090543,
+        "('core98', 'svr03', 1.0)": 0.850349728273024
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "UCS23",
+      "feature_set": "core98",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.7316434129766186,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.010638297872340425,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.2553191489361702,
+        "S_wt_pct": 0.26595744680851063,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 0.8364301741369999,
+        "('core98', 'ridge10', 1.0)": 1.0025661648824624,
+        "('core98', 'svr03', 1.0)": 0.7316434129766186
+      }
+    },
+    {
+      "scenario": "previous_98_fixed_core",
+      "held_out_paper": "Zhang2025",
+      "feature_set": "core98",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7914797331044297,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.19148936170212766,
+        "S_wt_pct": 0.19148936170212766,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core98', 'median', 0.0)": 0.7914797331044297,
+        "('core98', 'ridge10', 1.0)": 0.9311546944474515,
+        "('core98', 'svr03', 1.0)": 0.8130416081262432
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "Al10_26",
+      "feature_set": "core",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.8832433173866349,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.23684210526315788,
+        "S_wt_pct": 0.23684210526315788,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8832433173866349,
+        "('core', 'ridge10', 1.0)": 1.0985882207198174,
+        "('core', 'svr03', 1.0)": 0.9512130934723096
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "Bridge25",
+      "feature_set": "core",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.8741137927944239,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.6945337620578779,
+        "Si_wt_pct": 0.6977491961414791,
+        "Mn_wt_pct": 0.6945337620578779,
+        "P_wt_pct": 0.7620578778135049,
+        "S_wt_pct": 0.7652733118971061,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9153118412265824,
+        "('core', 'ridge10', 1.0)": 1.1726058360704505,
+        "('core', 'svr03', 1.0)": 0.8741137927944239
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "Ce75Cr1_24",
+      "feature_set": "core",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.8728041600855295,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.6945337620578779,
+        "Si_wt_pct": 0.6977491961414791,
+        "Mn_wt_pct": 0.6945337620578779,
+        "P_wt_pct": 0.7620578778135049,
+        "S_wt_pct": 0.7652733118971061,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9465651373084618,
+        "('core', 'ridge10', 1.0)": 1.07281456280508,
+        "('core', 'svr03', 1.0)": 0.8728041600855295
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "Coat24",
+      "feature_set": "core",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.931739196649729,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.6967741935483871,
+        "Si_wt_pct": 0.7,
+        "Mn_wt_pct": 0.6967741935483871,
+        "P_wt_pct": 0.7741935483870968,
+        "S_wt_pct": 0.7774193548387097,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 1.0310209649622422,
+        "('core', 'ridge10', 1.0)": 1.0002037575621952,
+        "('core', 'svr03', 1.0)": 0.931739196649729
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "GCr23",
+      "feature_set": "core",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.8007777003243358,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.20454545454545456,
+        "S_wt_pct": 0.20454545454545456,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8007777003243358,
+        "('core', 'ridge10', 1.0)": 0.9941163278291603,
+        "('core', 'svr03', 1.0)": 0.8481129449441045
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "La24Q355",
+      "feature_set": "core",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.8775597822550345,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.2,
+        "S_wt_pct": 0.2,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8775597822550345,
+        "('core', 'ridge10', 1.0)": 1.1652632863352594,
+        "('core', 'svr03', 1.0)": 0.9484921766684874
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "MDPI26LaCe",
+      "feature_set": "core",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.782062987414369,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.1276595744680851,
+        "S_wt_pct": 0.1276595744680851,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.782062987414369,
+        "('core', 'ridge10', 1.0)": 0.883055472750273,
+        "('core', 'svr03', 1.0)": 0.8360164679331372
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "Ma19FSS",
+      "feature_set": "core",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.7665501156447838,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.6967741935483871,
+        "Si_wt_pct": 0.7,
+        "Mn_wt_pct": 0.6967741935483871,
+        "P_wt_pct": 0.7741935483870968,
+        "S_wt_pct": 0.7774193548387097,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.924729887105704,
+        "('core', 'ridge10', 1.0)": 0.9207978559812762,
+        "('core', 'svr03', 1.0)": 0.7665501156447838
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "Tang2019",
+      "feature_set": "core",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.8346157036389915,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.6945337620578779,
+        "Si_wt_pct": 0.6977491961414791,
+        "Mn_wt_pct": 0.6945337620578779,
+        "P_wt_pct": 0.7717041800643086,
+        "S_wt_pct": 0.77491961414791,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.9213987121457791,
+        "('core', 'ridge10', 1.0)": 1.094040339372332,
+        "('core', 'svr03', 1.0)": 0.8346157036389915
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "UCS23",
+      "feature_set": "core",
+      "model": "svr03",
+      "auxiliary_weight": 1.0,
+      "inner_RE_positive_paper_MAE": 0.6549113978320958,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.6967741935483871,
+        "Si_wt_pct": 0.7,
+        "Mn_wt_pct": 0.6967741935483871,
+        "P_wt_pct": 0.7741935483870968,
+        "S_wt_pct": 0.7774193548387097,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.8364301741369999,
+        "('core', 'ridge10', 1.0)": 1.0746932901630033,
+        "('core', 'svr03', 1.0)": 0.6549113978320958
+      }
+    },
+    {
+      "scenario": "auxiliary_fixed_core",
+      "held_out_paper": "Zhang2025",
+      "feature_set": "core",
+      "model": "median",
+      "auxiliary_weight": 0.0,
+      "inner_RE_positive_paper_MAE": 0.7914797331044297,
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.19148936170212766,
+        "S_wt_pct": 0.19148936170212766,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      },
+      "inner_scores": {
+        "('core', 'median', 0.0)": 0.7914797331044297,
+        "('core', 'ridge10', 1.0)": 0.9003130478427739,
+        "('core', 'svr03', 1.0)": 0.8539520744620681
+      }
+    }
+  ],
+  "validation": "Outer held-out RE publication is absent from training and every inner selection fold. Inner mean RE-positive publication MAE selects features/model/auxiliary weight. Auxiliary papers are training-only; no claimed validation on those papers. Zero weight is allowed. All observed outer results are exploratory.",
+  "context_numeric": [
+    "C_wt_pct",
+    "Si_wt_pct",
+    "Mn_wt_pct",
+    "P_wt_pct",
+    "S_wt_pct",
+    "RE_log1p_ppm",
+    "Cr_wt_pct",
+    "Ni_wt_pct",
+    "Mo_wt_pct",
+    "Cu_wt_pct",
+    "Al_wt_pct",
+    "NaCl_wt_pct",
+    "H2SO4_mol_L",
+    "pH",
+    "temperature_C",
+    "TP_scan_rate_mV_s",
+    "flow_velocity_m_s",
+    "water_cement_ratio",
+    "relative_humidity_pct",
+    "chloride_by_cement_wt_pct"
+  ],
+  "context_categorical": [
+    "RE_element_cat",
+    "electrolyte_family",
+    "material_class",
+    "processing_state_cat",
+    "gas_condition_cat",
+    "hydrodynamic_condition_cat",
+    "surface_state_cat",
+    "test_specimen_type",
+    "carbonation_state",
+    "moisture_condition"
+  ],
+  "exclusions": [
+    {
+      "doi": "10.14456/jmmm.2014.9",
+      "reason": "Table2 labels current A/cm2 but prints 14.48-22.60; corrosion-rate consistency suggests microamps, not confirmed. Four rows not used."
+    },
+    {
+      "doi": "10.3390/ma17235979",
+      "reason": "Verified composition but no tabulated PDP icorr recovered; no invented targets."
+    },
+    {
+      "doi": "10.3390/polym16050669",
+      "reason": "Composition bounds/typical values rather than exact chemistry; not used in this batch."
+    }
+  ],
+  "promoted": false,
+  "paired_RE_positive_paper_MAE_deltas": {
+    "auxiliary_fixed_core_minus_target_only_fixed_core": {
+      "delta": 0.19167449966814,
+      "bootstrap_95_percent_interval": [
+        -0.024955757122760606,
+        0.47454421985155715
+      ],
+      "improving_papers": 2,
+      "total_papers": 11
+    },
+    "auxiliary_fixed_core_minus_previous_98_fixed_core": {
+      "delta": 0.17097461238764222,
+      "bootstrap_95_percent_interval": [
+        0.03342150800021888,
+        0.32082507534323135
+      ],
+      "improving_papers": 1,
+      "total_papers": 11
+    },
+    "auxiliary_nested_minus_target_only_nested": {
+      "delta": 0.12605992914520606,
+      "bootstrap_95_percent_interval": [
+        -0.03908649531955117,
+        0.4020299758527937
+      ],
+      "improving_papers": 1,
+      "total_papers": 11
+    },
+    "target_only_nested_minus_historical_fixed8": {
+      "delta": 0.04071539025033606,
+      "bootstrap_95_percent_interval": [
+        -0.03407265248204357,
+        0.15621882323305175
+      ],
+      "improving_papers": 1,
+      "total_papers": 11
+    }
+  }
+}
