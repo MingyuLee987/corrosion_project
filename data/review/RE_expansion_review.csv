@@ -1,6 +1,0 @@
-﻿reference_id,doi,decision,reason,source_url
-Ce75Cr1_24,10.11900/0412.1961.2022.00359,included_exploratory_3,Table2 p8 exact targets; Sec1 p2 base chemistry and p3 residual Ce; P/S missing; 20% fold missingness policy checked separately,https://www.ams.org.cn/EN/10.11900/0412.1961.2022.00359
-CC25,10.1007/s42243-025-01553-x,not_added_existing_candidate,Already catalogued in v2_curated_31; LF chemistry must not be assigned to CC corrosion samples; no new sample-specific C/Si/Mn/P/S verification,https://www.chinamet.cn/gyby/gtyjxben/EN/10.1007/s42243-025-01553-x
-FCAW18,10.1155/2018/4071352,not_added_bulk_RE_unreported,Table6 weld chemistry available but RE only ferroalloy input to flux; cannot assign flux addition to bulk measured RE,https://onlinelibrary.wiley.com/doi/10.1155/2018/4071352
-LaCe304_26,10.1016/j.jmrt.2026.02.234,pending_full_methods_and_targets,Publisher indexed excerpts available; Table1 chemistry and numeric icorr not retrieved; no values invented,https://www.sciencedirect.com/science/article/pii/S2238785426004849
-OffshoreCe25,10.3390/ma18112443,not_added_numeric_target_unreported,Table1 chemistry available; Fig10 curves without tabulated icorr; did not invent Tafel fit values from image,https://www.mdpi.com/1996-1944/18/11/2443

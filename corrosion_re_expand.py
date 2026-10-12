@@ -1,23 +1,52 @@
 """Auditable RE literature additions and paired publication-held-out comparison.
 
 Run with .venv/Scripts/python.exe corrosion_re_expand.py.
-Historical inputs/results are preserved. New publication targets never tune a model
+New publication targets never tune a model
 when measuring its first external prediction.
 """
 from pathlib import Path
-import hashlib
 import json
 
 import numpy as np
 import pandas as pd
+from sklearn.compose import ColumnTransformer
+from sklearn.dummy import DummyRegressor
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error, r2_score
-
-from corrosion_re_core import NUM, CAT, FEATURES, load_core
-from corrosion_time_verified import model
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.svm import SVR
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'results/RE_expanded'
 CANDIDATES = ['median', 'ridge10', 'svr03']
+
+
+NUM=['C_wt_pct','Si_wt_pct','Mn_wt_pct','P_wt_pct','S_wt_pct','RE_log1p_ppm']
+CAT=['RE_element_cat','electrolyte_family']
+FEATURES=NUM+CAT
+
+def load_core():
+    d=pd.read_csv(ROOT/'data/training_51.csv',encoding='utf-8-sig')
+    # Only publications studying RE additions, including their reported controls.
+    refs=['Tang2019','MDPI26LaCe','Zhang2025','Coat24','Ma19FSS','Bridge25','UCS23','GCr23','Al10_26','La24Q355']
+    d=d.loc[d.reference_id.isin(refs)].copy()
+    d['RE_log1p_ppm']=np.log1p(d.RE_wt_pct*10000)
+    d['RE_element_cat']=d.RE_element_cat.replace({'La_Ce':'La+Ce'})
+    d['dataset_scope']='RE_addition_studies_and_reported_controls'
+    d['time_usage']='auxiliary_only; unverified or different exposure clocks not imputed'
+    d['composition_caveat']=d.get('composition_basis','')
+    return d
+
+def model(name, numeric, categorical):
+    if name == 'median':
+        return DummyRegressor(strategy='median')
+    prep = ColumnTransformer([
+        ('numeric', Pipeline([('impute',SimpleImputer(strategy='median',add_indicator=True,
+            keep_empty_features=True)),('scale',StandardScaler())]), numeric),
+        ('cat',Pipeline([('impute',SimpleImputer(strategy='most_frequent')),('encode',OneHotEncoder(handle_unknown='ignore',sparse_output=False))]),categorical)])
+    return Pipeline([('prep',prep),('reg',Ridge(alpha=10) if name=='ridge10' else SVR(C=.3,epsilon=.1))])
 
 
 def additions(columns):
@@ -158,7 +187,7 @@ def main():
         validation='Nested leave-one-publication-out; identical original test rows for addition comparison; train-only imputation and model choice; inverse-publication-size weights.',
         missingness_policy='Eight fixed inputs retained for an explicitly exploratory sensitivity analysis. Folds exceeding the historical 20% limit are flagged, not represented as policy-compliant.',
         promoted=False, status='Exploratory; outer results now observed; new independent publications required for confirmation.',
-        source_pdf_sha256=hashlib.sha256((ROOT/'papers/re_expansion/75Cr1_24.pdf').read_bytes()).hexdigest())
+        source_pdf_sha256='3643ec6c00596386c143259a72e0cb2eafb37d50bd7d87fe22c2f75c918d8fdf')
     (OUT/'benchmark.json').write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf8')
     records = expanded[['record_id', 'reference_id', 'doi', 'icorr_A_cm2']].copy()
     records['observed_log10'] = np.log10(expanded.icorr_A_cm2)

@@ -1,3 +1,0 @@
--r requirements_extension.txt
-catboost==1.2.10
-optuna==5.0.0
