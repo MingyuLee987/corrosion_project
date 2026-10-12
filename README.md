@@ -4,7 +4,7 @@
 
 현재 주 분석은 [50행 확장 데이터](data/training_RE_expanded.csv)와 [확장 검증 보고서](RE_EXPANSION_2026-10-12.md)입니다. `.venv/Scripts/python.exe -B corrosion_re_expand.py`로 재현합니다.
 
-49편 엑셀 기반의 [전체 컬럼 수집 결과](results/workbook_mining/collection_report.md)와 [데이터마이닝 수집 엑셀](outputs/workbook_mining/literature_mining_collected.xlsx)은 별도 문헌 수집표입니다. 114행 중 전체 34개 측정·계산 항목이 완비된 행은 0행이므로 현재 학습 데이터에 자동 합치지 않았습니다.
+49편 엑셀 기반의 [전체 컬럼 수집 결과](results/workbook_mining/collection_report.md)와 [데이터마이닝 수집 엑셀](outputs/workbook_mining/literature_mining_collected.xlsx)은 별도 문헌 수집표입니다. 151행 중 전체 34개 측정·계산 항목이 완비된 행은 0행이므로 현재 학습 데이터에 자동 합치지 않았습니다.
 
 data 폴더의 학습 CSV는 `training_51.csv`(원본 47행)와 `training_RE_expanded.csv`(확장 50행) 두 개입니다. 기준 RE 데이터와 신규 3행은 실행 중 구성하므로 중복 CSV를 저장하지 않습니다. 보조 자료는 `review/`(검토·후보), `sources/`(이전 수집·스냅샷), `time/`(시간 검증 별도 실험), `v2/`(대조군 기반 실험), `templates/`(입력 예시·범주값)에 있습니다.
 

@@ -324,7 +324,7 @@ def collect(index):
             (True,[(0,-1.083,4.6e-6),(4.2,-.300,5.1e-7),(11.2,-.284,1.2e-7),(29.6,-.168,1.3e-8)])]:
         for surface_ce, e, current in data:
             add(42,f'surfaceCe{surface_ce:g}_'+('450C' if treated else 'as_deposited'),
-                dict(D=.02,I=20,Q=5,Y='Balance'),'Publisher PDF methods pp1-2; Tables1/2 p5',
+                dict(D=.02,I=20,Q=5,Y='Balance'),'Publisher PDF methods pp1-2; Tables1/2 p2',
                 source_url='https://bcc.bas.bg/BCC_Volumes/Volume_43_Number_1_2011/Volume_43_Number_1_2011_PDF/2011-43-1_24.pdf',
                 AA=450 if treated else None,AB=120 if treated else None,
                 AD='NaCl',AI='SCE',AJ=10,AK=e,AL=current,
@@ -332,6 +332,38 @@ def collect(index):
                 electrolyte_concentration_raw='3.5% NaCl; percentage basis not reassigned',
                 remarks='OC404 substrate composition only. Surface oxide Ce atomic percent is not '
                     'bulk Ce wt%. Room-temperature PDP not forced to25C. Thermal treatment performed in air; cooling route unreported.')
+    for sample, p, ce, la, raw, e in [
+        ('Base',.015,.002,.001,4.39,-.56),('RE90',.016,.006,.003,3.94,-.55),
+        ('RE170',.015,.011,.006,2.25,-.50),('RE280',.015,.020,.008,3.63,-.54)]:
+        add(35,sample,dict(D=.04,E=.23,F=1.19,G=p,H=.004,I=.38,J=.40,Q=.03,L=.31,S=ce,T=la),
+            'Publisher PDF Table1 p2; methods p3; Table3/Fig7 p5',
+            source_url='https://fsyfh.mat-test.com/cn/article/doi/10.11973/fsyfh-202403006',
+            AD='NaCl',AE=3.5,AI='AgAgCl',AJ=.33,AK=e,AL=raw*1e-5,
+            RE_total_wt_pct=ce+la,raw_icorr_value=raw,raw_icorr_unit='x10^-5 A/cm2',
+            remarks='Base is not RE-free: measuredCe.002+La.001. Reference is AgAgCl, '
+                'not workbook bibliographySCE. 25C belongs to separate6%NaCl inclusion-immersion '
+                'test; pre-EIS30min OCP not total PDP immersion.')
+    for ce in [0,.006,.012,.018]:
+        add(27,f'Ce{ce:g}',dict(D=.060,E=.480,F=1.380,G=.020,H=.002,I=18.370,J=7.210,S=ce,Y='Balance'),
+            'TMS-hosted conference paper TableI p2; Sec2.2.2 p3; polarization discussion pp6-7',
+            source_url='https://www.tms.org/membercontent/pdf2/mst_2019_122_129.pdf',
+            AC='water',AD='NaCl',AE=3.5,AH=25,AI='SCE',AJ=.5,
+            AK=-.31125 if ce==.012 else None,
+            remarks='Shared starting-steel composition; Ce is nominal laboratory level, '
+                'not individually verified residual. 1600C is melting, not post-cast heat treatment. '
+                'No numerical icorr in text/table; Ecorr -.31125 only explicit .012Ce sample.')
+    for sample, vals, total in [
+        ('A',[.07,.40,.40,.087,.004,.26,.48,.12,.036],0),
+        ('B',[.09,.42,.37,.10,.008,.26,.47,.12,.022],.0016),
+        ('C',[.07,.42,.38,.086,.002,.26,.47,.12,.038],.036),
+        ('D',[.08,.48,.44,.09,.001,.27,.49,.11,.038],.064)]:
+        add(44,sample,dict(zip(['D','E','F','G','H','L','I','J','Q'],vals)),
+            'Publisher paper Table1 printed p108; experimental Sec2.4',
+            source_url='https://www.anticorr.org.tw/JCCE/paper/V26/260207.pdf',
+            AD='NaCl',AE=.05,RE_total_wt_pct=total,
+            remarks='Primary publisher PDF indexed text Table1. Individual rare-earth species '
+                'unreported; total RE not assigned to Ce/La. No sample-specific numerical '
+                'icorr table; no estimated polarization-curve extraction. Direct download endpoint404; indexed primary text used.')
     return rows
 
 
@@ -350,7 +382,6 @@ def main():
         row['paper_title']=index[row['A']]['B']
     frame=pd.DataFrame(rows)
     assert frame.record_id.is_unique
-    assert not frame['eligible_under_requested_all_column_policy'].any()
     meta=['record_id','doi','source_url','source_locator','provenance','target_status',
         'raw_icorr_value','raw_icorr_unit','electrolyte_concentration_raw','processing_sequence',
         'RE_total_wt_pct','B_addition_wt_pct','REO_addition_wt_pct','surface_Ce_at_pct','S_upper_bound_wt_pct','missing_measurement_count',
@@ -358,6 +389,8 @@ def main():
         'missing_measurement_columns','remarks']
     df=frame.reindex(columns=letters+meta).rename(columns=dict(zip(letters,headers)))
     df.to_csv(COLLECTION,index=False,encoding='utf-8-sig')
+    access_file=OUT/'remaining_access_review.json'
+    access={r['paper_number']:r for r in json.loads(access_file.read_text(encoding='utf8'))} if access_file.exists() else {}
     registry=[]
     for paper, info in index.items():
         part=frame.loc[frame.A.eq(paper)]
@@ -367,6 +400,7 @@ def main():
             newly_transcribed_rows=len(primary),reported_icorr_rows=int(part.AL.notna().sum()),
             full_measurement_rows=int(part.all_measurements_complete.sum()),
             this_batch_status='primary_source_transcribed' if len(primary) else 'prior_dataset_retained' if len(part) else 'not_transcribed_requires_source_review',
+            source_access_result=access.get(paper,{}).get('access_status') if not len(part) else 'record_sources_linked',
             workbook_note=info.get('H')))
     review=pd.DataFrame(registry)
     review.to_csv(ROOT/'data/review/workbook_mining_49_review.csv',index=False,encoding='utf-8-sig')
@@ -377,7 +411,8 @@ def main():
     stats=dict(rows=len(frame),papers=frame.A.nunique(),legacy_rows=int((~new).sum()),
         new_rows=int(new.sum()),new_papers=int(frame.loc[new,'A'].nunique()),
         numeric_icorr_rows=int(frame.AL.notna().sum()),new_numeric_icorr_rows=int(frame.loc[new,'AL'].notna().sum()),
-        all_34_measurements_complete_rows=0,requested_policy_training_rows=0,
+        all_34_measurements_complete_rows=int(frame.all_measurements_complete.sum()),
+        requested_policy_training_rows=int(frame.eligible_under_requested_all_column_policy.sum()),
         unit_quarantined_rows=int(frame.target_status.str.startswith('quarantined').sum()),
         original_workbook_sha256=hashlib.sha256(Path(source['source']).read_bytes()).hexdigest(),
         original_workbook_unchanged=True,source_raw_populated_rows=len(source['sheets'][2]['rows'])-1,

@@ -56,7 +56,7 @@ coverage.getRange('A1').values = [['문헌 데이터 확보 현황']];
 coverage.getRange('A1').format.font = { name: 'Malgun Gothic', size: 15, bold: true, color: '#174A5B' };
 coverage.getRange('A3:D4').values = [
   ['수집 행', '수집 문헌', 'icorr 확보 행', '전체 34개 항목 완비 행'],
-  [payload.stats.rows, payload.stats.papers, payload.stats.numeric_icorr_rows, 0]
+  [payload.stats.rows, payload.stats.papers, payload.stats.numeric_icorr_rows, payload.stats.all_34_measurements_complete_rows]
 ];
 coverage.getRange('A3:D3').format = { fill: '#E8F1F3', font: { bold: true, color: '#174A5B' }, wrapText: true, rowHeight: 35 };
 coverage.getRange('A6:E6').values = [['항목', '값 확보 행', '미확보 행', '확보율', '처리 원칙']];
@@ -67,7 +67,7 @@ coverage.getRange('D7:D40').setNumberFormat('0.0%');
 coverage.getRange('E7').values = [['미보고 값을 0·평균·강종 대표값으로 채우지 않음']];
 coverage.getRange('E8').values = [['표면 산화물·침투제 첨가량을 벌크 RE 함량으로 바꾸지 않음']];
 coverage.getRange('E9').values = [['Ipass·공식전위·질량감소를 icorr로 바꾸지 않음']];
-coverage.getRange('E10').values = [['전체 컬럼 기준으로 학습에 투입 가능한 행: 0']];
+coverage.getRange('E10').values = [[`전체 컬럼 기준으로 학습에 투입 가능한 행: ${payload.stats.requested_policy_training_rows}`]];
 coverage.getRange('E11').values = [[`신규 수집 ${payload.stats.new_rows}행. 기존 자료 ${payload.stats.legacy_rows}행은 이번에 전체 원문 재검증하지 않음`]];
 coverage.getRange('E12').values = [[`49편 중 ${49-payload.stats.papers}편은 원문 재확보·추출이 남아 있음`]];
 coverage.getRange('E13').values = [['원본 데이터마이닝 시트의 행 연결 오류를 그대로 학습하지 않음']];
@@ -85,8 +85,8 @@ review.getRange('B:B').format.columnWidth = 38;
 review.getRange('C:C').format.columnWidth = 70;
 review.getRange('C2:C50').format.wrapText = true;
 review.getRange('A2:J50').format.rowHeight = 45;
-review.getRange('I:I').format.columnWidth = 46;
-review.getRange('J:J').format.columnWidth = 90;
+review.getRange('I:J').format.columnWidth = 46;
+review.getRange('K:K').format.columnWidth = 90;
 
 wb.recalculate();
 console.log((await wb.inspect({ kind: 'region', sheetId: '확보현황', range: 'A3:D4', maxChars: 1000 })).ndjson);
