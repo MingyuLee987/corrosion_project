@@ -1,0 +1,44 @@
+﻿record_id,reference_id,doi,target_locator,exclusion_reason
+RECORR_000001,Tang2019,10.3390/ma12203359,Table 2; composition Table 1; methods 2.2.1,"50 d is separate weight-loss test (Fig 2), not demonstrated pre-PDP immersion (Fig 1/Table 2)"
+RECORR_000002,Tang2019,10.3390/ma12203359,Table 2; composition Table 1; methods 2.2.1,"50 d is separate weight-loss test (Fig 2), not demonstrated pre-PDP immersion (Fig 1/Table 2)"
+RECORR_000003,Tang2019,10.3390/ma12203359,Table 2; composition Table 1; methods 2.2.1,"50 d is separate weight-loss test (Fig 2), not demonstrated pre-PDP immersion (Fig 1/Table 2)"
+RECORR_000004,MDPI26LaCe,10.3390/ma19122685,Table 2; Table 1; methods 2.3,PDP-linked continuous immersion duration not verified; missing is not zero
+RECORR_000005,MDPI26LaCe,10.3390/ma19122685,Table 2; Table 1; methods 2.3,PDP-linked continuous immersion duration not verified; missing is not zero
+RECORR_000006,MDPI26LaCe,10.3390/ma19122685,Table 2; Table 1; methods 2.3,PDP-linked continuous immersion duration not verified; missing is not zero
+RECORR_000007,Zhang2025,10.3390/ma18010069,원문 composition/polarization tables; electrochemical methods,PDP-linked continuous immersion duration not verified; missing is not zero
+RECORR_000008,Zhang2025,10.3390/ma18010069,원문 composition/polarization tables; electrochemical methods,PDP-linked continuous immersion duration not verified; missing is not zero
+RECORR_000009,Zhang2025,10.3390/ma18010069,원문 composition/polarization tables; electrochemical methods,PDP-linked continuous immersion duration not verified; missing is not zero
+NEW_Ma19FSS_FSS1,Ma19FSS,10.20964/2019.03.31,"Table1; Table2 last icorr column, PDF p4",PDP-linked continuous immersion duration not verified; missing is not zero
+NEW_Ma19FSS_FSS2,Ma19FSS,10.20964/2019.03.31,"Table1; Table2 last icorr column, PDF p4",PDP-linked continuous immersion duration not verified; missing is not zero
+NEW_Ma19FSS_FSS3,Ma19FSS,10.20964/2019.03.31,"Table1; Table2 last icorr column, PDF p4",PDP-linked continuous immersion duration not verified; missing is not zero
+NEW_Ma19FSS_FSS4,Ma19FSS,10.20964/2019.03.31,"Table1; Table2 last icorr column, PDF p4",PDP-linked continuous immersion duration not verified; missing is not zero
+NEW_Bridge25_1,Bridge25,10.3390/met15010085,Table1 and Table7; section3.4.1,"Salt-spray exposure, not immersion; retained only in noncontinuous auxiliary dataset"
+NEW_Bridge25_2,Bridge25,10.3390/met15010085,Table1 and Table7; section3.4.1,"Salt-spray exposure, not immersion; retained only in noncontinuous auxiliary dataset"
+NEW_Bridge25_3,Bridge25,10.3390/met15010085,Table1 and Table7; section3.4.1,"Salt-spray exposure, not immersion; retained only in noncontinuous auxiliary dataset"
+NEW_UCS23_UCS-Q235BRE(C),UCS23,10.3390/met13010066,"Tables1,5; electrochemical method20°C",PDP-linked continuous immersion duration not verified; missing is not zero
+NEW_UCS23_UCS-Q235BRE(R),UCS23,10.3390/met13010066,"Tables1,5; electrochemical method20°C",PDP-linked continuous immersion duration not verified; missing is not zero
+NEW_UCS23_UCS-Q235B(R),UCS23,10.3390/met13010066,"Tables1,5; electrochemical method20°C",PDP-linked continuous immersion duration not verified; missing is not zero
+NEW_UCS23_UCS-SPA-H(R),UCS23,10.3390/met13010066,"Tables1,5; electrochemical method20°C",PDP-linked continuous immersion duration not verified; missing is not zero
+GCr23_hot_rolled_0,GCr23,10.1016/j.corcom.2022.06.004,Table4: electrochemical parameters; preparation Section2.1; electrochemical Section2.4,PDP-linked continuous immersion duration not verified; missing is not zero
+GCr23_hot_rolled_1,GCr23,10.1016/j.corcom.2022.06.004,Table4: electrochemical parameters; preparation Section2.1; electrochemical Section2.4,PDP-linked continuous immersion duration not verified; missing is not zero
+GCr23_annealed_0,GCr23,10.1016/j.corcom.2022.06.004,Table4: electrochemical parameters; preparation Section2.1; electrochemical Section2.4,PDP-linked continuous immersion duration not verified; missing is not zero
+GCr23_annealed_1,GCr23,10.1016/j.corcom.2022.06.004,Table4: electrochemical parameters; preparation Section2.1; electrochemical Section2.4,PDP-linked continuous immersion duration not verified; missing is not zero
+GCr23_quenched_tempered_0,GCr23,10.1016/j.corcom.2022.06.004,Table4: electrochemical parameters; preparation Section2.1; electrochemical Section2.4,PDP-linked continuous immersion duration not verified; missing is not zero
+GCr23_quenched_tempered_1,GCr23,10.1016/j.corcom.2022.06.004,Table4: electrochemical parameters; preparation Section2.1; electrochemical Section2.4,PDP-linked continuous immersion duration not verified; missing is not zero
+Al10_26_0_pre72h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_0_pre120h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_0_pre168h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_0_pre216h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_1_pre72h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_1_pre120h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_1_pre168h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_1_pre216h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_2_pre72h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_2_pre120h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_2_pre168h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+Al10_26_2_pre216h,Al10_26,10.13228/j.boyuan.issn1006-9356.20250594,Table3 p122; composition Table1 p119; PDP Sec1.3; pre-exposure Sec1.2,Cyclic wet/dry elapsed time; retained only in noncontinuous auxiliary dataset
+La24Q355_verified_0,La24Q355,10.3390/ma17184467,Table2 p12; Table1 p2; Sec2.1/2.4 and3.6,PDP-linked continuous immersion duration not verified; missing is not zero
+La24Q355_verified_1,La24Q355,10.3390/ma17184467,Table2 p12; Table1 p2; Sec2.1/2.4 and3.6,PDP-linked continuous immersion duration not verified; missing is not zero
+La24Q355_verified_2,La24Q355,10.3390/ma17184467,Table2 p12; Table1 p2; Sec2.1/2.4 and3.6,PDP-linked continuous immersion duration not verified; missing is not zero
+La24Q355_verified_3,La24Q355,10.3390/ma17184467,Table2 p12; Table1 p2; Sec2.1/2.4 and3.6,PDP-linked continuous immersion duration not verified; missing is not zero
+La24Q355_verified_4,La24Q355,10.3390/ma17184467,Table2 p12; Table1 p2; Sec2.1/2.4 and3.6,PDP-linked continuous immersion duration not verified; missing is not zero

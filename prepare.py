@@ -1,7 +1,7 @@
 import pathlib,json,csv,math
 HERE=pathlib.Path(__file__).resolve().parent
 def prepare():
- d=json.loads((HERE/'data/input_snapshot.json').read_text(encoding='utf8'))
+ d=json.loads((HERE/'data/sources/input_snapshot.json').read_text(encoding='utf8'))
  with (HERE/'data/training_51.csv').open(encoding='utf-8-sig',newline='') as f:raw=list(csv.DictReader(f))
  rows=[];ids=set()
  for i,r in enumerate(raw,2):

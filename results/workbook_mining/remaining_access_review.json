@@ -1,0 +1,115 @@
+[
+  {
+    "paper_number": 1,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.1515/rams-2022-0284",
+    "final_url": "https://www.degruyterbrill.com:443/document/doi/10.1515/rams-2022-0284/html",
+    "response_bytes": 0
+  },
+  {
+    "paper_number": 5,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.1016/j.jmrt.2025.04.303",
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S223878542501124X",
+    "response_bytes": 2729
+  },
+  {
+    "paper_number": 10,
+    "access_status": "no_public_source_identifier",
+    "requested_url": null
+  },
+  {
+    "paper_number": 14,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.1088/2053-1591/acc236",
+    "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=af2aa7f1-db97-4c08-99b0-91128132fcb7&ssb=25580247322&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F2053-1591%2Facc236&ssi=8c771263-cnvj-413e-a8b8-168e99418b5c&ssk=botmanager_support@radware.com&ssm=74936106747731660103453953966533&ssn=6850a63064c4055a238b1c46be81622e63fce5a706da-e3e6-4285-841e35&sso=0fe94fe4-4014cef97349feab60c1a786dbb6235d493562612ae27c16&ssp=08986562391791744683179176288204553&ssq=83862259501603994612195016361577100503919&ssr=MTE4LjEyOS42My4xNzM=&sst=Mozilla/5.0&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBlNWE3MDZkYS1lM2U2LTQyODUtOGZlNC00MDE0Y2VmOTczNDkxLTE3OTE3OTUwMTY5MzQwLTAwNWVlY2IwNTU1YzQzMTVkNzkxMCIsInV6bXgiOiI3ZmMwMDA4ZDNlMGY2Yy1jOWFiLTQ0NWYtODc4MC01NjlhYzM2MDYyMjUxLTE3OTE3OTUwMTY5MzQwLTAwOTkzNDYyOGRhOWVlNzVjZTQxMCIsInJkIjoiaW9wLm9yZyJ9",
+    "response_bytes": 14371
+  },
+  {
+    "paper_number": 15,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.1515/htmp-2020-0001",
+    "final_url": "https://www.degruyterbrill.com/document/doi/10.1515/htmp-2020-0001/html",
+    "response_bytes": 0
+  },
+  {
+    "paper_number": 22,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.1533/9780081002254.380",
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/B9780081002032500760",
+    "response_bytes": 2742
+  },
+  {
+    "paper_number": 23,
+    "access_status": "retrieval_failed",
+    "requested_url": "https://doi.org/10.1080/00084433.2026.2656834",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "paper_number": 25,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.1515/htmp-2017-0094",
+    "final_url": "https://www.degruyterbrill.com/document/doi/10.1515/htmp-2017-0094/html",
+    "response_bytes": 0
+  },
+  {
+    "paper_number": 27,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.7449/2019/MST_2019_122_129",
+    "final_url": "https://www.tms.org/membercontent/pdf2/mst_2019_122_129.pdf",
+    "response_bytes": 841356
+  },
+  {
+    "paper_number": 28,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.1088/2053-1591/ac2343",
+    "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=7d7704dd-550f-458e-89dc-f2ccf54c8d09&ssb=12518200483&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F2053-1591%2Fac2343&ssi=4be46355-cnvj-4b67-96bf-bfc180a2152b&ssk=botmanager_support@radware.com&ssm=55021000070388387100237202366954&ssn=8168b7ae86a7a2d6bdf65b3b11163f01f1d5d8dbe720-ede9-4379-bc1fb5&sso=3dd14124-1cf90a58bfb5c886a071c2d9fa09b78c3c464b29cc3fa16d&ssp=38300744801791716630179177173428524&ssq=54821999501730916783595017554968511681326&ssr=MTE4LjEyOS42My4xNzM=&sst=Mozilla/5.0&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwMmIxYjBlOGYtY2JmMy00Y2I1LWI1MjMtNjNmZjkxZWVlYjg5MS0xNzkxNzk1MDE3MTgzMC0wMDk0ZjZiODM4NmZiNzViODNiMTAiLCJfX3V6bWYiOiI3ZjkwMDBkOGRiZTcyMC1lZGU5LTQzNzktYjEyNC0xY2Y5MGE1OGJmYjUxLTE3OTE3OTUwMTcxODQwLTAwNWFiYjUzMmViMmU2NjhlOWUxMCIsInJkIjoiaW9wLm9yZyJ9",
+    "response_bytes": 14371
+  },
+  {
+    "paper_number": 29,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.1016/j.scriptamat.2006.07.016",
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1359646206004908",
+    "response_bytes": 2733
+  },
+  {
+    "paper_number": 35,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.11973/fsyfh-202403006",
+    "final_url": "https://fsyfh.mat-test.com/cn/article/doi/10.11973/fsyfh-202403006",
+    "response_bytes": 355306
+  },
+  {
+    "paper_number": 38,
+    "access_status": "retrieval_failed",
+    "requested_url": "https://www.sciencedirect.com/science/article/pii/S2238785425009962",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "paper_number": 40,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.3969/j.issn.1674-165X.2024.02.015",
+    "final_url": "https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI2MTAwOTA4MDAzMRIRanhnci1yamcyMDI0MDIwMTUaCGhyZ2JqMTNl",
+    "response_bytes": 168407
+  },
+  {
+    "paper_number": 44,
+    "access_status": "no_public_source_identifier",
+    "requested_url": null
+  },
+  {
+    "paper_number": 48,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.1088/2053-1591/ac80a1",
+    "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=032a09a0-cfa9-47a6-9a1c-69968c7e9e43&ssb=22181231087&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F2053-1591%2Fac80a1&ssi=499585af-cnvj-4dd0-a4d4-e425b534501b&ssk=botmanager_support@radware.com&ssm=60319943656978009102603727034723&ssn=a6876c92669a2cb662d388f7d9c2bfe26669a67a325d-7278-4b64-bc7e0c&sso=9713b2ac-777859c3d5ab7515c9a7e84fce9e776c0db0a6d8c33c1236&ssp=76461749881791791610179174310171387&ssq=54422239501872789808295018028932374562099&ssr=MTE4LjEyOS42My4xNzM=&sst=Mozilla/5.0&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBhNjdhMzI1ZC03Mjc4LTRiNjQtYjJhYy03Nzc4NTljM2Q1YWIxLTE3OTE3OTUwMTgwMjcwLTAwNWY4NWYzNGFlYjViOWFhMzQxMCIsInV6bXgiOiI3ZmMwMDBmMThlN2UyYS1hOWQxLTQ1MTAtYTBjYS1iZjc2NDQ4ZDAzMmQxLTE3OTE3OTUwMTgwMjcwLTAwOTMxNTE4MzFmMDNkN2FjMjYxMCIsInJkIjoiaW9wLm9yZyJ9",
+    "response_bytes": 14371
+  },
+  {
+    "paper_number": 49,
+    "access_status": "landing_page_or_document_retrieved_not_table_verified",
+    "requested_url": "https://doi.org/10.1515/htmp-2014-0023",
+    "final_url": "https://www.degruyterbrill.com/document/doi/10.1515/htmp-2014-0023/html",
+    "response_bytes": 0
+  }
+]

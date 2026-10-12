@@ -1,0 +1,803 @@
+PAGE 1
+第 46 卷第 4 期
+2025 年 7 月
+Vol. 46. No. 4
+July 2025
+特殊钢
+SPECIAL STEEL
+稀土含量对316H耐热钢渗铬层摩擦与腐蚀
+性能的协同调控
+刘
+冀1， 高思琪1， 张
+阳1， 庞旭明1， 何晓东1， 张利琴1， 孙
+伟2
+（1 海洋关键材料全国重点实验室，中国科学院宁波材料技术与工程研究所，宁波 315201；
+2 中国科学院核用材料与安全评价重点实验室，沈阳 110016）
+摘 要：通过固体粉末包埋法开展氧化钇（Y2O3）含量对316H 耐热钢渗铬层摩擦学性能与耐腐蚀性能的影响研究。
+结果表明，稀土掺杂显著调控渗层形成过程，当w［Y2O3］为4% 时，渗层厚度达最大值143. 78 μm，较未添加组提升
+10. 2%；稀土促进Cr₂C 相择优生长，w［Y2O3］为2% 时，表面显微维氏硬度提升至656HV，摩擦系数降低至0. 355（降
+幅52. 7%），磨损率减少74. 5%。稀土通过加速铬扩散、细化晶粒及调控相组成优化渗层性能。然而，其作用存在
+浓度阈值：过量w［Y2O3］（>4%）不仅大量消耗催化剂，降低活性铬原子扩散动力，而且增加表面粗糙度（Ra=235. 4 nm），
+劣化摩擦学性能。此外，因Y2O3添加导致晶界出现贫铬现象，对耐蚀性呈现负面影响。本研究为稀土改性的渗铬
+工艺优化提供了理论依据，对开发高耐磨、低摩擦的表面强化技术具有重要意义。
+关键词：稀土掺杂； 渗铬工艺； 耐摩擦； 耐腐蚀
+DOI:10. 20057/j. 1003-8620. 2025-00093  中图分类号：TG178
+Synergistic Regulation of Rare Earth Content on the 
+Tribological and Corrosion Performance of Chromium 
+Infiltration Layers in 316H Heat-Resistant Steel
+Liu　Ji1， Gao　Siqi1， Zhang　Yang1， Pang　Xuming1， He　Xiaodong1， Zhang　Liqin1， Sun　Wei2
+（1 State Key Laboratory of Advanced Marine Materials， Ningbo Institute of Materials Technology and Engineering， 
+Chinese Academy of Sciences， Ningbo 315201， China；2 Key Laboratory of Nuclear Materials and Safety 
+Assessment， Chinese Academy of Sciences， Shenyang 110016， China）
+Abstract： This study investigates the effects of yttrium oxide （Y2O3） content on the tribological and corrosion resistance 
+properties of the chromium infiltration layer in 316H heat-resistant steel through the solid powder pack cementation 
+method. The results indicated that rare earth （Y2O3） doping significantly regulated the formation process of the infiltration 
+layer. When the w［Y2O3］ was 4%， the thickness of the infiltration layer reached a maximum value of 143. 78 μm， which 
+was 10. 2% higher than that of the undoped group. The rare earth Y2O3 promoted the preferential growth of the Cr₂C phase. 
+When the w［Y2O3］ was 2%， the surface micro-Vickers hardness （HV） was enhanced to 656HV， the friction coefficient 
+was reduced by 52. 7% （to 0. 355）， and the wear rate was decreased by 74. 5%. The properties of the infiltration layer 
+were optimized by rare earth through accelerating chromium diffusion， refining grains， and regulating phase composition. 
+However， there was a concentration threshold for its effect： excessive w［Y2O3］ （>4%） not only consumed a large amount 
+of catalyst， reduced the diffusion driving force of active chromium atoms， but also increased the surface roughness （Ra=
+235. 4 nm） and deteriorated the tribological properties. Additionally， the chromium-depleted phenomenon at the grain 
+boundaries caused by Y2O3 addition had a negative impact on corrosion resistance. This research provides a theoretical ba⁃
+sis for optimizing the rare earth modified chromium infiltration process ， which is of great significance for developing sur⁃
+face strengthening technologies with high wear resistance and low friction.
+Key Words： Rare Earth Doping； Chromium Infiltration Process； Wear Resistance； Corrosion Resistance
+随着现代工业对材料表面性能要求的不断提
+高，渗金属技术因其能在基体表面形成具有优异耐
+磨性、耐蚀性和高温抗氧化性的强化层而备受关
+注［1］。渗铬处理通过向316H 耐热钢表面扩散铬元
+素形成高硬度的碳化物层，显著提升其服役性能，
+广泛应用于反应堆栅板联箱、堆芯支撑及控制棒驱
+基金项目： 中核集团领创科研项目；国家自然科学基金项目（No. U23A6016, No. 52301119）；科技创新2025重大专项（宁波市重大科技任
+务攻关项目）（2022Z199）
+作者简介： 刘
+冀（1990—），男，博士，工程师；
+E-mail：liuji0622@nimte.ac.cn；  收稿日期： 2025-04-10
+通信作者： 张
+阳（1998—），男，硕士；
+E-mail：zhangyang1998@nimte.ac.cn
+·
+·179
+
+PAGE 2
+第 46 卷 
+特殊钢
+动机构等核电装备［2-5］。传统渗铬工艺存在渗速慢、
+渗层均匀性差等问题，制约了其在高精度部件中的
+应用［6］。近年来，稀土元素因其独特的催化活性与
+晶界净化作用［7-9］，被引入渗金属工艺中，成为优化
+渗层质量的重要研究方向［10-11］。
+稀土元素以其大原子尺寸、高化学活性等特
+点，通过降低活化能、促进扩散动力学及细化晶
+粒等机制改善渗层性能［12-14］。宋月鹏等通过DSC
+分析发现，Y2O3 的加入使渗铝反应活化能降低
+28%，扩散系数提高1.5 倍［15］。Kasinska 等［16-18］在
+渗硼剂中添加氧化铈后，渗层厚度增加约30%。
+Lin 等［19］在P110 钢渗铬中发现，2%w［La］可使渗
+层厚度最大化，而超过4% 时渗速显著下降。显
+然，稀土的作用具有浓度依赖性，过量添加可能
+降低渗层厚度，阻碍扩散进程。稀土元素在细化
+晶粒与组织调控方面也表现出显著优势，进而影
+响材料的耐磨性能与耐蚀性能。Riviere 等［20］在
+Cr-Mo 钢中添加稀土后，渗层晶粒尺寸从80 μm
+细化至35 μm，并促进Cr2C 相的择优生长。胡星
+发现，稀土掺杂使渗铬层硬度从HV580 提升至
+HV650，并通过细化Cr2C 晶粒减少犁沟效应，提升
+耐磨性［21-22］。在腐蚀性能方面，张金柱等指出，稀
+土可与S、P 等杂质元素结合形成高熔点化合物，
+减少晶界偏聚，从而提升涂层的抗腐蚀性能［23］。
+江静华等［24］指出，稀土通过抑制晶界碳化物析
+出，可将腐蚀电流密度降低50% 以上。然而，现
+有研究针对316H 耐热钢渗铬层稀土掺杂的浓度
+阈值尚未形成统一结论［25］，稀土掺杂的浓度对渗
+层厚度［26］、性能的影响［27］与基体成分［28］、渗剂配
+比［29］及工艺参数［30］密切相关，需通过系统实验进
+一步揭示其内在规律［31-32］。本研究旨在通过研究
+稀土含量对316H 耐热钢渗铬层的摩擦与腐蚀性
+能的影响，从而阐明摩擦与腐蚀性能的协同调控
+机制。
+以316H 耐热钢为研究对象，采用固体粉末包
+埋法，在渗铬剂中梯度掺杂氧化钇（0~10%），系统探
+究稀土含量对渗铬层微观结构、力学性能、耐磨性
+以及耐蚀性的影响。通过扫描电镜（SEM）、X 射线
+衍射（XRD）、维氏硬度测试及电化学分析等手段，
+揭示稀土掺杂对渗层组织的调控作用，明确最佳稀
+土添加量。本研究旨在为高性能渗铬层的可控制
+备提供理论依据，推动稀土改性技术在表面工程领
+域的应用发展。
+1　实验方法与步骤
+1. 1　材料与试样制备
+实验选用316H 耐热钢（见表1）作为基体材料，
+切割为尺寸20 mm×10 mm×2 mm的片状试样。由表
+2 可知，渗铬剂由铬粉（99.9% 纯度）、氧化铝粉
+（Al2O3，200 目）、碘化铵（NH4I，分析纯）及氧化钇
+（Y2O3，99.99%）组成，各组分配比为49% Cr+49% 
+Al2O3+2% NH4I+Y2O3（含量梯度为0、2%、4%、6%、
+8%、10%）。试样经800#~2000#砂纸逐级打磨后，依
+次采用丙酮、乙醇超声清洗10 min 以去除表面污染
+物，干燥后备用。
+1. 2　渗铬工艺设计
+采用固体粉末包埋法实施真空渗铬工艺，实验
+流程为：首先依据表2所示化学配比，使用分析天平
+精确称取渗铬剂各组分（纯度≥99.9%），经行星式球
+磨机（QM-3SP04 型）进行2 h 球磨处理（球磨机转速
+设定为300 r/min）以实现组分的纳米级均匀混合。
+随后将预处理后的316H 耐热钢试样完全埋入渗铬
+剂中，置于高纯刚玉坩埚（w［Al2O3］≥99.7%）内并采
+用真空封泥进行气密性封装，将装配完成的坩埚移
+入GSL-1700X 型真空管式炉，通过分子泵机组将系
+统真空度抽至5×10-3 Pa 后，以10 ℃/min 的升温速率
+程序升温至目标温度1 100 ℃，在氩气保护气氛（纯
+度99.999%）下进行30 h 恒温渗铬处理，处理结束后
+执行梯度降温程序（降温速率≤5 ℃/min）至室温（见
+表3）。最终取出渗铬试样，使用硬质合金刮刀清除
+试样表面残余渗铬剂，经无水乙醇超声清洗15 min
+表1　316H耐热钢的化学成分表（质量分数）
+Table 1　Chemical composition of 316H heat-resistant 
+steel
+%    
+C
+0.03
+N
+0.10
+S
+0.75
+Mn
+2.00
+P
+0.035
+S
+0.015
+Ni
+11.00
+Cr
+8.00
+Mo
+2.00
+Fe
+余量
+表2　渗铬剂配比与实验分组（质量分数）
+Table 2　Formulation ratios of chromizing agents and ex⁃
+perimental groups
+%    
+组号
+1
+2
+3
+4
+5
+6
+Cr
+49
+49
+49
+49
+49
+49
+Al2O3
+49
+47
+45
+43
+41
+39
+NH4I
+2
+2
+2
+2
+2
+2
+Y2O3
+0
+2
+4
+6
+8
+10
+试样代号
+316H-Cr-0%REO
+316H-Cr-2%REO
+316H-Cr-4%REO
+316H-Cr-6%REO
+316H-Cr-8%REO
+316H-Cr-10%REO
+·
+·180
+
+PAGE 3
+第 4 期
+刘
+冀等：稀土含量对316H耐热钢渗铬层摩擦与腐蚀性能的协同调控
+后，置于DHG-9070A 型真空干燥箱中于80 ℃恒温
+干燥2 h，保存于干燥器中备检。
+1. 3　表征与性能测试
+采用场发射扫描电子显微镜（FE-SEM，Hitachi 
+SU8010）表征渗层截面形貌及表面微结构，耦合能
+谱分析系统（EDS）进行元素面分布测定。渗层厚度
+经ImageJ 图像分析软件对SEM 显微照片进行数字
+化处理，每组试样在正交方向选取10个特征点测量
+后取算术平均值。物相组成分析采用高分辨X射线
+衍射仪（XRD，Rigaku SmartLab），实验参数设定为：
+Cu-Kα 辐射源（λ=0.154 06 nm），扫描角域20°~80°，
+步进扫描模式（step size 0.02°）。显微硬度测试通过
+自动维氏硬度计（FM-700）完成，测试条件为试验力
+1 000 gf、保载时间15 s，采用随机网格法在试样表
+面选取10 个检测点，最终数据以均值±标准差形式
+呈现。摩擦学性能评估在球-盘式摩擦磨损试验机
+（UMT-5）上完成，选用直径ϕ6 mm 的Si3N4陶瓷球作
+为对磨副，设定接触载荷1 N、往复频率2 Hz、持续
+时长3 600 s。磨损率通过Archard 修正公式计算：
+W=V/（F·L），式中V 为磨痕体积（mm3），F 为法向载
+荷（N），L 为总滑动距离（m）。电化学测试采用三电
+极体系，在3.5%w［NaCl］电解液中进行，以饱和甘汞
+电极（SCE）为参比电极、铂片为辅助电极，使用
+CHI760E 型电化学工作站记录开路电位（OCP）及动
+电位极化曲线（扫描速率1 mV/s）。
+2　结果与讨论
+2. 1　物相组成与硬度
+图1 为316H-Cr-0%REO、316H-Cr-2%REO、
+316H-Cr-4%REO、
+316H-Cr-6%REO、
+316H-Cr-
+8%REO、316H-Cr-10%REO 六种试样的X 射线衍射
+图谱。可以发现，渗铬后样品表面的主要物相包括
+富Cr 相和铬碳化合物相。其中，316H-Cr-0%REO
+样品渗铬层的主要物相是Cr23C6和富Cr相。渗铬剂
+中加入稀土元素后，渗铬层主要物相变为Cr23C6、富
+Cr 相和Cr2C。且从X 射线衍射谱图中可以看出，加
+入稀土后，随着稀土含量的增加，C23C6衍射峰的峰
+强逐渐减小，Cr2C相的峰强逐渐增加，渗铬层表面的
+主要物相逐渐变为Cr2C，说明稀土对于Cr2C 的结晶
+性有所提高。在渗铬的化学热处理过程中，试样表
+面富集的Cr元素降低了该区域的碳势，导致基体内
+部存在碳元素的上坡扩散［33］，致使试样表面的碳含
+量增加，此时，表面铬元素的含量较高，铬原子易与
+碳原子进行结合，所以形成了较多铬碳化合物
+相［34］。而稀土元素的加入，进一步促进了化学热处
+理过程中试样表面活性Cr 原子吸附与Cr 元素浓
+度［35］，改变了铬碳化合物相的热力学生成条件，促
+进了渗铬层内Cr2C相的择优生长。
+图2 为316H-Cr-0%REO、316H-Cr-2%REO、
+316H-Cr-4%REO、
+316H-Cr-6%REO、
+316H-Cr-
+8%REO、316H-Cr-10%REO 六种试样在1 000 gf 条
+件下的维氏硬度变化曲线。通过渗铬化学热处理，
+样品的表面硬度相较于原始基体材料的硬度均得
+到了大幅提升。经测试，316H 耐热钢、316H-Cr-
+0%REO、316H-Cr-2%REO、316H-Cr-4%REO、316H-
+Cr-6%REO、316H-Cr-8%REO、316H-Cr-10%REO 七
+种试样的平均维氏硬度分别为192.8、630.8、656、
+643.1、632.6、647.2、642.9。与316H 耐热钢相比，
+316H-Cr-0%REO 表面平均硬度是316H 的3.27 倍。
+添加稀土后，试样的表面平均硬度相比未加稀土的
+样品316H-Cr-0%REO均得到了提高，但是没有得到
+较大的提升，通过将结果进行对比后，其中，316H-
+表3　316H耐热钢稀土掺杂渗铬试验工艺表
+Table 3　Process parameters for rare-earth-doped chro⁃
+mizing treatment of 316H heat-resistant steel
+组号
+1
+2
+3
+4
+5
+6
+渗铬剂配比
+49%Cr+49%Al2O3+2%NH4I+0%REO
+49%Cr+49%Al2O3+2%NH4I+2%REO
+49%Cr+49%Al2O3+2%NH4I+4%REO
+49%Cr+49%Al2O3+2%NH4I+6%REO
+49%Cr+49%Al2O3+2%NH4I+8%REO
+49%Cr+49%Al2O3+2%NH4I+10%REO
+保温时
+间/h
+30
+30
+30
+30
+30
+30
+渗铬温
+度/℃
+1 100
+1 100
+1 100
+1 100
+1 100
+1 100
+图1　六种试样的X射线衍射图
+Fig. 1　X-ray diffraction （XRD ） patterns corresponding to 
+the six investigated specimens
+·
+·181
+
+PAGE 4
+第 46 卷 
+特殊钢
+Cr-2%REO稀土含量的试样硬度最高，硬度是316H-
+Cr-0%REO 的1.04 倍，提升了4%。随着稀土含量的
+增加，试样硬度有所下降，10%w［Y2O3］的试样表面
+硬化效果不明显。可见，渗铬剂中氧化钇的添加可
+提高316H 耐热钢渗铬层表面的平均硬度，并降低
+其波动范围，当渗铬剂中w［Y2O3］为2% 时，316H 耐
+热钢渗铬层的表面平均硬度提高得最为明显。由X
+射线衍射图可知，w［Y2O3］为2% 时，Cr2C 相峰强最
+强且相对含量较多，结晶性也比较好，有利于提高
+表面硬度，其余稀土含量试样的Cr2C 结晶性相对较
+差，所以，硬度值相对较低。
+3. 2　渗层形貌与厚度
+图3 展示了316H-Cr-0%REO、316H-Cr-
+2%REO、316H-Cr-4%REO、316H-Cr-6%REO、316H-
+Cr-8%REO、316H-Cr-10%REO 六种试样的纵截面微
+观形貌。由图3 可见，制备的渗铬层与基体间存在
+明显分界线，亮白色区域为渗铬层，其余部分为基
+体，左侧黑色区域为树脂镶嵌材料。在不同稀土含
+量条件下，对316H 耐热钢表面进行渗铬热处理后，
+均在其表面生成了均匀且致密的渗铬层。该渗铬
+层与基体结合紧密，结合界面呈直线状，分布均匀。
+通过对六组不同稀土含量条件下的截面扫描电镜
+照片进行对比分析发现，随着渗铬剂中氧化钇含量
+增加，渗层均匀性有所提高；但当稀土含量增加到
+一定程度时，渗层表面的完整性与均匀性均出现下
+降趋势。
+图4 为316H-Cr-0%REO、316H-Cr-2%REO、
+316H-Cr-4%REO、
+316H-Cr-6%REO、
+316H-Cr-
+8%REO、316H-Cr-10%REO 六种试样表面的扫描电
+图2　六种试样的维氏硬度图
+Fig. 2　Vickers hardness profiles of the six specimens
+图3　六种试样的渗铬层截面扫描电子显微镜图：（a）316H-Cr-0%REO，（b）316H-Cr-2%REO，（c）316H-Cr-4%REO，（d）
+316H-Cr-6%REO，
+（e）316H-Cr-8%REO，
+（f）316H-Cr-10%REO
+Fig. 3　The cross-sectional scanning electron microscopy （SEM） images of the chromium diffusion layers in the six specimens ： （a） 
+316H-Cr- 0%REO， （b） 316H-Cr-2%REO， （c） 316H-Cr-4%REO， （d） 316H-Cr-6%REO， （e） 316H-Cr-8%REO， （f） 316H-
+Cr-10%REO
+·
+·182
+
+PAGE 5
+第 4 期
+刘
+冀等：稀土含量对316H耐热钢渗铬层摩擦与腐蚀性能的协同调控
+子显微镜图。分析可知，通过渗铬热处理后，渗铬
+层表面情况得到了较大改善，且加入氧化钇后，渗
+铬剂粉末的粘结情况也得到了较大改善。由图4可
+以观察到，316H-Cr-0%REO 样品表面较为疏松且晶
+界之间缝隙很大，晶界杂乱且不规律，晶界处有少
+量的铬碳化合物析出。渗铬剂中添加氧化钇之后，
+316H-Cr-2%REO、
+316H-Cr-4%REO、
+316H-Cr-
+6%REO、316H-Cr-8%REO、316H-Cr-10%REO 五组
+样品的表面都得到了改善，晶界均匀，且没有了表
+面出现空洞的情况，加入氧化钇后，样品表面晶界
+处都析出了较多的枝晶状化合物。其中，在扫描电
+子显微镜相同倍数的照片下可以看出，316H-Cr-
+2%REO渗铬层表面晶界析出的化合物较多，并且可
+通过对比发现，316H-Cr-2%REO 渗铬层表面的晶粒
+尺寸变小，得到了一定程度的细化，且析出的铬碳
+化合物分布均匀、致密，表面洁净。随着稀土含量
+进一步增加，316H-Cr-4%REO、316H-Cr-6%REO、
+316H-Cr-8%REO、316H-Cr-10%REO 渗铬层表面的
+晶界间析出逐渐减少，且表面晶粒尺寸呈现增加
+趋势。
+表4 为使用表面轮廓仪进行测量的316H-Cr-
+0%REO、316H-Cr-2%REO、316H-Cr-4%REO、316H-
+Cr-6%REO、316H-Cr-8%REO、316H-Cr-10%REO 六
+组试样的平均表面粗糙度数值。由表4 可见，渗铬
+剂中加入较低含量的稀土元素后，表面粗糙度可得
+到降低，但是当渗铬剂中稀土含量继续增加时，表
+面粗糙度逐渐变大，甚至大于未加稀土进行渗铬的
+试样。相比于未加稀土的渗铬剂，当加入一定稀土
+氧化物时，渗铬完成后的渗铬剂粉末粘结程度得到
+了改善，但是当稀土含量由4 %继续增加时，渗铬剂
+粉末的粘结严重，结块较多，增加了试样的表面粗
+糙度。
+图5 为316H-Cr-0%REO、316H-Cr-2%REO、
+316H-Cr-4%REO、
+316H-Cr-6%REO、
+316H-Cr-
+8%REO、316H-Cr-10%REO 六种试样的渗层厚度曲
+线图。渗层厚度是通过显微标尺进行测量后得出
+图4　扫描电子显微镜下六种试样的表面微观形貌图及取样位置元素分布：
+（a）316H-Cr-0%REO，
+（b）316H-Cr-2%REO，
+（c）
+316H-Cr-4%REO，（d）316H-Cr-6%REO，（e）316H-Cr-8%REO，（f）316H-Cr-10%REO，（a1）图（a）中Cr 元素分布，（a2）
+图（a）中C元素分布
+Fig. 4　The surface micro-morphology of the six specimens under SEM and elemental distribution at sampling positions： （a） 316H-
+Cr-0%REO， （b） 316H-Cr-2%REO， （c） 316H-Cr-4%REO， （d） 316H-Cr-6%REO， （e） 316H-Cr-8%REO， （f） 316H-Cr-
+10%REO， （a1） distribution of Cr elements in Figure （a）， （a2） distribution of C elements in Figure （a）
+·
+·183
+
+PAGE 6
+第 46 卷 
+特殊钢
+的结果。由图5可知，加入稀土元素后，渗铬层的厚
+度均得到了增加。未加入稀土元素时，316H-Cr-
+0%REO 样品渗铬层平均厚度为130.45 μm，加入
+2%w［Y2O3］时，316H-Cr-2%REO 样品渗铬层平均厚
+度为138.99 μm，相较于316H-Cr-0%REO 样品平均
+厚度增加了6.5%；加入4%w［Y2O3］时，316H-Cr-
+4%REO 样品渗铬层平均厚度为143.78 μm，相较于
+316H-Cr-0%REO 样品平均厚度增加了10.2%；加入
+6%w［Y2O3］时，316H-Cr-6%REO 样品渗铬层平均厚
+度为141.76 μm，相较于316H-Cr-0%REO 样品平均
+厚度增加了8.7%；加入8%w［Y2O3］时，316H-Cr-
+8%REO 样品渗铬层平均厚度为134.17 μm，相较于
+316H-Cr-0%REO 样品平均厚度增加了6.5%；加入
+10%w［Y2O3］时，316H-Cr-10%REO 样品渗铬层平均
+厚度为133.32 μm，相较于316H-Cr-0%REO 样品平
+均厚度增加了2.9%。随着渗铬剂中稀土含量的增
+加，渗铬层的厚度呈现了先增加后减少的趋势。
+即，当w［Y2O3］为4% 时，渗铬层厚度达到了峰值。
+这表明，稀土对促进渗铬层厚度的增加是有限度
+的。添加的稀土元素以氧化物形式存在，在高温渗
+铬过程中，氧化钇与碘化铵分解的碘化氢反应，生
+成稀土离子，并与活性氮原子化合生成小尺寸的稀
+土-氮化合物，进而扩散至试样表面与内部基体，起
+到增加活性Cr原子吸附率、提高试样表面Cr元素化
+学势与扩散驱动力等促渗作用［36］。因碘化铵也是
+活性Cr原子生成的重要催化剂，当稀土氧化物含量
+过量时，势必会过量消耗碘化铵，导致活性Cr 原子
+的生成效率下降，进而阻碍了渗铬层的促渗速率，
+甚至导致渗铬层厚度下降［37］。高温渗铬过程中化
+学热处理反应的情况如式（1）～式（5）。
+NH4I →NH3 + HI
+（1）
+2NH3 →N2 + 3H2
+（2）
+Cr + 2HI →CrI2 + H2
+（3）
+CrI2 + H2 →2HI + [ Cr ]
+（4）
+CrI2 + M →MI2 + [ Cr ]
+（5）
+式中，Cr 为渗铬剂中的单质铬粉，[ Cr ]为高温化学
+反应置换获得的活性铬原子，M 为待渗样品基材
+金属。
+3. 3　摩擦磨损性能
+通过球-盘式摩擦仪系统，评估稀土元素种类对
+渗铬层摩擦磨损性能的影响。图6为不同稀土含量
+渗铬层的平均摩擦系数与磨损率变化趋势。未添
+加稀土的316H-Cr-0%REO 试样平均摩擦系数为
+0.750，磨损率达5.615×10-4 mm3/（N·m）。当w［Y2O3］
+为2% 时，摩擦系数骤降至0.355（降幅52.7%），磨损
+率同步降低至1.434×10-4 mm3/（N·m），降幅达
+74.5%，显示最优摩擦学性能。进一步增加w［Y2O3］
+至4%时，摩擦系数回升至0.591，磨损率增至2.615×
+10-4 mm3/（N·m），表明稀土的协同作用存在浓度阈
+值。当w［Y2O3］超过4% 后，摩擦系数与磨损率均呈
+现上升趋势，10% w［Y2O3］稀土组的摩擦系数
+（0.732）与磨损率（4.037×10-4 mm3/（N·m））已接近未
+掺杂组水平。
+磨痕形貌分析揭示了摩擦学性能差异的微观
+机制。图7 为316H-Cr-0%REO、316H-Cr-2%REO、
+316H-Cr-4%REO、
+316H-Cr-6%REO、
+316H-Cr-
+8%REO、316H-Cr-10%REO 六种试样磨痕的扫描电
+子显微镜全貌、微观形貌以及采用台阶仪测试后的
+磨痕轮廓图。可以发现，未掺杂组的磨痕较宽、深
+度较深，其磨痕表面存在显著犁沟与碎屑堆积，这
+表明磨损方式以黏着磨损与磨粒磨损为主导。加
+入稀土元素后，五组试样黏着磨损和磨粒磨损的情
+况均得到了改善。2%w［Y2O3］稀土组磨痕宽度
+（400 μm）与深度（5.2 μm）显著减小，见表5，表面光
+图5　六种试样的渗铬层厚度变化曲线图
+Fig. 5　The thickness variation curves of the chromium diffu⁃
+sion layers across the six specimen groups
+表4　六组试样的表面粗糙度数值
+Table 4　Surface roughness values of the six specimen 
+groups
+试样编号
+316H-Cr-0%REO
+316H-Cr-2%REO
+316H-Cr-4%REO
+316H-Cr-6%REO
+316H-Cr-8%REO
+316H-Cr-10%REO
+表面粗糙度Ra/nm
+153.3
+84.54
+120.7
+169.8
+168.8
+235.4
+·
+·184
+
+PAGE 7
+第 4 期
+刘
+冀等：稀土含量对316H耐热钢渗铬层摩擦与腐蚀性能的协同调控
+滑且无明显塑性变形，这种现象一方面归因于稀土
+细化晶粒的作用，提高了涂层表面的机械性能，降
+低了磨损率；另一方面，稀土掺杂通过促进Cr₂C 相
+形成提升硬度与降低表面能，从而减少摩擦阻力。
+当w［Y2O3］≥4% 时，试样的磨痕表面均出现了磨屑
+被碾压的痕迹，且存在明显的犁沟与剥落坑，磨损
+机制向磨粒磨损与轻微黏着磨损转变。且过量稀
+土可能导致活性Cr原子集中吸附在材料表面，虽然
+提高了渗铬层厚度，但也增加了其表面粗糙度，反
+而加剧磨损过程。稀土掺杂通过调控渗层相组成
+与表面状态，显著改善316H 耐热钢的摩擦学性能，
+其最优w［Y2O3］为2%，此时，摩擦系数与磨损率分
+图6　六种试样的平均摩擦系数图与平均磨损率变化曲线图：
+（a）平均摩擦系数，
+（b）平均磨损率
+Fig. 6　Graph of average friction coefficient and graph of average wear rate variation of six specimens groups ： （a） average friction co⁃
+efficient， （b） average wear rate curves.
+图7　六组试样在1N，2 Hz，3600 s 摩擦条件下的磨痕扫描电子显微镜形貌以及磨痕轮廓图：
+（a）316H-Cr-0%REO，
+（b）316H-
+Cr-2%REO，
+（c）316H-Cr-4%REO，
+（d）316H-Cr-6%REO，
+（e）316H-Cr-8%REO，
+（f）316H-Cr-10%REO，
+（a1）-（f1）分别为
+取样位置放大形貌图
+Fig. 7　SEM morphologies and cross-sectional profiles of wear tracks generated of six specimens groups under controlled friction con⁃
+ditions （1 N load， 2 Hz frequency， 3600 s duration）： （a） 316H-Cr- 0%REO， （b） 316H-Cr-2%REO， （c） 316H-Cr-4%REO， 
+（d） 316H-Cr-6%REO， （e） 316H-Cr-8%REO， （f） 316H-Cr-10%REO，（a1）-（f1）high-magnification morphology images of the 
+sampling positions respectively.
+·
+·185
+
+PAGE 8
+第 46 卷 
+特殊钢
+别达到最小值0.355 与1.434×10-4 mm3/N·m。该研
+究结果为稀土改性渗铬工艺的工程化应用提供了
+关键参数依据。
+3. 4　耐蚀性分析
+采用开路电位（OCP）与极化曲线测试系统评估
+稀土掺杂渗铬层在3.5%w［NaCl］溶液中的电化学行
+为。图8展示了不同稀土含量试样的开路电位演变
+及极化曲线特征，表6 汇总了关键电化学参数。未
+掺杂组（316H-Cr-0%REO）的开路电位稳定在
+-0.231 8 V（vs. SCE），表明其表面形成了稳定的钝化
+膜。稀土掺杂后，开路电位呈现显著波动：2%~10% 
+w［Y2O3］稀土组的初始开路电位较未掺杂组负移
+0.20~0.30 V，且316H-Cr-6%REO组在测试初期出现
+短暂正移后持续下降，如图8 所示。这种现象归因
+于稀土促进晶界碳化物析出，导致晶界贫铬区形
+成，破坏了钝化膜的完整性。图8（b）显示六组试样
+极化曲线的差别，未掺杂组的腐蚀电流密度（Icorr）最
+低（6.094×10-9 A/cm2），而稀土掺杂组的Icorr 显著升
+高。其中，2%w［Y2O3］稀土组的Icorr为1.006×10-8 A/cm2，
+4%w［Y2O3］组增至5.296×10-8 A/cm2，6%w［Y2O3］组
+达到峰值1.822×10-8 A/cm2（较未掺杂组升高2.99
+倍）。这一趋势与开路电位测试结果一致，表明稀
+土掺杂削弱了渗铬层的耐蚀性。开路电位与极化
+曲线的关联性揭示了稀土掺杂的双重作用：稀土促
+进Cr2C相形成，如图4所示，导致晶界碳化物析出与
+贫铬区扩大，削弱了钝化膜的完整性，使开路电位
+负移。贫铬区作为微电池阳极优先溶解，显著提高
+Icorr。当w［Y2O3］超过4% 时，表面粗糙度恶化（Ra≥
+168.8 nm，见表4）进一步增大腐蚀活性位点，加剧局
+部腐蚀。
+图9 为316H-Cr-0%REO、316H-Cr-2%REO、
+316H-Cr-4%REO、
+316H-Cr-6%REO、
+316H-Cr-
+8%REO、316H-Cr-10%REO 六组试样在3.5%w
+［NaCl］溶液中的腐蚀微观形貌图。相比来说，
+316H-Cr-0%REO 试样表面相较于未测试前腐蚀不
+明显，晶界处腐蚀程度较小。其余316H-Cr-
+2%REO、316H-Cr-4%REO、316H-Cr-6%REO、316H-
+Cr-8%REO、316H-Cr-10%REO 五组试样晶界腐蚀较
+为严重。316H-Cr-2%REO、316H-Cr-4%REO、316H-
+Cr-6%REO、316H-Cr-8%REO、316H-Cr-10%REO 五
+表5　六种试样渗铬层磨痕宽度和深度
+Table 5　Wear scar width and depth of chromized layers 
+for six specimens groups
+试样编号
+316H-Cr-0%REO
+316H-Cr-2%REO
+316H-Cr-4%REO
+316H-Cr-6%REO
+316H-Cr-8%REO
+316H-Cr-10%REO
+宽度/μm
+800
+400
+600
+580
+690
+800
+深度/μm
+17.1
+5.2
+10.5
+8.7
+7.5
+7.0
+图8　六组试样在3. 5%w［NaCl］溶液中的开路电位变化曲线图与极化曲线图：
+（a）开路电位，
+（b）动电位极化曲线
+Fig. 8　The open circuit potential variation curves and polarization curves of six specimens groups in 3. 5% w［NaCl］ solution via ： 
+（a） open-circuit potential （OCP） evolution， （b） potentiodynamic polarization curves.
+表6　六组试样渗铬层腐蚀电位及腐蚀电流密度
+Table 6　Corrosion potential and corrosion current den⁃
+sity of chromized layers in six specimen groups
+试样编号
+Cr-0%REO
+Cr-2%REO
+Cr-4%REO
+Cr-6%REO
+Cr-8%REO
+Cr-10%REO
+腐蚀电位
+Ecorr /V
+-0.231 8
+-0.436 2
+-0.445 6
+-0.422 1
+-0.463 1
+-0.529 7
+腐蚀电流密度
+Icorr /(A·cm-2)
+6.094×10-9
+1.006×10-8
+5.296×10-8
+1.822×10-8
+1.114×10-8
+2.429×10-8
+·
+·186
+
+PAGE 9
+第 4 期
+刘
+冀等：稀土含量对316H耐热钢渗铬层摩擦与腐蚀性能的协同调控
+组试样表面都出现了不同程度的晶间腐蚀，由于晶
+界析出了大量的铬碳化合物，一方面造成铬元素含
+量在晶界降低，使得钝化能力降低；另一方面晶界
+碳化物与周围组织存在显著的结构差异，在腐蚀介
+质中导致电偶腐蚀，导致晶界以及晶界附近的贫铬
+区优先发生腐蚀和溶解，并破坏晶界钝化膜的完整
+性与耐蚀性，最终导致材料抗腐蚀性能严重
+降低［38］。
+4　结论
+1）稀土含量对渗铬层厚度及均匀性具有显著
+的调控作用：当渗铬剂中氧化钇含量为4% 时，渗层
+厚度达到最大值143.78 μm（较未添加组提升
+10.2%），但过量w［Y2O3］>4% 时因消耗大量催化剂，
+降低样品表面活性铬原子浓度，进而降低铬原子扩
+散化学势，导致渗层厚度下降，表明稀土作用存在
+浓度阈值。
+2）适量稀土掺杂显著提升渗铬层的表面硬度
+与摩擦学性能：添加2%w［Y2O3］时，渗层表面显微维
+氏硬度达656HV（提升4%），摩擦系数降低至0.355
+（降幅52.7%），磨损率减少74.5%，主要归因于Cr₂C
+相择优生长及晶粒细化；但w［Y2O3］超过4% 后，表
+面粗糙度恶化（Ra=235.4 nm），摩擦学性能增益
+减弱。
+3）稀土添加对耐蚀性呈现负面影响：未添加稀
+土的316H-Cr-0%REO 试样腐蚀电流密度最低
+（6.094×10-9 A/cm2），而稀土掺杂导致晶界贫铬区形
+成，6% 稀土组腐蚀电流密度升高一个数量级
+（1.822×10-8 A/cm2），表明稀土虽优化摩擦学性能，但
+需权衡其对耐蚀性的削弱效应。
+参考文献
+［1］ 张国良， 向文明， 刘志儒， 等. 稀土催渗技术与工艺［J］. 热处
+理技术与装备， 2009， 30（4）： 15-21.
+［2］ Zhang Z Y， Lu X C， Han B L， et al. Rare earth effect on the mi⁃
+crostructure and wear resistance of Ni-based coatings［J］. Materials 
+Science and Engineering： A， 2007， 454： 194-202.
+［3］ 李全安， 文九巴， 张荥渊， 等. 镧镨铈混合稀土对热浸渗铝的
+影响［J］. 材料保护， 2002， 35（9）： 20-21.
+［4］ 杨超云. 稀土对高碳铬轴承钢夹杂物-组织-性能的影响机理研
+究［D］. 合肥： 中国科学技术大学， 2020.
+［5］ 石日华， 王海人， 屈钧娥， 等. 近现代不锈钢表面处理技术研
+究进展［C］. 2011 中国功能材料科技与产业高层论坛论文集
+（第二卷）. 重庆， 2011： 337-342.
+［6］ 雍伟凡. 稀土盐浴渗铬试验研究［D］. 武汉： 武汉理工大学， 2011.
+［7］ 王华昌， 常　征， 王洪福. 稀土元素对T10 钢盐浴渗钒覆层结
+图9　六组试样在3. 5%w［NaCl］溶液中的腐蚀微观形貌图：（a）316H-Cr-0%REO，（b）316H-Cr-2%REO，（c）316H-Cr-
+4%REO，
+（d）316H-Cr-6%REO，
+（e）316H-Cr-8%REO，
+（f）316H-Cr-10%REO
+Fig. 9　Corrosion-induced micro-morphologies of six specimen groups after exposure to 3. 5% w［NaCl］ solution： （a） 316H-Cr-
+0%REO， （b） 316H-Cr-2%REO， （c） 316H-Cr-4%REO， （d） 316H-Cr-6%REO， （e） 316H-Cr-8%REO， （f） 316H-Cr-
+10%REO
+·
+·187
+
+PAGE 10
+第 46 卷 
+特殊钢
+构影响机理研究［J］. 热加工工艺， 2008， 37（24）： 68-70.
+［8］ 于明志. 激光表面处理技术特点分析与应用［J］. 中国包装工
+业， 2015（23）： 61.
+［9］ 杨
+光， 朱飞勇. RE 对Q345 钢感应渗硼及耐磨性能的影响
+［J］. 热加工工艺， 2013， 42（24）： 165-168.
+［10］ 谢爱玲. 浅析稀土元素在化学热处理中的作用机理［J］. 化工
+管理， 2016（12）： 123.
+［11］ 张彦杰. 稀土（Gd）对9SiCr TD 处理的催渗机理与工艺研究
+［D］. 沈阳： 沈阳建筑大学， 2015.
+［12］ 匡建新， 汪新衡， 刘安民， 等. 稀土对激光熔覆金属陶瓷复合
+层的影响［J］. 润滑与密封， 2007， 32（6）： 87-89+131.
+［13］ 谷　丰， 潘强荣， 李应生. 稀土在渗铝中的催渗作用［J］. 机
+械工程师， 2001（8）： 36-37.
+［14］ 阎牧夫， 刘志儒， 朱法义. 稀土化学热处理进展［J］. 金属热
+处理， 2003， 28（3）： 1-6.
+［15］ 宋月鹏， 刘自平， 陈义祥， 等. 稀土催渗对机械研磨316 L 不
+锈钢渗铝工艺的影响［J］. 稀土， 2016， 37（2）： 107-112.
+［16］ Kasinska J， Kalandyk B. Effects of rare earth metal addition on 
+wear resistance of chromium-molybdenum cast steel［J］. Archives 
+of Foundry Engineering， 17（3）： 63-68.
+［17］ 杨
+光， 朱飞勇. RE 对Q345 钢感应渗硼及耐磨性能的影响
+［J］. 热加工工艺， 2013， 42（24）： 165-168.
+［18］ Lin N M， Xie F Q， Zhong T， et al. Influence of adding various 
+rare earths on microstructures and corrosion resistance of chromiz⁃
+ing coatings prepared via pack cementation on P110 steel［J］. 
+Journal of Rare Earths， 2010， 28（2）： 301-304.
+［19］ Wang C L， Gao Y， Zeng Z C， et al. Effect of rare-earth on fric⁃
+tion and wear properties of laser cladding Ni-based coatings on 
+6063Al［J］. Journal of Alloys and Compounds， 2017， 727： 
+278-285.
+［20］ Riviere J P， Delafond J， Misaelides P， et al. Corrosion protection 
+of an AISI 321 stainless steel by SiC coatings［J］. Surface and 
+Coatings Technology， 1998， 100： 243-246.
+［21］ 胡　星. 稀土元素在化学热处理中的作用机理浅析［J］. 科技
+资讯， 2013， 11（20）： 103.
+［22］ Liang B N， Zhang Z Y， Wang Z P， et al. Rare earth effect on the 
+microstructure and tribological properties of FeNiCr coatings［J］. 
+Rare Metals， 2010， 29（3）： 270-275.
+［23］ 张金柱， 杨宗伦， 魏可媛. 稀土元素在化学热处理中的催渗和
+扩散机理研究［J］. 材料导报， 2006， 20（S1）： 223-225.
+［24］ 江静华， 蒋建清， 马爱斌. 稀土化学热处理及其发展现状［J］. 
+中国表面工程， 2003， 16（5）： 5-13.
+［25］ 高洪岩. GCr15 稀土渗铌层的制备及组织性能研究［D］. 锦
+州： 辽宁工业大学， 2020.
+［26］ 杨超云. 稀土对高碳铬轴承钢夹杂物-组织-性能的影响机理
+研究［D］. 合肥： 中国科学技术大学， 2020.
+［27］ 唐相国. GCr15 轴承钢表面固体渗铬层与铬钒共渗层的制备
+及性能研究［D］. 广州： 华南理工大学， 2019.
+［28］ 东晓林， 黄燕滨， 时小军， 等. 采用稀土化学活化处理的锌粉
+制备渗锌层及其耐蚀性［J］. 电镀与涂饰， 2016， 35（11）： 
+571-574.
+［29］ 程先华， 谢超英. 稀土元素在钢的化学热处理中作用机理研
+究［J］. 中国稀土学报， 1994， 12（4）： 336-339.
+［30］ Yue C ，Ke H ，Na L ， et al. Revealing the critical failure factor 
+and sub-surface damage mechanism of 316 stainless steel during 
+fretting corrosion under the molten lead-bismuth eutectic［J］. Tri⁃
+bology International， 2023， 187 53（2）： 223-241.
+［31］ Wang S Y， Hu Y J， Fang K W， et al. Effect of surface machining 
+on the corrosion behaviour of 316 austenitic stainless steel in simu⁃
+lated PWR water［J］. Corrosion Science， 2017， 126： 104-120.
+［32］ Wang H， Ren H X， Qiu L S， et al. Effect of Al content on 
+1200 ℃ steam oxidation behavior of Cr-based coatings on TZM al⁃
+loy［J］. Corrosion Science， 2023， 219： 111239.
+［33］ Zhang Y， Chen L， Xu T， et al. Abnormal carbon diffusion behav⁃
+ior induced by carbon potential gradient in martensitic stainless 
+steel during low-temperature carburizing［J］. Acta Materialia， 
+2021， 215： 117048.
+［34］ Zhao X H， Liu Y， Zhang P Z， et al. Rapid formation of chro⁃
+mium carbides on AISI 52100 steel via double-glow plasma sur⁃
+face chromizing： Microstructure evolution and wear resistance
+［J］. Applied Surface Science， 2021， 564： 150397.
+［35］ Li R T， Yang W， Zhang K， et al. Cerium-induced enhancement 
+of chromium adsorption on γ-Fe （111） surface： A first-principles 
+study［J］. Applied Surface Science， 2023， 608： 155200.
+［36］ 李　杰， 俞康伦. 稀土元素在铬钒共渗中的作用［J］. 国防科
+技大学学报， 1996， 18（1）： 50-54.
+［37］ 陈国星， 赵可昕. 提高不锈钢表面耐磨性的表面处理技术
+［J］. 上海金属， 2008， 30（5）： 52-55+58.
+［38］ 郭德亮， 陶　冶， 胡智杰， 等. TiN 薄膜表面离子注入层微观
+结构的分析研究［J］. 物理测试， 2011， 29（1）： 13-17.
+·
+·188

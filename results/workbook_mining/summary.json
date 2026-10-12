@@ -1,0 +1,17 @@
+{
+  "rows": 151,
+  "papers": 35,
+  "legacy_rows": 32,
+  "new_rows": 119,
+  "new_papers": 26,
+  "numeric_icorr_rows": 69,
+  "new_numeric_icorr_rows": 37,
+  "all_34_measurements_complete_rows": 0,
+  "requested_policy_training_rows": 0,
+  "unit_quarantined_rows": 18,
+  "original_workbook_sha256": "103eb2668d41479e0669222588eb5a855c9417c672a9f3cd05091308f7f4c160",
+  "original_workbook_unchanged": true,
+  "source_raw_populated_rows": 178,
+  "policy": "No measurement imputation. No guessed absent elements, target exponents, wt% conversions or cross-experiment exposure clocks.",
+  "nonexhaustive": "49 bibliography entries screened for collection status; papers marked not_transcribed require further primary-source access. No claim that every obtainable value has been exhausted."
+}

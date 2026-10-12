@@ -1,0 +1,948 @@
+PAGE 1
+Journal of The Electrochemical Society, 164 (13) C901-C910 (2017)
+C901
+Micro-Electrochemical Properties of CeS Inclusions in Stainless
+Steel and Inhibiting Effects of Ce3+ Ions on Pitting
+Masashi Nishimoto,∗,z Izumi Muto,∗∗,z Yu Sugawara,∗∗and Nobuyoshi Hara∗∗
+Department of Materials Science, Tohoku University, Aramaki, Aoba-ku, Sendai 980-8579, Japan
+Micro-scale polarization data from small surface areas of stainless steels with either CeS or MnS inclusions was measured in NaCl
+and Na2SO4 solutions to elucidate the dissolution and pit initiation behavior of both types of inclusions. Stable pitting was initiated
+at the CeS inclusion at potentials which exceeded the dissolution potential region of the CeS inclusion, whereas a stable pit at the
+MnS inclusion was initiated in the dissolution potential range of the MnS inclusion. Thermodynamic calculations indicated that the
+Ce3+ ions are likely to be produced by the dissolution of the CeS inclusion. In the micro-scale polarization of a small area with a
+MnS inclusion, stable pitting at the MnS inclusion was inhibited in NaCl solutions containing Ce3+. The formation of a shallow
+trench was observed at the MnS inclusion/steel matrix boundary in the Ce3+-containing solution, whereas a deep trench was formed
+in the Ce3+-free solution. It is suggested that the Ce3+ ions inhibit trench formation at the MnS/steel matrix boundary, resulting in
+improved pitting corrosion resistance at sulﬁde inclusions.
+© The Author(s) 2017. Published by ECS. This is an open access article distributed under the terms of the Creative Commons
+Attribution 4.0 License (CC BY, http://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse of the work in any
+medium, provided the original work is properly cited. [DOI: 10.1149/2.0051714jes] All rights reserved.
+Manuscript submitted August 10, 2017; revised manuscript received October 27, 2017. Published November 8, 2017. This was Paper
+3934 presented at the Honolulu, Hawaii, Meeting of the Society, October 2–7, 2016.
+While stainless steels are successfully used in corrosive environ-
+ments, they sometimes suffer from pitting. Improving the pitting cor-
+rosion resistance of stainless steels is of the utmost importance because
+of the vital role these steels play in infrastructure, transportation, en-
+ergy, in bridges, and buildings in general. The pit initiation sites for
+commercial stainless steels have been attributed to sulﬁde inclusions
+such as MnS in Cl−-containing environments,1–10 and hence consid-
+erable research has been carried out to clarify the mechanism of the
+pitting at MnS inclusions. It has been proposed that the initial step of
+the pit initiation process at MnS inclusions is the anodic dissolution
+of the inclusions and that the complete dissolution of the inclusions is
+not required for pit initiation.11–21 The release of S-containing species
+during MnS dissolution increases pitting susceptibility at and around
+the inclusions. Webb and Alkire demonstrated that the dissolution of
+the inclusions produces S2O32−ions and leads to weak acidiﬁcation
+near the inclusions.14 Chiba et al. proposed that the synergistic effect
+of chloride ions and dissolution products from MnS causes trench
+formation at the boundary of the inclusion/steel matrix, and pitting
+occurs at MnS inclusions as a local transition from the passive to the
+active state of the steel matrix inside the trench.19 The effect of mi-
+nor elements on the pitting at MnS inclusions has been investigated.
+Lillard et al. proposed that Cu ions are released from the steel matrix
+inside the trench and MnS inclusions are ennobled by Cu deposition.21
+They suggested that the ennobled MnS inclusions accelerate pit prop-
+agation inside the trench. It is therefore reasonable to assume that the
+inhibition of the dissolution of the inclusion will directly suppress
+the formation of trenches, resulting in an improvement in the pitting
+corrosion resistance of stainless steels.
+The chemical composition of sulﬁde inclusions has a signiﬁcant
+inﬂuence on pitting corrosion behavior. It has been reported that Cr-
+sulﬁde, Ti-sulﬁde, and Ti-carbosulﬁde inclusions have better pitting
+corrosion resistance than MnS inclusions.22–30 Muto et al. and Shima-
+hashi et al. revealed that the oxide-enriched layers generated on the
+inclusion surfaces prevent the anodic dissolution of the inclusions
+and improve pitting corrosion resistance.25,29 It is also reported that
+Ce-sulﬁde and oxysulﬁde inclusions have higher pitting corrosion re-
+sistance than MnS inclusions.31–34 Because it is a rare-earth element,
+Ce is relatively reactive in aqueous environments. While the pitting
+corrosion resistance of CrS and TiS inclusions is attributed to the
+thermodynamic stability of the surface oxide ﬁlms on the inclusions,
+the stability of the surface oxides on CeS inclusions is unlikely to be
+∗Electrochemical Society Student Member.
+∗∗Electrochemical Society Member.
+zE-mail: masashi.nishimoto.s5@dc.tohoku.ac.jp; mutoi@material.tohoku.ac.jp
+higher than that of CrS or TiS. The pitting corrosion resistance of CeS
+inclusions is therefore the result of other factors and is possibly related
+to the Ce-species produced by the dissolution of the inclusions.
+Cerium has been shown to be effective in the corrosion inhibition
+of Al alloys.35–40 Hinton et al. indicated that the corrosion rate of Al al-
+loys decreased in NaCl solutions with the addition of Ce salts.35 They
+found that the oxygen reduction reaction is inhibited by the formation
+of Ce-containing oxide layers on the cathodic sites. The corrosion inhi-
+bition for stainless steels by Ce-species has also been investigated.41–45
+Lu and Ives demonstrated that Ce chemical treatment improves the
+crevice corrosion resistance of stainless steels.41,42 Also in the case
+of stainless steels, Ce chemical treatment is expected to inhibit the
+cathodic reactions. It is therefore predicted that Ce-species released
+from CeS inclusions affect the pitting corrosion resistance of stainless
+steels. However, little is known about the electrochemical properties
+of CeS inclusions, and the relationship between those properties and
+pitting corrosion resistance remains unclear.
+In this paper, the micro-scale polarization of small surface areas
+of stainless steels with either CeS or MnS inclusions was measured
+in NaCl and Na2SO4 solutions to elucidate the dissolution and pit
+initiation behavior of the inclusions. The potential-pH diagram for the
+Ce-S-CeS-H2O system was calculated to determine the dissolution
+products from the CeS inclusion. The effect of Ce ions on the pitting
+corrosion resistance at MnS inclusions was investigated in NaCl-
+CeCl3 solutions. Finally, the role of Ce ions in improving the pitting
+corrosion resistance of the sulﬁde inclusions is discussed based on the
+micro-scale polarization and the cross-sectional morphology of the
+inclusions after polarization.
+Experimental
+Specimens.—Two types of stainless steels were prepared by vac-
+uum induction melting (50-kg ingot) and then were hot-rolled. The
+chemical compositions of the steels are listed in Table I. In steel A,
+Mn and S were added to form MnS inclusions. In steel B, Ce and S
+were added to form CeS inclusions. These steels were not deoxidized
+by Al to avoid the formation of Al-rich inclusions.46 The steels were
+cut into specimens with dimensions of 15 mm × 25 mm × 5 mm.
+All the specimens were heat-treated at 1373 K for 0.5 h and quenched
+in water. After heat-treatment, the specimens were abraded with a
+series of SiC papers up to 1500 grit and then polished by a diamond
+paste down to 1 μm. The specimens were ﬁnally rinsed with ethanol.
+Since the non-metallic inclusions are darker in color under an optical
+microscope compared to the stainless steel matrix, they are clearly
+visible in the as-polished condition without etching.
+) unless CC License in place (see abstract).  
+ecsdl.org/site/terms_use
+ address. Redistribution subject to ECS terms of use (see 
+207.241.231.82
+Downloaded on 2018-07-20 to IP 
+
+PAGE 2
+C902
+Journal of The Electrochemical Society, 164 (13) C901-C910 (2017)
+Table I. Chemical compositions of specimens (mass%).
+Steel
+C
+Si
+Mn
+P
+S
+Ni
+Cr
+A
+0.051
+0.39
+1.51
+0.039
+0.0215
+8.27
+18.3
+B
+0.011
+0.47
+<0.05
+0.033
+0.0170
+9.41
+17.9
+Steel
+Mo
+Cu
+Al
+Ce
+N
+O
+A
+0.21
+0.35
+0.002
+–
+0.0799
+0.0023
+B
+<0.01
+<0.01
+<0.005
+0.091
+0.0039
+0.0080
+–: No addition.
+Micro-scale anodic polarization.—Potentiodynamic anodic po-
+larization was carried out in 0.1 M NaCl and 0.1 M Na2SO4 solutions.
+The pH values of the 0.1 M NaCl and 0.1 M Na2SO4 solutions were
+5.5 and 5.8, respectively. In addition to these solutions, NaCl-CeCl3
+and Na2SO4-Ce2(SO4)3 solutions were also used. The chemical com-
+positions and pH values of the solutions are shown in Table II. The
+solutions were prepared from deionized water and analytical grade
+chemicals. All measurements were performed at 298 K under natu-
+rally aerated conditions. To make a micro-scale electrode area con-
+taining a single inclusion, the specimen surfaces were masked by
+a vinyl copolymerized resin (Sunhayato VA-30). The electrode area
+was ca. 100 μm × 100 μm. Since this resin is hydrophilic, it is easy
+that solution was placed on the specimen without leaving air bubbles
+on the electrode surface. An acrylic cell was placed on the masked
+specimen to preserve the solution. A small Ag/AgCl reference elec-
+trode and a Pt wire counter electrode were ﬁxed to the acrylic cell.
+All the potentials reported in this study refer to the Ag/AgCl (3.33 M
+KCl) electrode (0.206 V vs. standard hydrogen electrode at 298 K).
+A battery-powered potentiostat17 was used to control the electrode
+potential of the specimen with a scanning rate of 3.83 × 10−4 V s−1
+(23 mV min−1). Although slower scan rates are reliable for poten-
+tiodynamic polarization in general (e.g., 1.67 × 10−4 V s−1 (10 mV
+min−1)),47 the higher scan rate was used to shorten the experiment
+time and to reduce the data capacity of the in situ observation system
+described below.
+During polarization, the electrode area was observed by the
+in situ real-time optical micro-scale observation system. The de-
+tails of the system developed by Chiba et al. have been published
+elsewhere.18 The micro-electrochemical cell was put on the stage
+of an Olympus BX51M optical microscope. An Olympus LUMPlan
+Fl 100XW water immersion objective lens was used to obtain the
+real-time video images of the micro-scale electrode surface during
+polarization.
+Observation of surface and cross-section of specimens.—An op-
+tical microscope (OM) and a Keyence VK-8510 confocal laser scan-
+ning microscope (CLSM) were used to image the surface of the elec-
+trode area and the inclusions before and after micro-scale anodic po-
+larization. A ﬁeld emission scanning electron microscope (FE-SEM)
+equipped with an energy-dispersive X-ray spectroscopy (EDS) sys-
+Table II. Chemical compositions and pH values of solutions.
+NaCl
+CeCl3
+Na2SO4
+Ce2(SO4)3
+Solution
+[M]
+[mM]
+[M]
+[mM]
+pH
+1A
+0.1
+–
+–
+–
+5.5
+1B
+0.097
+1
+–
+–
+5.4
+1C
+0.07
+10
+–
+–
+5.3
+2A
+3
+–
+–
+–
+5.0
+2B
+2.997
+1
+–
+–
+5.0
+2C
+2.97
+10
+–
+–
+5.0
+3A
+–
+–
+0.1
+–
+5.8
+3B
+–
+–
+0.0985
+0.5
+5.8
+3C
+–
+–
+0.085
+5
+6.0
+–: No addition.
+tem was used to observe the surfaces and determine the chemical
+compositions of the inclusions. The accelerating voltage was 20 kV.
+Cross-sections of the MnS inclusions after micro-scale anodic po-
+larization were prepared by a focused ion beam (FIB) system. The
+secondary electron images of the cross-sections were taken at an elec-
+tron accelerating voltage of 10 kV.
+Titrations.—To conﬁrm whether the Ce3+ ions are a pH buffer or
+not, the titration curves of the NaCl-CeCl3 solutions were measured.
+The test solutions were 0.1 M NaCl (pH 5.5), 0.097 M NaCl-1 mM
+CeCl3 (pH 5.4), and 0.07 M NaCl-10 mM CeCl3 (pH 5.3). These test
+solutions were prepared from deionized water and analytical grade
+chemicals. The NaCl-CeCl3 solutions were titrated by adding 0.1 M
+HCl, and the pH of the solutions was measured.
+Results and Discussion
+Inclusion characterization.—The chemical composition and mor-
+phology of the inclusions were characterized using an optical micro-
+scope and the FE-SEM/EDS. Figure 1 shows the optical micrographs,
+SEM images, and EDS maps of the inclusions. Table III shows the
+results of the EDS analysis at each point in Fig. 1. In steel A (the
+Ce-free specimen), as shown in Fig. 1a, the inclusion was elongated
+and the surface was gray in the optical micrograph. On the other hand,
+in Fig. 1b, the inclusion in steel B (the Ce-containing specimen) was
+round and the surface was orange and dark gray, with light gray areas
+in the optical micrograph. The chemical composition of the inclusions
+affects their morphology and surface color. In Fig. 1a, enriched Mn
+and S were present in the inclusion in steel A. The relative atomic
+percentage of Mn:S:Cr:O at point “A” was 48:47:5:<1, indicating the
+formation of the inclusions composed of Mn, S, and a small amount
+of Cr (approximately 5 at.%). This is the typical sulﬁde inclusion in
+commercial type 304 stainless steels and is referred to as MnS in this
+paper.
+In the optical micrograph of steel B, the inclusion consisted of
+orange, dark gray, and light gray areas. The orange and dark gray areas
+corresponded to the bright area (points “B1” and “B2”) in the SEM
+image. The light gray area (point “B3”) in the optical micrograph was
+darker than points “B1” and “B2” in the SEM image. The EDS maps
+show that the orange and dark gray areas (“B1” and “B2”) were rich in
+O, and the S content was relatively low. In contrast, the enrichment of
+S and a small amount of Cr and O was detected in the light gray area
+(“B3”). As Table III shows, the relative atomic percentage of Ce:S:O
+at point “B1” was 41:16:43. There was little difference in the chemical
+compositions between point “B1” and “B2”. It was suggested that the
+orange and dark gray areas in the optical micrograph were Ce2O2S
+(cerium oxysulﬁde). It is possible that small difference in the O content
+between point “B1” and “B2” led to the different colors of the Ce2O2S
+inclusion. It has been reported that the color of cerium oxide varies
+with the oxidation state.48 The light gray area in the optical micrograph
+was mainly composed of Ce and S even though small amounts of Cr
+and O were contained in the inclusion. The relative atomic percentage
+of Ce:S:Cr:O at point “B3” was 32:48:15:5, indicating the formation
+of complex sulﬁde of Ce and Cr. There was a small enrichment of Ca in
+the right edge of the light gray area. For simplicity, the light gray area
+of the inclusion in steel B is referred as CeS in this paper. The Ce2O2S
+is thought to be a deoxidation product, and the CeS was produced on
+the Ce2O2S surface in the solidiﬁcation process of the steel. Since Al
+was not added to avoid the formation of Al-rich inclusions, Ce acted
+as a deoxidation agent. CeS could be distinguished from Ce2O2S
+without EDS analysis because the different colors of CeS and Ce2O2S
+made it possible to visually discern one from the other in the optical
+micrographs.
+Polarization behavior of MnS inclusion.—Micro-scale anodic
+polarization was conducted to conﬁrm the pit initiation behavior at
+the MnS inclusion. Figure 2a shows the polarization curve of a small
+area with the MnS inclusion in steel A measured in 0.1 M NaCl.
+Anodic polarization was started at −0.2 V and was stopped at 0.41 V.
+) unless CC License in place (see abstract).  
+ecsdl.org/site/terms_use
+ address. Redistribution subject to ECS terms of use (see 
+207.241.231.82
+Downloaded on 2018-07-20 to IP 
+
+PAGE 3
+Journal of The Electrochemical Society, 164 (13) C901-C910 (2017)
+C903
+Figure 1. Optical micrographs, SEM images, and EDS maps of inclusions: (a) steel A, (b) steel B.
+Cathodic current ﬂowed at ﬁrst, and then anodic current was measured
+above approximately −0.03 V. Current spikes which observed in the
+potential range from ca. 0.3 to 0.41 V are indicative of pit initiation.
+The large increase in current density at 0.41 V was attributed to stable
+pit initiation. It is known that pits occur in the dissolution potential
+range of the MnS inclusions (from ca. 0.3 to 0.5 V).12–14,16–19 Figure
+2b shows the optical micrograph of the MnS before polarization, and
+Figure 2c shows the SEM image after polarization. Fig. 2c shows the
+stable pit and meta-stable pits initiated at the boundary between the
+MnS inclusion and the steel matrix.
+FE-SEM/EDS was used to image the dissolution morphology of
+the inclusion at the pit initiation sites. Figure 3 provides the SEM
+image and the EDS maps of the MnS inclusion after the polarization
+shown in Fig. 2. The inclusion surface dissolved slightly, and a trench
+was formed at the MnS/steel matrix boundary. It has been reported
+that the formation of trenches at the boundaries leads to the exposure
+Table III. Relative concentrations (at.%) of points shown in Fig. 1.
+Point
+Mn
+Ce
+S
+Cr
+O
+Ca
+Cu
+Fe
+Ni
+A
+46
+–
+45
+5
+<1
+–
+<1
+4
+<1
+B1
+–
+40
+15
+<1
+42
+<1
+–
+3
+<1
+B2
+–
+39
+17
+2
+39
+<1
+–
+2
+<1
+B3
+–
+29
+44
+14
+5
+<1
+–
+7
+1
+–: No detection.
+of the bare steel surface and creates an occluded environment.7–10 The
+pitting at the MnS inclusions is supposed to be the localized tran-
+sition from the passive to the active state of the steel matrix inside
+the trench. The anodic dissolution of the sulﬁde inclusions in chloride
+environments is the trigger of pit initiation at the inclusions. While the
+surface dissolution of the MnS inclusion was observed, a large part of
+the inclusion remained, as presented in Fig. 3. The EDS maps show
+that small amounts of Cr, O, and Cu were detected in the inclusion
+after polarization. The relative atomic percentage at point “C” was
+Mn:S:Cr:O:Cu = 26:32:11:30:1. Shimahashi et al. demonstrated that
+the composition of (Mn,Cr)S changes to CrS under anodic polariza-
+tion, and oxide ﬁlms form on CrS.49 The surface oxide ﬁlms which
+form on the sulﬁde inclusions are known to act as a barrier against the
+dissolution of the inclusion.25,29,50,51 Lillard et al. proposed that MnS
+inclusions are passivated by Cu deposition.21 They analyzed the sur-
+face of the MnS inclusion using atomic force microscopy and scanning
+Kelvin probe force microscopy, and found that Cu deposition on the
+MnS inclusion causes the MnS ennoblement and passivation during
+pit propagation.
+Polarization behavior of CeS inclusion.—Micro-scale anodic po-
+larization was carried out to compare the pitting corrosion resistance
+of the CeS inclusion with that of the MnS inclusion. Figure 4a shows
+the polarization curve of a small area with the CeS and Ce2O2S in-
+clusions in steel B measured in 0.1 M NaCl. Figures 4b and 4c show
+the optical micrographs of the inclusion before and after polarization,
+respectively. As shown in Fig. 4b, the CeS inclusion is in the center
+) unless CC License in place (see abstract).  
+ecsdl.org/site/terms_use
+ address. Redistribution subject to ECS terms of use (see 
+207.241.231.82
+Downloaded on 2018-07-20 to IP 
+
+PAGE 4
+C904
+Journal of The Electrochemical Society, 164 (13) C901-C910 (2017)
+Figure 2. (a) Micro-scale polarization curve of a small area with the MnS
+inclusion in steel A measured in 0.1 M NaCl at 298 K. (b) Optical micrograph
+of inclusion before polarization. (c) SEM image of inclusion after polarization.
+of the image. As mentioned above (Fig. 1b), CeS was visually dis-
+tinguishable from Ce2O2S in the optical micrograph because of the
+difference in their surface colors; CeS is light gray, and Ce2O2S is
+orange and dark gray. In Fig. 4a, the polarization curve of a small
+area with the MnS inclusion in steel A shown in Fig. 2 is given as a
+reference (the black curve). In steel B, a large current increase was
+observed at ca. 0.8 V. This was attributed to the stable pit initiation
+at the inclusion. As shown in Fig. 4c, the surface color of the CeS
+inclusion changed after polarization, and a pit was generated at the
+CeS/steel matrix boundary. The pit initiation potential of the CeS in-
+clusion was higher than that of the MnS inclusion, as shown in Fig.
+2. However, in both types of inclusions, the pit initiation site was the
+inclusion/steel matrix boundary. It was suggested that the pitting at
+the inclusion/steel matrix boundary was attributed to the release of
+S-species and the exposure of the bare steel surface during inclusion
+dissolution. In this study, no notable change in the surface of the
+Ce2O2S was observed. This observation was well-correlated with the
+work of Shimada et al., who demonstrated that Ce-oxysulﬁdes are
+insoluble in water.31 In order to ensure reproducibility, polarization in
+0.1 M NaCl was repeated three times at different areas with the CeS
+and Ce2O2S inclusions in steel B. Stable and/or meta-stable pits were
+initiated at approximately 0.8 V in all cases.
+FE-SEM/EDS was also used to image the dissolution morphology
+of the inclusion at the pit initiation site. The SEM image and the EDS
+maps of the CeS and Ce2O2S inclusions in steel B after polarization
+are shown in Fig. 5a. The polarization curves of these inclusions are
+shown in Fig. 4. Figure 5b provides the enlarged SEM image of the
+area surrounded by the dashed lines in Fig. 5a. No dissolution was
+observed at the surface of the Ce2O2S inclusion. Even after anodic
+polarization, the EDS signals of Ce, S, and O were apparently detected
+on the Ce2O2S inclusions. On the other hand, the surface of the CeS
+dissolved slightly, which implies that the change in the surface color
+of the CeS was due to the dissolution and/or corrosion of the inclusion.
+The trench at the periphery of the CeS inclusion seems to be shallower
+than that of the MnS inclusion, which is shown in Fig. 3. In terms of the
+surface dissolution of the inclusion and the pitting at the inclusion/steel
+Figure 3. SEM images and EDS maps of inclusion in steel A after the po-
+larization shown in Fig. 2. The inserted SEM image is the whole view of the
+inclusion, and the area surrounded by dashed lines was enlarged and analyzed.
+matrix boundary, the pit initiation behavior at the CeS inclusion was
+similar to that at the MnS inclusion. However, the pitting corrosion
+resistance of the CeS inclusion was clearly better than that of the MnS
+inclusion.
+Dissolution behavior of CeS inclusion.—Since the dissolution
+of the sulﬁde inclusions is strongly related to pit initiation,34 it is
+important to characterize the dissolution behavior of the inclusion. To
+analyze the anodic dissolution behavior of the CeS inclusion, micro-
+scale anodic polarization was carried out in 0.1 M Na2SO4. Figure 6a
+shows the polarization curve of a small area with the CeS and Ce2O2S
+inclusions in steel B measured in 0.1 M Na2SO4. Figures 6b and 6c
+show the optical micrographs of the inclusions before and after the
+polarization. The existence of CeS was conﬁrmed along the periphery
+of the Ce2O2S inclusion. Anodic polarization was started at −0.2 V
+and was stopped at ca. 1.2 V. In Fig. 6a, the micro-scale polarization
+curve measured in 0.1 M NaCl, which is shown in Fig. 4, is given as
+a reference (the black curve). As shown in Fig. 6c, the surface color
+) unless CC License in place (see abstract).  
+ecsdl.org/site/terms_use
+ address. Redistribution subject to ECS terms of use (see 
+207.241.231.82
+Downloaded on 2018-07-20 to IP 
+
+PAGE 5
+Journal of The Electrochemical Society, 164 (13) C901-C910 (2017)
+C905
+Figure 4. (a) Micro-scale polarization curve of a small area with CeS and
+Ce2O2S inclusions in steel B measured in 0.1 M NaCl at 298 K. Optical
+micrographs of the inclusions in steel B (b) before and (c) after polarization.
+of the CeS inclusion changed after polarization. The white corrosion
+product which appeared at the upper left of the inclusion is thought to
+be the dissolution product. Figure 7 provides the SEM image and the
+EDS maps of the inclusion after polarization, shown in Fig. 6. While
+no dissolution was observed at the surface of the Ce2O2S inclusion, the
+CeS inclusion partially dissolved. The change in the surface color of
+the CeS inclusion can be attributed to its dissolution and/or corrosion.
+The EDS maps show that the concentrations of Ce and S decreased as a
+result of anodic polarization, but the Cr content remained. In addition,
+the concentration of O increased in the CeS after polarization. It was
+suggested that the preferential dissolution of Ce and S occurred under
+anodic polarization. Polarization in 0.1 M Na2SO4 was replicated
+twice at different areas with the CeS and Ce2O2S inclusions in steel
+B. The same dissolution behavior was observed in both cases.
+To analyze the dissolution potential of the CeS, in situ observation
+during anodic polarization was employed. Figure 8 displays the optical
+micrographs (taken from the video recording) of the electrode surface
+with the CeS and Ce2O2S inclusions during the polarization shown in
+Fig. 6. As indicated by the arrow in Fig. 8a, the surface of the CeS
+inclusion was bright-brown when polarization was started at −0.2 V.
+The inclusion changed in color, becoming dark-blue at −0.1 V (Fig.
+8b). After that, no color change was observed from 0.0 to 0.1 V,
+as shown in Figs. 8c and 8d. The color of the inclusion changed to
+brown-green at 0.2 V (Fig. 8e) and turned back to dark-blue at 0.3 V
+(Fig. 8f). Then, the inclusion became brown-red at 0.4 V (Fig. 8g). As
+shown in Fig. 8h, at 0.5 V, the inclusion turned white, and a white round
+product appeared at the upper left of the inclusion (marked by the thick
+arrow). In Figs. 8h and 8i, the white product grew to the left in the
+potential range from 0.5 to 0.6 V. This white product is thought to be
+Figure 5. (a) SEM image and EDS maps of an inclusion in steel B after the
+polarization shown in Fig. 4. (b) Enlarged SEM image of the area surrounded
+by dashed lines in (a).
+Figure 6. (a) Polarization curve of a small area with CeS and Ce2O2S inclu-
+sions in steel B measured in 0.1 M Na2SO4 at 298 K. Optical micrographs of
+inclusion (b) before and (c) after polarization in 0.1 M Na2SO4.
+) unless CC License in place (see abstract).  
+ecsdl.org/site/terms_use
+ address. Redistribution subject to ECS terms of use (see 
+207.241.231.82
+Downloaded on 2018-07-20 to IP 
+
+PAGE 6
+C906
+Journal of The Electrochemical Society, 164 (13) C901-C910 (2017)
+Figure 7. SEM image and EDS maps of the inclusion in steel B after the
+polarization shown in Fig. 6.
+the dissolution product from the CeS inclusion, although its chemical
+composition was not clear from the SEM/EDS analysis shown in Fig.
+7. There was no notable change in the inclusion surface above 0.6 V
+(Figs. 8i–8o). Therefore, it was suggested that the dissolution of the
+CeS inclusion occurred at approximately 0.5 V. The color change of
+the CeS inclusion in the potential range from 0.1 to 0.4 V was thought
+to be due to the change in the thickness of the surface ﬁlms.
+To determine the dissolution potential of the CeS, additional micro-
+scale anodic polarization was conducted in 0.1 M Na2SO4. Figure 9a
+shows the polarization curve of a small area with the CeS and Ce2O2S
+inclusions in steel B measured in 0.1 M Na2SO4. Figures 9b and
+9c show the optical micrograph of the inclusions before polarization
+and the SEM image after polarization. In this case, the potentiody-
+namic polarization was stopped at 0.6 V. In this ﬁgure, the polarization
+curves of a small area with the CeS inclusion shown in Figs. 4 and
+6 were given as references. The increase in current density at ap-
+proximately 0.5 V can likely be attributed to the dissolution of the
+CeS inclusion. The dissolution of the CeS inclusion can clearly be
+observed in Fig. 9c. Therefore, it was concluded that the dissolution
+potential of the CeS inclusion is approximately 0.5 V. Polarization in
+0.1 M Na2SO4 was repeated twice at different areas with the CeS
+and Ce2O2S inclusions in steel B. The same dissolution behavior was
+observed in both cases.
+Interestingly, a comparison of the pitting and the CeS inclusion
+dissolution potentials (Figs. 4 and 9) indicates that the pit initia-
+tion potential at the CeS inclusion was considerably higher than the
+dissolution potential of the CeS inclusion. In the case of MnS in-
+clusions, it is well-known that stable pitting is initiated in the dis-
+solution potential range of MnS inclusions.12–14,17,18 MnS dissolu-
+tion directly results in the formation of a trench around the inclu-
+sions, and the meta-stable and stable pitting events proceed after
+the trench is formed. On the other hand, the pit initiation potential
+at the CeS inclusion is approximately 0.3 V higher than the dis-
+solution potential. If the NaCl concentration is high enough, pits
+would occur in the dissolution potential. However, polarization in
+0.1 M NaCl at different areas with the CeS and Ce2O2S inclusions
+was replicated three times, and no pitting was initiated in the dissolu-
+tion potential of the CeS inclusions in all cases. This suggests that the
+dissolution products from the CeS inclusion inhibit pit initiation, re-
+sulting in the increase of the pit initiation potential at the CeS inclusion.
+Potential-pH diagrams for the CeS-H2O system.—To determine
+the dissolution products from the CeS inclusion, the potential-pH di-
+agrams were calculated. Figure 10 shows the potential-pH diagrams
+for the CeS-H2O system at 298 K. The standard chemical potentials
+of Ce(OH)22+, CeO2, CeOH2+, and Ce(OH)3 were obtained from the
+literature.52,53 Those of other species used in the calculations were ob-
+tained from the HSC thermo-chemical database.54 The concentration
+of the soluble species in the calculation was 1.0 × 10−3 mol kg−1
+(H2O). The experimental conditions of the anodic polarization in 0.1
+M NaCl (Fig. 4a) are indicated by the slashed rectangles located in the
+stable regions of S2O32−, Ce3+, and CeO2. The stable region of CeS
+is located in the lower potential region. These diagrams indicate that
+Ce3+ and CeO2 were likely formed during anodic polarization in 0.1
+M NaCl. As shown in Fig. 10b, Ce3+ ions were released from the CeS
+Figure 8. Optical micrographs of electrode surface with CeS and Ce2O2S inclusions in steel B during the polarization shown in Fig. 6.
+) unless CC License in place (see abstract).  
+ecsdl.org/site/terms_use
+ address. Redistribution subject to ECS terms of use (see 
+207.241.231.82
+Downloaded on 2018-07-20 to IP 
+
+PAGE 7
+Journal of The Electrochemical Society, 164 (13) C901-C910 (2017)
+C907
+Figure 9. (a) Polarization curve of a small area with CeS and Ce2O2S inclu-
+sions in steel B measured in 0.1 M Na2SO4 at 298 K. The polarization was
+stopped at 0.6 V. (b) Optical micrograph of an inclusion before polarization.
+(c) SEM image of an inclusion after polarization in 0.1 M Na2SO4.
+Figure 10. Potential-pH diagrams for CeS-H2O system at 298 K. The con-
+centration of soluble species is 1.0 × 10−3 mol kg−1 (H2O): (a) CeS and
+S-species, (b) CeS and Ce-species.
+Figure 11. Micro-scale polarization curves of a small area with the MnS
+inclusion in steel A measured in NaCl-CeCl3 solutions at 298 K: (a) 0.1 M
+Cl−, (b) 3 M Cl−.
+inclusion at lower potentials during anodic polarization. At higher
+potentials, CeO2 was apparently deposited on the CeS inclusion, sup-
+pressing the dissolution of the inclusion. In this study, the inhibition
+effect of Ce3+ ions on pit initiation was intended to be examined.
+Effect of Ce3+
+on pitting corrosion resistance of MnS
+inclusion.—The data presented above suggest that the dissolving
+Ce3+ ions play an important role in the inhibition of pitting corro-
+sion at CeS inclusions. Assuming that Ce3+ ions inhibit pitting cor-
+rosion at sulﬁde inclusions, pitting at MnS inclusions would also be
+suppressed in the Ce3+-containing solutions. To elucidate the effect
+of Ce3+ ions on the pitting corrosion resistance of MnS inclusions,
+micro-scale polarization curves of a small area with the MnS inclu-
+sion in steel A were measured in the NaCl-CeCl3 solutions. The area
+studied contained one large MnS inclusion positioned at the center.
+The electrolytes were 0.1 M NaCl, 3 M NaCl, and the NaCl-CeCl3
+solutions. Figure 11 shows the micro-scale anodic polarization curves.
+Anodic polarization was started at −0.2 V. The gradual increase in
+current density in the potential range from ca. 0.2 V to 0.5 V was
+attributed to the dissolution of the MnS inclusions. The current spikes
+indicate pit initiation. In the case of the 0.1 M Cl−solutions, a stable
+pit was generated at 0.46 V in the Ce3+-free solution. On the other
+hand, the pits were re-passivated and the current density decreased at
+approximately 0.45 V in the Ce3+-containing solutions. In the case of
+the 3 M Cl−solutions, stable pits were generated at approximately 0.4
+V in the Ce3+-free and 1 mM Ce3+ solutions. However, no stable pit
+was initiated and the current density decreased at approximately 0.4 V
+in the 10 mM Ce3+ solution. Clearly, Ce3+ ions inhibited the stable pit
+initiation at the MnS inclusions. It can therefore be concluded that the
+Ce3+ ions released from CeS inclusions improve the pitting corrosion
+resistance of these inclusions.
+Role of Ce3+ for improving pitting corrosion resistance of sulﬁde
+inclusion.—As mentioned above (Fig. 11), pitting at the MnS inclu-
+sions was suppressed in the Ce3+-containing solutions. The Ce3+ ions
+) unless CC License in place (see abstract).  
+ecsdl.org/site/terms_use
+ address. Redistribution subject to ECS terms of use (see 
+207.241.231.82
+Downloaded on 2018-07-20 to IP 
+
+PAGE 8
+C908
+Journal of The Electrochemical Society, 164 (13) C901-C910 (2017)
+Figure 12. Micro-scale polarization curves of a small area with the MnS inclusion in steel A measured in the Na2SO4-Ce2(SO4)3 solution at 298 K: (a) Ce3+-free,
+(b) 1 mM Ce3+, (c) 10 mM Ce3+. Optical micrographs of MnS inclusions in steel A (d–f) before and (g–i) after polarization: (d, g) Ce3+-free, (e, h) 1 mM Ce3+,
+(f, i) 10 mM Ce3+.
+have very likely inhibited one of the steps in the pit initiation mecha-
+nism at MnS inclusions. Chiba et al.19 proposed that the pit initiation
+mechanism at MnS inclusions in stainless steels proceeds as follows:
+1) the dissolution of MnS inclusions in chloride solutions leads to the
+release of thiosulfate ions and weak acidiﬁcation; 2) elemental sulfur
+is deposited on and around the inclusions through the disproportiona-
+tion reaction and the reduction reaction of the thiosulfate ions in acidic
+solution; 3) the synergistic effect of the elemental sulfur and chloride
+ions causes trench formation at the inclusion/steel matrix boundary;
+4) pits are initiated when the solution inside the trench reaches the
+critical conditions of the local active dissolution of the steel matrix.
+On the basis of this pit initiation mechanism, the role of Ce3+ ions
+for improving the pitting corrosion resistance of MnS inclusions was
+evaluated.
+To analyze the effect of Ce3+ ions on the extent of the dissolu-
+tion of MnS inclusions, the micro-scale anodic polarization of a small
+area with a MnS inclusion was performed. Figures 12a–12c show
+the polarization curves measured in the Na2SO4-Ce2(SO4)3 solutions.
+Figures 12d–12f and 12g–12i show the optical micrographs of the
+MnS inclusions before and after polarization, respectively. Polariza-
+tion was started at −0.2 V and was stopped at 0.6 V. The broad
+current peak at approximately 0.3 V in each of the polarization curves
+indicates the dissolution of the MnS inclusions.12,13 The current den-
+sities on the steel matrix were estimated by the dashed lines in Figs.
+12a–12c. The charge passed owing to MnS dissolution was calcu-
+lated after subtracting the current on the steel matrix from the total
+current, and then normalizing by the surface area of the MnS in-
+clusion. The surface areas of the MnS inclusions were measured by
+digital image processing of confocal laser scanning microscopy data
+before polarization. Table IV shows the calculated electric charges,
+the surface area of the MnS inclusions, and the electrode area.
+Figure 13. Electric charges of MnS dissolution per unit MnS inclusion area
+measured in the micro-scale polarization shown in Fig. 12.
+Figure 13 shows the normalized charge passed from MnS dissolution
+calculated from the polarization curves measured in the Ce3+-free,
+1 mM Ce3+, and 10 mM Ce3+ solutions. Polarization in the Na2SO4-
+Ce2(SO4)3 solutions was not replicated. We consider that the charge
+passed by inclusion dissolution has a wide range of error due to the
+difference in the shape, the size, and the chemical composition of the
+MnS inclusions used in this experiment. The error bars shown in Fig.
+13 indicated that the charge passed by inclusion dissolution has an
+error within a factor of two. It was suggested that Ce3+ addition did
+not suppress the dissolution of the MnS inclusions. As seen in Figs.
+5, 7, and 9, the dissolution of the CeS inclusions was observed while
+the Ce3+ ions was thought to exist near the inclusions.
+To conﬁrm whether the Ce3+ ions have a pH buffering effect, the
+titration curves of the NaCl-CeCl3 solutions were measured. Figure 14
+Table IV. Dissolution amount of MnS inclusion calculated from the polarization curve in Fig. 12.
+Solution
+Ce3+-free
+1 mM Ce3+
+10 mM Ce3+
+Electrode area (μm2)
+1.21 × 104
+1.06 × 104
+8.53 × 103
+Electric charge of MnS dissolution (μC)
+0.71
+0.47
+1.37
+Surface area of MnS inclusion (μm2)
+82.0
+102
+92.5
+Electric charge of MnS dissolution per unit area (C m–2)
+8.66 × 103
+4.61 × 103
+1.48 × 104
+) unless CC License in place (see abstract).  
+ecsdl.org/site/terms_use
+ address. Redistribution subject to ECS terms of use (see 
+207.241.231.82
+Downloaded on 2018-07-20 to IP 
+
+PAGE 9
+Journal of The Electrochemical Society, 164 (13) C901-C910 (2017)
+C909
+Figure 14. Titration curves of the NaCl and NaCl-CeCl3 solutions.
+shows the change in the solution pH values of the Ce3+-free, 1 mM
+Ce3+, and 10 mM Ce3+ solutions with the addition of 0.1 M HCl.
+The pH values of the solutions decreased with HCl addition. As seen
+in Fig. 14, no difference was found in these titration curves. This
+conﬁrms that Ce3+ ions do not act as a pH buffer.
+It has been reported that the trench morphology at the MnS/steel
+matrix boundary is strongly related to the pitting corrosion
+resistance.12,55,56 To analyze the effect of Ce3+ ions on trench for-
+mation at the MnS/steel boundary, the micro-scale anodic polariza-
+tion curves of a small area with a MnS inclusion were measured in
+3 M NaCl and 2.97 M NaCl-10 mM CeCl3. Figure 15a shows the
+polarization curves measured in 3 M NaCl and 2.97 M NaCl-10 mM
+CeCl3. Polarization was started at −0.2 V and was stopped at 0.37 V.
+A stable pit occurred in the Ce3+-free solution, and no stable pit
+was initiated in the Ce3+-containing solution. After polarization, the
+electrode surfaces and the cross-sections of the MnS inclusions were
+observed. Figures 15b–15e show the SEM images of the MnS in-
+clusions after polarization. As shown in Figs. 15b and 15d, in the
+Ce3+-free solution, the boundary between the MnS inclusion and the
+steel matrix dissolved selectively, and the deep trenches were formed.
+In contrast, in the Ce3+-containing solution (Figs. 15c and 15e), either
+a shallow trench or no trench was formed. It was found that Ce3+
+ions inhibited the formation of a deep trench at the MnS/steel matrix
+boundary. Polarization in the Ce3+-containing solution was repeated
+twice at different areas with the MnS inclusions in steel A. In both
+cases, no stable pit was initiated until 0.37 V and the inhibition effect
+of Ce3+ ions on the formation of a deep trench was observed.
+Figure 16 (bottom) shows the schematic of the pit initiation mech-
+anism at CeS inclusions. The pit initiation mechanism at MnS in-
+clusions proposed by Chiba et al.19 is also shown in Fig. 16 (top)
+for comparison. In the case of MnS inclusions, the dissolution of the
+inclusion causes the formation of a deep trench at the inclusion/steel
+matrix boundary, and a stable pit tends to occur at the bottom of the
+deep trench.18 On the other hand, in the case of CeS inclusions, Ce3+
+ions are released from the inclusion during anodic polarization. The
+released Ce3+ ions inhibit the formation of a deep trench at the inclu-
+sion/steel matrix boundary. The composition of the solution inside the
+shallow trench around the CeS inclusion is assumed to be weak com-
+pared to that around the MnS inclusion. The superior pitting corrosion
+resistance of CeS inclusions compared to that of MnS inclusions can
+Figure 15. (a) Micro-scale polarization curves of a small area with the MnS inclusion in steel A measured in 3 M NaCl and 2.97 M NaCl-10 mM CeCl3 at 298
+K. SEM images of the MnS inclusion after polarization measured in (b) 3 M NaCl and (c) 2.97 M NaCl-10 mM CeCl3; the accelerating voltage was 20 kV. (d, e)
+SEM images of FIB cross-sections at the sites indicated by the dashed lines shown in (b, c); the accelerating voltage was 10 kV.
+Figure 16. Schematic of pit initiation mechanisms at (a) MnS
+and (b) CeS inclusions in NaCl solutions.
+) unless CC License in place (see abstract).  
+ecsdl.org/site/terms_use
+ address. Redistribution subject to ECS terms of use (see 
+207.241.231.82
+Downloaded on 2018-07-20 to IP 
+
+PAGE 10
+C910
+Journal of The Electrochemical Society, 164 (13) C901-C910 (2017)
+be thus explained. However, the mechanism of the inhibition effect
+of Ce3+ on trench formation remains unclear. One possibility is that
+the Ce3+ ions form a complex with Cl−ions and prevent the attack of
+Cl−ions against the steel matrix. In the ﬁeld of automotive emissions
+control, it has been reported that Ce compounds behave as sorbents
+for the removal of S from fuel and ﬂue gases.57 This suggests that it is
+possible that, in the presence of Ce3+ ions, the S released from the in-
+clusions is not all deposited. Further studies are required to determine
+the inhibition mechanism of Ce3+ on dissolution at the inclusion/steel
+matrix boundary.
+Conclusions
+1.
+A stable pit was generated at the CeS inclusion at 0.8 V in natu-
+rally aerated 0.1 M NaCl (298 K). The pitting potential at the CeS
+inclusion was 0.4 V higher than that of the MnS inclusion. How-
+ever, the pit initiation site, which was the inclusion/steel matrix
+boundary, was found to be common to both these inclusions.
+2.
+In the case of the MnS inclusion, a stable pit was initiated in
+the potential range of the inclusion dissolution. The dissolution
+of the CeS inclusion proceeded at approximately 0.5 V, but pit
+initiation was suppressed until 0.8 V. The difference in the pitting
+and dissolution potential can likely be attributed to the inhibitive
+effect of Ce-species on pitting. On the basis of thermodynamic
+calculations, it is suggested that the Ce3+ ions were released from
+CeS inclusions.
+3.
+The Ce3+ ions improved the pitting corrosion resistance at the
+MnS inclusion in 0.1 M and 3 M NaCl solutions. In the micro-
+scale polarization of a small area with a MnS inclusion, a stable
+pit was initiated in Ce3+-free solutions, whereas no stable pit was
+generated in Ce3+-containing solutions even when metastable pit-
+ting events were observed. In the Ce3+-free solution, the boundary
+between the MnS inclusion and the steel matrix dissolved selec-
+tively, and a deep trench was formed. On the other hand, only a
+shallow trench was formed in the Ce3+-containing solution. This
+suggests that the Ce3+ ions inhibit dissolution at the MnS/steel
+boundary, resulting in the improved pitting corrosion resistance
+of sulﬁde inclusions in stainless steels.
+Acknowledgments
+This work was supported by a Grant-in-Aid for JSPS Research Fel-
+low (grant No. 17J03625) and a Grant-in-Aid for Scientiﬁc Research
+A (grant No. 17H01331) from the Japan Society for the Promotion of
+Science. This work was also supported by the Program for Leading
+Graduate Schools, “Interdepartmental Doctoral Degree Program for
+Multi-dimensional Materials Science Leaders, Tohoku University”,
+MEXT, Japan.
+References
+1. G. S. Frankel, J. Electrochem. Soc., 145, 2186 (1998).
+2. M. Smialowski, Z. Szklarska-Smialowska, M. Rychcik, and A. Szummer, Corros.
+Sci., 9, 123 (1969).
+3. G. Wrangl´en, Corros. Sci., 14, 331 (1974).
+4. G. S. Eklund, J. Electrochem. Soc., 121, 467 (1974).
+5. J. E. Castle and R. Ke, Corros. Sci., 30, 409 (1990).
+6. R. Ke and R. Alkire, J. Electrochem. Soc., 142, 4056 (1995).
+7. M. P. Ryan, D. E. Williams, R. J. Chater, B. M. Hutton, and D. S. McPhail, Nature,
+415, 770 (2002).
+8. Q. Meng, G. S. Frankel, H. O. Colijn, and S. H. Goss, Nature, 424, 389 (2003).
+9. P. Schmuki, H. Hildebrand, A. Friedrich, and S. Virtanen, Corros. Sci., 47, 1239
+(2005).
+10. D. E. Williams, M. R. Kilburn, J. Cliff, and G. I. N. Waterhouse, Corros. Sci., 52,
+3702 (2010).
+11. H. B¨ohni, T. Suter, and A. Schreyer, Electrochim. Acta, 40, 1361 (1995).
+12. E. G. Webb, T. Suter, and R. C. Alkire, J. Electrochem. Soc., 148, B186 (2001).
+13. E. G. Webb and R. C. Alkire, J. Electrochem. Soc., 149, B272 (2002).
+14. E. G. Webb and R. C. Alkire, J. Electrochem. Soc., 149, B280 (2002).
+15. H. Krawiec, V. Vignal, O. Heintz, R. Oltra, and J.-M. Olive, J. Electrochem. Soc.,
+152, B213 (2005).
+16. V. Vignal, H. Krawiec, O. Heintz, and R. Oltra, Electrochim. Acta, 52, 4994 (2007).
+17. I. Muto, Y. Izumiyama, and N. Hara, J. Electrochem. Soc., 154, C439 (2007).
+18. A. Chiba, I. Muto, Y. Sugawara, and N. Hara, J. Electrochem. Soc., 159, C341 (2012).
+19. A. Chiba, I. Muto, Y. Sugawara, and N. Hara, J. Electrochem. Soc., 160, C511 (2013).
+20. A. Chiba, I. Muto, Y. Sugawara, and N. Hara, Mater. Trans., 55, 857 (2014).
+21. R. S. Lillard, M. A. Kashﬁpour, and W. Niu, J. Electrochem. Soc., 163, C440 (2016).
+22. M. Henthorne, Corrosion, 26, 512 (1970).
+23. H. Krawiec, V. Vignal, E. Finot, O. Heintz, R. Oltra, and J.-M. Olive, Metall. Mater.
+Trans. A, 35A, 3515 (2004).
+24. H. Krawiec, V. Vignal, O. Heintz, R. Oltra, and E. Chauveau, Metall. Mater. Trans.
+A, 37A, 1541 (2006).
+25. I. Muto, S. Kurokawa, and N. Hara, J. Electrochem. Soc., 156, C395 (2009).
+26. R. D. Knutsen and A. Ball, Corrosion, 47, 359 (1991).
+27. N. J. E. Dowling, C. Duret-Thual, G. Auclair, J.-P. Audouard, and P. Combrade,
+Corrosion, 51, 343 (1995).
+28. K. Oikawa, H. Mitsui, T. Ebata, T. Takiguchi, T. Shimizu, K. Ishikawa, T. Noda,
+M. Okabe, and K. Ishida, ISIJ Int., 42, 806 (2002).
+29. N. Shimahashi, I. Muto, Y. Sugawara, and N. Hara, J. Electrochem. Soc., 160, C262
+(2013).
+30. Y. Sugawara, T. Naruse, T. Ebata, I. Muto, and N. Hara, Mater. Trans., 56, 1814
+(2015).
+31. H. Shimada, Y. Sakakibara, and H. Okada, Corrosion, 33, 196 (1977).
+32. H. Y. Ha, C. J. Park, and H. S. Kwon, Scr. Mater., 55, 991 (2006).
+33. X. Liu and L. Wang, Adv. Mater. Res., 602–604, 376 (2013).
+34. B. Baroux, in Corrosion Mechanisms in Theory and Practice, 3rd Ed., P. Marcus,
+Editor, p. 443, CRC Press, Boca Raton, FL (2012).
+35. B. R. W. Hinton, D. R. Arnott, and N. E. Ryan, Met. Forum, 7, 211 (1984).
+36. D. R. Arnott, N. E. Ryan, B. R. W. Hinton, B. A. Sexton, and A. E. Hughes, Appl.
+Surf. Sci., 22–23, 236 (1985).
+37. B. R. W. Hinton, J. Alloys Compd, 180, 15 (1992).
+38. A. J. Aldykewicz Jr., H. S. Isaacs, and A. J. Davenport, J. Electrochem. Soc., 142,
+3342 (1995).
+39. M. A. Jakab, F. Presuel-Moreno, and J. R. Scully, J. Electrochem. Soc., 153, B244
+(2006).
+40. J. Li, B. Hurley, and R. Buchheit, J. Electrochem. Soc., 162, C563 (2015).
+41. Y. C. Lu and M. B. Ives, Corros. Sci., 34, 1773 (1993).
+42. Y. C. Lu and M. B. Ives, Corros. Sci., 37, 145 (1995).
+43. S. Virtanen, M. B. Ives, G. I. Sproule, P. Schmuki, and M. J. Graham, Corros. Sci.,
+39, 1897 (1997).
+44. C. B. Breslin, C. Chen, and F. Mansfeld, Corros. Sci., 39, 1061 (1997).
+45. A. Petek and S. Kovaˇciˇc, Green Chem. Lett. Rev., 7, 337 (2014).
+46. J. H. Park and H. Todoroki, ISIJ Int., 50, 1333 (2010).
+47. ASTM G61-86, ASTM International, West Conshohocken, PA (2003).
+48. D. J. M. Bevan, J. Inorg. Nucl. Chem., 1, 49 (1955).
+49. N. Shimahashi, I. Muto, Y. Sugawara, and N. Hara, J. Electrochem. Soc., 161, C494
+(2014).
+50. A. Szummer, M. Janik-Czachor, and S. Hofmann, Mater. Chem. Phys., 34, 181
+(1993).
+51. A. Szummer and M. Janik-Czachor, Corros. Sci., 35, 317 (1993).
+52. S. A. Hayes, P. Yu, T. J. O’Keefe, M. J. O’Keefe, and J. O. Stoffer, J. Electrochem.
+Soc., 149, C623 (2002).
+53. P. Yu, S. A. Hayes, T. J. O’Keefe, M. J. O’Keefe, and J. O. Stoffer, J. Electrochem.
+Soc., 153, C74 (2006).
+54. A. Roine, HSC Chemistry Thermo-chemical Database, Version 6.1, Outotec Research
+Oy, Pori, Finland (2007).
+55. A. Chiba, S. Shibukawa, I. Muto, T. Doi, K. Kawano, Y. Sugawara, and N. Hara, J.
+Electrochem. Soc., 162, C270 (2015).
+56. A. Chiba, I. Muto, Y. Sugawara, and N. Hara, Corros. Sci., 106, 25 (2016).
+57. D. Alan, R. Kay, W. G. Wilson, and V. Jalan, J. Alloys Compd., 192, 11 (1993).
+) unless CC License in place (see abstract).  
+ecsdl.org/site/terms_use
+ address. Redistribution subject to ECS terms of use (see 
+207.241.231.82
+Downloaded on 2018-07-20 to IP 

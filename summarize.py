@@ -6,7 +6,7 @@ from train import Experiment,make,configs,weights,writecsv
 from prepare import prepare
 from predict import run
 data=prepare();evaluation=json.loads((OUT/'results/retrained/results.json').read_text(encoding='utf8'))
-snapshot=json.loads((OUT/'data/input_snapshot.json').read_text(encoding='utf8'))
+snapshot=json.loads((OUT/'data/sources/input_snapshot.json').read_text(encoding='utf8'))
 fresh=Experiment(data['enriched_rows']);prior=Experiment(snapshot['enriched_rows'])
 assert list(fresh.g)==list(prior.g)
 np.testing.assert_allclose(fresh.raw,prior.raw,rtol=0,atol=0)

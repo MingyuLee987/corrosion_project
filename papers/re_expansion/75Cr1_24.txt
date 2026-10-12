@@ -1,0 +1,636 @@
+PAGE 1
+第60卷　第9期
+2024年9月
+Vol.60  No.9
+Sep.  2024
+ACTA METALLURGICA SINICA
+Ce对75Cr1钢洁净度、组织与耐点蚀性能的影响
+孟泽
+1    李光强
+1,2    李腾飞
+3    郑庆
+4    曾斌
+4    刘昱
+1
+1 武汉科技大学 省部共建耐火材料与冶金国家重点实验室  武汉 430081
+2 武汉科技大学 钢铁冶金及资源利用省部共建教育部重点实验室  武汉 430081
+3 武汉科技大学 钢铁冶金新工艺湖北省重点实验室  武汉 430081
+4 涟源钢铁有限公司  娄底 417009
+摘  要  通过对不同Ce含量的75Cr1钢中夹杂物的特征分析，以及对显微组织演变的原位观察和电化学极化实
+验，研究了Ce处理对75Cr1钢的洁净度、组织与耐蚀性能的影响。结果表明：Ce能有效去除钢中的O、S等杂
+质元素，随着Ce 含量的增加，75Cr1 钢中典型夹杂物从初始的Ca-Mg-Al-O + MnS + CaS + TiN 转变为Ce2O2S
+和Ce2O2S-CeAlO3夹杂，而后转变为稀土硫化物夹杂；O、S含量降低到一定程度后，Ce与P和As等残余元素结
+合形成稀土磷化物和稀土砷化物夹杂；夹杂物的尺寸、数量呈现先减小后增加的趋势，形状从不规则形状转变
+为球状，当Ce过量时又转变为不规则形状。适量的Ce处理可以明显细化奥氏体晶粒并抑制其长大，还可以提
+高钢的耐蚀性能。添加质量分数为0.0195%Ce时，75Cr1钢的洁净度、组织细化和耐点蚀性能最佳。
+关键词  Ce处理，夹杂物特征，O含量，S含量，细化晶粒，耐点蚀性
+中图分类号  TF769.9
+文章编号  0412-1961(2024)09-1229-10
+Effect of Ce on Cleanliness, Microstructure, and Pitting 
+Corrosion Resistance of 75Cr1 Steel
+MENG Ze
+ 1, LI Guangqiang
+ 1,2, LI Tengfei
+ 3, ZHENG Qing
+ 4, ZENG Bin
+ 4, LIU Yu
+ 1
+1 State Key Laboratory of Refractories and Metallurgy, Wuhan University of Science and Technology, 
+Wuhan 430081, China
+2 Key Laboratory for Ferrous Metallurgy and Resources Utilization of Ministry of Education, 
+Wuhan University of Science and Technology, Wuhan 430081, China
+3 Hubei Provincial Key Laboratory for New Processes of Ironmaking and Steelmaking, 
+Wuhan University of Science and Technology, Wuhan 430081, China
+4 Lianyuan Iron and Steel Co. Ltd., Loudi 417009, China
+Correspondent: LIU Yu, associate professor, Tel: 18007135350, E-mail: liuyu629@wust.edu.cn
+Supported by National Natural Science Foundation of China (No.52004189) and Key Research and Development Pro-
+jects of Hubei Province (No.2022BAA021)
+Manuscript received 2022-07-27, in revised form 2022-09-13
+ABSTRACT  Saw blades are always running under a high resonance, large lateral pressure, large ten-
+sile stress, and corrosive environment. Nonmetallic inclusions in steel break the continuity of the matrix 
+and easily cause stress concentration and crack formation. Furthermore, the inclusions, especially MnS/
+CaS, cause the initiation of pitting corrosion. Rare-earth elements in steel can play the role in liquid steel 
+purification, inclusion modification, and solid solution alloying. Rare-earth inclusions can act as the nucle-
+资助项目  国家自然科学基金项目No.52004189和湖北省重点研发计划项目No.2022BAA021
+收稿日期  2022-07-27  定稿日期  2022-09-13
+作者简介  孟 泽，1997年生，男，硕士生
+通讯作者  刘  昱，liuyu629@wust.edu.cn，主要从事钢的洁净化与均质化研究
+DOI 10.11900/0412.1961.2022.00359
+
+PAGE 2
+60 卷
+金 属 学 报
+ation sites for the formation of the δ-Fe/γ-Fe phase during the solidification of molten steel, thus refining 
+the solidification structure, and have relatively lower pitting sensitivity. In this study, the effect of Ce treat-
+ment on the cleanliness, microstructure, and corrosion resistance of 75Cr1 steel was investigated via in-
+clusion characterization and in situ observation of the microstructure evolution as well as electrochemical 
+polarization experiments. Results showed that Ce can effectively remove O, S, and other impurity ele-
+ments in steel. With the increase in Ce content, the typical inclusions in 75Cr1 steel changed from the ini-
+tial Ca-Mg-Al-O + MnS + CaS + TiN inclusions to Ce2O2S and Ce2O2S-CeAlO3 inclusions and then to 
+rare-earth sulfide inclusions. After the oxygen and sulfur contents were reduced to a certain extent, Ce 
+started to combine with residual elements such as P and As to form rare-earth phosphide and arsenide in-
+clusions. The size and number of inclusions firstly decreased and then increased. Meanwhile, the mor-
+phology of the inclusions firstly changed from irregular to spherical and then changed to irregular again 
+when excessive Ce was added. The addition of appropriate Ce can refine the austenite grains and inhibit 
+their growth; moreover, the corrosion potential and pitting corrosion resistance of steel are improved and 
+the self-corrosion currents decrease. The 0.0195%Ce-containing 75Cr1 steel showed the highest cleanli-
+ness, a refined microstructure, and enhanced pitting corrosion resistance.
+KEYWORDS Ce treatment, inclusions characteristics, oxygen content, sulfur content, grain refine-
+ment, pitting corrosion resistance
+75Cr1 钢属于高端锯片用钢，广泛应用于机械、
+石材等切削加工领域。由于其较高的C、Mn、Cr 含
+量，75Cr1钢具有较高的热裂纹敏感性，给内部质量
+控制带来了难度
+[1]。同时，锯片长期在共振、较大侧
+压力和拉应力下服役，这要求锯片的钢基体具有一
+定的弹性强度、疲劳强度和冲击韧性。钢中非金属
+夹杂物会打破钢基体的连续性，并容易造成应力集
+中而萌生裂纹，钢中残余的低熔点有害元素也会对
+钢的力学性能产生影响，需要尽可能提高钢的纯净
+度，并使钢中的夹杂物细小弥散分布，以减轻对钢基
+体的危害
+[2~5]。研究
+[6~9]表明，晶粒细化也有利于提高
+钢材的力学性能，降低钢的热裂纹敏感性。此外，
+75Cr1 钢在服役过程中长期与冷却介质接触，并且
+使用环境多为工业环境，因此其在侵蚀性阴离子的
+作用下容易被腐蚀。而腐蚀又以局部腐蚀为主，局
+部腐蚀中以点蚀最为常见
+[10]。非金属夹杂物是点蚀
+的主要诱发源，夹杂物的尺寸、种类、形貌、数量对点
+蚀具有很大的影响
+[11~20]。因此，洁净化、均质化、细
+晶化是生产高品质锯片钢的关键所在。
+稀土与钢中的O 和S 都具有较强的结合能力，
+加入钢中后能降低钢中O、S 含量，达到净化钢液的
+目的
+[21,22]。稀土处理后的钢在夹杂物尺寸、形貌和数
+量方面均能得到较大的改善，所生成的稀土夹杂物
+具有较高的熔点且能稳定存在于钢水中
+[23~25]。与
+Al2O3等夹杂物相比，稀土夹杂物与钢基体的弹性模
+量更为接近，在钢的热加工成型过程中有利于减轻
+钢基和夹杂物界面的应力集中，从而提高钢的耐疲
+劳性能和韧性
+[4]。稀土夹杂物还可以在钢液的凝固
+过程中作为初晶相的形核质点，起到细化晶粒的作
+用
+[26,27]。另一方面，稀土元素可以变质硫化物夹杂形
+成点蚀敏感性较低的稀土氧硫化物或稀土硫化物夹
+杂，进而提高钢的耐点蚀性能
+[28~30]。我国有着较为
+丰富的稀土资源，本工作拟通过向75Cr1 钢中加入
+稀土来净化钢液、改质夹杂，同时达到钢的组织细化
+和增强耐蚀性能的目的，为制备高品质锯片用钢提
+供技术参考和理论支撑。
+1 实验方法
+实验所用75Cr1 钢来自于某钢厂生产的板坯，
+板坯化学成分(质量分数，%)为：C 0.76，Si 0.29，Mn 
+0.6938，Al 0.013，Cr 0.51，Ti 0.0040，Fe 余量。考虑
+到实际生产过程中多为镁质耐火材料，实验所用坩
+埚为MgO 坩埚，外套石墨坩埚，加热设备为高频感
+应炉，装置如图1 所示。实验前将感应炉通入高纯
+Ar 气(99.999%，体积分数) 5 min 以驱赶炉膛中的残
+余气体，然后通电升温至1600℃后保温5 min 加入
+用铁箔包裹的Ce块(99.9%)，继续保温5 min使之均
+匀化，随后停炉冷却。重复实验，5组实验中Ce的添
+加量( 质量分数，下同) 分别为0、0.01%、0.03%、
+0.05%、0.08%，得到5组不同Ce含量的实验用钢。
+钢中Ce含量的检测按GB/T 14635—2020进行，
+准确称取约0.35 g 钢样置于烧杯中，加入20 mL 盐
+酸(体积比HCl∶H2O = 1∶1)和10 mL 水在60℃溶
+解，待钢样溶解后加入5 mL HClO₄加热冒白烟至白
+烟消失，降温冷却至室温后加入5 mL硝酸 (体积比
+HNO3∶H2O = 1∶1)，再次加热到60℃后逐滴加入
+H2O2至沉淀完全溶解，随后冷却至室温定容，利用
+DGS-III型电感耦合等离子体原子发射光谱仪(ICP-
+1230
+
+PAGE 3
+9期
+孟泽等：Ce对75Cr1钢洁净度、组织与耐点蚀性能的影响
+AES) 分析Ce 含量。5 组钢中Ce 含量分别为0、
+0.0074%、0.0195%、0.0260%、0.0416%，对应的试样
+分别命名为C1、C2、C3、C4和C5。
+经线切割对样品加工后，钢中O、S 含量由
+LECO TC500 氧氮分析仪和LECO CS744 碳硫分析
+仪测定；通过Nova 400 Nano扫描电子显微镜(SEM)
+和LE350 PentaFETx-3 能谱仪(EDS)检测夹杂物的
+成分、尺寸和数量；利用SEM 在1000 倍下随机拍摄
+30 张图，再通过Image-Pro-Plus 6.0 软件对钢中夹杂
+物尺寸与数量进行统计。利用Lasertec VL2000DX
+高温激光共聚焦扫描显微镜(CLSM)在1150℃下原
+位观察C1、C3和C5实验用钢奥氏体晶粒长大行为，
+升降温路线如图2 所示。同时，使用JMatPro7.0 软
+件计算钢在降温过程中的相分布。
+通过电化学极化实验检测钢的耐点蚀性能，试
+样尺寸为10 mm × 10 mm × 5 mm，背面焊接上铜
+线，并用环氧树脂进行封装，露出10 mm × 10 mm的
+表面。在进行电化学测试之前，使用粒度为5 μm的
+砂纸将试样表面湿磨至光滑无划痕，经抛光后用丙
+酮脱脂、酒精与蒸馏水冲洗，随后在干燥箱中进行干
+燥。利用PARSTAT 2273 型电化学综合测试仪对上
+述材料进行电化学极化曲线测试，电极体系为标准
+的三电极体系，实验溶液为3.5%NaCl (质量分数)溶
+液，以饱和甘汞电极(SCE)作为参比电极，实验用钢
+为工作电极，Pt片作为辅助电极。
+2 结果与讨论
+2.1 钢中O、S含量的变化
+图3所示为钢中总O和S含量随Ce含量的变化
+曲线。可以看出，随着Ce 含量的增加，钢中O、S 含
+量逐渐降低，C5钢中脱氧脱硫率分别达到了50%和
+97%，从热力学上看
+[31]，相比于常用的脱氧脱硫剂，
+Ce 的氧化物和硫化物的标准生成Gibbs 自由能更
+低，可见Ce 与钢中O、S 元素具有很强的亲和力，本
+实验中由于钢液体积小、动力学条件好，体现出了深
+度的脱氧脱硫效果。
+2.2 夹杂物特征的演变
+除了总O和S含量，夹杂物的数量、尺寸和形貌
+也是反映钢洁净度的重要标志。图4所示为钢中夹
+杂物尺寸与数量分布。可以看出，随着Ce含量的增
+加(0%~0.0416%)，5组钢中小尺寸夹杂物(< 3 μm)所
+占比例分别为78%、85%、90%、81% 和78%，夹杂物
+平均粒径分别为2.1、1.9、1.6、2.1 和2.2 μm，同时夹
+杂物数量也呈现先减小后增加的趋势。一般而言，
+钢中总O 含量越高，夹杂物的数量和尺寸也相应增
+加
+[32,33]。夹杂物尺寸和数量的统计结果表明，随着
+Ce 的加入，钢的洁净度先提高后降低。这与2.1 节
+中随着Ce 的加入，O、S 含量不断降低的趋势不符。
+为了更好地解释这一现象，有必要对夹杂物的形貌
+和成分特征进行分析。
+图5 所示为未采用稀土处理的C1 钢中典型夹
+杂物的形貌和元素分布。可以看出，钢中典型夹杂
+图2 原位观察实验的升降温程序图
+Fig.2 Heat treatment pattern for in situ observations
+图3 钢中总O、S含量随Ce含量的变化
+Fig.3 Variation of total oxygen and sulfur content in 
+steel with Ce content
+Color online
+图1 高频感应炉示意图
+Fig.1 Schematic of high frequency induction furnace
+1231
+
+PAGE 4
+60 卷
+金 属 学 报
+物主要是以Ca-Mg-Al-O 为核心、外围包裹着MnS
+和CaS、最外层有TiN析出的夹杂物。C2钢中Ce可
+以置换出夹杂物中的Al，钢中典型夹杂物发生改
+性，主要包含2 类夹杂，其中一类以Mg-Ca-Ce-O-S
+为核心，边缘有TiN 析出(图6a)，表明部分原始Ca-
+Mg-Al-O夹杂物中的Al已经被Ce完全置换出来，且
+Color online
+图5 C1钢中夹杂物的典型形貌及元素分布
+Fig.5 Morphology and element distributions of typical inclusions in C1 steel
+图4 钢中夹杂物尺寸和数量分布
+Fig.4 Sizes (a) and number distributions (b) of inclusions in steels (C1: 0%Ce, C2: 0.0074%Ce, C3: 0.0195%Ce, C4: 
+0.0260%Ce, C5: 0.0416%Ce)
+Color online
+图6 C2钢中典型夹杂物的形貌和元素分布
+Fig.6 Morphologies and element distributions of typical inclusions in C2 steel
+(a) Ce2O2S     (b) Ce2O2S-CeAlO3
+1232
+
+PAGE 5
+9期
+孟泽等：Ce对75Cr1钢洁净度、组织与耐点蚀性能的影响
+形成了Ce2O2S；同时钢中也发现了Ca-Mg-Ce-Al-O-
+S 夹杂，表明原始夹杂物中仍有部分夹杂物中的Al
+未被Ce完全还原，且形成了Ce2O2S-CeAlO3夹杂(图
+6b)。根据表1 中Ce、Al、O、S 相互作用的热力学公
+式(1)~(3) 及相关热力学数据
+[34]，可以计算得出
+1600℃下Ce处理过程中的O-S平衡曲线和Al-Ce平
+衡曲线，如图7 所示。热力学计算
+[35]表明当前钢液
+成分下，钢中溶解氧含量在0.0005%以下，从图7a可
+以看出，Ce 含量为0.0074% 时，钢中O、S 含量成分
+点处于形成Ce2O2S夹杂物的稳定区。图7b显示，针
+对原始75Cr1钢中溶解Al含量为0.013%，当钢中溶
+解Ce 含量大于0.0014% 时，就可能形成CeAlO3夹
+杂。实验结果与计算结果展现出很好的一致性。
+图8 所示为C3 钢中典型夹杂物的形貌和元素
+分布。可以看出，夹杂物为CexSy夹杂。这表明Ce
+含量为0.0195%时，钢中原始的Ca-Mg-Al-O复合夹
+杂被彻底还原改性。根据表1 中的热力学公式(4)~
+(6)可以计算得出1600℃下Ce处理过程中的Ce-S平
+衡曲线，如图9所示。O含量较低的情况下，稀土表
+现出较强的脱硫能力，夹杂物开始转变为稀土硫化
+物。随着稀土Ce 含量进一步增加(0.0260% 和
+0.0416%)，钢中O、S含量进一步降低，尤其是S含量
+图7 1600℃下钢液中O-S平衡曲线和Ce-Al平衡曲线
+Fig.7 O-S equilibrium curve (a) and Ce-Al equilibrium curve (b) in molten steel at 1600
+oC (w[M]—mass fraction of 
+dissolved element M in liquid steel)
+图8 C3钢中典型夹杂物的形貌和元素分布
+Fig.8 Morphology and element distributions of typical inclusions in C3 steel
+表1 稀土夹杂物的标准生成Gibbs自由能
+[34]
+Table 1 Standard Gibbs free energies of rare earth inclusions
+[34]
+Equation
+[ Ce ] + [ O ] + 1/2 [ S ] = 1/2Ce2O2S(s)
+[ Ce ] + 3/2 [ O ] = 1/2Ce2O3 (s)
+[ Ce ] + Al2O3 (s) = CeAlO3 (s) + [ Al ] 
+[ Ce ] + [ S ] = CeS(s)
+[ Ce ] + 3/2 [ S ] = 1/2Ce2S3 (s)
+[ Ce ] + 4/3[ S ] = 1/3Ce3S4 (s)
+DG
+q / (J·mol
+-1)
+-675700 + 165.50T
+-714380 + 179.74T
+-423900 + 247.30T
+-422100 + 120.38T
+-536420 + 163.86T
+-497670 + 146.30T
+No.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Note: ΔG
+θ—standard Gibbs free energy, T—temperature (K)
+1233
+
+PAGE 6
+60 卷
+金 属 学 报
+降低到较低水平(图3)，开始出现稀土的磷化物和砷
+化物，如图10所示。稀土的磷化物和砷化物中仍然
+含CexSy，随着Ce含量提高，磷化物和砷化物中CexSy
+含量减少。这也就解释了为何Ce 含量从0 到
+0.0416%逐步提高时，钢中O、S含量一直降低，而钢
+中的夹杂物数量和尺寸先减小后增加，因为Ce含量
+超过0.0195% 时，稀土夹杂物主要以磷化物和砷化
+物为主，氧硫夹杂减少。此外，从夹杂物的形貌来
+看，随着Ce 含量的增加，夹杂物形貌先从不规则形
+状转变为球状，当Ce 过量后又转变为不规则形状
+(图6、8和10)。本实验条件下，0.0195%Ce的含量最
+有利于钢中形成球状的稀土夹杂物，这将有利于减
+轻稀土夹杂物和钢基体之间的应力集中，提升钢的
+性能。
+2.3 热处理过程中奥氏体晶粒长大行为
+图11a~c 为1150℃下保温30 min 时不同Ce 含
+量试样的原位CLSM。结合JMatPro7.0 计算的
+75Cr1钢中的物相分布(图12)可以看出，1150℃下钢
+的显微组织均为奥氏体，且相比C1 和C5 钢样，C3
+钢中奥氏体晶粒尺寸更小。为了定量分析奥氏体晶
+粒尺寸的变化，对显微图片进行了处理( 如图
+11d~f)，并利用Image-Pro-Plus6.0软件对晶粒尺寸进
+行了统计，结果如图13所示。可以看出，在1150℃下
+保温5~30 min的过程中，C1钢中奥氏体晶粒尺寸从
+62.7 μm长大到80.9 μm (增加了18.2 μm)；C3钢中奥
+氏体晶粒尺寸从53.5 μm 长大到69.0 μm (增加了
+15.5 μm)；C5钢中奥氏体晶粒尺寸从67.8 μm长大到
+91.1 μm (增加了23.3 μm)。可见，适量的Ce 处理可
+以使初始奥氏体晶粒得到细化，并在热处理的过程
+中有着更慢的晶粒长大速率。
+Color online
+图10 C4和C5钢中典型夹杂物的形貌和元素分布
+Fig.10 Morphologies and element distributions of typical inclusions in C4 (a) and C5 (b) steels
+图9 1600℃下钢液中Ce-S的平衡曲线
+Fig.9 Ce-S equilibrium curves in molten steel at 
+1600
+oC
+1234
+
+PAGE 7
+9期
+孟泽等：Ce对75Cr1钢洁净度、组织与耐点蚀性能的影响
+C3 钢样在原位观察中初始奥氏体晶粒最小，
+也反映出其凝固组织更加细小。从图12 中可以看
+出，75Cr1 钢在凝固过程中的初晶相为奥氏体相。
+从热力学上看稀土氧化物或稀土氧硫化物主要在液
+态钢中形成，大量细小弥散的夹杂易聚集长大成为
+大尺寸的夹杂物团簇，从而使得夹杂物不能有效促
+进形核
+[36~38]。而稀土硫化物在钢中的浓度积比稀土
+氧化物或稀土氧硫化物高多个数量级，稀土硫化物
+夹杂除了在钢液中形成之外，还在钢液凝固过程中
+析出形成大量细小弥散分布的稀土硫化物夹杂
+[39]。
+因此，相比稀土的氧硫化物，弥散分布的稀土硫化
+物能更好地促进钢液凝固过程中δ-Fe/γ-Fe 相的异
+质形核，且最有利于促进形核的稀土硫化物尺寸为
+1~2 μm，其次是2~3 μm
+[40]。相比C1 和C5 钢，C3 钢
+中夹杂物主要为稀土硫化物，且夹杂物在1~3 μm的
+占比达56% (图4)，平均尺寸为1.6 μm，因此在钢液
+的凝固过程中能更好地起到细化初晶奥氏体相的
+作用。
+2.4 Ce含量对耐点蚀性能的影响
+C1、C3、C5 钢的极化实验结果如图14 所示，并
+由此得出每个样品的电化学腐蚀参数，如表2所示。
+可以看出，C1、C3、C5 钢的点蚀电位分别为-350、
+-290 和-330 mV，表明在一定范围内添加稀土可以
+图11 1150℃下保温30 min时C1、C3和C5钢中显微组织的原位CLSM像和对应的晶界处理图像
+Fig.11 In situ CLSM images of tested steels after 30 min holding at 1150
+oC (a-c) and corresponding processed diagrams of 
+grain boundary (d-f)
+(a, d) C1     (b, e) C3     (c, f) C5
+图13 在1150℃下不同保温时间下奥氏体晶粒平均
+尺寸
+Fig.13 Average austenite grain sizes of steels after dif‐
+ferent holding time at 1150
+oC
+图12 不同温度下75Cr1钢中的相分布
+Fig.12 Phase distributions in 75Cr1 steel at different 
+temperatures
+1235
+
+PAGE 8
+60 卷
+金 属 学 报
+显著提高钢的耐点蚀性能，但过量的稀土添加对点
+蚀性能提高不利。钢中的S 含量和夹杂物的特征
+(组成、形貌和分布)会对钢的耐点蚀性能产生影
+响
+[41]，C3 钢中夹杂物尺寸细小且形状接近球状，这
+会减轻钢基体和夹杂物附近的应力集中，从而减少
+钢基体和夹杂物界面的微裂纹，即有利于消除点蚀
+薄弱区。适量的稀土处理也能起到很好的脱硫效
+果，可以对钢中MnS、CaS等易引起点蚀的硫化物夹
+杂进行改性，使钢中夹杂物类型转变为CexSy；稀土
+夹杂物比同类型夹杂物具有更高的耐点蚀性
+能
+[28~30]，且夹杂物尺寸得到了细化，数量也减少；因
+此，C3 钢的耐点蚀性能得到提高。C5 钢中稀土夹
+杂物主要是稀土磷化物和砷化物及少量的稀土硫化
+物夹杂，虽然稀土磷化物相比稀土硫化物有着更低
+的点蚀敏感性
+[42]，但是因其夹杂物尺寸较大且数量
+多，增加了夹杂和钢基体之间的接触面及点蚀位点，
+导致钢的耐点蚀性能下降。
+3 结论
+(1) 随着Ce 含量的增加，钢液中O、S 含量不断
+降低，钢中典型夹杂物从原始的Ca-Mg-Al-O + 
+MnS + CaS + TiN 夹杂物转变为Ce2O2S 和Ce2O2S-
+CeAlO3夹杂，而后转变为稀土硫化物夹杂；O、S 含
+量降低后，夹杂物转变为稀土的磷化物或稀土砷化
+物；夹杂物的尺寸和数量先减小后增大，夹杂物的
+形状从不规则形状转变为类球状后又转变为不规
+则形状。Ce 含量为0.0195% 的钢样表现出了最高
+的洁净度。
+(2) 含0.0195%Ce 的钢在1150℃的等温原位观
+察过程中有更小的初始奥氏体晶粒尺寸，且保温过
+程中奥氏体晶粒长大速率更慢，等温30 min后，奥氏
+体晶粒尺寸最小。这主要归功于Ce 处理后钢中夹
+杂物被改质为稀土硫化物夹杂，且尺寸分布有利于
+其作为钢液凝固过程中初晶相的异质形核质点，因
+此原始晶粒尺寸得到细化。
+(3) 适量的Ce 处理有利于提高75Cr1 钢的耐点
+蚀性能，含0.0195%Ce的钢由于相对低的S含量、以
+及钢中硫化物夹杂被充分改质成为球状的稀土硫化
+物夹杂，并且夹杂物数量较少而且尺寸细小，因此具
+有更加优异的耐点蚀性能。随着稀土含量的进一步
+增加，由于夹杂物尺寸变大、数量变多，从而降低了
+钢的耐点蚀性能。
+参考文献
+[1] Liu D, Song Y Q, Zhang X, et al. Effect of La on microstructure 
+and mechanical properties of 75Cr1 saw blade steel [J]. Hot Work. 
+Technol., 2021, 50(14): 51
+(刘 笛, 宋艳青, 张 鑫等. La 对75Cr1 锯片用钢热轧板组织和力
+学性能的影响 [J]. 热加工工艺, 2021, 50(14): 51)
+[2] Guan J, Wang L Q, Zhang C W, et al. Effects of non-metallic inclu‐
+sions on the crack propagation in bearing steel [J]. Tribol. Int., 
+2017, 106: 123
+[3] Zhu J, Zhang Z H, Xie J X. Plastic deformation behavior and frac‐
+ture mechanism of rare earth H13 steel based on in situ TEM ten‐
+sile study [J]. Acta Metall. Sin., 2020, 56: 1592
+(朱 健, 张志豪, 谢建新. 基于原位TEM拉伸的稀土H13钢塑性
+形变行为和断裂机制 [J]. 金属学报, 2020, 56: 1592)
+[4] Wang L M. Application prospects and behavior of RE in new gen‐
+eration high strength steels with superior toughness [J]. J. Chin. 
+Rare Earth Soc., 2004, 22: 48
+(王龙妹. 稀土元素在新一代高强韧钢中的作用和应用前景 [J]. 
+中国稀土学报, 2004, 22: 48)
+[5] Yan C L, Wang F M, Wei L J, et al. Improvement of lanthanum on 
+impact toughness of 34CrNi3Mo steel containing Sn, Sb residual 
+elements [J]. J. Univ. Sci. Technol. Beijing, 2004, 26: 277
+(严春莲, 王福明, 魏利娟等. 残余元素锡、锑对34CrNi3Mo钢冲
+击韧性的影响及稀土镧的改善作用 [J]. 北京科技大学学报, 
+2004, 26: 277)
+[6] Yang J C, Wang J, Ren L, et al. Effect of Ce on microstructure and 
+Color online
+图14 C1、C3和C5钢的极化曲线
+Fig.14 Polarization curves of the C1, C3, and C5 steels 
+(Insets show the corresponding local magnified 
+curves)
+表2 C1、C3和C5钢在3.5%NaCl溶液中的电化学参数
+Table 2 Electrochemical parameters of the C1, C3, and C5 
+steels in 3.5%NaCl corrosion solution
+Sample
+C1
+C3
+C5
+Ecorr / mV
+-1000
+  -936
+  -986
+icorr / (A·cm
+-2)
+8.53 × 10
+-5
+4.03 × 10
+-5
+5.07 × 10
+-5
+Epit1000 / mV
+-350
+-290
+-330
+Note: Ecorr—corrosion potential, icorr—corrosion current densi‐
+ty, Epit1000—pitting potential corresponding to 1000 μA
+1236
+
+PAGE 9
+9期
+孟泽等：Ce对75Cr1钢洁净度、组织与耐点蚀性能的影响
+impact properties of S32550 duplex stainless steel [J]. Iron Steel, 
+2020, 55(1): 86
+(杨吉春, 王 军, 任 磊等. 铈对S32550双相不锈钢微观组织及冲
+击性能的影响 [J]. 钢铁, 2020, 55(1): 86)
+[7] Zhou W J, Zhu J, Zhang Z H. Austenite grain growth behaviors of 
+La-microalloyed H13 steel and its effect on mechanical properties 
+[J]. Metall. Mater. Trans., 2020, 51A: 4662
+[8] Lu B, Chen F R, Zhi J G, et al. Enhanced welding properties of 
+high strength steel via rare earth oxide metallurgy technology [J]. 
+Acta Metall. Sin., 2020, 56: 1206
+(陆 斌, 陈芙蓉, 智建国等. 应用稀土氧化物冶金技术改善高强
+钢焊接性能 [J]. 金属学报, 2020, 56: 1206)
+[9] Yang Q X, Liao B, Liu L G, et al. Mechanism of cracking resis‐
+tance improved by rare earth oxide of hardfacing specimens of 
+medium-high carbon steel [J]. J. Chin. Rare Earth Soc., 2006, 
+24: 721
+(杨庆祥, 廖 波, 刘利刚等. 稀土氧化物提高中高碳钢堆焊试样
+抗开裂性机制的研究 [J]. 中国稀土学报, 2006, 24: 721)
+[10] Ke W. China Corrosion Investigation Report [M]. Beijing: Chemi‐
+cal Industry Press, 2003: 55
+( 柯 伟. 中国腐蚀调查报告 [M]. 北京: 化学工业出版社, 
+2003: 55)
+[11] Deyab M A. Electrochemical investigations on pitting corrosion in‐
+hibition of mild steel by provitamin B5 in circulating cooling wa‐
+ter [J]. Electrochim. Acta, 2016, 202: 262
+[12] Frankel G S, Sridhar N. Understanding localized corrosion [J]. Ma‐
+ter. Today, 2008, 11: 38
+[13] Rodrigues C A D, Pagotto J F, Motheo A J, et al. The effect of tita‐
+nium on pitting corrosion resistance of welded supermartensitic 
+stainless steel [J]. Corros. Eng. Sci. Technol., 2017, 52: 141
+[14] Shi W N, Yang S F, Dong A P, et al. Understanding the corrosion 
+mechanism of spring steel induced by MnS inclusions with differ‐
+ent sizes [J]. JOM, 2018, 70: 2513
+[15] Yang Z X, Kan B, Li J X, et al. Pitting initiation and propagation 
+of X70 pipeline steel exposed to chloride-containing environments 
+[J]. Materials, 2017, 10: 1076
+[16] Jin T Y, Cheng Y. In situ characterization by localized electrochem‐
+ical impedance spectroscopy of the electrochemical activity of mi‐
+croscopic inclusions in an X100 steel [J]. Corros. Sci., 2011, 
+53: 850
+[17] Wang Y F, Cheng G X, Li Y. Observation of the pitting corrosion 
+and uniform corrosion for X80 steel in 3.5 wt.% NaCl solutions us‐
+ing in-situ and 3-D measuring microscope [J]. Corros. Sci., 2016, 
+111: 508
+[18] Suter T, Böhni H. A new microelectrochemical method to study pit 
+initiation on stainless steels [J]. Electrochim. Acta, 1997, 42: 3275
+[19] Sun Y T, Li Y W, Wu W B, et al. Effect of inclusions on pitting cor‐
+rosion of C70S6 non-quenched and tempered steel doped with Ca 
+and Mg [J]. Acta Metall. Sin., 2022, 58: 895
+(孙阳庭, 李一唯, 吴文博等. Ca、Mg掺杂下夹杂物对C70S6非调
+质钢点蚀行为的影响 [J]. 金属学报, 2022, 58: 895)
+[20] Zheng J C, Hu X J, Pan C, et al. Effects of inclusions on the resis‐
+tance to pitting corrosion of S32205 duplex stainless steel [J]. Ma‐
+ter. Corros., 2018, 69: 572
+[21] Imashuku S, Wagatsuma K. Cathodoluminescence analysis of non‐
+metallic inclusions in steel deoxidized and desulfurized by rare-
+earth metals (La, Ce, Nd) [J]. Metall. Mater. Trans., 2020, 
+51B: 79
+[22] Liu X J, Yang J C, Ding H F, et al. Study on behavior of rare earth 
+cerium modifying inclusions in clean steel [J]. Hot Work. Tech‐
+nol., 2016, 45(9): 92
+(刘香军, 杨吉春, 丁海峰等. 洁净钢中稀土铈变质夹杂物行为研
+究 [J]. 热加工工艺, 2016, 45(9): 92)
+[23] Gao S, Wang M, Guo J L, et al. Characterization transformation of 
+inclusions using rare earth Ce treatment on Al-killed titanium al‐
+loyed interstitial free steel [J]. Steel Res. Int., 2019, 90: 1900194
+[24] Huang Y, Cheng G G, Xie Y. Modification mechanism of cerium 
+on the inclusions in drill steel [J]. Acta Metall. Sin., 2018, 54: 1253
+(黄 宇, 成国光, 谢 有. 稀土Ce对钎具钢中夹杂物的改质机理研
+究 [J]. 金属学报, 2018, 54: 1253)
+[25] Song M M, Song B, Xin W B, et al. Effects of rare earth addition 
+on microstructure of C-Mn steel [J]. Ironmak. Steelmak., 2015, 
+42: 594
+[26] Li M, Li H Z, Wang J J, et al. Effect of Ce on the microstructure, 
+high-temperature tensile properties, and fracture mode of strip cast‐
+ing non-oriented 6.5%Si electrical steel [J]. Acta Metall. Sin., 
+2022, 58: 637
+(李 民, 李昊泽, 王继杰等. 稀土Ce对薄带连铸无取向6.5%Si钢
+组织、高温拉伸性能和断裂模式的影响 [J]. 金属学报, 2022, 
+58: 637)
+[27] Yang Q X, Gao Y W, Liao B, et al. Discussion of inclusions as het‐
+erogeneous nuclei of primary austenite of medium-high carbon 
+steel during hardfacing [J]. J. Chin. Rare Earths Soc., 2000, 
+18: 138
+(杨庆祥, 高聿为, 廖 波等. 夹杂物在中高碳钢堆焊金属中成为
+初生奥氏体非均质形核核心的探讨 [J]. 中国稀土学报, 2000, 
+18: 138)
+[28] Liu C, Revilla R I, Liu Z Y, et al. Effect of inclusions modified by 
+rare earth elements (Ce, La) on localized marine corrosion in 
+Q460NH weathering steel [J]. Corros. Sci., 2017, 129: 82
+[29] Nishimoto M, Muto I, Sugawara Y, et al. Micro-electrochemical 
+properties of CeS inclusions in stainless steel and inhibiting effects 
+of Ce3+ ions on pitting [J]. J. Electrochem. Soc., 2017, 164: C901
+[30] Nishimoto M, Muto I, Sugawara Y, et al. Cerium addition to CaS 
+inclusions in stainless steel: Insolubilizing water-soluble inclusions 
+and improving pitting corrosion resistance [J]. Corros. Sci., 2021, 
+180: 109222
+[31] Liu H L. Effect of rare earth on microstructure and property of 
+X80 pipeline Steel [D]. Shenyang: Northeastern University, 2011
+(刘宏亮. 稀土对X80管线钢组织和性能的影响 [D]. 沈阳: 东北
+大学, 2011)
+[32] Shi C B, Chen X C, Guo H J, et al. Assessment of oxygen control 
+1237
+
+PAGE 10
+60 卷
+金 属 学 报
+and its effect on inclusion characteristics during electroslag remelt‐
+ing of die steel [J]. Steel Res. Int., 2012, 83: 472
+[33] Liu Y, Zhang Z, Li G Q, et al. Evolution of desulfurization and 
+characterization of inclusions in dual alloy ingot processed by elec‐
+troslag remelting [J]. Steel Res. Int., 2017, 88: 1700058
+[34] Adabavazeh Z, Hwang W S, Su Y H. Effect of adding cerium on 
+microstructure and morphology of Ce-based inclusions formed in 
+low-carbon steel [J]. Sci. Rep., 2017, 7: 46503
+[35] Hino M, Ito K. Thermodynamic Data for Steelmaking [M]. Send‐
+ai, Japan: Tohuku University Press, 2010: 1
+[36] Huang Y, Cheng G G, Li S J, et al. Precipitation mechanism and 
+thermal stability of primary carbide in Ce microalloyed H13 steel 
+[J]. Acta Metall. Sin., 2019, 55: 1487
+(黄 宇, 成国光, 李世健等. Ce微合金化H13 钢中一次碳化物的
+析出机理及热稳定性研究 [J]. 金属学报, 2019, 55: 1487)
+[37] Guo M X, Suito H. Dispersion of primary inclusions of Ce2O3 and 
+CeS in Fe-0.20 mass%C-0.02 mass%P alloy [J]. ISIJ Int., 1999, 
+39: 678
+[38] Wang Y G, Liu C J. Agglomeration characteristics of various inclu‐
+sions in Al-killed molten steel containing rare earth element [J]. 
+Metall. Mater. Trans., 2020, 51B: 2585
+[39] Vahed A, Kay D A R. Thermodynamics of rare earths in steelmak‐
+ing [J]. Metall. Trans., 1976, 7B: 375
+[40] Bao D H, Cheng G G, Huang Y, et al. Refinement of solidification 
+structure of H13 steel by rare earth sulfide [J]. Steel Res. Int., 
+2022, 93: 2100304
+[41] Liu Y Q, Wang L J, Chou K C. Effects of cerium on resistance to 
+pitting corrosion of spring steel used in fasteners of high-speed 
+railway [J]. Steel Res. Int., 2014, 85: 1510
+[42] Cao Y X. Effect of rare earth Ce on the corrosion resistance and 
+weldability of high-strength low-alloy steels [D]. Wuhan: Wuhan 
+University of Science and Technology, 2021
+(曹羽鑫. 稀土Ce 对低合金高强钢耐点蚀性能和焊接性能的影
+响 [D]. 武汉: 武汉科技大学, 2021)
+(责任编辑:李海兰)
+1238

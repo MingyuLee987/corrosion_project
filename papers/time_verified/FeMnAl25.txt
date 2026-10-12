@@ -1,0 +1,872 @@
+PAGE 1
+ 
+ 
+ 
+ 
+Metals 2025, 15, 1249 
+https://doi.org/10.3390/met15111249 
+Article 
+Eﬀect of Aluminum Content on the Corrosion Behavior of  
+Fe-Mn-Al-C Structural Steels in Marine Environments 
+Suotao Wang 1, Zhidong Sun 1, Dongjie Li 1, Qiang Yu 1,2 and Qingfeng Wang 1,* 
+1 State Key Laboratory of Metastable Materials Science & Technology, Yanshan University,  
+Qinhuangdao 066004, China; wangsuotao@ysu.edu.cn (S.W.); zdongs@yeah.net (Z.S.);  
+ysuldj@126.com (D.L.); qiangy91@caztc.edu.cn (Q.Y.) 
+2 Department of Chemistry and Chemical Engineering, Cangzhou Normal University,  
+Cangzhou 061001, China 
+* Correspondence: wqf67@ysu.edu.cn; Tel.: +86-335-2039067 
+Abstract 
+Fe-Mn-Al-C lightweight steel is an alternative to traditional low-alloy structural steels. It 
+is lightweight and can be used to reduce the weight of structures without increasing their 
+density. However, in the marine environment, traditional low-alloy structural steels can 
+be damaged by chloride ions, which shortens their service life. We do not yet understand 
+how aluminum, an important alloying element in lightweight steel, aﬀects the process of 
+corrosion. In this study, we examined Fe-Mn-Al-C lightweight steels with diﬀerent 
+amounts of aluminum. We used full-immersion simulated marine corrosion tests and 
+multi-dimensional characterization techniques, such as microstructure observation and 
+electrochemical measurements, to explore the relationship between aluminum content 
+and the steel’s corrosion rate, corrosion product structure, and corrosion resistance. The 
+results showed that, compared with CS, the weight loss and rate of corrosion of steels that 
+contain aluminum were a lot lower. While the corrosion rate of CS is approximately 0.068 
+g·h−1·m−2, that of 7Al steel is reduced to 0.050 g·h−1·m−2. The stable phases α-FeOOH and 
+FeAl2O4 are formed in the corrosion products when Al is added. As the Al content in-
+creases, so does the relative content of these phases. Furthermore, FeAl2O4 acts as a nucle-
+ation site that reﬁnes corrosion product grains, reduces pores and cracks, and signiﬁcantly 
+improves the compactness of corrosion products. It also forms a dense inner rust layer 
+that blocks the penetration of corrosive ions such as Cl−. This study conﬁrmed that alumi-
+num improves the corrosion resistance of steel synergistically by regulating the structure 
+of the corrosion products, optimizing the phase composition, and improving the electro-
+chemical properties. The optimal aluminum content for lightweight steel in marine envi-
+ronments is 7%, within a range of 5–9%. 
+Keywords: Fe-Mn-Al-C alloy; FeAl2O4; lightweight steel; marine corrosion mechanism 
+ 
+1. Introduction 
+Lightweight steel has attracted much attention due to its combination of light weight, 
+high strength, and ductility [1–4]. In addition, with the increasing demand for lightweight 
+material in high-end equipment manufacturing industries, such as marine engineering 
+and the automotive industry, the development of structural materials with low density, 
+high strength, and excellent corrosion resistance has become a key research direction. 
+Academic Editor: Branimir N. Grgur 
+Received: 11 October 2025 
+Revised: 6 November 2025 
+Accepted: 13 November 2025 
+Published: 15 November 2025 
+Citation: Wang, S.; Sun, Z.; Li, D.; 
+Yu, Q.; Wang, Q. Eﬀect of  
+Aluminum Content on the  
+Corrosion Behavior of Fe-Mn-Al-C 
+Structural Steels in Marine  
+Environments. Metals 2025, 15, 1249. 
+https://doi.org/10.3390/met15111249 
+Copyright: © 2025 by the authors. 
+Licensee MDPI, Basel, Switzerland. 
+This article is an open access article 
+distributed under the terms and 
+conditions of the Creative Commons 
+Attribution (CC BY) license 
+(https://creativecommons.org/license
+s/by/4.0/). 
+
+PAGE 2
+Metals 2025, 15, 1249 
+2 of 17 
+ 
+ 
+Conventional high-strength, low-alloy steel is often used in critical ﬁelds because of its 
+excellent mechanical properties and processability, but its relatively high density (7.8 
+g/cm3) and surface vulnerability to corrosion in corrosive environments limit its use [5,6]. 
+However, when traditional low-alloy structural steel is used for a long time in the marine 
+industry, it will also face failure due to seawater corrosion. Fe-Mn-Al-C lightweight steel 
+signiﬁcantly reduces the material density by adding the lightweight element Al; for every 
+1% increase in aluminum (Al) content, the density of the alloy decreases by approximately 
+1.3%, and the synergistic eﬀect of Mn further optimizes the mechanical properties, making 
+it an ideal candidate for a new generation of lightweight materials [7,8]. 
+Lightweight steel is also very strong and does not rust easily. How much aluminum 
+aﬀects how easily this steel can rust depends a lot on the environment. In conditions 
+where there is a lot of oxygen, such as in salt water, aluminum combines with oxygen to 
+form stable oxides and hydroxides [9]. These compounds are enriched in the inner rust 
+layer, which can eﬀectively ﬁll the pores and cracks in the rust layer and signiﬁcantly 
+improve the compactness of the rust layer [10]. This densiﬁed rust layer can physically 
+block the penetration of corrosive ions such as Cl−, reducing their contact with the matrix, 
+thereby reducing the corrosion rate. At the same time, the enrichment of Al makes the 
+inner rust layer electronegative, which further inhibits the intrusion of anions (such as Cl− 
+and S elements) through the charge repulsion eﬀect and enhances the protection of the 
+rust layer [11,12]. However, the eﬀect of Al was reported to be negative. The standard 
+electrode potential of Al is much lower than that of Fe, with higher electrochemical activ-
+ity, so it is prone to preferential dissolution and accelerates the anodic dissolution process 
+of the matrix. At this time, Al struggles to form a complete protective compound layer, 
+but instead increases local corrosion sites due to its high activity, leading to an increase in 
+corrosion rate [9]. This “environment dependence” means that Al’s regulation on corro-
+sion resistance is closely related to factors such as oxygen content and ion concentration 
+in the service environment. Xu et al. [13] observed that introducing aluminum accelerates 
+localized corrosion while simultaneously increasing the density of the rust layer. Clearly, 
+the addition of aluminum exerts a signiﬁcant inﬂuence on the corrosion behavior of low-
+alloy steels. Consequently, the eﬀect of aluminum on steel corrosion resistance remains 
+controversial. Furthermore, the majority of current corrosion research on lightweight 
+steels focuses on conventional acidic and alkaline solutions and high-temperature corro-
+sion. This leaves the corrosion mechanism under high-aluminum conditions poorly un-
+derstood. 
+To meet the demand for corrosion-resistant lightweight materials in marine engineer-
+ing, three types of lightweight steel specimens with graded Al content were designed and 
+prepared. Conventional carbon steel was used as a control material. Full-immersion cor-
+rosion tests were conducted to simulate the actual environment. These tests investigated 
+the inﬂuence of Al content on the corrosion resistance of steel in seawater containing Cl− 
+ions. By analyzing corrosion kinetics, corrosion product composition, and microstructural 
+evolution during corrosion, the corrosion resistance mechanism of the steel was eluci-
+dated. This study provides experimental evidence and a theoretical reference for the com-
+position and design of seawater-resistant lightweight steel. 
+2. Experiments 
+2.1. Test Materials and Preparation 
+To study the inﬂuence of diﬀerent Al contents on the corrosion resistance of steel, 
+test steels containing 5%, 7%, and 9% Al were prepared, abbreviated as 5Al, 7Al, and 9Al 
+steels, with the comparative steel (CS). Their main compositions are shown in Table 1. The 
+above test materials were machined into samples with a size of 50 mm × 25 mm × 3 mm. 
+All samples were prepared as follows: their exposed surfaces were sequentially ground 
+
+PAGE 3
+Metals 2025, 15, 1249 
+3 of 17 
+ 
+ 
+with water, sandpaper, and abrasive papers up to 1000#, followed by polishing with 0.5 
+µm diamond paste. Then, the surfaces were cleaned with acetone, dried, and stored in a 
+desiccator for 24 h before use. 
+Table 1. Chemical compositions of test steels and reference steel (wt.%). 
+Steel 
+C 
+Si 
+Mn 
+Al 
+Cr 
+Ni 
+Mo 
+Fe 
+CS 
+0.11 
+0.18 
+0.44 
+- 
+<5.0 
+Balance 
+5Al 
+0.91 
+0.42 
+28.12 
+4.95 
+<1.0 
+Balance 
+7Al 
+0.89 
+0.44 
+28.44 
+7.13 
+<1.0 
+Balance 
+9Al 
+0.88 
+0.41 
+27.89 
+9.19 
+<1.0 
+Balance 
+2.2. Full-Immersion Corrosion Test 
+The test steels and the reference steel were subjected to full-immersion corrosion tests 
+in accordance with the JB/T 7901-1999 standard [14] to study the inﬂuence of diﬀerent Al 
+contents on the corrosion resistance of steel [15]. The test temperature was 35 ± 1 °C; the 
+test solution was a 35 g/L sodium chloride solution prepared with distilled water at 25 °C; 
+and the test cycles were set at 7, 14, 21, 28 and 35 days. The sample size was 50 × 25 × 3 
+mm, with three parallel samples. The samples were cleaned with a solution of 500 mL of 
+36–38% HCl, 50 mL of deionized water, and 10 g of hexamethylenetetramine. Once the 
+corrosion products were completely removed, the samples were rinsed with deionized 
+water, ultrasonically cleaned with absolute ethanol, and ﬁnally dried and weighed. The 
+corrosion rate was calculated using the weight loss method, with the speciﬁc formula as 
+follows: 
+rcorr = (M1 − M2)/At 
+(1)
+where M is the mass of the sample before the test (g); M1 is the mass of the sample after 
+the test (g); A is the total area of the sample (m2); t is the test time (h); rcorr is the corrosion 
+rate (g·h−1·m−2). 
+2.3. Characterization and Analysis of Corrosion Products 
+High-deﬁnition digital cameras were used to observe the morphology of corrosion 
+specimens, analyzing the distribution of corrosion products and the extent of surface 
+corrosion. Representative samples were extracted for embedding treatment, followed by 
+polishing with 0.5 µm polishing compound until a mirror ﬁnish was achieved. The 
+prepared specimens were examined using an S-3400 scanning electron microscope (SEM) 
+(Hitachi, Tokyo, Japan) to analyze the microstructures of samples from diﬀerent corrosion 
+cycles. This revealed the microstructure of corrosion products, their adhesion state, and 
+the evolution patterns of corrosion interfaces. Concurrently, an elemental distribution 
+analysis of speciﬁc rust layer regions was conducted using the SEM’s energy-dispersive 
+spectrometer (EDS), thereby determining the primary elemental composition and 
+distribution characteristics of the rust layer. 
+A Rigaku D/max-2500/PC X-ray Diﬀractometer (XRD) (Rigaku, Tokyo, Japan) was 
+used to test the phase structure of the rust layer powder at diﬀerent corrosion cycles, with 
+a Cu Kα diﬀraction target, a working voltage of 40 KV, a working current of 200 mA, a 
+scanning range of 10–75°, a step scanning mode, and a step size of 0.02°. To compare the 
+relative contents of phase structures in corrosion products, it is necessary to ensure that 
+the mass of corrosion products measured each time is consistent before XRD testing. 
+Using Jade 6.0 software, the relative contents of phase structures in corrosion products 
+were calculated and compared according to RIR and Rietveld calculation methods. XPS 
+(EscaLab 250xi, Thermo Scientiﬁc, Waltham, MA, USA) was employed to investigate the 
+
+PAGE 4
+Metals 2025, 15, 1249 
+4 of 17 
+ 
+ 
+elemental states using an Al K α X-ray source. The binding energy was corrected by ref-
+erencing the C1s peak (284.8 eV). 
+2.4. Electrochemical Measurements 
+A Shanghai Chenhua CHI660E (Shanghai Chenhua Instrument Co., Ltd., Shanghai, 
+China) was used to characterize the electrochemical properties of the corroded samples. 
+A traditional three-electrode system was applied, and electrochemical tests were carried 
+out in a 3.5% NaCl solution at room temperature (25 °C). The three electrodes are as fol-
+lows: 
+- 
+The working electrode is a corroded sample with an exposed area of 1 cm2. 
+- 
+The reference electrode is a saturated calomel electrode. 
+- 
+The counter electrode is a platinum electrode with an exposed area of 0.5 cm2. Before 
+the electrochemical test, the working electrode was subjected to an open circuit po-
+tential test for 1 h to ensure that the three-electrode system was in a steady state. The 
+parameters of the Tafel test were as follows: the test potential range was set to 
+−2.0~1.0 V, and the scanning rate was 0.01667 mV/s. The parameters of the electro-
+chemical impedance test were as follows: the frequency range was set to 105 Hz~10−2 
+Hz, and the applied disturbance potential amplitude was ±10 mV. 
+3. Results 
+3.1. Corrosion Kinetics 
+Figure 1 presents the corrosion kinetic curves of various test steels in full-immersion 
+corrosion environments. As observed in Figure 1a, the corrosion mass loss of the four test 
+steels increases as the corrosion cycles extend. The mass loss of Al-added steels exhibits 
+similarities to that of CS, with 7Al steel showing the lowest mass loss. With the progres-
+sion of the corrosion process, it is evident from Figure 1b that the corrosion rates of the 
+four test steels decline alongside the increase in corrosion cycle duration. Of these steels, 
+CS exhibits the highest corrosion rate, approximately 0.068 g·h−1·m−2, while 7Al steel and 
+9Al steel possess a corrosion rate approximating 0.050 g·h−1·m−2. This shows that adding 
+Al can signiﬁcantly improve the corrosion resistance of steel. However, when the Al con-
+tent exceeds 7%, the improvement in the corrosion resistance of the test steels becomes 
+limited. 
+(a) 
+(b) 
+Figure 1. Corrosion kinetics of the four test steels under full-immersion corrosion conditions. (a) 
+Corrosion weight loss diagram; (b) corrosion rate diagram. 
+ 
+ 
+
+PAGE 5
+Metals 2025, 15, 1249 
+5 of 17 
+ 
+ 
+3.2. Macroscopic Studies of Corrosion Products 
+Figures 2 and 3 show the micro-morphologies of the four test steels after 7 days and 
+35 days of full-immersion corrosion tests, respectively. Figures 2 and 3 show that rod-like, 
+cluster-like cotton-like, and needle-like substances appear on the surfaces of the three test 
+steels for the Al-containing steel, while rose-like substances appear on the surface of CS. 
+Yu et al., on the surface of weathering steel, determined that the rod-like and rose-like 
+substances can be considered γ-FeOOH and β-FeOOH with open structures, and cluster-
+like cotton-like and needle-like substances can be considered α-FeOOH with relatively 
+stable structures [16,17]. In the early stage of corrosion, many cracks and rose-like sub-
+stances appear on the surface of CS, which cannot eﬀectively block the entry of corrosive 
+media and oxygen, thus further corroding the matrix. However, Al-containing steels have 
+fewer surface cracks, and a large number of cluster-like substances accumulate on the sur-
+face, which eﬀectively provides a physical barrier to block the entry of corrosive media 
+and oxygen, thus eﬀectively protecting the matrix. With the extension of the corrosion 
+periods, some cracks still exist on the surface of CS, while the surfaces of 7Al and 9Al test 
+steels are covered by a layer of needle-like and cluster-like substances, forming a physical 
+barrier. Therefore, it can be concluded that adding aluminum to steel eﬀectively promotes 
+the growth of α-FeOOH on the steel surface. This growth forms a physical barrier that 
+protects the matrix from corrosion by corrosive media, thus improving the steel’s corro-
+sion resistance. 
+ 
+Figure 2. Micro-morphologies of the four test steels after 7 days of full-immersion corrosion test. (a) 
+5Al; (b) 7Al; (c) 9Al; (d) CS. 
+
+PAGE 6
+Metals 2025, 15, 1249 
+6 of 17 
+ 
+ 
+ 
+Figure 3. Micro-morphologies of the four test steels after 35 days of full-immersion corrosion test. 
+(a) 5Al; (b) 7Al; (c) 9Al; (d) CS. 
+Figures 4 and 5 show the morphologies of sections of the four test steels after full-
+immersion corrosion testing for 7 and 35 days, respectively. It can be seen from Figure 4 
+that in the early stage of corrosion, the corrosion products attached to the steel surface are 
+relatively thin, generally about 4–7 µm, and the cross-sectional rust layers of the four test 
+steels are not signiﬁcantly diﬀerent. 
+ 
+Figure 4. Cross-sectional micro-morphologies of the four test steels after 7 days of full-immersion 
+corrosion test. (a) 5Al; (b) 7Al; (c) 9Al; (d) CS. 
+
+PAGE 7
+Metals 2025, 15, 1249 
+7 of 17 
+ 
+ 
+ 
+Figure 5. Cross-sectional micro-morphologies of the four test steels after 35 days of full-immersion 
+corrosion test. (a) 5Al; (b) 7Al; (c) 9Al; (d) CS. 
+As the corrosion periods lengthen, the cross-sectional thickness of the rust layer on 
+Al-containing test steels keeps increasing, with values ranging from 10 to 18 µm. In con-
+trast, the rust layer on CS is relatively thin. This phenomenon may be attributed to the fact 
+that during the full-immersion corrosion test, the corrosion products generated on CS’s 
+surface fail to adhere ﬁrmly to the matrix and thus peel oﬀ into the solution. On the other 
+hand, the increased rust layer thickness of Al-containing test steels suggests that the cor-
+rosion products formed on these steels can attach closely to the matrix surface, thereby 
+functioning to block corrosive media. It is clearly observed in Figure 5b that the 7Al test 
+steel features an inner rust layer adjacent to the matrix—this layer is uniform and dense, 
+and it serves as one of the key factors contributing to the enhanced corrosion resistance of 
+the steel. 
+To analyze the eﬀect of alloying elements on the formation of the rust layer, an EDS 
+analysis was carried out on the rust layer after a 35-day test, as shown in Figure 6. Al-rich 
+regions appear in the rust layer, and with more Al, more is enriched near the substrate. 
+Mn elements are generally enriched in the outer rust layer. Therefore, Al plays a crucial 
+role in the formation of the rust layer on the steel surface and can improve the corrosion 
+resistance of steel. 
+
+PAGE 8
+Metals 2025, 15, 1249 
+8 of 17 
+ 
+ 
+ 
+Figure 6. Cross-sectional EDS diagrams of the three test steels after 35 days of full-immersion cor-
+rosion test. (a) 5Al; (b) 7Al; (c) 9Al. 
+3.3. Composition of the Rust Layer 
+Figure 7 presents the XRD patterns of the four test steels following varying periods 
+of full-immersion corrosion. As can be observed from Figure 7, the corrosion products of 
+the CS sample steel are primarily composed of α-FeOOH, β-FeOOH, γ-FeOOH, Fe3O4, 
+and amorphous materials. Upon the addition of Al and a high content of Mn to the steel, 
+MnO2 and FeAl2O4 are detected alongside the aforementioned corrosion products. As the 
+corrosion periods extend, the diﬀraction peak intensities of α-FeOOH and FeAl2O4 rise, 
+whereas those of β-FeOOH and γ-FeOOH decline. Furthermore, as the Al content rises, 
+the diﬀraction peak intensities of α-FeOOH and FeAl2O4 also increase in line with the el-
+evated Al content. This indicates that incorporating Al into steel can eﬀectively enhance 
+the contents of α-FeOOH and FeAl2O4. 
+ 
+(a) 
+(b) 
+
+PAGE 9
+Metals 2025, 15, 1249 
+9 of 17 
+ 
+ 
+(c) 
+(d) 
+Figure 7. XRD patterns of the four test steels after full-immersion corrosion test. (a) 5Al; (b) 7Al; (c) 
+9Al; (d) CS. 
+Research shows α-FeOOH is a stable hydroxide that does not easily react with other 
+substances. It sticks tightly to steel surfaces, making them more resistant to corrosion 
+[18,19]. For this reason, the ratio of the relative content of α to γ* (where γ* = β-FeOOH + 
+γ-FeOOH + Fe3O4) is proposed as the corrosion resistance index, with a higher value of 
+this index signifying superior corrosion resistance of the corrosion products [20]. To fur-
+ther examine how Al inﬂuences the phase composition of corrosion products, the RIR 
+method was adopted to determine the relative content of each phase, and the results are 
+displayed in Figure 8. The α/γ* ratio increases with the prolongation of corrosion periods. 
+In the late stage of corrosion, the α/γ* ratio of CS is only 0.12, while that of Al-containing 
+steels is signiﬁcantly elevated—speciﬁcally, the α/γ* ratios of 7Al and 9Al steels are ap-
+proximately 1.2, which indicates that their corrosion products exert a certain protective 
+eﬀect. Additionally, under the same corrosion period, the relative content of FeAl2O4 rises 
+as the Al content increases. However, when the Al content reaches 9%, the relative content 
+of FeAl2O4 stays essentially constant. In the late corrosion stage, the relative content of 
+FeAl2O4 in both 7Al and 9Al steels is maintained at around 11%. The above observations 
+illustrate that the incorporation of Al can facilitate the formation of the FeAl2O4 phase, 
+which in turn promotes the growth of the α-FeOOH phase and thus enhances the corro-
+sion resistance of the corrosion products. 
+(a) 
+(b) 
+Figure 8. Phase structure distribution and α/γ* diagrams of the four test steels at diﬀerent corrosion 
+periods. (a) Phase structure distribution diagram; (b) α/γ*. 
+To conduct a deeper analysis of Al’s eﬀect with respect to the full-immersion corro-
+sion of steel, XPS characterization was performed on 5Al, 7Al, and 9Al test steels following 
+35 periods of immersion corrosion, with the results presented in Figure 9. The Al 2p 
+
+PAGE 10
+Metals 2025, 15, 1249 
+10 of 17 
+ 
+ 
+spectra of these three Al-containing steels can be deconvoluted into two characteristic 
+peaks—with binding energies of 73.7 eV and 74.3 eV—which correspond to Al2O3 and 
+FeAl2O4, respectively [21]. The formation of Al2O3 and FeAl2O4 within the corrosion prod-
+ucts can be facilitated by incorporating Al into steel, as demonstrated by this ﬁnding. 
+ 
+(a) 
+(b) 
+ 
+(c) 
+Figure 9. XPS diagrams of Al 2p of Al-containing steels after 35 cycles of full-immersion corrosion 
+test. (a) 5Al; (b) 7Al; (c) 9Al. 
+3.4. The Rust Layer’s Electrochemical Properties 
+Figure 10 shows the Tafel diagrams of the four test steels after the full-immersion 
+corrosion test. In the corrosion process of the four test steels, the anodic reaction is con-
+trolled by metal dissolution, and the cathodic reaction is controlled by the reduction reac-
+tion of corrosion products and dissolved oxygen [22,23]. In the early stage of corrosion, 
+the polarization curves of the four test steels are basically similar, and the anodic curve of 
+CS is slightly higher than that of Al-containing steels, indicating that the anodic dissolu-
+tion resistance of CS is slightly higher than that of Al-containing steels in the early stage 
+of corrosion. With the extension of the corrosion reaction, Al-containing steels show an 
+obvious passivation region in the anode, and the 7Al curve has the largest slope, indicat-
+ing extremely high polarization resistance and signiﬁcant inhibition of the anodic disso-
+lution reaction, which may be due to the formation of a dense oxide ﬁlm with a higher Al 
+content, blocking ion migration. All steels exhibit oxygen absorption corrosion, but the 
+cathodic current density of 7Al steel decreases the fastest, indicating that its surface ﬁlm 
+has a stronger blocking eﬀect on oxygen diﬀusion. 
+
+PAGE 11
+Metals 2025, 15, 1249 
+11 of 17 
+ 
+ 
+ 
+(a) 
+(b) 
+Figure 10. Tafel diagrams of the four test steels after full-immersion corrosion test. (a) 7 days; (b) 35 
+days. 
+For a more in-depth analysis of the electrochemical properties of the four test steels, 
+the Tafel extrapolation method was employed to determine the self-corrosion potential 
+(Ecorr) and self-corrosion current density (Icorr) [24–26], with the results presented in Ta-
+ble 2. From the table, it is observed that during the early corrosion stage, 9Al steel exhibits 
+a more negative Ecorr and a higher i₍corr₎. This phenomenon is primarily due to the fact 
+that Al in the steel undergoes preferential dissolution in the early stage, which leads to 
+lower anodic and cathodic current densities. Nevertheless, as the corrosion period pro-
+longs, the Ecorr of 9Al steel undergoes a positive shift from −0.946 V to −0.770 V, while 
+the i₍corr₎ decreases from 82.46 µA·cm−2 to 13.49 µA·cm−2—values that are comparable to 
+the corresponding parameters of 7Al steel. This suggests that during the late corrosion 
+stage, the corrosion products formed on the surface of Al-containing steels can eﬀectively 
+inhibit the electrochemical reaction, thus enhancing the steel’s corrosion resistance. 
+Table 2. Tafel curve parameters of the four test steels. 
+Cycles 
+Samples 
+Ecorr/V (vs. SCE) 
+Icorr/μA·cm−2 
+7days 
+CS 
+−0.940 ± 0.011 
+92.33 ± 4.79 
+5Al 
+−0.850 ± 0.014 
+78.73 ± 2.16 
+7Al 
+−0.805 ± 0.007 
+73.73 ± 2.18 
+9Al 
+−0.946 ± 0.002 
+82.46 ± 4.13 
+35days 
+CS 
+−0.906 ± 0.008 
+213.7 ± 7.79 
+5Al 
+−0.798 ± 0.006 
+47.24 ± 3.15 
+7Al 
+−0.768 ± 0.005 
+9.89 ± 0.79 
+9Al 
+−0.770 ± 0.007 
+13.49 ± 3.01 
+Figure 11 shows the EIS diagrams of the four test steels after the full-immersion cor-
+rosion test. In the early stage of corrosion, the capacitive reactance arc of 9Al steel is the 
+smallest, indicating that the corrosion resistance of 9Al is poor in the early stage of corro-
+sion, which is consistent with the Tafel phenomenon. With the extension of the corrosion 
+cycles, the capacitive reactance arcs of Al-containing steels are much larger than that of 
+CS, and the capacitive reactance arcs of 7Al steel and 9Al steel are similar in size. The 
+above phenomena indicate that in the early stage of corrosion, excessive Al will accelerate 
+the anodic dissolution reaction of steel, leading to reduced corrosion resistance. However, 
+with the progression of the corrosion reaction, Al participates in the corrosion reaction 
+process, forming protective substances such as Al2O3 and FeAl2O4, which eﬀectively block 
+the occurrence of electrochemical reactions, thereby improving the corrosion resistance of 
+the steel. 
+
+PAGE 12
+Metals 2025, 15, 1249 
+12 of 17 
+ 
+ 
+ 
+ 
+(a) 
+(b) 
+(c) 
+(d) 
+Figure 11. EIS diagrams of the four test steels after full-immersion corrosion test. (a,b) 7 days; (c,d) 
+35 days; (a,c) Nyquist diagrams; (b,d) Bode diagrams. 
+To assess corrosion resistance more eﬀectively, EIS curves were ﬁtted using ZSimp-
+Win software (Version 3.6). The Bode plot shows that the maximum phase angle typically 
+occurs in the mid-frequency range, a feature of capacitive response. The electrochemical 
+system involves two time constants inﬂuencing the electrode process: one associated with 
+corrosion products and the other with the electric double layer [27,28]. The maximum 
+phase angle is below 90°, indicating non-ideal capacitive behavior caused by electrode 
+porosity or the relaxation eﬀect. During the EIS ﬁtting procedure, a constant phase ele-
+ment (Q) was used to simulate this dispersion behavior [29,30]. 
+The measured EIS curves can be ﬁtted using the equivalent circuit illustrated in Fig-
+ure 12. The deﬁnitions of each parameter are as follows: Rs is solution resistance, R(pore) 
+is the pore resistance of corrosion products, Qf is the constant phase element associated 
+with corrosion products, Rct is the charge transfer resistance, and Qdl is the constant phase 
+element related to the electrode double layer. The sum of R(pore) and Rct is referred to as 
+polarization resistance (Rp), which can characterize the corrosion resistance of steel in a 
+corrosive environment. The ﬁtting results for Rp are presented in Figure 12 and Table 3. It 
+is evident that during the early corrosion stage, 9Al steel exhibits the lowest Rp value, at 
+627.38 Ω·cm2. As the corrosion cycle progresses, 7Al steel achieves the highest Rp value 
+(1237.76 Ω·cm2), while the Rp value of 9Al steel rises to 1189.32 Ω·cm2—values that are 
+close to those of 7Al steel. This suggests that 9Al steel possesses poor corrosion resistance 
+during the early corrosion stage; however, following a period of corrosion reactions, Al-
+containing steels exhibit superior corrosion resistance compared to CS, with 7Al steel 
+demonstrating the optimal corrosion resistance—ﬁndings that align with the Tafel data. 
+
+PAGE 13
+Metals 2025, 15, 1249 
+13 of 17 
+ 
+ 
+ 
+Figure 12. Fitted Rp values of EIS for the four test steels. 
+Table 3. The ﬁtting results of the EIS curves of the four test samples after diﬀerent corrosion cy-
+cles. 
+Samples Cycles (d) Rs (Ω·cm2) Qf(Y0) × 10−3 (Ω−1·cm−2·sn) nf Rpore (Ω·cm2) Qdl(Y0) × 10−3 (Ω−1·cm−2·sn) ndl 
+Rct 
+(Ω·cm2) 
+χ2 
+(×10−5) 
+CS 
+7 
+43.85 
+15.37 
+0.31 
+87.35 
+19.19 
+0.22 714.86 1.27 
+35 
+40.30 
+12.64 
+0.42 
+66.79 
+18.14 
+0.45 470.69 0.47 
+5Al 
+7 
+48.35 
+16.47 
+0.35 
+90.34 
+23.47 
+0.22 727.43 1.87 
+35 
+57.64 
+24.67 
+0.51 
+140.33 
+22.22 
+0.35 972.32 3.47 
+7Al 
+7 
+41.33 
+20.13 
+0.34 
+80.79 
+27.94 
+0.41 850.86 1.74 
+35 
+51.35 
+32.47 
+0.50 
+167.97 
+34.78 
+0.35 1069.79 3.76 
+9Al 
+7 
+40.80 
+10.10 
+0.38 
+79.41 
+22.78 
+0.42 547.97 1.87 
+35 
+41.53 
+27.97 
+0.55 
+153.79 
+43.78 
+0.42 1035.53 2.79 
+4. Discussion 
+High-strength low-alloy steels are commonly used in marine engineering applica-
+tions, and face severe corrosion risks when exposed to marine environments. As the pri-
+mary corrosive ion, chloride ions are a key factor causing failure in low-alloy steels during 
+service [31]. Figure 13 illustrates the corrosion mechanism of steel with an aluminum mi-
+crocrystalline layer (Al WS). Typically, rust layer formation in marine environments pro-
+ceeds as follows: Fe undergoes anodic dissolution to produce Fe2+, which continuously 
+hydrates to form abundant Fe(O,OH)6. These hydrated products stack sequentially to 
+form FeOOH. As shown in Figure 6, the primary FeOOH phases formed include α-
+FeOOH, β-FeOOH, and γ-FeOOH, with β-FeOOH and γ-FeOOH being the predominant 
+corrosion products [32,33]. The structures of these corrosion products are typically loose 
+and porous. Corrosive ions can penetrate the rust layer through these pores and mi-
+crocracks, reaching the rust layer/substrate interface and accelerating localized corrosion 
+beneath the rust layer. Consequently, as shown in Figure 1, carbon steel exhibits a higher 
+corrosion rate. 
+
+PAGE 14
+Metals 2025, 15, 1249 
+14 of 17 
+ 
+ 
+ 
+Figure 13. Schematic diagram of corrosion mechanism of Al WS. 
+When Al is added to the steel, since the standard electrode potential of aluminum is 
+−1.66 V, which is much lower than that of iron (−0.44 V), aluminum is more active than 
+iron in the corrosive environment and ﬁrst undergoes anodic oxidation reaction. The fol-
+lowing reactions occur [34]: 
+𝐴𝑙
+ௗ௜௦௦௢௟௩௘
+ሱ⎯⎯⎯⎯ሮ𝐴𝑙ଷାுమை
+ሱ⎯ሮ𝐴𝑙(𝑂𝐻)ଷ
+ு௬ௗ௥௢௟௬௦௜௦
+ሱ⎯⎯⎯⎯⎯⎯ሮ𝐴𝑙𝑂𝑂𝐻
+ௗ௜௦௦௢௟௩௘
+ሱ⎯⎯⎯⎯ሮ𝐴𝑙ଶ𝑂ଷ 
+(2)
+Owing to the incorporation of Al into the steel, Al undergoes preferential dissolution. 
+Consequently, an excessive amount of Al in the early corrosion stage will result in a high 
+corrosion rate of the steel. As illustrated in Figure 1, this phenomenon shows that low-
+alloy steels with high Al content (>9%) exhibit a higher corrosion rate than those with low 
+Al content. This is mainly because the addition of excessive Al leads to a more negative 
+E₍corr₎ and a higher i₍corr₎. This phenomenon explains why an excessively high Al content 
+can cause excessive dissolution and thus increase the corrosion rate. As the corrosion re-
+action proceeds, Al participates in the reaction to form a relatively dense oxide ﬁlm (Al2O3) 
+on the steel surface. On one hand, this oxide ﬁlm can adhere closely to the substrate sur-
+face; on the other hand, it can ﬁll the corrosion product layer composed of stacked FeOOH, 
+thereby enhancing the physical barrier. In the late corrosion stage, when a complete cor-
+rosion product ﬁlm (CPF) covers the surface of the low-alloy steel, it can isolate most of 
+the corrosive solution from direct contact with the bare surface of the steel. However, a 
+small amount of solution can still reach the interface between the rust layer and the matrix 
+through structural defects such as cracks and pores. In an anaerobic environment, the hy-
+drolysis of metal cations generates a large number of hydrogen ions, leading to signiﬁcant 
+local acidiﬁcation. Furthermore, the enrichment of corrosive ions (e.g., Cl−) will further 
+accelerate the acidiﬁcation process. Some previous studies [35,36] have pointed out that 
+the pH value of the microenvironment beneath the rust layer can be as low as 3 or even 
+lower. According to the solubility product constant [37], calculations show that at room 
+temperature, the pH values at which Al3+ and Mn2+ start to precipitate are 3.2 and 9.8, 
+respectively. This implies that when the pH is 3, Al2O3 may still exist stably, whereas MnO 
+and Mn2O3 tend to dissolve under weakly acidic conditions. Therefore, under the action 
+of the potential gradient, low-valence Mn cations preferentially migrate outward, thereby 
+forming a Mn-rich zone in the outer layer of the CPF and an Al-rich zone in the inner 
+layer. 
+In addition, when excessive Al2O3 accumulates, reaction (2) will occur [10]: 
+Fe(OH)2 + Al2O3 → FeAl2O4 + H2O 
+(3)
+Therefore, Al is enriched in the inner rust layer in the form of FeAl2O4 spinel oxide 
+later in the corrosion process of the steel. This compound can be used as a nucleation site 
+for rust layer grains, inhibiting excessive grain growth by changing the stacking order of 
+the Fe(O,OH)6 network, thus reﬁning the rust layer grains [10,38]. The XRD results show 
+that the broadening degree of characteristic peaks such as α-FeOOH and γ-FeOOH in Al-
+
+PAGE 15
+Metals 2025, 15, 1249 
+15 of 17 
+ 
+ 
+containing steels is signiﬁcantly higher than that in CS, indicating that the grains are ﬁner. 
+Reﬁned grains reduce pores and cracks inside the rust layer, signiﬁcantly improve the 
+compactness of the rust layer, and reduce the penetration channels of corrosive solutions. 
+Through the enrichment of FeAl2O4, the transformation of γ-FeOOH to stable α-FeOOH 
+is accelerated, thereby increasing the value of α/γ*. Experimental data show that the α/γ* 
+values of 7Al and 9Al steels are signiﬁcantly higher than that of CS, more than twice that 
+of CS (Figure 8b), indicating that their corrosion products have stronger chemical stability. 
+XRD and XPS analyses conﬁrmed that a large amount of FeAl2O4 exists in the rust layer 
+of Al-containing steels, and its content increases with corrosion time. FeAl2O4 has excellent 
+chemical stability and corrosion resistance, which not only provides protection for the rust 
+layer itself but also further enhances the stability of the rust layer by promoting the for-
+mation of α-FeOOH. In addition, Al also exists in the rust layer in the form of Al2O3, which 
+gradually transforms into more stable FeAl2O4 with corrosion, continuously optimizing 
+the phase composition of the rust layer [11,39]. 
+Al improves the corrosion resistance of steel through multi-dimensional synergistic 
+eﬀects: reﬁning rust layer grains, promoting the transformation of stable phases, and im-
+proving compactness at the micro level; enhancing the stability of the rust layer through 
+stable phases such as FeAl2O4 at the chemical level; optimizing electrochemical properties 
+to inhibit corrosion kinetic processes at the macro level. These eﬀects mean that Al-con-
+taining steels show signiﬁcantly better corrosion resistance than conventional steels in ma-
+rine engineering, providing a key basis for the design of lightweight and high-corrosion-
+resistance steels. 
+5. Conclusions 
+In this paper, through full-immersion corrosion tests combined with corrosion kinet-
+ics, corrosion products’ characterization, and electrochemical tests, the inﬂuence mecha-
+nism of Al content on the corrosion resistance of lightweight steel in marine environments 
+was systematically explored. The main conclusions are as follows: 
+1. 
+The addition of Al can signiﬁcantly reduce the corrosion weight loss and corrosion 
+rate of steel among 5~9%Al contents. Among them, 7Al steel and 9Al steel have the 
+lowest and similar corrosion rates, and the corrosion resistance has increased by two 
+times. Hence, 7% Al content is the key threshold for improving corrosion resistance. 
+2. 
+Al can eﬀectively form Al-rich oxides within the rust layer. These oxides act as a sta-
+ble protective phase, thereby enhancing the corrosion resistance. FeAl2O4, as a nucle-
+ation site, reﬁnes rust layer grains, reduces internal pores and cracks, and enhances 
+the physical barrier eﬀect. However, as the standard electrode potential of Al is too 
+low, excessively high Al content would lead to excessive dissolution and increase the 
+corrosion rate. 
+3. 
+The electrochemical stability of Al-containing steels is signiﬁcantly better than that of 
+CS. The 7Al steel has the highest Rp value (1237.76 Ω·cm2), and the charge transfer 
+resistance (Rct) and rust layer pore resistance (R(pores)) increase simultaneously, in-
+dicating that its rust layer has the strongest blocking eﬀect on electrochemical reac-
+tions and the best corrosion resistance. 
+Author Contributions: Conceptualization, S.W.; methodology, S.W. and Z.S.; software, D.L. and 
+Q.Y.; validation, Q.W.; formal analysis, Q.W.; investigation, D.L.; resources, S.W. and Q.Y.; data 
+curation, S.W., D.L. and Q.Y.; writing—original draft preparation, S.W. and Z.S.; writing—review 
+and editing, ; visualization, S.W.; supervision, S.W.; project administration, S.W.; funding acquisi-
+tion, . All authors have read and agreed to the published version of the manuscript. 
+
+PAGE 16
+Metals 2025, 15, 1249 
+16 of 17 
+ 
+ 
+Funding: The authors gratefully acknowledge the ﬁnancial support from the Strategic Technology 
+Special Project of Hebei Province (Grant No. 23311002L), A device for remelting and re-solidiﬁcation 
+of grain boundaries in metallic materials under the action of electrical pulses and pressure (Grant 
+No. 52127808), and the Scientiﬁc Research and Innovation Project of Cangzhou Normal University 
+(Grant No. cxtdl2301). 
+Data Availability Statement: The data presented in this study are available on request from the 
+corresponding author due to the data is still being used in other projects. 
+Conflicts of Interest: The authors declare no conflicts of interest. 
+References 
+1. 
+Veis, V.; Semenko, A.; Voron, M.; Tymoshenko, A.; Likhatskyi, R.; Likhatskyi, I.; Parkhomchuk, Z. Lightweight Fe–Mn–Al–C 
+Steels: 
+Current 
+State, 
+Manufacturing, 
+and 
+Implementation 
+Prospects. 
+Steel 
+Res. 
+Int. 
+2025, 
+early 
+view. 
+https://doi.org/10.1002/srin.202400904. 
+2. 
+Kim, H.; Suh, D.W.; Kim, N.J. Fe–Al–Mn–C lightweight structural alloys: A review on the microstructures and mechanical 
+properties. Sci. Technol. Adv. Mater. 2013, 14, 14205. 
+3. 
+Jeong, S.; Kim, B.; Moon, J.; Park, S.J.; Lee, C. Influence of κ-carbide precipitation on the microstructure and mechanical prop-
+erties in the weld heat-affected zone in various FeMnAlC alloys. Mater. Sci. Eng. A 2018, 726, 223–230. 
+4. 
+Qiu, G.X.; Li, J.N.; Chen, K.; Xu, G.; Yang, Y.K.; Li, X.M. Research status of high-manganese high-aluminum steel and key points 
+of continuous casting. Jom 2024, 76, 7011–7022. 
+5. 
+Fu, J.D.; Wan, S.; Yang, Y.; Su, Q.; Han, W.W.; Zhu, Y.B. Accelerated corrosion behavior of weathering steel Q345qDNH for 
+bridge in industrial atmosphere. Constr. Build. Mater. 2021, 306, 124864. 
+6. 
+Mokhtari, E.; Heidarpour, A.; Javidan, F. Mechanical performance of high strength steel under corrosion: A review study. J. 
+Constr. Steel Res. 2024, 220, 108840. 
+7. 
+Gomez, A.; Banis, A.; Avella, M.; Molina-Aldareguia, J.M.; Petrov, R.H.; Dutta, A.; Sabirov, I. The effect of κ-carbides on high 
+cycle fatigue behavior of a Fe-Mn-Al-C lightweight steel. Int. J. Fatigue 2024, 184, 108306. 
+8. 
+Haghdadi, N.; Zarei-Hanzaki, A.; Farabi, E.; Cizek, P.; Beladi, H.; Hodgson, P.D. Strain rate dependence of ferrite dynamic 
+restoration mechanism in a duplex low-density steel. Mater. Des. 2017, 132, 360–366. 
+9. 
+Zhao, J.; Wu, W.; Cai, J.; Cheng, X. Evaluating the effect of aluminum on the corrosion resistance of the structural steels used 
+for marine engineering. J. Mater. Res. Technol. 2022, 18, 4181–4193. 
+10. 
+Tang, Y.; Li, B.; Ji, P.; Zhang, X.; Ma, M.; Liu, R. Benefit of the rust layer formed on AlMn lightweight weathering steel in indus-
+trial atmosphere. Constr. Build. Mater. 2023, 394, 15. 
+11. 
+Tang, Y.; Guo, Y.; Ji, P.; Li, B.; Xia, C.; Zhang, S.; Zhang, J.; Zhang, X.; Liu, R. Optimizing the corrosion performance of rust layers: 
+Role of Al and Mn in lightweight weathering steel. npj Mater. Degrad. 2024, 8, 32. 
+12. 
+Nishimura, T.; Tahara, A.; Kodama, T. Effect of Al on the Corrosion Behavior of Low Alloy Steels in Wet/Dry Environment. 
+Mater. Trans. 2001, 7, 662–671. 
+13. 
+Xu, X.; Zhang, T.; Wu, W.; Jiang, S.; Yang, J.; Liu, Z. Optimizing the resistance of Ni-advanced weathering steel to marine at-
+mospheric corrosion with the addition of Al or Mo. Constr. Build. Mater. 2021, 279, 122341. 
+14. 
+JB/T 7901-1999; Metals materials - Uniform corrosion-Methods of laboratory immersion testing. State Administration of Ma-
+chinery Industry, China 1999. 
+15. 
+Brash, D.E.; Rudolph, J.A.; Simon, J.A.; Lin, A.; Mckenna, G.J.; Baden, H.P.; Ponten, H.J. A role for sunlight in skin cancer: UV-
+induced p53 mutations in squamous cell carcinoma. Proc. Natl. Acad. Sci. USA 1991, 88, 10124–10128. 
+16. 
+Yu, Q.; Yang, X.; Dong, W.; Wang, Q.; Zhang, F.; Gu, X. Layer-by-layer investigation of the multilayer corrosion products for 
+different Ni content weathering steel via a novel Pull-off testing. Corros. Sci. 2021, 195, 109988. 
+17. 
+Yu, Q.; Dong, W.; Yang, X.; Wang, Q.; Zhang, F. Insights into the corrosion mechanism and electrochemical properties of the 
+rust layer evolution for weathering steel with various Cl deposition in the simulated atmosphere. Mater. Res. Express 2021, 8, 
+36515–36518. 
+18. 
+Cheng, X.; Jin, Z.; Liu, M.; Li, X. Optimizing the nickel content in weathering steels to enhance their corrosion resistance in acidic 
+atmospheres. Corros. Sci. 2017, 115, 135–142. https://doi.org/10.1016/j.corsci.2016.11.016. 
+19. 
+Wu, W.; Cheng, X.; Zhao, J.; Li, X. Benefit of the corrosion product film formed on a new weathering steel containing 3% nickel 
+under marine atmosphere in Maldives. Corros. Sci. 2019, 165, 108416. 
+
+PAGE 17
+Metals 2025, 15, 1249 
+17 of 17 
+ 
+ 
+20. 
+Kamimura, T.; Hara, S.; Miyuki, H.; Yamashita, M.; Uchida, H. Composition and protective ability of rust layer formed on 
+weathering steel exposed to various environments. Corros. Sci. 2006, 48, 2799–2812. 
+21. 
+Ma, C.; Song, S.; Gao, Z.; Wang, J.; Xia, D.H. Electrochemical Noise Monitoring of the Atmospheric Corrosion of Steels: Identi-
+fying Corrosion Form Using Wavelet Analysis. Corros. Eng. Sci. Technol. 2017, 52, 432–440. 
+22. 
+Hao, L.; Zhang, S.; Dong, J.; Ke, W. Evolution of corrosion of MnCuP weathering steel submitted to wet/dry cyclic tests in a 
+simulated coastal atmosphere. Corros. Sci. 2012, 58, 175–180. 
+23. 
+Yu, Q.; Dong, W.; Yang, X.; Wang, Q.; Zhang, F. The Role of the Direct Current Electric Field in Enhancing the Protective Rust 
+Layer of Weathering Steel. J. Mater. Eng. Perform. 2021, 30, 6309–6322. 
+24. 
+Mansfeld, F. Tafel slopes and corrosion rates obtained in the pre-Tafel region of polarization curves. Corros. Sci. 2005, 47, 3178–
+3186. 
+25. 
+Deyab, M.A.; Mohsen, Q. Inhibitory influence of cationic Gemini surfactant on the dissolution rate of N80 carbon steel in 15% 
+HCl solution. Sci. Rep. 2021, 11, 10521. 
+26. 
+Deyab, M.A.M. Corrosion Inhibition and Adsorption Behavior of Sodium Lauryl Ether Sulfate on L80 Carbon Steel in Acetic 
+Acid Solution and Its Synergism with Ethanol. J. Surfactants Deterg. 2015, 18, 405–411. 
+27. 
+Collazo, A.; Nóvoa, X.R.; Pérez, C.; Puga, B. EIS study of the rust converter effectiveness under different conditions. Electrochim. 
+Acta 2008, 53, 7565–7574. 
+28. 
+Li, Y.; Xu, J. Is niobium more corrosion-resistant than commercially pure titanium in fluoride-containing artificial saliva? Elec-
+trochim. Acta 2017, 233, 151–166. 
+29. 
+Barcia, O.E.; DʹElia, E.; Frateur, I.; Mattos, O.R.; Tribollet, B. Application of the impedance model of de Levie for the characteri-
+zation of porous electrodes. Electrochim. Acta 2002, 47, 2109–2116. 
+30. 
+Hao, W.; Liu, Z.; Wu, W.; Li, X.; Du, C.; Zhang, D. Electrochemical characterization and stress corrosion cracking of E690 high 
+strength steel in wet-dry cyclic marine environments. Mater. Sci. Eng. A 2017, 710, 318–328. 
+31. 
+Zhang, X.; Yang, S.; Zhang, W.; Guo, H.; He, X. Influence of outer rust layers on corrosion of carbon steel and weathering steel 
+during wet–dry cycles. Corros. Sci. 2014, 82, 165–172. 
+32. 
+Morcillo, M.; Chico, B.; Diaz, I.; Cano, H.; Fuente, D.D.L. Atmospheric corrosion data of weathering steels. A review. Corros. Sci. 
+2013, 77, 6–24. 
+33. 
+Jia, J.; Liu, Z.; Cheng, X.; Du, C.; Li, X. Development and optimization of Ni-advanced weathering steel: A review. Corros. Com-
+mun. 2021, 2, 82–90. 
+34. 
+Wu, W.; Qin, L.; Cheng, X.; Xu, F.; Li, X. Microstructural evolution and its effect on corrosion behavior and mechanism of an 
+austenite-based low-density steel during aging. Corros. Sci. 2023, 212, 110936. 
+35. 
+Sridhar, N. Local Corrosion Chemistry—A Review. Corros. J. Sci. Eng. 2017, 73, 18–30. 
+36. 
+Kappes, M.A.; Ortíz, M.R.; Iannuzzi, M.; Carranza, R.M. Use of the Critical Acidification Model to Estimate Critical Localized 
+Corrosion Potentials of Duplex Stainless Steels. Corros. J. Sci. Eng. 2017, 73, 31–40. 
+37. 
+Asmadi, A.; Kendrick, J.; Leusen, F.J.J. Crystal structure prediction and isostructurality of three small organic halogen com-
+pounds. Phys. Chem. Chem. Phys. 2010, 12, 8571–8579. 
+38. 
+Zhang, T.; Xu, X.; Li, Y.; Lv, X. The function of Cr on the rust formed on weathering steel performed in a simulated tropical 
+marine atmosphere environment. Constr. Build. Mater. 2021, 277, 122298. 
+39. Kimura, M.; Kihira, H.; Ohta, N.; Hashimoto, M.; Senuma, T. Control of Fe(O,OH)6 nano-network structures of rust for high 
+atmospheric-corrosion resistance. Corros. Sci. 2005, 47, 2499–2509. 
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual au-
+thor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to 
+people or property resulting from any ideas, methods, instructions or products referred to in the content. 

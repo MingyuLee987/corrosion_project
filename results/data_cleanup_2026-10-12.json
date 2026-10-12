@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-12",
+  "moves": [
+    {
+      "source": "data/literature_screening.csv",
+      "destination": "data/review/literature_screening.csv"
+    },
+    {
+      "source": "data/new_paper_candidates_5.csv",
+      "destination": "data/review/new_paper_candidates_5.csv"
+    },
+    {
+      "source": "data/RE_expansion_review.csv",
+      "destination": "data/review/RE_expansion_review.csv"
+    },
+    {
+      "source": "data/surface_roughness_review.csv",
+      "destination": "data/review/surface_roughness_review.csv"
+    },
+    {
+      "source": "data/time_literature_review.csv",
+      "destination": "data/review/time_literature_review.csv"
+    },
+    {
+      "source": "data/time_pending_verification.csv",
+      "destination": "data/review/time_pending_verification.csv"
+    },
+    {
+      "source": "data/input_snapshot.json",
+      "destination": "data/sources/input_snapshot.json"
+    },
+    {
+      "source": "data/new_verified_17.csv",
+      "destination": "data/sources/new_verified_17.csv"
+    },
+    {
+      "source": "data/supplementary_nominal_RE_3.csv",
+      "destination": "data/sources/supplementary_nominal_RE_3.csv"
+    },
+    {
+      "source": "data/external_time_verified.csv",
+      "destination": "data/time/external_time_verified.csv"
+    },
+    {
+      "source": "data/pdp_literature_additions.csv",
+      "destination": "data/time/pdp_literature_additions.csv"
+    },
+    {
+      "source": "data/time_verified_noncontinuous_auxiliary.csv",
+      "destination": "data/time/time_verified_noncontinuous_auxiliary.csv"
+    },
+    {
+      "source": "data/training_RE_immersion_verified.csv",
+      "destination": "data/time/training_RE_immersion_verified.csv"
+    },
+    {
+      "source": "data/training_time_verified.csv",
+      "destination": "data/time/training_time_verified.csv"
+    },
+    {
+      "source": "data/v2_curated_31.csv",
+      "destination": "data/v2/v2_curated_31.csv"
+    },
+    {
+      "source": "data/v2_curated_31_manifest.json",
+      "destination": "data/v2/v2_curated_31_manifest.json"
+    },
+    {
+      "source": "data/category_values.csv",
+      "destination": "data/templates/category_values.csv"
+    },
+    {
+      "source": "data/example_input.csv",
+      "destination": "data/templates/example_input.csv"
+    }
+  ],
+  "recycle": [
+    "data/training_RE_core.csv",
+    "data/new_RE_verified_3.csv",
+    "data/three_category_columns.csv"
+  ],
+  "updated_files": [
+    "build_time_verified.py",
+    "build_v2_31.py",
+    "catboost_extension.py",
+    "check.py",
+    "corrosion_paper_guided.py",
+    "corrosion_time_verified.py",
+    "corrosion_v2.py",
+    "evaluate_external_time.py",
+    "literature_collection_batch.py",
+    "prepare.py",
+    "summarize.py",
+    "COLLECTION_BATCH_REVIEW.md",
+    "MODEL_IMPROVEMENT.md",
+    "README.md",
+    "RE_EXPANSION_2026-10-12.md",
+    "V2_REDESIGN.md",
+    "README_먼저읽기.txt"
+  ]
+}

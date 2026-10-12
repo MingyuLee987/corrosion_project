@@ -26,7 +26,7 @@ from build_v2_31 import COLUMNS as CURATED_COLUMNS
 
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data/v2_curated_31.csv"
+DATA = ROOT / "data/v2/v2_curated_31.csv"
 OUT = ROOT / "results/v2"
 MODEL = ROOT / "models/v2_paired.joblib"
 

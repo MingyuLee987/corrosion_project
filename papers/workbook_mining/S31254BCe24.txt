@@ -1,0 +1,543 @@
+PAGE 1
+第44卷　第6期
+2024年12月
+Vol.44  No.6
+Dec.  2024
+中国腐蚀与防护学报
+Journal of Chinese Society for Corrosion and Protection
+B、Ce微合金化对S31254超级奥氏体不锈钢
+析出相及耐蚀性能的影响
+马晋遥
+1,2    董楠
+1    郭振森
+1    韩培德
+1
+1 太原理工大学材料科学与工程学院 太原 030024
+2 太原理工大学分析测试中心 太原 030024
+摘  要  采用OM、SEM、EDS、电化学测试等方法研究了B、Ce微合金化对S31254超级奥氏体不锈钢的析出相
+及耐蚀性的影响。析出相分析结果表明，B、Ce的添加都有抑制时效过程中析出相的析出作用，并且B、Ce复
+合后可改变析出相沿晶界的析出形态。电化学结果显示，B、Ce复合微合金化可提高材料的自腐蚀电位和点
+蚀电位，促进钝化膜的快速形成并同步提升其稳定性，改善材料的耐点蚀与耐晶间腐蚀性能。因此，本文的研
+究结果表明相较单一B元素的添加，B、Ce协同对S31254析出相的抑制和耐蚀性提高效果更为显著。
+关键词  S31254超级奥氏体不锈钢，B、Ce微合金化，析出相，耐蚀性能
+中图分类号  TG174
+文章编号  1005-4537(2024)06-1610-07
+Effect of B and Ce Micro-alloying on Secondary Phase 
+Precipitation and Corrosion Resistance of S31254 
+Super Austenitic Stainless Steel
+MA Jinyao 
+1,2, DONG Nan 
+1, GUO Zhensen 
+1, HAN Peide 
+1
+1 College of Materials Science and Engineering, Taiyuan University of Technology, Taiyuan 030024, China
+2 Instrumental Analysis Center of Taiyuan University of Technology, Taiyuan 030024, China
+Correspondent: HAN Peide, E-mail: hanpeide@tyut.edu.cn
+Manuscript received 2024-02-02, in revised form 2024-04-12
+ABSTRACT  The effect of B and Ce micro-alloying on secondary phase precipitation and corrosion re-
+sistance of S31254 super austenitic stainless steel were studied by OM, SEM, EDS and electrochemical 
+tests. The results show that the addition of B and Ce can inhibit the precipitation of secondary phase in 
+the aging process and change the morphology of precipitated phase along the grain boundary. The B and 
+Ce micro-alloying can also improve the free-corrosion potential and pitting potential of the S31254 super 
+austenitic stainless steel , promote the rapid formation of passive film, improve its stability synchronously, 
+thus improve the pitting and intergranular corrosion resistance of the steel. Therefore, it follows that the 
+synergistic effect of both B and Ce co-alloying on precipitation inhibition and corrosion resistance of 
+S31254 is significantly more pronounced when compared to the addition of a single B element.
+KEYWORDS S31254 super austenitic stainless steel, B, Ce micro-alloying, precipitated phase, corro-
+sion resistance
+近年来，随着能源环保、海洋开发、石油化工和
+纸浆、造纸漂白等高端装备制造业的飞速发展，对材
+料在极端腐蚀环境的服役性能也提出了更高的要
+求。其中，高端装备用抗腐蚀关键材料超级奥氏体
+收稿日期  2024-02-02  定稿日期  2024-04-12
+作者简介  马晋遥，男，1989年生，博士，助理研究员
+通讯作者  韩培德，E-mail：hanpeide@tyut.edu.cn，研究方向为钢铁材料结构与性能
+DOI 10.11902/1005.4537.2024.043
+
+PAGE 2
+6期
+马晋遥等：B、Ce微合金化对S31254超级奥氏体不锈钢析出相及耐蚀性能的影响
+不锈钢(SASSs)因其优异的耐蚀和力学性能在相关
+领域占据了一席之地
+[1~3]。SASSs优异的耐腐蚀性能
+是由于具有高的Cr 和Mo 含量，但同时也会导致其
+在凝固和热加工过程中出现Cr、Mo的严重偏析，析
+出相大量析出引发的热轧开裂、晶间腐蚀等问题。
+其根源就是沿晶界脆性二次σ 相析出敏感，析出温
+度范围宽(650~1100℃)，析出相周边贫Cr区的产生，
+导致其力学性能、加工性能与耐腐蚀性能下降
+严重
+[4~6]。
+近年来，已有很多研究表明通过微合金元素添
+加可改善SASSs 凝固组织均匀性，抑制有害相的析
+出。如添加极少量的B (0.002%~0.005%，质量分
+数)，对SASSs的析出相有明显的抑制作用
+[7~9]。本课
+题组在之前的研究
+[10~13]中观察到，S31254 超级奥氏
+体不锈钢(简称S31254不锈钢)中加入微量(0.004%，
+质量分数)的B 可在固溶阶段加速σ 相的回溶，并抑
+制热加工变形阶段σ相在原始及再结晶晶界的大量
+析出，促进再结晶晶粒的长大，从而改善热塑性。B
+还可以提高S31254不锈钢的抗点蚀能力，提高钝化
+膜中Cr2O3的含量，增加钝化膜的致密性
+[10, 11]。此外，
+稀土Ce 的添加能净化晶界、细化晶粒、改善元素偏
+析，净化夹杂物
+[14,15]。Wang等
+[16]研究表明0.016%(质
+量分数)Ce的添加，可抑制Mo、Cr的晶界偏析，延缓
+并减少σ 相的析出，同步提升S31254 的热加工和耐
+蚀性能。微量Ce 可以抑制铸态组织中Cr 和Mo 的
+凝固偏析
+[17]。Sun等
+[18]通过研究稀土Ce对双相不锈
+钢中的析出行为的影响，结果表明少量(0.0055% 和
+0.01%，质量分数) Ce的添加可以有效地抑制σ相的
+析出。
+现有研究结果来看，B、Ce对SASSs析出及耐蚀
+的影响往往是单一元素的影响，B与稀土Ce复合微
+合金化对于S31254 不锈钢的析出行为及耐蚀性影
+响，尤其B、Ce 间配比的影响仍不明晰。因此，本研
+究将对比分析不含B和Ce (0B)、B微合金化(50B)以
+及B-Ce 复合微合金化(50B-20Ce 和50B-50Ce)的4
+种成分的S31254 不锈钢，通过研究B、Ce 配比对超
+奥钢Cr、Mo 的晶界偏析，第二相析出的影响，探究
+B、Ce 协同对S31254 不锈钢中σ 相的析出行为以及
+微观组织、耐蚀性能的影响规律。
+1 实验方法
+实验用超级奥氏体不锈钢在S31254 不锈钢成
+分基础上添加了0.005% (质量分数，下同)的B、
+0.002%和0.005%的Ce，对应4种成分超奥钢分别标
+为0B、50B、50B-20Ce、50B-50Ce，在真空感应炉中
+进行冶炼，随后使用KSL-1500X型马弗炉在1200℃
+保温10 h 对铸坯进行均质化处理，最后对均质化板
+材进行热轧，轧制变形量为60%，轧制温度为
+1200℃，实验用合金的主要化学成分如表1 所示。
+轧制好的实验钢板采用DK77-20 型电火花线切割
+机切割成15 mm × 15 mm × 2 mm试样，对表面均匀
+涂抹防氧化液后进行固溶及时效处理，固溶处理温
+度为1220℃，保温2 h。因S31254 不锈钢的析出鼻
+尖温度约为950℃
+[5,6]，为研究合金元素添加对析出
+规律的影响，固时效处理选择在950℃管式炉中进
+行，时效时间分别为30 和90 min，随后进行水淬。
+热处理工艺过程如图1所示。
+将固溶处理、时效处理后的试样粗磨(120~
+3000#)，并使用金刚石研磨膏(1.5 µm)抛光，随后使
+用王水腐蚀。显微组织观察前采用无水乙醇对试样
+进行超声波清洗500 s。随后使用光学显微镜、扫描电
+子显微镜(SEM, JEOL 7900 F)和能谱仪(EDS, Ultim 
+Extreme )对材料进行表征。
+采用三电极体系，在模拟烟气脱硫冷凝液(11.5%
+( 质量分数，下同)H2SO4 + 1.2%HCl + 1.0%FeCl3 + 
+1.0%CuCl2)中进行电化学测量，使用饱和汞电极
+(SCE)作为参比电极(RE)，铂片作为对电极(CE)，长
+宽尺寸为20 mm × 20 mm，工作电极为实验钢，长宽
+尺寸为10 mm × 10 mm。电化学容器放置水浴锅
+中，温度控制在30℃。在腐蚀实验之前，在-1.0 VSCE
+下进行阴极极化5 min，去除表面钝化膜。然后，将
+工作电极在电解质中稳定30 min 以达到稳定状态。
+表 1 实验用S31254不锈钢化学成分
+Table 1 Chemical compositions of S31254 super austenitic stainless steel samples added with B and Ce
+(mass fraction / %)
+Sample
+0B
+50B
+50B-20Ce
+50B-50Ce
+C
+0.012
+0.012
+0.018
+0.015
+Si
+0.64
+0.61
+0.17
+0.17
+Mn
+0.47
+0.49
+1.82
+1.87
+P
+0.035
+0.017
+0.007
+0.008
+S
+0.006
+0.005
+0.002
+0.002
+Cr
+19.18
+18.59
+19.84
+20.08
+Ni
+18.11
+18.11
+18.07
+17.94
+Mo
+6.17
+6.12
+6.21
+6.02
+Cu
+0.71
+0.58
+0.56
+0.48
+N
+0.20
+0.20
+0.199
+0.187
+B
+0
+0.005
+0.005
+0.005
+Ce
+0
+0
+0.002
+0.005
+1611
+
+PAGE 3
+44 卷
+中国腐蚀与防护学报
+随后开始电化学测试，记录极化曲线。极化后，在相
+同溶液中进行电化学阻抗谱(EIS)分析, 阻抗实验用
+材料先在50 mVSCE恒电位条件极化反应2 h。每个
+实验测试3 次。为了进一步研究B、Ce 对超奥钢耐
+蚀性能的影响，后续采用硫酸-硫酸铁浸泡实验对
+0B、50B、50B-20Ce、50B-50Ce 固溶试样的耐腐蚀性
+能进行评价。
+2 结果与讨论
+2.1 微观组织分析
+图2为4种不同成分的S31254不锈钢在1220℃
+保温2 h 固溶处理后的显微组织，可以看出固溶2 h
+后，试样晶界处析出相均已完全回溶，组织为单一的
+奥氏体组织。从图2c 和d 来看，加入Ce 后，固溶组
+织中孪晶数量显著增加，晶粒尺寸明显减小。
+为了进一步研究B、Ce微合金化对S31254不锈
+钢析出相析出行为的影响，对0B、50B、50B-20Ce和
+不锈钢50B-50Ce 共4 种试样进行950℃，90 min 时
+效处理。图3 为4 种不同成分的试样在950℃时效
+后的SEM 图。可以看出，在相同时效条件下，B、Ce
+微合金化后的试样晶界及晶内析出相明显减少，尤
+其是B-Ce 复合添加更有利于抑制σ 相的析出。如
+图3a 所示，0B 实验钢中晶界和晶内均有析出，析出
+相沿着晶界处几乎连成网状，在三角晶界处的析出
+相尺寸更大。添加B后，50B钢时效后，晶界上的析
+出相数量较少，尺寸较小，并且晶内仍有析出相析
+出，如图3b 所示。50B-20Ce 试样中，析出相数量明
+显减少(图3c)，在晶界的析出相较为细小、σ 相断续
+分布于晶界。同时，晶内析出也得到了明显的抑制。
+50B-50Ce试样中析出相数量更少，在晶界上析出相
+较50B-20Ce 试样更为细小、更断续，如图3d 所示。
+以上结果表明，B、Ce 复合添加对于950℃时效析出
+相的形成抑制作用更明显，且Ce含量的提高对晶界
+上析出相抑制效果更为显著。
+S31254不锈钢在950℃时效的析出相是σ相，众
+图1 热处理工艺示意图
+Fig.1 Schematic illustration of the heat treatment 
+schedule employed in this study
+图2 4种S31254不锈钢经1220℃保温2 h固溶处理后的显微组织
+Fig.2 Microstructures of four S31254 stainless steels after solution treatment at 1220
+oC for 2 h: (a) 0B, (b) 50B, (c) 50B-
+20Ce, (d) 50B-50Ce
+1612
+
+PAGE 4
+6期
+马晋遥等：B、Ce微合金化对S31254超级奥氏体不锈钢析出相及耐蚀性能的影响
+所周知，σ相是一种富Cr、富Mo的金属间化合物
+[19]。
+另一方面，晶界是高能量的区域，Mo、Cr等合金元素
+在晶界上易富集，并沿晶界扩散，因此析出相会优先
+沿晶界形核长大。通过SEM-EDS 对析出相的形成
+所引起的元素富集进行探究。图4分别为0B、50B、
+50B-20Ce 和50B-50Ce 试样950℃时效90 min 后，晶
+界处析出相的元素分布图。表2所示为对应实验钢
+析出相中的元素含量分析。对于0B样品(图4a)，可
+以看出，晶界的析出物主要富集Cr 和Mo。标记部
+分(1、2点位)为晶界析出元素明显富集的位置，其中
+Cr 的质量分数分别为26.7% 和25.6%，Mo 的质量分
+数为22.31% 和21.8%，对应是σ 相。对于50B 试样
+(图4b)，可以看出在晶界处元素富集主要是Mo，而
+Cr分布相对均匀，并且在晶界处的析出物中可以观
+察到少量的B 偏析。根据EDS 结果，在晶界中元素
+富集明显的位置，Cr 含量为23% 左右，Mo 含量为
+23%~25%。对于50B-20Ce 样品(图4c)，可以看出，
+晶界处的析出物主要富集Cr 和Mo，B 也有少量偏
+析，同时，在晶界处元素明显富集的位置，Cr的质量
+分数为25%~27%，Mo 的质量分数为16%~18%。对
+于50B-50Ce 样品(图4d)，可以看出在晶界处元素富
+集主要是Mo，并且在晶界处析出物中可以观察到少
+量的B和Ce偏析。晶界处元素富集明显的位置，Cr
+含量仅为20%~21%，与基体中Cr 含量(20%)接近，
+Mo含量为15%~16%。由以上分析可知，随着Ce含
+量的增加，析出相中Mo 与Cr 含量显著降低，B、Ce
+复合更有利于减缓贫Cr区的形成，抑制Cr、Mo在晶
+界的聚集。
+2.2 耐蚀性能分析
+通过电化学测试分析比较了4 种不同成分
+S31254 不锈钢在950℃时效30 min 后试样的耐蚀
+性。图5a 为4 种实验钢经过950℃时效30 min 后，
+图3 4种S31254不锈钢经950℃时效90 min后的SEM图
+Fig.3 Microstructures of four S31254 stainless steels after aging at 950
+oC for 90 min: (a1, a2) 0B, (b1, b2) 50B, (c1, c2) 50B-
+20Ce, (d1, d2) 50B-50Ce
+图4 4种S31254不锈钢在950℃时效90 min试样的EDS面扫图
+Fig.4 EDS elemental mappings of four S31254 stainless steels aged at 950
+oC for 90 min: (a) 0B, (b) 50B, (c) 50B-20Ce, (d) 
+50B-50Ce
+1613
+
+PAGE 5
+44 卷
+中国腐蚀与防护学报
+在模拟烟气脱硫冷凝液中测得的极化曲线。可以看
+出，测试曲线的阳极分支表现出明显的自钝化特
+征
+[11]。对极化曲线进行拟合，得到相应的电化学参
+数，如表3 所示。自腐蚀电位(Ecorr)和腐蚀电流密度
+(Icorr)通常用于表征材料钝化膜的溶解能力，而点蚀
+电位(Epit)代表试样在腐蚀过程中钝化膜被击穿时的
+电位，点蚀电位越高，则材料所形成的钝化膜更加稳
+定
+[20]。0B 的Ecorr为-0.3076 V，加入B 后，50B 试样的
+Ecorr升高，Icorr降低，Epit提高，腐蚀速率减慢，耐蚀性随
+着B 的加入明显提高。B、Ce 复合后，50B-20Ce 和
+50B-50Ce试样的Ecorr比50B试样更高，Icorr降低，腐蚀
+速率也进一步减慢，Epit同步提高，其中50B-50Ce 试
+样耐蚀性更为优异。这说明B、Ce 复合添加的试样
+具有更好的耐蚀性，且Ce 含量提高，改善耐蚀性效
+果更为明显。
+为了深入研究4种不同成分S31254不锈钢在模
+拟烟气脱硫环境中形成钝化膜的特性，进一步对试
+样进行EIS 测试，其结果见图5b。Nyquist 图中，容
+抗弧的半径越大，代表钝化膜的稳定性越高，材料的
+钝化膜越致密，耐蚀性能越好
+[21]。从图5b 中可以看
+出，4 种试样时效后的容抗弧均为向内凹的半圆形
+圆弧，说明实验中的腐蚀机制相同。0B钢中加入B
+后，容抗弧半径逐渐增大，说明钝化膜的稳定性逐渐
+增强，耐蚀性提高。B、Ce 复合添加后，50B-20Ce、
+50B-50Ce 的容抗弧半径均大于0B 和50B 试样，且
+50B-50Ce 的容抗弧半径最大，说明B、Ce 协同可以
+改善表面钝化膜的致密性与稳定性，改善其耐蚀性
+能，且Ce 含量增加，对钝化膜稳定性及耐蚀性提高
+效果更为明显。这与图5a 动电位极化曲线的测试
+结果一致。
+为了进一步研究B、Ce微量添加对S31254不锈
+钢耐蚀性能的影响，本研究采用沸腾硫酸铁-硫酸浸
+泡腐蚀法对不同成分S31254 不锈钢的耐蚀性能进
+行了分析。图6为4种试样的腐蚀形貌。通过SEM
+可以观察到浸泡24 h后，0B试样发生了严重腐蚀现
+象，大量晶界被腐蚀，呈现不完整的晶界网络，特别
+是三角晶界处，腐蚀最为严重(图6a1和a2)。添加B
+之后，试样的晶间腐蚀程度减轻，但表面仍有出现多
+点状的腐蚀坑，但相较0B 试样有所缓解，特别是晶
+表2 4种S31254不锈钢在950℃时效90 min后析出相的
+化学成分
+Table 2 Elemental compositions of precipitates at differ‐
+ent positions of four S31254 stainless steels
+(mass fraction / %)
+Position
+0B-1(Fig.4a-1)
+0B-2(Fig.4a-2)
+50B-1(Fig.4b-1)
+50B-2(Fig.4b-2)
+50B-20Ce-1(Fig.4c-1)
+50B-20Ce-2(Fig.4c-2)
+50B-50Ce-1(Fig.4d-1)
+50B-20Ce-2(Fig.4d-2)
+Fe
+39.2
+44.5
+38.7
+39.8
+39.6
+40.2
+42.5
+42.4
+Cr
+26.7
+25.6
+22.9
+22.8
+26.1
+25.7
+20.6
+20.2
+Mo
+22.3
+21.8
+24.6
+22.7
+17.8
+16.6
+15.3
+15.7
+Ni
+8.1
+8.1
+9.9
+10.8
+9.1
+9.4
+9.7
+10.6
+表3 4种S31254不锈钢经950℃时效30 min后的动电位
+极化曲线拟合参数
+Table 3 Fitting electrochemical parameters of polarization 
+curves of four S31254 stainless steels after aging 
+at 950
+oC for 30 min
+Sample
+0B
+50B
+50B-20Ce
+50B-50Ce
+Ecorr / V
+-0.3076
+-0.2806
+-0.2376
+-0.1506
+Icorr / A·cm
+-2
+7.4063 × 10
+-7
+5.6066 × 10
+-7
+4.3216 × 10
+-7
+1.0656 × 10
+-7
+Epit / V
+0.9791
+1.0264
+1.0284
+1.0319
+图5 4 种S31254 不锈钢经950℃时效30 min 后的动
+电位极化曲线和阻抗谱
+Fig.5 Potentiodynamic polarization curves (a) and EIS 
+(b) of four S31254 stainless steels after aging at 
+950
+oC for 30 min
+1614
+
+PAGE 6
+6期
+马晋遥等：B、Ce微合金化对S31254超级奥氏体不锈钢析出相及耐蚀性能的影响
+界腐蚀后为间断状态，表明B 添加可显著改善晶界
+耐腐蚀性能(图6b1 和b2)。B、Ce 复合添加之后，表
+面腐蚀明显减弱，50B-20Ce 晶界发生轻微腐蚀，晶
+界腐蚀凹槽不明显(图6c1 和c2)，而50B-50Ce 试样
+的晶间腐蚀开裂程度最轻(图6d1和d2)，晶界基本未
+被腐蚀，表现出超强的耐晶间腐蚀性能。由上可得，
+B、Ce微合金化提高了S31254不锈钢的耐晶间腐蚀
+性能，B、Ce 协同更有助于提高S31254 不锈钢的耐
+蚀性能，并且在本研究中当B 与0.005% 的Ce 组合
+时，具有最佳的耐蚀性。
+3 结论
+(1) 在S31254 不锈钢中加入B、Ce 均可抑制时
+效过程中析出相析出，尤其B、Ce协同作用的效果最
+为明显，且B、Ce含量均达到0.005%时，S31254不锈
+钢晶内析出明显减少，晶界析出相数量也最少、尺寸
+最小，晶内与晶界析出效果最为显著。
+(2) B、Ce 微合金化的S31254 不锈钢具有良好
+的耐点蚀性能和耐晶间腐蚀性能。B 及B、Ce 复合
+均可以提高材料的自腐蚀电位和点蚀电位，提高合金
+钝化膜稳定性，改善耐点蚀性能和耐晶间腐蚀性能。
+并且与单独添加B的实验钢相比，B、Ce协同作用对
+S31254不锈钢晶界与表面耐蚀性提升更为显著。
+参考文献
+[1] Pu E X, Zheng W J, Xiang J Z, et al. Hot working characteristic of 
+superaustenitic stainless steel 254SMO [J]. Acta Metall. Sin. Engl. 
+Lett., 2014, 27: 313
+[2] Xing J, Liu C Z, Li A M, et al. Microstructural evolution and sta‐
+bility of coarse-grained S31254 super austenitic stainless steel dur‐
+ing hot deformation [J]. Metals, 2022, 12: 1319
+[3] Dou Y P, Han S K, Wang L W, et al. Characterization of the pas‐
+sive properties of 254SMO stainless steel in simulated desulfur‐
+ized flue gas condensates by electrochemical analysis, XPS and 
+ToF-SIMS [J]. Corros. Sci., 2020, 165: 108405
+[4] Ge F, Wang L W, Dou Y P, et al. Elucidating the passivation kinet‐
+ics and surface film chemistry of 254SMO stainless steel for chim‐
+ney construction in simulated desulfurized flue gas condensates 
+[J]. Constr. Build. Mater., 2021, 285: 122905
+[5] Zhang B B, Jiang Z H, Li H B, et al. Precipitation behavior and 
+phase transformation of hyper duplex stainless steel UNS S32707 
+at nose temperature [J]. Mater. Charact. , 2017, 129: 31
+[6] Zhang S C, Li H B, Jiang Z H, et al. Effects of Cr and Mo on pre‐
+cipitation behavior and associated intergranular corrosion suscepti‐
+bility of superaustenitic stainless steel S32654 [J]. Mater. Charact., 
+2019, 152: 141
+[7] Li X X, Ou M Q, Wang M, et al. Effect of boron addition on the 
+microstructure and mechanical properties of K4750 nickel-based 
+superalloy [J]. J. Mater. Sci. Technol., 2021, 60: 177
+[8] Takahashi J, Ishikawa K, Kawakami K, et al. Atomic-scale study 
+on segregation behavior at austenite grain boundaries in boron- 
+and molybdenum-added steels [J]. Acta Mater., 2017, 133: 41
+[9] Laha K, Kyono J, Kishimoto S, et al. Beneficial effect of B segre‐
+gation on creep cavitation in a type 347 austenitic stainless steel 
+[J]. Scr. Mater., 2005, 52: 675
+[10] Qurashi M S, Cui Y S, Wang J, et al. Corrosion resistance and pas‐
+sivation behavior of B-containing S31254 stainless steel in a low 
+pH medium [J]. Int. J. Electrochem. Sci., 2019, 14: 10642
+[11] Wang T H, Wang J, Bai J C, et al. Effect of boron on dissolution 
+and repairing behavior of passive film on S31254 super-austenitic 
+stainless steel immersed in H2SO4 solution [J]. J. Iron Steel Res. 
+Int., 2022, 29: 1012
+[12] Bai J G, Cui Y S, Wang J, et al. Effect of boron addition on the pre‐
+cipitation behavior of S31254 [J]. Metals, 2018, 8: 497
+[13] Li S, Ma J Y, Wang J, et al. Impact of boron addition on the hot de‐
+formation behavior and microstructure evolution of S31254 [J]. 
+Mater. Lett., 2022, 315: 131971
+[14] Cai G J, Li C S. Effects of Ce on inclusions and corrosion resis‐
+tance of low-nickel austenite stainless steel [J]. Mate. Corros., 
+图6 4种S31254不锈钢固溶后及在沸腾的硫酸-硫酸铁溶液中浸泡24 h后的形貌
+Fig.6 Morphologies of four S31254 stainless steels after solid solution (a1-d1) and soaking in boiling sulfuric acid-ferric 
+sulfate solution for 24 h (a2-d2)：(a1, a2) 0B, (b1, b2) 50B, (c1, c2) 50B-20Ce, (d1, d2) 50B-50Ce
+1615
+
+PAGE 7
+44 卷
+中国腐蚀与防护学报
+2015, 66: 1445
+[15] Dong H Y, Hu L J, Liang W Y, et al. Effect of rare earth element 
+Ce on corrosion resistance of 316L stainless steel [J]. Corros. Sci. 
+Prot. Technol., 2018, 30: 489
+(董海英, 胡丽娟, 梁婉怡等. 稀土Ce对316L不锈钢耐腐蚀性能
+的影响 [J]. 腐蚀科学与防护技术, 2018, 30: 489)
+[16] Wang Q, Wang L J, Sun Y H, et al. The influence of Ce micro-
+alloying on the precipitation of intermetallic sigma phase during 
+solidification of super-austenitic stainless steels [J]. J. Alloy. 
+Compd., 2020, 815: 152418
+[17] Wang Q, Wang L J, Zhang W, et al. Effect of cerium on the austen‐
+itic nucleation and growth of high-Mo austenitic stainless steel [J]. 
+Metall. Mater. Trans., 2020, 51B: 1773
+[18] Kim S M, Kim J S, Kim K T, et al. Effect of Ce addition on sec‐
+ondary phase transformation and mechanical properties of 27Cr-
+7Ni hyper duplex stainless steels [J]. Mat. Sci. Eng., 2013, 
+573A: 27
+[19] Wang J, Cui Y S, Bai J G, et al. The mechanism on the B addition 
+to regulate phase precipitation and improve intergranular corrosion 
+resistance in UNS S31254 superaustenitic stainless steels [J]. J. 
+Electrochem. Soc., 2019, 166: C600
+[20] Chen X D, Li Y S, Zhu Y T, et al. Enhanced irradiation and corro‐
+sion resistance of 316LN stainless steel with high densities of dis‐
+locations and twins [J]. J. Nucl. Mater., 2019, 517: 234
+[21] Yue X Q, Zhang L, Hua Y, et al. Revealing the superior corrosion 
+protection of the passive film on selective laser melted 316L SS in 
+a phosphate-buffered saline solution [J]. Appl. Surf. Sci., 2020, 
+529: 147170
+1616

@@ -1,0 +1,490 @@
+{
+  "with_time": {
+    "with_time": true,
+    "rows": 26,
+    "papers": 6,
+    "metrics": {
+      "log10_R2": -0.4816420457139916,
+      "log10_MAE": 1.1591057849535857,
+      "paper_balanced_log10_MAE": 0.9904186173871911
+    },
+    "median_baseline": {
+      "log10_R2": -0.5856258985582621,
+      "log10_MAE": 1.2879122395514844,
+      "paper_balanced_log10_MAE": 1.1466565987467943
+    },
+    "folds": [
+      {
+        "held_out_paper": "Coat24",
+        "selected": "svr03",
+        "input_columns": [
+          "log1p_immersion_h",
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 8,
+        "input_missing_fraction": {
+          "log1p_immersion_h": 0.0,
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "TP_scan_rate_mV_s": 0.09090909090909091,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 1.0568401536174519,
+          "ridge10": 1.5903523342269767,
+          "svr03": 1.0165942434250002
+        },
+        "test_rows": 4,
+        "log10_MAE": 0.7058752968207366
+      },
+      {
+        "held_out_paper": "EH47_21",
+        "selected": "svr03",
+        "input_columns": [
+          "log1p_immersion_h",
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 8,
+        "input_missing_fraction": {
+          "log1p_immersion_h": 0.0,
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "TP_scan_rate_mV_s": 0.08695652173913043,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 1.0970845341967137,
+          "ridge10": 1.6394024667870724,
+          "svr03": 1.0009528798190819
+        },
+        "test_rows": 3,
+        "log10_MAE": 0.7354294112715064
+      },
+      {
+        "held_out_paper": "Eyu16",
+        "selected": "svr03",
+        "input_columns": [
+          "log1p_immersion_h",
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 8,
+        "input_missing_fraction": {
+          "log1p_immersion_h": 0.0,
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "TP_scan_rate_mV_s": 0.08695652173913043,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 1.1811234155182395,
+          "ridge10": 5.351396573288727,
+          "svr03": 1.0078006578865295
+        },
+        "test_rows": 3,
+        "log10_MAE": 0.4756557766432798
+      },
+      {
+        "held_out_paper": "FeMnAl25",
+        "selected": "svr03",
+        "input_columns": [
+          "log1p_immersion_h",
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "P_wt_pct",
+          "S_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 10,
+        "input_missing_fraction": {
+          "log1p_immersion_h": 0.0,
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "P_wt_pct": 0.16666666666666666,
+          "S_wt_pct": 0.16666666666666666,
+          "TP_scan_rate_mV_s": 0.1111111111111111,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 1.1217030881449503,
+          "ridge10": 1.5488628360891041,
+          "svr03": 1.0515449374968928
+        },
+        "test_rows": 8,
+        "log10_MAE": 0.5185485714972389
+      },
+      {
+        "held_out_paper": "N80_24",
+        "selected": "median",
+        "input_columns": [
+          "log1p_immersion_h",
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 8,
+        "input_missing_fraction": {
+          "log1p_immersion_h": 0.0,
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "TP_scan_rate_mV_s": 0.1,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 0.47216027675284356,
+          "ridge10": 0.7275850649049441,
+          "svr03": 0.5474335247950366
+        },
+        "test_rows": 6,
+        "log10_MAE": 3.129399947401811
+      },
+      {
+        "held_out_paper": "Sherif14",
+        "selected": "svr03",
+        "input_columns": [
+          "log1p_immersion_h",
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 8,
+        "input_missing_fraction": {
+          "log1p_immersion_h": 0.0,
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "TP_scan_rate_mV_s": 0.0,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 1.1969783722172107,
+          "ridge10": 2.264582301222705,
+          "svr03": 1.0340679198374847
+        },
+        "test_rows": 2,
+        "log10_MAE": 0.3776027006885734
+      }
+    ],
+    "input_numeric": [
+      "C_wt_pct",
+      "Si_wt_pct",
+      "Mn_wt_pct",
+      "Al_wt_pct",
+      "Cr_wt_pct",
+      "Ni_wt_pct",
+      "Mo_wt_pct",
+      "Cu_wt_pct",
+      "P_wt_pct",
+      "S_wt_pct",
+      "RE_wt_pct",
+      "temperature_C",
+      "NaCl_wt_pct",
+      "NaCl_g_L",
+      "NaHCO3_g_L",
+      "Cl_mol_L",
+      "H2SO4_mol_L",
+      "NaHSO3_mol_L",
+      "pH",
+      "dissolved_oxygen_mg_L",
+      "rotation_rpm",
+      "TP_scan_rate_mV_s",
+      "log1p_immersion_h"
+    ],
+    "input_categorical": [
+      "material_class",
+      "RE_element_cat",
+      "electrolyte_family",
+      "gas_condition_cat",
+      "hydrodynamic_condition_cat",
+      "surface_state_cat",
+      "processing_state_cat"
+    ],
+    "validation": "Nested leave-one-paper-out; imputation/encoding fitted inside each training fold",
+    "feature_policy": "At most 40 source columns; missingness <=20% in each training fold, before imputation; categorical unknown labels count as missing; selection never uses held-out data",
+    "status": "exploratory; small heterogeneous literature dataset; not production validation"
+  },
+  "without_time": {
+    "with_time": false,
+    "rows": 26,
+    "papers": 6,
+    "metrics": {
+      "log10_R2": -0.49948040411774297,
+      "log10_MAE": 1.1883057355411857,
+      "paper_balanced_log10_MAE": 1.0340481997786244
+    },
+    "median_baseline": {
+      "log10_R2": -0.5856258985582621,
+      "log10_MAE": 1.2879122395514844,
+      "paper_balanced_log10_MAE": 1.1466565987467943
+    },
+    "folds": [
+      {
+        "held_out_paper": "Coat24",
+        "selected": "svr03",
+        "input_columns": [
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 7,
+        "input_missing_fraction": {
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "TP_scan_rate_mV_s": 0.09090909090909091,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 1.0568401536174519,
+          "ridge10": 1.703956276784772,
+          "svr03": 1.0168684779751573
+        },
+        "test_rows": 4,
+        "log10_MAE": 0.7342630050026163
+      },
+      {
+        "held_out_paper": "EH47_21",
+        "selected": "svr03",
+        "input_columns": [
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 7,
+        "input_missing_fraction": {
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "TP_scan_rate_mV_s": 0.08695652173913043,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 1.0970845341967137,
+          "ridge10": 1.618902232989237,
+          "svr03": 1.0231664143893389
+        },
+        "test_rows": 3,
+        "log10_MAE": 0.7582930710109687
+      },
+      {
+        "held_out_paper": "Eyu16",
+        "selected": "svr03",
+        "input_columns": [
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 7,
+        "input_missing_fraction": {
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "TP_scan_rate_mV_s": 0.08695652173913043,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 1.1811234155182395,
+          "ridge10": 5.38373019795778,
+          "svr03": 1.0410130275698082
+        },
+        "test_rows": 3,
+        "log10_MAE": 0.6158929611360309
+      },
+      {
+        "held_out_paper": "FeMnAl25",
+        "selected": "svr03",
+        "input_columns": [
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "P_wt_pct",
+          "S_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 9,
+        "input_missing_fraction": {
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "P_wt_pct": 0.16666666666666666,
+          "S_wt_pct": 0.16666666666666666,
+          "TP_scan_rate_mV_s": 0.1111111111111111,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 1.1217030881449503,
+          "ridge10": 1.5112113727298175,
+          "svr03": 1.053922927916954
+        },
+        "test_rows": 8,
+        "log10_MAE": 0.5211764824946437
+      },
+      {
+        "held_out_paper": "N80_24",
+        "selected": "median",
+        "input_columns": [
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 7,
+        "input_missing_fraction": {
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "TP_scan_rate_mV_s": 0.1,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 0.47216027675284356,
+          "ridge10": 0.8250546555177805,
+          "svr03": 0.5766339138560946
+        },
+        "test_rows": 6,
+        "log10_MAE": 3.129399947401811
+      },
+      {
+        "held_out_paper": "Sherif14",
+        "selected": "svr03",
+        "input_columns": [
+          "C_wt_pct",
+          "Si_wt_pct",
+          "Mn_wt_pct",
+          "TP_scan_rate_mV_s",
+          "material_class",
+          "electrolyte_family",
+          "surface_state_cat"
+        ],
+        "input_column_count": 7,
+        "input_missing_fraction": {
+          "C_wt_pct": 0.0,
+          "Si_wt_pct": 0.0,
+          "Mn_wt_pct": 0.0,
+          "TP_scan_rate_mV_s": 0.0,
+          "material_class": 0.0,
+          "electrolyte_family": 0.0,
+          "surface_state_cat": 0.0
+        },
+        "inner_scores": {
+          "median": 1.1969783722172107,
+          "ridge10": 2.3315719482583983,
+          "svr03": 1.089299408904083
+        },
+        "test_rows": 2,
+        "log10_MAE": 0.44526373162567534
+      }
+    ],
+    "input_numeric": [
+      "C_wt_pct",
+      "Si_wt_pct",
+      "Mn_wt_pct",
+      "Al_wt_pct",
+      "Cr_wt_pct",
+      "Ni_wt_pct",
+      "Mo_wt_pct",
+      "Cu_wt_pct",
+      "P_wt_pct",
+      "S_wt_pct",
+      "RE_wt_pct",
+      "temperature_C",
+      "NaCl_wt_pct",
+      "NaCl_g_L",
+      "NaHCO3_g_L",
+      "Cl_mol_L",
+      "H2SO4_mol_L",
+      "NaHSO3_mol_L",
+      "pH",
+      "dissolved_oxygen_mg_L",
+      "rotation_rpm",
+      "TP_scan_rate_mV_s"
+    ],
+    "input_categorical": [
+      "material_class",
+      "RE_element_cat",
+      "electrolyte_family",
+      "gas_condition_cat",
+      "hydrodynamic_condition_cat",
+      "surface_state_cat",
+      "processing_state_cat"
+    ],
+    "validation": "Nested leave-one-paper-out; imputation/encoding fitted inside each training fold",
+    "feature_policy": "At most 40 source columns; missingness <=20% in each training fold, before imputation; categorical unknown labels count as missing; selection never uses held-out data",
+    "status": "exploratory; small heterogeneous literature dataset; not production validation"
+  },
+  "RE_model_status": "Only one verified continuous-immersion RE paper: independent paper validation is impossible; no new RE model fitted"
+}

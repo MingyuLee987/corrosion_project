@@ -13,8 +13,8 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "data/training_51.csv"
-DESTINATION = ROOT / "data/v2_curated_31.csv"
-MANIFEST = ROOT / "data/v2_curated_31_manifest.json"
+DESTINATION = ROOT / "data/v2/v2_curated_31.csv"
+MANIFEST = ROOT / "data/v2/v2_curated_31_manifest.json"
 
 COLUMNS = [
     # Identity and source evidence (5)

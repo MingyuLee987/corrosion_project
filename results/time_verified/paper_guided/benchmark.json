@@ -1,0 +1,211 @@
+{
+  "rows": 26,
+  "papers": 6,
+  "baseline": {
+    "log10_R2": -0.4816420457139916,
+    "log10_MAE": 1.1591057849535857,
+    "paper_balanced_log10_MAE": 0.9904186173871911
+  },
+  "metrics": {
+    "log10_R2": -0.5338523044303967,
+    "log10_MAE": 1.1223199204208936,
+    "paper_balanced_log10_MAE": 0.9198366684156104
+  },
+  "delta_log10_R2": -0.052210258716405056,
+  "folds": [
+    {
+      "held_out_paper": "Coat24",
+      "parameters": {
+        "family": "svr",
+        "C": 0.10582917362497649,
+        "epsilon": 0.27341168919906,
+        "gamma": "auto"
+      },
+      "inner_objective": -0.43216147595841675,
+      "input_columns": [
+        "C_wt_pct",
+        "Si_wt_pct",
+        "Mn_wt_pct",
+        "TP_scan_rate_mV_s",
+        "log1p_immersion_h",
+        "material_class",
+        "electrolyte_family",
+        "surface_state_cat"
+      ],
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "TP_scan_rate_mV_s": 0.09090909090909091,
+        "log1p_immersion_h": 0.0,
+        "material_class": 0.0,
+        "electrolyte_family": 0.0,
+        "surface_state_cat": 0.0
+      },
+      "log10_MAE": 0.5538018838555486
+    },
+    {
+      "held_out_paper": "EH47_21",
+      "parameters": {
+        "family": "svr",
+        "C": 0.10476737487859872,
+        "epsilon": 0.19791944809383613,
+        "gamma": "auto"
+      },
+      "inner_objective": -0.3461587024197425,
+      "input_columns": [
+        "C_wt_pct",
+        "Si_wt_pct",
+        "Mn_wt_pct",
+        "TP_scan_rate_mV_s",
+        "log1p_immersion_h",
+        "material_class",
+        "electrolyte_family",
+        "surface_state_cat"
+      ],
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "TP_scan_rate_mV_s": 0.08695652173913043,
+        "log1p_immersion_h": 0.0,
+        "material_class": 0.0,
+        "electrolyte_family": 0.0,
+        "surface_state_cat": 0.0
+      },
+      "log10_MAE": 0.6278970502371851
+    },
+    {
+      "held_out_paper": "Eyu16",
+      "parameters": {
+        "family": "svr",
+        "C": 0.10594555301557132,
+        "epsilon": 0.40398254229649927,
+        "gamma": "auto"
+      },
+      "inner_objective": -0.2550122475964668,
+      "input_columns": [
+        "C_wt_pct",
+        "Si_wt_pct",
+        "Mn_wt_pct",
+        "TP_scan_rate_mV_s",
+        "log1p_immersion_h",
+        "material_class",
+        "electrolyte_family",
+        "surface_state_cat"
+      ],
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "TP_scan_rate_mV_s": 0.08695652173913043,
+        "log1p_immersion_h": 0.0,
+        "material_class": 0.0,
+        "electrolyte_family": 0.0,
+        "surface_state_cat": 0.0
+      },
+      "log10_MAE": 0.3660643694957919
+    },
+    {
+      "held_out_paper": "FeMnAl25",
+      "parameters": {
+        "family": "svr",
+        "C": 0.10582917362497649,
+        "epsilon": 0.27341168919906,
+        "gamma": "auto"
+      },
+      "inner_objective": -0.5057427719862368,
+      "input_columns": [
+        "C_wt_pct",
+        "Si_wt_pct",
+        "Mn_wt_pct",
+        "P_wt_pct",
+        "S_wt_pct",
+        "TP_scan_rate_mV_s",
+        "log1p_immersion_h",
+        "material_class",
+        "electrolyte_family",
+        "surface_state_cat"
+      ],
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.16666666666666666,
+        "S_wt_pct": 0.16666666666666666,
+        "TP_scan_rate_mV_s": 0.1111111111111111,
+        "log1p_immersion_h": 0.0,
+        "material_class": 0.0,
+        "electrolyte_family": 0.0,
+        "surface_state_cat": 0.0
+      },
+      "log10_MAE": 0.5140167324866114
+    },
+    {
+      "held_out_paper": "N80_24",
+      "parameters": {
+        "family": "rf",
+        "max_depth": 4,
+        "min_samples_leaf": 2,
+        "max_features": 0.9741199884881518
+      },
+      "inner_objective": 0.5421203822623347,
+      "input_columns": [
+        "C_wt_pct",
+        "Si_wt_pct",
+        "Mn_wt_pct",
+        "TP_scan_rate_mV_s",
+        "log1p_immersion_h",
+        "material_class",
+        "electrolyte_family",
+        "surface_state_cat"
+      ],
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "TP_scan_rate_mV_s": 0.1,
+        "log1p_immersion_h": 0.0,
+        "material_class": 0.0,
+        "electrolyte_family": 0.0,
+        "surface_state_cat": 0.0
+      },
+      "log10_MAE": 3.23915308189804
+    },
+    {
+      "held_out_paper": "Sherif14",
+      "parameters": {
+        "family": "svr",
+        "C": 0.11373662145795273,
+        "epsilon": 0.29282904806125887,
+        "gamma": "auto"
+      },
+      "inner_objective": -0.3689158039634804,
+      "input_columns": [
+        "C_wt_pct",
+        "Si_wt_pct",
+        "Mn_wt_pct",
+        "TP_scan_rate_mV_s",
+        "log1p_immersion_h",
+        "material_class",
+        "electrolyte_family",
+        "surface_state_cat"
+      ],
+      "input_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "TP_scan_rate_mV_s": 0.0,
+        "log1p_immersion_h": 0.0,
+        "material_class": 0.0,
+        "electrolyte_family": 0.0,
+        "surface_state_cat": 0.0
+      },
+      "log10_MAE": 0.21808689252048596
+    }
+  ],
+  "validation": "Nested leave-one-publication-out; 24 TPE trials per outer fold; inner pooled R2 minus train/CV gap penalty; train-only preprocessing and <=20% missing feature selection",
+  "reference": "10.1038/s41529-026-00859-9",
+  "GAN_used": false,
+  "status": "Exploratory comparison; outer scores observed during development; requires new publications for confirmation"
+}

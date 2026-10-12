@@ -1,0 +1,46 @@
+﻿{
+    "date":  "2026-10-12",
+    "method":  "Recycle Bin",
+    "directories":  [
+                        "tmp",
+                        "__pycache__"
+                    ],
+    "files":  [
+                  {
+                      "path":  "results\\model_comparison.csv",
+                      "sha256":  "FA348E89C6101699BB6A6BE86041F7B262C22777A7229DE177E34772CCDFA319"
+                  },
+                  {
+                      "path":  "results\\new51_nested18_folds.csv",
+                      "sha256":  "C5E1389D08EA375EEC3EC04A412434363DA385B2409B3D40827005DCCD59F0A3"
+                  },
+                  {
+                      "path":  "results\\new51_nested18_predictions.csv",
+                      "sha256":  "C35CA55E8F6CD10391B983E480567C35612269A90473DD1A51D9336396D9922A"
+                  },
+                  {
+                      "path":  "results\\old34_nested18_folds.csv",
+                      "sha256":  "11D77B02F3E4C51BC553091E36CD62ABD74659A77768A1F7CD2C28CCE4AB5776"
+                  },
+                  {
+                      "path":  "results\\old34_nested18_predictions.csv",
+                      "sha256":  "BA3511CD6A733F6CBCB3E1135BFD239C3F5F9B951E5F2A3E157DBD1B03FD3719"
+                  },
+                  {
+                      "path":  "results\\supplementary54_nested18_folds.csv",
+                      "sha256":  "ED638ADB28C01869A157DD91289B3A2CE6D09E87BEC5EF69D9A519722C0E0CF9"
+                  },
+                  {
+                      "path":  "results\\supplementary54_nested18_predictions.csv",
+                      "sha256":  "F6AD64B7A1F7E6BB09259FC1678F422AD8B6EB1BD582EFC0B33442DB76F5B1F7"
+                  },
+                  {
+                      "path":  "results\\retrained\\partial_results.json",
+                      "sha256":  "60A7BCE00EA4767584DC6D0D022586577095B2CD8463E1FD6FD6CA39DF56B591"
+                  },
+                  {
+                      "path":  "papers\\re_expansion\\75Cr1_24.html",
+                      "sha256":  "9C47EA7957AFEF955DA0248C47BE6A49C274287ABCBE061A7710D7BCBB9CA999"
+                  }
+              ]
+}

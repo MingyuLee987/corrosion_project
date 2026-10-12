@@ -1,0 +1,479 @@
+PAGE 1
+1
+SCientifiC RepOrts |  (2018) 8:4830  | DOI:10.1038/s41598-018-23273-x
+www.nature.com/scientificreports
+Correlation between evolution of 
+inclusions and pitting corrosion 
+in 304 stainless steel with yttrium 
+addition
+Weining Shi, Shufeng Yang & Jingshe Li
+Effects of the evolution of inclusions on the pitting corrosion resistance of 304 stainless steel 
+with different contents of the rare-earth element yttrium (Y) were studied using thermodynamic 
+calculations, accelerated immersion tests, and electrochemical measurements. The experimental 
+results showed that regular Y2O3 inclusions demonstrated the best pitting resistance, followed in 
+sequence by (Al,Mn)O inclusions, the composite inclusions, and irregular Y2O3 inclusions. The pitting 
+resistance first decreased, then increased, and then decreased again with increasing Y content, because 
+sulfide inclusions were easily generated when the Y content was low and YN inclusions were easily 
+generated at higher Y contents. The best pitting corrosion resistance was obtained for 304 stainless 
+steel with addition of 0.019% Y.
+As very important strategic resources, rare-earth elements are widely used in the petroleum, chemical, metal-
+lurgical, textile, ceramics, and glass industries, and as permanent magnetic materials. Addition of rare-earth 
+elements at an appropriate content is beneficial to enhancing the mechanical properties of metallic materials by 
+refining the grains, improving wear and corrosion resistance, and improving plasticity, strength, grain boundary 
+strength, and dislocation movement1,2. Zhao et al. found that appropriate Y content promoted the formation of 
+fine carbides, which prevented the migration of grain boundaries, impeded grain growth in the recrystallization 
+process, and refined the grains3. More importantly, Y also benefitted resistance to overall corrosion or pitting4–7.
+Rare earths enhance overall corrosion resistance by changing the inner structure and the chemical composition 
+and structure of the material surface, and promote and stabilize the formation of uniform and compact surface 
+films8–11. Liu et al. suggested that increasing Y content ensured a reticular structure in the Y-enriched area, which 
+enhanced corrosion resistance, while other structures in the Y-enriched area induced galvanic corrosion12. Riffard 
+et al. showed that implanting Y into the matrix surface or use of an Y sol–gel coating could improve the oxidation 
+resistance of AISI 304 stainless steel13,14. Li et al. studied the corrosion behaviour of AZ61 Mg alloy by adding 0–0.9 
+mass% Y and showed that Y treatment not only refined grains and precipitates, but promoted the formation of a 
+passivation film15. Wang et al. found that the surface film of 09CrCuSb alloy with Y treatment was uniform and 
+compact, which improved the properties of the corrosion product16. Wang et al. demonstrated that the passivation 
+film on 304 stainless steel containing Y was stabilized, improving its resistance to mechanical failure17.
+Pitting corrosion resistance is enhanced because rare earths change the morphology, size, type, composition, 
+and distribution of inclusions in the matrix. Cai et al. found that adding Ce to steel enabled easy transformation 
+of MnS inclusions into multiphase inclusions containing Ce2O2S, which improved the corrosion resistance of 202 
+stainless steel; however, inappropriate Ce addition produced a brittle secondary phase that deteriorated pitting 
+corrosion resistance18. Kim et al. illustrated that the addition of rare-earth metals to a base alloy led to the forma-
+tion of (Mn,Cr,Si,Al,Ce) and (Mn,Cr,Si,Ce) oxides, which improved resistance to pitting corrosion4.
+Stainless steel produced by smelting has good corrosion resistance, so many scholars have endeavoured to 
+improve this property. The evolution of inclusions and microstructures in stainless steel with rare-earth addi-
+tions has been paid much attention19–22. Chen et al. found that many fine Y-enriched oxide inclusions were 
+non-uniformly distributed in 21Cr–11Ni austenitic stainless steel containing Y and that segregation of sulfur into 
+grain boundaries was reduced23. Kim et al. illustrated that adding a rare-earth metal into duplex stainless steel ren-
+dered the inclusions smaller and their shape became spherical, which improved the pitting corrosion resistance4. 
+School of Metallurgical and Ecological Engineering, University of Science and Technology Beijing, Beijing, 100083, 
+China. Correspondence and requests for materials should be addressed to S.Y. (email: yangshufeng@ustb.edu.cn)
+Received: 27 November 2017
+Accepted: 7 March 2018
+Published: xx xx xxxx
+OPEN
+
+PAGE 2
+www.nature.com/scientificreports/
+2
+SCientifiC RepOrts |  (2018) 8:4830  | DOI:10.1038/s41598-018-23273-x
+With the progress of smelting technology, sulfide inclusions have been largely removed and gradually replaced by 
+oxide inclusions, which greatly enhances pitting corrosion resistance. Jun et al. argued that conditions where the 
+number of sulfide inclusions was smaller than that of the oxide inclusions and the size and distribution of oxide 
+inclusions were small and dispersed would improve the pitting corrosion resistance of high clean 304 stainless 
+steel24. There are, however, few studies focusing on modifying oxide inclusions by adding rare-earth Y to improve 
+the pitting corrosion resistance of clean 304 stainless steel.
+In this study, we determined the effects of the evolution of inclusions on the pitting corrosion resistance of 304 
+stainless steel with Y addition using thermodynamic calculations, potentiodynamic polarization and immersion 
+tests, and scanning electron microscopy with energy-dispersive spectroscopy (SEM–EDS) analysis of inclusions.
+Methods
+Materials and specimen preparation. 
+The raw material used in this study was 304 stainless steel of the 
+chemical composition given in Table 1. The experimental alloys were prepared using a Si–Mo electrical resist-
+ance-heated furnace. The Y contents of the experimental alloys were 0, 0.007%, 0.013%, 0.019%, and 0.049%. 
+Figure 1 shows the Si–Mo furnace with (a): resistance furnace body; (b): body sketch; (c): program console; (d): 
+argon tank. A smelting process was executed by switching on the flows of argon gas and cooling water, covering 
+the furnace mouth with refractory bricks, and then programming an appropriate procedure into the console. 
+After cooling of the furnace, the specimen was not heat treated in any other way. Specimens of the 304 stainless 
+steel with different Y contents were used for counting inclusions and for the immersion and electrochemical tests. 
+To avoid surface defects, the test surfaces were ground with 2000 grit silicon carbide paper and polished with 
+0.5 μm diamond paste, then rinsed with deionized water, degreased in alcohol, and dried immediately.
+Determination of inclusion evolution process. 
+The types and sizes of inclusions in the 304 stainless 
+steel specimens with different Y contents were observed and analysed by SEM–EDS. Several hundred inclusions 
+were randomly selected and classified according to their distribution on a test surface using Factsage 7.0 software 
+to reveal their evolution. After choosing the database, the Equilib software module was selected, the alloy com-
+positions were input (where the Y content was set as a variable), the desired phase (as determined by SEM) was 
+selected, and the compositions of inclusions with increasing Y contents in the matrix were calculated.
+Electrochemical measurements. 
+To reveal the pitting trends of 304 stainless steel with different Y con-
+tents, potentiodynamic polarization tests were conducted using a three-electrode configuration in 3.5% NaCl solu-
+tion at 298 K. A copper wire was attached to the rear side of each specimen and mounted in an epoxy resin and 
+the test surface was ground and polished. A platinum sheet and a saturated calomel electrode (SCE) were used as 
+the counter and reference electrodes, respectively. The working electrode was the specimen, the exposed area (test 
+surface) of which was 1 cm2. Potentiodynamic polarization tests were carried out using a Solartron 1287 power 
+supply. Tests were conducted in the potential range of −0.5 VSCE to + 0 VSCE at a scanning rate of 3.8 × 10−4 V/s.
+C
+Si
+Mn
+P
+S
+Cr
+Ni
+Mo
+Cu
+Al
+O
+N
+Ca
+Fe
+0.0511
+0.4016
+1.2005
+0.0334
+0.0019
+18.0614
+8.048
+0.0198
+0.0391
+0.0132
+0.0031
+0.0377
+0.002
+Balance
+Table 1.  Chemical composition of 304 stainless steel specimens (mass%).
+Figure 1.  The Si-Mo heating electric resistance furnace.
+
+PAGE 3
+www.nature.com/scientificreports/
+3
+SCientifiC RepOrts |  (2018) 8:4830  | DOI:10.1038/s41598-018-23273-x
+Immersion tests. 
+To clarify the correlation between inclusions in 304 stainless steel with different Y contents 
+and pitting corrosion, immersion tests were carried out for times of 0 s, 5 s, 10 s, 20 s, 30 s, 1 min, 5 min, 10 min, 
+15 min, and 18 min at 298 K, following which the corrosion morphology of the inclusions was observed in situ. 
+The test solution comprised 350 ml deionized water with 69.9 g FeCl3∙6H2O and 20 ml HCl (36–38 mass%). Each 
+specimen was sealed with epoxy resin except for the test surface to avoid formation of porosity and cracks around 
+the surface. After reaching the set immersion time, the specimen was immediately removed from the test solu-
+tion, rinsed, and dried. SEM–EDS was used for observing the corrosion morphology and analysing the composi-
+tions of inclusions after different immersion times.
+Results
+Counting inclusions and thermodynamic calculations. 
+Five compositions of 304 stainless steel with 
+different Y contents were obtained by tube furnace smelting. The principle of counting related to the type and size 
+of inclusions after cooling in the furnace. The results of the thermodynamic calculations explained the evolution 
+of inclusions with increasing Y content.
+The statistical results for inclusions in 304 stainless steel with different Y contents are shown in Fig. 2. When 
+the Y content was zero, the proportion of (Al,Mn)O inclusions was largest, followed by those of (Al,Mn,Si)O 
+wrapped in (Al,Mn)O. When the Y content was 0.007%, the inclusions were mainly MnS, followed by (Al,Y)
+O wrapped in (Al,Y)x(SO)y and (Y,Mn)x(SO)y wrapped in MnS. Only two types of inclusions could be found in 
+the steel matrix when the Y content increased to 0.013%: a larger proportion of irregular Y2O3 inclusions and 
+a smaller proportion of regular Y2O3 inclusions. The proportion of irregular Y2O3 inclusions was significantly 
+smaller than that of regular Y2O3 inclusions when the Y content reached 0.019%. YN inclusions mainly presented 
+in 304 stainless steel containing 0.049% Y, followed by regular Y2O3 inclusions and then irregular Y2O3 inclusions. 
+The average size of the inclusions decreased and then increased with increasing Y content. Inclusions with the 
+smallest average size were found in 304 stainless steel containing 0.013% Y.
+The morphologies of the main inclusions in 304 stainless steel with different Y contents are shown in Fig. 3, 
+where a, b, and c denote the main inclusions in steel matrices containing 0%, 0.007%, and above 0.013% Y, 
+respectively.
+The results of the thermodynamic calculations (calculated by Factsage 7.0) are shown in Fig. 4. Figure 4a 
+shows that the proportion of Y2O3 inclusions gradually increased and reached a peak at ~0.012% Y, while YN 
+inclusions gradually increased. Figure 4b shows that the proportions of Al2O3 and MnO inclusions decreased 
+while those of MnS increased and then decreased. YN inclusions were surprisingly generated at ~0.012% Y. The 
+Al2O3 and MnO components reacted with Y to generate Y2O3 in the (Al,Mn)O inclusions, so (Al,Y)O, (Al,Mn,Y)
+O, and (Mn,Y)O inclusions presented sequentially with an increase of Y content. The reactions are as follows:
++
+→
++
+∆
+= −
++
+.
+θ
+2[Y]
+Al O (s)
+Y O (s)
+2[Al]
+G
+587482
+270 28 T
+(1)
+2
+3
+2
+3
++
+→
++
+∆
+= −
++
+.
+θ
+2[Y]
+3MnO(s)
+Y O (s)
+3[Mn]
+G
+909747
+269 75 T
+(2)
+2
+3
+Figure 4b shows that MnS inclusions were generated at 0.004%–0.011% Y; the proportion of MnS inclusions 
+would therefore increase after furnace cooling in this range of Y contents25.
+Electrochemical results. 
+Potentiodynamic polarization tests were performed on the 304 stainless steels 
+with different Y contents to determine their pitting corrosion resistance. The results are shown in Fig. 5; the 
+corresponding corrosion potentials and pitting potentials are shown in Table 2. When the Y content was 0.007% 
+Figure 2.  Distribution of inclusions in 304 stainless steel with different Y contents. 1: (Al,Mn)O inclusions, 2: 
+(Al,Mn,Si)O inclusions wrapped in (Al,Mn)O inclusions, 3: (Al,Mn,Si,Ca)O inclusions, 4: (Al,Y)O inclusions 
+wrapped in (Al,Y)x(SO)y inclusions, 5: (Al,Y)x(SO)y inclusions wrapped in MnS inclusions, 6: (Al,Y,Si)O 
+inclusions, 7: (Y,Mn)x(SO)y inclusions wrapped in MnS inclusions, 8: MnS inclusions, 9: CaO inclusions, 10: 
+Irregular-Y2O3 inclusions, 11: Regular-Y2O3 inclusions, 12: YN inclusions.
+
+PAGE 4
+www.nature.com/scientificreports/
+4
+SCientifiC RepOrts |  (2018) 8:4830  | DOI:10.1038/s41598-018-23273-x
+Figure 3.  The morphology of main inclusions in 304 stainless steel with different Y contents.
+Figure 4.  Thermodynamic calculation results. (a) Y content range 0–0.05%, (b) Y content range 0–0.016%.
+
+PAGE 5
+www.nature.com/scientificreports/
+5
+SCientifiC RepOrts |  (2018) 8:4830  | DOI:10.1038/s41598-018-23273-x
+or 0.049%, the corrosion potential (−0.35 V) was lower than for other Y contents, which indicated that severe 
+pitting corrosion susceptibility occurred at these Y contents. The highest pitting potential (−0.11 V) was achieved 
+by 0.019% Y, indicating that the 304 stainless steel with 0.019% Y possessed the best pitting corrosion resistance. 
+Figure 5.  The potentiodynamic polarization curves of 304 stainless steel with different Y contents.
+Y contents
+0%
+0.007%
+0.013%
+0.019%
+0.049%
+corrosion potential/V
+−0.31
+−0.35
+−0.29
+−0.30
+−0.35
+pitting potential/V
+−0.19
+<−0.35
+−0.18
+−0.11
+−0.22
+Table 2.  The corrosion potential and pitting potential in potentiodynamic polarization curves of 304 stainless 
+steel with different Y contents.
+Figure 6.  The morphology of (a,b,c) inclusions in 304 stainless steel containing 0% Y after immersion at 0 s, 
+5 s, 2 min, 5 min, 10 min. (a) (Al,Mn)O inclusions, (b) Al2O3 inclusions wrapped in (Al,Mn)O inclusions, (c) 
+(Al,Mn,Si)O inclusions wrapped in (Al,Mn)O inclusions.
+
+PAGE 6
+www.nature.com/scientificreports/
+6
+SCientifiC RepOrts |  (2018) 8:4830  | DOI:10.1038/s41598-018-23273-x
+Figure 5 shows that the pitting potential disappeared in 304 stainless steel containing 0.007% Y because the corro-
+sion potential was greater than the pitting potential, so no passive region was attained: pitting corrosion occurred, 
+indicating the weakest resistance to pitting corrosion by this steel composition. From these data, it was evident 
+that the pitting potential first decreased, then increased, and then decreased again with increasing Y content.
+Figure 7.  The morphology of (a,b,c,d) inclusions in 304 stainless steel containing 0.007% Y after immersion 
+at 0 s, 5 s, 2 min, 5 min. (a) (Al,Y)x(SO)y inclusions wrapped in MnS inclusions, (b) (Y,Mn)x(SO)y inclusions 
+wrapped in MnS inclusions, (c) MnS inclusions, (d) (Al,Y)O inclusions wrapped in (Al,Y)x(SO)y inclusions.
+Figure 8.  The morphology of (a,b) inclusions in 304 stainless steel containing 0.013% Y after immersion at 0 s, 
+5 s, 15 min, 18 min. a: Irregular-Y2O3 inclusions, b: Regular-Y2O3 inclusions.
+
+PAGE 7
+www.nature.com/scientificreports/
+7
+SCientifiC RepOrts |  (2018) 8:4830  | DOI:10.1038/s41598-018-23273-x
+Figure 9.  The morphology of (a,b) inclusions in 304 stainless steel containing 0.019% Y after immersion at 0 s, 
+5 s, 15 min, 18 min. (a) Regular-Y2O3 inclusions, (b) Irregular-Y2O3 inclusions.
+Figure 10.  The morphology of a, b inclusions in 304 stainless steel containing 0.049% Y after immersion at 0 s, 
+5 s, 18 min. a: YN inclusions, b: Regular-Y2O3 inclusions.
+Y contents/%
+Inclusion numbera
+5 s
+5 min
+18 min
+0
+1
+0%
+94%
+100%
+2
+92%
+100%
+100%
+0.007
+8
+82%
+100%
+100%
+4
+88%
+100%
+100%
+7
+100%
+100%
+100%
+0.013
+10
+100%
+100%
+100%
+11
+0%
+0%
+96%
+0.019
+10
+100%
+100%
+100%
+11
+0%
+0%
+92%
+0.049
+10
+100%
+100%
+100%
+11
+0%
+0%
+94%
+12
+98%
+100%
+100%
+Table 3.  The proportion of pits induced by inclusions at 5 s, 5 min, 18 min in 304 stainless steel with different 
+Y contents. a1: (Al,Mn)O inclusions, 2: (Al,Mn,Si)O inclusions wrapped in (Al,Mn)O inclusions, 4: (Al,Y)O 
+inclusions wrapped in (Al,Y)x(SO)y inclusions, 7: (Y,Mn)x(SO)y inclusions wrapped in MnS inclusions, 8: MnS 
+inclusions, 10: Irregular-Y2O3 inclusions, 11: Regular-Y2O3 inclusions, 12: YN inclusions.
+
+PAGE 8
+www.nature.com/scientificreports/
+8
+SCientifiC RepOrts |  (2018) 8:4830  | DOI:10.1038/s41598-018-23273-x
+Characteristics of inclusions after immersion. 
+Immersion tests were conducted to observe the pitting 
+of inclusions in 304 stainless steel with different Y contents and determine the effect of inclusion evolution on 
+the pitting corrosion resistance. The morphologies of the inclusions in 304 stainless steel containing no Y after 
+immersion for 0 s, 5 s, 2 min, 5 min, and 10 min are shown in Fig. 6, where a shows (Al,Mn)O inclusions, b shows 
+Al2O3 inclusions wrapped in (Al,Mn)O inclusions, and c shows (Al,Mn,Si)O inclusions wrapped in (Al,Mn)O 
+inclusions. Miro-crevices formed in the inclusion/matrix boundary at 5 min (Fig. 6a and b), while Fig. 6c shows 
+the formation of a micro-crevice after 5 s.
+The morphologies of inclusions in 304 stainless steel containing 0.007% Y after immersion for 0 s, 5 s, 2 min, 
+and 5 min are shown in Fig. 7, where a shows (Al,Y)x(SO)y inclusions wrapped in MnS inclusions, b shows 
+(Y,Mn)x(SO)y inclusions wrapped in MnS inclusions, c shows MnS inclusions, and d shows (Al,Y)O inclusions 
+wrapped in (Al,Y)x(SO)y inclusions. Figure 7a and b show serious corrosion, resulting in large pits after 5 s, while 
+Fig. 7c shows the formation of a micro-crevice after 5 s and the development of corrosion along the inclusion/
+matrix boundary. The inclusion in Fig. 7d exhibited the best pitting corrosion resistance: serious corrosion only 
+occurred after 5 min.
+The morphologies of inclusions in 304 stainless steel containing 0.013% Y after immersion for 0 s, 5 s, 15 min, 
+and 18 min are similarly shown in Fig. 8, where a and b represent irregular and regular Y2O3 inclusions, respec-
+tively. Figure 8a shows pit formation after 5 s, the depth of which increased with time, while b showed no disso-
+lution until 18 min. This trend is similar to that shown in Fig. 9, which represents 304 stainless steel containing 
+0.019% Y, where Fig. 9a and b show regular and irregular Y2O3 inclusions, respectively.
+The inclusion morphologies in 304 stainless steel containing 0.049% Y after immersion for 0 s, 5 s, and 18 min 
+are shown in Fig. 10, where a represents YN inclusions and b shows regular Y2O3 inclusions. Figure 10a shows 
+that large pits formed after 5 s, while b exhibited little or no corrosion after 18 min. This indicated that lower 
+pitting corrosion resistance was achieved by 304 stainless steel containing 0.049% Y because of the generation of 
+YN inclusions.
+Pitting corrosion is randomly induced in stainless steel26,27. We therefore calculated the proportions of pits 
+induced by inclusion after immersion for 5 s, 5 min, and 18 min in 304 stainless steel with different Y contents, as 
+shown in Table 3. The results showed that different types of inclusions induced different trends of pitting initiation 
+at these times. Pitting initiation induced by regular Y2O3 inclusions did not all occur after 18 min, which indicated 
+that these inclusions had the best pitting corrosion resistance.
+Discussion
+The evolution of inclusions in 304 stainless steel with different Y contents directly affected their pitting resist-
+ance. The inclusion size first decreased and then increased with increasing Y content (Fig. 2). When the 304 
+stainless steel contained 0.013% Y, the average inclusion size in the matrix was lowest, but its pitting corrosion 
+resistance was weaker than that of 304 stainless steel containing 0.019% Y (Fig. 5). Kim et al. argued that the 
+addition of rare-earth elements changed the composition and shape of inclusions and decreased the inclusion 
+size in duplex stainless steel4. Ha et al. illustrated that rare-earth elements reduced the size and surface density of 
+(Mn,Cr,RE)-oxysulfide inclusions20 and that smaller inclusion sizes enhanced pitting corrosion resistance. From 
+the point of this study, however, the type of inclusion (Figs 5–10) was more dominant than the inclusion size. 
+With the increase of Y content, inclusions that were mainly composed of (Al,Mn)O and (Al,Mn,Si)O wrapped in 
+(Al, Mn)O evolved into inclusions of MnS, (Al,Y)O wrapped in (Al,Y)x(SO)y, and (Y,Mn)x(SO)y wrapped in MnS 
+(0.007% Y), and then into Y2O3 inclusions. When the Y content increased further (0.013% to 0.019%), the pro-
+portion of regular Y2O3 inclusions increased further and YN inclusions were eventually generated (Figs 2–4). This 
+evolution behaviour ensured that 304 stainless steel containing 0.007% Y gave the weakest resistance to pitting 
+corrosion, because most inclusions (the composite inclusions) were etched and almost half were severely etched 
+(Fig. 7). A large number of YN inclusions were severely etched after 5 s in 304 stainless steel containing 0.049% 
+Y, but its pitting corrosion resistance was greater than the steel containing 0.007% Y because of the generation of 
+regular Y2O3 inclusions (Fig. 10). The best pitting corrosion resistance was exhibited by 304 stainless steel con-
+taining 0.019% Y, which contained the largest proportion of regular Y2O3 inclusions (Figs 5, 9).
+Conclusions
+In 304 stainless steel with Y addition, pitting corrosion resistance induced by inclusion was not predominantly 
+related to the inclusion size, but also to the inclusion type. The composite inclusions and irregular Y2O3 inclusions 
+showed the weakest resistance to pitting corrosion.
+The pitting corrosion resistance first decreased, then increased, and finally decreased again with increasing Y 
+content (within the range of 0%–0.049% Y) in 304 stainless steel. MnS inclusions and the composite inclusions 
+were produced when Y contents were relatively low and YN inclusions formed at relatively high Y contents, both 
+of which deteriorated the pitting corrosion resistance. Regular Y2O3 inclusions gave the best pitting corrosion 
+resistance: the higher the number of inclusions, the better was the pitting corrosion resistance. The best pitting 
+corrosion resistance was exhibited by 304 stainless steel containing 0.019% Y.
+References
+	 1.	 Ahmadi, H. & Nouri, M. Effects of Yttrium Addition on Microstructure, Hardness and Resistance to Wear and Corrosive Wear of 
+TiNi Alloy. J Mater Sci Technol 27, 851–855 (2011).
+	 2.	 Cui, C., Wu, L., Wu, R., Zhang, J. & Zhang, M. Influence of yttrium on microstructure and mechanical properties of as-cast 
+Mg–5Li–3Al–2Zn alloy. J Alloy Compd 509, 9045–9049 (2011).
+	 3.	 Zhao, W. et al. Micro-alloying Effects of Yttrium on Recrystallization Behavior of an Alumina-forming Austenitic Stainless Steel. J 
+Iron Steel Res Int 23, 553–558 (2016).
+	 4.	 Kim, S. T., Jeon, S. H., Lee, I. S. & Park, Y. S. Effects of rare earth metals addition on the resistance to pitting corrosion of super 
+duplex stainless steel – Part 1. Corros Sci 52, 1897–1904 (2010).
+
+PAGE 9
+www.nature.com/scientificreports/
+9
+SCientifiC RepOrts |  (2018) 8:4830  | DOI:10.1038/s41598-018-23273-x
+	 5.	 Jia, R., Zhang, M., Zhang, L., Zhang, W. & Guo, F. Correlative change of corrosion behavior with the microstructure of AZ91 Mg 
+alloy modified with Y additions. J Alloy Compd 634, 263–271 (2015).
+	 6.	 Wang, Z. M. et al. Influence of yttrium as a minority alloying element on the corrosion behavior in Fe-based bulk metallic glasses. 
+Electrochim Acta 54, 261–269 (2008).
+	 7.	 Luo, T. J. & Yang, Y. S. Corrosion properties and corrosion evolution of as-cast AZ91 alloy with rare earth yttrium. Mater Design 32, 
+5043–5048 (2011).
+	 8.	 Kim, S. H., Huh, J. Y., Jun, J. H., Jun, J. H. & Favergeon, J. Thin elemental coatings of yttrium, cobalt, and yttrium/cobalt on ferritic 
+tainless steel for SOFC interconnect applications. Curr Appl Phys 10, S86–S90 (2010).
+	 9.	 Qu, W., Jian, L., Ivey, D. G. & Hill, J. M. Yttrium, cobalt and yttrium/cobalt oxide coatings on ferritic stainless steels for SOFC 
+interconnects. J Power Sources 157, 335–350 (2006).
+	10.	 Wang, H. et al. Improved corrosion resistance of AZ91D magnesium alloy by a zinc–yttrium coating. J Alloy Compd 582, 457–460 
+(2014).
+	11.	 Pedraza, F., Román, E., Cristóbal, M. J., Hierro, M. P. & Pérez, F. J. Effects of yttrium and erbium ion implantation on the AISI 304 
+stainless steel passive layer. Thin Solid Films 414, 231–238 (2002).
+	12.	 Liu, X., Shan, D., Song, Y. & Han, E. Influence of yttrium element on the corrosion behaviors of Mg–Y binary magnesium alloy. J 
+Magnes Alloys 5, 26–34 (2017).
+	13.	 Riffard, F. et al. Yttrium sol–gel coating effects on the cyclic oxidation behaviour of 304 stainless steel. Corros Sci 45, 2867–2880 
+(2003).
+	14.	 Riffard, F. et al. The influence of implanted yttrium on the cyclic oxidation behaviour of 304 stainless steel. Appl Surf Sci 252, 
+3697–3706 (2006).
+	15.	 Li, L. & Nam, N. D. Effect of yttrium on corrosion behavior of extruded AZ61 Mg alloy. J Magnes Alloys 4, 44–51 (2016).
+	16.	 Wang, X. et al. Effect of yttrium on the corrosion behaviour of 09CrCuSb alloy in concentrated sulphuric acid. Corros Sci 69, 
+369–375 (2013).
+	17.	 Wang, X. Y. & Li, D. Y. Beneficial effects of yttrium on the mechanical failure and chemical stability of the passive film of 304 stainless 
+steel. Mater Sci Eng A315, 158–165 (2001).
+	18.	 Cai, G. & Li, C. Effects of Ce on Inclusions, Microstructure, Mechanical Properties, and Corrosion Behavior of AISI 202 Stainless 
+Steel. JMEPEG 24, 3989–4009 (2015).
+	19.	 Kwon, S. K., Kong, Y. M. & park, J. H. Effect of Al Deoxidation on the Formation Behavior of Inclusions in Ce-Added Stainless Steel 
+Melts. Met Mater Int 20, 959–966 (2014).
+	20.	 Ha, H. Y., Park, C. J. & Kwon, H. S. Effects of misch metal on the formation of non-metallic inclusions and the associated resistance 
+to pitting corrosion in 25% Cr duplex stainless steels. Scripta Mater 55, 991–994 (2006).
+	21.	 Shim, S. I., Park, Y. S., Kim, S. T. & Song, C. B. Effects of Rare Earth Metal Addition on the Cavitation Erosion-Corrosion Resistance 
+of Super Duplex Stainless Steels. MET MATER Int 8, 301–307 (2002).
+	22.	 Yoo, Y. H., Choi, Y. S., Kim, J. G. & Park, Y. S. Effects of Ce, La and Ba addition on the electrochemical behavior of super duplex 
+stainless steels. Corros Sci 52, 1123–1129 (2010).
+	23.	 Chen, L., Ma, X., Wang, L. & Ye, X. Effect of rare earth element yttrium addition on microstructures and properties of a 21Cr–11Ni 
+austenitic heat-resistant stainless steel. Mater Design 32, 2206–2212 (2011).
+	24.	 Jun, J., Holguin, K. & Frankel, G. S. Pitting Corrosion of Very Clean Type 304 Stainless Steel. Corrosion 70, 146–155 (2014).
+	25.	 Jung, I. H., Decterov, S. A. & Pelton, A. D. Computer Applications of Thermodynamic Databases to Inclusion Engineering. ISIJ Int 
+44, 527–536 (2004).
+	26.	 Williams, D. E., Kilburn, M. R., Cliff, J. & Waterhouse, G. I. N. Composition changes around sulphide inclusions in stainless 
+steels,and implications for the initiation of pitting corrosion. Corros Sci 52, 3702–3716 (2010).
+	27.	 Schmuki, P., Hildebrand, H., Friedrich, A. & Virtanen, S. The composition of the boundary region of MnS inclusions in stainless 
+steel and its relevance in triggering pitting corrosion. Corros Sci 47, 1239–1250 (2005).
+Acknowledgements
+The work was supported financially by the National Natural Science Foundation of China (Grant numbers 
+51474085 and 51674023).
+Author Contributions
+W.S. performed the majority of the lab work and wrote the first version of the paper. All authors were involved 
+in extensive discussions of data interpretation and edited the manuscript. S.Y. and J.L. analyzed the experimental 
+results of immersion tests. S.Y. designed the experiments and provided the samples.
+Additional Information
+Competing Interests: The authors declare no competing interests.
+Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Cre-
+ative Commons license, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons license and your intended use is not per-
+mitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the 
+copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+ 
+© The Author(s) 2018

@@ -1,0 +1,557 @@
+
+--- PDF page 1 ---
+JOURNAL OF OPTOELECTRONICS AND ADVANCED MATERIALS, Vol. 12, No. 5, May 2010, p. 1170 - 1175 
+ 
+Corrosion studies of carbon steel X60 by electrochemical 
+methods 
+ 
+ 
+A. C. CIUBOTARIU*, L. BENEA, P. L. BONORAa 
+Dunarea de Jos, University of Galati, Metallurgy and Materials Science Faculty, 
+Competences Center Interfaces-Tribocorrosion-Electrochemical Systems – CC-ITES, 
+111 Domneasca Street, 800201, Galati, Romania 
+aDegli Studi di Trento Universita, Laboratory of Industrial Corrosion Control, 
+Department of Materials Engineering, 38050 Mesiano Street, Trento, Italy 
+ 
+ 
+ 
+The paper presents the electrochemical corrosion behavior of carbon steel X60 using the electrochemical impedance 
+spectroscopy and potentiodynamic polarization methods. As test solutions sodium chloride, sodium sulphate and sulphuric 
+acid 0.5M concentration were used in a three electrode open cell. It was observed that the corrosion rate (corrosion current) 
+is higher for carbon steel X60 in 0.5M sulphuric acid and smaller in 0.5M sodium sulphate.  
+ 
+(Recieved April 2, 2010; accepted May 26, 2010) 
+ 
+Keywords: Carbon steel X60, Electrochemical impedance spectroscopy, Potentiodynamic polarization, Polarization resistance 
+ 
+ 
+ 
+1. Introduction 
+ 
+The carbon steel X60 are used for manufacturing gas 
+and crude oil pipelines, shipbuilding industry, power 
+equipment, in various corrosion environments; it is, 
+therefore, of extreme importance to study their behavior 
+and life service predictability in various systems. 
+In the literature are studies of carbon steel X60 
+corrosion behavior in sulfuric acid solution [1]; carbonate 
+and sodium bicarbonate solutions [2], media that are 
+responsible for the occurrence of pitting corrosion initiated 
+by active-passive transition along with fast reactions of 
+hydrogen emission.  
+A. Benmoussa and others [3] have studied the 
+corrosion resistance of various types of steel using soil as 
+aggressive environment (corrosion are influenced by pH, 
+temperature, humidity and the chemical composition of 
+electrolytes in the soil) and it has been shown that the steel 
+X60 features the highest resistance to soil aggressive 
+action and bacterial activity. Investigations have been 
+carried out using a simulated solution with pH similar to 
+that soil; the method applied was potentiodynamic 
+polarization and electrochemical impedance spectroscopy. 
+It has been found that the corrosion current increases from 
+200C to 60°C while the impedance curves indicate that the 
+corrosion resistance increases with immersion time. 
+The influence of temperature (30 0C - 120 0C) on the 
+corrosion behavior of low carbon pipeline steels in the 
+CO2 saturated solutions in the closed autoclave system has 
+been studied by Das  and Khanna [4]. At lower 
+temperatures, the surface films have an open porous 
+structure and hence the FeCO 3 film formed dissolved 
+continuously in the CO 2 saturated solution. Between 60 0C 
+to 90 0C, the FeCO 3 film accumulated more in the outer 
+part, which is more porous, less dense and non-protective 
+in nature and hence the corrosion rates of samples increase 
+with temperature. In contrast, above 90 0C, a dense 
+protective FeCO 3 film is formed and the corrosion rate 
+decreases significantly at 1200C. 
+The electrochemical impedance spectroscopy (EIS) 
+has been successfully used for thirty years in the study of 
+materials corrosion and proves to be an accurate method to 
+determine the corrosion speed. An important EIS role is 
+that, unlike other laboratory techniques, this makes use of 
+very small amplitude signal which do not significantly 
+alter the stationary state of the surface being investigated. 
+The electrochemical impedance spectroscopy uses 
+polarization frequency values like the linear polarization. 
+To make an EIS measurement, a small amplitude signal, 
+usually a voltage between 5mV to 50mV, is applied to a 
+specimen over a range of frequencies of 100 000Hz to 
+0.001Hz. Polarization resistance and capacitance are 
+obtained for each frequency and these values can provide 
+information on the corrosion behavior, corrosion speed, 
+diffusion processes and surface properties. By applying a 
+given signal (perturbation) of a system, the transfer 
+function of the system being investigated can be measured 
+and this provides full information on the system dynamic 
+behavior [5 – 7]. 
+Historically, the modern dynamic analysis systems 
+were introduced in electrochemistry by Epelboin and 
+coworkers in 1960, by applying impedance measuring 
+techniques in various fields of electrochemistry (corrosion, 
+corrosion inhibitors, electro-crystallization). The modern 
+equipment for the analysis of a system dynamic behavior 
+consists of a frequency analyzer, spectrum analyzer, 
+combined with an interface analyzer connected to an 
+electrochemical cell and a computerized system for the 
+collection and analysis of experimental data (with a 
+suitable program) [8]. 
+
+--- PDF page 2 ---
+Corrosion studies of carbon steel X60 by electrochemical methods                                                     1171 
+ 
+ 
+The response y(t) of a linear system to a perturbation 
+x(t) is determined by a differential equation of n order in 
+y(t): 
+=+++= −
+−
+)(.....)()( 1110 tybdt tydbdt tydb nnnnn  
+)(...)()( 1110 txadt txdadt txda mmmmm +++== −−            (1) 
+ 
+or a set of first order differential equations. 
+If x (t) is an imposed sinusoidal signal  
+ 
+    x(t) = A sin ωt                                 (2) 
+ 
+its response, y (t) is it also sinusoidal: 
+ 
+       y(t)=B sin( ωt + Φ)                              (3) 
+ 
+and a transfer function can de defined as:  
+ 
+    H (ω) = ΦjeH )(ω                                 (4) 
+ 
+Where: 
+A
+BH =)(ω                                (5) 
+H and Φ  are the module and modification of the 
+transfer function phase, respectively.  
+If x (t) is the current and y (t) is the voltage, H( ω) is 
+a value of the impedance; 
+If x (t) is the voltage and y (t) is the current, H( ω) is 
+the admittance. 
+Impedance, Z(ω) of an electrochemical interfaces is a 
+complex number that can be represented in polar or 
+carthesian coordinates: 
+ 
+Z (ω) = Z ejΦ                                  (6) 
+ 
+Z (ω) = ReZ + jIm Z                       (7) 
+ 
+where: ReZ and Im Z  represent the real and imaginary, 
+respectively, part of the impedance.  
+The relations among these quantities are:  
+ 
+Z  = (Re Z)2 + ( Im Z )2                            (8) 
+ 
+Φ = Arctg 
+Z
+Z
+Re
+Im                                     (9) 
+ 
+   Re Z = Z  cos Φ                                  (10) 
+   Im Z = Z  sin Φ                           (11) 
+ 
+Impedance can be defined for any physical –chemical 
+system as a stationary current – voltage relationship. 
+Impedance is a function of both frequency and polarization 
+state in a certain point (I0, V0) [9]. 
+The polarization methods, such as potentiodynamic 
+polarization, potentiostatic and cyclic voltammetry are 
+often used in laboratory for corrosion tests. These 
+techniques can provide significant useful information 
+regarding the corrosion mechanism, corrosion rate and 
+susceptibility of specific materials to corrosion in 
+designated environments.  Polarization methods involve 
+changing the potential of the working electrode and 
+monitoring the current, which is produced as a function of 
+time or potential. Potentiodynamic polarization is a 
+technique where the potential of the electrode is varied at a 
+selected rate by application of a current through the 
+electrolyte. It is probably one of the most used polarization 
+test method for measuring corrosion resistance and is used 
+for a wide variety of functions [10, 11]. 
+The paper presents the electrochemical corrosion 
+behavior of carbon steel X60 using the electrochemical 
+impedance spectroscopy and potentiodynamic polarization 
+methods. As test solutions sodium chloride, sodium 
+sulphate and sulphuric acid 0.5M concentrations were used 
+in a three electrode open cell.  
+ 
+ 
+2. Material and methods 
+ 
+For electrochemical corrosion measurements it was 
+used a potentiostat/galvanostat type SOLARTRON, a 
+three-electrode open cell with carbon steel X60 as working 
+electrode (W.E.), a circular platinum gauze as counter 
+electrode (C.E.) and a saturated Ag/AgCl electrode as 
+reference electrode (R.E.) (E Ag/AgCl = +200mV/ESH). The 
+system was connected to a computer program Corrware 
+and Zplot and data analysis software. The samples to 
+analyze (working electrode) with a surface area of 0.5cm 2 
+was inserted into resin. The testing solutions: 0.5M 
+sulfuric acid, 0.5M sodium sulphate and 0.5M sodium 
+chloride were used. 
+For EIS and PD measurements it was used the 
+following parameters: initial frequency (I.F.) 100 000Hz, 
+final frequency (F.F.) 0.001Hz, amplitude voltage 
+U=5mV, sweep rate v = 0.2mV/s, initial potential (I.P.) -
+1.2V (Ag/AgCl), final potential (F.P.) +1.0V (Ag/AgCl). 
+Chemical composition and some mechanical 
+properties of carbon steel X60 are presented in Table 1 and 
+Table 2 [12]. 
+ 
+ 
+Table 1. Chemical composition of carbon steel X60. 
+ 
+Chemical composition,% Standard Steel 
+C Mn Si P S Cr Ni V Nb Ti 
+API-5L X60 0.2
+1 
+1.52 0.19 0.012 0.003 0.16 0.15 0.05 0.03 0.01 
+ 
+
+--- PDF page 3 ---
+1172                                                                        A. C. Ciubotariu, L. Benea, P. L. Bonora 
+ 
+ 
+Table 2. Mechanical properties of carbon steel X60 (longitudinal direction). 
+ 
+Standard Steel R p0.2(MPa) R m(MPa) A 5(%) R p0.2/Rm HRC 
+API-5L X60 733 792 20.5 0.93 21 
+ 
+ 
+3. Results and discussion 
+ 
+The Nyquist simulated experimental impedance 
+curves with a simple circuit with C DL (double layer 
+capacitance) in parallel with polarization resistance is not a 
+very good overlap. So that, for this reason it is necessary 
+to introduce an equivalent circuit with CPE (the 
+capacitance element of the double layer which is 
+dependent of the frequency because the surface is not 
+homogenous).  
+CPE is used like a constant phase element because all 
+capacitive circular curves of the circle are situated under 
+the real part of axis. These characteristics of the capacitive 
+circular curves are presented in all studies about the 
+electrochemical impedance and used for a lot of simulated 
+curves. CPE is not a pure capacitor; he is a component 
+with complex impedance.  
+The experimental data of electrochemical impedance 
+for carbon steel X60 in different solutions shows that 
+Randles circuit is not a valid model. The most important 
+difference between the experimental impedance of the 
+carbon steel X60 and the points obtained by the Randles 
+model simulation is: the centers of the different circular 
+curves of the impedance are always under the real axis and 
+never on the axis, as derived from the Randles model. An 
+equivalent circuit was proposed to determine the 
+experimental impedance spectra [13]. In most cases, this 
+circuit, represented in Fig. 1 allows for some excellent 
+correlation between experimental and theoretical 
+impedance curves to be obtained. 
+ 
+ 
+Fig. 1. (A) Equivalent circuit to calculate the 
+polarisation resistance from impedance spectrum with a 
+CPE: R e – electrolyte resistance between the reference 
+electrode and the working electrode; CPE – the double 
+layer capacity in parallel with the polarisation resistance 
+Rp; (B) Circuit with a parallel combination of a  
+resistance  R  and  a  CPE,   and   the   corresponding  
+                           Nyquist impedance plot. 
+ 
+ 
+Equivalent circuit R e-CPE//Rp represented in Fig. 1 
+gives a single flattened circle arc. 
+The evolution of the impedance depending on the 
+frequency in this case could be described by the following 
+equation: 
+() βτω++= j1 RRZ e  )10( ≤β<           (12) 
+ 
+In this expression the value of the parameter β (always 
+smaller than 1) indicates the smoothing of the circular 
+curves from Randles models and the experimental circuit 
+with CPE: the line corresponding to the Randles model 
+was found only in the value β = 1. In this case, the CPE is 
+a pure capacitor. 
+The Nyquist plot representation of impedance spectra 
+performed in 0.5M sodium chloride and 0.5M potassium 
+sulphate solutions at time of immersion and at the different 
+times of immersion are shown in Figs. 2 – 4.  
+ 
+ 
+Fig. 2. Nyquist diagrams of impedance spectrum for 
+carbon steel X60 in 0.5M sulfuric acid 
+ 
+ 
+ 
+Fig. 3. Nyquist diagrams of impedance spectrum for 
+carbon steel X60 in 0.5M sodium sulfate 
+
+--- PDF page 4 ---
+Corrosion studies of carbon steel X60 by electrochemical methods                                                     1173 
+ 
+ 
+ 
+ 
+Fig. 4. Nyquist diagrams of impedance spectrum of 
+carbon steel X60 in 0.5M sodium chloride. 
+ 
+ 
+On the Fig. 5 it was represented one experimental 
+diagram together with the simulation curve described by 
+the equivalent circuit from Fig. 1. It could be observe that 
+the experimental impedance data fit very well with the 
+equivalent circuit proposed. 
+From impedance experimental data for the samples of 
+carbon steel X60, the value of β is 0.82 (sulfuric acid), 
+0.92 (sodium sulphate) and 0.94 (sodium chloride). 
+From the value of electrolyte resistance and used the 
+equivalent circuit presented in Fig. 1 it was possible to 
+calculate the polarization resistance for the sample in those 
+three testing solutions. The results are presented in              
+Table 3.  
+It can be noted that the polarization resistance of 
+carbon steel X60 in 0.5M sulfuric acid solution decreases 
+in time. After two hours from immersion in the solution of 
+sulfuric acid, the steel was destabilized due to the potential 
+general corrosion with the dissolution of corrosion 
+products.  
+ 
+ 
+ 
+Fig. 5. Nyquist diagrams of impedance spectrum of 
+experimental data (square points) and fitting curve 
+(triangle points)  for  carbon  steel  X60  in  0.5M sulfuric  
+                      acid solution after 2h of immersion 
+ 
+In 0.5M sodium sulphate solution the carbon steel 
+X60 was stabilized within two hours from immersion 
+while the polarization resistance increased in time. This 
+means that on the sample surface protective film of 
+corrosion products was formed. 
+In 0.5M sodium chloride solution, the polarization 
+resistance values of carbon steel X60 have a tendency to 
+increase in time. The impedance diagrams also indicate 
+strong low -frequency oscillations which can be caused by 
+the localized corrosion on the steel surface. 
+The values of polarization resistance in the three 
+solutions testing can also be accounted by the anion effect: 
+Cl- anion is a simple anion while SO 24−  has a complex 
+structure; the diffusion coefficient of Cl - is 2.302x10-9 and 
+1.065x10-9 for SO 24−  [14].  
+Thus the different diffusion speed and of the two 
+anions can cause lower corrosion resistance in sulfuric 
+acid as compared with sodium chloride and sodium 
+sulfate. 
+ 
+ 
+Table 3. The values of polarization resistance of carbon steel X60 in testing solutions  
+at different time from immersion 
+ 
+Rp (kΩ cm2)  
+Solution At time of 
+immersion 
+After 0.5h 
+ from immersion 
+After 2h  
+from immersion 
+0.5M sulfuric acid 138 117 56 
+0.5M sodium sulphate 521 533 1400 
+0.5M sodium chloride 503 1090 1600 
+ 
+ 
+ The corrosion current values at different time from 
+immersion into three testing solutions using the 
+polarization resistance and the corrosion potential are 
+presented in Table 4. 
+
+--- PDF page 5 ---
+1174                                                                        A. C. Ciubotariu, L. Benea, P. L. Bonora 
+ 
+ 
+ 
+Table 4. Corrosion current values of carbon steel X60 at different time from immersion  
+in 0.5M sulfuric acid, 0.5M sodium sulphate and 0.5M sodium chloride solutions 
+ 
+icorr, nA/cm2  
+Solution At time of 
+immersion 
+After 0.5h 
+ from immersion 
+After 2h  
+from immersion 
+0.5M sulfuric acid 116.10 185.56 387.69 
+0.5M sodium sulphate 41.67 40.73 15.50 
+0.5M sodium chloride  84.84 17.64 12.01 
+ 
+ 
+The performed potentiodynamic diagrams for steel 
+carbon X60 in testing solutions after 30min from 
+immersion are shown in Fig. 6 and the corresponding 
+values of the corrosion current , polarization resistance and 
+calculated Tafel constants are presented in Table 5. 
+ 
+ 
+ 
+Fig. 6. Comparative polarization potentiodynamic curves 
+for carbon steel X60 in: 0.5M sulfuric acid; 0.5M sodium 
+sulphate and  0.5M  sodium  chloride  solutions  obtained  
+         after 30 min from immersion time (log scale). 
+ 
+The corrosion current of the potentiodynamic 
+diagrams was calculated with Stern - Geary formula 
+expressing the dependence of corrosion resistance on 
+corrosion current [15]: 
+ 
+⎟⎟⎠⎞⎜⎜⎝⎛ β+β β⋅β= ca capcorr R303.2 1i              (13) 
+ 
+- icorr – corrosion current density, Amps/cm2; 
+- Rp – corrosion resistance, ohm cm2; 
+- βa – anodic Tafel slope in V/decade or mV/decade of the 
+current density; 
+- βc – cathodic Tafel slope in V/decade or mV/decade of 
+the current density; 
+- the quantity )/()( caca ββββ +⋅ is referrred to as the 
+Tafel constant. 
+In general, it may be considered a good correlation 
+between the polarization resistances values calculated 
+from potentiodynamic diagrams with those obtained from 
+the impedance diagrams using the equivalent circuit 
+shown in Fig. 1. The largest anodic Tafel slope is 
+registered in 0.5M sodium chloride and may be associated 
+with diffusion and pitting corrosion. 
+ 
+ 
+Table 5. Polarization resistance values of carbon steel X60 calculated from polarization potentiodynamic  
+curves obtained after 30 min from immersion in solutions. 
+ 
+Solution i corr 
+(nA/cm2) Ecorr (mV/Ag/AgCl) βa (V/decadă) βc (V/decadă) Rp (kΩcm2) 
+0.5M sulfuric acid 775.6 47 100·10 -3 100·10 -3 78.0 
+0.5M sodium sulphate 83.0 -267 100·10 -3 100·10 -3 606.4 
+0.5M sodium chloride 15.7 -324 246·10 -3 54·10 -3 2720.0 
+ 
+ 
+4. Conclusions 
+ 
+The electrochemical impedance technique is a useful 
+method to investigate the corrosion behavior of carbon 
+steel X60. Three different solutions: sulfuric acid, sodium 
+chloride and sodium sulfate of 0.5M concentrations were 
+used. 
+The polarization resistance values from the impedance 
+spectrum could not be simulated with the circuit Randles 
+and it was needed an equivalent circuit with CPE. The 
+values of β are different: 0.82 in 0.5M sulfuric acid; 0.92 
+in 0.5M sodium sulphate and 0.94 in 0.5M sodium 
+chloride. 
+
+--- PDF page 6 ---
+Corrosion studies of carbon steel X60 by electrochemical methods                                                     1175 
+ 
+ 
+The polarization resistance of carbon steel X60 in 
+0.5M sulfuric acid decreases in time and after two hours 
+from immersion the steel surface is destabilized because of 
+the possibility of general corrosion with the dissolution of 
+corrosion products.  
+In 0.5M sodium sulphate and 0.5M sodium chloride 
+solutions the polarization resistance of carbon steel X60 
+increases in time, therefore the corrosion resistance is 
+higher than in 0.5M sulphuric acid solution. 
+The polarization resistance values obtained in 0.5M 
+sodium chloride are highest than those obtained in 0.5M 
+sodium sulphate and 0.5M sulfuric acid, but it can be 
+noted that this type of steel is sensitive to localized 
+corrosion caused by chlorine ions.  
+ 
+ 
+Acknowledgments 
+ 
+The authors thank the European Project COST 520 - 
+Biofouling and Materials, Short Term Scientific Mission 
+(STSM) for their financial support. 
+ 
+ 
+References 
+ 
+  [1] V. M. Kushnarenko, B. V. Perunov, V. F.    
+        Yakovenko, I. V. Yureskul, Mater. Sci.  
+        21, 279 (1985). 
+  [2] A. I. Balitskii, R. K. Melekhov, S. G. Polyakov,  
+        Mater. Sci. 33, 242 (1997). 
+  [3] A. Benmoussa, M. Hadjel, M. Traisnel, Mater.  
+       Corros. 57, 771 (2006). 
+  [4] G. S. Das, A. S. Khanna, Trans. Indian Inst.  
+        Met. 57, 277 (2004). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  [5] J. S. Newman, Electrochemical Systems, second  
+       ed., Prentice Hall, Englewood Cliffs, NJ (1991). 
+  [6] A. Rajasekar, S. Maruthamuthu, Y. P. Ting,  
+        Ind. Eng. Chem. Res. 47, 6925 (2008). 
+  [7] J. Neshati,H. P. Masiha, M. G. Mahjani, M. Jafarian,  
+        Corros. Eng. Sci. Technol. 4, 371 (2007). 
+  [8] E. Barsoukov, J. R. Macdonald, Impedance  
+        Spectroscopy Theory, Experiment, and  
+        Applications, Second Edition, John Wiley &  
+        Sons, Inc., Hoboken, NJ. (2005).  
+  [9] L. Benea, Electrodepuneri compozite în teorie şi  
+        practică, Editura PORTO FRANCO, România,  
+        ISBN 973 557 490 X (1998). 
+[10] J. R. Scully, Corrosion 56, 199 (2000). 
+[11] P. R. Roberge, Handbook of Corrosion  
+        Engineering, McGraw-Hill (2000). 
+[12] P. Jonšta, J. Sojka, P. Váňová, Acta. Metall.  
+        Slovaca 13, 489 (2007). 
+[13] L. Lemoine, F. Wenger, J. Galland,  
+        Corrosion rates of steel in concrete, American  
+        Society for Testing and Materials, Philadelphia,  
+        USA, ASTM STP-1065, 118 (1990). 
+[14] S. L. Jiang, Y. G. Zheng, Z. M. Yao, Corros.  
+        Sci. 48, 2614 (2006). 
+[15] M. Stern, A. L. Geary, J. Electrochem. Soc.  
+       105, 638 (1958). 
+ 
+ 
+ 
+ 
+ 
+_____________________ 
+*Corresponding author: Alina.Ciubotariu@ugal.ro 
+ 
+ 
+ 
+ 
+ 
+ 

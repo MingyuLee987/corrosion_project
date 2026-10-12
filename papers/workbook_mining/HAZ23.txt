@@ -1,0 +1,1129 @@
+PAGE 1
+ 
+ 
+ 
+ 
+ 
+Materials 2023, 16, 876. https://doi.org/10.3390/ma16020876 
+www.mdpi.com/journal/materials 
+Article 
+Local Corrosion Behaviors in the Coarse-Grained  
+Heat-Affected Zone in a Newly Developed Zr–Ti–Al–RE  
+Deoxidized High-Strength Low-Alloy Steel 
+Chao-Chao Yin 1, Lin Cheng 1,*, Zhi-Hui Wang 1, Tian-Liang Zhao 1, Shi Cheng 1, Shu-E Hu 2, Zi-Cheng Liu 3,  
+Deng Luo 4, Da-Heng Xiao 4, Xing Jin 5, Han-Kun Liu 6 and Kai-Ming Wu 1,* 
+1 The State Key Laboratory of Refractories and Metallurgy, Hubei Province Key Laboratory of Systems  
+Science on Metallurgical Processing, International Research Institute for Steel Technology, Collaborative 
+Center on Advanced Steels, Wuhan University of Science and Technology, Wuhan 430081, China 
+2 Iron and Steel Institute, Shandong Iron & Steel Group Rizhao Co., Ltd., Rizhao 276800, China 
+3 Department of Manufacturing, Baoshan Iron & Steel Co., Ltd., Shanghai 201999, China 
+4 Technology Center, Hunan Valin Xiangtan Steel Co., Ltd., Xiangtan 411101, China 
+5 Department of Manufacturing, Nanjing Iron & Steel Co., Ltd., Nanjing 210044, China 
+6 Iron and Steel Institute, China Petroleum Group Ocean Engineering (Qingdao) Co., Ltd.,  
+Qingdao 266520, China 
+* Correspondence: chenglin@wust.edu.cn (L.C.); wukaiming@wust.edu.cn (K.-M.W.) 
+Abstract: Oxide metallurgy technology can improve the microstructure of a coarse-grained heat-
+affected zone (CGHAZ) but introduces extra inclusions. Local corrosion behavior of the CGHAZ of 
+a Zr–Ti–Al–RE deoxidized steel was investigated in this work using theoretical calculations and 
+experimental verification. The modified inclusions have a (Zr–Mg–Al–Ca–RE)Ox core claded by a 
+CaS and TiN shell. CaS dissolves first, followed by the oxide core, leaving TiN parts. This confirms 
+that the addition of rare earth can reduce lattice distortion and prevent a galvanic couple between 
+the inclusions and the matrix, while the chemical dissolution of CaS causes localized acidification, 
+resulting in the pitting corrosion initiation. 
+Keywords: inclusion; pitting corrosion; HSLA steel; CGHAZ; first-principles; rare earth elements 
+ 
+1. Introduction 
+High-strength low-alloy (HSLA) steels are important in the construction of offshore 
+platforms due to their weldability and high cracking resistance [1,2]. An important 
+method for bonding steel for large structures in industrial applications is welding. High 
+heat input is typically utilized to improve welding efficiency and lower production cost 
+[3]. During the welding thermal cycle, the coarse-grained heat-affected zones (CGHAZs) 
+experience a fast heating rate and a high heating peak temperature, resulting in the ab-
+normal growth of the grains and the development of complex microstructures such as 
+granular bainite (GB), lath bainite (LB), acicular ferrite (AF) and martensite–austenite 
+(M/A) constituents. HSLA steels can be classified and defined according to their mor-
+phologies and characteristics. GB consists of elongated ferrite sheaves with blocky M/A 
+constituents. LB is formed with parallel laths at fast cooling rates. AF is staggered, inter-
+locked and formed on non-metallic inclusions. The M/A constituent is a mixture of un-
+tempered martensite embedded in carbon-enriched retained austenite [4,5]. As a result, 
+the CGHAZ is considered to be the weakest area in the welded joint [6]. Oxide metallurgy 
+technology is one of the effective solutions for introducing specific fine, non-metallic in-
+clusion particles into steels to refine the grain size and/or induce the formation of a bene-
+ficial microstructure. The introduction of fine and uniform, non-metallic inclusion can in-
+hibit the abnormal growth of grains in the heating process and induce the nucleation of 
+Citation: Yin, C.-C.; Cheng, L.; 
+Wang, Z.-H.; Zhao, T.-L.; Cheng, S.; 
+Hu, S.-E.; Liu, Z.-C.; Luo, D.;  
+Xiao, D.-H.; Jin, X.; et al. Local  
+Corrosion Behaviors in the  
+Coarse-Grained Heat-Affected Zone 
+in a Newly Developed Zr–Ti–Al–RE 
+Deoxidized High-Strength  
+Low-Alloy Steel. Materials 2023, 16, 
+876. https://doi.org/10.3390/ 
+ma16020876 
+Academic Editor: Francisca G.  
+Caballero 
+Received: 3 December 2022 
+Revised: 24 December 2022 
+Accepted: 9 January 2023 
+Published: 16 January 2023 
+ 
+Copyright: © 2023 by the authors. Li-
+censee MDPI, Basel, Switzerland. 
+This article is an open access article 
+distributed under the terms and con-
+ditions of the Creative Commons At-
+tribution (CC BY) license (http://crea-
+tivecommons.org/licenses/by/4.0/). 
+
+PAGE 2
+Materials 2023, 16, 876 
+2 of 20 
+ 
+ 
+acicular ferrite in the cooling process [2,7]. Thus, the application of oxide metallurgy tech-
+nology is promising for refining the microstructure and improving the mechanical prop-
+erties of the CGHAZ. 
+Generally, the types of non-metallic inclusions—such as Al2O3, MnS, ZrO2, CaO and 
+Al2MgO4—introduced in steels depend on the specific deoxidation techniques [8–15]. In-
+clusions in the steels are often considered as defects that can preferably be attacked by 
+chloride ions in the marine environment, which induce pitting corrosion [4,16,17] that has 
+a detrimental impact on application performance [18–23]. Numerous studies have been 
+conducted on the local corrosion caused by inclusions in HSLA steels. Some researchers 
+believe that galvanic corrosion could occur between the inclusions and the adjacent ma-
+trix. Hou et al. investigated the pitting behavior of Al–Ti–Mg deoxidized steel and found 
+that MnS had a lower surface potential than Al2O3 and Al2MgO4 and acted as an anode 
+more easily [8]. Wei et al. found that pitting corrosion behavior is related to the microgal-
+vanic effect between MnS and the matrix [15]. However, Liu et al. found that most of the 
+non-metallic inclusions have weak conductivity. Their research shows that ZrO2-Al2O3-
+Ti2O3 inclusions do not form a galvanic couple with the adjacent matrix [24]. Instead, the 
+main factors that are assumed to induce pitting behavior are the microcracks and high 
+dislocation density areas around the irregular Al2O3. In addition to the shape, type and 
+conductivity of the inclusions, the distribution and size of the inclusions have a significant 
+impact on the pitting initiation. Normally, the finer the inclusions, the higher the pitting 
+potential and the greater the contribution to the pitting resistance of the steel [18]. 
+Rare earth treatment is often used by researchers to effectively improve the corrosion 
+resistance of steels because the rare earth (RE) elements have a strong affinity to oxygen 
+and sulfur, capable of refining and spheroidizing the inclusions and densifying the corro-
+sion layer [18,25–28]. In a simulated marine environment, Liu et al. analyzed the pitting 
+behavior of a Q460NH steel treated with RE and found that the pitting corrosion starts 
+from the (RE)2O2S-(RE)xSy rather than the matrix, suggesting that the matrix after RE treat-
+ment has higher corrosion resistance than the inclusions in the simulated solution [29]. 
+Liu et al. discovered that the initiation of pitting corrosion in Zr–Ti deoxidized low-alloy 
+steel was caused by matrix dissolution caused, in turn, by lattice distortion and micro-
+crevices around ZrO2-Ti2O3-Al2O3 inclusions. After adding rare earth, the lattice distortion 
+of inclusions decreased dramatically and the dissolution of the (RE)2O2S-(RE)xSy caused 
+pitting corrosion [30]. Using the first-principles theory, Tang et al. calculated the work 
+function of rare earth oxysulfide and confirmed that rare earth sulfide is easier to dissolve, 
+from an atomic scale perspective, than rare earth oxide [31]. The mechanism of inclusion-
+induced local corrosion is still controversial. Whether the composite inclusions and the 
+matrix constitute galvanic corrosion, crevice corrosion or the dissolution order needs to 
+be further investigated [8,10,15,24,29,32–35]. 
+Previous studies demonstrated that the CGHAZ exhibits a higher corrosion tendency 
+than the base metal and weld metal and is more likely to trigger anodic dissolution (AD) 
+behavior in the entire welded joint because of its coarse grains, complex microstructure 
+[36–38], welding residual stress and crystal defects [16,39,40]. The application of oxide 
+metallurgy technology may change the environment where corrosion occurs in the 
+CGHAZ. For example, use of oxide metallurgy technology, such as Widmanstätten ferrite 
+in the CGHAZ, will affect the microstructure formed in the welding thermal cycle and can 
+improve corrosion resistance [38]. It also introduces different types of inclusions, and the 
+difference in electrochemical information on the surface of these inclusions may affect pit-
+ting initiation behavior. In addition, oxide metallurgy techniques may lead to the distri-
+bution of aggregated inclusions in the matrix, which may cause an effective increase in 
+the active sites of pitting initiation. Thus, to improve the mechanical properties of the 
+CGHAZ, oxide metallurgy technology and rare earth microalloying often result in more 
+complex inclusions, posing challenges in the study of the corrosive behavior of inclusions 
+[11,13,41,42]. 
+
+PAGE 3
+Materials 2023, 16, 876 
+3 of 20 
+ 
+ 
+In this paper, the achievement of oxide metallurgy technology in modifying and re-
+fining inclusions and improving the microstructure of the CGHAZ in an HSLA steel were 
+first evaluated. Next, the formation and evolution of inclusions in CGHAZ during the 
+welding process were investigated, followed by the study of the pitting behavior of Zr–
+Ti–Al–RE composite inclusions in a CGHAZ, in a simulated marine environment, by 
+means of an immersion test, use of a scanning electron microscope equipped with an en-
+ergy dispersive spectroscope (SEM-EDS) and density functional theory. 
+2. Experimental Section 
+2.1. Sample Preparation and CGHAZ Simulation 
+Table 1 displays the chemical composition of the 12 mm-thick tested steel, which was 
+deoxidized by Zr–Ti–Al–RE, where the RE elements refer to La and Ce. The steel was 
+produced by thermomechanical controlled processing (TMCP) in a domestic steel factory 
+in China. The microstructure in CGHAZ was generated using the Gleeble 3800 Thermo-
+Mechanical simulator (Dynamic Systems Inc., Poestenkill, NY, USA) with a heat input of 
+100 kJ/cm for submerged-arc welding. Machined samples with dimensions of 11 mm × 11 
+mm × 75 mm were reheated to peak temperature of 1320 °C at a rate of 200 °C/s, main-
+tained for 2 s and then cooled according to Rykalin 3D models (formulation (1)) [43]: 
+ 
+⁄ = 
+2	
+ 
+1
+500 −
+ −
+1
+800 −
+ 
+(1)
+where E is heat input, kJ/cm, λ is thermal conductivity, J/(cm·s·°C), and T0 is the initial 
+temperature, °C. The t8/5 corresponding to 100 kJ/cm heat input was 45 s. 
+Table 1. Chemical composition of the tested steel (wt, %). 
+C 
+Si 
+Mn 
+Nb 
+Al + Ca + Zr + Ti + RE 
+Fe 
+0.05 
+0.17 
+1.55 
+0.034 
+0.04 
+Bal. 
+2.2. Characterization of Microstructure and Complex Inclusions 
+To analyze the microstructure in CGHAZ, samples with dimensions of 10 mm × 10 
+mm × 5 mm, which were cut from the welding thermal cycle test, were ground with SiC 
+paper from 200 to 2000 grits. The samples were then polished with diamond paste (2.5 
+μm), cleaned quickly with ethanol and, finally, etched with 4% nital (4 mL HNO3 + 96 mL 
+C2H5OH). The morphology was observed using a scanning electron microscope (SEM, FEI 
+Nova400, Lincoln, NE, USA) and transmission electron microscope (TEM, JEOL JEM-
+2100F, Akishima, Japan). Several inclusions were separated from the matrix by electrolysis 
+in non-aqueous solution (pH≈8) at 0~5 °C for further chemical composition and morphol-
+ogy observation [44]. 500 mL of the electrolyte solution was prepared, which consisted of 
+5.0 g of tetramethylammonium chloride, 3.0 g of anhydrous barium oxide, 50 mL of acet-
+ylacetone and 450 mL of anhydrous methanol. A scanning electron microscope (SEM, FEI 
+Nova400) with energy dispersive spectroscopy (EDS) was used to scan random positions 
+on the polished sample surface to characterize the chemical composition, morphology and 
+particle size of inclusions. For the subsequent electron backscattered diffraction (EBSD) 
+tests, the test samples were polished with diamond paste (2.5 μm) and then ionized by 
+milling using GATAN 685.O (Pleasanton, CA, USA). The EBSD test was performed using 
+a field emission scanning electron microscope (FE-SEM) at a voltage of 20 kV, a current of 
+13 nA and a step size of 0.1 μm. The data was analyzed by OIM software (Version: 5.3) to 
+obtain the inverse pole figure (IPF) map, kernel average misorientation (KAM), image 
+quality (IQ) diagrams to determine the crystal orientation of microstructure, and lattice 
+distortion between the inclusions and matrix. The JMatPro software (Version: 7.0) was 
+utilized to calculate the precipitation behavior of inclusions during the solidification 
+
+PAGE 4
+Materials 2023, 16, 876 
+4 of 20 
+ 
+ 
+process (1600–600 °C). Origin 8.0 software was used to plot the solid–solution behavior of 
+the nanoparticles and temperature during the welding thermal cycle. 
+2.3. Electrochemical Tests 
+The potentiodynamic polarization tests, which employed a three-electrode cell com-
+posed of working electrode, counter electrode (platinum plate electrode) and reference 
+electrode (saturated calomel electrode (SCE)) at room temperature, were conducted on 
+electrochemical workstation (E4, Kronach Zahner, Germany). The 500 mL solution con-
+tained 3.5 wt.% NaCl (Chinese Medicine Chemical Reagent Co., Ltd., Shanghai, China). 
+The potentiodynamic scans began at −300 mV vs. OCP and continued until the current 
+density reached 1 mA·cm−2. The scan rate was 0.333 mVs−1. All electrochemical measure-
+ments were performed more than three times for greater reproducibility [31,45]. Electro-
+chemical impedance spectroscopy (EIS) tests were performed at a frequency ranging from 
+105 Hz to 0.01 Hz with amplitude of 10 mV. ZView software (Version: 3.30d) was used to 
+analyze impedance data of Nyquist and Bode plots. 
+2.4. Immersion Test 
+To investigate the effect of Cl− on the pitting initiation and propagation of composite 
+inclusions by ex situ SEM observations in a simulated marine environment, a series of 
+immersion tests (5 s, 1 min, 1 h and 2 h) were conducted. To better observe the pitting 
+behavior of inclusions, the immersion test was conducted in 0.1 wt.% NaCl and the rust 
+on the surface of the immersed sample was removed by using a solution of 50% HCl + 
+50% deionized water + 5 g/L C6H12N4 [46]. An FE-SEM with EDS was used to analyze the 
+local corrosion morphology of the specimens before and after rust removal. For each stage 
+of localized corrosion, the observation experiment was repeated at least three times, and 
+at least five areas were observed in each sample. 
+2.5. First-Principles Calculation 
+The physical properties of the inclusions and body-centered cubic Fe (BCC), such as 
+density of states, elastic constant and work function, were calculated to better elucidate 
+the local corrosion mechanism. The conductivity of inclusions is explained by the density 
+of states calculation. Furthermore, this investigates whether there is a microgalvanic effect 
+between the inclusions and the matrix. The elastic constants were calculated to determine 
+if the differences in physical properties between the inclusions and the Fe matrix might 
+cause stress concentrations or the development of microcracks. The work function (WF), 
+which represents the ability of electrons to escape to the metal surface, is used to assess 
+the corrosion resistance of inclusions in tested steel. All calculations are based on density 
+functional theory (DFT) and are performed with the Vienna ab initio simulation package 
+(VASP) and the projector-augmented wave (PAW) method [47]. Here, the generalized 
+gradient approximation (GGA) is adopted, and the Monkhorst–Pack grids are used in the 
+Brillouin zone integration. All DFT models are guaranteed to have the same stoichiometric 
+ratio as the molecular formula ratio. The setting of the K point roughly satisfies K * a (lat-
+tice constant) ≈ 45. The thickness of the vacuum layer is set to 15 Å. Dipole correction is 
+applied along the thickest side. Depending on the type of inclusion, a cut-off energy range 
+from 400 eV to 600 eV is selected. The convergence criteria for energy and force are set to 
+1.0 × 10−5 eV/atom and 0.01 eV/Å, respectively. The calculation of the density of states is 
+conducted on the relaxed unit cell. The work function is expressed as follows (Equation 
+(2)): 
+ =  − 
+(2)
+where Ve represents the vacuum level and Ef represents the Fermi level. Considering the 
+relatively lower surface energy and more stable crystals of the low-index crystalline 
+planes, three low-index crystalline planes, (100), (110) and (111), were selected to calculate 
+
+PAGE 5
+Materials 2023, 16, 876 
+5 of 20 
+ 
+ 
+the inclusions’ work function with the periodic slab model [31]. To simulate the bulk 
+phase, a few atom layers at the bottom of the slab were fixed in their optimized positions. 
+Meanwhile, at least two atomic layers were relaxed. As shown in Equations (3)–(10), the 
+Voigt–Reuss–Hill (VRH) approximation method was used to determine the elastic me-
+chanical properties of the inclusions and the matrix [48,49]: 
+ = 
+( + !! + "") + 2(! + " + !")
+9
+ 
+(3)
+% = 
+1
+(& + &!! + &"") + 2(&! + &" + &!") 
+(4)
+' =  −!! + 3))
+5
+ 
+(5)
+'% = 5( −!)))
+3( −!)+))
+ 
+(6)
+' = ' + '%
+2
+ 
+(7)
+ =  + %
+2
+ 
+(8)
+ =
+9'
+3 + ' 
+(9)
+* =
+3 −2'
+2(3 + ') + ' 
+(10)
+where Cij represents the elastic stiffness constant and Sij represents the elastic compliance 
+constant. BV and BR, and GV and GR are the bulk modulus and shear modulus, calculated 
+by the Voigt and Reuss approximation methods, respectively. G, B, E and μ represent 
+shear modulus, bulk modulus, Young ‘s modulus and Poisson ‘s ratio, respectively. 
+3. Results and Discussion 
+3.1. Formation and Evolution of the Composite Inclusions in CGHAZ 
+3.1.1. Microstructure and Inclusion Analysis 
+The microstructure was composed of GB and AF with blocky M/A constituents which 
+were distributed discontinuously at the sub-boundary after etching with 4% nital for 8~12 
+s (Figure 1). At a heat input of 100 kJ/cm, the average impact energy at −20 °C of the sim-
+ulated specimen reached 370 J, which indicates that Zr–Ti–Al–RE deoxidization guaran-
+tees the improved mechanical properties in the CGHAZ. Meanwhile, it was found that 
+some inclusions prompted the formation of acicular ferrite. As shown in Figure 1b, several 
+acicular ferrite grains emanated from a spherical inclusion, which could prevent or devi-
+ate the crack prorogation and improve the toughness [21,50]. High-strength low-alloy 
+(HSLA) steels experience severe grain coarsening and loss of toughness as a consequence 
+of welding heat input, particularly high heat input [5,51]. However, inclusions and nano-
+particles such as TiN and Ti2O3 can effectively inhibit the austenite grain growth in the 
+range of 1200–1350 °C and, during cooling, prompt the formation of ideal acicular ferrite, 
+which could significantly improve the toughness of the CGHAZ [52,53]. 
+
+PAGE 6
+Materials 2023, 16, 876 
+6 of 20 
+ 
+ 
+ 
+Figure 1. (a) Scanning electron microscopy microstructure of the CGHAZ., (b) morphology of the 
+enlarged part in the white box in (a). (GB: granular bainite, AF: acicular ferrite, M/A: martensite–
+austenite constituents) 
+To better observe and analyze the composite inclusions, they were separated by elec-
+trolysis in a non-aqueous solution (Figure 2a). In this work, the inclusions are found to be 
+almost spherical in shape, forming a typical core–shell structure, with (RE–Mg–Al–Ca)–
+OxSy in the center and CaS and TiN at the periphery. The addition of Zr, Ca and RE has 
+an obvious spheroidization effect on the inclusions [54–56]. The appearance of Mg is at-
+tributed to the refractory bricks used in steelmaking. However, Zr was not detected on 
+this exposed surface. Rare earth elements could induce various types of inclusions such 
+as (Al, Zr, RE)-Ox, (RE)2OxSy, and (RE)xSy [31,55]. According to statistical analysis, (RE–Zr–
+Mg–Al–Ca)–OxSy–TiN composite inclusions are formed in this tested steel. Figure 2b 
+shows the equivalent particle size distribution of the inclusions. Nearly 85% of the inclu-
+sions are less than 3 μm in diameter, with a total average diameter of the inclusions of 2.4 
+μm and a particle number density of 18.27 mm−2. It should be noted that the inclusions 
+with a particle size less than 1 μm are not included in Figure 2b. 
+ 
+Figure 2. (a) SEM-EDS mapping images and (b) equivalent size distribution of inclusions. 
+3.1.2. Thermodynamic Analysis of Inclusions and Nanoparticles’ Evolution Behavior in 
+CGHAZ 
+Inclusions such as oxides, sulfides and nitrides can be formed during solidification, 
+given the diversity of alloying elements in the tested steel. The change in Gibbs free energy 
+of the formation reaction of the inclusions is the criterion for determining whether the 
+reaction can proceed spontaneously at constant temperature and pressure; ΔG < 0 indi-
+cates that the reaction occurs spontaneously [25]. The chemical reaction equation and 
+
+PAGE 7
+Materials 2023, 16, 876 
+7 of 20 
+ 
+ 
+thermodynamic formula of the deoxidization reaction in molten steel are shown in Equa-
+tions (11) and (12) [57]: 
+x
+y [M]+[O] = 1
+y -./012 
+(11)
+3' = 3'4 + 5678 = 3'4 + 567
+9:;<=
+ 1
+⁄
+9[<]9[:]
+/ 1
+⁄ 
+(12)
+where ∆G and ΔGθ represent the Gibbs free energy and the standard Gibbs free energy, 
+respectively, of the reaction, (J·mol−1), R is the gas constant, (J·mol−1·K−1), T represents the 
+temperature, (K), and ai represents the activity of the element. Table 2 presents the corre-
+sponding free energy data for various formation reactions of the inclusions that may be 
+involved in this work. According to Gibbs free energy change calculated at 1873 K, which 
+is shown in Table 2, the single-metal oxide formation occurs in the following order: Al2O3 
+(−734.33 kJ/mol), La2O3 (−610.85 kJ/mol), Ti2O3 (−273.72 kJ/mol), ZrO2 (−156.09 kJ/mol) and 
+CaO (−96.36 kJ/mol). Furthermore, Zr and RE can entirely or partially displace Al in Al2O3 
+in molten steel to form (ZrO2(−7298.12 kJ/mol) and LaAlO3(−646.15 kJ/mol)). Ca can react 
+with solute aluminum and oxygen to form calcium aluminate (−9458.40 kJ/mol). Gener-
+ally, Al2O3 dominates the initial inclusions for normal aluminum deoxidation technology 
+used in steel making. Meanwhile, refractory bricks react easily with Al2O3 to generate 
+Al2O3·MgO (similar to spinel) [58]. The inclusions are modified into (RE–Zr–Ti–Ca–Mg)–
+Ox with Zr, Ca, Ti and RE acting as deoxidizers [59]. It should be noted that the CaS 
+(−126.03 kJ/mol) initially formed in the molten steel is easily transformed back into CaO 
+[60,61]. The reaction for the formation of TiN (65.09 kJ/mol) has a positive Gibbs free en-
+ergy change at 1873 K. Consequently, it cannot be formed spontaneously in molten steel. 
+Figure 3a shows the precipitation curves during the cooling process, calculated using 
+Jmatpro (Version: 7.0) thermodynamic software. It has been demonstrated that nitrides 
+begin to precipitate and grow around 1400 °C and sulfides begin to precipitate and grow 
+around 1300 °C; in addition, a small number of oxides would precipitate. Carbonitrides 
+precipitate at a low temperature, about 1100 °C, and it is difficult to coarsen them into 
+micron particles. CaS and TiN are primarily precipitated on the surface of existing inclu-
+sions at a later stage of the solidification process. The different morphologies of CaS ob-
+served in the present immersion experiments depend on the diversity of prior oxide in-
+clusions [60]. 
+Table 2. Gibbs free energy of the inclusion formation reaction at 1873 K [57,58,62]. 
+No. 
+Reactions 
+ΔGθ (J/mol) 
+ΔG (kJ/mol) 
+1 
+2[Al] + 3[O] = (Al2O3) 
+−1,682,927 + 323.240 T 
+−734.33 
+2 
+[Mg]+2[Al] + 4[O] = (MgO·Al2O3) 
+−1,848,696 + 574.144 T 
+ΔGθ = −773.32 
+3 
+[Zr] + 2[O] = (ZrO2) 
+−845,532 + 266.100 T 
+−156.09 
+4 
+2[Ti] + 3[O] = (Ti2O3) 
+−1,072,872 + 346.000 T 
+−273.72 
+5 
+[Ca] + [O] = (CaO) 
+−138,227 − 63.000 T 
+−96.36 
+6 
+[Ca]+6[Al] + 4[O] = [CaO·Al2O3] 
+−1,023,637 + 142.120 T 
+−9458.40 
+7 
+2[La] + 3[O] = (La2O3) 
+−542,531 +124.150 T 
+−610.85 
+8 
+3[Zr] + 2(Al2O3) = 4[Al] + 3(ZrO2) 
+−8,233,279+ 464.510 T 
+−7298.12 
+9 
+3[Zr] + 2(Ti2O3) = 4[Ti] + 3(ZrO2) 
+−1,073,389 + 538.830 T 
+−11.99 
+10 
+[La] + 3[O] + [Al] = (LaAlO3) 
+−801,616 + 129.000 T 
+−646.15 
+11 
+[Ce] + (Al2O3) = (CeAlO3)+[Al] 
+−423,900 − 247.300 T 
+−833.13 
+12 
+[Ca] + [S] = (CaS) 
+−542,531 + 124.150 T 
+−126.03 
+13 
+[Ti] + [N] = (TiN) 
+−307,620 + 113.400 T 
+65.09 
+During the heating process of welding, small precipitations such as TiN and NbC 
+redissolve into the matrix, which reprecipitates again during the cooling process 
+
+PAGE 8
+Materials 2023, 16, 876 
+8 of 20 
+ 
+ 
+[37,43,63]. This is well described by the expression of solid solubility product at the spe-
+cific precipitations, as shown in Equation (13): 
+6>{⌈A⌉·⌈D⌉} = F − 
+⁄ 
+(13)
+where X and Y denote the equilibrium solubility of a substance in the steels at the required 
+temperature, (wt %), respectively. A and B are constants and T is the absolute temperature, 
+(K). In this paper, the potential precipitations may include NbC, NbN, TiN, TiC, MnS, etc. 
+Table 3 displays the equilibrium relationship between the solid solubility product and 
+temperature for these precipitations. Figure 3b depicts the precipitation curve of these 
+precipitations. According to the Ostwald aging mechanism, tiny nanoprecipitations tend 
+to redissolve in the matrix in the welding thermal cycle, owing to the high heating tem-
+perature (peak temperature of 1320 °C), and reprecipitate during the cooling process. 
+Meanwhile, at this peak temperature, a limited number of precipitations grow larger [64]. 
+According to EDS analysis, the precipitated nanoparticles are mostly irregular TiN. 
+Table 3. The solubility expressions for the precipitations [63,64]. 
+No. 
+Precipitation 
+Solubility Product 
+1 
+NbC 
+lg{[Nb]·[C]} = 2.26−6770/T 
+2 
+NbN 
+lg{[Nb]·[N]} = 2.80−8500/T 
+3 
+TiC 
+lg{[Ti]·[C]} = 2.75−7000/T 
+4 
+TiN 
+lg{[Ti]·[N]} = 0.32−8000/T 
+5 
+MnS 
+lg{[Mn]·[S]} = 5.02−11625/T 
+ 
+Figure 3. (a) Precipitation curves of the sulfide and nitride during the solidification process and (b) 
+nanoparticle precipitation in welding thermal cycle. 
+During the welding thermal cycle, nanoparticles exhibit solid–solution behavior 
+whereas inclusions, particularly oxide inclusions, have high melting points and are almost 
+unaffected by the welding thermal cycle [37,42], which distinguishes the CGHAZ from 
+the base metal. It should be emphasized that the role of nanoprecipitations plays a major 
+part in precipitation strengthening and fine grain strengthening in steels; these are easily 
+submerged by corrosion products when pitting occurs [64]. 
+The degree of the local stress concentration or lattice distortion was characterized 
+using kernel average misorientation (KAM) [29,65]. Figure 4 reveals that acicular ferrite 
+grains with varied crystal orientations formed around the inclusions, while the KAM map 
+revealed that a relatively smaller strain concentration exists around the composite inclu-
+sion, with or without formed acicular ferrite, as compared to the grain boundaries. 
+
+PAGE 9
+Materials 2023, 16, 876 
+9 of 20 
+ 
+ 
+ 
+Figure 4. EBSD characterization of the same area containing complex inclusions. (a) IQ map, (b) IPF 
+map and (c) KAM map. 
+3.2. Local Corrosion Induced by the Composite Inclusions in CGHAZ 
+3.2.1. Potentiodynamic Polarization Tests 
+To compare the corrosion rates of the base metal and the CGHAZ of the tested steel, 
+a potentiodynamic polarization test was conducted in 3.5 wt.% NaCl solution (Figure 5). 
+The anode curves of CGHAZ and BM have almost the same shape; this may be related to 
+the fact that there is no passive film on the surface of carbon steel when corrosion occurs. 
+The anodic dissolution here corresponds to iron dissolution. There are two current peaks 
+in the cathode polarization of CGHAZ, which may affect the surface state of the sample 
+due to the larger amount of defects formed during the welding thermal cycle [38,66], the 
+higher stress concentration caused by phase transformation and the complexity of the mi-
+crostructure formed during the cooling stage [40], thereby affecting the oxygen adsorption 
+process in the cathodic reaction. Table 4 displays the related values of corrosion current 
+(icorr) and corrosion potential (Ecorr). The corrosion current density of the CGHAZ is one 
+order of magnitude larger than that of the base metal. Electrochemical impedance spec-
+troscopy (EIS) of BM and of the CGHAZ was performed to better understand the corro-
+sion phenomenon (Figure 6). The Nyquist diagram shows that the curves of BM and the 
+CGHAZ both presented a typical semicircle, indicating that there was only a double layer 
+capacitance between the sample and the solution. As a result, an Rs (QdlRct) equivalent 
+circuit diagram was chosen. Rs represents the solution resistance, Rct represents the charge 
+transfer resistance, and Qdl represents the double capacitance. The diameter of the arc in 
+the Nyquist diagram reflects the charge transfer resistance. In general, the larger the di-
+ameter of the arc, the better the corrosion resistance of the steel. Table 5 summarizes the 
+results obtained from the EIS plots. It can be seen that the Rct value of BM is greater than 
+that of the CGHAZ, indicating that BM has better corrosion resistance. In this paper, the 
+microstructure of the base metal is a combination of ferrite and pearlite, while the micro-
+structure of the CGHAZ is a mixture of acicular ferrite and granular bainite. As illustrated 
+in Figure 7, for instance, the base matrix has a lower dislocation density, whereas 
+theCGHAZ exhibits a higher dislocation density. 
+
+PAGE 10
+Materials 2023, 16, 876 
+10 of 20 
+ 
+ 
+ 
+Figure 5. Potentiodynamic polarization curves of the base metal and CGHAZ (100 kJ/cm) of the 
+tested steels in 3.5 wt.% NaCl solution. 
+Table 4. Electrochemical corrosion parameters of the tested steels. 
+Samples 
+icorr (A·cm2) 
+Ecorr (V vs. SCE) 
+Base metal 
+9.31 × 10−6 
+−0.69 
+CGHAZ 
+1.02 × 10−5 
+−0.64 
+ 
+Figure 6. The impedance diagrams for the base metal and CGHAZ in 3.5 wt.% NaCl. (a) Nyquist 
+plots, (b,c) Bode plots and (d) proposed equivalent circuit. 
+ 
+
+PAGE 11
+Materials 2023, 16, 876 
+11 of 20 
+ 
+ 
+Table 5. Electrochemical parameters de1duced by EIS method in 3.5 wt.% NaCl solution. 
+Samples 
+Rs（Ω·cm−2） 
+Y0 (S·secn·cm−2) 
+n 
+Rct（Ω·cm−2） 
+CGHAZ 
+33.78 
+0.0008772 
+0.78 
+763.2 
+Base metal 
+20.31 
+0.0007096 
+0.87 
+948.3 
+ 
+Figure 7. TEM morphologies of the tested steel; (a) base metal and (b) CGHAZ. 
+3.2.2. Immersion Test 
+Figure 8a displays the typical morphology—before the immersion test, without any 
+microgaps around the inclusions—of one of the inclusions of interest. As indicated in Fig-
+ure 8b, a slight dissolution of the matrix occurred around the inclusions after a 5 s immer-
+sion. Meanwhile, an anisotropy was observed in the matrix dissolution rate around the 
+inclusions. In this study, the sulfide was identified as CaS. Using SEM-EDS analysis in 
+conjunction with the immersion test, it was shown that the matrix near the CaS at the 
+inclusion surface exhibited a relatively larger corrosion rate than that near the rare earth 
+complex oxides (such as LaAlO3) at the initial stage of the pitting corrosion, i.e., r1 < r2. 
+The matrix around the inclusions further dissolved with the ongoing immersion test (Fig-
+ure 8b,c) and formed ring-shaped pits due to the weakened anisotropy. Therefore, since 
+the sulfides in the inclusions are susceptible to hydrolysis and produce acidic solutions, 
+which accelerates the pitting occurrence, the sulfide attached to the oxide surface is easily 
+transformed into the starting point of the pitting corrosion [9,14]. 
+
+PAGE 12
+Materials 2023, 16, 876 
+12 of 20 
+ 
+ 
+ 
+Figure 8. SEM images and EDS results of the immersion test. (a) Immersion for 0 s, (b) immersion 
+for 5 s and (c) immersion for 1 min. 
+Figure 9 displays the corrosion morphology of the composite inclusions/matrix after 
+1 h and 2 h of the immersion test. After the immersion test for 1 h, obvious local corrosion 
+phenomenon occurred around the inclusion, forming a local characteristic region com-
+posed of a residual inclusion, dissolved cavity and near-circular corrosion area (Figure 
+9a). The enlarged area of inclusion revealed minor amounts of flocculent deposits around 
+the inclusion, which indicated that serious localized corrosion occurred around the inclu-
+sion (Figure 9b). Combined with SEM-EDS analysis, only a small amount of sulfur ele-
+ment was detected on the inclusions; the residual elements may form inclusions such as 
+(Mg–Al)–Ox, (RE–Zr–Al–Ca)–Ox and TiN. The corrosion products on the sample surface 
+increased significantly after 2 h of immersion testing. According to the SEM results, not 
+all the inclusions were completely covered by the corrosion products. This is attributed to 
+the varying particle sizes of the inclusions. Figure 9c displays the representative morphol-
+ogy of the inclusions after de-rusting. The irregular shape of the residual inclusions and 
+the steeper holes around the inclusions may be related to the faster expansion rate of Cl- 
+in a vertical direction. Furthermore, the morphology of the pits exhibits behavior ranging 
+from near-circular to anisotropic (after rust removal). EDS did not detect any sulfur ele-
+ments, indicating that all sulfides were completely dissolved, while compounds such as 
+(Mg–Al)–Ox, (RE–Zr–Al–Ca)–Ox and TiN remained undissolved. 
+Furthermore, after immersion for 1 h, a small amount of corrosion products were 
+found on the surface of the M/A island distributed around the inclusion in the near-circu-
+lar corrosion area, implying that the corrosion attack occurred in this region (Figure 9a). 
+The micropores were observed around the inclusion after 2 h of immersion (Figure 9d). 
+The microcouples were found to be formed between the M/A constituents and the ferrite 
+
+PAGE 13
+Materials 2023, 16, 876 
+13 of 20 
+ 
+ 
+matrix, with the ferrite matrix acting as the anode phase and the M/A constituents as the 
+cathode phase [15,46]. The M/A island gradually fell off with the corrosion dissolution of 
+the ferrite matrix. 
+ 
+Figure 9. SEM images and EDS results of the immersion test; (a,b) immersion for 1h and (c,d) im-
+mersion for 2 h. 
+3.2.3. Elastic Mechanical Properties Calculated by First-Principles Modeling 
+The elastic mechanical properties of the inclusions involved in this paper are shown 
+in Table 6 and were determined using the first-principles calculation method. According 
+to calculation results, LaAlO3 and La2O7Zr2 have lower bulk modulus than Al2O3 (249.54) 
+and ZrO2 (271.06), and the bulk modulus of LaAlO3 (192.61) is closer to that of the iron 
+matrix (194.76). The results indicate that LaAlO3 has excellent mechanical compatibility 
+with the matrix. Numerous studies have demonstrated that the visible microcrevices and 
+high-density dislocations between Al2O3 and the matrix are due to the significantly higher 
+hardness and irregular shape of Al2O3 compared with the iron matrix [29,67]. Inclusions, 
+
+PAGE 14
+Materials 2023, 16, 876 
+14 of 20 
+ 
+ 
+such as CaO (114.11), MgO (165.84), TiN (175.02) and CaS (57.05), exhibit lower bulk mod-
+ulus than the matrix. Rare earth elements can form rare earth oxides and composite inclu-
+sions, such as LaAlO3 and La2O7Zr2, due to their stronger affinity for oxygen than Zr, Ti 
+and other deoxidizers [31]. The spheroidization and softening effects of rare earth ele-
+ments on the inclusions can reduce the stress concentration around the inclusions 
+[32,67,68]. This is consistent with the absence of microcracking that was observed between 
+the inclusions and the matrix (Figures 4 and 8a). 
+Table 6. Calculated mechanical properties of the inclusions and Fe matrix. 
+Inclusions 
+Bulk Modulus (GPa) Shear Modulus (GPa) Young’s Modulus (GPa) 
+Poisson’s Ratio 
+Fe (BCC) 
+194.76 
+81.52 
+214.61 
+0.32 
+Al2O3 
+249.54 
+152.76 
+380.61 
+0.25 
+ZrO2 
+271.06 
+109.14 
+288.68 
+0.32 
+La2O7Zr2 
+165.83 
+60.56 
+161.95 
+0.34 
+LaAlO3 
+192.61 
+121.10 
+300.35 
+0.24 
+CaO 
+114.11 
+78.81 
+192.19 
+0.22 
+MgO 
+165.83 
+127.64 
+304.73 
+0.19 
+CaS 
+57.05 
+39.07 
+95.42 
+0.22 
+TiN 
+175.02 
+79.89 
+208.01 
+0.30 
+3.2.4. Inclusion Conductivity Property Calculated by First-Principles Modeling 
+In the present work, density of states of the inclusions of interest were calculated to 
+determine the electrical conductivity. It can be seen that the Fe matrix and TiN (red star) 
+have metallic nature, whereas Al2O3, ZrO2, LaAlO3, La2O7Zr2, MgO, CaO, CaS and 
+Al2MgO4 (blue star) exhibit the properties of insulators (Figure 10). The matrix and TiN 
+exhibit electrical conductivity, whereas the other oxidation or sulfide inclusions exhibit 
+the properties of insulators or semiconductors. TiN holds intact in the immersion test, 
+which could be attributed to its insolubility in strong acids at room temperature and pres-
+sure [69,70]. In summary, the composite inclusions in the test steel will not form a micro-
+couple effect with the matrix. 
+ 
+Figure 10. Density of states (DOS) analysis of the inclusions (the black dotted line represents the 
+Fermi energy level). 
+3.2.5. Work Function Calculated by First-Principles Modeling 
+Figure 11 presents the work functions of inclusions and the matrix involved in this 
+paper. The work function is defined as the energy difference between the Fermi level and 
+the vacuum level (Figure 11a) of a slab model and represents the minimum energy re-
+quired to remove an electron from the sample surface [32,67]. Since Fe (110) surface has 
+
+PAGE 15
+Materials 2023, 16, 876 
+15 of 20 
+ 
+ 
+the lowest surface energy with the largest possible exposed face, the work function of the 
+Fe (110) surface is utilized as the baseline in this paper [71]. The work functions of the low-
+index crystal surfaces of Al2O3, CaO, MgO, TiN and CaS are almost relatively lower, while 
+the work functions of the low-index crystal surfaces of LaAlO3, La2O7Zr2, ZrO2 and 
+Al2MgO4 are significantly higher than the work function of the Fe (110) surface (Figure 
+11b). The work function of the typical inclusion combined with the first-principles calcu-
+lation results shows that the composite inclusion containing rare earth elements has a 
+higher work function, which implies that it is less likely to act as an anode phase compared 
+to CaS. Furthermore, the work function value corresponds to the phenomena observed in 
+the immersion test, in which CaS was preferentially dissolved and (Mg–Al)–Ox and (RE–
+Zr–Al–Ca)–Ox remained undissolved (Figure 9d). The addition of rare earth elements can 
+improve inclusion corrosion resistance [18]. 
+ 
+Figure 11. Calculated work function of the inclusions and Fe matrix. (a) Electrostatic potential curve 
+of Fe (110) slab model, (b) work function of the different crystal planes (low index) of the inclusions. 
+3.3. Mechanism of Local Corrosion Induced by Zr–Ti–Al–RE Composite Inclusions in CGHAZ 
+Figure 12I illustrates the evolution process of the inclusions involved in this paper. 
+The addition of Zr–Fe, Ti–Fe, Ca–Fe, and RE alloys during the smelting process modified 
+the Al2O3 inclusions into composite inclusions. CaS and TiN precipitated on the previ-
+ously formed inclusions at a later stage of solidification, ultimately forming composite 
+inclusions with a core–shell structure [12,14,72]. Figure 12II illustrates the schematic dia-
+gram of the initiation and propagation of the pitting corrosion triggered by these compo-
+site inclusions in the tested steel. As mentioned above, the mechanisms of galvanic cou-
+pling corrosion and the crevice and stress corrosion formed between the inclusions and 
+the matrix could be excluded in this study. Since the composite inclusions are exposed to 
+a corrosive environment with Cl- (Figure 12IIa), CaS with poor stability will preferentially 
+hydrolyze to produce H+ and HS- by anodic reactions (Equations (14) and (15)). As the 
+reaction progresses, the matrix begins to undergo a hydrolysis reaction (Equations (16) 
+and (17)), resulting in further acidification in the pits and further dissolution of CaS [9,14]. 
+The composite inclusion (RE–Zr–Al–Ca)–Ox and the surrounding matrix were gradually 
+dissolved (Equation (18) under the attack of the increasing H+ with the continued dissolu-
+tion of CaS. Meanwhile, corrosion products produced by cathodic reactions (Equations 
+(19)–(21)) gradually accumulated at the edge of pits (Figure 12 IIb). CaS was completely 
+dissolved, forming and propagating stable pits with the total corrosion products covering 
+the upper layer. To maintain electrical neutrality, a large amount of Cl- will enter the pit-
+ting hole, resulting in the formation of a self-catalytic acidification-occluded corrosion cell 
+(Figure 12IIc). Furthermore, some generated cations, such as Ca2+, Zr4+, Al3+ and RE3+, 
+
+PAGE 16
+Materials 2023, 16, 876 
+16 of 20 
+ 
+ 
+hydrolyze further, resulting in a drop in the pH value [13,30,32], causing a strong acidic 
+environment in the pits and accelerating the dissolution of the composite inclusions ((RE–
+Zr–Al–Ca)–Ox and Al2MgO4) (Figure 12IId). TiN inclusion is stable, which is primarily 
+related to its insolubility in strong acids [69]. With the dissolution of (RE–Zr–Al–Ca)–Ox, 
+Al2MgO4 and TiN inclusions would fall to the bottom of the pits. The anodic and cathodic 
+reactions involved during the pitting initiation and propagation of the Zr–Ti–Al–RE com-
+posite inclusions in the tested steel can be summarized as follows: 
+Anodic reactions: 
+CaS+2H2O→Ca2++2OH-+H!S 
+(14)
+2H!S⇌2H++2HSI 
+(15)
+Fe −2e- →Fe!M 
+(16)
+Fe+2H2O →Fe(OH)!+2H+ 
+(17)
+-RE–Zr–Mg–Al–Ca2OX+H+→RE3++Zr2++Mg2++Al3++Ca
+2++H!O 
+(18)
+Cathodic reactions: 
+O2+2H2O+e-→4OH- 
+(19)
+Fe!M + 2OHI →Fe(OH)! 
+(20)
+4Fe(OH)! + O2+2H2O →4Fe(OH)" 
+(21)
+The matrix around the spherical inclusions was dissolved to produce cations in the 
+early stage of the pitting corrosion, and Cl− migrated to the anode and diffused in a hori-
+zontal direction under the concentration gradient. This resulted in the nearly circular 
+shape of the pits, which eventually produced corrosion products covering the pits [9,13]. 
+Following the formation of the self-catalytic acidification-occluded corrosion cell, the 
+acidic environment accelerates the dissolution of the composite inclusions. However, the 
+findings of the work function analyses of the inclusions in this work demonstrate that the 
+inclusions display different corrosion resistances and the cations exhibit different chemi-
+cal hydrolysis abilities. These two factors lead to asynchrony of the hydrolysis reaction, 
+resulting in anisotropy of the pitting area around the inclusions. 
+In conclusion, compared with Al2O3 inclusions introduced by the traditional Al de-
+oxidization technology, the addition of rare earth can effectively modify the characteristics 
+of the inclusions. 
+
+PAGE 17
+Materials 2023, 16, 876 
+17 of 20 
+ 
+ 
+ 
+Figure 12. (I) Schematic diagram of the inclusion evolution process and (II) pitting initiation and 
+propagation process induced by the composite inclusions. (a) before immersion, (b) pitting initia-
+tion, (c), (d) pitting propagation. 
+4. Conclusions 
+1. 
+The inclusions and microstructures in the Zr–Ti–Al–RE deoxidized HSLA steels were 
+modified. The formed spherical Zr–Ti–Al–RE composite inclusions have a core–shell 
+structure with (Zr–Mg–Al–Ca–RE)–Ox at the center and CaS and TiN at the periph-
+ery. 
+2. 
+Acicular ferrite was formed at specific inclusions in the CGHAZ, which could im-
+prove the mechanical properties. 
+3. 
+The spheroidization and softening effects of rare earth elements on the inclusions can 
+lower the stress concentration around the inclusions and increase the local corrosion 
+resistance of the tested steel. Furthermore, the inclusions containing rare earth ele-
+ments have a significantly higher work function than the matrix, which further re-
+duces the corrosion tendency of the inclusions to undergo anodic dissolution. 
+4. 
+The initiation of pitting corrosion from composite inclusions is triggered by the 
+chemical dissolution of CaS within the composite inclusions. Then, (RE–Zr–Al–Ca)–
+Ox started to dissolve until the composite inclusion Al2MgO4 region was exposed. 
+Finally, the undissolved Al2MgO4 and TiN fell to the bottom of the pit. The composite 
+spherical inclusions gradually dissolved and transformed into irregular shapes as the 
+immersion duration increased. The addition of rare earth can effectively reduce the 
+tendency for pitting corrosion in a CGHAZ in a marine environment. 
+
+PAGE 18
+Materials 2023, 16, 876 
+18 of 20 
+ 
+ 
+Author Contributions: Conceptualization, L.C. and K.-M.W.; Methodology, C.-C.Y. and Z.-H.W.; 
+Formal analysis, S.C., Z.-C.L. and D.L.; Investigation, C.-C.Y.; Writing—original draft, C.-C.Y.; Writ-
+ing—review & editing, L.C. and T.-L.Z.; Supervision, L.C. and K.-M.W.; Validation, S.-E.H., D.-H.X., 
+X.J. and H.-K.L. Project administration, S.-E.H., Z.-C.L., D.L., D.-H.X., X.J. and H.-K.L. All authors 
+have read and agreed to the published version of the manuscript. 
+Funding: This research was funded by National Natural Science Foundation of China (No. 
+U20A20279, 52071238, 50734004), Taishan Industry Leading Talent Project (No. 2020007), Guangxi 
+Science and Technology Program Project (No. AA22068080) and the 111 Project (No. D18018). In 
+this work, numerical calculation is supported by High-Performance Computing Center of Wuhan 
+University of Science and Technology.  
+Institutional Review Board Statement: This study does not require ethical approval. 
+Informed Consent Statement: Declaration of competing interest is cahnged to COI. 
+Data Availability Statement: The raw processed data required to reproduce these findings cannot 
+be shared at this time as the data also form part of an ongoing study. 
+Acknowledgments: We would like to thank Zhen Wang at the Analytical and Testing Center of 
+Wuhan University of Science and Technology for the help in the SEM-EDS analysis. 
+Conflicts of Interest: The authors declare no conflict of interest. 
+References 
+1. 
+Buzzatti, D.T.; Kanan, L.F.; Dalpiaz, G.; Scheid, A.; Fortis Kwietniewski, C.E. Effect of heat input and heat treatment on the 
+microstructure and toughness of pipeline girth friction welded API 5L X65 steel. Mater. Sci. Eng. A 2022, 833, 142588–142603. 
+2. 
+Li, Y.; Wan, X.L.; Lu, W.Y.; Shirzadi, A.A.; Isayev, O.; Hress, O.; Wu, K.M. Effect of Zr-Ti combined deoxidation on the micro-
+structure and mechanical properties of high-strength low-alloy steels. Mater. Sci. Eng. A 2016, 659, 179–187. 
+3. 
+Wang, J.; Shen, Y.F.; Xue, W.Y.; Jia, N.; Misra, R.D.K. The significant impact of introducing nanosize precipitates and decreased 
+effective grain size on retention of high toughness of simulated heat affected zone (HAZ). Mater. Sci. Eng. A 2021, 803, 140484–
+140500. 
+4. 
+Wang, Y.; Zhang, X.; Wei, W.; Wan, X.; Liu, J.; Wu, K. Effects of Ti and Cu Addition on Inclusion Modification and Corrosion 
+Behavior in Simulated Coarse-Grained Heat-Affected Zone of Low-Alloy Steels. Materials 2021, 14, 791–806. 
+5. 
+Wang, C.; Misra, R.D.K.; Shi, M.H.; Zhang, P.Y.; Wang, Z.D.; Zhu, F.X.; Wang, G.D. Transformation behavior of a Ti–Zr deoxi-
+dized steel: Microstructure and toughness of simulated coarse grain heat affected zone. Mater. Sci. Eng. A 2014, 594, 218–228. 
+6. 
+Kumar, S.; Nath, S.K.; Kumar, V. Continuous cooling transformation behavior in the weld coarse grained heat affected zone 
+and mechanical properties of Nb-microalloyed and HY85 steels. Mater. Des. 2016, 90, 177–184. 
+7. 
+Fattahi, M.; Nabhani, N.; Rafiee, E.; Nasibi, M.; Ahmadi, E.; Fattahi, Y. Effect of Ti-based inclusions and acicular ferrite on the 
+corrosion performance of multipass weld metals. Mater. Chem. Phys. 2014, 146, 105–112. 
+8. 
+Hou, Y.; Wang, J.; Liu, L.; Li, G.; Zhai, D. Mechanism of pitting corrosion induced by inclusions in Al-Ti-Mg deoxidized high 
+strength pipeline steel. Micron 2020, 138, 102898–102905. 
+9. 
+Wang, Y.; Cheng, G.; Wu, W.; Li, Y. Role of inclusions in the pitting initiation of pipeline steel and the effect of electron irradi-
+ation in SEM. Corros. Sci. 2018, 130, 252–260. 
+10. 
+Liu, P.; Zhang, Q.; Li, X.; Hu, J.; Cao, F. Insight into the triggering effect of (Al, Mg, Ca, Mn)-oxy-sulfide inclusions on localized 
+corrosion of weathering steel. J. Mater. Sci. Technol. 2021, 64, 99–113. 
+11. 
+Wang, Y.; Yu, W.; Chen, Y.; Wang, J.; Zhao, Y. Mechanism of Surface Hole Evolution and Impact on Corrosion Resistance of 
+High-Strength Low-Alloy Weathering Steel. J. Mater. Eng. Perform. 2021, 31, 1737–1756. 
+12. 
+Xue, W.; Li, Z.; Xiao, K.; Yu, W.; Song, J.; Chen, J.; Dong, C.; Li, X. Initial microzonal corrosion mechanism of inclusions associ-
+ated with the precipitated (Ti, Nb)N phase of Sb-containing weathering steel. Corros. Sci. 2020, 163, 108232–108240. 
+13. 
+Wei, W.-z.; Wu, K.-m.; Liu, J.; Cheng, L.; Zhang, X. Initiation and propagation of localized corrosion induced by (Zr, Ti, Al)-Ox 
+inclusions in low-alloy steels in marine environment. J. Iron Steel Res. Int. 2020, 28, 453–463. 
+14. 
+Wang, L.; Xin, J.; Cheng, L.; Zhao, K.; Sun, B.; Li, J.; Wang, X.; Cui, Z. Influence of inclusions on initiation of pitting corrosion 
+and stress corrosion cracking of X70 steel in near-neutral pH environment. Corros. Sci. 2019, 147, 108–127. 
+15. 
+Wei, J.; Dong, J.H.; Ke, W.; He, X.Y. Influence of Inclusions on Early Corrosion Development of Ultra-Low Carbon Bainitic Steel 
+in NaCl Solution. Corrosion 2015, 71, 1467–1480. 
+16. 
+Soltis, J. Passivity breakdown, pit initiation and propagation of pits in metallic materials—Review. Corros. Sci. 2015, 90, 5–22. 
+17. 
+Akpanyung, K.V.; Loto, R.T. Pitting corrosion evaluation: a review. J. Phys. Conf. Ser. 2019, 1378, 022088–022102. 
+18. 
+Zheng, W.; Yan, X.; Xiong, S.; Wang, G.; Li, G. Pitting corrosion behavior of cerium treated HSLA steel induced by sulfide 
+inclusions in 3.5 wt% NaCl solution. J. Rare Earths 2021, 39, 348–356. 
+19. 
+Chen, S.; Lei, H.; Hou, H.; Ding, C.; Zhang, H.; Zhao, Y. Collision-coalescence among inclusions with bubble attachment and 
+transport in molten steel of RH. J. Mater. Res. Technol. 2021, 15, 5141–5150. 
+
+PAGE 19
+Materials 2023, 16, 876 
+19 of 20 
+ 
+ 
+20. 
+Costa e Silva, A.L.V. d. The effects of non-metallic inclusions on properties relevant to the performance of steel in structural and 
+mechanical applications. J. Mater. Res. Technol. 2019, 8, 2408–2422. 
+21. 
+Guo, H.; Yang, S.; Wang, T.; Yuan, H.; Zhang, Y.; Li, J. Microstructure evolution and acicular ferrite nucleation in inclusion-
+engineered steel with modified MgO@C nanoparticle addition. J. Mater. Sci. Technol. 2022, 99, 277–287. 
+22. 
+Wang, P.; Wang, B.; Liu, Y.; Zhang, P.; Luan, Y.K.; Li, D.Z.; Zhang, Z.F. Effects of inclusion types on the high-cycle fatigue 
+properties of high-strength steel. Scr. Mater. 2022, 206, 114232–114237. 
+23. 
+Yang, W.; Peng, K.; Zhang, L.; Ren, Q. Deformation and fracture of non-metallic inclusions in steel at different temperatures. J. 
+Mater. Res. Technol. 2020, 9, 15016–15022. 
+24. 
+Liu, C.; Li, X.; Revilla, R.I.; Sun, T.; Zhao, J.; Zhang, D.; Yang, S.; Liu, Z.; Cheng, X.; Terryn, H.; et al. Towards a better under-
+standing of localised corrosion induced by typical non-metallic inclusions in low-alloy steels. Corros. Sci. 2021, 179, 109150–
+109158. 
+25. 
+Adabavazeh, Z.; Hwang, W.S.; Su, Y.H. Effect of Adding Cerium on Microstructure and Morphology of Ce-Based Inclusions 
+Formed in Low-Carbon Steel. Sci. Rep. 2017, 7, 46503–46512. 
+26. 
+Liu, H.; Fu, P.; Liu, H.; Cao, Y.; Sun, C.; Du, N.; Li, D. Effects of Rare Earth elements on microstructure evolution and mechanical 
+properties of 718H pre-hardened mold steel. J. Mater. Sci. Technol. 2020, 50, 245–256. 
+27. 
+Torkamani, H.; Raygan, S.; Mateo, C.; Rassizadehghani, J.; Vivas, J.; Palizdar, Y.; San-Martin, D. The Influence of La and Ce 
+Addition on Inclusion Modification in Cast Niobium Microalloyed Steels. Metals 2017, 7, 377. 
+28. 
+Wang, L.-M.; Lin, Q.; Yue, L.-J.; Liu, L.; Guo, F.; Wang, F.-M. Study of application of rare earth elements in advanced low alloy 
+steels. J. Alloys Compd. 2008, 451, 534–537. 
+29. 
+Liu, C.; Revilla, R.I.; Zhang, D.; Liu, Z.; Lutz, A.; Zhang, F.; Zhao, T.; Ma, H.; Li, X.; Terryn, H. Role of Al2O3 inclusions on the 
+localized corrosion of Q460NH weathering steel in marine environment. Corros. Sci. 2018, 138, 96–104. 
+30. 
+Liu, C.; Jiang, Z.; Zhao, J.; Cheng, X.; Liu, Z.; Zhang, D.; Li, X. Influence of rare earth metals on mechanisms of localised corrosion 
+induced by inclusions in Zr-Ti deoxidised low alloy steel. Corros. Sci. 2020, 166, 108463–108472. 
+31. 
+Tang, M.; Wu, K.; Liu, J.; Cheng, L.; Zhang, X.; Chen, Y. Mechanism Understanding of the Role of Rare Earth Inclusions in the 
+Initial Marine Corrosion Process of Microalloyed Steels. Materials 2019, 12, 3359–3373. 
+32. 
+Hou, Y.; Xiong, G.; Liu, L.; Li, G.; Moelans, N.; Guo, M. Effects of LaAlO3 and La2O2S inclusions on the initialization of localized 
+corrosion of pipeline steels in NaCl solution. Scr. Mater. 2020, 177, 151–156. 
+33. 
+Tan, J.; Wu, X.; Han, E.-H.; Ke, W.; Liu, X.; Meng, F.; Xu, X. Role of TiN inclusion on corrosion fatigue behavior of Alloy 690 
+steam generator tubes in borated and lithiated high temperature water. Corros. Sci. 2014, 88, 349–359. 
+34. 
+Villavicencio, J.; Ulloa, N.; Lozada, L.; Moreno, M.; Castro, L. The role of non-metallic Al2O3 inclusions, heat treatments and 
+microstructure on the corrosion resistance of an API 5L X42 steel. J. Mater. Res. Technol. 2020, 9, 5894–5911. 
+35. 
+Wei, J.; Dong, J.; Zhou, Y.; He, X.; Wang, C.; Ke, W. Influence of the secondary phase on micro galvanic corrosion of low carbon 
+bainitic steel in NaCl solution. Mater. Charact. 2018, 139, 401–410. 
+36. 
+Wang, Q.; Zhou, X.; Ma, Q.; Wu, T.; Liu, M.; Zhang, M.; Li, Z.; Yin, F. Selected corrosion of X80 pipeline steel welded joints 
+induced by Desulfovibrio desulfuricans. Corros. Sci. 2022, 202, 110313–110332. 
+37. 
+Wang, Z.; Wu, J.; Li, J.; Wu, X.; Huang, Y.; Li, X. Effects of Niobium on the Mechanical Properties and Corrosion Behavior of 
+Simulated Weld HAZ of HSLA Steel. Metall. Mater. Trans. A 2017, 49, 187–197. 
+38. 
+Mohammadi, F.; Eliyan, F.F.; Alfantazi, A. Corrosion of simulated weld HAZ of API X-80 pipeline steel. Corros. Sci. 2012, 63, 
+323–333. 
+39. 
+Chaves, I.A.; Melchers, R.E. Pitting corrosion in pipeline steel weld zones. Corros. Sci. 2011, 53, 4026–4032. 
+40. 
+Lai, H.-H.; Wu, W. Practical examination of the welding residual stress in view of low-carbon steel welds. J. Mater. Res. Technol. 
+2020, 9, 2717–2726. 
+41. 
+Wang, L.; Song, B.; Yang, Z.B.; Cui, X.K.; Liu, Z.; Cheng, W.S.; Mao, J.H. Effects of Mg and La on the evolution of inclusions and 
+microstructure in Ca-Ti treated steel. Int. J. Min. Met. Mater. 2021, 28, 1940–1948. 
+42. 
+Yang, Y.; Zhan, D.; Qiu, G.; Li, X.; Jiang, Z.; Zhang, H. Inclusion evolution in solid steel during rolling deformation: a review. J. 
+Mater. Res. Technol. 2022, 18, 5103–5115. 
+43. 
+Sun, L.; Li, H.; Zhu, L.; Liu, Y.; Hwang, J. Research on the evolution mechanism of pinned particles in welding HAZ of Mg 
+treated shipbuilding steel. Mater. Des. 2020, 192, 108670–108682. 
+44. 
+Wan, X.L.; Wang, H.H.; Cheng, L.; Wu, K.M. The formation mechanisms of interlocked microstructures in low-carbon high-
+strength steel weld metals. Mater. Charact. 2012, 67, 41–51. 
+45. 
+Zhang, S.; Liu, J.; Tang, M.; Zhang, X.; Wu, K. Role of rare earth elements on the improvement of corrosion resistance of micro-
+alloyed steels in 3.5 wt.% NaCl solution. J. Mater. Res. Technol. 2021, 11, 519–534. 
+46. 
+Wang, Z.; Zhang, X.; Cheng, L.; Liu, J.; Wu, K. Role of inclusion and microstructure on corrosion initiation and propagation of 
+weathering steels in marine environment. J. Mater. Res. Technol. 2021, 10, 306–321. 
+47. 
+Jones, R.O. Density functional theory: Its origins, rise to prominence, and future. Rev. Mod. Phys. 2015, 87, 897–923. 
+48. 
+Wang, C.; Cheng, L.; Sun, X.; Zhang, X.; Liu, J.; Wu, K. First-principle study on the effects of hydrogen in combination with 
+alloy solutes on local mechanical properties of steels. Int. J. Hydrogen Energy 2022, 47, 22243–22260. 
+49. 
+Zhang, D.; Hou, T.P.; Liang, X.; Zheng, P.; Zheng, Y.H.; Lin, H.F.; Wu, K.M. The structural, magnetic, electronic, and mechanical 
+properties of orthogonal/hexagonal MC (M = Fe and Cr) carbides from first-principles calculations. Vacuum 2022, 203, 111175–
+111186. 
+
+PAGE 20
+Materials 2023, 16, 876 
+20 of 20 
+ 
+ 
+50. 
+Fan, H.; Shi, G.; Peng, T.; Wang, Q.; Wang, L.; Wang, Q.; Zhang, F. N-induced microstructure refinement and toughness im-
+provement in the coarse grain heat-affected zone of a low carbon Mo–V–Ti–B steel subjected to a high heat input welding 
+thermal cycle. Mater. Sci. Eng. A 2021, 824, 141799–141812. 
+51. 
+Li, X.; Zhang, T.; Min, Y.; Liu, C.; Jiang, M. Effect of magnesium addition in low carbon steel part 2: toughness and microstruc-
+ture of the simulated coarse-grained heat-affected zone. Ironmak. Steelmak. 2017, 46, 301–311. 
+52. 
+Ramachandran, D.C.; Moon, J.; Lee, C.-H.; Kim, S.-D.; Chung, J.-H.; Biro, E.; Park, Y.-D. Role of bainitic microstructures with 
+M-A constituent on the toughness of an HSLA steel for seismic resistant structural applications. Mater. Sci. Eng. A 2021, 801, 
+140390–140400. 
+53. 
+Shao, Y.; Liu, C.; Yan, Z.; Li, H.; Liu, Y. Formation mechanism and control methods of acicular ferrite in HSLA steels: A review. 
+J. Mater. Sci. Technol. 2018, 34, 737–744. 
+54. 
+Hu, C.-y.; Dong, H.-y.; Wu, K.-m.; Misra, R.D.K.; Zhong, L.; Jin, X.; Li, Q. Effect of Zr-deoxidation on microstructure and me-
+chanical behavior of microalloyed heavy plates with low impurity content. J. Iron Steel Res. Int. 2021, 28, 190–200. 
+55. 
+Liu, C.; Revilla, R.I.; Liu, Z.; Zhang, D.; Li, X.; Terryn, H. Effect of inclusions modified by rare earth elements (Ce, La) on localized 
+marine corrosion in Q460NH weathering steel. Corros. Sci. 2017, 129, 82–90. 
+56. 
+Nishimoto, M.; Muto, I.; Sugawara, Y.; Hara, N. Cerium addition to CaS inclusions in stainless steel: Insolubilizing water-soluble 
+inclusions and improving pitting corrosion resistance. Corros. Sci. 2021, 180, 109222–109228. 
+57. 
+Gollapalli, V.; Rao, M.B.V.; Karamched, P.S.; Borra, C.R.; Roy, G.G.; Srirangam, P. Modification of oxide inclusions in calcium-
+treated Al-killed high sulphur steels. Ironmak. Steelmak. 2018, 46, 663–670. 
+58. 
+Zhang, T.; Min, Y.; Liu, C.; Jiang, M. Effect of Mg Addition on the Evolution of Inclusions in Al–Ca Deoxidized Melts. ISIJ Int. 
+2015, 55, 1541–1548. 
+59. 
+Ren, Y.; Zhang, Y.; Zhang, L. A kinetic model for Ca treatment of Al-killed steels using FactSage macro processing. Ironmak. 
+Steelmak. 2016, 44, 497–504. 
+60. 
+Bai, X.-f.; Sun, Y.-h.; Chen, R.-m.; Zhang, Y.-m.; Cai, Y.-f. Formation and thermodynamics of CaS-bearing inclusions during Ca 
+treatment in oil casting steels. Int. J. Miner. Metall. Mater. 2019, 26, 573–587. 
+61. 
+Ahmad, H.; Zhao, B.; Lyu, S.; Huang, Z.; Xu, Y.; Zhao, S.; Ma, X. Formation of Complex Inclusions in Gear Steels for Modification 
+of Manganese Sulphide. Metals 2021, 11, 2051. 
+62. 
+Geng, R.; Li, J.; Shi, C.; Zhi, J.; Lu, B. Effect of Ce-La on inclusion evolution in Al-killed high strength steel. Metall. Res. Technol. 
+2020, 117, 663–670.  
+63. 
+Wang, H.H.; Qin, Z.P.; Wei, R.; Wan, X.L.; Wu, K.M.; Misra, R.D.K. Precipitation of carbonitrides and high-temperature strength 
+in heat-affected zone of high-Nb containing fire-resistant steel. Sci. Technol. Weld. Join. 2016, 22, 157–165. 
+64. 
+Fu, R.D.; Yang, Y.Q.; Wang, C.Y.; Zhang, W.H. Effects of weld thermal cycles and post-welding tempering on second phase 
+particles in 2·25Cr–1Mo–0·25V steels. Sci. Technol. Weld. Join. 2013, 13, 349–356. 
+65. 
+Liu, C.; Revilla, R.I.; Li, X.; Jiang, Z.; Yang, S.; Cui, Z.; Zhang, D.; Terryn, H.; Li, X. New insights into the mechanism of localised 
+corrosion induced by TiN-containing inclusions in high strength low alloy steel. J. Mater. Sci. Technol. 2022, 124, 141–149. 
+66. 
+Khalaj, G.; Khalaj, M.-J. Investigating the corrosion of the Heat-Affected Zones (HAZs) of API-X70 pipeline steels in aerated 
+carbonate solution by electrochemical methods. Int. J. Pres. Ves. Pip. 2016, 145, 1–12. 
+67. 
+Zhang, J.; Su, C.; Chen, X.; Liu, H.; Zhang, L. First-principles study on pitting corrosion of Al deoxidation stainless steel with 
+rare earth element (La) treatment. Mater. Today Commun. 2021, 27, 102204–102210. 
+68. 
+Zheng, C.; Li, X.; Mi, C. Reducing stress concentrations in unidirectionally tensioned thick-walled spheres through embedding 
+a functionally graded reinforcement. Int. J. Mech. Sci. 2019, 152, 257–267. 
+69. 
+Silva, F.C.; Prada Ramirez, O.M.; Tunes, M.A.; Edmondson, P.D.; Sagás, J.C.; Fontana, L.C.; de Melo, H.G.; Schön, C.G. Corro-
+sion resistance of functionally graded TiN/Ti coatings for proton exchange membrane fuel cells. Int. J. Hydrogen Energy 2020, 45, 
+33993–34010. 
+70. 
+Xie, Y.; Wang, Y.; Du, H. Electrochemical capacitance performance of titanium nitride nanoarray. Mater. Sci. Eng. B 2013, 178, 
+1443–1451. 
+71. 
+Pham, H.H.; Taylor, C.D.; Henson, N.J. Metal desorption from Fe(110) and its alloyed surfaces. Chem. Phys. Lett. 2013, 585, 162–
+166. 
+72. 
+Wang, Y.; Zhang, L.; Ren, Y.; Li, Z.; Slater, C.; Peng, K.; Liu, F.; Zhao, Y. Effect of compression temperature on deformation of 
+CaO–CaS–Al2O3–MgO inclusions in pipeline steel. J. Mater. Res. Technol. 2021, 11, 1220–1231. 
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual au-
+thor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to 
+people or property resulting from any ideas, methods, instructions or products referred to in the content. 

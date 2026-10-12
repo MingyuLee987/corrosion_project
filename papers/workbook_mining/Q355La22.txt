@@ -1,0 +1,831 @@
+PAGE 1
+Citation: Mao, N.; Yang, W.; Chen,
+D.; Lu, W.; Zhang, X.; Chen, S.; Xu,
+M.; Pan, B.; Han, L.; Zhang, X.; et al.
+Effect of Lanthanum Addition on
+Formation Behaviors of Inclusions in
+Q355B Weathering Steel. Materials
+2022, 15, 7952. https://doi.org/
+10.3390/ma15227952
+Academic Editor: Carlos
+Manuel Silva
+Received: 27 September 2022
+Accepted: 2 November 2022
+Published: 10 November 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright:
+© 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+materials
+Article
+Effect of Lanthanum Addition on Formation Behaviors of
+Inclusions in Q355B Weathering Steel
+Ning Mao 1,2, Wensheng Yang 1,2,*, Dehong Chen 1,2, Wenli Lu 1,2, Xiaowei Zhang 1,2, Shiying Chen 1,2,
+Minglei Xu 2,3, Bo Pan 2,3, Liguo Han 1,2, Xiaoqiang Zhang 1,2 and Zhiqiang Wang 1,2,3
+1
+GRIREM Advanced Materials Co., Ltd., Beijing 100088, China
+2
+National Engineering Research Center for Rare Earth, GRINM Group Co., Ltd., Beijing 100088, China
+3
+GRIREM Hi-Tech Co., Ltd., Langfang 065201, China
+*
+Correspondence: yws3179608@163.com; Tel.: +86-18810579563
+Abstract: The effect of lanthanum addition on the formation behaviors of inclusions in Q355B
+weathering steel was investigated by laboratory experiments and thermodynamic calculations. The
+results demonstrate that the main inclusions in weathering steel without La addition are large-sized
+irregular Al2O3 and MnS, with an average size of about 5.35 µm. As La content increases from 0.0075
+to 0.0184 wt.%, the dominant inclusions transform from MnS, LaAlO3, and Al2O3-LaAlO3 into MnS,
+La2O3, and LaAlO3-La2O3. Meanwhile, the average size of inclusions signiﬁcantly decreases from
+3.4 to 2.48 µm and the distribution is more dispersive. When the La content increases to 0.0425 wt.%,
+the original MnS and Al2O3 inclusions are completely modiﬁed into La2O2S and La2O3 but the
+inclusions demonstrate serious agglomeration and growth. The thermodynamic calculations indicate
+that Al2O3 and various lanthanum-containing inclusions are formed in the liquid phase. As the La
+content in molten steel increases from 0 to 0.0425 wt.%, the Al2O3 inclusion is inclined to be modiﬁed
+into lanthanum oxide and lanthanum oxysulﬁde and the modiﬁcation process is Al2O3 →LaAlO3 →
+La2O3 →La2O2S, which is very consistent with the experimental observations.
+Keywords: lanthanum; Q355B weathering steel; nonmetallic inclusion; thermodynamic calculations
+1. Introduction
+Weathering steel contains up to 2 wt.% of Cu, P, Cr, Ni, and other alloying elements.
+Compared with plain carbon steel, weathering steel has excellent atmospheric corrosion
+resistance due to the addition of these alloying elements, which forms a protective rust
+layer during atmospheric corrosion. The rust layer consists of a loose outer rust layer
+and a dense inner rust layer. The outer rust layer is usually composed of α-FeOOH,
+γ-FeOOH, and Fe3O4 phase. The inner rust layer is usually composed of extremely dense
+amorphous spinel Fe3O4 and α-FeOOH phase. The contact area between the internal
+rust layer and the matrix is highly smooth, and Cu, P, and Cr are uniformly enriched
+in the amorphous oxide layer. The amorphous spinel oxide layer adjacent to the matrix
+reduces the number of anodic sites and hinders the penetration of corrosion particles
+into the matrix, thus effectively improving the corrosion resistance [1–3]. Therefore, it is
+widely used in container plates, railway vehicles, bridge engineering, and other ﬁelds [4,5].
+Nowadays, in addition to excellent corrosion resistance, weathering steel is required
+to possess outstanding mechanical properties, such as strength and toughness, to meet
+increasingly stringent application requirements. Consequently, improving comprehensive
+properties, including the corrosion resistance, strength, and toughness on the basis of cost
+control, is the future direction of weathering steel.
+Nonmetallic inclusions are frequently cited as the cause of steel performance issues.
+They not only deteriorate the corrosion resistance but adversely affect the mechanical
+properties. The pitting corrosion is mainly caused by manganese sulﬁde (MnS), deformed
+Materials 2022, 15, 7952. https://doi.org/10.3390/ma15227952
+https://www.mdpi.com/journal/materials
+
+PAGE 2
+Materials 2022, 15, 7952
+2 of 14
+silicomanate, and aluminum oxide (Al2O3), which are not conducive to the formation of a
+uniform rust layer on the substrate and reduce the adhesion between the rust layer and the
+matrix, thus resulting in the rust layer falling off [6–9]. In addition, due to the difference
+in thermal expansion coefﬁcients and deformation capacity between the inclusions and
+matrix, stress concentration is prone to occur around the inclusions under load, which
+leads to the initiation of fatigue cracks [10–12].
+The addition of rare earth elements can not only purify molten steel but modify inclu-
+sions and act as microalloying elements because of their unique electronic layer structure,
+variable valence, and large-sized atoms. Therefore, adding an appropriate amount of rare
+earth to steel can signiﬁcantly improve its corrosion resistance and mechanical properties
+(e.g., strength, toughness, and heat ductility) [13–16]. At the same time, it is worth men-
+tioning that, compared with the alloying elements Cr, Ni, and Cu in weathering steel, the
+price of light rare earth metals is lower. Accordingly, it is undoubtedly an excellent way
+to improve the comprehensive performance of weathering steel by adding an appropriate
+amount of light rare earth elements. In recent years, there have been many reports on
+the research of rare earth weathering steel. Xintong Lian’s [17] research on rare earth
+weathering steel showed that the grain reﬁnement effect of rare earth (Ce and La) increased
+the density of the protective rust layers and the formation of RE inclusions also weakened
+the micro-area electrochemical corrosion caused by MnS inclusions. In addition, the seg-
+regation of trace rare earth elements at the interface between the corrosion layers and the
+matrix enhanced the compactness and adhesion of the rust layers and prevented contact of
+corrosive ions with the matrix. Therefore, the addition of rare earth obviously improved the
+corrosion resistance of weathering steel. L J Yue [18] showed that by adding an appropriate
+amount of rare earth into the weathering steels, the strip-shaped MnS inclusions were
+modiﬁed into the dispersive spherical rare earth inclusions. Moreover, the grain reﬁnement
+and solid solution strengthening effect of rare earth signiﬁcantly improved the impact
+toughness and strength of weathering steel.
+Plenty of researchers have reported the effect of rare earth in weathering steel, reveal-
+ing the effects of inclusion modiﬁcation, molten steel puriﬁcation, and microalloying on
+the mechanical properties and corrosion resistance [16–23]. However, few detailed studies
+have been performed on the modiﬁcation mechanism of rare earth on inclusions in weath-
+ering steel. Therefore, the modiﬁcation mechanism of lanthanum on inclusions in Q355B
+weathering steel was studied by combining laboratory experiments and thermodynamic
+calculations in this work.
+2. Materials and Methods
+In the present work, four sets of laboratory-scale experiments with different La con-
+tents were carried out in a levitation melting furnace. The Q355B weathering steel ingot
+was loaded into the water-cooled copper crucible of a 1 kg levitation melting furnace. After
+vacuuming below 10 Pa, high-purity argon gas was added to 50,000 Pa and then gradually
+heated to 1600 ◦C for 10 min. Then, La (>99.99 wt.%) wrapped in iron foil was added
+into the molten steel and then poured into a 70 × 50 × 40 mm mold after holding for
+5 min. The ingot was slowly cooled in the furnace after pouring. The addition of La in
+the four sets of test steels were 0 wt.%, 0.0075 wt.%, 0.0184 wt.%, and 0.0425 wt.%. The
+ﬁnal composition of the test steels were determined using ICP-OES (ICPS-8100; Shimadzu
+corporation, Kyoto, Japan) with an accuracy of ± 0.5 ppm. The accuracy and precision
+of the component analysis were improved by background subtraction and spectral line
+selection, and the recovery rate test and accuracy test proved that the method was accurate,
+sensitive, and reliable. The total oxygen content (T.O) refers to the sum of dissolved oxygen
+and the oxygen content of the inclusions. It was measured by an ON-3000 oxygen and
+nitrogen analyzer, which adopted a non-dispersive infrared detection system and was
+equipped with two independent infrared absorption cells. In addition, the length of the
+absorption cell and the number of channels could be ﬂexibly adjusted depending on the
+sample, thus ensuring the sensitivity and reliability of the detection. The chemical compo-
+
+PAGE 3
+Materials 2022, 15, 7952
+3 of 14
+sition of each test steel is listed in Table 1. Since the weight fractions of trace non-critical
+elements, such as Ti, Co, and V, were not included in Table 1, the sum of the weight fractions
+was less than 100%. To clarify the formation behavior of inclusions in the test steel, four
+10 × 10 × 10 mm samples were cut from a 1/2 distance from the center by wire electrode
+discharge cutting at the same height position of each ingot and then were pre-milled and
+polished. The chemical composition and morphology of inclusions were analyzed by
+scanning electron microscopy (SEM) and energy dispersive spectrometer (EDS) attached to
+an SEM (SU-1500; Hitachi, Ltd., Tokyo, Japan). The selection of the acceleration voltage and
+the identiﬁcation of overlapping peaks were carefully processed to ensure the reliability of
+inclusion analysis in EDS analysis. The image analysis software Image-Pro Plus 6.0 was
+used to evaluate the size distribution, number density, and average size of inclusions, and
+at least 50 viewing ﬁelds at 2000 magniﬁcation were randomly selected in each sample.
+Additionally, the modiﬁcation mechanism of lanthanum on the inclusions was analyzed
+using thermodynamic calculation. The transformation process of inclusions in molten steel
+with different La contents at 1600 ◦C was calculated using the thermodynamic software
+FactSage 8.1 with the databases of FSstel, FactPS, Ftoxid, and FTlite. The FToxid FactSage
+database could realize the thermodynamic calculation of complex solutions, where the
+solution system mainly adopted the quasi-chemical model. Compared with the traditional
+Wagner approximation formula, FactSage software used an “association compound” to
+characterize the interaction between solute elements, thus ensuring the accurate prediction
+of the precipitation behavior of complex inclusions in molten steel.
+Table 1. Chemical composition of Q355B weathering steels with different lanthanum contents (wt.%).
+Sample
+T.O
+C
+Al
+Si
+Mn
+S
+Cr
+La
+NO. 1
+0.0076
+0.1740
+0.0179
+0.1346
+1.56
+0.0030
+0.0549
+-
+NO. 2
+0.0076
+0.1611
+0.0203
+0.1327
+1.47
+0.0028
+0.0566
+0.0075
+NO. 3
+0.0076
+0.1657
+0.0192
+0.1344
+1.47
+0.0023
+0.0555
+0.0184
+NO. 4
+0.0076
+0.1791
+0.0325
+0.2079
+1.59
+0.0022
+0.0554
+0.0425
+3. Results and Discussion
+3.1. Effect of La Treatment on Characteristics of Inclusions
+The morphology and chemical composition of typical inclusions in RE-free steel
+are shown in Figure 1. It can be seen that the inclusions are mainly Al2O3 and MnS.
+Additionally, some alumina and manganese sulﬁde complex inclusions were also found.
+The core of the complex inclusion is Al2O3, surrounded by MnS inclusions, as shown
+in Figure 1c. This is because the solubility of S2−and Mn2−in molten steel decreases
+with the decrease in solidiﬁcation temperature during the solidiﬁcation process [24] and
+the ﬁrst-principles calculation of S2−, Mn2+, and Al2O3 shows that Al2O3 has a strong
+attraction to S2−and Mn2+ and can easily form complex inclusions [25]. Therefore, during
+the solidiﬁcation process, some small-sized Al2O3 inclusions are inclined to be pushed to
+the liquid phase and act as the sites of MnS inclusion formation due to the micro-segregation
+of Mn and S.
+ 
+Figure 1. SEM images and EDS results of typical inclusions in RE-free steel: (a) Al2O3, (b) MnS, and
+(c) Al2O3-MnS complex inclusion.
+
+PAGE 4
+Materials 2022, 15, 7952
+4 of 14
+Figure 2 displays the typical inclusions in sample steel containing 0.0075 wt.% La.
+According to the atom fraction of the elemental composition of inclusion, the inclusions
+are mainly spherical LaAlO3 and irregular MnS. Additionally, a small number of irregular
+Al2O3 and LaAlO3 complex inclusions can also be found. As shown in Figure 2c, its main
+body is still Al2O3 and the outer part is modiﬁed by La. Consequently, the harmful Al2O3
+and MnS inclusions cannot be completely modiﬁed by adding a small amount of La.
+ 
+Figure 2. SEM images and EDS results of typical inclusions in steel containing 0.0075 wt.% La:
+(a) LaAlO3, (b) MnS, and (c) Al2O3-LaAlO3 complex inclusion.
+As shown in Figure 3, the Al2O3 inclusions are completely absent. The inclusions are
+mainly LaAlO3, La2O3, MnS, and LaAlO3-La2O3 complex inclusions as the La content in
+steel increases to 0.0184 wt.%.
+ 
+Figure 3. SEM images and EDS results of typical inclusions in steel containing 0.0184 wt.% La:
+(a) LaAlO3, (b) La2O3, and (c) LaAlO3-La2O3 complex inclusion.
+As shown in Figure 4, when the La content increases to 0.0425 wt.%, the MnS and
+Al2O3 inclusions disappear completely and the inclusions are mainly La2O2S and La2O3
+and a small amount of La2O2S-La2O3 complex inclusions. As shown in Figure 4c, the
+morphology of complex inclusion is a La2O3 inclusion wrapped in a La2O2S inclusion. This
+is because the La2O3 inclusions consume the surrounding oxygen during its formation and
+the formation condition of La2O2S is ﬁrst satisﬁed around La2O3 inclusions.
+ 
+Figure 4.
+SEM images and EDS results of typical inclusions in steel containing 0.0425 wt.%
+La: (a) La2O3, (b) La2O2S, and (c) La2O2S-La2O3 complex inclusion.
+
+PAGE 5
+Materials 2022, 15, 7952
+5 of 14
+To investigate the inﬂuence of La treatment on the quantity and size distribution
+of inclusions, the inclusions were statistically measured using Image-Pro software. The
+size-distribution statistical data show that the inclusions in RE-free steel are large-sized,
+which can heavily deteriorate the mechanical performance and corrosion resistance of
+weathering steel [12,26]. With the increase in La content, the percentage of inclusions
+larger than 5 µm gradually decreases. However, when the La addition reached 0.0425
+wt.%, the proportion of inclusions larger than 10 µm remarkably increases, and inclusions
+larger than 5 µm are dominant, reaching 65%. Meanwhile, it can be seen in Figure 5b that
+with the increase in La content, the number density of inclusions continuously increases,
+and the average size of inclusions gradually decreases. The average size of inclusions in
+the RE-free steel is 5.35 µm. As the La content increase from 0.0075 to 0.0184 wt.%, the
+average size of inclusions signiﬁcantly decreases from 3.4 to 2.48 µm, which means that the
+inclusions become ﬁner and more dispersive. This is because, compared with Al2O3 and
+MnS inclusion, rare earth inclusion has lower interfacial energy and better wettability with
+liquid steel and thus is not easy to agglomerate [27].
+ 
+Figure 5. Size distribution (a) and number density and average size (b) of inclusions in four steels
+with different La content additions.
+However, as the La content reaches up to 0.0425 wt.%, the average size of inclusions
+sharply increases to 6.85 µm and even exceeds that of the original ones, which indicated
+that the inclusions seriously grow and agglomerate. This is because rare earth elements
+have extremely high surface activity and easily adsorb impurity elements in molten steel.
+The higher the concentration of rare earth in molten steel, the more impurity elements
+adsorbed. On the other hand, excessive rare earth promotes mutual attraction between
+rare earth inclusions and then merges into large-sized inclusions. Therefore, when the
+addition is excessive, rare earth inclusions are prone to agglomeration and growth. Many
+investigators also reported this regulation in their work [28–30]. In addition, it is worth
+mentioning that there is an optimum addition amount in the range of 0.0184~0.0425%
+La, which can signiﬁcantly reduce inclusion size and improve corrosion resistance and
+mechanical properties.
+The above experimental results indicate that the original Al2O3 and MnS inclusions
+can be modiﬁed to ﬁne and dispersive rare earth inclusions by adding a suitable amount of
+La. At the same time, the La content has a great inﬂuence on the type of inclusion in steel.
+The main inclusions in weathering steel without La addition are Al2O3 and MnS. As the
+La content increases from 0.0075 to 0.0184 wt.%, the main inclusions change from LaAlO3,
+MnS, and Al2O3-LaAlO3 complex inclusion to LaAlO3, La2O3, MnS, and LaAlO3-La2O3
+complex inclusion. When the La content reaches to 0.0425 wt.%, the original MnS and
+Al2O3 inclusions are completely modiﬁed into La2O2S and La2O3 inclusions.
+Some similar modification rules have been previously reported in other studies on rare
+earth steels. Huang Y [31] added Ce into H13 steel and found that with the increase in Ce
+
+PAGE 6
+Materials 2022, 15, 7952
+6 of 14
+content, the inclusions were modified according to the rule of MgAl2O4 →CeAlO3 →Ce2O3.
+Ren et al. [32] found that when Ce was added to ultra-low carbon steel, the inclusions were
+modified along the route of MgAl2O4 →CeAlO3 →Ce2O2S →Ce2O2S →CeS.
+3.2. Thermodynamic Analysis on the Formation and Modiﬁcation of Inclusions
+In order to analyze the formation and modiﬁcation mechanism of inclusions in steel,
+thermodynamic analysis was performed in the present work, which can also provide
+theoretical guidance for controlling inclusions in rare earth steel.
+According to the thermodynamic theory of inclusion, during the cooling process
+of molten steel, the solubility of inclusion decreases continuously and when the actual
+solubility product of the inclusion generating elements is larger than the equilibrium
+solubility product, the reaction can occur. Therefore, by comparing the actual solubility
+product and equilibrium solubility product, the possibility and condition for the reaction
+of inclusion can be obtained.
+The liquidus temperature (TL) and solidus temperature (TS) of steel can be calculated
+by Equations (1) and (2) [33]. The calculation results are 1784.4 K and 1733.9 K, respectively.
+TL= 1809 −83 wt.% (C) −7.8 wt.% (Si) −5 wt.% (Mn) −32 wt.% (P) −31.5 wt.% (S)
+−1.5 wt.% (Cr) −2 wt.% (Mo) −2 wt.% (V) −3.6 wt.% (Al) −18 wt.% (Ti)
+(1)
+TS = 1809 −344 wt.% (C) −12.3 wt.% (Si) −6.8 wt.% (Mn) −124.5 wt.% (P)
+−1.4 wt.% (Cr) −183.5 wt.% (S) −4.1 wt.% (Al) −4.3 wt.% (Ni)
+(2)
+The standard Gibbs free energy change for the formation of various inclusions in
+molten steel are shown in Table 2. It is widely known that Al2O3 and MnS have differ-
+ent crystalline types under different pressures, temperatures, and vapor partial pressure
+conditions. Since the modiﬁcation behavior of inclusions studied in this work is under
+the condition of liquid steel at 1600 ◦C, the crystalline type of Al2O3 and MnS at this
+temperature are α-Al2O3 and α-MnS in the calculation. Moreover, the crystalline types of
+these compounds are not related to the thermodynamic calculation.
+Table 2. The standard Gibbs free energy change for formation of various inclusions [34,35].
+Reaction Equation of
+Various Inclusions
+∆Gθ=A+B × T (J·mol−1)
+A
+B
+[Mn] + [S]= MnS(s)
+−158,365
+93.966
+2[Al]+3[O]= Al2O3(s)
+−122,500
+393.8
+2[La]+3[O]= La2O3(s)
+−1,443,880
+337
+2[La]+2[O] + [S]= La2O2S(s)
+−1,341,200
+301
+[La] + [S]= LaS(s)
+−445,180
+141.5
+[La] + [Al]+3[O]= LaAlO3(s)
+−801,616
+28.9
+The reaction equation for the AxBy generated by metal element A and nonmetal
+element B in molten steel is as follows:
+xA+yB = AxBy
+(3)
+When Equation (3) reaches equilibrium, ∆G = 0. Therefore, the relation between the
+standard Gibbs free energy (∆Gθ) for the reaction and the equilibrium constant (K) can be
+expressed as Equation (4).
+ln K = −∆Gθ
+RT = −C2 −C1
+T
+(4)
+where R is the gas constant in J·mol−1·K−1, C1 and C2 are constants, and T is the tempera-
+ture (K).
+
+PAGE 7
+Materials 2022, 15, 7952
+7 of 14
+The equilibrium constant (K) can also be expressed as follows:
+K =
+αAxBy
+αx
+A · αy
+B
+=
+1
+f x
+A · w(A)x · f y
+B · w(B)y
+(5)
+where αA, αB and αAxBy are the activity of A, B and the precipitate AxBy, respectively; ƒi
+is the activity coefﬁcient of element i; and w(i) is the mass fraction of element i in molten
+steel (wt.%). If these compounds AxBy, with a high melting point, are solid in molten steel
+above 1700 K, assuming pure substance as the standard state, αAxBy = 1.
+Substituting Equation (5) into Equation (4) can result in Equation (6).
+x ln fA + y ln fB+ ln(w(A)x·w(B)y) =C2 + C1
+T
+(6)
+Therefore, the equilibrium solubility product of AxBy in liquid steel can be expressed
+as Equation (7).
+ln(w(A)x·w(B)y) = C2 + C1
+T −x ln fA −y ln fB
+(7)
+The activity coefﬁcient fi in Equation (7) is related to the interaction coefﬁcient of each
+element in liquid steel temperature. The thermodynamic behavior of molten steel deviates
+from Raoult’s law and Henry’s law due to the solvent–solute interaction and solute–solute
+interaction. The Wagner model proposed the general formula of activity and interaction
+parameters in a multi-component solution, which became a basic method to calculate the
+activity coefﬁcient of a multi-component solution and has been widely used [36]. The
+limitation of the Wagner model is that the data of the second-order interaction coefﬁcient
+are missing but the activity coefﬁcient calculated by the Wagner model is correct in the
+trend analysis of thermodynamic behavior and has little effect on reliability. In this work,
+Q355B weathering steel is a low alloy steel, which means that the mass fraction of each
+solute element approaches 0 and the mass fraction of solvent approaches 1. Therefore, the
+second-order interaction coefﬁcients have little effect on the activity coefﬁcient of the solute.
+The activity coefﬁcients of each solute element can be calculated directly using the Wagner
+model characterized by the ﬁrst-order interaction coefﬁcient:
+ln fi= 2.303
+n
+∑
+j=1
+ej
+iw[j]
+(8)
+where ej
+i is the ﬁrst-order interaction parameter between i and j and w[j] is the mass
+percentage of element j.
+The ﬁrst-order interaction coefﬁcients of various solute elements in liquid steel as
+shown in Table 3. Substituting the data into Equation (8), the activity coefﬁcients of O,
+S, Al, Mn, and La in molten steel can be obtained, in which element j contains the main
+elements of weathering steel Q355, including C, Si, Mn, P, S, O, Cr, Ni, Mo, Cu, Al, and La.
+The results are listed in Table 4.
+Table 3. First-order interaction coefﬁcients ej
+i of various elements in liquid steel at 1600 ◦C [34,35,37].
+ej
+i
+C
+Si
+Mn
+P
+S
+O
+Cr
+Ni
+Mo
+Cu
+Al
+La
+O
+−0.45
+−0.131
+−0.021
+0.07
+−0.133
+−0.2
+−0.04
+0.006
+0.0035
+−0.013
+−3.9
+−12.1
+S
+0.110
+0.063
+−0.026
+0.029
+−0.028
+−0.27
+−0.011
+0
+0.0027
+−0.0084
+0.035
+−2.79
+Al
+0.091
+0.0056
+0.056
+0.033
+0.03
+−6.6
+0.025
+0.008
+-
+0.008
+0.045
+−0.511
+Mn
+−0.07
+0.39
+0
+−0.0035
+−0.048
+−0.083
+0.003
+−0.007
+0.0045
+-
+0.07
+-
+La
+−0.279
+-
+0.28
+1.734
+−12.130
+−105
+-
+-
+-
+-
+−2.649
+−0.013
+
+PAGE 8
+Materials 2022, 15, 7952
+8 of 14
+Table 4. The activity coefﬁcients of O, S, Al, Mn, and La in molten steel at 1600 ◦C.
+No.
+O
+S
+Al
+Mn
+La
+1
+0.6290
+0.9668
+1.140
+1.0981
+-
+2
+0.5103
+0.9214
+1.131
+1.098
+0.3484
+3
+0.3764
+0.8589
+1.116
+1.0982
+0.3483
+4
+0.1924
+0.7358
+1.085
+1.0982
+0.3480
+Therefore, the logarithm of the equilibrium solubility product of MnS, Al2O3, La2O3,
+La2O2S, La2S3, LaS, and LaAlO3 in molten steel can be calculated by introducing the activity
+coefﬁcient of each element in Table 4 into Equation (7).
+The equilibrium solubility product of AxBy in liquid steel can be expressed as Equation (9).
+lnAxBy= ln ax
+Aay
+B
+aAxBy
+= ln
+ (w(A) × fA)x × (w([B]) × fB)y
+(9)
+Figures 6–12 display the comparison of the equilibrium solubility product and the
+actual solubility product of each inclusion in liquid steel.
+ 
+Figure 6. Logarithm of the solubility product as a function of temperature for Al2O3 in liquid steel.
+ 
+Figure 7. Logarithm of the solubility product as a function of temperature for MnS in liquid steel.
+
+PAGE 9
+Materials 2022, 15, 7952
+9 of 14
+ 
+Figure 8. Logarithm of the solubility product as a function of temperature for LaAlO3 in liquid steel.
+ 
+Figure 9. Logarithm of the solubility product as a function of temperature for La2O3 in liquid steel.
+ 
+Figure 10. Logarithm of the solubility product as a function of temperature for La2O2S in liquid steel.
+
+PAGE 10
+Materials 2022, 15, 7952
+10 of 14
+ 
+Figure 11. Logarithm of the solubility product as a function of temperature for La2S3 in liquid steel.
+ 
+Figure 12. Logarithm of the solubility product as a function of temperature for LaS in liquid steel.
+As shown in Figures 6 and 7, Al2O3 can form at the liquid-phase temperature for each
+experimental steel. However, the actual solubility product of MnS in each experimental
+steel was smaller than the equilibrium solubility product, which means that MnS cannot
+form in the liquid phase. Many previous studies have proven that, during the solidiﬁcation
+process, the generating elements of MnS inclusion tend to segregate in the liquid phase at
+the solidiﬁcation front, resulting in an increase in the actual solubility product. Therefore,
+MnS is usually formed in the solidiﬁcation process, rather than in the liquid phase.
+As shown in Figures 8–12, when La is added, LaAlO3, La2O3, La2O2S, LaS, and
+La2S3 can form at the liquid-phase temperature, which is because rare earth elements have
+extremely strong activity and easily react with O and S in molten steel. However, rare earth
+sulﬁdes are not found in the experimental observations. This is because the formation
+conditions and sequence of inclusions are also related to the free energy and the mutual
+transformation between inclusions under actual conditions. Consequently, we further
+analyzed the stability of various inclusions by calculating the Gibbs formation energy in
+the molten steel at 1600 ◦C.
+
+PAGE 11
+Materials 2022, 15, 7952
+11 of 14
+The Gibbs free energy of the inclusion formation reaction (Table 2) in liquid steel can
+be expressed as:
+∆Gm= ∆Gθ
+m + RT ln
+aMeaXb(s)
+1
+a
+a[Me]·a[X]
+b
+a
+(10)
+where ∆Gθ
+m is the standard Gibbs free energy change for the formation of various inclusions,
+a[Me], a[X] is the activity of each reactant in molten steel, and aMeaXb(s) is the activity of
+solid inclusion in molten steel. If these inclusions with a high melting point are solid in
+molten steel at 1600 ◦C, assuming pure substance as the standard state, aMeaXb(s) = 1. The
+stoichiometric number of La and Al was set to 1 when calculating the actual Gibbs free
+energy of each inclusion.
+Therefore, the Gibbs free energy of the inclusion formation reaction can be simpliﬁed
+as:
+∆Gm = ∆Gθ
+m + RT ln
+1
+a[Me]·a[X]
+b
+a
+(11)
+The mass concentration of component A in molten steel is w[A] and the activity
+coefﬁcient is fA. The activity of component A can be expressed as Equation (12).
+aA = fAw[A]
+(12)
+The actual Gibbs free energy of each inclusion formation at 1600 ◦C is shown in
+Figure 13. It can be seen that La2O3 is the most stable, followed by La2O2S and LaAlO3,
+whose Gibbs generation energy is less than −300 kJ. Therefore, La2O3, La2O2S, and LaAlO3
+inclusions are easier to generate and more stable. Meanwhile, La2S3, LaS, and Al2O3 can
+also form but their Gibbs formation energy is much higher than that of rare earth oxides
+and rare earth oxysulﬁde. In addition, it is worth mentioning that with the increase in La
+content, the Gibbs free energy of the Al2O3 formation gradually increases, indicating that
+its formation is more difﬁcult. This is because the rare earth elements have a strong activity,
+more easily reacting with oxygen in the molten steel, so with the increase in La content, the
+formation of Al2O3 is more difﬁcult. Based on the above analysis, it can be determined that
+with the addition of La, the original Al2O3 inclusions are more inclined to be modiﬁed into
+La2O3, La2O2S, and LaAlO3 inclusions.
+ 
+Figure 13. Diagram of inclusion predominance region in steel with different La contents at 1600 ◦C.
+To further clarify the effect of La content on the inclusion, the evolution process of
+La on inclusion at 1600 ◦C was calculated by FactSage 8.1. The optimized parameters for
+
+PAGE 12
+Materials 2022, 15, 7952
+12 of 14
+the binary systems can be used together with appropriate solution models to predict the
+thermodynamic properties of multicomponent systems, thus calculating phase diagrams
+of ternary systems. The ternary phase diagram of LaAlO3 and La2O2S can be accurately
+calculated by combining the phase diagram of the binary systems Al2O3–La2O3 and La2O3–
+La2S3 with the calculation model in FactSage software [38,39]. The result is shown in
+Figure 14. The inclusion in liquid steel without La is Al2O3. With the increase in La content
+in liquid steel, Al2O3 inclusion is immediately modiﬁed into LaAlO3. When the La content
+reaches about 0.009 wt.%, the Al2O3 inclusion disappears completely and the mass fraction
+of LaAlO3 reaches peak value. As the La content increases further, the modiﬁed product
+LaAlO3 is transformed into La2O3. When the La content reaches approximately 0.023
+wt.%, LaAlO3 is completely turned into La2O3. Furthermore, it can be seen that, during
+the formation process of rare earth oxide, the dissolved O in molten steel continuously
+decreases. Consequently, when the ratio of the oxygen-sulfur concentration reaches a
+certain amount, La2O3 is further transformed into La2O2S with the increase in La content.
+Figure 14. Stability diagram of inclusion predominance region in steel with different La contents at
+1600 ◦C.
+Based on the above FactSage thermodynamic calculation results, with the increase
+in La content, the modiﬁcation sequence of inclusions in the steel is Al2O3 →LaAlO3 →
+La2O3 →La2O2S, which is very consistent with the experimental observations. Meanwhile,
+combined with the experimental results, it can be determined that with the increase in La
+content, the generation of La2O2S continuously consumes dissolved S in the molten steel,
+thus inhibiting the formation of MnS at the solidiﬁcation front. In addition, as can be seen
+from the dissolved La content in Figure 14, La completely forms inclusions in the molten
+steel when the La content is low. In contrast, as the La content increases to 0.045 wt.%, the
+mass fraction of La2O2S inclusions reaches the maximum and the dissolved La content in
+the molten steel gradually increases, which can act as a microalloying element.
+4. Conclusions
+Laboratory experiments and thermodynamic analysis were performed to investi-
+gate the effect of lanthanum addition on the formation behaviors of inclusions in Q355B
+weathering steel and the main conclusions obtained are as follows:
+1.
+The original harmful inclusions in Q355B weathering steel could be modiﬁed to ﬁne
+and dispersive rare earth inclusions by adding the appropriate amount of La. The main
+inclusions in RE-free steel are large-sized irregular Al2O3 and MnS, with an average
+size of about 5.35 µm. As the La content increases from 0.0075 to 0.0184 wt.%, the main
+inclusions transform from MnS, LaAlO3, and Al2O3-LaAlO3 complex inclusion into
+LaAlO3, La2O3, MnS, and LaAlO3-La2O3 complex inclusion. Meanwhile, the average
+size of inclusions signiﬁcantly decreases from 3.4 to 2.48 µm and the distribution is
+
+PAGE 13
+Materials 2022, 15, 7952
+13 of 14
+more dispersive. When the La content increases to 0.0425 wt.%, the original MnS and
+Al2O3 inclusions are completely modiﬁed into La2O2S and La2O3 but the inclusions
+demonstrate serious agglomeration and growth.
+2.
+The thermodynamic calculations indicate that Al2O3 and various lanthanum-containing
+inclusions are formed in the liquid phase. As the La content in molten steel increases
+from 0 to 0.0425wt.%, the Al2O3 inclusion is inclined to be modiﬁed into lanthanum
+oxide and lanthanum oxysulﬁde. The modiﬁcation process is Al2O3 →LaAlO3 →
+La2O3 →La2O2S, which is very consistent with the experimental observations.
+Author Contributions: Conceptualization, N.M. and W.Y.; methodology, N.M., W.Y. and D.C.; soft-
+ware, M.X.; validation, N.M. and W.Y.; investigation, N.M. and B.P.; resources, W.L., X.Z. (Xiaoqiang
+Zhang), and L.H.; data curation, S.C. and Z.W.; writing—original draft preparation, N.M.; writing—
+review and editing, W.Y. and X.Z. (Xiaowei Zhang); visualization, X.Z. (Xiaowei Zhang); project
+administration, Z.W. and W.Y.; funding acquisition, W.Y. All authors have read and agreed to the
+published version of the manuscript.
+Funding: This research was funded by GRINM GROUP COPPORATION LIMITED 2022 youth
+science fund, grant number, G126202231290.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Yamashita, M.; Miyuki, H.; Matsuda, Y.; Nagano, H.; Misawa, T. The long term growth of the protective rust layer formed on
+weathering steel by atmospheric corrosion during a quarter of a century. Corros. Sci. 1994, 36, 283–299. [CrossRef]
+2.
+Morel, J.M.; Creus, J.; Gaillet, L.; Chatel, V.; Astic, J.Y. Evaluation of the Durability of Weathering Steel—Effects of environmentals
+changes on corrosion behavior of low alloyed steels. CE/Papers 2021, 4, 1644–1649. [CrossRef]
+3.
+Keiser, J.T.; Brown, C.W.; Heidersbach, R.H. Characterization of the passive ﬁlm formed on weathering steels. Corros. Sci. 1983,
+23, 251–259. [CrossRef]
+4.
+Larrabee, C.P. Corrosion Resistance of High-Strength Low-Alloy Steels as Inﬂuenced by Composition and Environment. Corros.
+Eng. 2014, 3, 259–271. [CrossRef]
+5.
+Królikowska, A.; Komorowski, L.; Kunce, I.; Wojda, D.; Zacharuk, K.; Paszek, U.; Wierzbicki, T.; Bilewska, K. Corrosion
+Assessment of a Weathering Steel Bridge Structure after 30 Years of Service. Materials 2021, 14, 3788. [CrossRef]
+6.
+Torkkeli, J.; Saukkonen, T.; Hanninen, H. Effect of MnS inclusion dissolution on carbon steel stress corrosion cracking in fuel-grade
+ethanol. Corros. Sci. 2015, 96, 14–22. [CrossRef]
+7.
+Wei, J.; Dong, J.H.; Ke, W.; He, X.Y. Inﬂuence of Inclusions on Early Corrosion Development of Ultra-Low Carbon Bainitic Steel in
+NaCl Solution. Corros. J. Sci. Eng. 2015, 71, 1476–1480. [CrossRef]
+8.
+Shibaeva, T.V.; Laurinavichyute, V.K.; Tsirlina, G.A.; Arsenkin, A.M.; Grigorovich, K.V. The effect of microstructure and non-
+metallic inclusions on corrosion behavior of low carbon steel in chloride containing solutions. Corros. Sci. 2014, 80, 299–308.
+[CrossRef]
+9.
+Zheng, S.; Li, C.; Qi, Y.; Chen, L.; Chen, C. Mechanism of (Mg,Al,Ca)-oxide inclusion-induced pitting corrosion in 316l stainless
+steel exposed to sulphur environments containing chloride ion. Corros. Sci. 2013, 67, 20–31. [CrossRef]
+10.
+Moghaddam, S.M.; Sadeghi, F.; Paulson, K.; Weinzapfel, N.; Correns, M.; Bakolas, V.; Dinkel, M. Effect of non-metallic inclusions
+on butterﬂy wing initiation, crack formation, and spall geometry in bearing steels. Int. J. Fatigue 2015, 80, 203–215. [CrossRef]
+11.
+Zhao, P.; Wang, X.R.; Yan, E.; Misra, R.; Du, C.M.; Du, F. The inﬂuence of inclusion factors on ultra-high cyclic deformation of a
+dual phase steel. Mater. Sci. Eng. A. 2019, 754, 275–281. [CrossRef]
+12.
+Liu, X.G.; Wang, C.; Gui, J.T.; Xiao, Q.Q.; Guo, B.F. Effect of MnS inclusions on deformation behavior of matrix based on in-situ
+experiment. Mater. Sci. Eng. 2019, 746, 239–247. [CrossRef]
+13.
+Wilson, W.G.; Kay, D.A.R.; Vahed, A. The use of thermodynamics and phase equilibria to predict the behavior of the rare earth
+elements in steel. JOM 1974, 26, 14–23. [CrossRef]
+14.
+Wang, L.M.; Lin, Q.; Yue, L.J.; Liu, L.; Guo, F.; Wang, F.M. Study of application of rare earth elements in advanced low alloy steels.
+J. Alloys Compd. 2008, 451, 534–553. [CrossRef]
+15.
+Torkamani, H.; Raygan, S.; Garcia, M.C.; Rassizadehghani, J.; Palizdar, Y.; Martin, D.S. Contributions of Rare Earth Element
+(La,Ce) Addition to the Impact Toughness of Low Carbon Cast Niobium Microalloyed Steels. Met. Mater. Int. 2018, 24, 773–788.
+[CrossRef]
+
+PAGE 14
+Materials 2022, 15, 7952
+14 of 14
+16.
+Liu, Z.; Lian, X.; Liu, T.; Yang, Y.; Dong, H. Effects of rare earth elements on corrosion behaviors of low carbon steels and
+weathering steels. Mater. Corros. 2019, 71, 258–266. [CrossRef]
+17.
+Lian, X.; Zhu, J.; Wang, R.; Liu, T.; Dong, H. Effects of Rare Earth (Ce and La) on Steel Corrosion Behaviors under Wet-Dry Cycle
+Immersion Conditions. Metals 2020, 10, 1174. [CrossRef]
+18.
+Yue, L.J.; Wang, L.L.; Wang, L.M. Inﬂuence of rare earth element on the mechanical properties of clean weathering steel. Chin.
+Rare Earths 2014, 35, 20–26.
+19.
+Peng, T.; Sun, J.Q.; Dong, C.C.; Yang, H.Y.; Zhang, B. Corrosion Resistance of Weathering Steel of RE Exposed in Marine
+Atmospheric Environment for One Year. Equip. Environ. Eng. 2017, 14, 21–24.
+20.
+Mi, F.Y.; Wang, X.D.; Liu, Z.P.; Wang, B.; Peng, Y.; Tao, D.P. Industrial Atmospheric Corrosion Resistance of P-RE Weathering Steel.
+J. Iron Steel Res. Int. 2011, 18, 67–73. [CrossRef]
+21.
+Yue, L.J.; Wang, L.M.; Xu, C.H. Inﬂuence of Rare Earth on Corrosion Resistance Performance in Cu-Containing Weathering Steel.
+Chin. Rare Earths 2009, 30, 59–64.
+22.
+Wang, R.; Chen, L.; Zhi, J.; Lian, X.; Guo, L.; Dong, H. Corrosion Behavior of Weathering Steels with Different Contents of Rare
+Earth Elements La and Ce. Corrosion 2022, 78, 437–448. [CrossRef]
+23.
+Yue, L.J.; Wang, L.M.; Jinsheng, H. Effects of rare earth on inclusions and corrosion resistance of 10PCuRE weathering steel. J.
+Rare Earths 2010, 28, 952–956. [CrossRef]
+24.
+Wang, C.; Ma, R.; Zhou, Y.; Liu, Y.; Ke, W. Effects of rare earth modifying inclusions on the pitting corrosion of 13Cr4Ni martensitic
+stainless steel. J. Mater. Sci. Technol. Shenyang 2021, 93, 232–243. [CrossRef]
+25.
+Li, D.; Chen, X.Q.; Fu, P.; Ma, X.; Liu, H.L.; Chen, Y.; Li, Y. Inclusion ﬂotation-driven channel segregation in solidifying steels. Nat.
+Commun. 2014, 5, 5572. [CrossRef]
+26.
+Liu, C.; Revilla, R.I.; Zhang, D.; Liu, Z.; Lutz, A.; Zhang, F.; Terryn, H. Role of Al2O3 inclusions on the localized corrosion of
+Q460NH weathering steel in marine environment. Corros. Sci. 2018, 138, 96–104. [CrossRef]
+27.
+Smirnov, L.A.; Rovnushkin, V.A.; Oryshchenko, A.S.; Kalinin, G.Y.; Milyuts, V.G. Modiﬁcation of steel and alloys with rare-earth
+elements. part 2*. Metallurgist 2016, 59, 1053–1061. [CrossRef]
+28.
+Li, H.; Yu, Y.C.; Ren, X.; Zhang, S.H.; Wang, S.B. Evolution of Al2O3 inclusions by cerium treatment in low carbon high manganese
+steel. J. Iron Steel Res. Int. 2017, 24, 925–934. [CrossRef]
+29.
+Wang, H.; Bao, Y.P.; Zhi, J.G.; Duan, C.Y.; Gao, S.; Wang, M. Effect of Rare Earth Ce on the Morphology and Distribution of Al2O3
+Inclusions in High Strength IF Steel Containing Phosphorus during Continuous Casting and Rolling Process. Iron Steel Inst. Jpn.
+2021, 61, 657–666. [CrossRef]
+30.
+Wang, H.; Xiong, L.; Zhang, L.; Wang, Y.; Shu, Y.; Zhou, Y. Investigation of RE-O-S-As Inclusions in High Carbon Steels. Metall.
+Mater. Trans. B 2017, 48, 2849–2858. [CrossRef]
+31.
+Huang, Y.; Cheng, G.; Li, S.; Dai, W. Effect of cerium on the behavior of inclusions in H13 steel. Steel Res. Int. 2018, 89, 1800371.
+[CrossRef]
+32.
+Ren, Q.; Zhang, L. Effect of Cerium Content on Inclusions in an Ultra-Low-Carbon Aluminum-Killed Steel. Metall. Mater. Trans. B
+2020, 51, 589–600. [CrossRef]
+33.
+Wang, J.Q.; Huang, J.R. Solidiﬁcation of Metal and its Control; Machine Press: Beijing, China, 1977; pp. 9–35.
+34.
+Du, T. Thermodynamics of rare-earth elements in iron-base solutions. J. Iron Steel Res. 1994, 3, 6–12.
+35.
+Vahed, A.; Kay, D. Thermodynamics of rare earths in steelmaking. Metall. Mater. Trans. B 1976, 7, 375–383. [CrossRef]
+36.
+Wagner, C. Thermodynamics of Alloys; Addison-Wesley Press: Boston, MA, USA, 1952; p. 51.
+37.
+Chen, J.X. Manual of Chart Data for Steelmaking, 10th ed.; Liu, X.F., Ed.; Metallurgical Industry Press: Beijing, China, 1984;
+pp. 753–761.
+38.
+Wu, P.; Pelton, A.D. Coupled thermodynamic-phase diagram assessment of the rare earth oxide-aluminium oxide binary systems.
+J. Alloys Compd. 1992, 179, 259–287. [CrossRef]
+39.
+Dwivedi, K.R. Determination of the Thermodynamic Properties of Rare Earth-Oxygen-Sulfur Systems at High Temperatures.
+Ph.D. Thesis, McMaster University, Hamilton, ON, Canada, July 1982.

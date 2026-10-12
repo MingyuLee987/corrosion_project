@@ -1,0 +1,1489 @@
+
+--- PDF page 1 ---
+materials
+Article
+Effect of Dissolved Oxygen and Immersion Time on
+the Corrosion Behaviour of Mild Steel in
+Bicarbonate/Chloride Solution
+Gaius Debi Eyu *, Geoffrey Will, Willem Dekkers and Jennifer MacLeod
+Department of Chemistry, Physics and Mechanical Engineering, Queensland University of Technology,
+Brisbane QLD 4000, Australia; g.will@qut.edu.au (G.W.); w.dekkers@qut.edu.au (W.D.);
+jennifer.macleod@qut.edu.au (J.M.)
+* Correspondence: gaius.eyu@qut.edu.au; Tel.: +61-24429877
+Academic Editor: Richard Thackray
+Received: 4 August 2016; Accepted: 22 August 2016; Published: 1 September 2016
+Abstract: The electrochemical behavior of mild steel in bicarbonate solution at different dissolved
+oxygen (DO) concentrations and immersion times has been studied under dynamic conditions using
+electrochemical techniques. The results show that both DO and immersion times inﬂuence the
+morphology of the corrosion products. In comparative tests, the corrosion rate was systematically
+found to be lower in solutions with lower DO, lower HCO3− concentrations and longer immersion
+time. The SEM analyses reveal that the iron dissolution rate was more severe in solutions containing
+higher DO. The decrease in corrosion rate can be attributed to the formation of a passive layer
+containing mainly α-FeO (OH) and (γ-Fe2O3/Fe3O4) as conﬁrmed by the X-ray diffractometry (XRD)
+and X-ray photoelectron spectroscopy (XPS). Passivation of mild steel is evident in electrochemical
+test at≈− 600 mVSCE at pH≥8 in dearated (≤0.8 ppm DO) chloride bicarbonate solution under
+dynamic conditions.
+Keywords: mild steel; bicarbonate; polarization; passivation
+1. Introduction
+Bicarbonate plays a major role in the dissolution reactions of steel pipelines [1]. Studies indicate
+that increasing HCO3− concentration exacerbates iron dissolution [2–4]. To date, the role of bicarbonate
+ions in the corrosion process of carbon steel is still debated [5] Moreno et al. [6] conﬁrmed that high
+bicarbonate increased localized corrosion contributing to stress corrosion cracking [7,8] and pitting
+corrosion [9] in carbon steel pipelines. Thomas and Davies [10] reported that bicarbonate ions reduce
+the passive-active (Flade) potential for ferric oxides, while increasing the passive-active transition
+potential for magnetite with increasing HCO3− concentration when the concentration is greater than
+10−2 M. However, some researchers argued that a stable-ﬁlm formation (passivity) can be achieved
+when a sufﬁcient amount of bicarbonate is present [ 11–13]. The formation and stability of such
+passive ﬁlms depends to a large extent on environmental conditions, such as; applied potential,
+pH, oxygen, solution chemistry, temperature, ﬂuid ﬂow rate, immersion time and metallurgy of the
+steel [14–16]. Bicarbonate-induced corrosion is potentially relevant in many applications, such as
+wellbore systems for geological sequestration of CO 2 [17]. Intergranular stress corrosion cracking
+(IGSCC) in underground pipelines at potential range ( ≈−0.625 V SCE to≈−0.425 V SCE) has been
+linked with the presence HCO3− and CO32− ions at pH (8–10.5) [18]. Delanty and O’Beirne [19] cited
+a Canadian investigation that revealed that stress corrosion cracking (SCC) in carbon steel X65 was
+more severe in oxygen restricted areas, presumably because oxygen reduction prevents hydrogen
+evolution which is thought to facilitate cracking. In contrast, Yunovich et al. reported that SCC
+susceptibility of API X52 carbon steel was higher in an aerated conditions than in deaerated solution
+Materials 2016, 9, 748; doi:10.3390/ma9090748 www.mdpi.com/journal/materials
+
+--- PDF page 2 ---
+Materials 2016, 9, 748 2 of 18
+at pH 8 and 10 [18]. Dissolved oxygen has been shown to increase corrosion rates [20–24] as expected
+however, Beckett et al. and Sarin et al. [25,26] claimed it decreased with higher DO under stagnant
+conditions. Dissolved oxygen is an electron acceptor in the corrosion of iron as well as oxidation of
+ferrous iron [27]:
+Fe + 1/2 O2 + H2O↔ Fe2+ + 2OH− (1)
+Fe2+ + 1/4 O2 + 1/2 H2O + 2OH−↔ Fe(OH)3 (s) (2)
+Kuch [ 28] reported that in the absence of oxygen, it is possible for ferric scale γ-FeOOH
+(lepidocrosite) previously formed on the metal surface to act as an electron acceptor:
+Fe + 2FeOOH (scale) + 2H+↔ 3Fe2+ + 4OH (3)
+The corrosion process continues even after DO is depleted according to the Kuch mechanism .
+However, in the absence of lepidocrosite in the scale, the corrosion reaction still proceeds in deaerated
+water as reported elsewhere [ 26], indicating that in a near-neutral pH environment, the Kuch
+mechanism is not the only mechanism of metal loss in deaerated conditions. Baek et al. [ 29] concluded
+that DO facilitates the formation of different iron oxide products. For example, FeOOH and γ-Fe2O3
+were formed at high DO concentrations whereas α-Fe2O3 was formed in deaerated solution at a more
+positive potential. The inﬂuence of dissolved oxygen and immersion time in the corrosion process
+of mild steel in a near-neutral pH in corrosive media remains controversial. Here, we present
+an investigation of the corrosion behaviour of mild steel in chloride-containing bicarbonate solutions of
+varied DO and immersion time in near-neutral pH, under dynamic conditions at moderate temperature
+(23± 1◦C). Potentiodynamic polarization and electrochemical impedance spectroscopy were used to
+study the corrosion processes for the electrochemical tests. By incorporating a range of surface analysis
+techniques, including X-ray diffraction (XRD) and scanning electron microscopy (SEM), we were able
+to characterize the chemistry and morphology of the corrosion products.
+2. Results and Discussion
+2.1. Bicarbonate Concentration
+Figure 1 shows the polarization proﬁle for mild steel in 1 g/L and 5 g/L bicarbonate with 2 g/L
+chloride concentration under dynamic conditions. Bicarbonate has a distinct effect on the polarization
+characteristics in bicarbonate/chloride solution. The dissolution in the active and prepassive region
+is accelerated by the presence of bicarbonate ions due to the formation of soluble complex anion
+Fe(CO3)22− [3]. At≈−600 mVSCE, Fe(OH)2 is converted to Fe3O4 [29] in dearated bicarbonate solution,
+resulting in passivation. At this potential ( ≈−600 mV SCE), Fe 2O3/Fe3O4 forms an oxide ﬁlm at
+pH≥ 8,. The anodic polarization current was greater with 5 g/L bicarbonate solution at corrosion
+potential≈−600 mVSCE. However, above this potential, the dissolution decreased with increasing
+bicarbonate concentration.
+The impedance spectra were obtained from a rotating disc electrode (specimen) immersed in
+solutions containing 1 g/L and 5 g/L bicarbonate in chhloride solution. The data was ﬁt with
+equivalent circuit shown in Figure 2, and shows a good ﬁt to the data and represents the physical
+situation expected [ 30,31], where R s, R ct, R a, Q dl and Qf represent the solution resistance, charge
+transfer resistance (metal/ﬁlm interface), adsorption resistance (solution/ﬁlm interface), double layer
+capacitance and passive ﬁlm capacitance, respectively. A constant phase element (CPE) deﬁned by
+the values of n and Q, is commonly used to compensate for inhomogeneity of electrode surface.
+The impedance Z, of the constance phase element as given in [32]:
+ZCPE = Q−1(jω)−n, (4)
+
+--- PDF page 3 ---
+Materials 2016, 9, 748 3 of 18
+where Q and n are constant and exponent, respectively, j = (
+√−1) and ω = 2π f is the angular frequency
+in rad/s calculated using f, the frequency in Hz. At low frequency, the impedance and phase angle
+describe the kinetic response for the charge transfer activity, while at high frequency they depend on
+surface layer inhomogeneity [33].
+Materials 2016, 9, 748 3 of 18 
+ 
+angle describe the kinetic response for the charge transfer activity, while at high frequency they 
+depend on surface layer inhomogeneity [33]. 
+ 
+Figure 1. Potentiodynamic polarization for mild steel in 1 g/L and 5 g/L bicarbonate/chloride solutions 
+at 2000 rpm. 
+ 
+Figure 2. Equivalent circuit for impedance measurements. 
+Figure 3a,b show the Nyquist and Bode-phase plots measured for specimens in 1 g/L and 5 g/L 
+bicarbonate/ chloride solutions. The impedance spectra show similar trends, although the capacitive 
+loop was depressed with higher bicarbonate concentration. The decrease in the impedance spectra is 
+linked to iron dissolution which contributes to un even surface roughness and irregular distribution 
+of current density on the specimen surface. The Bode impedance plots in Figure 3b show that at low 
+frequencies, the impedance is slightly lower wi th higher bicarbonate concentration. The lower 
+bicarbonate concentration exhibits higher impedance in the capacitive region, which implies that a 
+more protective oxide layer is achieved in lo w concentration bicarbonate. For this lower 
+concentration solution, the phase angle ( ߠ )is higher at low frequencies compared to solution with 
+higher bicarbonate, indicating a more resistive ba rrier film layer at lower concentration. The cross-
+sections of the corrosion products shown in Figure  4 reveal that a more uniform corrosion product 
+was formed in 1 g/L bicarbonate in comparison with 5 g/L bicarbonate solution. 
+-5 -4 -3 -2 -1 0 1 2 3
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+E, V(SCE)
+log i(A/cm
+2
+)
+ 1 g/L NaHCO3 + NaCl
+ 5 g/L NaHCO3 + NaCl
+Figure 1. Potentiodynamic polarization for mild steel in 1 g/L and 5 g/L bicarbonate/chloride
+solutions at 2000 rpm.
+Materials 2016, 9, 748 3 of 18 
+ 
+angle describe the kinetic response for the charge transfer activity, while at high frequency they 
+depend on surface layer inhomogeneity [33]. 
+ 
+Figure 1. Potentiodynamic polarization for mild steel in 1 g/L and 5 g/L bicarbonate/chloride solutions 
+at 2000 rpm. 
+ 
+Figure 2. Equivalent circuit for impedance measurements. 
+Figure 3a,b show the Nyquist and Bode-phase plots measured for specimens in 1 g/L and 5 g/L 
+bicarbonate/ chloride solutions. The impedance spectra show similar trends, although the capacitive 
+loop was depressed with higher bicarbonate concentration. The decrease in the impedance spectra is 
+linked to iron dissolution which contributes to un even surface roughness and irregular distribution 
+of current density on the specimen surface. The Bode impedance plots in Figure 3b show that at low 
+frequencies, the impedance is slightly lower wi th higher bicarbonate concentration. The lower 
+bicarbonate concentration exhibits higher impedance in the capacitive region, which implies that a 
+more protective oxide layer is achieved in lo w concentration bicarbonate. For this lower 
+concentration solution, the phase angle ( ߠ )is higher at low frequencies compared to solution with 
+higher bicarbonate, indicating a more resistive ba rrier film layer at lower concentration. The cross-
+sections of the corrosion products shown in Figure  4 reveal that a more uniform corrosion product 
+was formed in 1 g/L bicarbonate in comparison with 5 g/L bicarbonate solution. 
+-5 -4 -3 -2 -1 0 1 2 3
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+E, V(SCE)
+log i(A/cm
+2
+)
+ 1 g/L NaHCO3 + NaCl
+ 5 g/L NaHCO3 + NaCl
+Figure 2. Equivalent circuit for impedance measurements.
+Figure 3a,b show the Nyquist and Bode-phase plots measured for specimens in 1 g/L and 5 g/L
+bicarbonate/ chloride solutions. The impedance spectra show similar trends, although the capacitive
+loop was depressed with higher bicarbonate concentration. The decrease in the impedance spectra is
+linked to iron dissolution which contributes to uneven surface roughness and irregular distribution
+of current density on the specimen surface. The Bode impedance plots in Figure 3b show that at
+low frequencies, the impedance is slightly lower with higher bicarbonate concentration. The lower
+bicarbonate concentration exhibits higher impedance in the capacitive region, which implies that
+a more protective oxide layer is achieved in low concentration bicarbonate. For this lower concentration
+solution, the phase angle (θ) is higher at low frequencies compared to solution with higher bicarbonate,
+indicating a more resistive barrier ﬁlm layer at lower concentration. The cross-sections of the corrosion
+products shown in Figure 4 reveal that a more uniform corrosion product was formed in 1 g/L
+bicarbonate in comparison with 5 g/L bicarbonate solution.
+
+--- PDF page 4 ---
+Materials 2016, 9, 748 4 of 18
+Materials 2016, 9, 748 4 of 18 
+ 
+(a) ( b)
+Figure 3. Impedance spectra for mild steel in bicarbonate chloride solution: (a) Nyquist plots and (b) 
+Bode phase angle and impedance magnitude vs. frequency plots. 
+  
+(a) ( b) 
+Figure 4. Cross-section of the scale formed at (a) 1 g/L (b) 5 g/L sodium bicarbonate/chloride solution 
+at 2000 rpm. 
+2.2. Dissolved Oxygen 
+Dissolved oxygen concentration decreases with nitrogen purging time. In the present experiments, 
+the nitrogen purging also led to a corresponding decrease in temperature as depicted in Figure 5. The 
+test solution temperature was ≈24 C at 0 h purging, with DO ≈ 4 ppm. The DO decreased significantly 
+to ≈0.8 ppm after 3 h, at which poin t the temperature decreased to ≈18.6 C. The decrease in 
+temperature with purging time was due to the cooling effect of the cooler nitrogen gas. 
+ 
+Figure 5. Dissolved oxygen (DO) concentration and temperature as a function of N2 purging time. 
+0 100 200 300 400 500 600 700 800
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Z im( cm
+2
+)
+Z re (cm
+2
+)
+ 1g/L NaHCO3+NaCl
+ 5g/L NaHCO3+NaCl
+-1 0 1 2 3 4
+0
+10
+20
+30
+40
+50
+1
+2
+3
+4
+Phase angle (deg) 
+log (|Z|/.cm
+2
+)
+log (f/Hz)
+ 1g/L NaHCO3 + NaCl
+ 5g/L NaHCO3 + NaCl
+18
+19
+20
+21
+22
+23
+24
+0123
+1
+2
+3
+4
+Temperature (
+o
+C) 
+ Temperature
+ 
+DO concentration / ppm
+N2 purging time / h
+  Dissolved oxygen
+Steel 
+Scale 
+Epoxy 
+Steel 
+Epoxy 
+Scale 
+Figure 3. Impedance spectra for mild steel in bicarbonate chloride solution: ( a) Nyquist plots and
+(b) Bode phase angle and impedance magnitude vs. frequency plots.
+Materials 2016, 9, 748 4 of 18 
+ 
+(a) ( b)
+Figure 3. Impedance spectra for mild steel in bicarbonate chloride solution: (a) Nyquist plots and (b) 
+Bode phase angle and impedance magnitude vs. frequency plots. 
+  
+(a) ( b) 
+Figure 4. Cross-section of the scale formed at (a) 1 g/L (b) 5 g/L sodium bicarbonate/chloride solution 
+at 2000 rpm. 
+2.2. Dissolved Oxygen 
+Dissolved oxygen concentration decreases with nitrogen purging time. In the present experiments, 
+the nitrogen purging also led to a corresponding decrease in temperature as depicted in Figure 5. The 
+test solution temperature was ≈24 C at 0 h purging, with DO ≈ 4 ppm. The DO decreased significantly 
+to ≈0.8 ppm after 3 h, at which poin t the temperature decreased to ≈18.6 C. The decrease in 
+temperature with purging time was due to the cooling effect of the cooler nitrogen gas. 
+ 
+Figure 5. Dissolved oxygen (DO) concentration and temperature as a function of N2 purging time. 
+0 100 200 300 400 500 600 700 800
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Z im( cm
+2
+)
+Z re (cm
+2
+)
+ 1g/L NaHCO3+NaCl
+ 5g/L NaHCO3+NaCl
+-1 0 1 2 3 4
+0
+10
+20
+30
+40
+50
+1
+2
+3
+4
+Phase angle (deg) 
+log (|Z|/.cm
+2
+)
+log (f/Hz)
+ 1g/L NaHCO3 + NaCl
+ 5g/L NaHCO3 + NaCl
+18
+19
+20
+21
+22
+23
+24
+0123
+1
+2
+3
+4
+Temperature (
+o
+C) 
+ Temperature
+ 
+DO concentration / ppm
+N2 purging time / h
+  Dissolved oxygen
+Steel 
+Scale 
+Epoxy 
+Steel 
+Epoxy 
+Scale 
+Figure 4. Cross-section of the scale formed at (a) 1 g/L (b) 5 g/L sodium bicarbonate/chloride solution
+at 2000 rpm.
+2.2. Dissolved Oxygen
+Dissolved oxygen concentration decreases with nitrogen purging time. In the present experiments,
+the nitrogen purging also led to a corresponding decrease in temperature as depicted in Figure 5.
+The test solution temperature was ≈24◦C at 0 h purging, with DO ≈ 4 ppm. The DO decreased
+signiﬁcantly to≈0.8 ppm after 3 h, at which point the temperature decreased to≈18.6◦C. The decrease
+in temperature with purging time was due to the cooling effect of the cooler nitrogen gas.
+Materials 2016, 9, 748 4 of 18 
+ 
+(a) ( b)
+Figure 3. Impedance spectra for mild steel in bicarbonate chloride solution: (a) Nyquist plots and (b) 
+Bode phase angle and impedance magnitude vs. frequency plots. 
+  
+(a) ( b) 
+Figure 4. Cross-section of the scale formed at (a) 1 g/L (b) 5 g/L sodium bicarbonate/chloride solution 
+at 2000 rpm. 
+2.2. Dissolved Oxygen 
+Dissolved oxygen concentration decreases with nitrogen purging time. In the present experiments, 
+the nitrogen purging also led to a corresponding decrease in temperature as depicted in Figure 5. The 
+test solution temperature was ≈24 C at 0 h purging, with DO ≈ 4 ppm. The DO decreased significantly 
+to ≈0.8 ppm after 3 h, at which poin t the temperature decreased to ≈18.6 C. The decrease in 
+temperature with purging time was due to the cooling effect of the cooler nitrogen gas. 
+ 
+Figure 5. Dissolved oxygen (DO) concentration and temperature as a function of N2 purging time. 
+0 100 200 300 400 500 600 700 800
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Z im( cm
+2
+)
+Z re (cm
+2
+)
+ 1g/L NaHCO3+NaCl
+ 5g/L NaHCO3+NaCl
+-1 0 1 2 3 4
+0
+10
+20
+30
+40
+50
+1
+2
+3
+4
+Phase angle (deg) 
+log (|Z|/.cm
+2
+)
+log (f/Hz)
+ 1g/L NaHCO3 + NaCl
+ 5g/L NaHCO3 + NaCl
+18
+19
+20
+21
+22
+23
+24
+0123
+1
+2
+3
+4
+Temperature (
+o
+C) 
+ Temperature
+ 
+DO concentration / ppm
+N2 purging time / h
+  Dissolved oxygen
+Steel 
+Scale 
+Epoxy 
+Steel 
+Epoxy 
+Scale 
+Figure 5. Dissolved oxygen (DO) concentration and temperature as a function of N2 purging time.
+
+--- PDF page 5 ---
+Materials 2016, 9, 748 5 of 18
+Figure 6 shows the polarization curves of mild steel in bicarbonate/chloride solution in different
+DO concentrations at 2000 rpm. The anodic polarization increased without any retardation at a DO
+concentration of 4 ppm, whereas one anodic peak appeared in solutions containing 1 ppm and
+0.8 ppm DO. The anodic polarization current increases with corrosion potentials below≈−600 mVSCE,
+indicating iron dissolution while at potentials greater than≈− 600 mVSCE, the anodic current decreases
+indicating some form of passivation. A potential cause of this behaviour would be as a result
+of corrosion products. For example, Fe(OH) 2 formed on the specimen surface, according to the
+following reaction:
+Fe + 2H2O→ Fe(OH)2 + 2H+ + 2e−. (5)
+Fe(OH)2 forms a defective hydrous ﬁlm barrier layer between the specimen and the solution,
+and consequently retards the anodic current density [34,35]. The corrosion current density decreased
+with decreasing DO concentration from 201.5 µA·cm−2 to 22.3 µA·cm−2 at 4 ppm and 0.8 ppm,
+respectively, as shown in Table 1. This indicates that a more compact and stable oxide ﬁlm was
+formed at≈−600 mVSCE at lower DO. The increase in anodic polarisation current with decreasing
+DO at a more noble potential could be attributed to the solubility of corrosion product as temperature
+decreases due to the cooling effect of N 2 gas and insufﬁcient oxidation at the steel surface to form
+oxide ﬁlm other than through the Kuch mechanism.
+Materials 2016, 9, 748 5 of 18 
+ 
+Figure 6 shows the polarization curves of mild steel in bicarbonate/chloride solution in different 
+DO concentrations at 2000 rpm. The anodic polarization increased without any retardation at a DO 
+concentration of 4 ppm, whereas one anodic peak appeared in solutions containing 1 ppm and  
+0.8 ppm DO. The anodic polarization current increases with corrosion potentials below ≈−600 mVSCE, 
+indicating iron dissolution while at potentials greater than ≈ −600 mV SCE, the anodic current 
+decreases indicating some form of passivation. A potential cause of this behaviour would be as a 
+result of corrosion products. For example, Fe(OH)2 formed on the specimen surface, according to the 
+following reaction: 
+Fe + 2H2O → Fe(OH) 2 + 2H+ + 2e−. (5) 
+Fe(OH)2 forms a defective hydrous film barrier la yer between the specimen and the solution, 
+and consequently retards the anodic current density [34,35]. The corrosion current density decreased 
+with decreasing DO concen tration from 201.5 µA·cm −2 to 22.3 µA·cm −2 at 4 ppm and 0.8 ppm, 
+respectively, as shown in Table 1. This indicates that a more compact and stable oxide film was 
+formed at ≈−600 mVSCE at lower DO. The increase in anodic polarisation current with decreasing DO 
+at a more noble potential could be attributed to the solubility of corrosion product as temperature 
+decreases due to the cooling effect of N 2 gas and insufficient oxidation at the steel surface to form 
+oxide film other than through the Kuch mechanism. 
+ 
+Figure 6. Potentiodynamic polarization of mild steel in 5 g/L sodium bicarbonate /chloride solution 
+in different dissolved oxygen concentrations at 2000 rpm. 
+Table 1.  Polarization parameters for mild steel in 5 g/L bicarbonate/chloride solution in different 
+dissolved oxygen concentrations. 
+DO (ppm) I corr (µAcm−2) E corr (mV) b a (mV dec−1) −bc (mV dec−1) 
+0.8 22.28 −767.5 163.0 302.9 
+1 25.24 −780.6 138.5 222.9 
+4 201.52 −369.2 243.5 240.3 
+Figure 7a,b show the Nyquist and Bode-phase angle plots for different DO concentrations in 
+bicarbonate/chloride solution. The impedance semi-circle increases with decreasing DO, which 
+implies that decreasing DO facilitates the formation of a more stable oxide layer at the steel surface. 
+A similar trend can be seen in the Bode impedance magnitude spectra (Figure 7b), where the 
+impedance increases with decreasing DO concentrations at low frequencies. The phase angle shows 
+a higher peak as DO concentration decreases. A higher phase angle value at low frequency indicates 
+a higher surface resistance at the steel. The increase in R ct and a decrease in Q dl with increasing DO 
+from 1015 Ω·cm2 at 0.8 ppm to 104.7 Ω·cm2 at 4 ppm as shown in Table 2  can be attributed to oxide 
+film formation. The film resistance (R a) increases significantly with decreasing DO concentration, 
+suggesting that the corrosion product at the steel surface is more dense and protective at a relatively 
+low DO as shown in Figure 8. 
+-4 -3 -2 -1 0 1 2
+-1.5
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+E, V (SCE)
+log i (A/cm
+2
+)
+ 4ppm
+ 1ppm
+ 0.8ppm
+Figure 6. Potentiodynamic polarization of mild steel in 5 g/L sodium bicarbonate /chloride solution
+in different dissolved oxygen concentrations at 2000 rpm.
+Table 1. Polarization parameters for mild steel in 5 g/L bicarbonate/chloride solution in different
+dissolved oxygen concentrations.
+DO (ppm) Icorr (µA·cm−2) Ecorr (mV) ba (mV·dec−1) −bc (mV·dec−1)
+0.8 22.28 −767.5 163.0 302.9
+1 25.24 −780.6 138.5 222.9
+4 201.52 −369.2 243.5 240.3
+Figure 7a,b show the Nyquist and Bode-phase angle plots for different DO concentrations in
+bicarbonate/chloride solution. The impedance semi-circle increases with decreasing DO, which implies
+that decreasing DO facilitates the formation of a more stable oxide layer at the steel surface. A similar
+trend can be seen in the Bode impedance magnitude spectra (Figure 7b), where the impedance increases
+with decreasing DO concentrations at low frequencies. The phase angle shows a higher peak as DO
+concentration decreases. A higher phase angle value at low frequency indicates a higher surface
+resistance at the steel. The increase in Rct and a decrease in Qdl with increasing DO from 1015 Ω·cm2
+at 0.8 ppm to 104.7 Ω·cm2 at 4 ppm as shown in Table 2 can be attributed to oxide ﬁlm formation.
+The ﬁlm resistance (Ra) increases signiﬁcantly with decreasing DO concentration, suggesting that the
+corrosion product at the steel surface is more dense and protective at a relatively low DO as shown in
+Figure 8.
+
+--- PDF page 6 ---
+Materials 2016, 9, 748 6 of 18
+Table 2. Impedance parameters for mild steel in bicarbonate/chloride solution in different dissolved
+oxygen concentrations.
+DO (ppm) Rs (Ω·cm2) Rct (Ω·cm2) Qdl (F·cm−2) n Ra (Ω·cm2) Qa (F·cm−2)
+0.8 46.3 1015 1.76× 10−3 0.77 440.04 5.9× 10−4
+1 53.8 874.7 1.18× 10−3 0.66 90.49 1.39× 10−3
+4 63.5 104.7 6.88× 10−3 0.59 33.04 3.75× 10−3
+Materials 2016, 9, 748 6 of 18 
+ 
+(a) ( b)
+Figure 7. Impedance spectra for mild steel in 5 g/L bicarbonate/chloride solution in different dissolved 
+oxygen concentration at 2000 rpm (a) Nyquist impedance plots (b) Bode and phase angle plots. 
+Table 2. Impedance parameters for mild steel in bicarbonate/chloride solution in different dissolved 
+oxygen concentrations. 
+DO 
+(ppm) Rs (Ω·cm2) Rct (Ω·cm2) Qdl (F·cm−2) n Ra (Ω·cm2) Qa (F·cm−2) 
+0.8 46.3 1015 1.76 × 10 −3 0.77 440.04 5.9 × 10 −4 
+1 53.8 874.7 1.18 × 10 −3 0.66 90.49 1.39 × 10 −3 
+4 63.5 104.7 6.88 × 10 −3 0.59 33.04 3.75 × 10 −3 
+ 
+(a) ( b)
+(c)
+Figure 8. Cross-section of the scale formed at in 5 g/L bicarbonate/chloride solution for ( a) 4 ppm (b) 
+1 ppm (c) 0.8 ppm dissolved oxygen at 2000 rpm. 
+0 200 400 600 800
+0
+200
+400
+600
+800
+Zim (.cm
+2
+)
+Zre (.cm
+2
+)
+ 4ppm
+ 1ppm
+ 0.8ppm
+- 1 01234
+0
+10
+20
+30
+40
+50
+- 1 01234
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+Phase angle(deg) 
+ 
+log(|Z|/.cm
+2
+)
+log (f/Hz)
+ 4ppm
+ 1ppm
+ 0.8ppm
+Steel 
+Epoxy 
+Scale 
+Steel 
+Scale 
+Epoxy 
+(b) 
+Steel 
+Scale 
+Epoxy 
+Figure 7. Impedance spectra for mild steel in 5 g/L bicarbonate/chloride solution in different dissolved
+oxygen concentration at 2000 rpm (a) Nyquist impedance plots (b) Bode and phase angle plots.
+Materials 2016, 9, 748 6 of 18 
+ 
+(a) ( b)
+Figure 7. Impedance spectra for mild steel in 5 g/L bicarbonate/chloride solution in different dissolved 
+oxygen concentration at 2000 rpm (a) Nyquist impedance plots (b) Bode and phase angle plots. 
+Table 2. Impedance parameters for mild steel in bicarbonate/chloride solution in different dissolved 
+oxygen concentrations. 
+DO 
+(ppm) Rs (Ω·cm2) Rct (Ω·cm2) Qdl (F·cm−2) n Ra (Ω·cm2) Qa (F·cm−2) 
+0.8 46.3 1015 1.76 × 10 −3 0.77 440.04 5.9 × 10 −4 
+1 53.8 874.7 1.18 × 10 −3 0.66 90.49 1.39 × 10 −3 
+4 63.5 104.7 6.88 × 10 −3 0.59 33.04 3.75 × 10 −3 
+ 
+(a) ( b)
+(c)
+Figure 8. Cross-section of the scale formed at in 5 g/L bicarbonate/chloride solution for ( a) 4 ppm (b) 
+1 ppm (c) 0.8 ppm dissolved oxygen at 2000 rpm. 
+0 200 400 600 800
+0
+200
+400
+600
+800
+Zim (.cm
+2
+)
+Zre (.cm
+2
+)
+ 4ppm
+ 1ppm
+ 0.8ppm
+- 1 01234
+0
+10
+20
+30
+40
+50
+- 1 01234
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+Phase angle(deg) 
+ 
+log(|Z|/.cm
+2
+)
+log (f/Hz)
+ 4ppm
+ 1ppm
+ 0.8ppm
+Steel 
+Epoxy 
+Scale 
+Steel 
+Scale 
+Epoxy 
+(b) 
+Steel 
+Scale 
+Epoxy 
+Figure 8. Cross-section of the scale formed at in 5 g/L bicarbonate/chloride solution for ( a) 4 ppm
+(b) 1 ppm (c) 0.8 ppm dissolved oxygen at 2000 rpm.
+
+--- PDF page 7 ---
+Materials 2016, 9, 748 7 of 18
+2.3. Immersion Time
+Figure 9 contains polarization curves showing the effect of immersion time on mild steel in
+bicarbonate/chloride solution at 0.8 ppm DO under dynamic conditions (2000 rpm) rotation speeds.
+The polarisation curves show that immersion time has a marked effect on anodic and cathodic
+polarization current. However, the effect was more apparent at corrosion potentials between (−250 and
++ 250 mVSCE), where anodic potential current decreased with immersion time. The curve for each
+immersion time contains one anodic peak and, as expected, corrosion products on the steel surface
+become thicker and more compact with immersion time. Siderite can form in relatively low ﬂow
+velocities at pH > 5, and the ﬁlm thickness increases with time [16]. The passivation potential range
+becomes broader with increasing immersion time, with the pitting breakdown potential Eb increasing
+from≈−355 mVSCE at 2 h to≈−229 mVSCE after 8 h immersion time as shown in Table 3.
+Materials 2016, 9, 748 7 of 18 
+ 
+2.3. Immersion Time 
+Figure 9 contains polarization curves showing th e effect of immersion ti me on mild steel in 
+bicarbonate/chloride solution at 0.8 ppm DO under dynamic conditions (2000 rpm) rotation speeds. 
+The polarisation curves show that immersion time  has a marked effect on anodic and cathodic 
+polarization current. However, the effect was mo re apparent at corrosion potentials between ( −250 
+and + 250 mVSCE), where anodic potential current decreased with immersion time. The curve for each 
+immersion time contains one anodic peak and, as expected, corrosion products on the steel surface 
+become thicker and more compact with immersion ti me. Siderite can form in relatively low flow 
+velocities at pH > 5, and the film thickness increases with time [16]. The passivation potential range 
+becomes broader with increasing immersion time, with the pitting breakdown potential Eb increasing 
+from ≈−355 mVSCE at 2 h to ≈−229 mVSCE after 8 h immersion time as shown in Table 3. 
+ 
+Figure 9.  Potentiodynamic polarization for mild steel in 5 g/L bicarbonate/chloride solution at 
+different immersion times at 2000 rpm. 
+Table 3. Polarization parameters for mild  steel in 5 g/L bicarbonate/ch loride solution for different 
+immersion times at 2000 rpm. 
+Immersion 
+Time (h) 
+Icorr 
+(µA·cm−2) 
+Eb 
+(mV) 
+Ecorr 
+(mV) ba (mV dec−1) - bc (mV dec−1) 
+2 22.28 −355.0 −767.5 163.0 302.9 
+4 8.98 −292.3 −820.4 126.6 138.0 
+8 6.04 −229.1 −833.9 145.6 134.8 
+Figure 10  shows the Nyquist plots and Bode phase angle plots  of mild steel in 
+bicarbonate/chloride solution at 0.8 ppm DO at different immersion times at 2000 rpm. The Nyquist 
+plots in Figure 10a show that the diameter of th e semi-circle increases with immersion time, which 
+implies that the steel surface resistance improves with immersion time. The result is consistent with 
+more corrosion product being deposited on the the steel surface, and forming a relatively inert surface 
+barrier at the steel–solution interface.  The charge transfer resistance (R ct) increased from  
+1015 Ω·cm2 to 2700 Ω·cm2 in going from 2 h to 8 h immersion time as shown in Table 4, presumably 
+as a result of deterioration of the oxide film on the steel surface. A similar result was reported in our 
+previous work [31]. The Bode impedance magnit ude plots show similar trends. The impedance 
+magnitude and the phase angle increase with immersion time as evident in Bode plots at low 
+frequencies as shown in Figure 10b, implying that the corrosion product at the steel surface becomes 
+denser and more protective with immers ion time, as is evident in Figure 11.  It would therefore be 
+expected that metal dissolution would be retard ed, in agreement with the data obtained from 
+polarization curves. 
+-5 -4 -3 -2 -1 0 1 2
+-1.5
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+E,V (SCE)
+log i (A/cm
+2
+)
+ 2h
+ 4h
+ 8h
+Figure 9. Potentiodynamic polarization for mild steel in 5 g/L bicarbonate/chloride solution at
+different immersion times at 2000 rpm.
+Table 3. Polarization parameters for mild steel in 5 g/L bicarbonate/chloride solution for different
+immersion times at 2000 rpm.
+Immersion Time (h) Icorr (µA·cm−2) Eb (mV) E corr (mV) ba (mV·dec−1) −bc (mV·dec−1)
+2 22.28 −355.0 −767.5 163.0 302.9
+4 8.98 −292.3 −820.4 126.6 138.0
+8 6.04 −229.1 −833.9 145.6 134.8
+Figure 10 shows the Nyquist plots and Bode phase angle plots of mild steel in bicarbonate/chloride
+solution at 0.8 ppm DO at different immersion times at 2000 rpm. The Nyquist plots in Figure 10a show
+that the diameter of the semi-circle increases with immersion time, which implies that the steel surface
+resistance improves with immersion time. The result is consistent with more corrosion product being
+deposited on the the steel surface, and forming a relatively inert surface barrier at the steel–solution
+interface. The charge transfer resistance (Rct) increased from 1015 Ω·cm2 to 2700 Ω·cm2 in going from
+2 h to 8 h immersion time as shown in Table 4, presumably as a result of deterioration of the oxide ﬁlm
+on the steel surface. A similar result was reported in our previous work [ 31]. The Bode impedance
+magnitude plots show similar trends. The impedance magnitude and the phase angle increase with
+immersion time as evident in Bode plots at low frequencies as shown in Figure 10b, implying that the
+corrosion product at the steel surface becomes denser and more protective with immersion time, as
+is evident in Figure 11. It would therefore be expected that metal dissolution would be retarded, in
+agreement with the data obtained from polarization curves.
+
+--- PDF page 8 ---
+Materials 2016, 9, 748 8 of 18
+Table 4. Impedance parameters for mild steel in bicarbonate/chloride solution for different
+immersion times.
+Immersion Time (h) Rs (Ω·cm2) Rct (Ω·cm2) Qdl (F·cm−2) n Ra (Ω·cm2) Qa (F·cm−2)
+2 46.3 1015 1.76× 10−3 0.77 440.04 5.9× 10−4
+4 30.5 1370 1.65× 10−3 1 804.0 5.04× 10−4
+8 41.6 2700 7.28× 10−4 0.82 618.6 5.83× 10−4
+Materials 2016, 9, 748 8 of 18 
+ 
+Table 4. Impedance parameters for mild steel in bicarbonate/chloride solution for different immersion 
+times. 
+Immersion 
+Time (h) 
+Rs 
+(Ω·cm2) 
+Rct 
+(Ω·cm2) Qdl (F·cm−2) n Ra (Ω·cm2) Qa (F·cm−2) 
+2 46.3 1015 1.76 × 10 −3 0.77 440.04 5.9 × 10 −4 
+4 30.5 1370 1.65 × 10 −3 1 804.0 5.04 × 10 −4 
+8 41.6 2700 7.28 × 10 −4 0.82 618.6 5.83 × 10 −4 
+ 
+(a) ( b)
+Figure 10. Impedance spectra for mild steel in 5 g/L bicarbonate/chloride solution at different 
+immersion times at 2000 rpm (a) Nyquist impedance plots (b) Bode and phase angle plots. 
+(a) ( b) 
+(c) 
+Figure 11. Cross-section of the scale formed in 5 g/L sodium bicarbonate/chloride solution at 2000 rpm 
+after (a) 2 h (b) 4 h and (c) 8 h immersion times. 
+0 200 400 600 800 1000 1200 1400 1600 1800
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+Zim (.cm
+2
+)
+Zre (.cm
+2
+)
+ 2h
+ 4h
+ 8h
+- 1 01234
+0
+10
+20
+30
+40
+50
+60
+70
+- 1 01234
+1
+2
+3
+4
+Phase angle (deg) 
+ 
+log (|Z|/cm
+2
+)
+log (f/Hz)
+ 2h
+ 4h
+ 8h
+Steel 
+Epoxy 
+Scale 
+Steel 
+Scale 
+Epoxy 
+Steel 
+Scale 
+Epoxy 
+Figure 10. Impedance spectra for mild steel in 5 g/L bicarbonate/chloride solution at different
+immersion times at 2000 rpm (a) Nyquist impedance plots (b) Bode and phase angle plots.
+Materials 2016, 9, 748 8 of 18 
+ 
+Table 4. Impedance parameters for mild steel in bicarbonate/chloride solution for different immersion 
+times. 
+Immersion 
+Time (h) 
+Rs 
+(Ω·cm2) 
+Rct 
+(Ω·cm2) Qdl (F·cm−2) n Ra (Ω·cm2) Qa (F·cm−2) 
+2 46.3 1015 1.76 × 10 −3 0.77 440.04 5.9 × 10 −4 
+4 30.5 1370 1.65 × 10 −3 1 804.0 5.04 × 10 −4 
+8 41.6 2700 7.28 × 10 −4 0.82 618.6 5.83 × 10 −4 
+ 
+(a) ( b)
+Figure 10. Impedance spectra for mild steel in 5 g/L bicarbonate/chloride solution at different 
+immersion times at 2000 rpm (a) Nyquist impedance plots (b) Bode and phase angle plots. 
+(a) ( b) 
+(c) 
+Figure 11. Cross-section of the scale formed in 5 g/L sodium bicarbonate/chloride solution at 2000 rpm 
+after (a) 2 h (b) 4 h and (c) 8 h immersion times. 
+0 200 400 600 800 1000 1200 1400 1600 1800
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+Zim (.cm
+2
+)
+Zre (.cm
+2
+)
+ 2h
+ 4h
+ 8h
+- 1 01234
+0
+10
+20
+30
+40
+50
+60
+70
+- 1 01234
+1
+2
+3
+4
+Phase angle (deg) 
+ 
+log (|Z|/cm
+2
+)
+log (f/Hz)
+ 2h
+ 4h
+ 8h
+Steel 
+Epoxy 
+Scale 
+Steel 
+Scale 
+Epoxy 
+Steel 
+Scale 
+Epoxy 
+Figure 11. Cross-section of the scale formed in 5 g/L sodium bicarbonate/chloride solution at 2000 rpm
+after (a) 2 h (b) 4 h and (c) 8 h immersion times.
+
+--- PDF page 9 ---
+Materials 2016, 9, 748 9 of 18
+2.4. Surface Analysis
+Figure 12 shows scanning electron micrographs obtained from the surfaces of samples immersed
+in 1 g/L and 5 g/L bicarbonate chloride solutions at 2000 rpm. The SEM results show that pits with
+relatively small diameters of a few microns were predominant with specimen in low bicarbonate
+concentration. The density of pits decreased in the sample exposed to 5 g/L bicarbonate solution, but
+the pits became much larger both in depth and width. Figure 13a–c show the surface morphologies
+of specimens after corrosion tests in bicarbonate/chloride solution at different dissolved oxygen
+(DO) concentrations. The micrographs revealed that the corrosion damage decreases with decreasing
+dissolved oxygen due to more tenacious oxide ﬁlm on the steel–solution interface, as shown in
+Figure 13c for solution containing 0.8 ppm DO. Our cross-sectional images (Figure 11) show that the
+oxide ﬁlm thickness increases with immersion time, the ﬁlm morphology also varies with immersion
+time as shown in Figure 14 providing a barrier layer at the metal–solution interface, and as a result
+the surface damage also decreases, ranging from pitting corrosion to general corrosion, as shownin
+Figure 15.
+Materials 2016, 9, 748 9 of 18 
+ 
+2.4. Surface Analysis 
+Figure 12 shows scanning electron micrographs obtained from the surfaces of samples immersed 
+in 1 g/L and 5 g/L bicarbonate chloride solutions at 2000 rpm. The SEM results show that pits with 
+relatively small diameters of a few microns were  predominant with specimen in low bicarbonate 
+concentration. The density of pits decreased in the sample exposed to 5 g/L bicarbonate solution, but 
+the pits became much larger both in depth and width. Figure 13a–c show the surface morphologies 
+of specimens after corrosion tests in bicarbonate/chloride solution at different dissolved oxygen (DO) 
+concentrations. The micrographs revealed that th e corrosion damage decreases with decreasing 
+dissolved oxygen due to more tenacious oxide film on the steel–solution interface, as shown in Figure 
+13c for solution containing 0.8 ppm DO. Our cross-sectional images (Figure 11) show that the oxide 
+film thickness increases with immersion time, the film morphology also varies with immersion time 
+as shown in Figure 14 providing a barrier layer at the metal–solution interface, and as a result the 
+surface damage also decreases, ranging from pitti ng corrosion to general corrosion, as shownin 
+Figure 15. 
+ 
+Figure 12.  Scanning Electron Microscopy micrographs of mild steel in 5 g/L bicarbonate/chloride 
+solution at 2000 rpm: (a) 1 g/L and (b) 5 g/L bicarbonate solution. 
+ 
+(a) ( b)
+(c)
+Figure 13. Scanning Electron Microscopy micrograph in 5 g/L bicarbonate/chloride solution at 2000 rpm: 
+(a) 4 ppm (b) 1 ppm (c) 0.8 ppm dissolve oxygen. 
+Figure 12. Scanning Electron Microscopy micrographs of mild steel in 5 g/L bicarbonate/chloride
+solution at 2000 rpm: (a) 1 g/L and (b) 5 g/L bicarbonate solution.
+Materials 2016, 9, 748 9 of 18 
+ 
+2.4. Surface Analysis 
+Figure 12 shows scanning electron micrographs obtained from the surfaces of samples immersed 
+in 1 g/L and 5 g/L bicarbonate chloride solutions at 2000 rpm. The SEM results show that pits with 
+relatively small diameters of a few microns were  predominant with specimen in low bicarbonate 
+concentration. The density of pits decreased in the sample exposed to 5 g/L bicarbonate solution, but 
+the pits became much larger both in depth and width. Figure 13a–c show the surface morphologies 
+of specimens after corrosion tests in bicarbonate/chloride solution at different dissolved oxygen (DO) 
+concentrations. The micrographs revealed that th e corrosion damage decreases with decreasing 
+dissolved oxygen due to more tenacious oxide film on the steel–solution interface, as shown in Figure 
+13c for solution containing 0.8 ppm DO. Our cross-sectional images (Figure 11) show that the oxide 
+film thickness increases with immersion time, the film morphology also varies with immersion time 
+as shown in Figure 14 providing a barrier layer at the metal–solution interface, and as a result the 
+surface damage also decreases, ranging from pitti ng corrosion to general corrosion, as shownin 
+Figure 15. 
+ 
+Figure 12.  Scanning Electron Microscopy micrographs of mild steel in 5 g/L bicarbonate/chloride 
+solution at 2000 rpm: (a) 1 g/L and (b) 5 g/L bicarbonate solution. 
+ 
+(a) ( b)
+(c)
+Figure 13. Scanning Electron Microscopy micrograph in 5 g/L bicarbonate/chloride solution at 2000 rpm: 
+(a) 4 ppm (b) 1 ppm (c) 0.8 ppm dissolve oxygen. 
+Figure 13. Scanning Electron Microscopy micrograph in 5 g/L bicarbonate/chloride solution at
+2000 rpm: (a) 4 ppm (b) 1 ppm (c) 0.8 ppm dissolve oxygen.
+
+--- PDF page 10 ---
+Materials 2016, 9, 748 10 of 18
+Materials 2016, 9, 748 10 of 18 
+ 
+(a) ( b) 
+(c) 
+Figure 14.  Scanning Electron Microscopy micrographs of mild steel in 5 g/L bicarbonate/chloride 
+solution at 2000 rpm before cleaning: (a) 2 h (b) 4 h (c) 8 h immersion time. 
+(a) ( b)
+(c)
+Figure 15.  Scanning Electron Microscopy micrographs of mild steel in 5 g/L bicarbonate/chloride 
+solution at 2000 rpm after cleaning: (a) 2 h (b) 4 h (c) 8 h immersion time. 
+Figure 14. Scanning Electron Microscopy micrographs of mild steel in 5 g/L bicarbonate/chloride
+solution at 2000 rpm before cleaning: (a) 2 h (b) 4 h (c) 8 h immersion time.
+Materials 2016, 9, 748 10 of 18 
+ 
+(a) ( b) 
+(c) 
+Figure 14.  Scanning Electron Microscopy micrographs of mild steel in 5 g/L bicarbonate/chloride 
+solution at 2000 rpm before cleaning: (a) 2 h (b) 4 h (c) 8 h immersion time. 
+(a) ( b)
+(c)
+Figure 15.  Scanning Electron Microscopy micrographs of mild steel in 5 g/L bicarbonate/chloride 
+solution at 2000 rpm after cleaning: (a) 2 h (b) 4 h (c) 8 h immersion time. 
+Figure 15. Scanning Electron Microscopy micrographs of mild steel in 5 g/L bicarbonate/chloride
+solution at 2000 rpm after cleaning: (a) 2 h (b) 4 h (c) 8 h immersion time.
+
+--- PDF page 11 ---
+Materials 2016, 9, 748 11 of 18
+The corrosion pit density and pit depth in specimens immersed in 1 g/L and 5 g/L bicarbonate
+were further studied using Leica optical microscopy. The results show that the corrosion pit density
+decreases while the depth increases with bicarbonate concentration. The pit depth increases from
+≈−8µm to≈−60µm for 1 g/L and 5 g/L, respctively, as shown in Figure 16.
+Materials 2016, 9, 748 11 of 18 
+ 
+The corrosion pit density and pit depth in spec imens immersed in 1 g/L and 5 g/L bicarbonate 
+were further studied using Leica optical microscopy. The results show that the corrosion pit density 
+decreases while the depth increases with bicarbonate concentration. The pit depth increases from ≈−8 
+µm to ≈−60 µm for 1 g/L and 5 g/L, respctively, as shown in Figure 16. 
+The corrosion pit density and pit depth in spec imens immersed in 1 g/L and 5 g/L bicarbonate 
+were further studied using Leica optical microscopy. The results show that the corrosion pit density 
+decreases while the depth increases with bicarbonate concentration [36]. The pit depth increases from 
+≈8 µm to ≈60 µm for 1 g/L and 5 g/L, resp ctively, as shown in Figure 16. The dissolution of iron is 
+accelerated in the presence of bicarbonate owing to the formation of the stable soluble complex anion 
+Fe (CO3)22− as reported in [3]. As more corrosion produc t is formed at the metal surface, galvanic 
+couples could occur between steel surfaces covered with corrosion products (cathode) and uncovered 
+active site (anode). This unstable thermodynamic condition accelerates the initiation and propagation 
+of localized corrosion as shown in Figure 17. 
+ 
+ 
+(a) 
+ (b) 
+(c) 
+8 µm 
+(d) (e) 
+(f) 
+60 µm 
+Figure 16. Topography proﬁle and 3D image of pit affected area: ( a–c) 1 g/L and ( d–f) 5 g/L
+bicarbonate/chloride solution.
+The corrosion pit density and pit depth in specimens immersed in 1 g/L and 5 g/L bicarbonate
+were further studied using Leica optical microscopy. The results show that the corrosion pit density
+decreases while the depth increases with bicarbonate concentration [36]. The pit depth increases from
+≈8µm to≈60µm for 1 g/L and 5 g/L, respctively, as shown in Figure 16. The dissolution of iron is
+
+--- PDF page 12 ---
+Materials 2016, 9, 748 12 of 18
+accelerated in the presence of bicarbonate owing to the formation of the stable soluble complex anion
+Fe (CO3)22− as reported in [3]. As more corrosion product is formed at the metal surface, galvanic
+couples could occur between steel surfaces covered with corrosion products (cathode) and uncovered
+active site (anode). This unstable thermodynamic condition accelerates the initiation and propagation
+of localized corrosion as shown in Figure 17.
+Materials 2016, 9, 748 12 of 18 
+ 
+Figure 16.  Topography profile and 3D image of pit affected area: ( a–c) 1 g/L and ( d–f) 5 g/L 
+bicarbonate/chloride solution. 
+ 
+Figure 17. Schematic mechanism of bicarbonate concentration effect: ( a,b) 5 g/L NaHCO3 (c,d) 1 g/L 
+NaHCO3 concentration. 
+2.5. XRD Analyses 
+Figure 18 shows the XRD patterns for specimens immersed in bicarbonate chloride containing 
+solution at 2000 rpm. Figure 18a–c show the peak patterns for unimmersed and immersed specimens 
+in different bicarbonate concentrations. The elemen tal composition of the corrosion products tested 
+under different bicarbonate concentrations show similarities in their chemical composition. 
+However, the XRD patterns in Figure 18b indicate diffraction peaks of mainly Fe (iron) (44.3%) and 
+a single peak for ߚ-FeO(OH) (akaganeite) (16.32%) and ߛ-FeO(OH) (lepidocrocite) (39.34%), in 
+contrast to the peak patterns in Figure 18c, with multiple peaks of both (ߙ-FeO(OH) goethite (58.16%) 
+and ߚ-FeO(OH) (akaganeite) (6.20%). The multiple peaks could probably be due to the density of the 
+corrosion products on the steel surface. The formation of akaganeite confirms the presence of chloride 
+ions in the corrosion products [31,37]. The relati vely high amount of akaganeite in the specimen 
+immersed in 1 g·L −1 bicarbonate/chloride solution implies th at the corrosion product contains more 
+chloride ions. Figure 18d,e show the XRD pe ak patterns for specimens immersed in 5 g·L −1 
+bicarbonate/chloride containing different di ssolved oxygen concentrations. Goethite ( ߙ-FeO(OH)), 
+siderite FeCO3 and maghemite ( ߛ-Fe2O3)  w e r e  f o r m e d  a t  e a c h  D O  c o n c e n t r a t i o n .  H o w e v e r ,  m o r e  
+siderite FeCO3 and maghemite (ߛ-Fe2O3) peaks are evident as DO decreases, as shown in Figure 18e. 
+Anode 
+Cathode 
+Steel 
+Rust layer 
+(a) 
+Pit 
+(b) 
+Anode 
+Cathode 
+Rust layer 
+(c) 
+ (d) 
+Pit 
+Figure 17. Schematic mechanism of bicarbonate concentration effect: (a,b) 5 g/L NaHCO3 (c,d) 1 g/L
+NaHCO3 concentration.
+2.5. XRD Analyses
+Figure 18 shows the XRD patterns for specimens immersed in bicarbonate chloride containing
+solution at 2000 rpm. Figure 18a–c show the peak patterns for unimmersed and immersed specimens
+in different bicarbonate concentrations. The elemental composition of the corrosion products tested
+under different bicarbonate concentrations show similarities in their chemical composition. However,
+the XRD patterns in Figure 18b indicate diffraction peaks of mainly Fe (iron) (44.3%) and a single peak
+for β-FeO(OH) (akaganeite) (16.32%) and γ-FeO(OH) (lepidocrocite) (39.34%), in contrast to the peak
+patterns in Figure 18c, with multiple peaks of both ( α-FeO(OH) goethite (58.16%) and β-FeO(OH)
+(akaganeite) (6.20%). The multiple peaks could probably be due to the density of the corrosion
+products on the steel surface. The formation of akaganeite conﬁrms the presence of chloride ions in
+the corrosion products [31,37]. The relatively high amount of akaganeite in the specimen immersed in
+1 g·L−1 bicarbonate/chloride solution implies that the corrosion product contains more chloride ions.
+Figure 18d,e show the XRD peak patterns for specimens immersed in 5 g·L−1 bicarbonate/chloride
+containing different dissolved oxygen concentrations. Goethite ( α-FeO(OH)), siderite FeCO 3 and
+
+--- PDF page 13 ---
+Materials 2016, 9, 748 13 of 18
+maghemite (γ-Fe2O3) were formed at each DO concentration. However, more siderite FeCO 3 and
+maghemite (γ-Fe2O3) peaks are evident as DO decreases, as shown in Figure 18e.
+Materials 2016, 9, 748 13 of 18 
+ 
+(a) ( b)
+(c) ( d)
+(e)
+Figure 18.  XRD analysis of corrosion products of mild  steel in bicarbonate solutions containing 
+chloride at 2000 rpm: (a) unimmersed (b) 1 g/L and (c) 5 g/L bicarbonate (d) 4 ppm (e) 1 ppm. 
+2.6. XPS Analyses 
+Prior to XPS measurements, samples were sputtered for 60 min using 2 keV Ar+ ions to remove 
+adsorbed surface contamination and reveal the underlying chemistry in more detail. Argon 
+sputtering is known to convert FeCO3 to FeO [38], and, correspondingly, we did not observe FeCO3, 
+which can be identified from its high-binding-energy contribution to C 1s, in our spectra. All spectra 
+were calibrated to the C-C adventitious carbon pe ak at 284.8 eV. In each spectrum, the dominant C 
+1s component was identified as adventitious C-C. In each case, this peak had the expected companion 
+C-O/C=O peaks at higher binding energy. The O 1s  spectra of the two samples (Figure 19) were 
+similar, and could be deconvolved into tw o peaks: a relatively sharp peak near  
+0 20 40 60 80 100 120
+0
+200
+400
+600
+800
+1000
+
+
+
+Intensity (a.u)
+2 Theta ()
+ Fe
+0 2 04 06 08 0 1 0 0 1 2 0
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+
+Fe2O3
+
+
+
+
+
+FeO(OH)
+
+
+Intensity (a.u)
+2 Theta ()
+
+
+
+
+Fe
+FeO(OH)
+0 20 40 60 80 100 120
+0
+250
+500
+750
+1000
+1250
+1500
+FeO(OH)
+Fe2O3
+
+FeO(OH)
+FeO(OH) 
+Fe
+
+ 
+ 
+
+Intensity (a.u)
+2 Theta (°)
+
+0 20 40 60 80 100 120
+0
+100
+200
+300
+400
+500
+600
+
+
+
+
+
+Intensity (a.u)
+2 Theta ()
+
+
+
+ Fe
+FeO(OH)
+FeCO3
+Fe2O3
+0 20 40 60 80 100 120
+0
+100
+200
+300
+400
+500
+600
+700
+
+
+
+
+ 
+Intensity (a.u)
+2 Theta ()
+
+
+Fe
+FeO(OH)
+FeCO3
+Fe2O3
+Figure 18. XRD analysis of corrosion products of mild steel in bicarbonate solutions containing chloride
+at 2000 rpm: (a) unimmersed (b) 1 g/L and (c) 5 g/L bicarbonate (d) 4 ppm (e) 1 ppm.
+2.6. XPS Analyses
+Prior to XPS measurements, samples were sputtered for 60 min using 2 keV Ar+ ions to remove
+adsorbed surface contamination and reveal the underlying chemistry in more detail. Argon sputtering
+is known to convert FeCO3 to FeO [38], and, correspondingly, we did not observe FeCO3, which can be
+identiﬁed from its high-binding-energy contribution to C 1s, in our spectra. All spectra were calibrated
+to the C-C adventitious carbon peak at 284.8 eV . In each spectrum, the dominant C 1s component was
+identiﬁed as adventitious C-C. In each case, this peak had the expected companion C-O/C=O peaks at
+higher binding energy. The O 1s spectra of the two samples (Figure 19) were similar, and could be
+
+--- PDF page 14 ---
+Materials 2016, 9, 748 14 of 18
+deconvolved into two peaks: a relatively sharp peak near 530 eV (dark gray component) and a broader
+peak centred near 531 eV (light gray component). The lower binding energy peak has the expected
+shape and location for O2− in iron oxides (Fe3O4,α-FeO(OH) and FeO). The broader, higher binding
+energy peak is consistent with the OH− oxygens inα-FeO(OH), as well as with the C-O contribution
+from adventitious carbon. The analysis of Fe 2p is complicated due to the multiplet structure of Fe 2p
+peaks for high-spin compounds comprising Fe2+ and Fe3+ [39]. The multiplet structure manifests in
+a broad, asymmetric peak shape, particularly when measured with unmonochromated radiation as
+in the present measurements, making deconvolution of contributions from multiple chemical states
+difﬁcult, and hence we offer only a qualitative analysis of the Fe 2p spectra shown in Figure 19. As with
+O 1s, the samples show similar peak shapes. The spectral weight in each sample is centred near 710 eV ,
+consistent with contributions from Fe3O4 andα-FeO(OH).
+Materials 2016, 9, 748 14 of 18 
+ 
+530 eV (dark gray component) and a broader peak centred near 531 eV (light gray component). The 
+lower binding energy peak has the expected shape and location for O 2− in iron oxides (Fe 3O4, α-
+FeO(OH) and FeO). The broader, higher binding energy peak is consistent with the OH − oxygens in 
+α-FeO(OH), as well as with the C-O contribution from adventitious carbon. The analysis of Fe 2p is 
+complicated due to the multiplet structure of Fe 2p peaks for high-spin compounds comprising Fe2+ 
+and Fe3+ [39]. The multiplet structure manifests in a broad, asymmetric peak shape, particularly when 
+measured with unmonochromated radiation as in the present measurements, making deconvolution 
+of contributions from multiple chemical states difficult, and hence we offer only a qualitative analysis 
+of the Fe 2p spectra shown in Figure 19. As with  O 1s, the samples show similar peak shapes. The 
+spectral weight in each sample is centred near 710 eV, consistent with contributions from Fe3O4 and 
+α-FeO(OH). 
+ 
+Figure 19. XPS collected from the Fe 2p (left) and O 1s (right) regions of Samples: (a) 1 g/L and (b) 5 g/L. 
+The Fe 2p data are presented without background  subtraction, and without deconvolution of the 
+peaks. The O 1s data have had a Shirley background subtracted and have been deconvolved into two 
+contributions. The indicated positions for different chemical states are approximate, and are based on 
+values taken from [38,39]. 
+3. Experimental Section 
+3.1. Materials and Solutions 
+Cylindrical carbon steel rod (  16 mm) of grade AISI 1020 wa s utilized as the rotating disc 
+electrode (RDE). The chemical composition of the as-received rod was analyzed using a Field 
+Emission Electron Probe Microanalyzer (JXA-8530F) with results shown in Table 5. The test samples 
+were polished using emery papers of grit sizes ranging from 220 to 800. Two solutions were prepared 
+by dissolving analytical grade sodium bicarbonat e (1 g, 5 g) and 2 g of sodium chloride in  
+1 L of distilled deionized water. The solutions were deaerated by bubbling nitrogen gas three hours 
+before sample immersion to study the effect of bicarbonate concentrations and immersion time. To 
+study the effects of dissolved oxygen, nitrogen gas was bubbled for 0 h, 2 h and 3 h which resulted 
+in 4 ppm, 1 ppm and 0.8 ppm DO concentrations, respectively, before sample immersion. The 
+electrochemical tests were performed at ambient temperature (22 ± 3 °C) at pH (8.2 ± 0.1). 
+  
+Figure 19. XPS collected from the Fe 2p (left) and O 1s (right) regions of Samples: ( a) 1 g/L and
+(b) 5 g/L. The Fe 2p data are presented without background subtraction, and without deconvolution
+of the peaks. The O 1s data have had a Shirley background subtracted and have been deconvolved into
+two contributions. The indicated positions for different chemical states are approximate, and are based
+on values taken from [38,39].
+3. Experimental Section
+3.1. Materials and Solutions
+Cylindrical carbon steel rod ( ∅ 16 mm) of grade AISI 1020 was utilized as the rotating disc
+electrode (RDE). The chemical composition of the as-received rod was analyzed using a Field Emission
+Electron Probe Microanalyzer (JXA-8530F) with results shown in Table 5. The test samples were
+polished using emery papers of grit sizes ranging from 220 to 800. Two solutions were prepared by
+dissolving analytical grade sodium bicarbonate (1 g, 5 g) and 2 g of sodium chloride in 1 L of distilled
+deionized water. The solutions were deaerated by bubbling nitrogen gas three hours before sample
+immersion to study the effect of bicarbonate concentrations and immersion time. To study the effects
+of dissolved oxygen, nitrogen gas was bubbled for 0 h, 2 h and 3 h which resulted in 4 ppm, 1 ppm and
+0.8 ppm DO concentrations, respectively, before sample immersion. The electrochemical tests were
+performed at ambient temperature (22± 3◦C) at pH (8.2± 0.1).
+
+--- PDF page 15 ---
+Materials 2016, 9, 748 15 of 18
+Table 5. Chemical composition of mild steel (wt %).
+C Si Mn Cr Cu Ni Fe
+0.20 0.32 0.79 0.01 0.01 0.01 Bal
+3.2. Electrochemical T est
+The corrosion tests were carried out in a 1 L glass cell containing the rotating disk electrode
+(working electrode) ﬁtted into rotating shaft of an analytical rotator AFASRE 747 (Pine Instrument).
+The reference electrode was a saturated calomel electrode (SCE) connected to the cell by a bridge
+and a Lugging capillary Platinum was used as counter electrode. The angular speed ( ω) of the
+rotating disc electrode was controlled by the ASR RDE speed controller. The rotation speed of the
+RDE performed in the tests was 2000 rev/min, respectively. Corrosion evaluation was monitored
+by potentiodynamic polarization and electrochemical impedance spectroscopy (EIS). The tests were
+performed at a scan rate of (0.167 mV/s) using a Bio-Logic instrument Model VSP 0508 potentiostat.
+The potentiodynamic polarisation was obtained from a starting potential of−0.30 V vs. SCE to a ﬁnal
+potential of +1.20 V vs. SCE. Electrochemical impedance spectroscopy measurements were conducted
+at open-circuit. Measuring frequencies ranged from 10 kHz to 0.1 Hz with a perturbing alternating
+current (AC) amplitude of 10 mV and a sampling rate of 10 points per decade.
+3.3. Surface Analysis
+Scanning electron microscopy (SEM) imaging was performed after corrosion tests using a Zeiss
+Sigma VP Field Emission Scanning Electron Microscope (Oxford XMax 50 silicon drift energy dispersive
+spectroscopy EDS detector) in secondary electron (SE) image mode with an accelerating beam voltage
+of 15 kV . Pit volume and pit depth were examined using Leica Optical microscopy Model DFC 490.
+3.4. X-ray Diffraction
+The corrosion products were characterized in-situ using a PANalytical X’pert PRO MPD powder
+X-ray Diffractometer (XRD) equipped with a 40 keV , 40 mA, Co Kα. A parabolic mirror optic on the
+incident side, 0.04 rad Soller slits on the source and detector side, and 0.09 ◦ collimator before the
+detectors were used to give a parallel beam. The incident angle (ω) was ﬁxed to 3◦ and data collected
+from 6◦ to 90◦ (2θ). The other slits were optimized to ensure the beam footprint did not exceed the
+sample dimensions or the detector window opening. Quantitative phase analysis was performed in
+TOPAS (V5, Bruker). An instrument function collected from SRM 660a was used to accurately model
+peak shape and width. Fixed incident parallel beam intensity and peak width corrections according
+to Rowles and Madsen [ 40], Toraya et al. [41] and Haggerty et al. [ 42] were employed. The values
+of these corrections were ﬁxed to those for the instrument function when reﬁning the sample data.
+Other parameters reﬁned included background, scale factors for each phase, specimen displacement,
+unit cell parameters for each phase, and a Lorentzian crystallite size term for each phase.
+3.5. X-ray Photoelectron Spectroscopy
+XPS measurements were performed using a non-monochromatized Al Kα (1486.7 eV) source
+(DAR 400, ScientaOmicron GmbH) with a 125 mm hemispherical electron energy analyser (Sphera II,
+7 channel detector, ScientaOmicron GmbH). The XPS was housed in an ultrahigh vacuum chamber
+with a base pressure of 10−11 mbar. XPS data were collected over Fe, C and O core levels at a pass
+energy of 20 eV using 0.1 eV steps and a dwell time of 0.1 s. The O 1s core level was ﬁt using symmetric
+components after subtracting a Shirley background.
+
+--- PDF page 16 ---
+Materials 2016, 9, 748 16 of 18
+4. Conclusions
+The electrochemical behavior of mild steel in different HCO3−, DO concentrations and immersion
+time was studied, using potentiodynamic polarization and electrochemical impedance spectroscopy.
+Pitting corrosion depth increases with increasing bicarbonate concentrations. Lowering the amount
+of dissolved oxygen facilitates passivation, whereas an increase in dissolved oxygen and HCO 3−
+in bicarbonate/chloride results in a signiﬁcant increase in the cathodic oxygen reduction process
+and anodic metal dissolution due to oxidation. The corrosion current density decreases signiﬁcantly
+with decreasing DO concentration, dropping from 201.5 µA·cm−2 at 4 ppm to 22.3 µA·cm−2 at
+0.8 ppm. A relatively stable oxide ﬁlms were formed at ~600 mV SCE at lowered DO (1–0.8 ppm)
+concentrations. Immersion time has an important effect: the oxide ﬁlm thickness increases and the
+corrosion rate decreases with increasing immersion time. Internal corrosion of mild steel pipelines
+in high bicarbonate/chloride environment can be minimized when DO concentration is relatively
+low at pH≥ 8 and potential≈− 600 mVSCE. Oxygen is necessary for passive ﬁlm formation, but
+can be detrimental to mild steel above the critical level in high bicarbonate/chloride solution under
+dynamic conditions.
+Acknowledgments: This work was funded by the Australian Government and Queensland University of
+Technology. The authors express their gratitude for the ﬁnancial support and some characterizations performed at
+the Central Analytical Research Facility (CARF) operated by the Institute for Future Environments (QUT).
+Author Contributions: Geoffrey Will and Willem Dekkers are the supervisory team, both helped in designing
+the experiment, Jennifer MacLeod analysed the XPS data, Gaius Debi Eyu performed the experiments and the
+data analyses.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1. King, F. Overview of a Carbon Steel Container Corrosion Model for a Deep Geological Repository in Sedimentary Rock ;
+Nuclear Waste Management Organization Technical Report: Toronto, ON, Canada, 2007.
+2. Castro, E.; Vilche, J.; Arvia, A. Iron dissolution and passivation in K2CO3/KHCO3 solutions. Rotating ring
+disc electrode and XPS studies. Corros. Sci. 1991, 32, 37–50.
+3. Davies, D.; Burstein, G. The effects of bicarbonate on the corrosion and passivation of iron. Corrosion 1980,
+36, 416–422. [CrossRef]
+4. Linter, B.; Burstein, G. Reactions of pipeline steels in carbon dioxide solutions. Corros. Sci. 1999, 41, 117–139.
+[CrossRef]
+5. Tan, Y.T.; Wijesinghe, S.L.; Blackwood, D.J. The inhibitive effect of bicarbonate and carbonate ions on carbon
+steel in simulated concrete pore solution. Corros. Sci. 2014, 88, 152–160. [CrossRef]
+6. Moreno, M.; Morris, W.; Alvarez, M.G.; Duffó, G.S. Corrosion of reinforcing steel in simulated concrete pore
+solutions: Effect of carbonation and chloride content. Corros. Sci. 2004, 46, 2681–2699. [CrossRef]
+7. Might, J.; Duquette, D. Stress corrosion cracking of high-purity carbon steel in carbonate solutions. Corrosion
+1996, 52, 428–434. [CrossRef]
+8. Pilkey, A.; Lambert, S.; Plumtree, A. Stress corrosion cracking of X-60 line pipe steel in a carbonate-bicarbonate
+solution. Corrosion 1995, 51, 91–96. [CrossRef]
+9. Mao, X.; Liu, X.; Revie, R. Pitting corrosion of pipeline steel in dilute bicarbonate solution with chloride ions.
+Corrosion 1994, 50, 651–657. [CrossRef]
+10. Thomas, J.; Davies, J. Inﬂuence of hydrogen carbonate and chloride ions on the stability of oxide ﬁlms on
+mild steel in near-neutral solutions. Br. Corros. J. 1977, 12, 108–114. [CrossRef]
+11. Abdulrahman, A.; Ismail, M.; Hussain, M.S. Inhibition of corrosion of mild steel in hydrochloric acid by
+Bambusa arundinacea. Int. Rev. Mech. Eng. 2011, 5, 59–63.
+12. Lu, Z.; Huang, C.; Huang, D.; Yang, W. Effects of a magnetic ﬁeld on the anodic dissolution, passivation and
+transpassivation behaviour of iron in weakly alkaline solutions with or without halides. Corros. Sci. 2006, 48,
+3049–3077. [CrossRef]
+13. Xue, H.; Cheng, Y. Passivity and pitting corrosion of X80 pipeline steel in carbonate/bicarbonate solution
+studied by electrochemical measurements. J. Mater. Eng. Perform. 2010, 19, 1311–1317. [CrossRef]
+
+--- PDF page 17 ---
+Materials 2016, 9, 748 17 of 18
+14. Cáceres, L.; Vargas, T.; Herrera, L. Inﬂuence of pitting and iron oxide formation during corrosion of carbon
+steel in unbuffered NaCl solutions. Corros. Sci. 2009, 51, 971–978. [CrossRef]
+15. Gadala, I.M.; Alfantazi, A. Electrochemical behavior of API-X100 pipeline steel in NS4, near-neutral, and
+mildly alkaline pH simulated soil solutions. Corros. Sci. 2014, 82, 45–57. [CrossRef]
+16. Kermani, M.; Morshed, A. Carbon dioxide corrosion in oil and gas production-A compendium. Corrosion
+2003, 59, 659–683. [CrossRef]
+17. Han, J.; Zhang, J.; Carey, J.W. Effect of bicarbonate on corrosion of carbon steel in CO2 saturated brines. Int. J.
+Greenh. Gas Control 2011, 5, 1680–1683. [CrossRef]
+18. Yunovich, M.; Xia, Z.; Szklarska-Smialowska, Z. Factors inﬂuencing stress corrosion cracking of carbon steel
+in diluted bicarbonate environments. Corrosion 1998, 54, 155–161. [CrossRef]
+19. Delanty, B.; O’Beirne, J. Major ﬁeld study compares pipeline SSC with coatings. Oil Gas J. 1992, 90, 39–44.
+20. Gedge, G. Corrosion of cast Iron in potable water service. In Proceedings of the Institute of Materials
+Conference, London, UK, 1993; pp. 18–28.
+21. Abdallah, M. Corrosion behaviour of 304 stainless steel in sulphuric acid solutions and its inhibition by
+some substituted pyrazolones. Mater. Chem. Phys. 2003, 82, 786–792. [CrossRef]
+22. Finnegan, T.J.; Corey, R.C. Corrosion of Steel Quantitative Effect of Dissolved Oxygen and carbon Dioxide.
+Ind. Eng. Chem. 1935, 27, 774–780. [CrossRef]
+23. Oldﬁeld, J.; Todd, B. Corrosion considerations in selecting metals for ﬂash chambers. Desalination 1979, 31,
+365–383. [CrossRef]
+24. Oldﬁeld, J.W.; Todd, B. Technical and economic aspects of stainless steels in MSF desalination plants.
+Desalination 1999, 124, 75–84. [CrossRef]
+25. Beckett, M.; Beckett, M.; Snoeyink, V .; Jim, K.; Sarin, P .; Kriven, W.; Lytle, D.; Clement, J. A pipe loop
+system for evaluating iron uptake in distribution systems. In Proceedings of the Water Quality Technology
+Conference, San Diego, CA, USA, 1–4 November 1998.
+26. Sarin, P .; Sarin, P .; Bebee, J.; Beckett, M.; Jim, K.; Lytle, D.; Clement, J.; Kriven, W.; Snoeyink, V . Mechanism of
+release of iron from corroded iron/steel pipes in water distribution systems. In Proceedings of the Annual
+Technology Confrence, Denver, CO, USA, 11–15 June 2000.
+27. Mcneiill, L.S.; Edwards, M. Iron pipe corrosion in distribution systems. Am. Water Works Assoc. 2001, 93,
+88–100.
+28. Kuch, A. Investigations of the reduction and re-oxidation kinetics of iron (III) oxide scales formed in waters.
+Corros. Sci. 1988, 28, 221–231. [CrossRef]
+29. Baek, W.-C.; Kang, T.; Sohn, H.-J.; Kho, Y.T. In situ surface enhanced Raman spectroscopic study on the effect
+of dissolved oxygen on the corrosion ﬁlm on low carbon steel in 0.01 M NaCl solution. Electrochim. Acta
+2001, 46, 2321–2325. [CrossRef]
+30. Eliyan, F.F.; Mahdi, E.; Alfantazi, A. Investigating the corrosion of API-X100 pipeline steel in aerated
+carbonate solutions by electrochemical methods. Int. J. Electrochem. Sci. 2013, 8, 578–590.
+31. Eyu, G.D.; Will, G.; Dekkers, W.; Macleod, J. Effect of hydrodynamics and surface roughness on the
+electrochemical behaviour of carbon steel in CSG produced water. Appl. Surf. Sci. 2015, 357, 506–515.
+[CrossRef]
+32. Popova, A.; Sokolova, E.; Raicheva, S.; Christov, M. AC and DC study of the temperature effect on mild steel
+corrosion in acid media in the presence of benzimidazole derivatives. Corros. Sci. 2003, 45, 33–58. [CrossRef]
+33. Khaled, K.; Hackerman, N. Investigation of the inhibitive effect of ortho-substituted anilines on corrosion of
+iron in 1 M HCl solutions. Electrochim. Acta 2003, 48, 2715–2723. [CrossRef]
+34. Eliyan, F.F.; Mahdi, E.-S.; Alfantazi, A. Electrochemical evaluation of the corrosion behaviour of API-X100
+pipeline steel in aerated bicarbonate solutions. Corros. Sci. 2012, 58, 181–191. [CrossRef]
+35. Zhang, L.; Li, X.G.; Du, C.W.; Cheng, Y.F. Corrosion and stress corrosion cracking behavior of X70 pipeline
+steel in a CO2-containing solution. J. Mater. Eng. Perform. 2009, 18, 319–323. [CrossRef]
+36. Park, J.-J.; Pyun, S.-I.; Lee, W.-J.; Kim, H.-P . Effect of bicarbonate ion additives on pitting corrosion of type
+316L stainless steel in aqueous 0.5 M sodium chloride solution. Corrosion 1999, 55, 380–387.
+37. Ståhl, K.; Nielsen, K.; Jiang, J.; Lebech, B.; Hanson, J.C.; Norby, P .; Lanschot, J.V . On the akaganéite crystal
+structure, phase transformations and possible role in post-excavational corrosion of iron artifacts. Corros. Sci.
+2003, 45, 2563–2575. [CrossRef]
+
+--- PDF page 18 ---
+Materials 2016, 9, 748 18 of 18
+38. Heuer, J.; Stubbins, J. An XPS characterization of FeCO3 ﬁlms from CO2 corrosion. Corros. Sci. 1999, 41,
+1231–1243. [CrossRef]
+39. Grosvenor, A.; Kobe, B.A.; Biesinger, M.C.; Mclntyre, N.S. Investigation of multiplet splitting of Fe 2p XPS
+spectra and bonding in iron compounds. Surf. Interface Anal. 2004, 36, 1564–1574. [CrossRef]
+40. Rowles, M.R.; Madsen, I.C. Whole-pattern proﬁle ﬁtting of powder diffraction data collected in parallel-beam
+ﬂat-plate asymmetric reﬂection geometry. J. Appl. Crystallogr. 2010, 43, 632–634. [CrossRef]
+41. Toraya, H.; Huang, T.; Wu, Y. Intensity enhancement in asymmetric diffraction with parallel-beam
+synchrotron radiation. J. Appl. Crystallogr. 1993, 26, 774–777. [CrossRef]
+42. Haggerty, R.P .; Sarin, P .; Bérar, J.-F.; Apostolov, Z.D.; Kriven, W.M. Powder diffraction by ﬁxed incident angle
+reﬂection using a curved position-sensitive detector. J. Appl. Crystallogr. 2010, 43, 560–569. [CrossRef]
+© 2016 by the authors; licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC-BY) license (http://creativecommons.org/licenses/by/4.0/).

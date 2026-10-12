@@ -40,7 +40,7 @@ def main() -> None:
     current = json.loads((ROOT / "results/current_input.json").read_text(encoding="utf-8"))
     prior = json.loads((ROOT / "results/retrained/results.json").read_text(encoding="utf-8"))
     exp = Experiment(current["enriched_rows"])
-    snapshot = json.loads((ROOT / "data/input_snapshot.json").read_text(encoding="utf-8"))
+    snapshot = json.loads((ROOT / "data/sources/input_snapshot.json").read_text(encoding="utf-8"))
     baseline_input = Experiment(snapshot["enriched_rows"])
     for panel, (numeric, _) in panels.items():
         width = len(numeric)

@@ -1,0 +1,1028 @@
+PAGE 1
+ 
+150 
+Bulgarian Chemical Communications, Volume 43, Number 1 (pp. 150 – 157) 2011 
+Corrosion stability of stainless steel, modified electrochemically with Ce2O3–CeO2 
+films, in 3.5% NaCl media 
+D. Guergova1, E. Stoyanova1, D. Stoychev1*, I. Avramova2, G. Atanasova2, P. Stefanov2 
+1Rostislav Kaischew Institute of Physical Chemistry, Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria 
+2Institute of General and Inorganic Chemistry, Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria 
+Received August 12, 2010; accepted October 25, 2010 
+This work is focused on the study of corrosion-protection ability of the thin ceria film, formed electrochemically on 
+OC404 stainless steel (SS) in non-aqueous electrolytes. The influence of changes in the surface concentration of Ce2O3–
+CeO2 on the corrosion behaviour of OC404 stainless steel in 3.5% NaCl was investigated prior to the thermal treatment 
+as well as after it. A shift of corrosion potential in positive direction was found via polarization curve recording, as well 
+as via decrease in the corrosion current, respectively decrease in the corrosion rate (enhancement of the corrosion 
+protection) in the presence of ceria oxide films. 
+The data, acquired by AFM and XPS, are in a good agreement with these results. On the basis of the obtained results 
+we can conclude that the presence of Ce2O3–CeO2 film results in passivation and re-passivation of the steel surface and 
+a slowdown in the pitting corrosion in an aggressive media. These conclusions are explained by the strong polarization 
+influence of the Ce2O3–CeO2 layers on the conjugated depolarization cathodic reaction of reduction of the dissolved 
+oxygen. 
+Key words: corrosion protection, polarization, electrodeposited Ce2O3–CeO2 thin films. 
+INTRODUCTION 
+The option to use representatives of the rare-
+earth element group (Ce, La, Sm, Y) for the 
+protection of Al, Fe and Zn articles against 
+corrosion in aqueous solutions was studied for the 
+first time by Hinton and coauthors at the beginning 
+of the eighties of the 20th century [1–5]. According 
+to the literature sources, the surface modification of 
+stainless steels in particular [6–15], and the other 
+metal alloys using rare-earth elements, leads to 
+improvement of their resistance to corrosion in 
+aqueous media, containing chloride ions, [16-19]. 
+The increased corrosion stability is due to the 
+formation of thin oxide films (whose protective 
+action is associated with formation of soluble 
+Ce2O3, Ce(OH)3 and/or insoluble CeO2 and 
+Ce(OH)2
+2+ oxides/hydroxides) thus hindering the 
+free diffusion of oxygen and adsorption of the 
+aggressive Cl- ion on the metal surface, leading to 
+acceleration of the pitting formation [19–22]. 
+Our 
+previous 
+works 
+showed 
+that 
+the 
+electrochemical formation of Ce2O3–CeO2 and 
+Al2O3 thin oxide films on OC404 stainless steel 
+results in improvement of the passivation processes 
+in media with an oxidizing action (0.1 N HNO3), 
+and in prevention of pitting corrosion appearance 
+[23, 24]. The behavior of the above systems was 
+studied in non-oxidizing media (0.1 N H2SO4) [25, 
+26]. Thereupon, it was established that the 
+deposition of Ce2O3–CeO2 oxides has a strongly 
+expressed stabilizing effect on the passive state of 
+SS. This effect is connected with the occurrence of 
+effective reduction cathodic process of the СеО2, 
+leading to a stable passive state. The oxide presence 
+determines the restoration of the disrupted passive 
+state of the thermally treated steel in an acidic 
+media. 
+The aim of this investigation was to study the 
+corrosion behavior, respectively the protective 
+effect, of the electrochemically formed (in non-
+aqueous electrolytes) Ce2О3–CeО2 films on the 
+stainless steel (prior to and after the thermal 
+treatment of the “oxide layer/stainless steel” 
+system) in a 3.5% NaCl solution. 
+EXPERIMENTAL 
+The test specimens, used in this study, were 
+prepared from a sheet of OC404 type SS, with a 
+thickness of 50 μm. The composition of the steel in 
+wt. % was 20.0% Cr, 5.0% Al, 0.02% C, the rest 
+being Fe. 
+The 
+Ce2O3–CeO2 
+layers 
+were 
+deposited 
+electrochemically 
+on 
+SS 
+from 
+non-aqueous 
+* To whom all correspondence should be sent: 
+E-mail: stoychev@ipc.bas.bg 
+© 2011 Bulgarian Academy of Sciences, Union of Chemists in Bulgaria
+
+PAGE 2
+ 
+151 
+electrolytes – their compositions and regimes are 
+described in [27, 28]. 
+The thickness of the deposited layers was ~1μm. 
+The layers were investigated upon deposition and 
+upon thermal treatment (t.t.) at 450 C for 2 h in air. 
+The electrochemical behaviour of the samples 
+(10 mm x 10 mm) was studied in a naturally 
+aerated 3.5% NaCl aggressive media (pH = 6.5) at a 
+room temperature in a standard three-electrode 
+thermostatted cell (100 ml volume). A counter 
+electrode, 
+comprising 
+a 
+platinum 
+plate 
+(10 × 10 × 0.6 mm), and a calomel reference 
+electrode (SCE), (EHg/Hg2Cl2=+0.240 V vs. SHE), 
+were used. All potentials in the text are related to 
+SCE. The anodic and cathodic potentiodynamic 
+polarization curves were obtained using a 273 
+EG&G potentiostat/galvanostat (Germany), with a 
+potential sweeping rate of 10 mV/s within the 
+potential range from -1.500 to +1.000  V. 
+The corrosion potential (Ecorr), the breakdown 
+potential (Epitt), and the corrosion current density 
+(icorr) of the samples under investigation were 
+determined based on potentiodynamic polarization 
+curves, obtained in 3.5% NaCl solution. 
+The chemical composition and the oxidation 
+state of the elements on the surface formed after 
+immersion (for different time intervals) in an 
+aggressive media – for the specimens “upon 
+deposition” and upon thermal treatment, were 
+studied using X-ray photoelectron spectroscopy 
+(XPS). The XPS studies were performed in an 
+Escalab II system (England) with Al K radiation 
+(hν = 1486.6 eV) and total instrumental resolution 
+of ~ 1 eV. The vacuum in the chamber was 10–7Pa. 
+The binding energy (BE) was referred to the C1s 
+line (of adventitious carbon) at 285.0 eV. The 
+element concentrations were evaluated based on the 
+integrated peak areas after Shirley-type of linear 
+background subtraction using theoretical Scofield`s 
+photoionization cross-sections [29]. 
+The atomic force microscope (AFM) used for 
+the surface imaging was a Q–scope 250 (Quesant, 
+USA) with a head, designed for a scan area from 
+200 nm × 200 nm up to 80 μm × 80 μm. The lateral 
+resolution was approximately 1 nm, and the 
+resolution of the z-axis of approximately the same 
+range. The measurements were performed in the 
+non-contact mode with the following typical scan 
+parameters: a scan rate of 0.5 to 3 Hz, integral and 
+proportional gain in the range between 250 and 
+400, and image resolution of 300 to 600 dpi. 
+ 
+ 
+RESULTS AND DISCUSSION 
+On 
+the 
+basis 
+of 
+the 
+plotted 
+complete 
+potentiodynamic polarization curves in the range of 
+the potentials from –1.500 to +1.000 V (these are 
+not 
+represented 
+in 
+this 
+work), 
+the 
+basic 
+electrochemical parameters of the corrosion process 
+were determined for the studied systems (Tables 1 
+and 2). It follows from these results that: 
+- 
+the 
+cerium 
+oxide 
+films, 
+deposited 
+electrochemically on the stainless steel, create 
+considerable shifts in the SS corrosion potential in a 
+positive direction; 
+- this shifting grows up with the increase in the 
+concentration of the oxides on the surface of the 
+steel; 
+- the presence of cerium oxides leads to lowering of 
+the corrosion current; 
+- the presence of cerium oxides determines a 
+potentials shift of the pitting formation in a positive 
+direction. 
+Table 1. Electrochemical parameters characterizing the  
+corrosion behaviour of studied systems determined from  
+potentiodynamic polarization curves. 
+Samples 
+Ecorr, V icorr, A.cm–2 Epitt, V 
+SS 
+-0.172 
+6.0x10-7 
+-0.065 
+Ce2O3-CeO2(3.6 at.%)/SS 
+-0.168 
+5.1x10-7 
+-0.054 
+Ce2O3-CeO2(13.1 at.%)/SS -0.163 
+3.0x10-7 
+0.052 
+Ce2O3-CeO2(25.7 at.%)/SS -0.056 
+6.9x10-8 
+0.091 
+Table 2. Electrochemical parameters characterizing the  
+corrosion behaviour of studied systems, after thermal  
+treatment determined from potentiodynamic polarization 
+curves. 
+Samples 
+Ecorr, V icorr, A.cm-2 Epitt, V 
+SSt.t. 
+–1.083 
+4.6×10-6 –0.003 
+CeO2-Ce2O3(4.2 at.%)/SSt.t. 
+–0.300 
+5.1×10-7 –0.069 
+CeO2-Ce2O3(11.2 at.%)/SSt.t. –0.284 
+1.2×10-7 
+0.091 
+CeO2-Ce2O3(29.6 at.%)/SSt.t. –0.168 
+1.3×10-8 
+0.119 
+The obtained results show also that the thermal 
+treatment of the studied samples causes a 
+substantial change in the corrosion parameters, 
+both, in the case of steel non-covered with cerium 
+oxides, and in the case of the system cerium 
+oxides/steel. As a consequence of the sample 
+thermal treatment, the following is observed: 
+- Еcorr of the steel is shifted with more than 0.900 V 
+in the negative direction; 
+- icorr of the steel is increased with an order of 
+magnitude; 
+- Еpitt of the steel is shifted in the positive direction 
+with more than 60mV, while for the system of 
+CeО2–Ce2О3/SS – with ~ 120 mV. 
+Thereupon, however, the respective corrosion 
+potentials, which are characteristic for non-treated 
+thermally systems, are not achieved, while the 
+Guergova  et al.: Corrosion stability of stainless steel, modified electrochemically… 
+
+PAGE 3
+ 
+152 
+corrosion currents and potentials of pitting 
+formation are characterized by more favorable 
+values, in terms of corrosion, compared to those, 
+obtained for the 
+non-treated thermally 
+SS, 
+respectively for the Ce2O3–CeO2/SS. 
+Aiming to evaluate the protective effect of the 
+electrodeposited cerium oxide films, we shall 
+consider in details the anodic and the cathodic 
+polarization curves for the studied systems in some 
+specific zones of potentials, which characterize the 
+occurring anodic and cathodic processes on the 
+steel surface. 
+ 
+-1.6
+-1.4
+-1.2
+-1.0
+-0.8
+-0.6
+-3.0x10
+-4
+-2.5x10
+-4
+-2.0x10
+-4
+-1.5x10
+-4
+-1.0x10
+-4
+-5.0x10
+-5
+0.0
+5
+3
+4
+2
+1 - SS 
+2 - Ce2O3-CeO2(3.6 at.%)/SS 
+3 - Ce2O3-CeO2(13.1 at.%)/SS
+4 - Ce2O3-CeO2(25.7 at.%)/SS
+5 - Ce as a metal
+ 
+ 
+i, A.cm-2
+E, V vs. SCE
+a)
+1
+ 
+(a) 
+ 
+-1.2
+-1.0
+-0.8
+-0.6
+-7.0x10
+-4
+-6.0x10
+-4
+-5.0x10
+-4
+-4.0x10
+-4
+-3.0x10
+-4
+-2.0x10
+-4
+-1.0x10
+-4
+0.0
+4
+3
+2
+1 - SSt.t. 
+2 - CeO2-Ce2O3(4.2 at.%)/SSt.t. 
+3 - CeO2-Ce2O3(11.2 at.%)/SSt.t.
+4 - CeO2-Ce2O3(29.6 at.%)/SSt.t.
+ 
+i, A.cm-2
+E, V vs. SCE
+b)
+1
+ 
+(b) 
+Fig. 1. Characteristic part of cathodic potentiodynamic 
+polarization curves for the SS OC404 with Ce oxides 
+surface modification, before (a) and after thermal 
+treatment (b), obtained in 3.5% NaCl. 
+Fig. 1 illustrates the cathodic polarization 
+curves, obtained in 3.5% NaCl solution, for 
+stainless steel SS OC404 and for the systems of 
+Ce2O3–CeO2/SS before (a) and after thermal 
+treatment 
+(b). 
+Fig. 
+1а 
+represents 
+the 
+potentiodynamic curves for SS (curve 1) and for SS 
+with various concentrations of the cerium oxide 
+films, deposited on it electrochemically (curves 2-
+4). For comparison curve 5 was also plotted, 
+characterizing the rate of the cathodic reduction 
+process on metallic cerium. 
+It was necessary to carry out the investigation of 
+the possible changes in the surface composition and 
+the electrochemical (corrosion) behavior of the 
+studied systems as a function of the duration of the 
+thermal treatment in view of their application as 
+supports of the catalytically active systems. These 
+systems are calcinated (treated at high temperature) 
+to undergo the respective transformations of the 
+active phase or of the support, as well as in a 
+number of other cases, in which it is possible to use 
+SS, modified superficially with cerium oxide at 
+high temperatures, and in the presence of chloride 
+ions in the working environment [30, 31]. 
+Fig. 1a clearly shows that the increase in the 
+surface concentration of the cerium oxides in the 
+case of non-treated thermally steel samples 
+determines 
+the 
+increase 
+in 
+the 
+reduction 
+overpotential of the oxygen, dissolved in the 
+corrosion medium. Such increase is inherent to this 
+reaction in a native passive film on stainless steel, 
+growing to values, close to those inherent to the 
+metallic cerium. (In this case it is important to 
+notice that the surface of the metallic Ce is always 
+covered with a relatively thick layer of cerium 
+oxides due to the extremely high affinity of Ce to 
+oxygen [32]). 
+As reported in a study of Klaper et al. [33 and 
+references therein] on the electrochemical reduction 
+of oxygen in neutral and alkaline solutions, this 
+process gives rise to formation of ОН- groups, 
+following a four-electron pathway (Eq. (1)), or it 
+can yield OH- via hydrogen peroxide following a 
+two-electron pathway (Eqs. (2) and (3)), or it can 
+produce H2O2 as a final reduction product (Eq. (4)). 
+O2 + 2H2O + 4e- → 4OH- 
+ 
+ 
+E0 = 0.401 V/SHE 
+ 
+(1) 
+O2 + 2H2O + 2e- → OH2
+- + OH-       
+          
+E0 = -0.065 V/SHE 
+ 
+(2) 
+OH2
+- + H2O + 2e- → 3OH- 
+ 
+ 
+                      E0 = 0.867 V/SHE  
+         (3) 
+O2 + 2H2O + 2e- → H2O2 + 2OH- 
+ 
+E0 = -0.133 V/SHE 
+ 
+(4) 
+Based on own data and on other authors data, 
+we can make the important conclusion that for 
+stainless steels and iron–chromium alloys, the 
+mechanism and kinetics of oxygen reduction 
+strongly 
+depend 
+on the 
+material 
+(chemical 
+composition, surface state), the electrolyte (pH, 
+chemical composition), and the conditions under 
+Guergova et al.: Corrosion stability of stainless steel, modified electrochemically… 
+
+PAGE 4
+ 
+153 
+which 
+the 
+reaction 
+is 
+taking 
+its 
+course 
+(hydrodynamics, temperature, polarization). These 
+authors, as well as the authors of the paper [34] pay 
+special attention to the specific type of the stainless 
+ 
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+0.0
+0.5
+1.0
+1.5
+2.0
+1 - SS 
+2 - Ce2O3-CeO2(3.6 at.%)/SS 
+3 - Ce2O3-CeO2(13.1 at.%)/SS
+4 - Ce2O3-CeO2(25.7 at.%)/SS
+5 - Ce as a metal
+5
+4
+3
+2
+i, A.cm-2 x 10-5
+E, V vs. SCE
+a)
+1
+2.5
+(a) 
+ 
+-0.2
+0.0
+0.2
+0.0
+0.5
+1.0
+1.5
+2.0
+4
+3
+2
+1 - SSt.t. 
+2 - CeO2-Ce2O3(4.2 at.%)/SSt.t. 
+3 - CeO2-Ce2O3(11.2 at.%)/SSt.t.
+4 - CeO2-Ce2O3(29.6 at.%)/SSt.t.
+i, A.cm-2 x 10
+-5 
+E, V vs. SCE
+b)
+1
+2.5
+(b) 
+Fig. 2. Characteristic part of anodic potentiodynamic polarization curves for the SS OC404 with Ce oxides surface 
+modification, before (a) and after thermal treatment (b), obtained in 3.5% NaCl. 
+steel. The presence of passive layers is also a very 
+important factor, affecting the oxygen reduction 
+reaction. Also, as far as localized corrosion of 
+stainless steels is concerned, it preferably occurs 
+within these layers rather than on the metallic 
+surface, and therefore its catalytic activity should 
+be related to the concentration of Fe (II) ions. 
+In the light of these considerations, the observed 
+differences in the course of the curves 2-4, 
+compared to curve 1 (for the SS non-coated with 
+cerium oxides) in Fig. 1а are obviously due to the 
+different nature of the support, on which the 
+reduction process is occurring. Thereupon, we can 
+clearly outline two zones of potentials (up to and 
+above ~  –1.25 V), in which the nature of the 
+reduction process is changing. Up to –1.25 V the 
+steel 
+surface, 
+modified 
+with 
+cerium 
+ions, 
+determines a depolarizing effect, which (in our 
+opinion) is due to reorganization of the mixed oxide 
+films on the steel surface - see the corresponding 
+peaks of oxidation in curve 2 (at Е = ~-0.090 V and 
+at -0.020 V) in Fig. 2а. In the more negative range 
+of potentials (Е < –1.25 V), which corresponds to 
+the proper zone of cathodic reduction of oxygen, 
+the increase in the concentration of cerium oxides 
+leads to a substantial growth of the overpotential of 
+this reaction, respectively to decrease in its rate. 
+Such impedance of the oxygen reaction, which is a 
+conjugated cathodic reaction during the occurrence 
+of steel corrosion in the Ce2O3–CeO2/SS system, 
+obviously will lower the rate of the conjugated 
+oxidation reaction, and thus, the total rate of the 
+corrosion process. Besides this, such an inhibition 
+of the cathodic reaction, under the conditions of 
+passivity, is a guarantee for preservation of the 
+stable passive state of the stainless steel, 
+respectively – for corrosion under conditions of 
+passivity. 
+In the cases of thermally treated SSt.t. and CeO2-
+Ce2O3/SSt.t. samples (Fig. 1b), which are known to 
+have a disrupted surface passive film [26,35], we 
+can observe an increase in the cathode current with 
+about one order of magnitude, for both, the SSt.t. 
+and the CeO2–Ce2O3/SSt.t. system. At the same 
+time, in the case of CeO2–Ce2O3/SSt.t. sample a 
+considerable depolarizing effect is registered (with 
+~0.2 V, in comparison with the Ce2O3–CeO2/SS 
+system) in regards to the cathodic reaction in the 
+zone of the potentials (Е < –1.25 V), where the 
+reaction of oxygen reduction is occurring. These 
+results give us the reason to suppose that the 
+occurrence of a second reduction process is also 
+very probable in the thermally treated systems of 
+Ce2O3–CeO2/SSt.t. within the zone of potentials < –
+1.25 V, determining a mixed potential. Taking into 
+account the fact that during the thermal treatment 
+practically the whole amount of cerium oxides is 
+converted into CeO2 state, i.e. in the form of Ce4+ 
+ions (prior to the thermal treatment, for the films 
+“upon deposition”, the cerium oxides in the form of 
+Ce2O3 are dominating) [27, 28], it is logical to 
+assume the Ce4+ reduction reaction occurrence  
+(Ce4+ + е– → Ce3+). 
+If such a reaction is really occurring, it could 
+cause two effects. On one side it will compete with 
+the first reaction, i.e. it will decrease the rate of the 
+occurring cathodic oxygen reaction, while on the 
+other side it will lead to the formation of Ce3+ ions 
+in the aggressive medium, which possess a much 
+more positive potential of oxidation (in view of the 
+Guergova et al.: Corrosion stability of stainless steel, modified electrochemically… 
+
+PAGE 5
+ 
+154 
+reaction Ce3+ – е- → Ce4+ [36]) than the oxidative 
+potentials of the steel components, respectively 
+those of the natural passive film on it (Fe, Cr, Al), 
+which are being oxidized in the course of its 
+corrosion. Therefore, the presence of cerium oxides 
+on the steel surface will lower the rate of corrosion, 
+since it will lead to restoration of its passive state, 
+disrupted as a result of the thermal treatment, due to 
+the occurrence of an effective cathodic reaction of 
+Ce4+ ions reduction (Ce4+ + е- → Ce3+). 
+The reason for putting forward such a 
+hypothesis is the dependence, established by K. 
+Vetter, of the total reaction cathodic overpotential 
+on the Ce3+/Ce4+ electrode: Ce3+ ↔ Ce4+ + е- [37]. 
+Vetter unambiguously proves that the anodic 
+diffusion-limited current density of this reaction is 
+proportional to the concentration of Ce3+, while that 
+of the cathode is proportional to the concentration 
+of Ce4+. Thereupon, these quantities do not depend 
+on the concentrations of other substances, possibly 
+present in the electrolyte. However, at higher 
+potentials and especially in the case of low current 
+densities (i.e. values close to the equilibrium 
+potential) complications occur. Such complications 
+are connected with the parallel occurrence of 
+another electrode reaction (formation of mixed 
+potential, respectively). In these cases oxygen 
+evolution reaction occurs [37]. The author 
+explicitly proves in the same study that the rate of 
+the reaction of the electron transfer in a direction to 
+the cathode is proportional to the concentration of 
+the Ce4+ and it does not depend on the 
+Ce3+concentration. This is the reason why in the 
+case of non-treated thermally system of Ce2O3–
+CeO2/SS, when only Ce3+ ions have passed over to 
+the aggressive medium, there is only one reaction 
+occurring, i.e. the reduction of oxygen, while in the 
+case of non-treated thermally system, simultaneous 
+reduction of Ce4+ (CeO2) and of oxygen can occur. 
+If this reduction occurs at more positive potentials, 
+then it will dominate over the total rate of the 
+cathodic reduction process. Evidence for this 
+statement is supplied by the value of the cathodic 
+current. It is higher with one order of magnitude for 
+the thermally treated systems (Fig. 1b). 
+Fig. 2 illustrates sections of the anodic 
+polarization curves, obtained in 3.5% NaCl, for 
+stainless steel SS OC404 (curve 1) and for the 
+Ce2O3-CeO2/SS systems with a different surface 
+content of cerium oxides (from 3.6 up to 29.6 at. 
+%), depending on the time interval of their 
+deposition (from 50 sec up to 80 min) - curves 2, 3, 
+4, prior to the thermal treatment (Fig. 2a), and after 
+it (Fig. 2b). 
+It is seen, in view of the obtained results, that in 
+the case of non-treated thermally steel (Fig. 2a, 
+curve 1) two peaks are observable (at Е = ~–
+0.090 V and at Е = –0.020 V), characterizing the 
+oxidation reactions occurrence, and what follows 
+thereafter (at Е ~ -0.008 V) is a steep course of the 
+curve, corresponding to the anodic evolution of 
+oxygen via the reaction of 4ОН- = 2Н2О + О2 + 4е–. 
+At the lowest studied concentration of cerium 
+oxide, deposited on steel (curve 2) up to potentials 
+~ – 0.015 V, a weak depolarizing effect is observed, 
+whereupon 
+the 
+first 
+peak 
+is 
+practically 
+disappearing, while the second one (at Е ~ –0.020 
+V) grows stronger. Within the zone of potentials > 
+–0.015 V the presence of cerium oxide film gives 
+rise to the overpotential of the anodic reaction of 
+oxygen evolution. At the next concentration of 
+cerium oxide on the steel (curve 3) a considerably 
+stronger polarizing effect is observed in the zone of 
+the potentials > – 0.130 V, while at the maximal 
+studied concentration of cerium oxides (curve 4) 
+the polarizing effect is present even to a greater 
+extent within the entire interval of potentials. 
+Respectively, the current of the reaction of oxygen 
+evolution at each next value of the cerium oxides 
+concentration is decreased substantially. 
+The action of the cerium oxide layers, deposited 
+on the steel, is analogous also in the case of 
+thermally 
+treated 
+samples 
+(Fig. 
+2b). 
+Some 
+difference was established only in the case of the 
+lowest concentration of cerium oxides (Fig. 2, 
+curve 2), at which the depolarizing effect is 
+preserved also at potentials > –0.015 V. This is 
+obviously associated with both, the strong cracking 
+of the native passive film on the steel substrate, and 
+the cerium oxide film deposited on it, which leads 
+to a considerable decrease in the corrosion current 
+of the steel, occurring as a result of depassivation 
+(~7.10–6 А.cm–2), before reaching the zone of the 
+anodic oxygen evolution. In the light of this result, 
+it became especially important to find out how the 
+surface modification with cerium oxide film 
+influences the localization of the corrosion process, 
+preceding the evolution of oxygen.  
+It is important, in this respect, that the corrosion 
+resistance of stainless steels, under the conditions 
+of anodic polarization (in solutions of Cl– ions) is 
+connected not only with the processes of 
+passivation, but also with the processes, leading to 
+disruption of the integrity of the passive film, and 
+therefore, to the development of local corrosion. 
+From the passive state theory prospective this 
+ 
+Guergova et al.: Corrosion stability of stainless steel, modified electrochemically… 
+
+PAGE 6
+ 
+155 
+ 
+ 
+ 
+Fig. 3. AFM images for the samples after 5 min at the Epitt in 3.5% NaCl: a) SS; b) CeO2-Ce2O3(13.1 at.%)/SS; c) CeO2-
+Ce2O3(25.7 at.%)/SS.; d) SSt.t.; e) CeO2-Ce2O3(4.2 at.%)/SSt.t..;f) CeO2-Ce2O3(29.6 at.%)/SSt.t.. 
+ 
+ 
+0
+20
+40
+60
+80
+100
+1
+a)
+3
+2
+Protection degree, %
+ 
+(a) 
+ 
+0
+20
+40
+60
+80
+100
+1
+a)
+3
+2
+Protection degree, %
+ 
+(b) 
+Fig. 4. Protection degree in 3.5% NaCl for different concentrations of Ce2O3-CeO2 oxides on SS before (a – 1-3.6 at.%; 
+2-13.1 at.%; 3-25.7 at.%) and after thermal treatment (b – 1-4.2 at.%; 2-11.2 at.%; 3-29.6 at.%). 
+phenomenon is associated with the gradual 
+substitution of the oxygen in the passive film with 
+chloride ions or in accordance with the adsorption 
+theory – with substitution of the adsorbed oxygen 
+on the surface with chlorine ions. This process 
+begins upon reaching a definite value of the 
+potential, known as the potential of pitting 
+formation. As a result of its occurrence, the oxide 
+film, protecting the steel surface, can be converted 
+into a soluble metal chloride, resulting in 
+appearance and development of pitting corrosion on 
+separate sections of the surface. 
+Aiming at investigation of the propensity of the 
+studied steel to pitting corrosion we used the anodic 
+potentiodynamic curves to estimate the values (Fig. 
+2a, 2b) of the potentials of pitting formation (Epitt) 
+(Tables 1 and 2). The values of the potentials of 
+pitting formation of samples, having ~5 at. % 
+cerium oxides on the surface (before and after the 
+thermal treatment), are close to that value for the 
+steel itself (Fig. 2a, 2b) (Epitt, Tables 1,2). The 
+further increase in the surface concentration of ceria 
+for the Ce2O3
+–CeO2/SS system (above ~11.0 at. %) 
+leads to a shift of Epitt with more than ~100 mV in 
+the positive direction. This effect is observed in 
+both, the non-treated thermally steels, and the 
+thermally treated samples. The shifting of Epitt in  
+ 
+ 
+Table 3. Distribution of the elements (in at. %) in the surface layers of samples as deposited, thermally treated and after 
+immersion in 3.5% NaCl for the samples corresponding to the curves 3. 
+Guergova et al.: Corrosion stability of stainless steel, modified electrochemically… 
+
+PAGE 7
+ 
+156 
+Samples 
+Time of 
+immersion, h 
+О, at. % 
+Fe, at. % 
+Cr, at. % 
+Al, at. % 
+Ce, at. % 
+~25ºC 
+2 h 
+450ºC 
+~25ºC 2 h 450ºC ~25ºC 2 h 450ºC ~25ºC 
+2 h 
+450ºC 
+~25ºC 
+2 h 
+450ºC 
+Ce 
+oxides/S
+S 
+as deposited 
+67.6 
+64.2 
+0 
+10.6 
+1.6 
+2.4 
+17.7 
+11.6 
+13.1 
+11.2 
+after 1 h  
+74.7 
+73.9 
+0 
+8.4 
+1.8 
+2.9 
+13.4 
+10.4 
+10.4 
+4.4 
+after 2 h  
+73.6 
+79.6 
+0 
+6.7 
+3.3 
+3.4 
+14.4 
+7.4 
+8.7 
+2.9 
+ 
+the positive direction improves substantially the 
+corrosion stability of the studied systems in regards 
+to the pitting corrosion. The change in Epitt 
+determines the suppressed development not only of 
+the pitting corrosion but also of the total corrosion, 
+especially strongly expressed in the case of the 
+thermally treated systems (Fig. 3). The basic reason 
+for it (in our opinion) is the action of the cerium 
+oxides which block the active sections (Fe sections) 
+on the steel surface. 
+A support to this statement are the AFM 
+observations 
+on 
+the 
+appearance 
+and 
+the 
+development of local corrosion on samples of non-
+treated and thermally treated steel (Fig. 3а, 3d), 
+polarized anodically for 5 min, at the potential of 
+pitting formation. Pitting spots are seen on the 
+surface of the non-treated thermally samples. 
+Besides that, damages are caused by the local and 
+total corrosion in the thermally treated samples. 
+After the electrodeposition of cerium oxides with 
+different surface concentration at the same potential 
+no appearance of pitting is observed (Fig. 3b, с, е, 
+f). We attribute this to the effect of cerium oxides 
+which modify the surface film and enrich it to 
+chromium oxides (Table 3), blocking effectively 
+the active sites on the steel surface. 
+The quantitative evaluation of the steel 
+protection by cerium oxide films, based on the data 
+in Tables 1 and 2, is shown in Fig. 4. It presents the 
+dependence of the steel degree of protection on the 
+Ce2O3-CeO2 surface concentration, calculated using 
+the formula: 
+IP = 
+o
+corr
+o
+corr
+i
+i
+i
+
+×100, 
+where: i0
+corr  and icorr are the corrosion current, 
+taken from the polarization curves, with and 
+without Ce2O3–CeO2 on the surface of the working 
+samples. The presence of Ce oxides enables high 
+degree of protection reaching ~ 90%. 
+CONCLUSIONS 
+It was found that the cerium oxide films, formed 
+on ОС404 steel, inhibit the oxygen depolarization 
+reaction of the corrosion process. Thereupon, this 
+effect stabilizes the stable passive state of the steel, 
+under investigation, in 3.5% NaCl solutions, which 
+gives a guarantee for the proceeding of the 
+corrosion under the conditions of a passive state. 
+It was shown that upon disturbing the steel 
+passive state, as a result of the thermal treatment, 
+the cerium oxide films act as efficient cathodic 
+coating, restoring the passive state of the studied 
+steel. In this case the zone of the potentials, 
+inherent to the passive state, grows wider, being 
+shifted to a positive direction to the potential of the 
+pitting formation. Thus, the corrosion resistance of 
+the studied steel to pitting corrosion is increased. 
+Acknowledgements: 
+This 
+paper 
+has 
+been 
+completed with the support of the National Fund 
+for Scientific Investigation under Contract TK 01–
+185. 
+REFERENCES 
+1.  B.R.W. Hinton, D.R. Arnott, N.E. Ryan, Metals 
+Forum, 7, 211 (1984). 
+2.  B.R.W. Hinton, D.R. Arnott, N.E. Ryan, Asia Pacif. 
+Interfinish 86 Conf., Hobart (1986). 
+3. D.R. Arnott, B.R.W. Hinton, N.E. Ryan, Mat. Perf., 
+August, 42 (1987). 
+4.  B.R.W. Hinton, D.R. Arnott, 21st Annual Technical 
+Meeting of the Int. Metallographie Soc., eds. P.J. 
+Kenny, G.S. Cole, D.O. Norwood, J. Wylie, G.F. 
+Vander 
+Voort 
+(Materials 
+Park, 
+OH: 
+ASM 
+International) 311 (1989). 
+5. B.R.W. Hinton, J. Alloys Compd., 180, 15 (1992). 
+6. F. Mansfeld, S. Lin and H. Shin, Corrosion, 45, 615 
+(1989). 
+7.  A.J. Devenport, H.S. Isacs and M.W. Kendig, Corr. 
+Sci. 32, 653 (1989). 
+8. Y.C. Lu and M.B.Ives, Corr. Sci. 34, 1773 (1993). 
+9.  F. Mansfeld, Y. Wang, Mat. Sci.&Engineering A198, 
+51 (1995). 
+10. A.J. Aldykewicz Jr., H.S. Isaacs and A.J Davenport, 
+J. Electrochem. Soc., 142, 3342 (1995). 
+11. Y.C. Lu and M.B. Ives, Corr. Sci., 37, 145 (1995). 
+12. A.J. Aldykewicz Jr., H.S. Isaacs and A.J Davenport, 
+J. Electrochem. Soc., 143, 147 (1996). 
+13. I. Zhitomirsky, A. Petric, Materials Letters, 40 (6), 
+263 (1999). 
+14. I. Zhitomirsky, A. Petric, Ceramics International, 27, 
+149 (2001). 
+15. A. Pardo, M.C. Merino, R. Arrabal, S. Merino, F. 
+Viejo, M. Carboneras, Surf. Coat. Technol., 200, 
+2938 (2006). 
+Guergova et al.: Corrosion stability of stainless steel, modified electrochemically… 
+
+PAGE 8
+ 
+157 
+16. Y.C. Lu and M.B. Ives, Corr. Sci,. 34, 1773 (1993). 
+17. S. Virtanen, M.B. Ives, G.I. Sproule, P. Schmuki, 
+M.J. Graham, Corr. Sci., 39, 1897 (1997). 
+19. C.B. Breslin, C. Chem, F. Mansfeld, E. Otero and 
+F.J. Perez, Extended Abstracts of the 189th Meeting 
+of the Electrochemical Society, Paper No.113, Los 
+Angeles, CA (1996). 
+20. C. Wang, F. Jiang, F. Wang, Corr. Sci., 46, 75 
+(2004). 
+21. M.A. Arenas, J.J. de Damborenea, Electrochim. Acta 
+48, 3693 (2003). 
+22. A. Pardo, M.C. Merino, R. Arrabal, F. Viejo, M. 
+Carboneras, J.A. Munoz, Corr. Sci., 48, 3035 (2006). 
+23. M.F. Montemor, M.G.S. Ferreira, Electrochim. Acta, 
+52, 6976 (2007). 
+24. D. Nikolova, E. Stoyanova, D. Stoychev, P. 
+Stefanov, T. Marinova, Surf. Coat. Technol., 201, 
+1559 (2006). 
+25. D. Guergova, E. Stoyanova, D. Stoychev, G. 
+Atanasova, I. Avramova, P. Stefanov, Bulg. Chem. 
+Commun., 40, 227 (2008). 
+26. D. 
+Nickolova, 
+E.Stoyanova, 
+D. 
+Stoychev, 
+I. 
+Avramova, P. Stefanov, Surf. Coat. Technol., 202, 
+1876 (2008). 
+27. E. Stoyanova, D. Guergova, D. Stoychev, I. 
+Avramova, P. Stefanov, Electrochim. Acta, 55, 1725 
+(2010). 
+28. P. Stefanov, G. Atanasova, D. Stoychev, I. Valov, Ts. 
+Marinova, Proc. 6th International Conference on 
+Fundamental and Applied Aspects of Physiscal 
+Chemistry “Physical Chemistry 2002”, September 
+26-28, Belgrad, Yugoslavia, Vol. I, C-16-P, 198 
+(2002). 
+29. P. Stefanov, G. Atanasova, D. Stoychev, I. Valov, Ts. 
+Marinova, Surf. Coat. Technol. 180, 446 (2004). 
+30. J.H. Scofield, J. Electron Spectrosc. Rel. Phenom. 8, 
+129 (1976). 
+31. Peter Kritzer, J. of Supercritical Fluids, 29,1 (2004). 
+32. J. Kašpar, P. Fornasiero, M. Graziani, Catalysis 
+Today, 50, 285 (1999). 
+33. Ya. A. Ugai, Inorganic chemistry, Publ. House “High 
+School”, Moscow (1989). 
+34. H.S. Klapper, J. Goellner, Corr. Sci., 51, 144 (2009). 
+35. R. Babic, M. Metikos-Hukovic, Oxygen reduction on 
+stainless steel, J. Appl. Electrochem. 23, 352 (1993). 
+36. D. Nicolova, E. Stoyanova, D. Stoychev, I. 
+Avramova, P. Stefanov, Nanostructured Materials in 
+Electroplating, Editors: D. Stoychev, E. Valova, I. 
+Krastev, N. Atanassov, St. Kliment Ohridski 
+University Press (2006). 
+37. N.D. Tomashov, G.P. Chernova, Passivity and 
+Corrosion Protection, (in Russian) Publ. House 
+“Nauka”, Moscow (1963). 
+38. K. Vetter, Elektrochemische kinetik, Springer Verlag 
+(1961), Translated Russian edition, Khimia Publ.H., 
+“Electrode Ce3+/Ce4+”, 493&115 (1967). 
+ 
+ 
+Корозионна устойчивост на неръждаема стомана, модифицирана 
+електрохимично с Ce2O3–CeO2 филми, в среда от 3,5 % NaCl 
+ 
+Д.Гергова1, Е.Стоянова1 Д.Стойчев1*, И.Аврамова2, Г.Атанасова2, П.Стефанов2 
+ 
+1Институт по физикохимия “Акад.Р. Каишев”, Българска академия на науките, София 1113, България 
+2Институт по обща и неорганична химия, Българска академия на науките, София 1113, България 
+Постъпила на 12  август 2010 г; приета на 25 октомври 2010 г 
+Работата е посветена на изследването на корозионно-защитната способност на цериево-окисдни филми, 
+които са отложени електрохимично върху неръждаема стомана ОС 404 (SS) от неводни електролити. 
+Изследвано е влиянието на промяната на повърхностната концентрация на Ce2O3–CeO2 върху корозионното 
+поведение на SS в корозионно активна среда от  3.5% NaCl преди и след термична обработка на образците. Въз 
+основа на построените поляризационни криви е установено отместване на корозионния потенциал на системата 
+в положителна посока, както и понижаване на корозионните токове, респ. скоростта на корозия, когато върху 
+повърхността на стоманата присъстват цериево-оксидни филми. Данните, получени от АFМ и XPS анализите, 
+са в добро съответствие с тези резултати.  
+Въз основа на получените резултати е направен извода, че наличието на Ce2O3–CeO2 слоеве обуславя 
+пасивиране и ре-пасивиране на стоманената повърхност, както и понижаване на питинговата корозия на 
+стоманата. Тези ефекти са обяснени със силното поляризиращо влияние на Ce2O3–CeO2 слоевете върху 
+спрегнатата деполяризираща катодна реакция на редукция на разтворения в корозионната среда кислород. 
+ 
+ 
+18. Guergova et al.: Corrosion stability of stainless steel, modified electrochemically… 

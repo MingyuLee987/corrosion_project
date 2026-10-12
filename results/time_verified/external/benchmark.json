@@ -1,0 +1,27 @@
+{
+  "development_rows": 26,
+  "external_rows": 3,
+  "external_papers": [
+    "QC304_20"
+  ],
+  "parameters": {
+    "family": "svr",
+    "C": 0.10240577010807121,
+    "epsilon": 0.27702259731330425,
+    "gamma": "auto"
+  },
+  "input_columns": [
+    "C_wt_pct",
+    "Si_wt_pct",
+    "Mn_wt_pct",
+    "TP_scan_rate_mV_s",
+    "log1p_immersion_h",
+    "material_class",
+    "electrolyte_family",
+    "surface_state_cat"
+  ],
+  "log10_R2": -2051.6499151823273,
+  "log10_MAE": 2.808054672868947,
+  "validation": "External targets unused in selection, imputation, training or tuning; final parameters chosen by development publication CV only",
+  "limitation": "One publication, three similar targets, chemically passivated stainless domain absent from development; R2 unstable and not a broad validation"
+}

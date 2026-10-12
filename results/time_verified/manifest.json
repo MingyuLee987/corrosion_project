@@ -1,0 +1,30 @@
+{
+  "source_rows": 47,
+  "strict_rows": 26,
+  "strict_papers": 6,
+  "new_rows": 22,
+  "new_papers": 5,
+  "RE_immersion_rows": 4,
+  "RE_immersion_papers": 1,
+  "composition_excluded_rows": 3,
+  "auxiliary_noncontinuous_rows": 15,
+  "excluded_original_rows": 43,
+  "rule": "Source-supported quantitative composition AND positive, explicitly linked continuous pre-PDP immersion durations; no OCP time or separate mass-loss duration substitution",
+  "target_unit": "A/cm2",
+  "target_rule": "Only PDP/Tafel-derived icorr; exclude gravimetric corrosion rates and separate mass-loss durations",
+  "source_original_unchanged": true,
+  "disputed_new_record": "EH47 Table1 day0 excluded because Sec2.2 says day7",
+  "general_steel_RE_rule": "Unreported RE remains missing; never inferred to be 0",
+  "intended_entrypoint": "corrosion_time_verified.py",
+  "source_counts": {
+    "Coat24": 4,
+    "EH47_21": 3,
+    "Eyu16": 3,
+    "FeMnAl25": 8,
+    "N80_24": 6,
+    "Sherif14": 2
+  },
+  "external_locked_rows": 3,
+  "external_locked_papers": 1,
+  "collection_batch_verified_rows": 11
+}

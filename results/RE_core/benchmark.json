@@ -1,0 +1,222 @@
+{
+  "rows": 47,
+  "papers": 10,
+  "features": [
+    "C_wt_pct",
+    "Si_wt_pct",
+    "Mn_wt_pct",
+    "P_wt_pct",
+    "S_wt_pct",
+    "RE_log1p_ppm",
+    "RE_element_cat",
+    "electrolyte_family"
+  ],
+  "missing_fraction": {
+    "C_wt_pct": 0.0,
+    "Si_wt_pct": 0.0,
+    "Mn_wt_pct": 0.0,
+    "P_wt_pct": 0.1276595744680851,
+    "S_wt_pct": 0.1276595744680851,
+    "RE_log1p_ppm": 0.0,
+    "RE_element_cat": 0.0,
+    "electrolyte_family": 0.0
+  },
+  "log10_R2": -0.6109017375527295,
+  "log10_MAE": 1.052468096082046,
+  "folds": [
+    {
+      "held_out_paper": "Al10_26",
+      "model": "ridge10",
+      "inner_paper_MAE": {
+        "median": 1.0835028401343936,
+        "ridge10": 0.8336283104322557,
+        "svr03": 1.1790254518727707
+      },
+      "training_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.17142857142857143,
+        "S_wt_pct": 0.17142857142857143,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      }
+    },
+    {
+      "held_out_paper": "Bridge25",
+      "model": "ridge10",
+      "inner_paper_MAE": {
+        "median": 1.0299822048526317,
+        "ridge10": 0.8198025902462074,
+        "svr03": 0.9253156852850881
+      },
+      "training_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.06818181818181818,
+        "S_wt_pct": 0.06818181818181818,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      }
+    },
+    {
+      "held_out_paper": "Coat24",
+      "model": "ridge10",
+      "inner_paper_MAE": {
+        "median": 1.123963847248676,
+        "ridge10": 1.0491475275303694,
+        "svr03": 1.2212955350309638
+      },
+      "training_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.13953488372093023,
+        "S_wt_pct": 0.13953488372093023,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      }
+    },
+    {
+      "held_out_paper": "GCr23",
+      "model": "median",
+      "inner_paper_MAE": {
+        "median": 0.8643795642144699,
+        "ridge10": 0.8880650210810713,
+        "svr03": 1.1400371256139894
+      },
+      "training_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.14634146341463414,
+        "S_wt_pct": 0.14634146341463414,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      }
+    },
+    {
+      "held_out_paper": "La24Q355",
+      "model": "median",
+      "inner_paper_MAE": {
+        "median": 0.9398002309005002,
+        "ridge10": 0.943646061933231,
+        "svr03": 1.1556552649615681
+      },
+      "training_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.14285714285714285,
+        "S_wt_pct": 0.14285714285714285,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      }
+    },
+    {
+      "held_out_paper": "MDPI26LaCe",
+      "model": "median",
+      "inner_paper_MAE": {
+        "median": 0.8280633062111173,
+        "ridge10": 0.8379706483867022,
+        "svr03": 0.909030163446212
+      },
+      "training_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.06818181818181818,
+        "S_wt_pct": 0.06818181818181818,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      }
+    },
+    {
+      "held_out_paper": "Ma19FSS",
+      "model": "svr03",
+      "inner_paper_MAE": {
+        "median": 1.062945056270036,
+        "ridge10": 1.1262863610573612,
+        "svr03": 1.0446261918625162
+      },
+      "training_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.13953488372093023,
+        "S_wt_pct": 0.13953488372093023,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      }
+    },
+    {
+      "held_out_paper": "Tang2019",
+      "model": "ridge10",
+      "inner_paper_MAE": {
+        "median": 0.9988468352409363,
+        "ridge10": 0.7712510572596917,
+        "svr03": 1.1632616176335637
+      },
+      "training_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.13636363636363635,
+        "S_wt_pct": 0.13636363636363635,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      }
+    },
+    {
+      "held_out_paper": "UCS23",
+      "model": "median",
+      "inner_paper_MAE": {
+        "median": 0.947421184833705,
+        "ridge10": 1.0482325856393633,
+        "svr03": 0.9732270473729628
+      },
+      "training_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.13953488372093023,
+        "S_wt_pct": 0.13953488372093023,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      }
+    },
+    {
+      "held_out_paper": "Zhang2025",
+      "model": "median",
+      "inner_paper_MAE": {
+        "median": 0.84284150936316,
+        "ridge10": 1.1173133926390038,
+        "svr03": 1.0074886918374644
+      },
+      "training_missing_fraction": {
+        "C_wt_pct": 0.0,
+        "Si_wt_pct": 0.0,
+        "Mn_wt_pct": 0.0,
+        "P_wt_pct": 0.13636363636363635,
+        "S_wt_pct": 0.13636363636363635,
+        "RE_log1p_ppm": 0.0,
+        "RE_element_cat": 0.0,
+        "electrolyte_family": 0.0
+      }
+    }
+  ],
+  "validation": "Nested leave-one-publication-out; inner mean publication MAE; training-only imputation; fixed eight raw predictors",
+  "status": "Exploratory: heterogeneous electrolytes/processes and unreported composition elements limit generalization; RE feature association is not causal effect",
+  "exposure_time_used": false,
+  "external_locked_data_used": false
+}

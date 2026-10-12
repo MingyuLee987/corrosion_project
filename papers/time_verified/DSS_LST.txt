@@ -1,0 +1,1456 @@
+PAGE 1
+Duplex Stainless Steel Laser-Surface Textured: Stability in
+Brine Solution
+Mohammad Rezayat1,2
+| Hamidreza Enshaei2,3
+| Elaine Armelin2,3
+| José I. Iribarren2,3
+| Antonio Mateo1,2
+|
+Miguel Morales1,2
+1CIEFMA Group, Department of Materials Science and Engineering, EEBE—Campus Diagonal Besòs, Universitat Politècnica de Catalunya—
+BarcelonaTech, Barcelona, Spain | 2Barcelona Research Center in Multiscale Science and Engineering, EEBE—Campus Diagonal Besòs, Universitat
+Politècnica de Catalunya, UPC, Barcelona, Spain | 3IMEM-BRT Group, Department of Chemical Engineering, EEBE—Campus Diagonal Besòs, Universitat
+Politècnica de Catalunya—BarcelonaTech, Barcelona, Spain
+Correspondence: Elaine Armelin (elaine.armelin@upc.edu) | Miguel Morales (miguel.morales-comas@upc.edu)
+Received: 12 August 2025 | Revised: 13 December 2025 | Accepted: 19 January 2026
+Keywords: duplex stainless steel | EDX mapping | laser-surface texturing | potentiodynamic polarization analysis | scanning electron microscopy
+ABSTRACT
+The stability of duplex stainless steel (DSS) laser-surface textured (LST) in brine solutions is of significant interest for industrial
+applications. The present study reports evidences that passive films on smooth DSS2205 surfaces (Blank) deteriorate early
+(<96 h) if compared to oxidized and textured surfaces of LST samples (>96 h). This lower performance is detected in anodic polari-
+zation and in accelerated cyclic polarization tests with increasing exposition time and in harsh conditions. Although both surfaces
+maintain their chemical resistance against corrosion in noncyclic potentiodynamic experiments, the LST microstructure shows a
+broader passivation area with a larger potential range than the control samples. Moreover, the DSS2205 microstructure patterned
+surface is preserved. On the contrary, localized corrosion with macroscopic pits and microcracks is extended on the whole Blank
+surface. The α/γ crystalline phase ratio was reduced in corroded flat surface, while it remains stable in the corroded LST specimens,
+thanks to a significant formation of FeCr2O4 as a protective oxide film, as proved by Raman. Thus, LST treatments promise some
+advantages over nontreated interfaces, particularly for metallic pieces that will be in contact or installed close to salt environments.
+1 | Introduction
+Duplex stainless steels (DSSs) are Fe–Cr–Ni alloys consisting of
+ferrite and austenite phases with about 50%–50% ratio [1, 2]. Due
+to the synergistic effect between these two phases, DSS alloys
+exhibit higher toughness and better weldability than ferritic
+stainless steels, as well as higher mechanical strength and better
+corrosion resistance than austenitic ones [1, 2]. Their remarkable
+engineering performance has led to an increasing number of
+applications, mainly in corrosive environments such as paper-
+making, food processing, marine and petroleum industries,
+due to the combination of high mechanical strength, good tough-
+ness, and high corrosion resistance. Concerning to their inter-
+granular corrosion, the combination of the austenite–ferrite
+boundary and the ferrite phase enables the precipitation of
+chromium carbides without severely depleting chromium at
+the phase boundaries [3, 4]. However, DSSs can suffer significant
+corrosion when implemented in fields under extremely severe
+service conditions [5–7]. In the last two decades, the main com-
+mon causes of DSS failures in service were pitting corrosion
+(27%), chloride-induced stress corrosion cracking (SCC) (27%),
+sulfide stress cracking (18%), microbially induced corrosion
+(9%), selective corrosion (9%), hydrogen-induced stress cracking
+(5%), and crevice corrosion (5%) [5, 6, 8, 9].
+The protection of DSSs against corrosive media is achieved due to
+the passive film formed on the top surface, which is mainly com-
+posed of mixed hydroxides and oxides [10]. In stable working
+conditions, the degradation and rupture process of the passive
+film is a continuous metal oxidation process. The film structure
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any
+medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+© 2026 The Author(s). Advanced Engineering Materials published by Wiley-VCH GmbH.
+Advanced Engineering Materials, 2026; e202502108
+1 of 17
+https://doi.org/10.1002/adem.202502108
+Advanced Engineering Materials
+www.aem-journal.com
+RESEARCH ARTICLE
+
+PAGE 2
+and film thickness of ferrite and austenite are very similar, whereas
+the chemical composition differs [11–14]. The contents of Cr, Mo,
+and W are higher in the ferritic passive film than that in the aus-
+tenitic one, whereas the N and Ni contents in the austenitic passive
+film are higher than those in the ferritic one. Environment variables
+such as high temperature [15–17], remarkable pressure [18],
+mechanical vibration, high applied potentials, and aggressive envi-
+ronments (sulfide, sodium hydroxide, and chloride ions) usually
+affect the overall thickness [19–22], oxide ratio, and defect concen-
+tration of the passive film, but there are no significant changes in
+the typical double-layer arrangement [23].
+Regarding the effect of the environment on the corrosion protection
+of 2205 duplex metals, hydrogen sulfide generates hydrogen ions via
+the reacidification effect [20]. Adding hydrogen sulfide thins the
+passive film, and consequently, the number of oxygen vacancies
+increases as well and Fe2+ cations are consumed. Furthermore,
+the influence of the applied potential on the passive film can be
+divided into anodic and cathodic potentials, compared with the cor-
+rosion potential (Ecorr). At low anodic potentials, the passive film is
+composed of Cr2O3, FeO, NiO, and MoO2, which contains a high
+density of cationic vacancies [17]. At high anodic potentials, the
+main
+components
+are
+Fe2O3,
+FeOOH,
+CrO3,
+and
+MoO3.
+Therefore, the applied potential shifts from protective to transpas-
+sive potential range, where the electron removal increases the num-
+ber of the valence species and the passive film dissolves [16].
+The influence of SS alloying elements on pitting corrosion mech-
+anisms can be summarized as: difficulty of surface stabilization
+[24], passive barrier [25], formation of soluble precipitates [26],
+soluble inclusions [27], insoluble inclusions [28], and wrapping
+[6] mechanisms. As, for example, in the case of pitting corrosion
+induced by precipitates, the corrosion may be initiated due to:
+(i) Cr-depleted zones surrounding precipitates [29–32]; (ii) the
+microgalvanic effect between Cr-enriched phase and Cr-depleted
+phase [33–36]; (iii) the high-stress field around the precipitates
+[34, 37], and (iv) the α 0-martensite presence induced by strain
+[38]. Therefore, although DSSs are more resistant to SCC than
+austenitic ones, they also suffer the chloride-induced SCC under
+certain conditions, mainly when immersed in seawater and alka-
+line environments [39, 40]. Then, the amount of pitting corrosion
+initiated in the ferrite phase is significantly larger than that in the
+austenite phase, according to Örnek et al. [41]. Moreover, the
+cracking mechanism is associated with ferrite dissolution and
+hydrogen embrittlement [42]. Although pitting corrosion is pref-
+erentially initiated in the ferrite phase, the cracks mainly propa-
+gate along the ferrite/ferrite boundaries and austenite/ferrite
+phase boundaries. In hydrogen-induced stress cracking, phase
+boundaries are strong hydrogen traps and hydrogen diffusion
+pathways [43]. In sulfide stress cracking, this phenomenon is
+mainly associated with the acidification effect of sulfide [44, 45].
+Nowadays, different approaches have been used to modify the
+surface properties of DSS components, achieving new chemical,
+physical, morphological, and metallurgical surface properties
+and enhancing the corrosion resistance. For instance, Raja et al.
+[46] reported that DSS2205 treated at 400°C by plasma nitro-
+carburizing exhibited the highest corrosion resistance, along
+with a significant increase in surface hardness. Wang et al.
+[47]. improved the erosion–corrosion resistance through a nitro-
+carburizing treatment in a salt bath at 430°C. Majatan etal. [48]
+observed an enhancement of the corrosion resistance of the elec-
+trical discharge-treated 2205 DSS for biomedical applications.
+Lohrengel et al. [49] applied the electrochemical machining in
+NaNO3 with very good results. On the other hand, hot-working
+processes such as additive manufacturing of complex shape parts
+and welded joints of structures produce undesired structural and
+microstructural changes that unavoidably deteriorate the corro-
+sion resistance of the DSSs. To restore their corrosion resistance,
+several postmanufacturing treatments of the welded interfaces
+have been proposed, including annealing treatments [50, 51],
+electron beam texturing [52], laser surface heat treatment of
+welded interfaces [53], and combining the treatment of electron
+beam cladding and subsequent nitrocarburizing [54].
+More recently, laser-based texturing technique have been used
+for the preparation of superhydrophobic surfaces in aqueous
+solution, which are transformed in effective-protective passive
+films [55]. Compared with other techniques, laser texturing
+presents interesting advantages such as quick processing time,
+simple operation, precise control of patterns, and compatibility
+with multiple materials [56, 57]. Some studies have reported
+the correlation between (super)hydrophobicity and the corrosion
+resistance of laser-textured stainless steels such as AISI 304
+[58–60], AISI 316 [61–65], AISI 420 [66], and 17-4 PH [67].
+Recently, we have explored the corrosion resistance of DSS2205
+[68] and 301LN [69–71] sheets in molten carbonate at 600°C,
+after laser-surface texturing (LST). The laser texturing was car-
+ried out with a pulsed laser machine, selecting adequate conditions,
+to generate a periodic surface pattern. With this controlled surface
+oxidation, the corrosion rate was reduced by 48%, if compared to
+nontextured sheets. This substantial improvement has been attrib-
+uted to the presence of oxide layers, composed of chromium oxide
+(Cr2O3), nickel oxide (NiO), and magnetite phase (Fe3O4), which
+were present at both the valleys and micropillars of the treated sur-
+face. In the present work, the novelty is to evaluate the stability of
+DSS 2205 (hereafter denoted DSS2205 for simplification) modified
+by LST, after cyclic electrochemical tests, representing the worst-
+case scenario for the metal protection. Therefore, a detailed analysis
+was performed to investigate the effects of laser texturing on the
+DSS2205 surface by means of electrochemical assays (potentiody-
+namic polarization and cyclic potentiodynamic polarization) with
+increasing time (life-span evaluation). The reversibility of corrosion
+resistance due to the interaction of LST DSS2205 surfaces with
+3.5 wt.% NaCl was not investigated before. Moreover, the surface
+oxide wettability and microstructure analyses, before and after cor-
+rosion affectation, were evaluated by water contact angle (WCA)
+and scanning electron microscopy (SEM)/energy-dispersive spec-
+troscopy (EDX) microscopy. The results were compared to smooth
+DSS2205 surfaces (Blank), in the same conditions.
+2 | Experimental Procedure
+2.1 | Materials
+This study utilized DSS, specifically the 2205 grade, correspond-
+ing to UNS S31803, as the primary material. The samples, each
+measuring 8 × 8 × 2 mm3, were selected for analysis. The stan-
+dard chemical composition for this grade is presented in Table 1.
+2.2 | Preparation of LST Samples
+Before laser-surface treatment, the samples were initially ground
+using silicon carbide paper, followed by sequential polishing with
+2 of 17
+Advanced Engineering Materials, 2026
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 3
+diamond suspensions of decreasing particle size down to 1 μm.
+Following the polishing process, the samples were subjected to
+ultrasonic cleaning in ethanol to thoroughly remove any residual
+contaminants. The laser system employed in this experiment was
+the Explorer-One-349-120, manufactured by Spectra-Physics
+(MA, USA), operating in pulsed mode. This system utilizes an
+Nd:glass medium, characterized by a wavelength (λ) of 349 nm,
+a maximum peak power of 60 W, a maximum repetition rate of
+1 kHz, a focal length of 80 mm, and a spot size diameter of 145 μm.
+Figure 1a illustrates a schematic representation of the spatial
+arrangement of the laser setup relative to the laser beam and
+the workpiece surface. The stand-off distance, defined as the dis-
+tance between the workpiece surface and the nozzle, was set to
+150 mm. The laser’s focal plane position (FPP) was 70 mm from
+the workpiece surface.
+For this experiment, a square pattern was selected for this exper-
+iment, following the strategy and processing parameters detailed
+in previous studies [68–70]. The laser texturing was systemati-
+cally executed using WeldMark software v12, with the laser ori-
+ented at 90° to the target surface, covering the entire sample
+surface. Initially, vertical tracks were applied, followed by hori-
+zontal tracks, maintaining a consistent intertrack distance of
+100 μm. The laser power was set at 50 W, with a scanning speed
+of 3.6 mm s−1, a pulse duration of 2 μs, and a pulse fluence of
+11.81 J cm−2. These parameters resulted in an 86% overlap of
+laser pulses (spot beam) (Figure 1b).
+2.3 | Characterization of Oxide Films
+2.3.1
+|
+SEM
+Sample microstructure was examined employing a field emission
+scanning electron microscope (Carl Zeiss Merlin FESEM,
+Oberkochen, Germany) equipped with EDX (Oxford Instruments
+INCA-350 system, United Kingdom). Image analysis was performed
+on the top and cross-sectional surfaces of the samples. Focused ion
+beam (FIB) (Carl Zeiss Neon 40 FIB, Oberkochen, Germany) was
+used to obtain cross-sectional images to observe the microstructure
+of the duplex steel, beneath the LST surface.
+2.3.2
+|
+X-Ray Diffraction
+The crystalline phases of the oxide scales were determined
+through X-ray diffraction (XRD, Bruker, D8-Advance, Billerica,
+MA, USA) using Cu Kα radiation (operated at 40 kV and 40mA).
+The data collection was carried out at room temperature, from
+30° and 80°, with a step size of 0.01° and a collection time of
+1 s/step. Phase identification was performed using the JCPDS
+database and the DIFFRAC Plus EVA software by Bruker AXS.
+2.3.3
+|
+Raman Spectroscopy
+The location of phases was determined using Raman spectros-
+copy (inVia Qontor, Renishaw). Two lasers with distinct wave-
+lengths of the applied excitation line were used in the infrared
+region (785 nm) and in the visible region (532 nm). An optical
+microscope with a 100× objective was employed to determine
+the analysis zone.
+2.3.4
+|
+Fourier Transform Infrared
+Fourier transform infrared (FTIR) analysis was performed using
+a Nicolet 6700 spectrometer (Thermo Scientific) equipped with a
+CsI beam splitter. Measurements were conducted in reflectance
+mode using accessories for transmission, grazing-angle reflec-
+tion, and attenuated total reflection (ATR).
+TABLE 1
+|
+Chemical composition (wt.%) of DSS 2205.
+Fe
+Cr
+Ni
+Mo
+Mn
+C
+N
+Si
+P
+S
+Bal.
+23
+6.5
+3.5
+<2.0
+<0.03
+<0.2
+<1.0
+<0.03
+<0.02
+FIGURE 1
+|
+Schematic representation of: (a) the Explorer-One 349 pulsed laser setup, (b) laser beam distances, and (c) the square-shaped pattern
+with spot beam size and overlap.
+Advanced Engineering Materials, 2026
+3 of 17
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 4
+2.3.5
+|
+Surface Topography
+The topography of the surfaces, with and without LST treatment,
+was characterized using a confocal laser optical profilometer
+(Olympus Lext OLS30, Tokyo, Japan) equipped with several lens
+objectives from ×10 to ×100 magnifications in order to assess the
+impact caused by the presence of chlorine ions and the potentials
+applied for the cyclic experiments described in the next section.
+2.4 | Electrochemical Assays: Corrosion
+Evaluation
+The potentiodynamic polarization experiments on LST and
+Blank samples were conducted using an Autolab PGSTAT302N
+Galvanostat equipped with the ECD module (Ecochimie, The
+Netherlands). A three-electrode setup was employed in a one-
+compartment cell containing 200 mL of naturally aerated 3.5%
+NaCl solution, as the supporting electrolyte. The temperature
+and pH were only monitored at the beginning and at the end
+of 1-week experiments. The temperature did not vary from 23
+to 25±1°C in the period of analysis and the pH decreased from
+7.5 to 8.0, at beginning of test, to acidic values (6.0), after 1 week
+(measured with pH test strips). DSS samples, both laser-treated
+and untextured (Blank), served as the working electrodes
+(WE) and the area of analysis was delimited by the cell hole
+(0.1963 cm2), adapted with a rubber gasket for sealing. A plati-
+num wire was used as the counter electrode (CE), and an Ag|
+AgCl electrode containing KCl 3 M aqueous solution acted as
+the reference electrode (RE) (E° = 0.197 V at 25°C vs. SHE).
+Polarization analyses were carried out by measuring linear sweep
+voltammetry (LSV) scans, using a negative potential starting at
+−1.0 V and raising to positive values (vs. EOCP) and with a scan
+rate of 1 mV s−1. The system was stabilized for 30 min before
+recording the open-circuit potential (EOCP), based on previous
+works reported [72, 73].
+The same conditions were used to perform the cyclic polarization
+(CP) analyses to evaluate the pitting corrosion resistances of both
+sample types. In this case, two LSV scans were performed to cre-
+ate a cyclic polarization. The first scan started at a potential of
+−0.5 V and progressed to 1.5 V, while the second scan immedi-
+ately followed, reversing from 1.5 V back to −0.5 V. The WE area
+in this test was larger than in the potentiodynamic anodic polar-
+ization assays (0.7854 cm2) in order to be able to evaluate pit and
+crevices formations and the chemical modification of oxide layer
+by SEM–EDX and Raman analyses in a broader zone. The scan
+rate was set to 1mV s−1. As-prepared LST samples were used for
+this analysis. Several measurements were conducted, with con-
+trolled intervals, to monitor corrosion behavior over a 7-day
+period. The electrochemical cell, the electrodes, and the electro-
+lyte solution were the same as described above. Prior to electro-
+chemical measurements, the samples were immersed in the
+electrolyte for 30 min to obtain a steady state (EOCP), based on
+the previous OCP stabilization time achieved with potentiody-
+namic polarization experiments described above [72, 73].
+2.5 | Surface Wettability
+The static WCA measurements were conducted using a Krüss
+Drop Shape Analyzer goniometer to evaluate the wettability of
+the samples. The instrument was calibrated and utilized under
+standard laboratory conditions at room temperature. For each
+sample, ten measurements were taken to ensure accuracy and
+repeatability. The water drop (volume of 0.5 μL) was deposited
+in the delimited zones serving as working area for corrosion tests.
+Variations on the WCA values were used to follow up the surface
+wettability of the abraded samples before and after corrosion
+assays. 3D topography maps of untreated and laser textured sur-
+faces, prior and after the deposition of one droplet, were taken
+with a confocal microscope Zeta-20, from KLA microscope.
+3 | Results and Discussion
+3.1 | Microstructure and Passivating Layer of
+DSS2205 LST Samples
+3.1.1
+|
+Microstructural and Topographical Analysis
+After LST treatment, the surface composition and microstructure
+of the samples were analyzed to assess the effects of LST in detail.
+Figure 2 displays the SEM images of both the Blank and
+LST-treated microstructures. The Blank sample displayed a
+completely flat surface post-polishing (Figure 2a,b), while the
+LST-treated sample exhibited characteristic groove patterns and
+periodic wave formations induced by the laser (Figure 2c,f). The
+images indicate that the grooves measured approximately 70 μm
+in width between the valleys of the laser tracks, with each valley
+measuring around 30 μm in width. As illustrated in Figure 2e,f,
+the topography images of the LST sample reveal a microstructure
+characterized by uniformly distributed, square-shaped micropil-
+lars without pronounced grooves and valleys. Additionally, it is
+crucial to highlight the consistent roughness observed across
+both the valleys and the micropillars, which are adorned with
+redeposited material from the laser track. This favorable result
+is attributed to the carefully optimized laser parameters, includ-
+ing scanning speed, pulse duration, and pulse fluence, all opti-
+mized for the laser–metal interaction in the DSS2205 alloy.
+Surface topography was further characterized using confocal
+profilometry to confirm the efficacy of cleaning and texturing
+processes. Figure 3 displays the 3D reconstructed images of
+the Blank surface and the LST pattern. These images illustrate
+that laser processing significantly increases surface roughness by
+incorporating textural features. The width of the valleys was
+approximately 30 μm, while the height of the valleys between
+the micropillars ranged from 3 to 5 μm. The width dimensions
+of the grooves and pillars obtained from the surface profile
+are similar to those observed in the SEM images.
+3.1.2
+|
+Chemical Composition and Structural Analysis
+of Oxide Phase Distribution
+The phases present on the surface of LTS sample have been iden-
+tified by XRD. Figure 4a shows the XRD spectra of the Blank and
+LST samples. In the spectrum of the LST sample, the LST spec-
+trum revealed prominent peaks corresponding to the austenite
+and ferrite phases of the DSS2205. In addition, minor peaks of
+magnetite (Fe3O4) were detected, which agrees with the presence
+of oxygen observed in the SEM–EDX composition analysis.
+Raman spectroscopy was used to locally analyze the chemical
+composition of both groove and pillar regions. In Figure 4b, the
+main bands of Raman spectra in the region of 200–800 cm−1 cor-
+responded to the magnetite phase (Fe3O4), with the most intense
+4 of 17
+Advanced Engineering Materials, 2026
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 5
+band at 690 cm−1 [74], and lower amount of chromium oxide
+(Cr2O3) at 610 cm−1 [75]. The Raman spectra presented a similar
+intensity at both the grooves and pillars, which confirms the XRD
+results and suggests that the LST treatment generated a homo-
+geneous phase distribution in the entire surface of DSS2205. In
+the Raman spectra, between 1000 and 1800 cm−1 (Figure 4c), two
+broad bands centered at 1350 and 1560 cm−1 are observed,
+which are attributed to the D and G carbon characteristic modes,
+respectively. The peak at 1350 cm−1, the so-called D band,
+arises from disorder and defects such as edges, vacancies, or func-
+tional groups, in the sp2 carbon network for activation [76]. The
+peak at 1560 cm−1 (G band) is associated with the in-plane
+vibrational mode (E2g symmetry) of sp2-hybridized carbon atoms
+arranged in a two-dimensional hexagonal lattice, such as graph-
+ite or graphene [76]. Considering the characteristics of the D and
+G peaks such as their relative intensity (I(D)/I(G) ratio  1), the
+shift of the G peak to low frequencies (1560 cm−1) within the
+range of 1550 –1590 cm−1 and the broad width of D peak
+(FWHM) led us to conclude that the carbon layer is predomi-
+nantly present in amorphous or highly disordered graphitic state,
+in both the grooves and pillars.
+FTIR analyses were conducted to qualitatively assess the pres-
+ence of chemisorbed organic compounds on both the LST and
+Blank surfaces after they were cleaned and maintained in a labo-
+ratory environment for 30 days. As illustrated in Figure S1, the LST
+surface demonstrated a markedly higher level of chemisorption of
+FIGURE 3
+|
+3D reconstruction of a representative: (a) Blank smooth surface and (b) LST textured surface, obtained using confocal laser optical
+profilometry.
+FIGURE 2
+|
+SEM micrographs at different magnifications of: (a,b) Blank surface showing the smooth texture and some marks after grinding process
+and (c–f) LST DSS2205 micropatterned surface, produced after laser-surface treatment. Low magnifications (a–d); high magnifications (e,f).
+Advanced Engineering Materials, 2026
+5 of 17
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 6
+carbon-containing species, evident from the pronounced intensity
+of infrared bands corresponding to several functional groups,
+including alkanes, alkenes, carbonyls, and hydroxyls, among
+others. These findings indicate that the presence of chemisorbed
+organic compounds on the LST surface may significantly influence
+the formation of the oxide layer and the corrosion mechanisms.
+This issue will be further explored in the subsequent sections.
+3.2 | Corrosion Resistance in Salt Solution and
+Surface Characterization
+3.2.1
+|
+Potentiodynamic Polarization Curves
+Having proved that the DSS2205 LST samples were well pat-
+terned and protected by passivating oxide layers, corrosion tests
+were performed in concentrated salt solution to monitor the evo-
+lution of such film stability. First, the flat surface of sheets with-
+out laser texturing was subjected to polarization assays during
+1 week. Figure 5a shows the potentiodynamic polarization curves
+of Blank samples, before and after their immersion in 3.5 wt.% of
+NaCl solution. There is no typical Tafel region during anodic
+polarization due to the occurrence of transformation from acti-
+vation to passivation. Therefore, in the anodic curve, a clear
+Flade potential (Ef) at −0.43 V is observed in the first 6 h of
+immersion time, in which the current density reverses and moves
+to lower values (7.6×10−7A). The electrode surface was trans-
+formed from active to passive state, with critical passivation cur-
+rent density (icp) starting at 5.2×10−7A cm−2 (Table 2). Moreover,
+the material presents a high range of concentration polarization
+in the cathodic region, from −1.0 to −0.5 V. The formation of
+well-known passive layers composed of Cr2O3, Fe2O3, Fe3O4,
+Fe2(MoO4)3, and NiO above the SS surface helps to maintain
+the corrosion current density (icorr) at low values (μA cm−2) with
+increasing immersion time (Table 2, above 6 h) [77]. However,
+the corrosion potentials (Ecorr) move to positive values and the
+anodic curve slowly begins to lean toward the area of positive
+current densities, with increasing potential (range from −0.3
+to +0.3 V in Figure 5a), from 72 to 168 h of salt solution
+FIGURE 4
+|
+(a) XRD spectra of the Blank and LST surfaces. (b,c) Raman spectra of the Blank and LST surfaces within the regions of: (b) 200 and
+800 cm−1 and (c) 1000 and 1800 cm−1, using two distinct lasers in the visible region (532 nm) and in the infrared region (785 nm), respectively.
+FIGURE 5
+|
+Potentiodynamic anodic polarization curves of: (a) Blank samples and (b) LST samples, with different intervals of immersion time, in
+NaCl 3.5 wt.%. Labels highlighted in plots correspond to: icorr, corrosion current density; icp, critical passivation current density; Ecorr, corrosion potential;
+Ef, Flade potential; and ic-cp, pseudo-critical passivation current.
+6 of 17
+Advanced Engineering Materials, 2026
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 7
+immersion. The corrosion potentials (Ecorr) and the corrosion
+current densities (icorr) of the polarization curves were obtained
+by extrapolation analysis, by the intersection of cathodic polari-
+zation curves and the corrosion potential.
+In our previous studies [68], it has been proved that LST DSS2205
+samples have thicker nonpassive and passive oxide layers composed
+mainly of Fe3O4, Cr2O3, NiO, and amorphous or highly disordered
+graphitic carbon (C), distributed by layers. When studying the LST
+samples in contact with NaCl solutions, at the same conditions than
+Blank (Figure 5a), a clear activation to positive current densities is
+observed for the first case, i.e., in textured sample (Figure 5b). The
+Ecorr is much more negative than in the Blank plates, as expected,
+since the LST surface is already oxidized by the controlled laser
+treatment. Additionally, this steady layer provokes the appearance
+of a much larger passive range (from −0.60 to +0.07 V) than that
+observed for the Blank sheets, without any apparent Flade poten-
+tials. However, a pseudo-critical passivation current (ip-cp) was
+determined when the current value goes back into the anodic zone
+(Figure 5b), with progressive current depletion from 6 to 72 h of
+polarization test. Moreover, after 3 days of contact with the brine
+solution, the LST surface remains highly stable until 1 week, with
+no variation either in the Ecorr or in the icorr data (Table 2). Similarly,
+the icorr was obtained by extrapolation analysis due to the absence of
+Tafel behavior. The values are expressed in Table 2 for comparison
+with the Blank samples.
+As explained in previous sections, the laser energy applied
+(11.81 J cm−2) and the scanning speed (3.6 mm s−1) chosen do
+not exceed the heating limits that could cause an excessive melt-
+ing of the passive layer of DSS2205, as observed in other studies
+[78]. Thus, the compact structure of protective oxides is the
+responsible for the large passivated zone found in those samples.
+Detailed inspection of SEM images also proved that the textured
+and rough topography obtained with the nanosecond-pulsed
+laser treatment is mostly preserved after 7 days of corrosion anal-
+ysis, corroborating with the high stability of this oxide layer
+(Section 3.2.2).
+3.2.2
+|
+Topography Analysis and Chemical Composition
+after Potentiodynamic Corrosion Tests
+Comparison of SEM images before and after potentiodynamic
+polarization tests led us to confirm that both, textured and
+Blank surfaces, demonstrated resistance to corrosion when
+exposed to a chloride solution for prolonged time (7 days). In
+Figure 6a, the marks of surface grinding before analysis are visu-
+alized, together with some punctual defects. Similarly, compara-
+ble lines are evident after 1 week of contact with the NaCl
+solution, together with localized holes, probably due to defects
+on sample grinding (Figure 6b), and some soluble precipitates
+or inclusions above the surface and close to holes. Xiao et al.
+[72] have described the micromorphology of corrosion pits in
+DSS2205 in contact with 35 g L−1 NaCl solution, at different
+pH values, and after polarization tests. They found a character-
+istic funnel-shaped form, shallow, with small and medium sizes,
+to some extent. Therefore, based on the micrography analysis, it
+can be affirmed that the metal integrity of the DSS2205 passive
+protective surface was apparently preserved against pitting cor-
+rosion over 1 week of anodic polarization testing.
+In LST sheets, the micropatterned morphology observed by SEM
+corresponds to the microstructure already described in Section 3.1
+and also in our previous study [68], with the typical groove marks
+with periodic waves on valleys generated through the laser treat-
+ment (Figure 6c,d). Unlike Blank samples, before and after salt solu-
+tion immersion for 1 week LST surface does not present any other
+marks than that related to the laser treatment (Figure 6c–f, respec-
+tively). However, the waves observed on valleys for the as-prepared
+samples have slightly changed, which can indicate some local affec-
+tation on the density of the protective oxide layer. Nevertheless, this
+phenomenon was observed only in a few zones of analysis. Deeper
+evaluation of the oxide presence in such grooves and in scan-line
+separations was performed with SEM–EDX mapping to discard any
+enhancement of corrosive product provoked by the salt solution
+and the electrochemical perturbation.
+The smooth and uniform surface of Blank sample before corro-
+sion test (Figure 7a) was checked, and some localized micro-
+scopic defects were visualized again in the SEM imaging used
+for mapping exploration (Figure 7b), similar to the precipitates
+indicated with arrows in Figure 7b. The rectangular zone marked
+in both images corresponds to the zone chosen for the identifi-
+cation of the changes in the chemical composition of the main
+alloying elements. The EDX analysis shows a practically invari-
+able composition of Fe, Cr, Ni, Mo, and Mn, before and after the
+corrosion tests, for all samples (Table S1), confirming the high
+TABLE 2
+|
+Characteristic parameters obtained for Blank and patterned DSS2205 samples in NaCl 3.5 wt.%, with increasing exposure time, under
+potentiodynamic anodic polarization.
+Blank samples
+0 h
+3 h
+6 h
+72 h
+120 h
+168 h
+EOCP
+a, V
+−0.12
+−0.14
+−0.15
+0.03
+0.05
+0.07
+Ecorr
+b, V
+−0.45
+−0.46
+−0.48
+−0.28
+−0.31
+−0.31
+Icorr
+b, A cm−2
+9.73 × 10−7
+5.97 × 10−7
+4.17 × 10−7
+7.86 × 10−8
+1.72 × 10−8
+1.77 × 10−8
+LST samples
+0 h
+3 h
+6 h
+72 h
+120 h
+168 h
+EOCP
+a, V
+−0.03
+−0.02
+−0.002
+0.14
+0.15
+0.15
+Ecorr
+b, V
+−0.75
+−0.76
+−0.76
+−0.67
+−0.67
+−0.68
+Icorr
+b, A cm−2
+2.53 × 10−7
+1.97 × 10−7
+2.54 × 10−7
+1.63 × 10−7
+1.48 × 10−7
+1.75 × 10−7
+Ip-cp, A cm−2
+4.20 × 10−6
+4.20 × 10−6
+4.20 × 10−6
+1.58 × 10−6
+1.56 × 10−6
+1.56 × 10−6
+aEOCP measured after 30 min of sample immersion in NaCl solution.
+bData obtained by extrapolation method with the cathodic curve and Ecorr intersection.
+Advanced Engineering Materials, 2026
+7 of 17
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 8
+performance of this DSS in chlorine environments. The EDX
+mappings of non-LST sheets (Blank) and laser-textured (SLT)
+evidence the presence of all main alloying elements and slight
+atoms (C and O), before and after immersion in salt solution for
+7 days. The largest difference in composition remains in the
+amount of C and O in the LST sheets, which is topographically
+higher than in Blank flat surfaces due to the oxidation process
+caused by the laser treatment and, subsequently, the passivation
+process. Such atoms are present in pillars and grooves. On the
+contrary, it is important to emphasize that the Cr/Fe and Cr/Ni
+ratios remained high for both typology of surfaces. The high
+Cr/Fe ratio, combined with high O content, in the LST surface
+indicate that the corrosion layer is thicker than that formed on
+the Blank surface. The EDX spectra of Blank and LST samples
+are presented in Figures S2 and S3.
+The EDX mapping (Figure 7a,b) offers one visual evidence of the
+presence of most relevant metals and nonmetallic components
+above the alloying surface. There is one apparent reduction of
+metals such as Mo when comparing the images before and after
+assays (confirmed by the EDX weight percentage reduction in
+Table S1), and localized increasing of oxygen concentration in
+the agglomerated particles revealed in SEM micrograph of
+Blank after polarization test. In SEM-mapping images of LST
+samples, the grooves observed after 7 days of NaCl immersion
+(Figure 7c,d) have apparently the same line marks and micropil-
+lars of LST DSS2205 before corrosion, proving the high stability
+of the oxide passivating layers in front of aggressive agents such
+as chlorine ions. When analyzing the mapping images on the
+right (Figure 7d), no signs of pitting corrosion were detected since
+the Fe content is invariable and oxygen atoms are spread over the
+entire zone. Moreover, Cr/Fe and Cr/Ni ratios remain almost
+unaltered in both cases, before and after analysis (Table S1).
+This indicates that the chemical composition of the oxide phases
+formed during the corrosion process persisted largely unchanged.
+Several works have reported the superior corrosion resistance of
+metals with controlled passivating films formed after laser
+surface ablation treatments [78–81]. Furthermore, the conditions
+applied to the system (beam direction, laser distance, etc.) are
+sometimes the key factors that enlarge the durability of such sta-
+ble films. In this work, a good balance of laser surface oxidation
+parameters was achieved to maintain stable the passivating
+layers, composed of Cr2O3, Fe3O4, NiO, and Mo2O3 in DSS2205
+substrates, against corrosion. Nevertheless, such protective layers
+cannot withstand long periods of contact with a brine environ-
+ment or more aggressive media. In such conditions, pitting and
+crevice corrosion can appear. Therefore, one of the main objec-
+tives of this study was to evaluate these phenomena under forced
+cyclic tests, as shown in the following section.
+3.2.3
+|
+Accelerated Corrosion Induced by Cyclic
+Polarization Tests in Salt Solution and Evaluation of
+Pitting Formation
+The cyclic potentiodynamic polarization (CP) can be regarded as
+an accelerating test for rapid evaluation of pitting corrosion. The
+chloride-ion concentration is a main factor for pitting initiation
+in stainless steels. In the present study, successive CP was applied
+to the Blank and LST surfaces to eliminate the passive and pro-
+tective oxide layers and achieve the highest pitting phenomena
+over time in salt water with high salinity concentration (3.5 wt.%).
+For this test, a larger area of the working electrode was chosen if
+compared to the single anodic polarization experiments, previ-
+ously described.
+In Figure 8a, the comparison of forward and reverse curves for
+Blank and LST specimens, at 0 h (first CP) and after 24 h, is
+shown. The potential at which the current sharply enhances is
+defined as the pitting potential (Epit). As can be seen, in the for-
+ward line the current increases suddenly over 0.55 V for Blank
+sample, corresponding to its Epit (Table S2). In the reverse curve,
+some metal dissolution, highlighted with a discontinuous red
+circle in Figure 8a at around +0.14 V, was observed at higher cur-
+rent densities than LST sample. Afterward, a repassivation poten-
+tial (Erp at −0.14 V), which crosses the forward scan in the anodic
+FIGURE 6
+|
+SEM micrographs of: (a) Blank sample before polarization; (b) after corrosion tests; (c,d) LST samples, at different magnifications before
+polarization; and (e,f) after corrosion polarization tests in NaCl 3.5 wt.%. Yellow circles and arrows in (b) indicate the holes and the precipitates, respec-
+tively, at the surface of bare DSS2205 sample, which appeared after 7 days of immersion in NaCl 3.5 wt.%.
+8 of 17
+Advanced Engineering Materials, 2026
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 9
+zone, was reached. The metal surface is prompt to pit because the
+hysteresis loop is large and the Erp is much more negative than
+Epit and closest to the Ecorr. After 24 h of sheet immersion and
+2nd CP test over the same area, the tendency is the dramatic
+reduction of Epit (0.034 V) and the obtaining of increasing local-
+ized corrosion points (Blank, 24 h). Likewise, the LST surface
+showed a typical active behavior at first CP with lower Epit
+(0.33 V), with an obvious unstable pitting zone (from −0.6 to
+1.1 V), with no repassivation potential in the reverse scan
+(Figure 8a, continuous circle marked for 0 h) and much larger
+hysteresis loop than Blank sample. These results indicate that
+pitting corrosion occurred in an early stage for both samples,
+which is expected due to the highly concentrated brackish solu-
+tion (NaCl 3.5 wt.%) used, comparable to seawater salinity.
+However, small differences between micropatterned surfaces and
+the flat ones can be observed. The corrosion potential (Ecorr) and
+the switching potential (Esw) is much higher in LST treated sur-
+faces than in Blank at initial stage, indicating a higher stability to
+localized corrosion attack. Furthermore, with an increasing
+immersion time (24 h), a similar trend to localized corrosion
+has been observed but the corrosion current density (icorr),
+obtained via the extrapolating method confirms a much less pos-
+itive value after LST treatment (5.48 × 10−7A cm−2 compared to
+2.65 × 10−3A cm−2 of Blank) (Table S2). With prolonged exposi-
+tion (96 h, Figure 8b), despite a similar pitting trend of both sam-
+ples with wide hysteresis loops is observed, Blank sample still has
+a higher icorr than textured specimens (1.26 × 10−6A cm−2 and
+7.79 × 10−7A cm−2, respectively). After 7 days (168 h) (Figure 8c),
+both samples show equal behavior and are unable to stand any
+passivating protective layer. Table S2 summarizes the evolution
+of Ecorr, icorr, and Epit, among other parameters, and Figure S4
+exemplifies the overlapped forward and reverse curves with time.
+Undoubtedly, cyclability applied potentials deteriorate the pro-
+tective passivating layers of DSS2205, even if the metal interface
+tries to repassivate, as proved with nontextured sample. The sta-
+bility of DSS2205 oxides coating, composed mainly by iron oxides
+in the LST sample, such as magnetite (Fe3O4) and iron chromite
+(FeCr2O4), is strongly decreased under highly concentrated salty
+FIGURE 7
+|
+SEM micrographs (on left) corresponding to the surfaces used for mapping analysis: (a,c) before and (b,d) after immersion of substrates
+in NaCl solution for 7 days; and EDX mapping images (on right) of main DSS2205 elements and alloying atoms (Fe, O, Mn, Ni, Cr, C, Mo). Micrographs
+(a,b) correspond to Blank sample and (c,d) to LST samples.
+Advanced Engineering Materials, 2026
+9 of 17
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 10
+solutions (discussed in next section). The presence of macro-
+scopic pits in Blank and the delamination of oxide layers in LST
+sheets can be seen in Figure 8d. However, such results can only
+be supported with additional microscopy and chemical structure
+analysis to determine the real effect of pitting in the surface
+chemical composition after the cyclic experiments. Therefore, SEM
+mapping, EDX analyses, XRD, and Raman spectroscopy were also
+carried out to evaluate the degree of metal damage on both typolo-
+gies of surfaces: flat (Blank) and grooved (LST), after cyclic
+experiments.
+3.2.4
+|
+Topography Analysis and Chemical Composition
+after Cyclic Potentiodynamic Corrosion Tests
+Duplex steels are formed by austenite (γ) and ferrite (α) and the
+pitting corrosion resistance of both phases depends on several
+factors, such as the concentration and composition of salt solu-
+tion, and also on the heat treatments the steel has undergone, i.e.,
+aging or annealing treatment [82]. Pan et al. [73] have reported
+that such phases change when different polarization potentials
+are applied to polished bare surfaces. They proved that SCC is
+promoted by potential shift to very low values (–850 and
+–1200 mV), with anodic dissolution of the metallic elements
+(Fe, Cr, Ni, and Mo), followed by a synergic enrichment of hydro-
+gen in austenite. Combining SEM and EBSD, authors showed
+that some small pits appear on the γ-phase and become SCC
+nucleation sites.
+In a similar way, crevice corrosion in the Blank DSS2205 sample
+exposed to the cyclic potentiodynamic polarization was detected
+by comparing the SEM images and EDX mapping, before and
+after corrosion assays (Figure 9a,b). Large cracks were evidenced
+surrounding some of the micropits, corroborating the fact that
+DSS2205 cannot resist such aggressive tests. Microscopic pits
+and crevices on bare samples were also visible by optical microg-
+raphy (Figure S5a, b). On the contrary, a redistribution of oxides
+FIGURE 8
+|
+Potentiodynamic cyclic polarization curves of: (a) Blank and LST samples (0 h and after 24 h); (b) Blank and LST samples (96 h); and (c)
+Blank and LST samples (168 h), in 3.5 wt.% of NaCl solution. (d) Digital photographs of Blank (up) and LST (down) sheets showing the visible deterio-
+ration of both samples. Scale bar: 0.5 cm. Labels highlighted in plots correspond to: Ecorr, corrosion potential; Epit, pitting potential; Esw, switching
+potential; and Erp, repassivation potential.
+10 of 17
+Advanced Engineering Materials, 2026
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 11
+was observed (by topography brightness and localized brown
+spots) in the LST sheet (Figure S5c,d). Surprisingly, although
+the textured surface (Figure 9c) showed the presence of several
+micropits too, mainly localized in pillars (Figures 9d and S6), the
+microstructure formed after laser ablation could avoid the severe
+damage caused by crevice corrosion. As can be seen in Table S3,
+comparing the samples after immersion, the LST samples exhib-
+ited a higher content in Fe, Cr, and Ni, maintaining almost con-
+stant the Cr/Fe and Cr/Ni ratios.
+To complement the observations obtained from the topography
+SEM images showed in Figure 9, EDX mapping of cross-sectional
+zones and the corresponding EDX maps were analyzed for both
+Blank and LST-treated DSS2205 samples, after cyclic corrosion
+tests (Figure 10). The results revealed clear differences between
+the two samples. As shown in Figure 10a, the Blank sample
+exhibits a heterogeneous microstructure with high concentration
+of pores and voids as well as a pronounced elemental segregation,
+particularly of Mo and Ni, along with strong O signal that reflect
+FIGURE 9
+|
+SEM micrographs (on left) corresponding to the surfaces used for mapping analysis: (a,c) before and (b,d) after cyclic polarization tests
+with immersion of substrates in NaCl solution for 7 days. EDX mapping images (on right) showing the distribution composition of main DSS2205
+elements and alloying atoms (Fe, O, Mn, Ni, Cr, C, Mo). Micrographs (a,b) correspond to Blank sample and (c, d) to LST samples.
+Advanced Engineering Materials, 2026
+11 of 17
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 12
+the presence of metal oxides, corrosion products, and other
+contaminants. Localized Cl enrichment is also detected, indicat-
+ing a higher susceptibility to penetration of chloride in the early
+stages of localized corrosion. In contrast, the LST-treated sample
+showed a more uniform microstructure (Figure 10b). Elemental
+maps of alloying atoms (Fe, Cr, Ni, and Mo) display a significant
+more homogeneous distribution during corrosion test. The
+reduced O signal suggested a more compact and stable oxide
+layer formed upon cyclic potentiodynamic polarization assays
+over 7 days. Additionally, the Cl signal is minimal and more dif-
+fuse, indicating that LST effectively limits chloride penetration
+into the inner oxide layer, thereby enhancing the alloy’s resis-
+tance to localized corrosion. This may suggest a significant
+enhancement in the formation of chromium, nickel, molybde-
+num and iron oxides, as a result of the LST process, indicating
+an alloy stabilization during corrosion assays. As described in our
+previous work [68], the superior corrosion resistance of LST sur-
+faces with respect to nontextured substrates is due to the benefi-
+cial presence of a stable oxide layer, which are able to retain
+elements as Cr, Mo, and Ni during the corrosion process, and
+decreasing the diffusion of ions through oxide layer. However,
+these results can have a certain error associated with the quan-
+tification of light elements by EDX, such as C and O, and there-
+fore, the C and O compounds were complementarily analyzed by
+XRD and Raman spectroscopy.
+As shown in Figure 11a, the XRD spectra of LST and Blank sam-
+ples after cyclic potentiodynamic test exhibits the characteristic
+patterns of the duplex steel phases (α and γ). It is important to
+note the remarkable differences in relative intensity of the α
+(43°) and γ (44°) peaks for the corroded Blank compared with
+both the Blank and LST samples before corrosion tests. This indi-
+cates that ferrite (α) was predominantly dissolved as a result of a
+passive film exhibiting deficient corrosion protection when
+exposed to severe cyclic potentiodynamic conditions. By contrast,
+the spectrum of the corroded LST sample was very similar to that
+of the blank, before corrosion, which suggests that both austenite
+and ferrite in that sample present comparable corrosion behavior
+in such aggressive test. Moreover, nonprotective iron oxides such
+as Fe3O4, observed in the LST surface before corrosion, have been
+apparently removed after the prolonged assay. Other metal
+oxides combinations were not discerned with XRD analysis and
+a more detailed investigation with micro-Raman spectroscope
+was necessary.
+Raman spectroscopy confirmed the main oxide phases observed
+in XRD analysis, after cyclic potentiodynamic corrosion tests and
+immersion of samples for 7 days in the brine solution. As can be
+seen in Figure 11b, Raman spectra performed in the grooves and
+pillars of LST sample exhibit an intense and wide peak at around
+650 cm−1, which is attributed to the main characteristic band of
+FeCr2O4 passivating layer [83]. The spectra also show low inten-
+sity at the main absorption bands of NiO (520 cm−1) [84], Cr2O3
+(610 cm−1) [75], Fe3O4 (690 cm−1) [74], and MoO3 (820 cm−1)
+[85], discarding significant amounts of these oxides. In the Blank
+sample, diverse Raman spectra were obtained depending on the
+FIGURE 10
+|
+Cross-sectional FIB-SEM micrographs of: (a) Blank and (b) LST samples. The EDX mapping images (colored images) show the dis-
+tribution composition of main DSS2205 elements of alloying atoms (Fe, Cr, Ni, Mo, O, C) and Cl, after cyclic corrosion tests.
+12 of 17
+Advanced Engineering Materials, 2026
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 13
+zone of analysis, which is in a good agreement with the hetero-
+geneous surface generated during corrosion tests. For instance,
+the spectra corresponding to the pits and scratch zones present
+the main peak of their absorption bands at 670 cm−1, which
+may be attributed to a mixture of FeCr2O4 (650 cm−1) and
+Fe3O4 (690 cm−1). In contrast, no presence of oxides was detected
+in the defect-free and bright metallic regions of the sample.
+3.3 | Influence of Surface Wettability in the
+Corrosion Protection
+It is widely known that the wettability of a metal surface is con-
+nected with its micromorphology. In laser-induced surface tex-
+tures it depends on the widths of microgrooves [57]. In the
+present study, the patterning model (microgrooves width and
+height) was preserved by the fixed conditions detailed in
+Section 2.2. The WCA measurements showed that the laser-
+treated samples exhibited significantly higher hydrophobicity
+compared to the Blank samples (Figure 12a). The LST substrate
+before polarization tests is superhydrophobic, with WCA values
+higher than 150° [65]. This enhanced hydrophobicity has been
+extensively investigated and it is attributed to the microscale sur-
+face roughness induced by the laser treatment [60, 86]. The laser
+etching process creates a grooved pattern that alters the surface
+energy [65, 87]. Surface roughness can amplify the intrinsic
+hydrophobic properties by trapping air pockets and reducing
+the actual contact area between the water droplets and the sur-
+face. Consequently, water droplets are more likely to bead up
+rather than spread out on the microtextured surface, resulting in
+higher contact angles (i.e., an increased hydrophobicity). Thus,
+representing an appropriate way to delay any entrance of the
+aggressive electrolyte to the base steel [61, 80].
+For corrosion protection, it is relevant to evaluate the evolution of
+the WCA after a prolonged exposition to the aqueous solution. As
+shown in Figure 12a, DSS2205 bare surfaces are hydrophobic,
+with WCA values lower than those of LST surfaces, as expected
+given its smoother surface. Moreover, WCA is almost indifferent
+with respect to samples analyzed before (105.3±1.5°) and after
+(97.3±8.2°) potentiodynamic tests (noncyclic). In the case of LST
+surfaces, the superhydrophobicity (WCA 153.9±2.3°) decreases
+FIGURE 11
+|
+(a) XRD spectra of the Blank and LST surfaces before and after corrosion tests. (b) Raman spectra at different regions of the Blank and
+LST surfaces using the laser in the visible region (532 nm).
+FIGURE 12
+|
+(a) WCA degrees for DSS2205 surfaces, corresponding to control (Blank) and LST samples, before and after 7 days of potentiodynamic
+polarization tests (noncyclic) and cyclic potentiodynamic polarization. (b,c) 3D surface topography of Blank top side, before and after the water drop
+deposition, respectively. (d,e) 3D surface topography of LST surface, before and after the water drop deposition, respectively. Both samples were sub-
+jected to the cyclic potentiodynamic polarization assays during 1 week.
+Advanced Engineering Materials, 2026
+13 of 17
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 14
+by 18% after 1 week of polarization analysis (125.9±3.3°); how-
+ever, the interface metal–water is still highly hydrophobic thanks
+to its micropatterned structure. After cyclic polarization experi-
+ments, both the laser-treated and the bare samples, showed
+increased hydrophobicity (142.3±8.0° and 121.9±5.9°, respec-
+tively), apparently due to the presence of particles detached from
+the base metal and the micropitting observed by SEM mapping
+analysis. On the contrary, the LST samples are still much more
+hydrophobic than nontreated samples, which justifies the fast
+pitting corrosion observed in Blank substrates in NaCl solution
+and with cyclic potentiodynamic experiments.
+In order to evaluate the influence of grooves and pillar in the
+droplet deposition, 3D surface topography images were taken
+before and after the contact with the water and compared with
+Blank surfaces. As can be seen in Figure 12b,c, the drop of water
+intrinsically spreads across the entire smooth surface of DSS2205
+steel, supposedly due to the presence of metal oxides. Figure 12d
+shows the 3D topography of laser textured surface, where the pat-
+tern composed by microchannels and pillars can be distin-
+guished. Further, Figure 12e clearly evidences the water drop
+spread either in pillars or in grooves regions. Even having more
+roughness than Blank, the wettability was decreased in such sur-
+face. Some authors have attributed this hydrophobic effect to a
+stable state created after a period of time from laser treatment,
+thanks to the stable adsorption of oxygen and carbon compounds
+from air [61]. However, there are also other theories which were
+not fully demonstrated until now.
+4 | Conclusions
+The stability of DSSl 2205 modified by LST in brine solutions, after
+cyclic electrochemical tests, has been satisfactorily evaluated.
+Although flat and nontextured surfaces of DSS2205 are considered
+one of the highest resistant steels in marine environments, ferrite
+seems to be dissolved in prolonged electrochemical cyclic experi-
+ments, causing the appearance of micropits, as proved in the pres-
+ent study. By the contrary, the LST alloy maintains its patterning
+of grooves and pillars designed by the nanosecond-laser treatment,
+even after the severe damage caused by 1 week of brine solution
+immersion and cyclic potentiodynamic testing, preserving its high
+hydrophobicity
+properties
+and
+avoiding
+crevice
+corrosion.
+Therefore, the present study demonstrated that laser-texturing
+treatments, with controlled laser fluence and scanning speed, gen-
+erate a stable oxide passive film on the DSS2205 top face, which
+enhances the stability of stainless steel matrix in brine solution
+(3.5 wt.%) and under harsh conditions.
+Evaluation of the surface topography and corrosion products by
+FTIR, Raman, SEM–EDX and XRD analyses corroborated the
+abovementioned results. The samples without laser texturing
+treatment had evident signs of crevice localized corrosion,
+whereas LST samples maintained the patterned grooves intact.
+This protective effect is attributed to the obtaining of FeCr2O4
+oxides in the passive film localized at the grooves, which was
+induced by the LST process. Therefore, a continuous overlap
+of the laser tracks in LST treatment is necessary to achieve such
+good performance.
+One of the most important conclusions is that flat and SLT
+DDS2205 stainless steel cannot be recommended in systems
+which will involve immersion of the pieces in NaCl solutions
+with cyclic electrochemical procedures, such as in electrolysis
+pumps for generating chlorine gas in swimming pools, in osmosis
+desalination plants, among other sectors. However, SLT DDS2205
+can be employed in non-submerged zones with chlorine atmo-
+sphere (ports, ships, shipyards, coastal areas) under continuous
+monitoring (maintenance) because the passive oxide layers are
+more stable than untextured ones.
+Acknowledgments
+This work was part of Maria de Maeztu Units of Excellence Programme
+CEX2023–001300-M funded by MCIN/AEI/10.13039/501100011033. This
+research was funded by Agency for Administration of University and
+Research (Agència de Gestió d’Ajuts Universitaris i de Recerca,
+AGAUR) (2021 SGR 01053, 2021 SGR00387). Mohammad Rezayat also
+acknowledges the AGAUR Fellowship (FI-SDUR-2020) of the Generalitat
+de Catalunya for its financial support. Miguel Morales Comas is Serra
+Húnter Associate Professor funded by the Generalitat de Catalunya.
+Research of E. Armelin was also supported by ICREA Acadèmia award
+(grant no. 00125) for excellence in research, funded by the Generalitat de
+Catalunya.
+Funding
+This work was supported by Ministerio de Ciencia e Innovación
+(CEX2023–001300-M), Agència de Gestió d’Ajuts Universitaris i de
+Recerca (2021 SGR 01053, 2021 SGR00387, FI-SDUR-2020, ICREA
+Acadèmia award n° 00125).
+Conflicts of Interest
+The authors declare no conflicts of interest.
+Data Availability Statement
+Supplementary information and research data sets can be provided upon
+authors request.
+References
+1. R. Gunn, Duplex Stainless Steels—Microstructure, Properties and
+Applications (Woodhead Publishing, 1997), 1–185.
+2. Y. Han, Z. H. Liu, C. B. Wu, et al., “A Short Review on the Role of
+Alloying Elements in Duplex Stainless Steels,” Tungsten 5 (2023): 419.
+3. H. M. Cobb, The History of Stainless Steel (ASM International, 2010).
+4. A. Redjaïmia and A. M. M. Garcia, “On the M23C6-Carbide in 2205
+Duplex Stainless Steel: An Unexpected (M23C6/Austenite)—Eutectoid
+in the δ-Ferritic Matrix,” Metals 11 (2021): 1340.
+5. J. P. P. Boillot, “Use of Stainless Steels in the Industry: Recent and
+Future Developments,” Procedia Engineering 83 (2014): 309.
+6. M. Liu, C. Du, Z. Liu, et al., “A Review on Pitting Corrosion
+and Environmentally Assisted Cracking on Duplex Stainless Steel,”
+Microstructures 3 (2023): 2023020.
+7. A. Mateo, F. Heredero, and G. Fargas, “Failure Analysis of Duplex
+Stainless Steel Components under Service Conditions,” Engineering
+Failure Analysis 18 (2011): 2165.
+8. A. Gironés, L. Llanes, M. Anglada, and A. Mateo, “Influence of
+Artificial Seawater on the Cyclic Response of Superduplex Stainless
+Steels,” International Journal of Fatigue 27 (2005): 197.
+9. Y. Hou, J. Zhao, C. Q. Cheng, et al., “The Metastable Pitting Corrosion
+of 2205 Duplex Stainless Steel under Bending Deformation,” Journal of
+Alloys and Compounds 830 (2020): 154422.
+14 of 17
+Advanced Engineering Materials, 2026
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 15
+10. J. Pan, “Studying the Passivity and Breakdown of Duplex Stainless
+Steels at Micrometer and Nanometer Scales – the Influence of
+Microstructure,” Frontiers in Materials 7 (2020): 507471.
+11. V. Vignal, H. Krawiec, O. Heintz, and D. Mainy, “Passive Properties of
+Lean Duplex Stainless Steels after Long-Term Ageing in Air Studied Using
+EBSD, AES, XPS and Local Electrochemical Impedance Spectroscopy,”
+Corrosion Science 67 (2013): 109.
+12. E. Gardin, S. Zanna, A. Seyeux, A. Allion-Maurer, and P. Marcus,
+“Comparative Study of the Surface Oxide Films on Lean Duplex and
+Corresponding Single Phase Stainless Steels by XPS and ToF-SIMS,”
+Corrosion Science 143 (2018): 403.
+13. M. Långberg, C. Örnek, F. Zhang, et al., “Characterization of Native
+Oxide and Passive Film on Austenite/Ferrite Phases of Duplex Stainless
+Steel Using Synchrotron HAXPEEM,” Journal of the Electrochemical
+Society 166 (2019): C3336.
+14. E. Rahimi, A. Kosari, S. Hosseinpour, A. Davoodi, H. Zandbergen, and
+J. M. C. Mol, “Characterization of the Passive Layer on Ferrite and
+Austenite Phases of Super Duplex Stainless Steel,” Applied Surface
+Science 496 (2019): 143634.
+15. H. Liu, J. Sun, J. Qian, et al., “Revealing the Temperature Effects on
+the Corrosion Behaviour of 2205 Duplex Stainless Steel From Passivation
+to Activation in a CO2-Containing Geothermal Environment,” Corrosion
+Science 187 (2021): 109495.
+16. Z. Cui, S. Chen, Y. Dou, et al., “Passivation Behavior and Surface
+Chemistry of 2507 Super Duplex Stainless Steel in Artificial Seawater:
+Influence of Dissolved Oxygen and pH,” Corrosion Science 150 (2019):
+218.
+17. Z. Cui, L. Wang, H. Ni, et al., “Influence of Temperature on the
+Electrochemical and Passivation Behavior of 2507 Super Duplex Stainless
+Steel in Simulated Desulfurized Flue Gas Condensates,” Corrosion Science
+118 (2017): 31.
+18. B. Kan, W. Wu, Z. Yang, X. Zhang, and J. Li, “Effects of Hydrostatic
+Pressure and pH on the Corrosion Behavior of 2205 Duplex Stainless
+Steel,” Journal of Electroanalytical Chemistry 886 (2021): 115134.
+19. L. Chen, W. Liu, B. Dong, et al., “Insight into Electrochemical
+Passivation Behavior and Surface Chemistry of 2205 Duplex Stainless
+Steel: Effect of Tensile Elastic Stress,” Corrosion Science 193 (2021):
+109903.
+20. L. Wang, Y. Dou, S. Han, J. Wu, and Z. Cui, “Influence of Sulfide on
+the Passivation Behavior and Surface Chemistry of 2507 Super Duplex
+Stainless Steel in Acidified Artificial Seawater,” Applied Surface Science
+504 (2020): 144340.
+21. J. Yao, N. Li, H. Grothe, Z. Qi, and C. Dong, “Determination of the
+Hydrogen Effects on the Passive Film and the Micro-Structure at the
+Surface of 2205 Duplex Stainless Steel,” Applied Surface Science 554
+(2021): 149597.
+22. L. Q. Guo, S. X. Qin, B. J. Yang, D. Liang, and L. J. Qiao, “Effect of
+Hydrogen on Semiconductive Properties of Passive Film on Ferrite and
+Austenite Phases in a Duplex Stainless Steel,” Scientific Reports 7 (2017):
+3317.
+23. A. Gironès, M. Anglada, and A. Mateo, “Chloride Content Effect on
+the Corrosion Fatigue Properties of Superduplex Stainless Steels,” Journal
+of Engineering Materials and Technology 129 (2007): 588.
+24. L. AN, J. CAO, L. WU, H. MAO, and Y. YANG, “Effects of Mo and Mn
+on Pitting Behavior of Duplex Stainless Steel,” Journal of Iron and Steel
+Research International 23 (2016): 1333.
+25. P. Li, Y. Zhao, Y. Liu, et al., “Effect of Cu Addition to 2205 Duplex
+Stainless Steel on the Resistance against Pitting Corrosion by the
+Pseudomonas Aeruginosa Biofilm,” Journal of Materials Science &
+Technology 33 (2017): 723.
+26. N. Fuertes and R. Pettersson, “Review—Passive Film Properties and
+Electrochemical Response of Different Phases in a Cu-Alloyed Stainless
+Steel after Long Term Heat Treatment,” Journal of the Electrochemical
+Society 163 (2016): C377.
+27. M. Siebenhofer, U. Haselmann, A. Nenning, et al., “Surface Chemistry
+and Degradation Processes of Dense La0.6Sr0.4CoO3–δ Thin Film
+Electrodes,” Journal of the Electrochemical Society 170 (2023): 014501.
+28. J. Zhang, X. Hu, and K. Chou, “Effects of Ti Addition on
+Microstructure and the Associated Corrosion Behavior of a 22Cr-5Ni
+Duplex Stainless Steel,” Materials and Corrosion 72 (2021): 1201.
+29. S. H. Jeon, H. J. Kim, and Y. S. Park, “Effects of Inclusions on the
+Precipitation of Chi Phases and Intergranular Corrosion Resistance of
+Hyper Duplex Stainless Steel,” Corrosion Science 87 (2014): 1.
+30. T. Otárola, S. Hollner, B. Bonnefois, M. Anglada, L. Coudreuse, and
+A. Mateo, “Embrittlement of a Superduplex Stainless Steel in the Range of
+550°C–700°C,” Engineering Failure Analysis 12 (2005): 930.
+31. D. C. Dos Santos, R. Magnabosco, and C. De Moura-Neto, “Influence
+of Sigma Phase Formation on Pitting Corrosion of an Aged UNS S31803
+Duplex Stainless Steel,” Corrosion 69 (2013): 900.
+32. L. Jinlong, L. Tongxiang, D. Limin, and W. Chen, “Influence of
+Sensitization on Microstructure and Passive Property of AISI. 2205
+Duplex Stainless Steel,” Corrosion Science 104 (2016): 144.
+33. E. B. De Melo and R. Magnabosco, “Evaluation of Microstructural
+Effects on the Degree of Sensitization (DOS) of a UNS S31803 Duplex
+Stainless Steel Aged at 475°C,” Corrosion 71 (2015): 1490.
+34. R. Silva, G. S. Vacchi, C. L. Kugelmeier, et al., “New Insights into the
+Hardening and Pitting Corrosion Mechanisms of Thermally Aged Duplex
+Stainless Steel at 475°C: A Comparative Study between 2205 and 2101
+Steels,” Journal of Materials Science & Technology 98 (2022): 123.
+35. R. Silva, C. L. Kugelmeier, G. S. Vacchi, et al., “A Comprehensive
+Study of the Pitting Corrosion Mechanism of Lean Duplex Stainless
+Steel grade 2404 Aged at 475°C,” Corrosion Science 191 (2021): 109738.
+36. D. Song, J. Hao, F. Yang, et al., “Corrosion Behaviour of Fe-Based
+Alloys Exposed to Chloride-Containing Environments,” Journal of
+Alloys and Compounds 809 (2019): 151787.
+37. Y. Chen, B. Yang, Y. Zhou, Y. Wu, and H. Zhu, “Evaluation of Pitting
+Corrosion in Duplex Stainless Steel Fe20Cr9Ni for Nuclear Power
+Application,” Acta Materialia 197 (2020): 172.
+38. J. Lv, W. Guo, and T. Liang, “The Effect of Pre-Deformation on
+Corrosion Resistance of the Passive Film Formed on 2205 Duplex
+Stainless Steel,” Journal of Alloys and Compounds 686 (2016): 176.
+39. K. Chandra, A. P. Singh, V. Kain, and N. Kumar, “Sulphide Stress
+Cracking of a Valve Stem of Duplex Stainless Steel,” Engineering
+Failure Analysis 94 (2018): 41.
+40. A. Laitinen and H. Hänninen, “Chloride-Induced Stress Corrosion Cracking
+of Powder Metallurgy Duplex Stainless Steels,” Corrosion 52 (1996): 295.
+41. C. Örnek, M. Långberg, J. Evertsson, et al., “Influence of Surface
+Strain on Passive Film Formation of Duplex Stainless Steel and Its
+Degradation in Corrosive Environment,” Journal of the Electrochemical
+Society 166 (2019): C3071.
+42. K. Eguchi, T. L. Burnett, and D. L. Engelberg, “X-Ray Tomographic
+Observation of Environmental Assisted Cracking in Heat-Treated Lean
+Duplex Stainless Steel,” Corrosion Science 184 (2021): 109363.
+43. W. Wu, X. Zhang, W. Li, et al., “Effect of Hydrogen Trapping on
+Hydrogen
+Permeation
+in
+2205
+Duplex
+Stainless
+Steel:
+Role
+of
+Austenite–ferrite Interface,” Corrosion Science 202 (2022): 110332.
+44. F. Zanotto, V. Grassi, A. Balbo, C. Monticelli, and F. Zucchi, “Stress
+Corrosion Cracking of LDX. 2101 Duplex Stainless Steel in Chloride
+Solutions in the Presence of Thiosulphate,” Corrosion Science 80 (2014): 205.
+45. A. M. El-Sherik, Trends in Oil and Gas Corrosion Research and
+Technologies: Production and Transmission (Woodhead Publishing Ltd.,
+2017).
+Advanced Engineering Materials, 2026
+15 of 17
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 16
+46. J. Alphonsa, V. S. Raja, and S. Mukherjee, “Study of Plasma Nitriding
+and Nitrocarburizing for Higher Corrosion Resistance and Hardness of
+2205 Duplex Stainless Steel,” Corrosion Science 100 (2015): 121.
+47. R. Huang, J. Wang, S. Zhong, M. Li, J. Xiong, and H. Fan, “Surface
+Modification of 2205 Duplex Stainless Steel by Low Temperature Salt
+Bath Nitrocarburizing at 430°C,” Applied Surface Science 271 (2013): 93.
+48. A. Mahajan, S. S. Sidhu, and S. Devgan, “Examination of
+Hemocompatibility and Corrosion Resistance of Electrical Discharge-
+Treated Duplex Stainless Steel (DSS-2205) for Biomedical Applications,”
+Applied Physics A: Materials Science and Processing 126 (2020): 1.
+49. M. M. Lohrengel and C. Rosenkranz, “Microelectrochemical Surface
+and Product Investigations during Electrochemical Machining (ECM) in
+NaNO3,” Corrosion Science 47 (2005): 785.
+50. H. Tan, Z. Wang, Y. Jiang, et al., “Annealing Temperature Effect on
+the Pitting Corrosion Resistance of Plasma Arc Welded Joints of Duplex
+Stainless Steel UNS S32304 in 1.0 M NaCl,” Corrosion Science 53 (2011):
+2191.
+51. Y. Zhang, F. Cheng, and S. Wu, “Improvement of Pitting Corrosion
+Resistance of Wire Arc Additive Manufactured Duplex Stainless Steel
+through Post-Manufacturing Heat-Treatment,” Materials Characterization
+171 (2021): 110743.
+52. Z. Zhang, H. Jing, L. Xu, et al., “Influence of Heat Input in Electron
+Beam Process on Microstructure and Properties of Duplex Stainless Steel
+Welded Interface,” Applied Surface Science 435 (2018): 352.
+53. D. Zhang, P. Wen, B. Yin, and A. Liu, “Temperature Evolution, Phase
+Ratio and Corrosion Resistance of Duplex Stainless Steels Treated by
+Laser Surface Heat Treatment,” Journal of Manufacturing Processes 62
+(2021): 99.
+54. A. Dalke, A. Jung, H. J. Spies, R. Zenker, and J. Lerche, “Functional
+Surface Layers on Stainless Steels Generated by Means of EB Cladding
+and Nitrocarburizing,” Advanced Engineering Materials 17 (2015): 632.
+55. K. A. Emelyanenko, A. M. Emelyanenko, and L. B. Boinovich, “Laser
+Obtained Superhydrophobic State for Stainless Steel Corrosion Protection
+A Review,” Coatings 13 (2023): 194.
+56. N. Zaitseva, I. Tomashchuk, M. del C. Marco de Lucas, J. M. Jouvard,
+and L. Lavisse, “Influence of Surface Roughness on Phosphonation and
+Wettability of Nanosecond Laser-Treated Titanium Surfaces,” Advanced
+Engineering Materials 26 (2024): 2401046.
+57. J. Zhou, R. Wang, Y. Long, and C. Li, “Effect of Femtosecond-Laser-
+Induced Surface Textures on the Microstructure and Mechanical
+Properties of Mg/Ti Dissimilar Alloys Laser Lap Welds: A Numerical and
+Experimental Study,” Advanced Engineering Materials 26 (2024): 2302203.
+58. K. Sun, H. Yang, W. Xue, et al., “Anti-Biofouling Superhydrophobic
+Surface Fabricated by Picosecond Laser Texturing of Stainless Steel,”
+Applied Surface Science 436 (2018): 263.
+59. L. Zhang, N. Lin, J. Zou, et al., “Super-Hydrophobicity and Corrosion
+Resistance of Laser Surface Textured AISI. 304 Stainless Steel Decorated
+with Hexadecyltrimethoxysilane (HDTMS),” Optics & Laser Technology
+127 (2020): 106146.
+60. E. Armelin, S. Moradi, S. G. Hatzikiriakos, and C. Alemán, “Designing
+Stainless Steel Surfaces with Anti-Pitting Properties Applying Laser
+Ablation and Organofluorine Coatings,” Advanced Engineering Materials
+20 (2018): 1700814.
+61. U. Trdan, M. Hoˇcevar, and P. Gregorˇciˇc, “Transition From
+Superhydrophilic to Superhydrophobic State of Laser Textured Stainless
+Steel Surface and Its Effect on Corrosion Resistance,” Corrosion Science
+123 (2017): 21.
+62. Y. Lu, Y. C. Guan, Y. Li, L. J. Yang, M. L. Wang, and Y. Wang,
+“Nanosecond Laser Fabrication of Superhydrophobic Surface on 316L
+Stainless Steel and Corrosion Protection Application,” Colloids and
+Surfaces A: Physicochemical and Engineering Aspects 604 (2020): 125259.
+63. J. Sun, W. Wang, Z. Liu, B. Li, K. Xing, and Z. Yang, “Study on Selective
+Laser Melting 316L Stainless Steel Parts with Superhydrophobic Surface,”
+Applied Surface Science 533 (2020): 147445.
+64. S. Kedia, S. K. Bonagani, A. G. Majumdar, et al., “Nanosecond Laser
+Surface Texturing of Type 316L Stainless Steel for Contact Guidance of
+Bone Cells and Superior Corrosion Resistance,” Colloid and Interface
+Science Communications 42 (2021): 100419.
+65. S. Moradi, S. Kamal, P. Englezos, and S. G. Hatzikiriakos,
+“Femtosecond Laser Irradiation of Metallic Surfaces: Effects of Laser
+Parameters on Superhydrophobicity,” Nanotechnology 24 (2013): 415302.
+66. Â. Cunha, F. Bartolomeu, F. Silva, B. Trindade, and Ó. Carvalho,
+“Influence of Laser Parameters on the Texturing of 420 Stainless
+Steel,” Materials 15 (2022): 8979.
+67. M. Rafieazad, J. A. Jaffer, C. Cui, X. Duan, and A. Nasiri, “Nanosecond
+Laser Fabrication of Hydrophobic Stainless Steel Surfaces: The Impact on
+Microstructure and Corrosion Resistance,” Materials 11 (2018): 1577.
+68. M. Morales, M. Rezayat, and A. Mateo, “Enhancing the Corrosion
+Resistance of 2205 Duplex Stainless Steel in Molten Carbonate Salts
+by Laser-Surface Texturing,” Journal of Energy Storage 78 (2024): 110053.
+69. M. Rezayat, M. Morales, M. Moradi, and A. Mateo, “Laser Wobbling
+Surface Texturing of AISI. 301LN Steel for Enhancement of the Corrosion
+Resistance at High Temperature,” Optics & Laser Technology 171 (2024):
+110375.
+70. M. Rezayat, M. Morales, M. Moradi, and A. Mateo, “Influence of Laser
+Heat Input on the Corrosion Mitigation of Laser Textured AISI. 301LN
+Steel in Molten Carbonate Salts,” Optics & Laser Technology 186 (2025):
+112692.
+71. M. Rezayat, M. Morales, E. G. Zahrani, M. Moradi, B. Azarhoushang,
+and A. Mateo, “Effect of Repetition Passes in the Laser Surface Texturing
+of AISI. 301LN Steel on the Anticorrosion Properties in Molten Carbonate
+Salts,” Materialia 39 (2025): 102365.
+72. Y. Xiao, J. Tang, Y. Wang, et al., “Corrosion Behavior of 2205 Duplex
+Stainless Steel in NaCl Solutions Containing Sulfide Ions,” Corrosion
+Science 200 (2022): 110240.
+73. Y. Pan, B. Sun, H. Chen, et al., “Stress Corrosion Cracking Behavior
+and
+Mechanism
+of
+2205
+Duplex
+Stainless
+Steel
+under
+Applied
+Polarization Potentials,” Corrosion Science 231 (2024): 111978.
+74. R. Jaiswal and K. V. S. Ranganath, “Carbon Nanoparticles on
+Magnetite: A New Heterogeneous Catalyst for the Oxidation of
+5-Hydroxymethylfurfural
+(5-HMF)
+to
+2,5-Diformoylfuran
+(DFF),”
+Journal of Inorganic and Organometallic Polymers and Materials 31
+(2021): 4504.
+75. F. D. Hardcastle and I. E. Wachs, “Raman Spectroscopy of Chromium
+Oxide Supported on Al2O3, TiO2 and SiO2: A Comparative Study,”
+Journal of Molecular Catalysis 46 (1988): 173.
+76. A. Merlen, J. G. Buijnsters, and C. Pardanaud, “A Guide to and Review
+of the Use of Multiwavelength Raman Spectroscopy for Characterizing
+Defective Aromatic Carbon Solids: From Graphene to Amorphous
+Carbons,” Coatings 7 (2017): 153.
+77. J. Li, C. W. Du, Z. Y. Liu, X. G. Li, and M. Liu, “Effect of
+Microstructure on the Corrosion Resistance of 2205 Duplex Stainless
+Steel. Part 1: Microstructure Evolution during Isothermal Aging at
+850°C and Evaluation of Anticorrosion Properties by Methods of Cyclic
+Potentiodynamic Polarization and Electrochemical Impedance Tests,”
+Construction and Building Materials 189 (2018): 1286.
+78. Q. Yang, Y. Xiong, Y. Huang, et al., “Nanosecond Laser Passivation
+Mechanism of Q235B Carbon Steel Surface,” Journal of Materials
+Engineering and Performance 34 (2024): 2371.
+79. W. Tong, N. Karthik, J. Li, N. Wang, and D. Xiong, “Superhydrophobic
+Surface with Stepwise Multilayered Micro-and Nanostructure and an
+Investigation of Its Corrosion Resistance,” Langmuir 35 (2019): 15078.
+16 of 17
+Advanced Engineering Materials, 2026
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+PAGE 17
+80. Z. Lian, J. Xu, P. Yu, Z. Yu, Z. Wang, and H. Yu, “Oil-Repellent and
+Corrosion Resistance Properties of Superhydrophobic and Superoleophobic
+Aluminum Alloy Surfaces Based on Nanosecond Laser-Textured Treatment,”
+Metals and Materials International 26 (2020): 1603.
+81. P. Goldberg, A. Hariharan, F. Schell, et al., “Fine-Tuning Effect of
+Direct Laser Interference Patterning on the Surface States and the
+Corrosion Behavior of a Biomedical Additively Manufactured Beta Ti
+Alloy,” Corrosion Science 219 (2023): 111230.
+82. G. Fargas, M. Anglada, and A. Mateo, “Effect of the Annealing
+Temperature on the Mechanical Properties, Formability and Corrosion
+Resistance of Hot-Rolled Duplex Stainless Steel,” Journal of Materials
+Processing Technology 209 (2009): 1770.
+83. V. Lughi, D. Lenaz, A. Bonifacio, F. Princivalle, V. Sergo, and F. Parisi,
+“A Raman Spectroscopy Study of the Oxidation Processes in Synthetic
+Chromite FeCr2O4,” Ceramics International 46 (2020): 29382.
+84. M. Terlemezoglu, O. Surucu, M. Isik, N. M. Gasanly, and M. Parlak,
+“Temperature-Dependent Optical Characteristics of Sputtered NiO Thin
+Films,” Applied Physics A: Materials Science and Processing 128 (2022): 50.
+85. S. K. Sivan, A. K. K. Padinjareveetil, V. V. T. Padil, et al., “Greener
+Assembling of MoO3 Nanoparticles Supported on Gum Arabic: Cytotoxic
+Effects and Catalytic Efficacy towards Reduction of p-Nitrophenol,”
+Clean Technologies and Environmental Policy 21 (2019): 1549.
+86. W. S. Chu, M. M. Shehroze, N. G. Tran, T. Dinh, S. T. Hong, and
+D. M. Chun, “Green Fabrication of Superhydrophobic Surfaces Using
+Laser Surface Texturing Without Toxic Chemicals: A Review,” International
+Journal of Precision Engineering and Manufacturing 25 (2024): 1101.
+87. S. G. Hatzikiriakos, S. Moradi, and S. Kamal, “Superhydrophobic
+Laser-Ablated Stainless Steel Substrates Exhibiting Cassie–Baxter Stable
+State,” Surface Innovations 3 (2015): 151.
+Supporting Information
+Additional supporting information can be found online in the Supporting
+Information section. Additional FTIR spectrum, SEM-EDX spectra with
+mapping analysis, optical micrographs, potentiodynamic polarization
+curves and tables have been included in the supporting file (PDF).
+Supporting Fig. S1: FTIR spectra of DSS2205 surfaces with the main
+functional groups for observed inLST samples. Blank sample did not
+accuse any absorption band in transmittance mode. Supporting Fig.
+S2: EDX spectra corresponding to Blank sample: a) before and b) after
+single polarization test in NaCl 3.5 wt.%. Supporting Fig. S3: EDX spec-
+tra corresponding to LST sample: a) before and b) after single polarization
+test in NaCl 3.5 wt.%. Supporting Fig. S4: Cyclic potentiodynamic polar-
+ization curves of: a) Blank sample and b) SLT sample, with increasing
+immersion time in brine solution (NaCl 3.5wt. %). Supporting Fig. S5:
+Optical
+micrographs
+of
+samples
+surfaces
+after
+the
+cyclic
+tests:
+(a, b) Blank (5× and 20× magnifications, respectively); and (c-d) SLT
+(5×
+and
+20×
+magnifications,
+respectively).
+Supporting
+Fig.
+S6:
+(a) SEM high magnification image of pillar zone highlighting the pres-
+ence of pits. (b) EDX mapping images of main 2205 DSS elements
+and alloying atoms (Fe, O, Mn, Ni, Cr, C, Mo). (c) EDX spectrum of
+SEM image showed in a), where NaCl atoms are also present together
+with the alloy composition. Supporting Table S1: EDX atomic weight
+percentage (%) of alloying elements, and Cr/Fe and Cr/Ni ratios detected
+at the Blank and LST surfaces, before and after 7 days of potentiodynamic
+anodic polarizations. Supporting Table S2: Characteristic parameters
+acquired from the cyclic potentiodynamic polarization curves with
+increasing immersion time in NaCl solution (3.5wt. %). Supporting
+Table S3: EDX atomic weight percentage (%) of alloying elements and
+Cr/Fe, Cr/Ni ratios detected at the Blank and SLT surfaces, before
+and after 7 days of cyclic potentiodynamic polarizations in NaCl 3.5 wt.%.
+Advanced Engineering Materials, 2026
+17 of 17
+ 15272648, 0, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202502108 by Spanish Cochrane National Provision (Ministerio de Sanidad), Wiley Online Library on [24/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

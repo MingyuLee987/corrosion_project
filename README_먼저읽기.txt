@@ -8,7 +8,7 @@
    몇 분 이상 걸릴 수 있습니다. 완료 전 창을 닫지 마세요. results/retrained에 결과가 저장됩니다.
 4. 새 조건 예측: prediction_input.csv에 행을 입력하고 새조건_예측.bat을 더블클릭하세요.
    results/new_predictions.csv에 A/cm2, µA/cm2, log10 값이 저장됩니다.
-   입력 템플릿은 빈 양식입니다. data/example_input.csv는 실행 확인용 기존 시편이며 독립 검증이 아닙니다.
+   입력 템플릿은 빈 양식입니다. data/templates/example_input.csv는 실행 확인용 기존 시편이며 독립 검증이 아닙니다.
 
 데이터 수정 및 논문 추가
 - 실제 학습 입력: data/training_51.csv. 원문에서 검증한 새 행을 여기에 추가하세요.
@@ -17,7 +17,7 @@
 - 조성은 wt.%, 온도 °C, 최종 열처리 유지시간 min, 사전 노출시간 pre_exposure_h는 h입니다.
 - 빈칸은 미보고입니다. 0은 실제 0이 확인된 경우만 입력합니다. RE_wt_pct는 실제 합금 RE 조성입니다.
 - NaHSO3_mol_L는 분극 시험 용액 농도입니다. 사전 노출 용액/온도와 혼동하지 마세요.
-- 범주 표기는 기존 행과 동일하게 맞추세요. data/category_values.csv에 기존 범주값이 있습니다. 환경 전해질/표면/공정이 불명확하면 빈칸입니다.
+- 범주 표기는 기존 행과 동일하게 맞추세요. data/templates/category_values.csv에 기존 범주값이 있습니다. 환경 전해질/표면/공정이 불명확하면 빈칸입니다.
 - 다른 컴퓨터로 옮길 때는 제공된 ZIP을 사용하세요. 폴더 전용 .venv 환경은 처음 실행할 때 다시 준비됩니다.
 - input_snapshot.json은 원본과 보조 데이터의 고정 스냅샷입니다. CSV 수정값은 재실행 시 current_input.json에 반영됩니다.
 - supplementary_nominal_RE_3.csv는 잔류 RE가 아니라 명목 첨가량이므로 주 학습 데이터에 합치지 않았습니다.
@@ -41,13 +41,13 @@ model_comparison.csv의 점수는 동일 검증 결과로 후보를 비교한 �
 - train.py: 컬럼 정의, 전처리, 논문별 중첩 검증, 모델 학습 전체 코드
 - predict.py: 새 조건 예측, prepare.py/check.py: 데이터 및 실행 점검
 - results: 실제 실행 결과 및 행별 예측, models: 전체 51행으로 학습한 탐색 모델
-- papers: 이번에 숫자를 확인한 원문 3편, data/literature_screening.csv: 추가 논문 검색 및 선별 기록
+- papers: 이번에 숫자를 확인한 원문 3편, data/review/literature_screening.csv: 추가 논문 검색 및 선별 기록
 - baseline_models: 기존 34행 모델을 신규 17행에 적용한 추가 진단용 모델
 - 재학습 후 models 모델이 갱신되며 기존 결과는 results/results.json, 새 결과는 results/retrained/results.json입니다.
 - 이번 재학습 코드의 18개 후보와 이전 실험의 48개 후보는 다릅니다. 이번 비교는 18개로 맞춘 재평가입니다.
 - 오래된 논문 메타데이터의 저널 사분위 정보는 학습에 사용하지 않았으며 최신 상태를 보증하지 않습니다.
 
-직접 실행: python train.py --data data/input_snapshot.json --out results/retrained
+직접 실행: python train.py --data data/sources/input_snapshot.json --out results/retrained
 예측: python predict.py --input prediction_input.csv --out results/new_predictions.csv
 주의: 직접 학습 명령은 JSON 기준입니다. CSV 수정 후에는 실행.bat을 사용하세요.
 

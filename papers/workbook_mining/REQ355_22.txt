@@ -1,0 +1,771 @@
+PAGE 1
+Vol.:(0123456789)
+1 3
+Acta Metallurgica Sinica (English Letters) (2022) 35:1719–1730 
+https://doi.org/10.1007/s40195-022-01404-8
+Effects of Modified Inclusions and Precipitates Alloyed by Rare Earth 
+Element on Corrosion and Impact Properties in Low Alloy Steel
+Xin‑Tong Lian1,2 · Long Chen1,2 · Zeng‑Wei Fan1,2 · Teng‑Shi Liu1,2 · De‑Xiang Xu2 · Han Dong1,2
+Received: 3 November 2021 / Revised: 29 December 2021 / Accepted: 10 January 2022 / Published online: 5 May 2022 
+© The Chinese Society for Metals (CSM) and Springer-Verlag GmbH Germany, part of Springer Nature 2022
+Abstract
+This study has focused on the morphology and distribution of inclusions and precipitates modified by rare earth (RE) ele-
+ments, which has a decisive influence on microstructure, corrosion properties and impact behaviors in Q355 low alloy steel. 
+Characterized by the method of electrolytic extraction and ASPEX-scanning electron microscopy (ASPEX-SEM), small-
+sized spherical RE inclusions have been modified to replace elongated MnS and large-sized ­Al2O3. Q355RE steel after RE 
+alloying has lower corrosion rate and higher value of α/γ, due to the formation of stable and dense rust layers. Q355RE steel 
+also exhibits better resistance to fracture at low temperature, owing to the presence of RE modification to inclusions and 
+its effects on reducing crack initiation and propagation. Nano-scale RE precipitates containing sulfur and phosphorus is 
+observed along grain boundaries by transmission electron microscopy (TEM). The purification of grain boundaries by RE 
+is beneficial to the improvement of corrosion and impact properties.
+Keywords  Rare earth element · Inclusion · Precipitate · Q355 low alloy steel · Corrosion resistance · Impact toughness
+1  Introduction
+Steel for civil construction is a mainstream trend of steel 
+usage in China. Compared with traditional brick-wood and 
+concrete structures, steel structure possesses light weight and 
+low energy consumption, and more than 60% of steel materi-
+als can be recycled after demolition [1–3]. Q355 low alloy 
+steel has been one of the most widely used building materi-
+als in steel structure for a long time [4–6]. However, Q355 
+steel is usually subjected to atmospheric corrosion related to 
+various factors such as air temperature, humidity, sunshine 
+and pollutant, which may lead to corrosion structure failure 
+[7, 8]. Two common methods are used to alleviate destruc-
+tive corrosion including multi-alloying and coating. From 
+the perspective of economy and environmental protection, 
+a cheaper and environment-friendly technology is urgent to 
+be developed. Another problem that all structural steels may 
+face is low temperature structure failure. When the ambient 
+temperature is declined to a lower temperature, the brittle-
+ness of Q355 steel increases significantly, which probably 
+leads to cold-brittle failure [9–11]. Impact toughness test 
+is an effective method to evaluate the ability of material to 
+resist external impact.
+Is there any low-cost way to solve the two problems dis-
+cussed above? Researchers have indicated that large-sized 
+inclusions are the main causes to corrosion and impact fail-
+ure [12, 13]. Large-sized inclusions such as ­Al2O3 and MnS 
+are easy to be formed in structural steels during solidifica-
+tion due to the segregation of chemical compositions. It is 
+well-known that large-sized inclusions are hard to be elimi-
+nated and always provide initiation sites for pitting corrosion 
+and cracks [14–16]. Some researchers have focused on the 
+advantageous roles of rare earth (RE) elements adding into 
+structural steels. La and Ce are the left-over elements in 
+the extraction of RE elements in China and are not expen-
+sive. After adding Ce and La into steels, the morphology 
+and size of inclusions have been changed significantly and 
+stable precipitates containing RE including oxides, sulfides 
+and oxysulfides tend to be formed more readily [17–20]. 
+Available online at http://​link.​sprin​ger.​com/​journ​al/​40195.
+ *	 Xin‑Tong Lian 
+	
+xtlian@shu.edu.cn
+ *	 Han Dong 
+	
+donghan@shu.edu.cn
+1	
+State Key Laboratory of Advanced Special Steel, Shanghai 
+University, Shanghai 200444, China
+2	
+School of Materials Science and Engineering, Shanghai 
+University, Shanghai 200444, China
+
+PAGE 2
+1720
+	
+X.-T. Lian et al.
+1 3
+Furthermore, nano-scale precipitates containing RE may 
+also be formed, although it is rarely reported. In general, pre-
+vious research has proved beneficial effects of RE in increas-
+ing impact toughness and corrosion resistance properties, 
+while the correlation between inclusions and precipitates 
+and properties has not been established clearly.
+Therefore, the purpose of this study is to further investi-
+gate the influence of RE on corrosion resistance and impact 
+toughness on the basis of modifying inclusions and pre-
+cipitates. The comparison between common Q355 steel 
+and Q355RE steel after RE alloying is analyzed for cor-
+rosion rate and Charpy V-notch impact energy. The focus 
+is to understand the roles for RE on modifying inclusions 
+and precipitates and to figure out the relationship between 
+microstructure and properties.
+2  Experimental
+2.1  Specimens Design
+A common commercial Q355 low alloy steel was chosen as 
+the experimental material. The metal used for RE alloying 
+was Ce and La mischmetal with the mass ratio of about 1:2. 
+Two slabs in 230 mm thick were heated to 1240 °C for 5 h. 
+After air-cooling to 1070 °C, followed by rolling via seven 
+passes on a rolling mill, the slabs were rolled to plates of 
+35 mm thickness. The finish rolling was controlled at 880 °C 
+and the final plates were rolled to 11.75 mm. Subsequently, 
+the plate was hot-rolled at 660 °C and air cooled to room 
+temperature. The chemical compositions of the two struc-
+tural steels under investigation are listed in Table 1.
+2.2  Test Procedure
+Metallographic images and inclusion morphology were 
+observed by optical microscopy (OM) and scanning electron 
+microscopy (SEM) combined with energy dispersive X-ray 
+spectroscopy (EDS). Inclusion identifying was processed 
+by electrolytic extraction methods and SEM to observe 
+the three-dimensional morphology directly. The schematic 
+illustration of an electrolytic apparatus used for separating 
+inclusions is show in Fig. 1. The electrolytic solution was 
+composed of 30 g ­FeSO4, 10 g NaCl and 20 g ­C6H6Na2O7 
+dissolved in 1000 mL distilled water. After electrolysis pro-
+cess, inclusions were obtained by centrifugal separation and 
+fully dried to observe the morphology. ASPEX-SEM was 
+used to detect on the area of 100 ­mm2 randomly in the sam-
+ple to characterize inclusions. Three samples were analyzed 
+and average value of statistical results was taken in results.
+Three parallel samples (55 mm × 50 mm × 3 mm) were 
+prepared for evaluating the rate of corrosion weight loss by 
+the method of wet-dry immersion test. Before immersion test 
+was undertaken, samples were cleaned by supersonic cleaner 
+and weighed after fully dry. Then samples were exposed to 
+a solution of 0.01 mol/L ­NaHSO3 at 45 °C. The accelerated 
+corrosion durations were determined at 12 h, 24 h, 48 h and 
+72 h according to the guideline of TB/T 1979–2014. The 
+corrosion products on the surface of samples were removed 
+by acid solution and the samples were weighed to determine 
+the mass loss.
+Charpy V-notch impact test was conducted with the sam-
+ples of 10 mm × 10 mm × 55 mm. The samples were cut 
+along the rolling direction, and the impact toughness data 
+presented is an average of three measurements for each test 
+condition. The transverse and longitudinal toughness were 
+carried out at gradient temperature from − 60 to 0 °C. The 
+fractograph and dislocation morphology were observed by 
+SEM–EDS and transmission electron microscopy (TEM), 
+respectively.
+3  Results
+3.1  Effects of RE Elements on Microstructure
+Figure 2 depicts the optical micrographs of Q355 steel and 
+Q355RE steel samples. The microstructure of Q355 steel 
+exhibits a fine ferrite structure with minor granular bainite 
+Table 1   Chemical composition 
+of experimental steels (mass%)
+Sample
+C
+Si
+Mn
+P
+S
+Cr
+Ni
+Al
+Cu
+Ce
+La
+Q355 steel
+0.15
+0.21
+1.26
+0.014
+0.007
+0.024
+0.013
+0.049
+0.021
+–
+–
+Q355RE steel
+0.15
+0.22
+1.25
+0.014
+0.007
+0.023
+0.013
+0.049
+0.021
+0.0144
+0.0064
+Fig. 1   Schematic illustration of an electrolytic apparatus used for sep-
+arating inclusions
+
+PAGE 3
+1721
+Effects of Modified Inclusions and Precipitates Alloyed by Rare Earth Element on Corrosion…
+1 3
+(Fig. 2a), while a mixed microstructure consisting of fer-
+rite and pearlite is observed in Q355RE steel (Fig. 2b). 
+The difference of these two microstructures indicates that 
+the addition of RE elements has some influence on the 
+transformation.
+3.2  Effects of RE Elements on Inclusions
+In order to determine the inclusion types, SEM observation 
+and EDS analysis of inclusions are conducted, as shown in 
+Fig. 3. Results shows that ­Al2O3 with irregular shape and 
+Fig. 2   Optical micrographs in a Q355 steel, b Q355RE steel
+Fig. 3   SEM images and EDS mapping results of inclusions: a oxide, b complex inclusions in Q355 steel; and c RE oxy-sulfide, d RE sulfide in 
+Q355RE steel
+
+PAGE 4
+1722
+	
+X.-T. Lian et al.
+1 3
+striplike MnS are the main inclusions formed in Q355 steel, 
+and the enrichment of Mg and Ca in EDS mapping indicates 
+the existence of CaO and MgO. After adding RE into Q355RE 
+steel, ­Al2O3 and MnS are modified into spherical or ellipsoidal 
+inclusions consisted of mainly RE sulfide and RE oxysulfide. 
+Some RE complex inclusions may contain small amounts of 
+­Al2O3.
+The three-dimensional morphology of inclusions by elec-
+trolytic extraction method is exhibited in Fig. 4. The inclusions 
+in Q355 steel are mainly consisted of three types of inclu-
+sions, as shown in Fig. 4a. Small spherical inclusions with 
+an average particle size of about 3 μm are recognized as CaS 
+type inclusion (painted in green) by EDS attached to SEM. 
+Irregular blocks with an average particle size of about 5 μm are 
+determined as MnS type inclusion (painted in yellow), while 
+inclusions with sharp angles are determined as ­Al2O3 type 
+inclusion (painted in red). After RE alloying, inclusions are 
+obviously refined and spheroidized (Fig. 4b). Almost all inclu-
+sions are modified into RE inclusions (painted in blue), except 
+for a few ­Al2O3 inclusions.
+3.3  Effects of RE Elements on Corrosion Resistance 
+Properties
+Figure 5 shows the relationship between corrosion rates and 
+corrosion time obtained by wet-dry immersion tests. The cor-
+rosion rate (g·m−2·h−1) is obtained from the following known 
+equation [21]:
+(1)
+W = G0 −G1
+S × t
+,
+where W is corrosion rate (g ­m−2 ­h−1), G0 is initial sample 
+weight before immersion test (g), G1 is sample weight after 
+immersion test (g), S is the initial total surface area of sam-
+ple ­(m2), t is corrosion time (h).
+3.4  Charpy V‑Notch Impact Properties
+The variation of impact energy is measured to investigate 
+the influence of RE, as described in Fig. 6. The absorbed 
+impact energy decreases with a drop in temperature. The 
+value of impact toughness of Q355RE samples is higher 
+than that of Q355 samples. It is indicated that Q355RE steel 
+displayed better impact fracture resistance than Q355 steel. 
+Fig. 4   Three-dimensional morphologies of inclusions (painted in different colors) obtained by the method of electrolytic extraction in a Q355 
+steel, b Q355RE steel
+Fig. 5   Corrosion rates of Q355 steel and Q355RE steel obtained in 
+wet-dry cycle immersion test
+
+PAGE 5
+1723
+Effects of Modified Inclusions and Precipitates Alloyed by Rare Earth Element on Corrosion…
+1 3
+The improvement of steel toughness is more obvious in the 
+transverse direction.
+4  Discussion
+4.1  Change of Microstructure
+The change of microstructure proves that RE probably 
+impedes the diffusion of carbon and solute atoms and 
+increase the content of ferrite correspondingly, which is 
+similar to the conclusion obtained by previous works [10, 
+22–24]. During the cooling process after hot rolling, the pre-
+eutectoid ferrite precipitates from austenite when cooling 
+temperature reaches Ar3. When cooling temperature contin-
+ues to drop below the temperature of Ar1, eutectoid decom-
+position occurs and cement ­(Fe3C) appears. The formation 
+of ­Fe3C reduces the surrounding carbon concentration and 
+promotes the nucleation of ferrite. Then ferrite continues 
+to nucleate and grow on both sides of ­Fe3C, and these two 
+phases are integrated into pearlite in general. Due to the fast 
+cooling rate, a small amount of bainite precipitates from the 
+supersaturated ferrite matrix in the final state.
+By comparing the metallographic structure of Q355 steel 
+and Q355RE steel, it is obvious that RE elements can pro-
+mote the formation of ferrite. During the growth of ferrite, 
+carbon and other solute atoms concentrate into austenite and 
+cause the transformation from retained austenite into pearlite 
+or bainite [22]. When the temperature drops below trans-
+formation temperature of Bs, bainite is formed. However, 
+the diffusion of RE as a solute atom is quite difficult due to 
+its large atomic radius (Ce 0.1877 nm, La 0.1825 nm, Fe 
+0.1210 nm) [21]. The interaction coefficient between RE and 
+carbon has been reported to be negatives [25].
+4.2  Modification of Inclusions
+RE element plays an important role on the shape control 
+and modification of inclusions in Q355 steel, as shown 
+in Figs. 3 and 4. The statistical results of various types 
+of inclusions are listed in Table 2. A total number of 368 
+inclusions are detected. The proportion of sulfides includ-
+ing isolated MnS and complex sulfides is the highest, 
+accounting for 59% of all detected inclusions. The other 
+inclusions are mainly complex inclusions consisted of 
+oxides ­(Al2O3) and sulfides (MnS and CaS). The inclu-
+sion size of MnS is the largest among all the inclusions 
+with the average inclusion size of 4.7 μm. As a contrast, 
+362 inclusions were detected in the sample of Q355RE 
+steel. The type of inclusions transfers from common 
+oxides and sulfides to RE sulfide, RE oxide or RE com-
+plex inclusions. The amount of RE sulfide is the largest 
+and accounts for 48.3% among all the inclusions with 
+the average size of 2.7 μm. Due to the active chemical 
+property of RE elements, it is concluded that RE ele-
+ments tend to react with oxygen and sulfur firstly, which 
+coincides with previous study focused on thermodynamic 
+calculation results [19, 25].
+By comparison, it is found that sulfide inclusions account 
+for more than 50% in Q355 steel and the number of inclu-
+sions in Q355 steel is largely determined by the sulfur con-
+tent of steel. The size distribution of inclusions is statisti-
+cally evaluated and demonstrated in Fig. 7. It can be seen 
+that the size of most inclusions in Q355 steel ranges from 
+1.5 to 3.5 μm, accounting for about 80% of all inclusions 
+(Fig. 7a). The maximum size of inclusions is more than 
+10 μm, and inclusions with large size are mainly consisted of 
+MnS and ­Al2O3 (Fig. 7b). After RE alloying, the maximum 
+size of inclusion is less than 7.5 μm, and the average size of 
+Fig. 6   Evolution of impact properties with temperature in a longitudinal direction, b transverse direction in Q355 steel and Q355RE steel
+
+PAGE 6
+1724
+	
+X.-T. Lian et al.
+1 3
+inclusions has been decreased obviously (Fig. 7c). Special 
+attention should be paid to the detection of these impurities 
+in steels. As is known to all, cracks are easy to initiate on 
+inclusion particles that are with large size, irregular sharp 
+and high hardness [13, 26]. It is apparent that the addition 
+of RE can make the inclusions smaller and more dispersed, 
+Table 2   Type, counts and size distribution of inclusions in Q355 steel and Q355RE steel
+Sample
+Type of inclusions
+ < 1
+μm
+1–2
+μm
+2–3
+μm
+3–4
+μm
+4–5
+μm
+5–6
+μm
+ > 6
+μm
+Total
+Percentage
+(%)
+Average 
+size (μm)
+Maximum 
+size (μm)
+Q355 steel
+CaS-MnS
+0
+57
+59
+17
+5
+4
+3
+145
+39.4
+2.4
+7.3
+MnS
+0
+28
+17
+10
+4
+6
+7
+72
+19.6
+4.7
+7.8
+CaS-Al2O3-MnS
+0
+5
+71
+31
+6
+4
+5
+122
+33.1
+3.8
+5.4
+Al2O3-MnS
+0
+0
+2
+7
+9
+3
+8
+29
+7.9
+4.5
+10.3
+Q355RE steel
+RES
+0
+48
+76
+31
+14
+5
+1
+175
+48.3
+2.7
+7.4
+RE2O3
+0
+32
+61
+10
+2
+2
+0
+107
+29.6
+2.3
+5.7
+RES-RE2O3
+0
+17
+19
+14
+1
+0
+0
+51
+14.1
+2.8
+5.4
+RES-RE2O3-Al2O3
+0
+6
+10
+12
+1
+0
+0
+29
+8.0
+3.0
+5.3
+Fig. 7   Size distribution and ternary phase diagram of inclusions in a, b Q355 steel, c, d Q355RE steel
+
+PAGE 7
+1725
+Effects of Modified Inclusions and Precipitates Alloyed by Rare Earth Element on Corrosion…
+1 3
+which is beneficial for enhancing comprehensive properties 
+of test steel.
+4.3  Mechanism of Corrosion Resistance 
+Improvement
+Corrosion rate is closely related to the formation of rust lay-
+ers on sample surface. The morphology of oxide products 
+on the surface of rust layers is demonstrated in Fig. 8. The 
+circular corrosion morphology is formed on the surface of 
+samples under cycled wet-dry immersion tests, which is due 
+to the deposition of liquid on the surface unevenly. It is obvi-
+ous that the corrosion uniformity of Q355RE steel is much 
+better than that of Q355 steel. The rust layer particles turn 
+finer in Q355RE steel after RE alloying. A small amount 
+of oxide particles containing RE is found on the surface of 
+rust layer, as shown in the red circle in Fig. 8d. RE oxide 
+particles also contain other alloying elements such as Al and 
+Si, indicating that RE inclusions participate in the corrosion 
+reaction of Q355RE steel.
+By analyzing the XRD patterns of corrosion prod-
+ucts, the main phases consist of γ-FeOOH, α-FeOOH and 
+­Fe3O4/γ-Fe2O3 (Fig. 9). Based on previous study, it is known 
+that unstable γ-FeOOH is an electrochemical active phase 
+and is formed in the initial stage of corrosion, which can 
+transform into ­Fe3O4/γ-Fe2O3 and α-FeOOH during the cor-
+rosion process [27, 28]. Stable α-FeOOH is the most protec-
+tive hydroxy iron oxide and prevents corrosive ions from 
+invading the matrix. ­Fe3O4 and γ-Fe2O3 have the similar 
+XRD patterns and it is quite difficult to distinguish accu-
+rately whether it is a mixture or a single compound.
+Table 3 shows the relative content of different corrosion 
+products. The content of stable α-FeOOH is higher and the 
+content of unstable γ-FeOOH is lower in Q355RE steel com-
+pared to those in Q355 steel. The content of ­Fe3O4/γ-Fe2O3 
+is decreased slightly. The ratio of α-FeOOH/γ-FeOOH (α/γ) 
+Fig. 8   SEM surface morphologies of rust layers in a, c Q355 steel; b, d Q355RE steel; e, f RE oxide particles and its corresponding EDS pat-
+terns
+Fig. 9   XRD patterns of oxide products of Q355 steel and Q355RE 
+steel
+
+PAGE 8
+1726
+	
+X.-T. Lian et al.
+1 3
+is an important parameter to evaluate whether corrosion 
+products are stable [29]. From the obtained date in Table 3, 
+the value of α/γ increases from 19.4 to 35.5, which indicates 
+that RE alloying improves the stability of rust layers and 
+the ability of protecting the matrix, thus delaying the corro-
+sion. It has been reported in our previous study that ­S2− and 
+­HS− produced by dissolved MnS can promote local corro-
+sion, including further occurrence and expansion of pitting 
+in plain low carbon steels [21]. After adding RE element 
+into Q355 steel, RE can modify inclusions into small-sized 
+spherical inclusions to reduce the size of phase boundary 
+between inclusions and matrix. It effectively reduces the 
+active area at the surface of steel and weakens micro‐region 
+electrochemical corrosion. RE inclusions have also exhibited 
+a much lower Volta potential than the matrix. Furthermore, 
+some oxide particles containing RE is found on the surface 
+of rust layer, indicating that RE inclusions participate in the 
+corrosion reaction of Q355RE steel. Therefore, RE inclu-
+sions dissolve and precipitate during corrosion process and 
+part of them exist in the form of insoluble RE compounds 
+in the rust layers.
+4.4  Mechanism of Impact Property Improvement
+The fracture surfaces of impact specimens in the transverse 
+direction are shown in Fig. 10. The observation indicated 
+that a clear transition from ductile to brittle behavior with a 
+drop of temperature, and the change of predominant mecha-
+nism of fracture has been shown evidentially. Fine and deep 
+dimples for Q355 steel and larger ones for Q355RE steel 
+Table 3   Relative content of corrosion products by XRD analysis 
+(mass%)
+Sample
+α-FeOOH
+Fe3O4/γ-Fe2O3
+γ-FeOOH
+α/γ
+Q355 steel
+40.8
+55.8
+2.1
+19.4
+Q355RE steel
+46.2
+54.3
+1.5
+35.5
+Fig. 10   SEM fractographs of investigated fractured steels in Q355 steel at the temperature of a 0 °C, c − 60 °C; in Q355RE steel at the tempera-
+ture of b 0 °C, d − 60 °C
+
+PAGE 9
+1727
+Effects of Modified Inclusions and Precipitates Alloyed by Rare Earth Element on Corrosion…
+1 3
+under the test temperature of 0 °C are observed in Fig. 10a 
+and b. In contrast, the fracture morphology displayed brittle 
+fracture when impact test temperature decreased to − 60 °C, 
+as shown in Fig. 10c and d. The formation of cleavage facets 
+has been the main fracture mechanism. It should be noted 
+that more secondary cracks exist on the surface of fractured 
+samples in Q355 steel than that in Q355RE steel, which 
+indicates that the formation and propagation of crack sources 
+are inhibited by RE alloying.
+Impact fracture analysis of transverse samples is per-
+formed to display the morphology of impact fracture, as 
+shown in Fig. 11. Impact properties are a combination 
+evaluation of strength and plasticity and notched impact 
+samples are more sensitive to the variation of micro-
+structure [30, 31]. The main reason for increasing the 
+impact energy after RE alloying can be attributed to the 
+modification of inclusions. Angular inclusions may lead 
+to micro-cracks initiation under loading and large-sized 
+inclusions are detrimental to mechanical properties due 
+to the difference of hardness and thermal expansion prop-
+erties between matrix and inclusions. It is noted that the 
+presence of inclusion (MnS, ­Al2O3) act as potential sites 
+for crack initiation [32, 33]. It demonstrates that plastic 
+deformation occurs in matrix and cracks begin to initi-
+ate and propagate at both ends of large inclusions when 
+the load is applied in Q355 steel. Then the internal and 
+boundary cracks occur around inclusion. Ultimately, the 
+inclusions are separated from the matrix and the whole 
+inclusion is regarded as the crack source, as shown in 
+Fig. 11a. The larger the size of inclusions, the faster the 
+rate of crack propagation after plastic deformation. When 
+RE elements is added into steels, sulfur and RE elements 
+act to form sub-micro spherical RE sulfides and composite 
+inclusions ­(Al2O3 + MnS + CaS), which replaces striplike 
+MnS. The shape of RE inclusions is mostly spherical or 
+ellipsoidal with good morphology and distribution. Com-
+pared to sulfide inclusions, the linear expansion coeffi-
+cient and elastic modulus of RE inclusions are similar 
+to those in the matrix, which can effectively reduce the 
+stress concentration around inclusions during impact test 
+[34]. Small spherical RE inclusions have good cohesion 
+with matrix and are less likely to be the crack sources, as 
+indicated in Fig. 11b. It has been reported that RE inclu-
+sions with certain size range can produce large plastic 
+deformation during the impact test and can alter the path 
+of crack growth [34, 35]. Simultaneously, the activity of 
+Fig.11   SEM morphologies of crack initiation and EDS analysis of inclusions in the fractured samples at temperature of − 60 °C in a, c Q355 
+steel; b, d Q355RE steel
+
+PAGE 10
+1728
+	
+X.-T. Lian et al.
+1 3
+small-sized RE inclusions is calculated to be lower than 
+that of other large-sized inclusions in crack initiation and 
+propagation [21, 36].
+Figure 12 manifests the microstructure of the fractured 
+samples in Q355RE steel by TEM. It is found that high-
+density dislocations and precipitates exist in the sample. 
+The morphology results clearly demonstrate the precipita-
+tion of second phases along grain boundaries and its cor-
+responding EDS mapping result shows that the spherical 
+nano-scale precipitate is enriched with Ce, La, O, S and P 
+(Fig. 12c). The nano-scale precipitates almost have little 
+detrimental effect on mechanical properties investigated in 
+Fig.12   a, b Bright-field TEM images of dislocations and precipitates, c scanning tunneling electron microscopy, high-angle annular dark field 
+(STEM-HAADF) image and mapping of nano-scale precipitate in Q355RE steel
+
+PAGE 11
+1729
+Effects of Modified Inclusions and Precipitates Alloyed by Rare Earth Element on Corrosion…
+1 3
+many studies [37, 38]. Additionally, the precipitate puri-
+fies the grain boundaries. S is considered to be the most 
+detrimental impurity element due to its tendency to seg-
+regate towards grain boundaries and the detrimental effect 
+of S on the mechanical properties has been investigated. 
+According to the theory of grain boundary segregation, the 
+impurity elements such as S, P and Sb segregate towards 
+grain boundaries, which weaken grain boundaries and 
+leads to brittle fracture [39, 40]. RE has been reported 
+to the depressing deleterious effects of low melting point 
+metals in the way of fixation of tramp elements and mini-
+mizing amount of Fe–P phase [18]. This could be provided 
+as a further evidence that stress concentration caused by 
+element segregation is eliminated by purification of grain 
+boundaries, leading to the enhancement of impact tough-
+ness. S can also gather at grain boundaries to inhibit uni-
+form corrosion rate and is more likely to cause pitting 
+corrosion [41]. Grain boundary purification is helpful to 
+improve both impact toughness and corrosion properties.
+Generally, nano-scale precipitate combines well with 
+the matrix, and no split between precipitate and matrix 
+occurs during impact test. Furthermore, the segregation 
+of RE at grain boundaries and the interactions with other 
+elements should be considered. More works need to fur-
+ther study whether a direct correlation between nano-scale 
+precipitate and mechanical properties.
+5  Conclusions
+1.	 The microstructure of Q355RE steel was consisted of 
+ferrite and pearlite and that of Q355 steel consisted of 
+ferrite and bainite, which was due to the effect of RE on 
+transformation temperature. Small-sized spherical RE 
+inclusions (RES, ­RE2O3) replaced elongated MnS and 
+large-sized ­Al2O3 in Q355RE steel after modifying by 
+RE elements.
+2.	 Compared to Q355 steel, Q355RE steel had lower corro-
+sion rate. The value of α/γ was increased after RE alloy-
+ing, indicating that more stable oxide products were 
+formed on the surface of Q355RE steel. The decrease 
+in corrosion rate was closely related to the formation of 
+stable and dense rust layers promoted by RE alloying.
+3.	 Q355RE steel also exhibited better resistance to fracture 
+at low temperature, owing to the presence of RE modi-
+fication to inclusions and its effects on reducing crack 
+initiation.
+4.	 RE precipitates containing sulfur and phosphorus was 
+observed along grain boundaries. The purification of 
+grain boundaries by RE was probably beneficial to the 
+improvement of corrosion and impact properties.
+Acknowledgements  This work was financially supported by the 
+Open Project of State Key Laboratory of Advanced Special Steel, the 
+Shanghai Key Laboratory of Advanced Ferrometallurgy, the Shanghai 
+University and the Science and Technology Commission of Shanghai 
+Municipality (No. 19DZ2270200) and the National Natural Science 
+Foundation of China (No. 52031004).
+Declarations 
+Conflict of interest  The authors declare that they have no known com-
+peting financial interests or personal relationships that could have ap-
+peared to influence the work reported in this paper.
+References
+	[1]	 T. Vallée, M. Albiez, in Woodhead Publishing Series in Welding 
+and Other Joining Technologies. ed. by R.D. Adams (Woodhead 
+Publishing, London, 1989), p. 539
+	[2]	 R.O. Disque, Engineering for steel construction, Civil Eng.-ASCE 
+54, 51 (1984)
+	[3]	 W. Chen, J. Wan, Y.C. Cai, Adv. Mat. Res. 243–249, 5321 (2011)
+	[4]	 C.T. Zhang, B. Jia, J.J. Wang, Constr. Build. Mater. 252, 119092 
+(2020)
+	[5]	 J. Outinen, P. Makelainen, Fire Mater. 28, 237 (2004)
+	[6]	 W.Y. Wang, S.H. Yan, L.B. Zhang, B. Wang, J. Build. Struct. 37, 
+47 (2016)
+	[7]	 D. Fuente, I. Diaz, J. Simancas, B. Chico, M. Morcillo, Corros. 
+Sci. 53, 604 (2011)
+	[8]	 J. Tidblad, Atmos Environ. 55, 1 (2012)
+	[9]	 L. Le, M. Sofi, E. Lumantarna, J. Constr. Steel Res. 185, 106805 
+(2021)
+	[10]	H.L. Liu, C.J. Liu, M.F. Jiang, Constr. Build. Mater. 33, 306 
+(2012)
+	[11]	C.T. Zhang, H.J. Zhu, L. Zhu, Constr. Build. Mater. 271, 121605 
+(2021)
+	[12]	W.T. Lv, L.C. Yan, X.L. Pang, L.J. Qiao, Y.J. Su, I. Salvatori, 
+K.W. Gao, H.S. Yang, J. Alloys Compd. 864, 158133 (2021)
+	[13]	S.Q. Zheng, C.Y. Li, Y.M. Qi, L.Q. Chen, C.F. Chen, Corros. Sci. 
+67, 20 (2013)
+	[14]	J. Torkkeli, T. Saukkonen, H. Hänninen, Corros. Sci. 96, 14 
+(2015)
+	[15]	T.V. Shibaeva, V.K. Laurinavichyute, G.A. Tsirlina, A.M. Arsen-
+kin, K.V. Grigorovich, Corros. Sci. 80, 299 (2014)
+	[16]	Y. Liu, X.Z. Zheng, S. Osovski, A. Srivastava, J. Mech. Phys. 
+Solids 130, 21 (2019)
+	[17]	H. Duan, Y.Y. Shan, K. Yang, X.B. Shi, W. Yan, Y. Ren, Acta 
+Metall. Sin. (Engl. Lett.) 34, 639 (2021)
+	[18]	L.M. Wang, Q. Lin, L.J. Yue, L. Liu, F. Guo, F.M. Wang, J. Alloys 
+Compd. 451, 534 (2008)
+	[19]	H.Y. Ha, C.J. Park, H.S. Kwon, Scr. Mater. 55, 991 (2006)
+	[20]	X.X. Deng, M. Jiang, X.H. Wang, Acta Metall. Sin. (Engl. Lett.) 
+25, 241 (2012)
+	[21]	Z. Liu, X.T. Lian, T.S. Liu, Y.D. Yang, J.N. Zhu, H. Dong, Mater. 
+Corros. 71, 258 (2020)
+	[22]	H.L. Liu, C.J. Liu, M.F. Jiang, Adv. Mater. Res. 129–131, 542 
+(2010)
+	[23]	M.J. Wang, L. Chen, Z.X. Wang, E. Bao, J. Rare Earth 30, 84 
+(2012)
+	[24]	H.G. Fu, Q. Xiao, Y.X. Li, Mater. Sci. Eng. A 395, 281 (2005)
+	[25]	Y.M. Wu, L.M. Wang, T. Du, J. Less-Common Met. 110, 187 
+(1985)
+	[26]	M.S. Bhat, W. Garrison Jr, V.F. Zackay, Mater. Sci. Eng. 41, 1 
+(1979)
+
+PAGE 12
+1730
+	
+X.-T. Lian et al.
+1 3
+	[27]	W. Ke, J.H. Dong, Acta Metall. Sin. 46, 1365 (2010)
+	[28]	M. Yamashita, T. Shimizu, H. Konishi, J. Mizuki, H. Uchida, 
+Corros. Sci. 45, 381 (2003)
+	[29]	Y. Yang, C. Jiang, X.Q. Cheng, J.B. Zhao, B.J. Zhao, X.G. Li, J. 
+Mater. Eng. Perform. 29, 2648 (2020)
+	[30]	J. Chen, Z.Y. Liu, J. Alloys Compd. 837, 155484 (2020)
+	[31]	B. Hwang, Y.G. Kim, S. Lee, Y.M. Kim, N.J. Kim, J.Y. Yoo, 
+Metall. Mater. Trans. A 36, 2107 (2005)
+	[32]	M. Sun, J.A. Packer, J. Constr. Steel Res. 97, 114 (2014)
+	[33]	A. Ghosh, M. Ghosh, Constr. Build. Mater. 192, 657 (2018)
+	[34]	C.J. Liu, M.F. Jiang, Y.S. Wang, J.J. Chen, C.L. Li, Acta Metall. 
+Sin. (Engl. Lett.) 18, 705 (2005)
+	[35]	S.H. Song, Y.W. Xu, X.M. Chen, X. Jiang, J. Rare Earths 34, 1062 
+(2016)
+	[36]	X.T. Lian, J.N. Zhu, R.Q. Wang, T.S. Liu, H. Dong, Metals 10, 
+1174 (2020)
+	[37]	D.W. Hou, F. Fang, Y. Wang, Y.X. Zhang, X.M. Zhang, R.D.K. 
+Misra, G. Yuan, Mater. Sci. Eng. A 819, 141529 (2021)
+	[38]	J. Hu, L.X. Du, W. Xu, J.H. Zhai, Y. Dong, Y.J. Liu, R.D.K. Misra, 
+Mater. Charact. 136, 20 (2018)
+	[39]	M.A. Gibson, C.A. Schuh, Acat Mater. 95, 145 (2015)
+	[40]	H. Tervo, A. Kaijalainen, T. Pikkarainen, S. Mehtonen, D. Porter, 
+Mater. Sci. Eng. A 697, 184 (2017)
+	[41]	Q.J. Gong, Y. Xiang, J.Q. Zhang, R.T. Wang, D.H. Qin, J. Super-
+crit. Fluid 176, 105320 (2021)

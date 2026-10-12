@@ -1,0 +1,1040 @@
+PAGE 1
+ 
+ 
+ 
+ 
+Electrochem 2026, 7, 3 
+https://doi.org/10.3390/electrochem7010003 
+Article 
+Yttrium-Enhanced Passive Films in Austenitic Stainless Steel 
+Maksym Bichev 1, Denis Miroshnichenko 2,3,*, Sergey Nesterenko 3, Leonid Bannikov 3, Leonid Saenko 1,   
+Volodymyr Tertychnyi 2, Vladislav Reivi 2, Kyrylo Serkiz 2 and Mariia Shved 4 
+1  Educational and Scientiﬁc Institute of Energy, Information and Transport Infrastructure, O.M. Beketov   
+National University of Urban Economy in Kharkiv, 61002 Kharkiv, Ukraine;   
+maksym.bichev@kname.edu.ua (M.B.); leonid.saienko@kname.edu.ua (L.S.) 
+2  Educational and Scientiﬁc Institute of Chemical Technology and Engineering, National Technical University 
+Kharkiv Polytechnic Institute, 61002 Kharkiv, Ukraine; volodymyr.tertychnyi@ihti.khpi.edu.ua (V.T.);   
+vladyslav.reivi@ihti.khpi.edu.ua (V.R.); kyrylo.serkiz@ihti.khpi.edu.ua (K.S.) 
+3  Chemical Department, Ukrainian State Research Institute for Carbochemistry, 61023 Kharkiv, Ukraine; 
+nester.hnamg@gmail.com (S.N.); ukhinbannikov@gmail.com (L.B.) 
+4  Institute of Computer Technologies, Automation and Metrology, Lviv Polytechnic National University, 
+79013 Lviv, Ukraine; mariia.y.shved@lpnu.ua 
+*  Correspondence: denys.miroshnychenko@khpi.edu.ua 
+Abstract 
+It has been demonstrated that a monomolecular surface ﬁlm with semiconducting char-
+acteristics  forms  on  an  austenitic,  corrosion-  and  heat-resistant  chromium–nickel  steel 
+with 0.10 wt.% C, 20 wt.% Cr, 9 wt.% Ni, and 6 wt.% Mn (10Kh20N9G6), microalloyed 
+with yttrium, in aqueous 1 M H2SO4. This passive layer exhibits semiconducting behavior, 
+as conﬁrmed by electrochemical impedance and capacitance measurements. For the ﬁrst 
+time,  key electronic parameters, including the ﬂat-band potential, the thickness of the 
+semiconductor layer, and the Fermi  energy, have been determined from experimental 
+Mott–Schottky plots obtained for the interphase boundary between the yttrium-microal-
+loyed austenitic Cr–Ni steel (10Kh20N9G6) and aqueous 1 M H2SO4. The results reveal a 
+systematic shift in the ﬂat-band potential toward more negative values with increasing 
+yttrium content in the alloy, indicating a modiﬁcation of the electronic structure of the 
+passive ﬁlm. Simultaneously, a decrease in the Fermi energy is observed, suggesting an 
+increase in the work function of the metal surface due to the presence of yttrium. These 
+ﬁndings contribute to a deeper understanding of passivation mechanisms in yttrium-con-
+taining stainless steels. The formation of a semiconducting passive ﬁlm is essential for 
+enhancing the electrochemical stability of stainless steels, and the role of rare-earth micro-
+alloying elements, such as yttrium, in this process is of both fundamental and practical 
+interest. 
+Keywords: monomolecular phase; microalloyed austenitic metal; corrosion rate; yttrium; 
+semiconductor characteristics; welding electrode; grain boundaries; diﬀusion transport; 
+hydrogen traps 
+ 
+1. Introduction 
+Wash oil employed in coke-chemical operations exhibits pronounced corrosive ac-
+tivity due to the presence of unsaturated hydrocarbons, polycyclic aromatic compounds, 
+sulfur-containing species, and dissolved oxygen, which markedly intensify both electro-
+chemical and high-temperature corrosion of process equipment [1–4]. In addition, coke-
+Academic Editor: Michael Lyons 
+Received: 25 November 2025 
+Revised: 6 January 2026 
+Accepted: 7 January 2026 
+Published: 16 January 2026 
+Copyright: © 2026 by the authors. 
+Licensee MDPI, Basel, Switzerland. 
+This article is an open access article 
+distributed under the terms and 
+conditions of the Creative Commons 
+Attribution (CC BY) license. 
+
+PAGE 2
+Electrochem 2026, 7, 3 
+2  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+quenching  water,  characterized  by  elevated  mineralization,  dissolved  gases,  and  sus-
+pended solids, exhibits increased corrosive aggressivity, necessitating the use of corro-
+sion-resistant materials and eﬀective surface protection strategies for all contacting com-
+ponents [5–8]. 
+Rare earth elements (REEs) have attracted increasing attention as eﬀective microal-
+loying components for improving the structural, physicochemical, and corrosion proper-
+ties of steels. Although their consumption in stainless steel production remains relatively 
+low compared with conventional alloying elements, numerous studies have shown that 
+even small additions of REEs exert a strong inﬂuence on steel quality, inclusion evolution, 
+passive ﬁlm stability, and the electrochemical performance of welded and cast compo-
+nents [9–12]. As conventional alloying strategies approach their practical limits, REEs pro-
+vide additional mechanisms of microstructural control that cannot be achieved using clas-
+sical alloying systems [9,10,13]. 
+REEs exhibit high chemical reactivity due to their low standard electrode potentials 
+and strong aﬃnity for oxygen, sulfur, carbon, nitrogen, and hydrogen. This reactivity pro-
+motes  the  formation  of  stable  oxides,  oxysulﬁdes,  sulﬁdes,  carbides,  nitrides,  and  hy-
+drides, signiﬁcantly aﬀecting phase transformations in both liquid and solid states [9,10]. 
+Their pronounced deoxidizing and desulfurizing capabilities enable eﬀective puriﬁcation 
+of molten steel and modiﬁcation of non-metallic inclusions (NMIs) [14]. REEs are com-
+monly introduced as metallic elements, master alloys, oxides, or ﬂuorides, leading to the 
+formation of ﬁne, electrochemically inert inclusions that reduce localized corrosion sus-
+ceptibility [11]. 
+Signiﬁcant progress has been made in understanding REE-induced inclusion modi-
+ﬁcation. Conventional deoxidation using Al, Ti, Si, and Mn often leaves residual inclu-
+sions that promote localized corrosion [10]. In contrast, REE additions—particularly Ce, 
+Y, and La—modify inclusion size, morphology, and electrochemical activity, thereby sup-
+pressing micro-galvanic coupling and enhancing pitting resistance [11–13]. Bai et al. [9] 
+reported that REE additions transform MnS inclusions into stable oxysulﬁdes with lower 
+anodic activity, while Zhang et al. [10] demonstrated the formation of composite REE–O–
+S inclusions that reduce electrochemical heterogeneity on stainless steel surfaces. 
+Yttrium is among the most eﬀective REEs for stainless steel modiﬁcation. Shi et al. 
+[11] showed that Y promotes the formation of thermodynamically stable, globular inclu-
+sions and suppresses pit initiation in AISI 304 steel. Luo and Liu [12] observed similar 
+beneﬁcial eﬀects in structural steels, where Y-based inclusions reﬁne the grain structure 
+and reduce oxide heterogeneity. Ma and Zhao [13] demonstrated that REE ions incorpo-
+rate into passive ﬁlms, modify defect structures, and decrease oxygen vacancy concentra-
+tions, thereby improving resistance to chloride-induced breakdown. 
+Electrochemical impedance spectroscopy (EIS) and Mott–Schottky (M–S) analysis are 
+widely applied to characterize REE-modified passive films. Ascencio and McCafferty [14] 
+showed that REE-containing passive layers exhibit increased charge-transfer resistance and 
+improved stability. Chen and Xue [15] emphasized the strengthening role of REE-derived 
+oxides acting as oxygen-ion conductors. Studies on aluminum matrix composites further 
+confirmed the influence of rare earth oxide particles on microstructure refinement and elec-
+trochemical stability [16]. Global research trends underline the growing importance of REEs 
+in advanced corrosion-resistant materials and sustainable alloy design [17]. 
+Recent investigations on stainless and reinforcing steels highlight the role of REE-
+modiﬁed inclusions in controlling passive ﬁlm behavior and electrochemical response. 
+Pradhan et al. [18] identiﬁed inclusion type and distribution as key parameters governing 
+electrochemical behavior. Zeng et al. [19] reported enhanced passivation in Nb-microal-
+loyed steels exposed to carbonation environments due to REE-induced inclusion modiﬁ-
+cation. Wang et al. [20] demonstrated improved pitting resistance of 13Cr4Ni martensitic 
+
+PAGE 3
+Electrochem 2026, 7, 3 
+3  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+steel through stabilization of Cr(III)-rich passive ﬁlms, while Liu et al. [21] conﬁrmed en-
+hanced passivity in duplex stainless steel. Similar eﬀects were reported for Ce-modiﬁed 
+316L stainless steel [22] and Nb-microalloyed steels [23]. 
+The semiconducting properties of passive ﬁlms provide further insight into REE-in-
+duced  modiﬁcations.  The  interpretation  of  Mott–Schottky  behavior  established  by  De 
+Gryse et al. [24] remains essential for evaluating defect structures. REE additions can alter 
+the dominant semiconducting character of passive ﬁlms by modifying point defect distri-
+butions [25]. Lv and Li [26] showed that REEs reduce electronic conductivity in passive 
+ﬁlms on reinforcing steels, thereby improving long-term corrosion resistance. Methodo-
+logical principles for EIS data interpretation were outlined by Lazanas and Prodromidis 
+[27], while classical works by Di Quarto and co-authors [28–30] and the theoretical frame-
+work developed by Di Paola [31] remain fundamental for analyzing semiconductor–elec-
+trolyte interfaces. 
+Research  on  hydrogen  behavior  in  welded  and  REE-modified  steels  further  demon-
+strates the role of REEs in controlling electrochemical degradation. Studies have shown that 
+REE-modified inclusions act as hydrogen traps, influence diffusion kinetics, and suppress hy-
+drogen-induced damage in welded joints [32–40], thereby enhancing structural reliability. 
+Yttrium acts as an eﬀective irreversible hydrogen trap in high-strength steels, notably 
+reducing diﬀusible hydrogen concentrations in weld metals and thereby mitigating hy-
+drogen-induced cracking by lowering the susceptibility to embrittlement. In nickel-based 
+superalloys like Inconel 718, microalloyed yttrium improves resistance to hydrogen em-
+brittlement [41]. 
+Overall, the incorporation of REEs—particularly via welding electrode coatings—
+represents an eﬃcient and technologically accessible approach to improving the corrosion 
+performance of stainless steel welds. Despite substantial progress, important knowledge 
+gaps  remain  regarding  REE  distribution  within  passive  ﬁlms,  defect  structures,  and 
+charge-transfer kinetics. Advanced techniques such as EIS, Mott–Schottky analysis, XPS 
+(Photoelectron Spectroscopy), and in situ TEM (Transmission Electron Microscopy) con-
+tinue to advance understanding of REE-stabilized passivity; however, a comprehensive 
+description of the underlying mechanisms has yet to be achieved. 
+It is hypothesized that microalloying austenitic Cr–Ni steel (10Kh20N9G6) with trace 
+amounts of yttrium leads to the formation of a monomolecular passive ﬁlm with degen-
+erate n-type semiconducting behavior in acidic media. The incorporation of yttrium into 
+the near-surface region is expected to systematically modify the electronic structure of the 
+passive layer by increasing donor density, shifting the ﬂat-band potential toward more 
+negative values, and lowering the Fermi energy, thereby increasing the eﬀective electron 
+work function. 
+2. Materials and Methods 
+The deposited metal was produced using experimental electrodes fabricated on the 
+basis of an austenitic Cr–Ni steel welding wire (10Kh20N9G6) and calcium ﬂuoride–type 
+coatings modiﬁed with additions of rare-earth metals and their compounds. 
+The investigated material was an austenitic corrosion- and heat-resistant chromium–
+nickel steel (10Kh20N9G6). The chemical composition of the steel used is given in Table 1. 
+Table 1. Chemical Composition of the Surfaced Metal. 
+Element 
+Content, wt.% 
+Steel Grade 
+10Ch20N9G6 
+Carbon (C) 
+0.11 
+Chromium (Cr) 
+19.3 
+
+PAGE 4
+Electrochem 2026, 7, 3 
+4  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+Nickel (Ni) 
+9.0 
+Manganese (Mn) 
+5.3 
+Silicon (Si) 
+0.9 
+Titanium (Ti) 
+0.09 
+Sulfur (S) 
+0.011 
+Phosphorus (P) 
+0.019 
+The content of rare earth elements was determined using characteristic X–ray radia-
+tion (X—ray emission method) by irradiating the metal with a beam of heavy charged 
+particles and recording the emitted signals. The analysis was performed using the “Elean” 
+experimental  setup  based  on  the  PG-4  (Proton  Generator,  model  4)  accelerator  at  the 
+Kharkiv Institute of Physics and Technology (Kharkiv, Ukraine). 
+The REE concentration was determined by comparing the X–ray intensity of stand-
+ard and test samples. Standard samples were prepared by pressing ﬁne powders with 
+calculated amounts of REEs to simulate the weld metal composition. The detection range 
+was 0.001–0.1%. 
+Mechanical  properties  of  the  weld  metal  and  joints  were  evaluated  according  to 
+DSTU ISO 18275:2008 [42]. Both electrodes were designed for work in an inert atmosphere 
+and were designed to allow continuous solution exchange. A saturated silver/silver chlo-
+ride electrode (E = 0.222 V at 20 °C) was used as the reference. 
+All chemicals were of analytical grade. Sulfuric acid (H2SO4, analytical grade, Sigma-
+Aldrich, St. Louis, MO, USA)) was purchased from Sigma-Aldrich, and yttrium oxide 
+(Y2O3, 99.99%, CAS No. 1314-36-9) was obtained from Alfa Aesar (Haverhill, MA, USA). 
+Salts were recrystallized twice. Solutions were prepared with bidistilled water and deaer-
+ated with high-purity helium for 30 min. Pre-electrolysis was carried out by applying rec-
+tangular cathodic pulses using a P5827M potentiostat (Elins, Moscow, Russia). Electrode 
+surface smoothness and uniformity were crucial for reliable impedance measurements, as 
+surface inhomogeneities aﬀected relaxation frequencies and impedance spectra. 
+Electrochemical polishing was employed to prepare the working electrode. The elec-
+trode was a cylindrical specimen obtained from the upper weld metal layers, mounted in 
+a ﬂuoroplastic sleeve. Prior to polishing, the surface was rinsed with bidistilled water. 
+Electrochemical polishing was performed in a mixed solution of 50 mL acetic anhydride 
+(analytical grade, Sigma-Aldrich, St. Louis, MO, USA) and 50 mL concentrated HNO3 (an-
+alytical grade, Sigma-Aldrich, St. Louis, MO, USA) for 15 s at a current density of 100–200 
+A·dm−2. After polishing, the electrode was thoroughly rinsed and placed in an electro-
+chemical cell at a potential of −0.5 V versus the normal hydrogen electrode (NHE). All 
+potentials reported herein are referenced to NHE. Before measurements, the electrolyte 
+solutions were deaerated by helium purging for 1 h. The working surface was oriented 
+parallel to the electrolyte interface. For maximum surface cleanliness, additional chemical 
+polishing was applied. 
+A platinum disk with a surface area approximately 200 times larger than that of the 
+working electrode (s = 18.14 cm2) served as the counter electrode. Prior to each measure-
+ment, the counter electrode was polished, rinsed with an alkaline solution and bidistilled 
+water, etched for 15 s in concentrated acid, and rinsed again. 
+The P-5021 capacitance bridge (Kyiv, Ukraine) was used to measure capacitance–po-
+tential dependences of the electrochemical interface based on the AC bridge balancing 
+principle. Temperature was maintained using a U10 thermostat (Ilmenau, Germany). The 
+electrode was polarized for 1 h at -0.5 V before measurements. Cell design, reagents, and 
+preparation conditions met the requirements for impedance spectroscopy. 
+Electrochemical impedance spectroscopy measurements were carried out in the po-
+tentiostatic mode using a sinusoidal AC potential perturbation with an amplitude of 10 
+
+PAGE 5
+Electrochem 2026, 7, 3 
+5  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+mV (rms). Accordingly, the alternating current was not imposed but arose from the elec-
+trochemical response of the system and depended on the interfacial impedance. Under 
+these conditions, the amplitude of the measured AC current was typically on the order of 
+a few microamperes. 
+The amount of hydrogen penetrating into the metal was evaluated using the electro-
+chemical diﬀusion method of Devanathan and Stachurski [43]. The exit side was potenti-
+ostatically controlled at the hydrogen ionization potential (+250 mV versus the standard 
+hydrogen electrode). 
+Microstructural analysis, assessment of chemical heterogeneity, and identiﬁcation of 
+non-metallic  inclusions  (NMIs)  in  the  weld  metal  were  carried  out  using  “Comebax” 
+(Courbevoie, France) and “Comscan-4” (Cambridge, UK) scanning electron microscopes 
+equipped with Link System 860 for X–ray microanalysis. Samples were prepared using 
+standard etching techniques. 
+The composition of passive ﬁlms was studied by Auger Electron Spectroscopy (AES) 
+(Chanhassen, MN, USA) using a JAMP-10S spectrometer (JEOL) (Tokyo, Japan). The anal-
+ysis depth was ~2 nm. Elemental depth proﬁling was achieved by sequential ion etching 
+with Ar+ ions (4 keV), at a rate of 10 nm per minute. Surface cleaning was performed with 
+Ar+ ions for 30 s prior to analysis. 
+Gravimetric  corrosion  tests  were  performed  according  to  standard  methods  [44]. 
+Samples were cut from both the weld metal and butt weld joints. 
+3. Results 
+The microstructure of the austenitic Cr–Ni steel (10Kh20N9G6) weld metal and the 
+eﬀect of rare-earth additions on the grain/crystallite boundaries are presented in Figure 1. 
+ 
+Figure 1. Microstructure of the investigated austenitic Cr–Ni steel  10,000 (obtained by weld sur-
+facing with electrodes containing REEs in the coating, grain boundaries): (a) without REEs; (b) 1%; 
+(c) 2%; (d) 1%CeO2. 
+
+PAGE 6
+Electrochem 2026, 7, 3 
+6  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+Figure 2 presents the potential dependence of the impedance components for the 
+austenitic Cr–Ni steel (10Kh20N9G6) –xY/1 M H2SO4 interface. The corrosion rate and 
+Tafel constants for cathodic hydrogen evolution on the weld seams of the investigated 
+variants in 1 M H2SO4 at 60 °C are summarized in Table 2. 
+ 
+Figure 2. Inﬂuence of electrode polarization on the reactive (a) and active (b) components of imped-
+ance for the austenitic Cr–Ni steel (10Kh20N9G6) –xY/H2SO4 interphase boundary at 333 K, a fre-
+quency of 0.82 kHz, and diﬀerent contents of rare-earth additives in the coating of the welding elec-
+trode: 1—without REE; 2—0.5% Y; 3—1% Y; 4—2% Y; 5—2% Y2O3. 
+Table 2. Corrosion rate and Tafel constants of cathodic hydrogen evolution on weld seams of the 
+investigated variants in 1 M H2SO4 at 60 °C. 
+Option 
+No. 
+Type of Weld 
+Metal 
+REE Content, wt.% 
+Corrosion 
+Rate,   
+g/m2 h 
+Tafel Constants * 
+V/Dec 
+in the Electrode 
+Coating 
+in the Weld 
+ 
+а 
+b 
+1. 
+10Ch20N9G6 
+- 
+- 
+4.349 
+0.805 
+0.148 
+2. 
+-«- 
+1.0 Y 
+0.0023 Y 
+1.109 
+0.850 
+0.160 
+3. 
+-«- 
+1.0 Y2O3 
+0.0018 Y 
+1.600 
+1.023 
+0.192 
+* Tafel constants calculated from the polarization curves of the metal in 1 M solutions at 60 °C. 
+The corresponding chronoamperometric hydrogen-ﬂux responses measured on the 
+outlet side of the membranes are presented in Figure 3. 
+ 
+ 
+
+PAGE 7
+Electrochem 2026, 7, 3 
+7  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+ 
+Figure 3. Chronoamperograms of through-transport of atomic hydrogen in the weld metal of the 
+austenitic Cr–Ni steel (10Kh20N9G6): the upper curve corresponds to the initial (unalloyed) variant, 
+and the lower curve corresponds to the yttrium-alloyed variant, under cathodic polarization (Jc = 
+100 µA/cm2) in 0.2 M K2SO4. 
+The obtained Mott–Schottky plots for the austenitic Cr–Ni steel (10Kh20N9G6) + xY/1 
+M H2SO4 interface at 298 K (f = 22 Hz), recorded for diﬀerent yttrium contents in the weld-
+ing electrode coating, are presented in Figure 4. Figure 5 presents the Mott–Schottky plots 
+for the austenitic Cr–Ni steel (10Kh20N9G6) –xY/1 M H2SO4 interface at 333 K (f = 820 Hz) 
+for diﬀerent REE contents in the electrode coating. 
+ 
+Figure  4.  Mott-Schottky  dependencies  for  the  interphase  boundary  austenitic  Cr–Ni  steel 
+(10Kh20N9G6) + х Y/Н2SO4 – 1 М, f = 22 Hz, T = 298 K with diﬀerent Y content in the welding 
+electrode coating: 1—0% Y; 2—1% Y; 3—2% Y. 
+
+PAGE 8
+Electrochem 2026, 7, 3 
+8  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+ 
+Figure 5. Mott-Schottky dependencies for the interphase boundary of the austenitic Cr–Ni steel 
+(10Kh20N9G6), x Y/Н2SO4 –1 M, T = 333 K, f = 820 Hz with diﬀerent REE content in the welding 
+electrode coating: 1—0%Y; 2—0.5%Y; 3—1% Y; 4—2% Y, 5—2%Y2O3. 
+4. Discussion 
+The observed structural response (Figure 1) to yttrium microalloying (introduced via 
+the electrode coating) indicates that boundary chemistry and boundary morphology are 
+highly sensitive to both the yttrium level and the conditions of its introduction. At mod-
+erate yttrium additions in the coating (≈0.75–1.0 wt.%), a pronounced thinning and appar-
+ent “puriﬁcation” of crystallite boundaries is evident (Figure 1b). This trend is consistent 
+with the generally accepted modifying role of REEs: their strong aﬃnity to oxygen and 
+sulfur promotes the binding of active impurities and the transformation of electrochemi-
+cally unfavorable boundary features into more stable inclusion products, thereby reduc-
+ing boundary contamination and improving boundary cohesion. 
+In contrast, further increasing the yttrium content in the coating leads to a reversal of 
+this beneﬁcial eﬀect: the boundaries become visibly thicker due to the formation of dark 
+particles decorating the boundary regions (Figure 1c). This behavior suggests the exist-
+ence of an optimal concentration window in which REE additions reﬁne and clean the 
+boundary network, whereas excessive yttrium promotes the precipitation/segregation of 
+secondary phases or inclusion products at boundaries. In practical terms, when the yt-
+trium level in the weld metal exceeds a threshold (in this system, >0.0027 wt.% Y), bound-
+ary “contamination” becomes increasingly likely, which can re-introduce microstructural 
+and chemical heterogeneity precisely at the most critical diﬀusion and corrosion-sensitive 
+pathways. 
+A similar tendency was observed when cerium was introduced into the coating in 
+the form of CeO2: the grain/crystallite boundary regions broaden and precipitates appear 
+(Figure 1d). Although the chemical nature of Ce-containing products may diﬀer from 
+those formed with yttrium, the microstructural outcome supports the same general con-
+clusion: REE additions are beneﬁcial only within a controlled range, where they act pri-
+marily as modiﬁers/reﬁners rather than as drivers for excessive boundary precipitation. 
+A key consequence of REE microalloying is the redistribution and reﬁnement of non-
+metallic inclusions (NMIs). In the REE-containing weld metal, NMIs are predominantly 
+
+PAGE 9
+Electrochem 2026, 7, 3 
+9  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+located inside grains, whereas in the initial (unmodiﬁed) condition they are concentrated 
+along grain boundaries. This shift is signiﬁcant because boundary-located inclusions typ-
+ically increase interfacial heterogeneity and can intensify local electrochemical activity 
+(e.g., by facilitating micro-galvanic coupling or acting as preferential dissolution/adsorp-
+tion sites). In the REE-modiﬁed metal, inclusions become ﬁner (≈0.8–1.0 µm), more uni-
+formly distributed, and more spheroidal. Such spheroidization and reﬁnement are gener-
+ally associated with reduced stress concentration and lower local interfacial energy, which 
+can improve both the mechanical integrity and electrochemical uniformity of the near-
+surface region. Nevertheless, occasional larger NMIs (≈3–8 µm), including some located 
+on boundaries, indicate that the modiﬁcation is not fully uniform under all conditions, 
+further emphasizing the importance of controlling REE addition level and processing pa-
+rameters. 
+Backscattered-electron imaging reveals bright and dark NMI contrast, which reﬂects 
+diﬀerences in average atomic number and therefore composition. In the initial weld metal, 
+the  inclusion  chemistry  is  complex:  bright  oxides  are  typically  enriched  in  Mn–Si–Al, 
+whereas  dark  inclusions—identiﬁed  as  carbides—contain  Cr–Mn–Mo.  After  adding 
+REEs, the population of dark inclusions increases and their chemistry changes. Bright ox-
+ides incorporate Mn–Si–S together with REEs and Al, while dark inclusions contain C–
+Mn–Y–Ce. The presence of appreciable Si, S, and Al in some inclusions further indicates 
+that REEs participate in forming multi-component products involving both matrix ele-
+ments and impurity species. The correspondence of dark inclusions to complex carbides 
+(with no detectable Cr, Ni, or Fe in their composition) suggests the formation of speciﬁc 
+REE-containing carbon-rich phases and/or  complex carbide-type particles whose exact 
+crystallography may require additional conﬁrmation using complementary local analysis 
+(e.g., high-resolution compositional mapping or diﬀraction). 
+Overall, the microstructural evidence indicates that yttrium can act as an eﬀective 
+modiﬁer for the weld metal when maintained within an optimal concentration range, pro-
+ducing cleaner and thinner boundary regions and promoting the transfer of inclusions 
+from boundaries into the grain interior while reﬁning and spheroidizing them. However, 
+excessive yttrium leads to boundary contamination by inclusion products and increased 
+boundary heterogeneity. These features are crucial for interpreting the electrochemical 
+behavior discussed in subsequent sections, because grain/crystallite boundary conditions 
+and inclusion populations directly aﬀect local electrochemical reactivity, passive ﬁlm sta-
+bility, and the likelihood of micro-galvanic eﬀects in aggressive acidic environments. 
+Figure 2 demonstrated a consistent evolution of curves 1–5 with increasing REE con-
+tent in the welding electrode coating: from curve 1 (without REE) to curve 5 (1% Y2O3), 
+the  reactive  component  of  impedance decreases  while  the active  component increases 
+over the passive potential range. This trend reﬂected progressive thickening and densiﬁ-
+cation of the passive ﬁlm, accompanied by a reduction in defect-assisted charge transport. 
+The most pronounced eﬀect is observed for curve 5, indicating the formation of the most 
+stable and electrically resistive oxide layer. 
+Figure 2 shows the potential dependence of the impedance components at the aus-
+tenitic Cr–Ni steel (10Kh20N9G6) –xY/1 M H2SO4 interface. In the vicinity of the standard 
+potential of the hydrogen evolution reaction, 
+H3O+ + e ↔ H2 + H2O 
+(1)
+a distinct maximum in pseudocapacitance is observed on the capacitance–potential (C–E) 
+curve (Figure 2a). This feature is attributed to adsorption–desorption processes and the 
+associated restructuring of the double electric layer (DEL) during hydrogen-related inter-
+facial reactions. As the yttrium content in the metal increases from 0.0017 to 0.0029 wt.%, 
+the diﬀerential capacitance in the cathodic potential range decreases sharply (by a factor 
+
+PAGE 10
+Electrochem 2026, 7, 3 
+10  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+of approximately 2.3–2.7), indicating a substantial modiﬁcation of interfacial charge stor-
+age and/or a reduced contribution of adsorption-related capacitance. 
+When the yttrium content in the weld metal exceeds 0.0027 wt.%, a splitting of the 
+adsorption–desorption maximum is observed, indicating the adsorption of hydrogen at-
+oms and molecules in two energetically diﬀerent states. As the yttrium content in the alloy 
+increases, the ratio of the concentrations of these hydrogen forms changes, which aﬀects 
+the potentials of the capacitance maxima in the region of co-adsorption. 
+Overall, these trends indicated that yttrium microalloying modiﬁed the interfacial 
+steps of hydronium-ion reduction on the steel surface, consistent with a hindering of the 
+electrochemical  stages  of  the  hydrogen  evolution  reaction  on  yttrium-modiﬁed  weld 
+metal. 
+The  observed  retardation  of  the  hydrogen-ion  discharge  reaction  is  apparently 
+largely associated with a decrease in the diﬀusion mobility of hydrogen atoms in the near-
+surface layer of the microalloyed metal. This is evidenced, in particular, by the chronoam-
+perometric curves corresponding to the hydrogen ﬂux on the outlet side of the investi-
+gated membranes (Figure 3). 
+The decrease in the hydrogen diﬀusion coeﬃcient in the weld metal microalloyed 
+with yttrium (see Table 3) indicates the presence of hydrogen traps involving yttrium, i.e., 
+phases capable of binding hydrogen. 
+Table 3. Hydrogen permeability parameters of yttrium microalloyed weld seam 1 austenitic Cr–Ni 
+steel (10Kh20N9G6). 
+Option No. 
+Table 2 
+Thickness of the 
+Membranes Un-
+der Study, mm 
+Effective Diffu-
+sion Coefficient, 
+D∙107, cm2/s 
+Surface Concentration of Ab-
+sorbed Hydrogen 
+cm3/100g Fe 
+ppm 
+1 (without 
+REEs) 
+0.18…0.45 
+3.2 ± 0.26 
+0.043 ± 0.004 
+0.047 ± 0.004 
+2 (microalloy-
+ing the weld 
+metal) 
+0.14…0.30 
+2.07 ± 0.34 
+0.030 ± 0.005 
+0.034 ± 0.006 
+Microalloying the weld metal of austenitic Cr–Ni steel (10Kh20N9G6) with yttrium 
+makes it possible to reduce hydrogen uptake by 25–30%. 
+The above-mentioned changes in the behavior of hydrogen in metal microalloyed 
+with rare-earth elements depend on several factors. These include: 
+ 
+Modiﬁcation of structural constituents; 
+ 
+Changes in grain boundary quality; 
+ 
+Changes in the amount, size, shape, morphology, chemical composition, NMIs, and 
+their spatial distribution; 
+ 
+Changes in the phase composition of the steel; 
+ 
+Changes in the degree of electronic bonding. 
+Two types of hydrogen diﬀusivity in metals are generally distinguished—boundary 
+diﬀusivity  and  lattice  diﬀusivity.  The  boundary  diﬀusivity  in  austenitic  structures  is 
+higher than the lattice diﬀusivity [32]. 
+The factors listed above inﬂuence the diﬀusion transport of hydrogen in diﬀerent 
+ways: some lead to an increase in the hydrogen diﬀusion coeﬃcient, while others result 
+in its decrease. 
+It is known that the main transport pathways for hydrogen diﬀusion in single-phase 
+austenitic steels are the boundaries of crystallites, grains, and blocks. Fragmentation of 
+structural  constituents  under  the  inﬂuence  of  REEs  increases  the  total  length  of  grain 
+
+PAGE 11
+Electrochem 2026, 7, 3 
+11  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+boundaries several-fold. Therefore, the hydrogen diﬀusion coeﬃcient should, in princi-
+ple, increase signiﬁcantly. This is even more likely because major obstacles to hydrogen 
+transport—boundary contamination by NMIs—are removed. Complex, ﬁnely dispersed 
+NMIs containing REEs, formed during the pre-crystallization period, are uniformly dis-
+tributed in the matrix [33], ensuring increased cleanliness of boundary regions. 
+Thus, the number of traps that hinder diﬀusion transport of hydrogen—considered 
+the main obstacle according to [34]—should have decreased. However, as established in 
+our  studies,  the  hydrogen  diﬀusion  coeﬃcient  did  not  increase  but  instead  decreased 
+sharply. 
+The presence of a certain amount of ferrite phase in the metal should increase the 
+hydrogen diﬀusion coeﬃcient due to the higher diﬀusivity of the α-lattice compared with 
+the γ-lattice. A decrease in the ferrite content in the investigated steel from 5.1 to 3.8% 
+could, in principle, reduce the diﬀusion coeﬃcient. However, considering that the diﬀer-
+ence in ferrite content between the initial and experimental steels is minor, it cannot sig-
+niﬁcantly aﬀect the diﬀusion coeﬃcient. 
+The role of REE-containing NMIs in hydrogen diﬀusion retardation has not been suf-
+ﬁciently studied. In [35,36], the reduced hydrogen diﬀusivity was attributed to the for-
+mation of traps at the NMI–matrix interfaces and to the increased total speciﬁc surface 
+area of the modiﬁed structure. 
+Without denying this contribution, we believe that the primary factor retarding hy-
+drogen diﬀusion is the presence of REEs in the metal, both in the NMIs and in the solid 
+solution, which ensures a high energy of electronic bonding with hydrogen [37]. Chemical 
+interaction of hydrogen with REEs, leading to the formation of hydrides, intermetallic 
+compounds, or adsorption complexes, is also possible [38–40]. The mechanism of this in-
+teraction has not yet been fully clariﬁed. 
+Therefore, introducing yttrium into the weld metal of austenitic steels through the 
+electrode coating altered the diﬀusion mobility of hydrogen. Both metallic yttrium and its 
+oxide reduce hydrogen diﬀusivity. Microalloying the weld metal of an austenitic Cr–Ni 
+steel (10Kh20N9G6) with yttrium reduces hydrogen uptake by 25–30%. 
+REEs  signiﬁcantly  modify  the  structure  and  clean  grain  boundary  regions  from 
+NMIs,  which represent the primary traps that impede hydrogen diﬀusion. The  newly 
+formed ﬁne-dispersed NMIs, uniformly distributed in the weld metal, have a complex 
+composition that includes REEs. 
+The main reason for the reduction in hydrogen diﬀusivity, along with other known 
+factors, is the presence of yttrium in the metal—both in the NMIs and in the solid solu-
+tion—which apparently provides a high energy of electronic bonding with hydrogen. 
+Potentiostatic studies conﬁrmed the hypothesis of an energy-based mechanism of 
+hydrogen diﬀusion retardation in the FCC (Face-Centered Cubic) metal containing yt-
+trium. 
+The inhibition of the coupled hydrogen-ion reduction reaction, caused by an increase 
+in the overpotential for hydrogen evolution on the surface of the microalloyed metal, leads 
+to a decrease in the overall corrosion rate of weld metals alloyed with yttrium. 
+The capacitance–potential (C–E) dependencies obtained for the austenitic Cr–Ni steel 
+(10Kh20N9G6) –x%Y/1 M H2SO4 interface include contributions from both adsorption-
+related  (pseudocapacitive)  and  Faradaic  processes.  Consequently,  construction  of  the 
+Mott–Schottky plots required accounting for the signiﬁcant inﬂuence of Faradaic currents 
+associated  with  steel  dissolution.  To  minimize  the  Faradaic  contribution,  the high-fre-
+quency interfacial capacitance, C(ω→∞), was determined from the admittance spectra in 
+the ω→∞ limit, and the resulting values were used to build the Mott–Schottky relation-
+ships (Figures 4 and 5). 
+
+PAGE 12
+Electrochem 2026, 7, 3 
+12  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+Figure 4 shows that yttrium microalloying markedly alters the Mott–Schottky behav-
+ior of the passive layer formed on an austenitic Cr–Ni steel (10Kh20N9G6) in aqueous 1 
+M H2SO4. The Y-free steel (curve 1) exhibits a relatively low capacitance and a weakly 
+pronounced  linear  region,  indicating a  thinner  and less  electronically  ordered  passive 
+ﬁlm. Introduction of 1% Y (curve 2) reduces the slope of the C−2–E dependence, consistent 
+with an increased donor density and improved stabilization of the oxide layer. Figure 4 
+shows that yttrium microalloying markedly alters the Mott–Schottky behavior of the pas-
+sive layer formed on an austenitic Cr–Ni steel (10Kh20N9G6) in 1 M H2SO4. The Y-free 
+steel (curve 1) exhibits a relatively low capacitance and a weakly pronounced linear re-
+gion, indicating a thinner and less electronically ordered passive ﬁlm. Introduction of 1% 
+Y (curve 2) reduces the slope of the C−2–E dependence, consistent with an increased donor 
+density and improved stabilization of the oxide layer. At 2% Y (curve 3), a sharp increase 
+in capacitance at negative potentials and a clearer linear segment are observed, evidencing 
+the formation of a thicker, defect-modiﬁed semiconducting ﬁlm, likely associated with 
+excess  yttrium-enriched  phases  that  signiﬁcantly  inﬂuence  charge  transfer  and  space-
+charge capacitance [45]. 
+Figure 5 showed a systematic change in the Mott–Schottky curves from 1 to 5, char-
+acterized by an increasing slope and a shift in the intercept toward more positive poten-
+tials. These trends correspond to a gradual decrease in donor concentration and a modiﬁ-
+cation of the ﬂat-band potential as the REE content increases. The transition from curve 1 
+to curve 5 therefore indicates suppression of point defects and enhanced structural and 
+electronic stability of the passive ﬁlm. 
+The corrected experimental data were analyzed using the Mott-Schottky theory in 
+the coordinates Csc−2, E (Figures 4–6). This made it possible to show that an n-type semi-
+conductor  layer  exists  at  the  interphase  boundaries  of  austenitic  Cr–Ni  steel 
+(10Kh20N9G6)/Н2SO4 – 1 М doped with х % Y at diﬀerent temperatures. 
+ 
+Figure 6. Dependence (a)—Csc–2 = f(E) for the interface Ch18N9T/4 M H2SO4, (b)—Equivalent Cir-
+cuit at ω→∞, СH is the Helmholtz capacitance (0.36 F m−2), СА is the adsorption capacity (2.88 F m−2), 
+СSC is the space charge capacity, and RS is solution resistance. 
+
+PAGE 13
+Electrochem 2026, 7, 3 
+13  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+The obtained experimental data were analyzed using the Mott-Schottky theory in the 
+coordinates C−2 = f(E) [15,16]. The dependences C−2 = f(E) were constructed for the inter-
+phase boundary of Ch18N9T/4 M H2SO4 (Figures 4–6), and the electrochemical parameters 
+of the semiconductor electrode were calculated (Tables 4 and 5). 
+Table 4. Electrochemical parameters of a highly alloyed semiconductor electrode in the system 
+10Ch20N9G6 + х % Y (Y2O3)/0.5 M H2SO4. 
+Alloying Compo-
+nent 
+Electrochemical Parameters 
+Т, К 
+𝐄𝐜ష𝟐ୀ𝟎, V 
+ND∙10−27, m−3 
+EF, eV 
+ЕFB, V 
+δmin, nm 
+No component 
+298 
+– 
+– 
+– 
+– 
+– 
+1% Y 
+- 
+−0.14 
+5.01 
+6.73 
+−0.363 
+3.04 
+2% Y 
+- 
+−0.16 
+2.51 
+4.24 
+−0.621 
+3.42 
+No component 
+333 
+– 
+– 
+– 
+– 
+– 
+0,5% Y 
+- 
+0.03 
+6.66 
+8.12 
+−0.004 
+2.90 
+1% Y 
+- 
+−0.14 
+5.06 
+6.76 
+−0.357 
+3.04 
+2% Y 
+- 
+−0.18 
+4.62 
+6.36 
+−0.414 
+3.09 
+1% Y2O3 
+- 
+−0.18 
+4.34 
+6.10 
+−0.428 
+3.12 
+Table  5.  Electrochemical  parameters  of  a  semiconductor  electrode  in  the  system  Ch18N9Т/4  M 
+H2SO4 at 293 K. 
+𝐄𝐜ష𝟐ୀ𝟎, V 
+N∙10−27, m−3 
+ND/NA 
+EF, eV 
+EFB, V 
+δmin, nm 
+ND 
+NА 
+−0.07 
+17.0 
+– 
+4 
+3.27 
+−0.234 
+1.44 
+−0.26 
+25.1 
+– 
+6 
+4.24 
+−0.622 
+1.36 
+0.06 
+– 
+4.05 
+1 
+1.25 
+−0.182 
+1.83 
+The decrease in capacitance in both cathodic and anodic regions (Figure 2) reﬂects 
+the mixed nature of the measured interfacial capacitance, which includes Helmholtz, ad-
+sorption (pseudocapacitive), and space-charge components, as well as a Faradaic contri-
+bution  when  dissolution/hydrogen  evolution  is  signiﬁcant.  Yttrium  reduces  the  Fara-
+daic/pseudocapacitive response in the cathodic region (suppression of hydrogen evolu-
+tion and dissolution) and decreases the space-charge capacitance in the anodic region due 
+to modiﬁcation/thickening of the semiconducting passive ﬁlm (Table 4). 
+Thus, in these studies, equivalent circuits for semiconductor-electrolyte interphase 
+boundaries (Ch18N9T steel and yttrium-implanted austenitic Cr–Ni steel (10Kh20N9G6)) 
+were calculated. The Csc–2 = f(E) dependences calculated from admittance spectra were 
+described by the Mott-Schottky theory. The potentials of ﬂat bands, thicknesses, and Fermi 
+energies for semiconductor layers were determined. The obtained capacitive dependences 
+contain both adsorption and Faraday capacitance components. In the passivity region be-
+tween the Flade potential and the transpassivity potential, the analysis of these data al-
+lows us to construct Mott-Schottky graphs under conditions of a signiﬁcant inﬂuence of 
+Faraday processes of steel dissolution. This made it possible to show that at the interphase 
+boundaries of Ch18N10/Н2SO4 – х%Y and austenitic Cr–Ni steel (10Kh20N9G6)/Н2SO4 – 
+1 М doped with х % Y at diﬀerent temperatures, there was an n-type semiconductor layer. 
+It was shown that for this system, the semiconductor ﬁlm was degenerate, the concentra-
+tion of the doping impurity ND exceeds 1 × 1027 m–3 and, therefore, the distribution of 
+charge carriers obeys the Fermi-Dirac statistics. For this case, the ﬂat band potential is 
+described by the equation of M. S. Griliches [28,29]: 
+EFD =  Eୡషమୀ଴  + eεε0 ND/2CH2 − (2/5)EF/e 
+(2)
+
+PAGE 14
+Electrochem 2026, 7, 3 
+14  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+where EFD—ﬂat-band potential, the electric potential at the phase boundary at which the 
+band  structure  is  ﬂat;  Eୡషమୀ଴ —energy  of  the  conduction  band  minimum  at  zero  band 
+bending, which reﬂects the position of the energy level deep inside the semiconductor 
+bulk; e—elementary charge, 1.602 × 10−19; ε—relative permittivity (dielectric constant) of 
+the semiconductor; ε0—vacuum permittivity (electric constant), 8.85 × 10−12 F/m; ND—do-
+nor  impurity  concentration  in  the  semiconductor  (relevant  for  n-type  material);  CH—
+Helmholtz capacity (per unit area); EF—Fermi level, corresponding to the chemical poten-
+tial of electrons. 
+Comparison of the obtained experimental value of the dopant concentration ND with 
+similar values for other oxides and steels [24] showed that such a degeneracy value was 
+not achieved for any of them. Therefore, in accordance with [24], electron transfer at high 
+frequencies of alternating current is a quantum process and is carried out by it tunneling 
+through a potential barrier. 
+To consider the physical processes occurring at the interface between microalloyed 
+metal and solution, a simpliﬁed “jelly” model was used. In this model, the periodic distri-
+bution of positive charge in the crystal lattice of the metal is replaced by a continuous 
+continuum of charge smeared throughout the crystal and neutralized by the electron gas 
+of valence electrons [27–31]. 
+According to this model, the potential energy at the metal/electrolyte interface can be 
+described as a potential “box”. In this interpretation, the periodic arrangement of positive 
+charge in the metal  crystal lattice is replaced by a continuous  charge  continuum, uni-
+formly distributed throughout the crystal volume and neutralized by the electron gas of 
+valence  electrons.  The energy levels  of  electrons  are  located  in a  potential  box  with  a 
+depth: 
+V = Vex + Vel 
+(3)
+where Vex—the exchange energy of interaction with the positive charge of this space, 
+Vel—the electrostatic energy of the electron gas exit from the crystal lattice. 
+The highest ﬁlled energy level—the Fermi level at T = 0 K has the maximum kinetic 
+energy—the Fermi energy EF: 
+E୊ൌhଶ
+2mୣ൬3ρୣ
+8π ൰
+ଶ
+ଷ
+ 
+(4)
+where h—Planck’s constant, me—the electron mass, ρe—the density of free electrons in 
+the metal. The depth of the potential well decreases with increasing kinetic energy of the 
+electron. The work function We of an electron exiting the potential “box” into a vacuum 
+for the “jelly” model: 
+We = V − EF 
+(5)
+If, with an increase in the concentration of Y and its compounds in the surface layer 
+of steel, the total potential energy V remains unchanged or changes insigniﬁcantly and 
+decreases, then, consequently, the electron work function EF increases, and, as a conse-
+quence, an increase in charge transfer resistance is observed. This leads to a decrease in 
+the self-dissolution currents of steels in 1 M H2SO4 with an increase in the concentration 
+of Y in the metal, which follows from the calculated values obtained from the experi-
+mental lgj—E dependencies. 
+5. Conclusions 
+A monomolecular passive ﬁlm with well-deﬁned semiconducting characteristics is 
+formed on the surface of yttrium-microalloyed austenitic stainless steel (10Ch20N9G6) in 
+
+PAGE 15
+Electrochem 2026, 7, 3 
+15  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+1 M H2SO4. The electronic parameters of this passive layer exhibit a strong and systematic 
+dependence on the yttrium content in the metal, demonstrating that even trace additions 
+of Y are capable of profoundly modifying the electronic structure of the oxide ﬁlm. Such 
+sensitivity highlights the crucial role of microalloying with rare-earth elements in control-
+ling passivity at the atomic scale. 
+Mott–Schottky analysis revealed, for the ﬁrst time for this steel grade, that the passive 
+ﬁlm behaves as a degenerate n-type semiconductor with an extremely high donor density 
+(ND > 1 × 1027 m−3). This exceptionally high concentration of electronic defects indicates 
+that charge transport at high frequencies proceeds predominantly through quantum-me-
+chanical tunneling rather than classical drift–diﬀusion. The presence of a degenerate elec-
+tron gas at the metal/ﬁlm interface profoundly aﬀects the kinetics of both anodic and ca-
+thodic  reactions  and  represents  a  key  distinguishing  feature  of  REE-modiﬁed  passive 
+ﬁlms. 
+Increasing the yttrium concentration leads to a distinct negative shift in the ﬂat-band 
+potential and a simultaneous decrease in the Fermi energy. This shift corresponds to an 
+increase in the electron work function, eﬀectively raising the energy barrier for charge 
+transfer across the passive ﬁlm. As a consequence, both anodic metal dissolution and ca-
+thodic processes (particularly hydrogen reduction) are suppressed. The observed elec-
+tronic restructuring of the passive layer strongly suggests that yttrium increases the den-
+sity of deep donor states and reduces the probability of thermally activated charge trans-
+fer events. 
+Microstructural investigations revealed that yttrium addition results in pronounced 
+puriﬁcation of grain boundaries, reﬁnement of non-metallic inclusions, and their transfor-
+mation into more stable spheroidized REE-containing oxides and carbides. These inclu-
+sions become more uniformly distributed within the matrix and exhibit reduced electro-
+chemical activity compared with MnS and mixed oxides typically found in unmodiﬁed 
+stainless steels. The decrease in boundary contamination reduces local electrochemical in-
+homogeneity, resulting in a more uniform and mechanically stable passive ﬁlm that is less 
+prone to breakdown under aggressive acidic conditions. 
+Hydrogen diﬀusion measurements demonstrated a 25–30% reduction in eﬀective hy-
+drogen permeability in yttrium-modiﬁed weld metal. This behavior is attributed not only 
+to the cleaner and structurally stable grain-boundary regions but also to the presence of 
+energetically strong hydrogen traps associated with yttrium atoms in the solid solution 
+and within modiﬁed inclusions. Y-based traps act as deep binding sites that hinder hy-
+drogen mobility and accumulation, thus reducing the likelihood of hydrogen-induced 
+cracking and embrittlement. 
+Electrochemical impedance spectroscopy and potentiostatic polarization measure-
+ments conﬁrmed a signiﬁcant retardation of the hydrogen evolution reaction and a meas-
+urable decrease in cathodic current densities for Y-microalloyed specimens. These eﬀects 
+correlate directly with the modiﬁed electronic structure of the passive ﬁlm, the increased 
+work function of the Y-enriched surface, and the higher charge-transfer resistance ob-
+served across the metal/ﬁlm/electrolyte interface. 
+An energy-controlled mechanism of hydrogen-transport inhibition is therefore pro-
+posed. According to this concept, yttrium increases the binding energy of hydrogen in the 
+near-surface region and modiﬁes the local electronic potential landscape in a manner that 
+reduces the hopping probability of hydrogen atoms. Combined with the enhanced stabil-
+ity of the passive layer, this mechanism provides a coherent explanation for the simulta-
+neous improvement in hydrogen resistance and corrosion behavior. 
+Overall,  yttrium  microalloying  of  austenitic  Cr–Ni  steel  (10Kh20N9G6)  oﬀers  a 
+highly eﬀective means of tailoring the electronic structure of passive ﬁlms, suppressing 
+hydrogen uptake, and enhancing the resistance of weld metal to both localized corrosion 
+
+PAGE 16
+Electrochem 2026, 7, 3 
+16  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+and hydrogen-assisted degradation. These ﬁndings carry signiﬁcant scientiﬁc value for 
+understanding  REE-driven  passivity  and  practical  relevance  for  improving  the  opera-
+tional reliability of welded joints in aggressive environments, particularly in chemical, en-
+ergy, and petrochemical industries. 
+Author Contributions: Conceptualization, M.B., S.N. and D.M.; Methodology, M.B. and S.N.; Soft-
+ware, M.B.; Validation, S.N., D.M., L.B. and L.S.; Formal analysis, M.B. and S.N.; Investigation, M.B., 
+S.N., V.T., V.R., K.S. and M.S.; Resources, L.B., V.T., V.R. and K.S.; Data curation, S.N. and L.S.; 
+Writing—original draft preparation, M.B. and S.N.; Writing—review and editing, D.M., L.B. and 
+L.S.; Visualization, M.B. and M.S.; Supervision, D.M. All authors have read and agreed to the pub-
+lished version of the manuscript. 
+Funding: This research received no external funding. 
+Institutional Review Board Statement: Not applicable. 
+Informed Consent Statement: Not applicable. 
+Data Availability Statement: The data are available from the corresponding author upon reasona-
+ble request. 
+Acknowledgments: The authors would like to thank all those who made it possible to ﬁnalize and 
+publish this work under diﬃcult circumstances. 
+Conﬂicts of Interest: The authors declare that they have no competing ﬁnancial or non-ﬁnancial 
+interests. 
+Abbreviations 
+The following abbreviations are used in this manuscript: 
+REE 
+Rare earth elements 
+NHE 
+Normal hydrogen electrode 
+NMIs 
+Non-metallic inclusions 
+AES 
+Auger Electron Spectroscopy 
+References 
+1. 
+Bannikov, L.P.; Miroshnichenko, D.V.; Bannikov, A.L. Evaluation of the eﬀect of resin forming components on the quality of 
+wash oil for benzene recovery from coke oven gas. Pet. Coal 2023, 65, 387–399. 
+2. 
+Miroshnichenko, D.; Bannikov, A.; Bannikov, L.; Nesterenko, S. Inﬂuence of phenolic compounds on the operational character-
+istics of coal tar wash oil. J. Chem. Technol. Metall. 2025, 60, 103–112. https://doi.org/10.59957/jctm.v60.i1.2025.10. 
+3. 
+Miroshnichenko, D.; Bannikov, A.; Bannikov, L.; Borisenko, O.; Shishkin, A.; Gavrilovs, P.; Tertychnyi, V. Impact of wash oil 
+composition on degradation: A comparative analysis of “light” and “heavy” oils. Resources 2025, 14, 5. https://doi.org/10.3390/re-
+sources14010005. 
+4. 
+Miroshnichenko, D.; Bannikov, A.; Bannikov, L.; Borisenko, O. Composition and polymerisation products inﬂuence on the vis-
+cosity of coal tar wash oil. Sci. Rep. 2024, 14, 27322–27336. https://doi.org/10.1038/s41598-024-76434-6. 
+5. 
+Bannikov, L.; Miroshnichenko, D.; Pylypenko, O.; Pyshyev, S.; Fedevych, O.; Meshchanin, V. Coke quenching plenum equip-
+ment corrosion and its dependence on the quality of the biochemically treated water of coke-chemical production. Chem. Chem. 
+Technol. 2022, 16, 328–336. https://doi.org/10.23939/chcht16.02.328. 
+6. 
+Zbykovskyy, Y.; Shvets, I.; Shvets, I.; Kaulin, V.; Nietner, T.; Meyer, C. The serious consequences of war and environmental 
+destruction  for  the  public  drinking  water  supply  of  the  city  of  Pokrovsk  in  Ukraine.  Wasser  Abfall  2025,  27,  36–43. 
+https://doi.org/10.1007/s35152-025-2029-1. 
+7. 
+Shvets, I.; Zbykovskyy, Y.; Bohomaz, O. Groundwater quality in coal mines of Ukraine: Possibility of using as drinking water. 
+J. Ecol. Eng. 2025, 26, 26–41. https://doi.org/10.12911/22998993/204961. 
+8. 
+Shvets, I.; Zbykovskyy, Y.; Kalynychenko, V. Modeling of mine water pollution due to corrosion of ﬂooded metal equipment: 
+Ukrainian case. Ecol. Eng. Environ. Technol. 2025, 26, 234–246. https://doi.org/10.12912/27197050/207581. 
+
+PAGE 17
+Electrochem 2026, 7, 3 
+17  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+9. 
+Bai, Y.; Zheng, S.; Liu, N.; Liu, Y.; Wang, X.; Qiu, L.; Gong, A Electrochemical Corrosion Behavior of Stainless Steel with Modi-
+ﬁed Passive Films. Coatings 2024, 14, 465. 
+10. 
+Zhang, J.; Sun, Y.; Zhang, S. Enhanced Corrosion Resistance of Stainless Steels via Surface Film Modiﬁcation. Mater. Today 
+Commun. 2024, 39, 109185. 
+11. 
+Shi, W.; Yang, S.; Li, J. Inﬂuence of Rare-Earth Alloying on Passive Film Properties of Stainless Steels. Sci. Rep. 2018, 8, 4830. 
+12. 
+Luo, D.; Liu, M. Characterization of Passive Film Structure and Semiconductive Properties on Austenitic Stainless Steels. Crys‐
+tals 2022, 12, 305. 
+13. 
+Ma, X.; Zhao, J. Eﬀects of Surface Treatment on Passive Film Composition and Electronic Properties of Stainless Steels. Appl. 
+Surf. Sci. 2019, 493, 414–425. 
+14. 
+Ascencio, M.; McCaﬀerty, E. Electronic Properties of Passive Films on Stainless Steels Studied by Impedance Spectroscopy. 
+Electrochim. Acta 2018, 283, 1685–1698. 
+15. 
+Chen, S.; Xue, L. Passive Film Stability and Corrosion Resistance of Rare-Earth–Modiﬁed Stainless Steels. Metals 2024, 14, 194. 
+16. 
+Patel, D.K.; Sharma, V.K. Advancements in Aluminum Matrix Composites: A Comprehensive Review on Mechanical and Mi-
+crostructural Attributes of REE- and REO-Doped Materials. Trans. Indian Inst. Met. 2024, 77, 2265–2276. 
+17. 
+Liu, S.L.; Fan, H.R.; Liu, X.; Meng, J.; Butcher, A.R.; Yann, L.; Yang, K.F.; Li, X.C. Global Rare Earth Elements Projects: New 
+Developments and Supply Chains. Ore Geol. Rev. 2023, 157, 105428. 
+18. 
+Pradhan, S.K.; Bhuyan, P.; Bairi, L.R.; Mandal, S. Microstructural Features Controlling Electrochemical Response and Passive 
+Film Behaviour in Type 304 Stainless Steel. Corros. Sci. 2025, 180, 109187. 
+19. 
+Zeng, Z.; Gu, S.; Wang, J.; Wei, F.; Xie, X.; Li, Z.; Yang, H.; Li, C. Passivation Performance of Nb-Microalloyed Rebar in Carbon-
+ation Environments. Sci. Rep. 2024, 14, 22919. 
+20. 
+Wang, C.; Ma, R.; Zhou, Y.; Liu, Y.; Daniel, E.F.; Li, X.; Wang, P.; Dong, J.; Ke, W. Eﬀects of Rare Earth Modifying Inclusions on 
+Pitting Corrosion of 13Cr4Ni Steel. J. Mater. Sci. Technol. 2021, 93, 232–243. 
+21. 
+Liu, X.; Ju, D.; Chen, L. Eﬀect of Rare Earth Metals on Passivation of UNS S31803 Duplex Stainless Steel in Sulfuric Acid Solution. 
+Constr. Build. Mater. 2024, 421, 135644. 
+22. 
+Zhao, L.; Yang, J.; Fu, X. Eﬀect of Ce on Inclusion Modiﬁcation and Corrosion Resistance of 316L Stainless Steel. Materials 2024, 
+18, 69. 
+23. 
+Zhang, L.; Yu, Y.; Zhang, J.; Mao, W.; Wang, S.; Sun, Z.; Wan, Y. Eﬀect of Cerium on Inclusion Evolution and Pitting Corrosion 
+of Nb-Microalloyed Steel. Langmuir 2024, 40, 15001–15012. 
+24. 
+De Gryse, R.; Gomes, W.P.; Cardon, F.; Vennik, J. Interpretation of Mott–Schottky Plots in Semiconductor/Electrolyte Systems. 
+J. Electrochem. Soc. 1975, 122, 711. 
+25. 
+Choi, S.H.; Yoo, Y.R.; Kim, Y.S. Semiconductive Tendency of Passive Film on Super Austenitic Stainless Steel SR-50A in Acidic 
+or Alkaline Chloride Solutions. Crystals 2024, 14, 766. 
+26. 
+Lv, S.; Li, K. Semiconducting Behaviour and Corrosion Resistance of Passive Films on Reinforcing Steels. Materials 2022, 15, 
+7644. 
+27. 
+Lazanas, A.C.; Prodromidis, M.I. Electrochemical Impedance Spectroscopy: A Tutorial. ACS Meas. Sci. Au 2023, 3, 162–193. 
+28. 
+Di Quarto, F.; Piazza, S.; Sunseri, C. Impedance Study on the a-Nb2O5/Electrolyte Junction. Electrochim. Acta 1990, 35, 99–107. 
+29. 
+Sunseri, C.; Piazza, S.; Di Quarto, F. Photoelectrochemical Characterization of Passive Films on Stainless Steels. J. Electrochem. 
+Soc. 1990, 137, 2411–2417. 
+30. 
+Di Paola, A. Semiconducting Properties of Passive Films on Stainless Steels. Electrochim. Acta 1989, 34, 203–210. 
+31. 
+Bezlepkina, E.B.; Kasatkin, E.V.; Tsoy, V.S.; Bozhko, S.I. Electrosorption Properties of Monocrystalline Platinum Electrodes. 
+Elektrokhimiya 1987, 23, 1419–1426. 
+32. 
+Bokshtein, S.V. Diﬀusion in Metals; Metallurgiya: Moscow, Russia, 1978. 
+33. 
+Eﬁmenko, N.G. Complex Evaluation of Yttrium Inﬂuence on Welded Joints. Autom. Weld. 2003, 8, 18–24. 
+34. 
+Pokhodnya, I.K. Hydrogen Management in Weld Metals. Phys.‐Mech. Mater. 2002, 3, 237–266. 
+35. 
+Shvachko, V.I. Micromechanical Aspects of Reversible Hydrogen Embrittlement. Phys.‐Chem. Mech. Mater. 2000, 4, 36–40. 
+36. 
+Pokhodnya, I.K. Hydrogen Behavior in Welded Joints. In Hydrogen Management in Steel Weldments; DSTO & WTIA: Melbourne, 
+Australia, 1997; pp. 145–181. 
+37. 
+Eﬁmenko, N.G.; Nesterenko, S.V. Diﬀusion Behaviour of Hydrogen in REM-Modiﬁed Austenitic Welds. East.‐Eur. J. Adv. Tech‐
+nol. 2005, 4, 54–57. 
+38. 
+Baddour-Hadjean, R.; Meyer, L.; Pereira-Remos, J.P.; Latroche, M.; Percheron-Guégan, A. Electrochemical Study of La–Ce–Y–
+Ni Hydrogen Storage Alloys. Electrochim. Acta 2001, 46, 2385–2393. 
+
+PAGE 18
+Electrochem 2026, 7, 3 
+18  of  18 
+ 
+https://doi.org/10.3390/electrochem7010003 
+39. 
+Di Quarto, F.; Romano, M.C.; Piazza, S.; Sunseri, C. Photoelectrochemical Study of Semiconducting Yttrium Hydride (YH3−X). 
+Electrochim. Acta 1999, 44, 4051–4059. 
+40. 
+Rosalbinо, F.; Borzone, G.; Angelini, E.; Raggio, R. Hydrogen Evolution Reaction on Ni–RE Crystalline Alloys. Electrochim. Acta 
+2003, 48, 3939–3944. 
+41. 
+Guimarães, A.V.; Silveira, R.M.S.; Jaﬀrezou, N.; Mendes, M.C.; Santos, D.S.; de Almeida, L.F.; Araujo, L.S. Inﬂuence of yttrium 
+alloying on improving the resistance to hydrogen embrittlement of superalloy 718. Int. J. Hydrogen Energy 2024, 58, 479–484. 
+42. 
+DSTU ISO 18275:2008; Welding consumables—Covered electrodes for manual metal arc welding of high-strength steels—Clas-
+siﬁcation. State Enterprise “UkrNDNC”: Kyiv, Ukraine, 2008. 
+43. 
+Turnbull, A. Hydrogen diﬀusion and trapping in metals. Mater. Sci. Eng. A 1998, 249, 260–266. 
+44. 
+ISO 11845:2020; Corrosion of Metals and Alloys-General Principles for Corrosion Testing. British Standards Institution: Hern-
+don, VA, USA, 2020. 
+45. 
+Macdonald, D.D. The history of the Point Defect Model for the passive state: A brief review of ﬁlm growth aspects. Electrochim. 
+Acta 2011, 56, 1761–1772. 
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual au-
+thor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to 
+people or property resulting from any ideas, methods, instructions or products referred to in the content. 

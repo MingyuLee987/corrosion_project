@@ -1,0 +1,782 @@
+PAGE 1
+Academic Editor: Young Gun Ko
+Received: 10 January 2025
+Revised: 24 January 2025
+Accepted: 27 January 2025
+Published: 31 January 2025
+Citation: Pokorný, J.; Kubásek, J.;
+Donik, ˇC.; Neˇcas, D.; Hybášek, V.;
+Fojt, J.; Dobkowska, A.; Paulin, I.;
+ˇCapek, J.; Godec, M. Enhanced
+Performance of Austenitic Oxide
+Dispersion-Strengthened 316L Steel: A
+Study on Y2O3 Reinforcement and
+Corrosion Behaviour. Materials 2025,
+18, 641. https://doi.org/10.3390/
+ma18030641
+Copyright: © 2025 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license
+(https://creativecommons.org/
+licenses/by/4.0/).
+Article
+Enhanced Performance of Austenitic Oxide Dispersion-Strengthened
+316L Steel: A Study on Y2O3 Reinforcement and Corrosion Behaviour
+Jan Pokorný 1,*
+, Jiˇrí Kubásek 1,*, ˇCrtomir Donik 2
+, David Neˇcas 1
+, Vojtˇech Hybášek 1
+, Jaroslav Fojt 1
+,
+Anna Dobkowska 3
+, Irena Paulin 2, Jaroslav ˇCapek 4
+and Matjaž Godec 2
+1
+Department of Metals and Corrosion Engineering, Faculty of Chemical Technology, University of Chemistry
+and Technology in Prague, 160 00 Prague, Czech Republic; necasd@vscht.cz (D.N.); hybasekv@vscht.cz (V.H.);
+fojtj@vscht.cz (J.F.)
+2
+Department of Physics and Chemistry of Materials, Institute of Metals and Technology,
+1000 Ljubljana, Slovenia; crtomir.donik@imt.si ( ˇC.D.); irena.paulin@imt.si (I.P.); matjaz.godec@imt.si (M.G.)
+3
+Faculty of Materials Science and Engineering, Warsaw University of Technology, 00-661 Warsaw, Poland;
+anna.dobkowska@pw.edu.pl
+4
+Department of Functional Materials, Institute of Physics of the Czech Academy of Sciences,
+182 00 Prague, Czech Republic; capekj@fzu.cz
+*
+Correspondence: pokornyy@vscht.cz (J.P.); kubasekj@vscht.cz (J.K.)
+Abstract: This study explores the mechanical and corrosion properties of yttria-reinforced
+316L stainless steel. Powder precursor materials were prepared using mechanical alloying.
+Varying yttria (Y2O3) contents (1, 3, and 5 wt%) were used to assess its impact on the
+steel’s properties. X-ray diffraction and scanning electron microscopy confirmed the
+successful dispersion of Y2O3 within the matrix, with the formation of chromium carbides
+during spark plasma sintering (SPS). The mechanical properties, including hardness and
+compressive yield strength, improved with increasing Y2O3 contents, with the highest
+strength observed in the 316L-5Y2O3 sample. However, corrosion resistance decreased with
+higher yttria concentrations. The 3 wt% Y2O3 sample exhibited the highest corrosion rate
+due to localized corrosion in areas enriched with oxide particles and chromium carbides.
+Electrochemical testing revealed that carbide formation and Cr-depleted regions from SPS
+processing contributed to the corrosion behaviour. These findings suggest that while yttria
+reinforcement enhances mechanical strength, optimizing the Y2O3 content and processing
+methods is crucial to balance both mechanical and corrosion performance in ODS 316L
+stainless steel.
+Keywords: mechanical milling; SPS; 316L; austenitic stainless steel; yttria; ODS steel;
+corrosion; EPR-SL
+1. Introduction
+Austenitic stainless steels have been extensively investigated for their excellent duc-
+tility, toughness, workability, and ability to maintain mechanical integrity at high temper-
+atures. Research from Gelles [1] demonstrated that these steels are widely used across
+various industries due to these properties, while Kim [2] found that their superior corro-
+sion resistance makes them more favourable than ferritic steels [1,2]. Mathew et al. [3]
+reported that their performance under high-temperature and high-pressure conditions
+renders them suitable for demanding applications like nuclear reactors, where materials
+must endure severe operational environments [3]. However, Xu and Zhou [4] noted that
+despite these advantages, austenitic stainless steels exhibit limitations, such as relatively
+Materials 2025, 18, 641
+https://doi.org/10.3390/ma18030641
+
+PAGE 2
+Materials 2025, 18, 641
+2 of 15
+low strength and susceptibility to void swelling, particularly when compared to ferritic
+and ferritic–martensitic steels [4].
+To address these challenges, several researchers have focused on the development
+of oxide dispersion-strengthened (ODS) steels. Murty and Charit [5] emphasized that
+incorporating fine yttria (Y2O3) particles into ODS steels significantly enhances mechan-
+ical properties by providing pinning points for dislocation motion and grain boundary
+migration [5]. Akasaka et al. [6] further showed that this mechanism improves yield
+strength, hardness, creep resistance, and radiation tolerance [6]. Zhao et al. [7] highlighted
+that the high density of oxide particles acts as sinks for radiation-induced defects, improv-
+ing swelling resistance. As a result, ODS steels have emerged as promising candidates
+for structural applications in both fission and fusion reactors, as well as other extreme
+environments [7].
+However, the processing of austenitic ODS steels has presented challenges, particularly
+due to the stickiness of powders during mechanical alloying, which can reduce milling
+efficiency and yield. Balázsi et al. [8] discussed this issue, suggesting that it is a significant
+hurdle in producing high-performance materials [8]. Mechanical alloying (MA) is widely
+adopted for fabricating ODS steels, and subsequent solid-state consolidation methods, such
+as hot extrusion (HE) and hot isostatic pressing (HIP), are commonly used [9–12]. Recent
+work by Deng et al. [13] highlighted advancements in spark plasma sintering (SPS), which
+offers advantages in achieving high densification rates at lower temperatures and shorter
+processing times, thus preventing excessive grain growth and preserving ultrafine oxide
+dispersion [13].
+Despite the growing interest in SPS, research by Yan et al. [14] indicated that the
+consolidation of ODS powders via SPS is still underexplored. In particular, the effects of
+varying sintering temperatures and oxide concentrations on the material’s microstructure
+and mechanical properties remain largely unknown [14]. Furthermore, laser melting
+technologies like laser powder bed fusion (LPBF) have extensively been studied in recent
+years in connection to ODS production [15–19].
+The aim of this study, as outlined by Wu et al. [20], is to systematically investigate
+the effects of the Y2O3 content (1, 3, and 5 wt%) on the microstructural evolution, me-
+chanical properties, and corrosion resistance of 316L ODS steels fabricated via mechanical
+alloying and SPS [20]. By exploring the interplay between processing parameters, oxide
+concentration, and performance, the study seeks to optimize the balance between strength
+and corrosion resistance in these advanced materials, contributing to the development of
+austenitic ODS steels as high-performance structural materials for extreme environments.
+2. Materials and Methods
+The oxide dispersion-strengthened (ODS) steels were prepared via mechanical alloying
+(MA) of pre-alloyed 316L austenitic steel and yttria powders at 800 rotation per minute
+for 1 h in high-energy ball mills. Retsch E-max under argon atmosphere with 0.04 g of
+stearic acid served as the process control agent (PCA). The milling vessels and balls used
+were made of AISI 420C steel. The properties of initial powders are shown in Table 1. The
+ball-to-powder mass ratio was 15:1. The composition of mixed powders was designed as
+316L-x Y2O3 (x = 1; 3; 5 wt%). Y2O3 was selected due to its proven efficiency in enhancing
+the mechanical properties of ODS steels. Its high thermal stability and low solubility in
+the steel matrix ensure the retention of fine, uniformly dispersed oxide particles during
+high-temperature processing. Among other oxides, such as Al2O3 or TiO2, Y2O3 has
+demonstrated superior performance in maintaining dispersion stability and strengthening
+at elevated temperatures, as documented in prior research. A range of 1–5 wt.% was
+
+PAGE 3
+Materials 2025, 18, 641
+3 of 15
+chosen because it comprises the most effective concentration to optimize dispersion and
+mechanical properties without leading to excessive microstructural heterogeneity.
+Table 1. Properties of initial powders.
+Initial Powders
+Purity (%)
+Size (µm)
+Pre-alloyed 316L steel
+99.99
+30–60
+Y2O3
+99.9
+1–2
+The particle size distribution of the powders after mechanical alloying was analyzed
+using a Malvern Panalytical Mastersizer 3000 laser diffraction system. The data for the
+individual fractions (D90, D10 and D50) were obtained with relative standard deviations
+ranging from 1 to 1.5%. The width of the size distribution of particles (span) was calculated
+based on Equation (1).
+Span = (D90 −D10)/D50,
+(1)
+where
+D90 = particle size below which 90% of the powder volume is present,
+D10 = particle size below which 10% of the powder volume is present, and
+D50 = median particle size (mean of distribution).
+The mechanically alloyed powders were consolidated by the spark plasma sintering
+(SPS) method (FCT Systeme HP-D 10) at 1100 ◦C, 80 MPa for 10 min under vacuum in
+graphite tools protected by a boron nitride layer.
+2.1. Microstructure
+The prepared samples were first ground on SiC papers P120–P400, then polished on
+diamond suspension dia-complete 9 µm with polishing cloth Beta, followed by polishing
+on diamond suspension dia-complete 3 µm with polishing cloth Gamma. Final polishing
+was executed on the Eposile Non-dry suspension with polishing cloth Zeta. In all cases,
+metallographical material from QATM was used. The microstructure was characterized by
+a scanning electron microscope (SEM-Mira II LMU, Tescan, Brno, Czech Republic with an
+EDS analyzer (EDS-Aztec, Oxford Instruments, Tubney Wood, UK). Electron-backscatter
+diffraction (EBSD) maps of all the microstructures were collected on a ZEIS Geminy 2
+microscope. The phase composition was measured by X-ray diffraction (X’Pert3 Powder
+instrument in Bragg–Brentan geometry using a Co anode (λ = 1.78901, U = 40 kV, I = 35 mA).
+2.2. Mechanical Properties
+The mechanical properties of prepared alloys were characterized by Vickers hardness
+and compression measurements. The HV1 was measured on a Future-Tech FM-100 at a
+load of 1 kgf. At least 10 measurements were performed for each sample. Compression
+tests were performed on cube-shaped specimens with a side length of 2.5 mm at a strain
+rate equal to 0.001 s−1 (Universal testing machine-Instron 5882, Norwood, MA, USA) at
+25 ◦C and 600 ◦C. At least two measurements were performed for each material.
+2.3. Corrosion Tests
+All electrochemical measurements were performed in a conventional three-electrode
+setup using a Gamry Instruments electrochemical workstation. The volume of electrolyte
+per area was 250 mL·cm−2.
+Austenitic AISI 316L steel produced through conventional methods was used as
+a reference material. To evaluate the influence of the processing method on corrosion
+
+PAGE 4
+Materials 2025, 18, 641
+4 of 15
+behaviour, a 316L steel sample was also fabricated using powder metallurgy (MA + SPS)
+under the same conditions employed for the preparation of composites.
+Samples were first ground on SiC paper P2500 to achieve reproducible surfaces. The
+anodic polarization curves were recorded in substituted ocean water at 25 ◦C, with 1 h
+stabilization of open circuit potential (Eoc). The potential was measured with respect to the
+value of ACLE. The scan rate was 1667 mV/s.
+The single-loop electrochemical potentiokinetic reactivation test (SL-EPR) was per-
+formed in a solution of 0.5 M H2SO4 + 0.01 M KSCN at 25 ◦C. The specimens were polished
+using a 2 µm diamond paste. The surface of the samples was first potentiostatically passi-
+vated by applying the potential of +200 mV/ACLE and holding for 2 min. Subsequently,
+the sample was reverse polarized from +200 mV/ACLE to a potential of 50 mV below the
+EOC with a scan rate of 3 mV/s. For each sample, the microstructure was characterized
+after electrochemical measurements. Next, the charge (Q) was evaluated by integrating it
+as the area under the curve. Using this value and the appropriate Equation (2) based on the
+standard, the normalized charge (QPa) was determined.
+QPa = Q/X,
+(2)
+where
+Q = charge measured on current integration measuring instrument (C),
+X = As [5.1 × 10−3·e0.35·G],
+As = specimen area (cm2), and
+G = grain size number ().
+3. Results
+3.1. Powder Precursors
+Mechanical alloying with a process control agent was selected as the optimal method
+for preparing the powder alloy to prevent the undesirable sticking of the powder to the
+milling balls and vessel walls during high-energy milling. Figure 1a presents the XRD
+spectra of materials processed at 800 RPM for 1 h with varying Y2O3 contents (1, 3, and
+5 wt%). The dominant peaks correspond to the FCC structure of 316L stainless steel.
+Peaks attributable to Y2O3 are also evident, signifying the presence of oxide particles.
+These Y2O3-specific peaks become increasingly pronounced with higher Y2O3 contents,
+particularly in the 3 and 5 wt% samples, indicating a greater fraction of the oxide phase.
+The analysis thus confirms the coexistence of the FCC austenitic matrix and Y2O3 oxide
+phases. Figure 1b illustrates the particle size distribution of the mechanically alloyed
+powders. The mechanically alloyed powders of all alloys exhibit polymodal distribution
+curves, indicating the presence of both fine and coarse particles. A clear trend of powder
+refinement with increasing Y2O3 concentration is observed, further confirmed by the
+scanning electron microscope images in Figure 2. Table 2 summarizes the characteristic
+distribution metrics for each alloy, including D50, D90, D10, and the span, according to
+Equation (1).
+Table 2. Particle size distribution parameters for alloys with different compositions.
+Alloy
+D90 (µm)
+D10 (µm)
+D50 (µm)
+Span
+316L-1Y2O3
+486.8
+126.9
+267.7
+1.4
+316L-3Y2O3
+336.3
+48.0
+121.6
+2.4
+316L-5Y2O3
+209.7
+35.6
+80.3
+2.2
+
+PAGE 5
+Materials 2025, 18, 641
+5 of 15
+ 
+ 
+(a) 
+(b) 
+Figure 1. (a) XRD patterns of MA powders; (b) particle size distribution of MA powders.
+ 
+ 
+ 
+Figure 2. SEM micrographs of mechanically alloyed powders: (a) 316L-1Y2O3; (b) 316L-3 Y2O3;
+(c) 316L-5 Y2O3.
+3.2. Consolidated Materials
+The phase composition of consolidated ODS steel samples reinforced with 1, 3, and
+5 wt% Y2O3 was analyzed using XRD, as shown in Figure 3. The XRD patterns of all
+samples consolidated by SPS at 1100 ◦C confirm the retention of the FCC austenitic structure
+as the dominant phase. Peaks corresponding to Y2O3 are clearly visible. These peaks
+increase in intensity with higher Y2O3 contents, reflecting the growing oxide fraction.
+Additionally, the appearance of new peaks suggests the significant formation of chromium
+carbides during the SPS process. Surprisingly, part of the Y in the microstructure is
+according to the XRD presented as a pure element. Although the peaks of Y are not clearly
+evident in the XRD spectra of powders, this can be related to the generally low content
+of metallic Y phase. We believe that yttrium may be partially formed during the milling
+process by the breakage and dissolution of Y2O3 into the solid solution.
+The microstructure of the consolidated samples is presented in Figure 4. No obvious
+porosity was detected in the materials, indicating a formation of materials of almost
+theoretical density. Scanning electron microscope images reveal a relatively uniform
+distribution of Y2O3 particles throughout the matrix. Additionally, regions with locally
+coarse grains and varying grain sizes are visible. Close-up images in Figure 4d–f highlight
+the presence of Cr23C6 (green arrows) and oxide particles (red arrows), predominantly
+located at grain boundaries. In samples with higher Y2O3 concentrations (3 and 5 wt.%),
+
+PAGE 6
+Materials 2025, 18, 641
+6 of 15
+bands with increased Y2O3 contents are observed, indicating localized enrichment in these
+regions (highlighted in red ellipses).
+ 
+Figure 3. XRD patterns of consolidated samples.
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 4.
+(a–c) General microstructure of consolidated materials (red ellipses-Y2O3 bands);
+(d–f) close-up images of consolidated materials (red arrows—oxide particles; green arrows—Cr23C6),
+with varying yttria contents: (a,d) 1 wt %; (b,e) 3 wt %; (c,f) 5 wt %.
+Figure 5a–c presents EBSD IPF maps of compacted samples with varying concentra-
+tions of Y2O3. The materials exhibit a randomly oriented grain structure. Furthermore,
+all samples display a bimodal grain size distribution, comprising a mix of ultrafine (up
+
+PAGE 7
+Materials 2025, 18, 641
+7 of 15
+to 0.6 µm) and coarse grains (up to 2.8 µm). Grain twinning, a characteristic feature of
+austenitic steels, is also observed in the microstructures, especially in the larger grains.
+Phase distribution maps in Figure 5d–f highlight the presence of chromium carbides (high-
+lighted in green) within the microstructure. The amount of carbides estimated by area frac-
+tion from EBSD is almost similar for all materials and corresponds to the range of 5–6.5%.
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5. (a–c) EBSD IPF maps of consolidated materials; (d–f) phase distribution maps of consoli-
+dated materials—carbides are in green, austenite in red, with varying Y2O3 contents: (a,d) 1 wt %;
+(b,e) 3 wt %; (c,f) 5 wt %. IPF maps corresponds to the Z axis which is parallel to the vertical axis of
+the SPSed sample. Both austenite and carbide phase have similar fcc structure; therefore, they are not
+distinguished in the IPF map.
+3.3. Mechanical Properties
+The mechanical properties were assessed for austenitic steel samples reinforced with
+1, 3, and 5 wt% Y2O3. A conventionally produced 316L steel specimen was used as the
+reference standard for Vickers hardness measurements. For compression testing, a 316L
+steel sample fabricated via powder metallurgy as other composites served as the reference.
+A comparison of the mechanical properties reveals variations in hardness (HV1) and
+compressive yield strength across materials with different reinforcement concentrations.
+Hardness increases progressively with higher Y2O3 contents (Figure 6), with the 316L-
+5Y2O3 specimen achieving the highest value of 435 HV1. Relative to the reference 316L
+steel, hardness showed an increase of 30% for the SPS-processed 316L sample, 101% for
+316L-1Y2O3, 134% for 316L-3Y2O3, and 149% for 316L-5Y2O3.
+The compressive tests conducted at room temperature (Figure 7a) reveal a significant
+difference in mechanical properties between materials with 1 wt% and 3 wt% Y2O3 rein-
+forcement. All materials exhibit substantial plasticity, with deformations exceeding 40%,
+where the test was manually stopped. Samples with 5 wt% reinforcement show properties
+comparable to those with 3 wt%. The highest compressive yield strength of 1035 MPa
+was recorded for the 316L-5Y2O3 sample, while the lowest value (775 MPa) was observed
+for the 316L-1Y2O3 sample. Compared to the SPS-processed reference material 316L, the
+yield strength increased by 147% and 230% for the 1 wt% and 5 wt% reinforced samples,
+respectively. The yield strength values are further summarized in Table 3, providing a clear
+
+PAGE 8
+Materials 2025, 18, 641
+8 of 15
+comparative overview of the mechanical performance across all tested materials. At an
+elevated temperature of 600 ◦C (Figure 7b), the yield strength of all materials decreased
+compared to the results observed at room temperature. The stress–strain curves for the
+specimens with 3 and 5 wt% Y2O3 reinforcement exhibited nearly identical patterns, with
+similar yield strength values and overall stress–strain behaviour. The material with 1 wt%
+Y2O3 demonstrated significantly higher yield strength than the reference 316L (SPS).
+ 
+Figure 6. Hardness chart of consolidated materials.
+ 
+ 
+(a) 
+(b) 
+Figure 7. (a) Stress–strain curves of austenitic ODS steel at 25 ◦C for varying Y2O3 contents;
+(b) stress–strain curves of austenitic ODS steel at 600 ◦C for varying Y2O3 contents.
+Table 3. Compressive yield strength (CYS) of ODS steels in compression at room and elevated
+temperatures (600 ◦C) and Vickers hardness.
+Material
+CYS0.2
+(MPa)
+CYS0.2 600 ◦C
+(MPa)
+HV1
+316L (SPS)
+313 ± 9
+296 ± 7
+227 ± 8
+316L-1Y2O3
+775 ± 21
+550 ± 32
+352 ± 9
+316L-3Y2O3
+1022 ± 15
+803 ± 9
+410 ± 9
+316L-5 Y2O3
+1042 ± 7
+835 ± 6
+435 ± 12
+
+PAGE 9
+Materials 2025, 18, 641
+9 of 15
+3.4. Corrosion Tests
+3.4.1. Potentiodynamic Curves
+The potentiodynamic polarization curves were measured for 316L stainless steel
+produced by SPS and cast and for ODS steel reinforced with 1 and 3 wt% Y2O3. As
+shown in Figure 8, all curves exhibit a similar trend, indicating that materials underwent
+passivation. The steep slope of the cathodic tafel region further indicates the oxidation
+process and formation of a passive layer. It is worth underlining that the highest resistivity
+to localized corrosion was observed in the reference sample, which is proven by the ∆E (the
+difference between Ecorr and Eb) shown in Table 4. On the contrary, the lowest resistivity to
+localized corrosion was observed for 316L (SPS). ODS steels are characterized by higher Eb,
+although ∆E is reduced with a higher amount of Y2O3 in materials.
+ 
+Figure 8. Potentiodynamic curves.
+Table 4. Electrochemical parameters of austenitic ODS steel samples.
+Material
+Ecorr
+(mV/ACLE)
+βc
+mV/Decade
+Eb (mV/ACLE)
+∆E
+(mV)
+316L (ref)
+−220
+166.8
+472
+252
+316L (SPS)
+−225
+177.7
+116
+109
+316L-1Y2O3
+−200
+180.5
+395
+195
+316L-3Y2O3
+−235
+178.9
+328
+93
+3.4.2. EPR-SL
+The electrochemical potentiokinetic reactivation curves obtained using the single-loop
+method (Figure 9) show a clear increase in the reactivation peak current density as the Y2O3
+content in the materials decreases. From these curves, the reactivation charge Q (C) was
+calculated for each material and normalized to the surface charge density QPa (C/cm2),
+as summarized in Table 5. The degree of sensitization was observed to increase with
+decreasing QPa. Surface micrographs of the materials after exposure (Figure 10) reveal
+preferential corrosion along grain boundaries and around chromium carbides in the case of
+SPS-processed 316L steel, corresponding to Cr-depleted regions in the matrix. In materials
+containing Y2O3, localized corrosion predominantly occurs in areas with elevated concen-
+trations of Y2O3 particles, as shown in Figure 10. The micrographs highlight these regions
+where corrosion is most prominent, particularly at the interfaces where Y2O3-rich areas
+
+PAGE 10
+Materials 2025, 18, 641
+10 of 15
+overlap with regions enriched in carbides. This correlation is supported by the electrochemi-
+cal potentiokinetic reactivation (EPR) results, which indicate a higher degree of sensitization
+in these areas. The clustering of Y2O3 particles, combined with chromium depletion near
+carbides, creates localized microstructural heterogeneities that act as preferential sites for
+corrosion initiation.
+ 
+Figure 9. EPR-SL curves of consolidated materials.
+Table 5. Results of the SL-EPR test and calculation of QPa.
+Material
+Q (C)
+X (cm2)
+QPa (C/cm2)
+316L (SPS)
+0.068
+0.029
+20.7
+316L-1Y2O3
+0.025
+0.043
+09.0
+316L-3Y2O3
+0.007
+0.043
+03.1
+ 
+ 
+ 
+Figure 10. SEM surface micrographs of the materials after exposure: (a) 316L (SPS); (b) 316L-1Y2O3;
+(c) 316L-3Y2O3.
+4. Discussion
+4.1. Powder Precursors
+The XRD spectra in Figure 1a verify the presence of the FCC structure in all powders,
+demonstrating the retention of the austenitic phase following mechanical alloying. Notably,
+the primary FCC peaks remain largely unchanged with the addition of Y2O3, suggesting
+that the oxide particles are well dispersed and have minimal impact on the bulk matrix
+structure. The polymodal particle distribution shown in Figure 1b offers a distinct advan-
+tage for the preparation of consolidated samples via spark plasma sintering, as fine particles
+
+PAGE 11
+Materials 2025, 18, 641
+11 of 15
+enhance bulk density and reduce porosity by filling the voids between coarse particles, a
+phenomenon similarly observed for SiC materials in the work of S. Lemonnier et al. [21].
+The particle distribution width, expressed as a span in Table 2, indicates that a higher span
+value corresponds to a broader distribution and improved packing density. Accordingly,
+samples with 3 and 5 wt% Y2O3, which have span values of 2.4 and 2.2, respectively, demon-
+strate better bulk density compared to the 1 wt% Y2O3 sample, which exhibits a narrower
+particle distribution. Particle size analysis (Figure 1b) demonstrates a distinct trend of
+powder refinement with increasing Y2O3 concentrations, a finding further supported by
+the scanning electron microscope (SEM) images in Figure 2. The powders exhibit irregular
+and angular particle shapes, resulting from the cold welding and subsequent fracturing
+of particles during mechanical alloying. As in our case, Wang M. et al. [22] also observed
+particle downsizing caused by strain accumulation and work hardening during mechanical
+milling, which ultimately led to particle embrittlement and fracture. With the Y2O3 content
+increasing from 1 wt.% to 5 wt.%, the powders display a polymodal size distribution
+alongside a noticeable reduction in average particle size (Table 2). This refinement can be
+attributed to the mechanical milling process, where the hard Y2O3 oxide particles facilitate
+the fragmentation of larger particles formed through cold welding, thereby enhancing the
+homogeneity of yttrium distribution in the powder.
+4.2. Consolidated Materials
+The X-ray diffraction analysis of the consolidated materials (Figure 3) identifies an ad-
+ditional phase alongside the austenitic matrix and yttrium oxides: chromium carbides [23].
+The formation of these carbides likely occurs unintentionally during the consolidation
+process, resulting from carbon introduction in the powder during mechanical alloying due
+to the use of a process control agent (PCA) and the subsequent diffusion of carbon from
+graphite dies and punches. Microstructure images in Figure 4 reveal areas with locally
+coarsened grains, likely resulting from localized thermal effects occurring between powder
+particles during the consolidation process. These thermal gradients can promote grain
+growth in specific regions, leading to the observed coarsening [24]. The phenomenon of
+locally coarsened grains is also evident in the IPF maps from the EBSD analyses presented
+in Figure 5a–c and was also observed by Ninawe et al. [25]. Additionally, as the Y2O3
+concentration increases, bands with higher concentrations of oxide particles become evi-
+dent. This distribution is likely caused by the clustering tendency of Y2O3 particles during
+mechanical alloying. These areas are more susceptible to material removal, which can
+lead to the formation of additional pores. In addition, the polishing process may release
+loosely bound particles from the surface, particularly in areas where the matrix/oxide
+interface is weak or where oxide agglomeration is prevalent. These effects can obscure
+the visual appearance of pores in the prepared samples. In such areas, the grain size is
+significantly reduced because the particles pin the grain boundaries and prevent their
+migration. Bimodal grain size distributions have also been observed in other studies on
+SPS-consolidated alloys [10,20,26].
+4.3. Mechanical Properties
+As mentioned in Section 3.3., the hardness of the materials increases with rising Y2O3
+content, primarily due to the hardening effect of the oxide particles. While the precipitated
+carbides also influence hardness, their consistent abundance and distribution across all
+materials ensure that their impact does not overshadow the effect of the Y2O3 particles.
+Koul et al. also reported an increase in hardness with higher Y2O3 oxide content [27].
+Additionally, the graph in Figure 6 highlights an improvement in hardness for the SPS-
+processed sample compared to the commercially produced reference sample. This increase
+
+PAGE 12
+Materials 2025, 18, 641
+12 of 15
+is attributed to the presence of carbides in the microstructure and grain size refinement
+achieved through the SPS process.
+The compressive behaviour of ODS 316L steel at both room temperature and elevated
+temperatures (600 ◦C) demonstrates the good material’s plasticity under compression.
+The yield strength of ODS 316L (SPS) exceeds that of conventional 316L stainless steel
+both at laboratory and elevated temperatures. This enhanced yield strength is attributed
+to the grain refinement and bimodal grain size distribution, the strengthening effect of
+dispersed Y2O3, but also the effect of carbide particles. Despite the presence of carbides, all
+tested materials exhibit significant compressive strain capacity, with compressive strains
+exceeding 40%. The compression curves at room temperature, shown in Figure 7a, reveal
+that even a modest addition of 1 wt% Y2O3 results in a notable increase in yield strength,
+which is also affected by carbides. As the Y2O3 content rises to 3 and 5 wt%, the yield
+strength continues to improve [27]. Due to the similar content of carbides in materials,
+such an increase has to be related to the Y2O3 content in the microstructure. However,
+the incremental strengthening effect between the 3 wt% and 5 wt% materials is less pro-
+nounced, most probably due to the more significant formation of clusters of Y2O3 and,
+therefore, the increased material heterogeneity. At the elevated temperature of 600 ◦C, the
+compression curves (Figure 7b) show a change in slope in the elastic region compared
+to the room temperature curves, which is attributed to a decrease in the elastic modulus
+(E). However, the precise value of E could not be determined due to the absence of a
+tensometer during the measurements. Yield strengths are lower across all materials at
+this temperature. Notably, the strengthening effect of 5 wt% Y2O3 is reduced at elevated
+temperatures, with the stress–strain curve for this sample closely resembling that of the 3
+wt% Y2O3 material. This phenomenon can be attributed to thermal softening effects, which
+become more pronounced at elevated temperatures, partially offsetting the strengthening
+contribution of the additional Y2O3 in the 5 wt% sample. At higher oxide concentrations,
+the tendency for particle clustering and agglomeration increases, reducing the effectiveness
+of the oxide dispersion and limiting further mechanical improvement. Additionally, the
+elevated temperature may facilitate grain boundary sliding, diminishing the impact of the
+oxide particles on dislocation pinning and grain boundary strengthening. These factors
+collectively explain the convergence of mechanical properties between the 3 wt% and
+5 wt% Y2O3 samples under high-temperature conditions.
+4.4. Corrosion Tests
+The findings on the basic corrosion behaviour, as outlined in Section 3.4 and de-
+rived from the potentiodynamic curves in Figure 8, reveal that corrosion resistance is
+significantly influenced by both the processing method and the Y2O3 content. 316L steel
+prepared via SPS exhibits the lowest corrosion resistance, with a breakdown potential of
+just 116 mV—markedly lower than that of the reference cast material. This diminished
+performance is attributed to the formation of carbides and Cr-depleted grain boundary
+regions during the SPS process, which serve as preferential sites for localized corrosion.
+Pardo et al. [28] as well highlighted that the corrosion resistance of austenitic stainless
+steels in chloride-containing environments primarily arises from the enrichment of the
+chromium oxide layer at the metal–environment interface. However, during compaction,
+the formation of chromium carbides leads to chromium depletion in the adjacent grain
+boundary regions, adversely affecting corrosion resistance. These results underscore the
+adverse impact of processing-induced microstructural inhomogeneities on corrosion resis-
+tance. For the Y2O3-reinforced samples, corrosion resistance decreases as the Y2O3 content
+increases. Although Y2O3 particles can act as stabilizers of the passive layer [29], localized
+corrosion predominantly occurs in regions enriched with these oxide particles. This effect is
+
+PAGE 13
+Materials 2025, 18, 641
+13 of 15
+especially pronounced at interfaces where carbides and Cr-depleted zones coexist [30]. The
+presence of such features indicates that regions with higher Y2O3 concentrations introduce
+microstructural heterogeneities that facilitate localized corrosion. Interestingly, the sample
+with 1 wt% Y2O3 demonstrates a lower corrosion rate compared to the sample with 3 wt%
+Y2O3. Among all the materials tested, the 3 wt% Y2O3 sample exhibits the highest corrosion
+rate. This elevated rate is likely due to the increased number of oxide phases that serve as
+active sites for corrosion initiation. These observations suggest that while Y2O3 provides
+mechanical benefits, its content must be carefully optimized to balance mechanical and
+electrochemical performance.
+The EPR-SL method results, illustrated in Figure 10, reveal distinct mechanisms of
+localized corrosion, aligning with the findings from the potentiodynamic curves. For the
+316L sample (Figure 10a), localized corrosion primarily occurs along grain boundaries and
+around carbides, where chromium depletion leads to increased susceptibility to corrosion
+attack [31,32]. In contrast, the Y2O3-reinforced samples (Figure 10b,c) exhibit a different
+corrosion mechanism. Corrosion in these materials predominantly affects the matrix
+surrounding carbides and regions with a higher oxide content. This mechanism is reflected
+in the greater degree of desensitization observed for the sample containing 3 wt% Y2O3,
+consistent with the electrochemical results in Table 5. The microstructures of these hardened
+materials feature regions with both very fine grains and coarse grains. Notably, the very
+fine grains are concentrated in areas rich in yttrium oxides, which act as sites for localized
+corrosion. Consequently, these regions are particularly susceptible to grain corrosion and
+pitting, further contributing to the observed degradation patterns. This underscores the
+role of microstructural features and oxide dispersion in influencing the corrosion behaviour
+of these materials.
+While Y2O3 reinforcement significantly enhances the mechanical properties of 316L
+stainless steel, the increased susceptibility to localized corrosion, particularly at higher
+Y2O3 contents, raises concerns about its suitability for certain nuclear power engineering
+applications. The presence of Cr-depleted zones and oxide clustering could compromise
+the material’s long-term durability in aggressive environments typical of nuclear systems.
+However, with optimized processing parameters and improved oxide dispersion
+techniques, these challenges may be mitigated, potentially making Y2O3-enriched 316L
+steel a viable candidate for nuclear applications requiring high strength and radiation
+resistance. Future research should focus on addressing these limitations to fully realize the
+material’s potential in such demanding environments.
+5. Conclusions
+This paper demonstrates the study of Y2O3-strengthened 316L stainless steel with
+enhanced mechanical properties, which persist despite some compromise in corrosion
+resistance. The key findings are summarized as follows:
+(1)
+Mechanical alloying effectively produced homogeneous 316L powders reinforced
+with Y2O3.
+(2)
+Spark plasma sintering preserved the FCC austenitic structure but introduced
+chromium carbides and microstructural heterogeneities at higher Y2O3 concentrations,
+influencing mechanical and corrosion behaviour.
+(3)
+Increasing Y2O3 contents enhanced hardness and compressive yield strength while
+maintaining compressive plasticity, with diminishing returns at contents above 3 wt%.
+(4)
+At elevated temperatures, mechanical performance decreased; however, compos-
+ites still exhibited significantly higher compressive yield strength compared to the
+reference 316L steel.
+
+PAGE 14
+Materials 2025, 18, 641
+14 of 15
+(5)
+Corrosion resistance was compromised by localized oxide-rich regions and Cr-
+depleted zones, particularly at higher Y2O3 contents.
+(6)
+Localized corrosion was more prominent in areas of Y2O3 clustering and
+carbide enrichment.
+Author Contributions: Conceptualization, J.K., A.D., J. ˇC. and M.G.; methodology, J.K.; formal
+analysis, J.P., J.K., D.N, ˇC.D., V.H., J.F. and I.P.; investigation, J.P., D.N., J.F. and I.P.; resources,
+J.K., A.D. and M.G.; data curation, J.K. and M.G.; writing—original draft preparation, J.P. and J.K.;
+writing—review and editing, J.K., J.P., I.P., A.D. and J. ˇC.; visualization, J.P. and ˇC.D.; supervision, J.K.
+and M.G.; project administration, J.K.; funding acquisition, J.K., M.G. and A.D. All authors have read
+and agreed to the published version of the manuscript.
+Funding: This research was funded by the Czech Science Foundation (project No. 22-04227L),
+Grant agency of the UCT Prague (project No. A2_FCHT_2024_013), Slovenian Research and In-
+novation Agency (project No. N2-0276 and core funding No. P2-0132), National Science Cen-
+tre in Poland (project No. 2021/43/I/ST8/01018) and Ferroic Multifunctionalities project, sup-
+ported by the Ministry of Education, Youth, and Sports of the Czech Republic.
+Project No.
+CZ.02.01.01/00/22_008/0004591, co-funded by the European Union.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: The data presented in this study are openly available in ZENODO with
+DOI 10.5281/zenodo.14622099.
+Conflicts of Interest: The authors declare no conflicts of interest.
+References
+1.
+Gelles, D.S. Development of martensitic steels for high neutron damage applications. J. Nucl. Mater. 1996, 239, 99–106. [CrossRef]
+2.
+Kim, D.W. Influence of nitrogen-induced grain refinement on mechanical properties of nitrogen alloyed type 316LN stainless
+steel. J. Nucl. Mater. 2012, 420, 473–478. [CrossRef]
+3.
+Mathew, M.D.; Laha, K.; Ganesan, V. Improving creep strength of 316L stainless steel by alloying with nitrogen. Mater. Sci. Eng. A
+2012, 535, 76–83. [CrossRef]
+4.
+Xu, Y.; Zhou, Z. Processing and structure of a Nitrogen Alloyed Oxide Dispersion Strengthened Austenitic Stainless Steel by
+mechanical alloying. J. Phys. Conf. Ser. 2013, 419, 012052. [CrossRef]
+5.
+Murty, K.L.; Charit, I. Structural materials for Gen-IV nuclear reactors: Challenges and opportunities. J. Nucl. Mater. 2008, 383,
+189–195. [CrossRef]
+6.
+Akasaka, N.; Yamashita, S.; Yoshitake, T.; Ukai, S.; Kimura, A. Microstructural changes of neutron irradiated ODS ferritic and
+martensitic steels. J. Nucl. Mater. 2004, 329–333, 1053–1056. [CrossRef]
+7.
+Zhao, Q.; Yu, L.; Liu, Y.; Huang, Y.; Guo, Q.; Li, H.; Wu, J. Evolution of Al-containing phases in ODS steel by hot pressing and
+annealing. Powder Technol. 2017, 311, 449–455. [CrossRef]
+8.
+Balázsi, C.; Gillemot, F.; Horváth, M.; Wéber, F.; Balázsi, K.; Sahin, F.C.; Onüralp, Y.; Horváth, Á. Preparation and structural
+investigation of nanostructured oxide dispersed strengthened steels. J. Mater. Sci. 2011, 46, 4598–4605. [CrossRef]
+9.
+Gräning, T.; Rieth, M.; Hoffmann, J.; Möslang, A. Production, microstructure and mechanical properties of two different austenitic
+ODS steels. J. Nucl. Mater. 2017, 487, 348–361. [CrossRef]
+10.
+Hilger, I.; Boulnat, X.; Hoffmann, J.; Testani, C.; Bergner, F.; De Carlan, Y.; Ferraro, F.; Ulbricht, A. Fabrication and characterization
+of oxide dispersion strengthened (ODS) 14Cr steels consolidated by means of hot isostatic pressing, hot extrusion and spark
+plasma sintering. J. Nucl. Mater. 2016, 472, 206–214. [CrossRef]
+11.
+Roy, T.; Shivam, V.; Chattopadhyay, K.; Manna, R.; Mukhopadhyay, N.K. Microstructural Evolution and Mechanical Properties of
+Nano-Yttria Dispersed 316 L Austenitic Stainless Steel by Mechanical Alloying and Sintering. Trans. Indian Inst. Met. 2021, 74,
+2093–2104. [CrossRef]
+12.
+Zhang, W.; Liu, F.; Liu, L.; Li, Q.; Liu, L.; Liu, F.; Huang, C. Effect of grain size and distribution on the corrosion behavior of Y2O3
+dispersion-strengthened 304 stainless steel. Mater. Today Commun. 2022, 31, 103723. [CrossRef]
+13.
+Deng, L.; Luo, J.-R.; Tu, J.; Hu, R.; Guo, N.; Zeng, W.-Y.; Wang, C.-H.; He, P.; Zhang, Y. Achieving excellent mechanical properties
+of ODS steel by Y2O3 addition. Mater. Sci. Eng. A 2023, 872, 145008. [CrossRef]
+
+PAGE 15
+Materials 2025, 18, 641
+15 of 15
+14.
+Yan, X.; Zhang, X.; Wang, F.; Stockdale, T.; Dzenis, Y.; Nastasi, M.; Cui, B. Fabrication of ODS Austenitic Steels and CoCrFeNi
+High-Entropy Alloys by Spark Plasma Sintering for Nuclear Energy Applications. Jom 2019, 71, 2856–2867. [CrossRef]
+15.
+Qiao, Z.; Du, J.; Hu, Z. Simultaneously improve the strength and ductility of additively manufactured Y2O3/316 L composites
+via optimizing heat treatment. Mater. Charact. 2024, 217, 114347. [CrossRef]
+16.
+Wang, Y.; Wang, B.; Luo, L.; Li, B.; Liu, T.; Zhao, J.; Xu, B.; Wang, L.; Su, Y.; Guo, J.; et al. Laser-based powder bed fusion of
+pre-alloyed oxide dispersion strengthened steel containing yttrium. Addit. Manuf. 2022, 58, 110574. [CrossRef]
+17.
+Hu, Z.; Guan, K.; Qian, Z.; Dong, J.; Wu, J.; Ma, Z. Simultaneous enhancement of strength and ductility in selective laser melting
+manufactured 316L alloy by employing Y2O3 coated spherical powder as precursor. J. Alloys Compd. 2022, 899, 163262. [CrossRef]
+18.
+Liu, X.-Y.; Sui, Y.; Li, J.-B.; Yue, J.-Y.; Sun, X.-H.; Yang, L.-F.; Liu, C.-S. Dimension effect of Y2O3 nanomaterial on microstructure
+and tensile properties of laser metal deposited stainless steel coatings. Surf. Coat. Technol. 2021, 419, 127259. [CrossRef]
+19.
+Liu, X.-Y.; Sui, Y.; Li, J.-B.; Li, Y.-M.; Sun, X.-H.; Liu, C.-S. Laser metal deposited steel alloys with uniform microstructures and
+improved properties prepared by addition of small amounts of dispersed Y2O3 nanoparticles. Mater. Sci. Eng. A 2021, 806, 140827.
+[CrossRef]
+20.
+Wu, Y.Q.; Allahar, K.N.; Burns, J.; Jaques, B.; Charit, I.; Butt, D.P.; Cole, J.I. Fe-Cr-Mo based ODS alloys via spark plasma sintering:
+A combinational characterization study by TEM and APT. Cryst. Res. Technol. 2014, 49, 645–652. [CrossRef]
+21.
+Lemonnier, S.; Moitrier, F.; Rossit, J.; Bourré, T.; Roseiro, P.; Guetter, G.; Boehmler, J. Multimodal particle size distribution by
+mixing nanopowders for full densification of spark plasma sintered SiC ceramics. Open Ceram. 2021, 7, 100164. [CrossRef]
+22.
+Wang, M.; Zhou, Z.; Sun, H.; Hu, H.; Li, S. Microstructural observation and tensile properties of ODS-304 austenitic steel. Mater.
+Sci. Eng. A 2013, 559, 287–292. [CrossRef]
+23.
+Jang, K.-N.; Kim, T.-K.; Kim, K.-T. The effect of cooling rates on carbide precipitate and microstructure of 9CR-1MO oxide
+dispersion strengthened(ODS) steel. Nucl. Eng. Technol. 2019, 51, 249–256. [CrossRef]
+24.
+Sovizi, S.; Seraji, M. The Densification Behavior of Metals and Alloys During Spark Plasma Sintering: A Mini-Review. Sci. Sinter.
+2019, 51, 135–152. [CrossRef]
+25.
+Ninawe, P.S.; Ganesh, S.; Sai Karthik, P.; Chandrasekhar, S.B.; Vijay, R. Microstructure and mechanical properties of spark plasma
+sintered austenitic ODS steel. Adv. Powder Technol. 2022, 33, 103584. [CrossRef]
+26.
+Mao, X.; Oh, K.H.; Jang, J. Evolution of ultrafine grained microstructure and nano-sized semi-coherent oxide particles in austenitic
+oxide dispersion strengthened steel. Mater. Charact. 2016, 117, 91–98. [CrossRef]
+27.
+Koul, S.; Shivam, V.; Chattopadhyay, K.; Manna, R.; Biswas, K.; Mukhopadhyay, N.K. Development of Oxide Dispersed Austenitic
+Stainless Steel through Mechanical Alloying and Spark Plasma Sintering. J. Mater. Eng. Perform. 2022, 31, 9522–9533. [CrossRef]
+28.
+Pardo, A.; Merino, M.C.; Coy, A.E.; Viejo, F.; Arrabal, R.; Matykina, E. Pitting corrosion behaviour of austenitic stainless
+steels—Combining effects of Mn and Mo additions. Corros. Sci. 2008, 50, 1796–1806. [CrossRef]
+29.
+Molin, S.; Persson, Å.H.; Skafte, T.L.; Smitshuysen, A.L.; Jensen, S.H.; Andersen, K.B.; Xu, H.; Chen, M.; Hendriksen, P.V. Effective
+yttrium based coating for steel interconnects of solid oxide cells: Corrosion evaluation in steam-hydrogen atmosphere. J. Power
+Sources 2019, 440, 226814. [CrossRef]
+30.
+Rashid, M.W.A.; Gakim, M.; Rosli, Z.M.; Azam, M.A. Formation of Cr23C6 during the Sensitization of AISI 304 Stainless Steel and
+its Effect to Pitting Corrosion. Int. J. Electrochem. Sci. 2012, 7, 9465–9477. [CrossRef]
+31.
+Aydo˘gdu, G.H.; Aydinol, M.K. Determination of susceptibility to intergranular corrosion and electrochemical reactivation
+behaviour of AISI 316L type stainless steel. Corros. Sci. 2006, 48, 3565–3583. [CrossRef]
+32.
+Matula, M.; Hyspecka, L.; Svoboda, M.; Vodarek, V.; Dagbert, C.; Galland, J.; Stonawska, Z.; Tuma, L. Intergranular corrosion of
+AISI 316L steel. Mater. Charact. 2001, 46, 203–210. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
