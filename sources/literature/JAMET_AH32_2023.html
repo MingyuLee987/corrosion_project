@@ -1,0 +1,660 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="no-js no-jr">
+
+<head xmlns="">
+<title>Experimental study on predicting the corrosion behavior of carbon steel in various corrosive environments using artificial neural networks</title>
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="no">
+<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<script type="text/javascript" src="../js/jr.boots.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700,400italic,700italic&subset=latin" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../lib/css/normalize.css" type="text/css">
+<link rel="stylesheet" href="../lib/css/figpopup.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.ui.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.pagemanager.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.pageturnsensor.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.pageprogressbar.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.objectbox.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.panel.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.panel.typo.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.panel.cmap.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.panel.istrip.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.fip.css" type="text/css">
+<link rel="stylesheet" href="../css/jr.content.css" type="text/css">
+<link rel="stylesheet" href="./NuriPR.css" type="text/css">
+</head>
+
+<body>
+<div xmlns="" id="jr" data-jr-path="/_PR/">
+<div class="jr-unsupported"><table class="modal"><tr><td><br>Your browser does not support the PubReader view.<br>Go to <a href="http://www.ncbi.nlm.nih.gov/pmc/about/pr-browsers/">this page</a>
+								to see a list of supporting browsers.</td></tr></table></div>
+<div id="jr-ui" class="hidden">
+<nav id="jr-head">
+<div class="flexh tb">
+<div id="jr-tb1"><a id="jr-pmc-sw" href="/" class="btn link wsprkl" title="The Korean Society of Marine Engineering" name="marine"><img src="/images/basic/pubreader_logo.gif" alt="logo" align="bottom" style="margin:0px; padding:0px;"></a><a id="jr-links-sw" class="btn wsprkl hidden" title="Links"><img src="../img/npr_link.gif" alt="Links"></a><a id="jr-alt-sw" class="btn wsprkl hidden" title="Alternative formats of the Article"><img src="../img/npr_alterformat.gif" alt="Aternative formats of the Article"></a></div>
+<div class="jr-rhead f1"><div class="t">Experimental study on predicting the corrosion behavior of carbon steel in various corrosive environments using artificial neural networks</div><div class="j">Journal of Advanced Marine Engineering and Technology. 2023; 47(6):317</div></div>
+<div id="jr-tb2"><a id="jr-help-sw" class="btn wsprkl hidden" title="Settings, typography and Help"><img src="../img/npr_setting.gif" alt="Settings, typography and Help"></a><a id="jr-fip-sw" class="btn wsprkl" title="Find"><img src="../img/npr_find.gif" alt="Find"></a><a id="jr-cmap-sw" class="btn wsprkl hidden" title="Article Navigation"><img src="../img/npr_navi.gif" alt="Article Navigation" align="middle"></a></div></div>
+</nav>
+
+<nav id="jr-dash" class="noselect"><div id="jr-pi" class="hidden"><a id="jr-pi-prev" class="hidden" title="Previous page"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" /></a><div class="pginfo"> Page <i class="jr-pg-pn">0</i> of <i class="jr-pg-lp">0</i></div><a id="jr-pi-next" class="hidden" title="Next page"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" /></a></div><div id="jr-is-tb"><a id="jr-is-sw" class="btn wsprkl hidden" title="Switch between Figures/Tables strip and Progress bar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" /></a></div><nav id="jr-istrip" class="istrip hidden"><a id="jr-is-prev" href="#" class="hidden" title="Previous"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" /></a><a id="jr-is-next" href="#" class="hidden" title="Next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" /></a></nav><nav id="jr-progress"></nav></nav>
+
+<aside id="jr-links-p" class="hidden flexv"><div class="tb sk-htbar flexh"><div><a class="jr-p-close btn wsprkl">Done</a></div><div class="title-text f1"> Links </div></div><div class="cnt lol f1"><a class="navlink" href="http://e-jamet.org/">Home</a><a class="navlink" href="http://e-jamet.org/_common/do.php?a=full&b=12">All Issues</a><a class="navlink" href="http://e-jamet.org/_common/do.php?a=full&b=12&bidx=3536">v.47; 2023</a></div></aside>
+<aside id="jr-alt-p" class="hidden flexv"><div class="tb sk-htbar flexh"><div><a class="jr-p-close btn wsprkl">Done</a></div><div class="title-text f1"> Alternative formats </div></div><div class="cnt lol f1"><a class="navlink" href="http://e-jamet.org/_common/do.php?a=full&b=12&bidx=3536&aidx=39261">This Article</a><a class="navlink" href="http://e-jamet.org/xml/39261/39261.pdf" target="_blank">PDF</a><a class="navlink" href="https://doi.org/10.5916/jamet.2023.47.6.317" target="_blank">DOI</a></div></aside>
+<aside id="jr-cmap-p" class="hidden flexv"><div class="tb sk-htbar flexh"><div><a class="jr-p-close btn wsprkl">Done</a></div><div class="title-text f1">Article navigation </div></div><div class="cnt lol f1"></div></aside>
+<aside id="jr-help-p" class="hidden flexv"><div class="tb sk-htbar flexh"><div><a class="jr-p-close btn wsprkl">Done</a></div><div class="title-text f1"> Settings &amp; Help </div></div><div class="cnt f1"><div id="jr-typo-p" class="typo"><div><a class="sf btn wsprkl">A-</a><a class="lf btn wsprkl">A+</a></div><div><a class="bcol-auto btn wsprkl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" preserveAspectRatio="none" /></a><a class="bcol-1 btn wsprkl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" /></a><a class="bcol-2 btn wsprkl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" /></a></div></div><div class="lol"><a id="jr-helpobj-sw" data-path="../" data-href="../img/help.xml" href="">Help with
+		                  	PubReader</a><a id="jr-about-sw" data-path="../" data-href="../img/about.xml" href="">About PubReader</a></div></div></aside>
+<aside id="jr-objectbox" class="thidden hidden"><div class="jr-objectbox-close wsprkl"> ✘ </div><div class="jr-objectbox-inner cnt"><div class="jr-objectbox-drawer"></div></div></aside>
+<nav id="jr-pm-left" class="hidden"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 1000" preserveAspectRatio="none" /></nav>
+<nav id="jr-pm-right" class="hidden"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 1000" preserveAspectRatio="none" /></nav>
+<nav id="jr-fip" class="hidden"><nav id="jr-fip-term-p"><input type="search" placeholder="search within article" id="jr-fip-term" autocorrect="off" autocomplete="off"><a id="jr-fip-mg" class="btn wsprkl" title="Find"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 550 600" preserveaspectratio="none" /></a><button id="jr-fip-done" class="wsprkl" title="Dismiss find">✘</button></nav><nav id="jr-fip-info-p"><button id="jr-fip-prev" class="wsprkl" title="Jump to previuos match">◄</button><span id="jr-fip-matches">no matches
+						yet</span><button id="jr-fip-next" class="wsprkl" title="Jump to next match">►</button></nav></nav>
+</div>
+</div>
+
+
+
+
+<div xmlns="" id="jr-content">
+<article xmlns:t="http://www.ncbi.nlm.nih.gov/ns/test" data-type="main">
+
+<div title="The Korean Society of Marine Engineering"><img src="/images/basic/pubreader_back.gif" alt="The Korean Society of Marine Engineering"></div><header class="fm-sec">
+
+<div></div><div class="article-type">[ Original Paper ]</div><div>Journal of Advanced Marine Engineering and Technology - Vol. 47, No. 6, pp.317-324<br>
+</div><div><span class="gen">ISSN: </span>2234-7925
+					(Print)
+				
+2765-4796
+					(Online)
+				
+</div><div><span class="gen">Print </span><span class="gen"> publication date </span><span class="gen"> </span>31 Dec 2023<br>
+</div><div><span class="gen">Received </span><span class="gen"> </span>16 Oct 2023
+<span class="gen">Revised </span><span class="gen"> </span>02 Nov 2023
+<span class="gen">Accepted </span><span class="gen"> </span>08 Nov 2023
+</div><div style="width:100%"><span class="gen">DOI: </span><a href="https://doi.org/10.5916/jamet.2023.47.6.317" target="_blank">https://doi.org/10.5916/jamet.2023.47.6.317</a><br><br></div><h1 class="content-title">Experimental study on predicting the corrosion behavior of carbon steel in various corrosive environments using artificial neural networks</h1>
+<div id="enNameColon"><span class="capture-id"><span class="gen">Kwang-Hu Jung</span></span><sup>1</sup> ; <span class="capture-id"><span class="gen">Jung-Hyung Lee</span></span><span class="xref"><sup><a href="#cor1">†</a></sup></span><a target="_blank" href="http://orcid.org/0000-0002-3446-0019"><img class="orcid" src="/_common/images/orcid.gif"></a>
+
+</div><tr><td valign="top" align="left" id="JKOSME_2023_v47n6_317_A001"><span class="au-label">1</span>Professor, Division of Cadet Training, Mokpo National Maritime University, Tel: +82-61-240-7423 khjung@mmu.ac.kr<br>
+</td></tr>
+<div><span style="font-weight:bold;width:100%;" class="tl-document"></span></div>
+<div id="krNameColon">
+</div>
+<br><div><span class="capture-id"><span class="gen" id="cor1">Correspondence to: </span><sup>†</sup>Professor, Division of Marine Engineering, Mokpo National Maritime University, 91, Haeyangdaehak-ro, Mokpo-si, Jeollanam-do 58628, Korea, E-mail: <a href="mailto:jhlee@mmu.ac.kr"> jhlee@mmu.ac.kr</a>, Tel: +82-61-240-7205
+</span><br></div>
+<div><br>Copyright © The Korean Society of Marine Engineering
+<br>This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<a target="xrefwindow" href="http://creativecommons.org/licenses/by-nc/3.0">http://creativecommons.org/licenses/by-nc/3.0</a>), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.<br></div><div id="citedLink" class="ctLink"></div><div></div><div><h2></h2></div>
+
+
+
+</header>
+
+
+
+<h2 class="head no_bottom_margin" id="__abstract_title">Abstract</h2>
+<div><p>In this study, potentiodynamic polarization curves of carbon steel were employed to systematically characterize and predict its electrochemical corrosion behavior under varying environmental conditions. A three-factor full factorial design was utilized to vary critical parameters such as temperature, pH, and salinity, simulating diverse marine conditions. Using the TensorFlow 2.0 framework, a model based on an Artificial Neural Network (ANN) was constructed to predict the corrosion current density, a key indicator of corrosion rate. The ANN model demonstrated remarkable agreement with experimental data, achieving a correlation coefficient exceeding 0.98 for the training dataset. However, when extrapolating to conditions outside the training data, the model exhibited diminished accuracy. This emphasizes the potential of using ANN for corrosion prediction and underscores the importance of iterative model optimization in response to comprehensive datasets.</p>
+</div>
+
+<div>
+<h2 class="head no_bottom_margin" id="__keyword_title">Keywords: </h2><span class="capture-id">Corrosion behavior</span>, <span class="capture-id">Carbon steel</span>, <span class="capture-id">Potentiodynamic test</span>, <span class="capture-id">Artificial neural network</span><br></div>
+
+
+
+
+
+
+
+<div class="sec">
+<h2 class="head no_bottom_margin" id="JKOSME_2023_v47n6_317_sec1">1. Introduction</h2>
+<p>Ships play a crucial role in national economies, energy supply, and international trade. Advances in shipbuilding technology have consistently increased their size. Moreover, technological advancements and the reinforcement of environmental regulations require a variety of equipment. Ships are continuously growing in both size and complexity, consequently escalating the potential risks associated with corrosion. This is due to ships being consistently operated in marine environments and exposed to seawater.</p>
+<p>Ships operate in marine environments and utilize seawater for various purposes. A prime example is the seawater cooling system, comprising several pieces of interconnected equipment through seawater piping. This piping is crucial not only in ships but also in industrial facilities and offshore platforms. Mostly made of carbon steel, seawater piping is highly susceptible to corrosion due to the corrosive nature of seawater. Frequent corrosion-induced damages can occur in these low-corrosion-resistant pipes, potentially rendering a ship inoperable.</p>
+<p>Over the past few decades, there has been a consistent increase in interest in advancing methods and management techniques for marine systems. Surface coatings and highly corrosion-resistant materials, such as stainless steel, have proven effective in extending the lifespan of vessels and ensuring their safe operation. However, it's worth noting that ships are primarily constructed using low-corrosion-resistant carbon steel. This decision is primarily based on economic considerations, as the cost of materials constitutes a substantial part of total shipbuilding expenses. Furthermore, carbon steel offers advantages in terms of machinability, mechanical properties, and weight considerations. Currently, ship components such as the hull, ballast tanks, and engine room piping are still fabricated from carbon steel, continuously exposing them to seawater. Corrosion remains a paramount concern in maritime operations, directly impacting the operational integrity and safety of vessels.</p>
+<p>Traditionally, ships have employed corrosion protection measures, including high-corrosion-resistant alloys, cathodic protection, and protective coatings. However, these methods are typically effective only in specific equipment or sections. Consequently, there is a pressing need for comprehensive monitoring and proactive prediction of the overall corrosion status of ships. Modern vessels require a shift in metal corrosion monitoring approaches. Additionally, ongoing development includes real-time corrosion monitoring systems that integrate both IoT and sensor technologies.</p>
+<p>Recently, machine learning algorithms have emerged as potent tools in the domain of corrosion prediction. Techniques like Support Vector Machines (SVM) [<span class="xref"><a href="#JKOSME_2023_v47n6_317_B2">2</a></span>], Artificial Neural Networks (ANN) [<span class="xref"><a href="#JKOSME_2023_v47n6_317_B3">3</a></span>], and Radial Basis Functions (RBF) [<span class="xref"><a href="#JKOSME_2023_v47n6_317_B4">4</a></span>] have been applied to predict electrochemical corrosion. Notably, ANN, fundamental components of deep learning, are extensively employed across various fields to address intricate problems. They are particularly adept at tackling nonlinear challenges [<span class="xref"><a href="#JKOSME_2023_v47n6_317_B5">5</a></span>].</p>
+<p>Various methodologies are used to monitor metal corrosion, with linear polarization and Tafel extrapolation being the most prominent techniques. These methods are based on the electrochemical reaction between the metal and the exposure environment and are very useful for assessing the corrosion properties and rates of metallic materials in corrosive environments. However, electrochemical methods require specialized equipment and have limitations in field applications. Additionally, these electrochemical methods necessitate inferring corrosion characteristics from irregular curve patterns composed of potential versus current density. These patterns can significantly vary based on the complexity of the corrosion environment. In constrained settings like ships, data-driven predictive models can be useful for problem-solving.</p>
+<p>In the present research, we utilize the ANN model to accurately predict the potentiodynamic polarization curves and the associated corrosion rate of carbon steel. Our approach was systematically executed in three distinct stages: data acquisition, model training, and validation. Initially, comprehensive potentiodynamic polarization experiments were conducted, considering various parameters, yielding potential versus current density curves. Subsequently, this data was used to train the ANN, ensuring optimization by fine-tuning its parameters. To ascertain the robustness of our ANN model, its performance was then validated against experimental data not previously included in the training set. The result of this study emphasizes the potential of ANN-based models in enhancing the understanding and prediction of corrosion behavior.</p>
+</div>
+
+<hr class="section-rule">
+<div class="sec">
+<h2 class="head no_bottom_margin" id="JKOSME_2023_v47n6_317_sec2">2. Experimental Methods</h2>
+<div id="JKOSME_2023_v47n6_317_sec2-1">
+<h3 class="1">2.1. Sample Preparation for Corrosion Test</h3>
+<p>The AH-32 grade carbon steel used in this study had the following chemical composition (wt.%): C 0.18, Si 0.5, Mn 0.9-1.6, S 0.035, Cr 0.2, Mo 0.08, Ni 0.4, Cu 0.35, Nb 0.02, V 0.05, and Fe balance. Specimens for corrosion tests were machined to dimensions of 20 mm x 20 mm. The surface of each specimen was polished sequentially using emery paper, finishing with #600 grit paper. After polishing, they were thoroughly cleaned with acetone and subsequently dried in a drying oven.</p>
+</div>
+<div id="JKOSME_2023_v47n6_317_sec2-2">
+<h3 class="1">2.2. Potentiodynamic Polarization Test</h3>
+<p>In the electrochemical evaluation, a potentiodynamic polarization technique was employed using a three-electrode setup in an electrochemical workstation (Bio-logic, VSP). The working electrode (WE) configuration involved a specimen with an electroactive surface area of 1 cm<sup>2</sup>. A specific electrolyte volume-tospecimen area ratio was maintained at 5 mL/mm<sup>2</sup>. The counter electrode (CE) was realized using a platinum mesh of dimensions 20 mm x 20 mm, while an Ag/AgCl electrode, saturated with KCl, served as the reference electrode (RE). Electrochemical equilibrium was ensured by stabilizing the system until the potential drift was limited to below 2 mV/h or for a maximum duration of one hour. The potentiodynamic sweep was then executed from -250 mV to +250 mV with respect to the open circuit potential (OCP) at a scan rate of 5 mV/s.</p>
+</div>
+<div id="JKOSME_2023_v47n6_317_sec2-3">
+<h3 class="1">2.3 Experimental Design</h3>
+<p>The corrosion experiment was designed using a three-factor full factorial design, as shown in <span class="xref"><a href="#JKOSME_2023_v47n6_317_T1">Table 1</a></span>. Each factor was set at three distinct levels, resulting in a total of 27 experiments. <span class="xref"><a href="#JKOSME_2023_v47n6_317_T2">Table 2</a></span> presents the full factorial design details. The experimental factors were chosen based on previous relevant studies [<span class="xref"><a href="#JKOSME_2023_v47n6_317_B6">6</a></span>]-[<span class="xref"><a href="#JKOSME_2023_v47n6_317_B8">8</a></span>] and practical considerations in ship operations [<span class="xref"><a href="#JKOSME_2023_v47n6_317_B9">9</a></span>]-[<span class="xref"><a href="#JKOSME_2023_v47n6_317_B11">11</a></span>].</p>
+<div class="table-wrap iconblock ten_col whole_rhythm clearfix" id="JKOSME_2023_v47n6_317_T1"><a class="table img_link icnblk_img figpopup" target="table" href="#JKOSME_2023_v47n6_317_T1" rid-figpopup="JKOSME_2023_v47n6_317_T1" rid-ob="ob-JKOSME_2023_v47n6_317_T1" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_T1"><img class="small-thumb" alt="" src="../img/npr_tablethum.jpg" title="Table 1:"></a><div class="icnblk_cntnt"><div><a class="figpopup" target="table" href="#JKOSME_2023_v47n6_317_T1" rid-figpopup="JKOSME_2023_v47n6_317_T1" rid-ob="ob-JKOSME_2023_v47n6_317_T1" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_T1">Table 1:</a></div><div class="caption"><p>Designed factors and their levels</p></div></div></div><div class="table-wrap iconblock ten_col whole_rhythm clearfix" id="JKOSME_2023_v47n6_317_T2"><a class="table img_link icnblk_img figpopup" target="table" href="#JKOSME_2023_v47n6_317_T2" rid-figpopup="JKOSME_2023_v47n6_317_T2" rid-ob="ob-JKOSME_2023_v47n6_317_T2" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_T2"><img class="small-thumb" alt="" src="../img/npr_tablethum.jpg" title="Table 2:"></a><div class="icnblk_cntnt"><div><a class="figpopup" target="table" href="#JKOSME_2023_v47n6_317_T2" rid-figpopup="JKOSME_2023_v47n6_317_T2" rid-ob="ob-JKOSME_2023_v47n6_317_T2" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_T2">Table 2:</a></div><div class="caption"><p>Experiment condition in a full factorial design</p></div></div></div></div>
+<div id="JKOSME_2023_v47n6_317_sec2-4">
+<h3 class="1">2.4. Corrosion Rate Calculation</h3>
+<p>The corrosion current density was determined using the Tafel extrapolation method applied to potentiodynamic curves [<span class="xref"><a href="#JKOSME_2023_v47n6_317_B12">12</a></span>]. By extrapolating the anodic and cathodic slopes from the linear polarization region, the intersection point was identified to determine the corrosion current density, as illustrated in <span class="xref"><a href="#JKOSME_2023_v47n6_317_F1">Figure 1</a></span>. This analysis was facilitated by the EC-Lab<sup>®</sup> Software integrated into the electrochemical equipment. The corrosion rate, expressed in mils penetration per year (<i>mpy</i>), was then computed using <span class="xref"><a href="#S1">Equation (1)</a></span> following Faraday's law.</p>
+<div class="disp-formula" style="margin-bottom:10px;" id="S1"><table style="width:100%;"><tr><td style="width:90%;"><math xmlns="http://www.w3.org/1998/Math/MathML" exclude-result-prefixes="util xsl xlink mml"><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="EQ1" display="block"><mml:mi>m</mml:mi><mml:mi>p</mml:mi><mml:mi>y</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>r</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mi>λ</mml:mi><mml:mo>×</mml:mo><mml:mi>ρ</mml:mi><mml:mo>/</mml:mo><mml:mn>1</mml:mn><mml:mo>×</mml:mo><mml:mi>ϵ</mml:mi><mml:mo>,</mml:mo></mml:math></math></td><td style="text-align:right;"><span class="label">(1)&#160;
+				</span></td></tr></table></div><div class="fig iconblock ten_col whole_rhythm clearfix" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F1" id="JKOSME_2023_v47n6_317_F1"><a class="icnblk_img figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F1" rid-figpopup="JKOSME_2023_v47n6_317_F1" rid-ob="ob-JKOSME_2023_v47n6_317_F1">
+<img class="small-thumb" alt="Figure 1:" title="Figure 1:" src="/xml/39261/JKOSME_2023_v47n6_317_f001.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f001.jpg"></a>
+<div class="icnblk_cntnt" id="lgnd_JKOSME_2023_v47n6_317_F1"><div><a class="figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F1" rid-figpopup="JKOSME_2023_v47n6_317_F1" rid-ob="ob-JKOSME_2023_v47n6_317_F1" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F1">Figure 1:</a></div><div><div class="caption"><p>Tafel extrapolation for determining electrochemical corrosion parameters</p></div></div></div></div><p>where λ is 1.2688×10<sup>5</sup>, <i>I<sub>corr</sub></i>. is corrosion current density, ρ is the density (7.86g/cm<sup>3</sup>), and ϵ is the equivalent weight (27.56).</p>
+</div>
+<div id="JKOSME_2023_v47n6_317_sec2-5">
+<h3 class="1">2.5. Data Set</h3>
+<p>This study utilized potentiodynamic data from polarization curves. Each curve consists of 100 data points representing potential versus current density. A single polarization curve is characterized by four inputs: temperature, pH, salinity concentration, and polarization potential, with the output being the current density. Consequently, the dataset used in this study includes a total of 2700 columns of input and output variables. Each input variable has been normalized to have a value between 0 and 1, as per <span class="xref"><a href="#S2">Equation (2)</a></span>.</p>
+<div class="disp-formula" style="margin-bottom:10px;" id="S2"><table style="width:100%;"><tr><td style="width:90%;"><math xmlns="http://www.w3.org/1998/Math/MathML" exclude-result-prefixes="util xsl xlink mml"><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="EQ2" display="block"><mml:mi mathvariant="normal">X</mml:mi><mml:mo>=</mml:mo><mml:mfenced separators="|"><mml:mrow><mml:mi mathvariant="normal">x</mml:mi><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">x</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">n</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>/</mml:mo><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">x</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">x</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">x</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:math></math></td><td style="text-align:right;"><span class="label">(2)&#160;
+				</span></td></tr></table></div><p>where X is the normalized value, x is the unnormalized value, and x<sub>max</sub> and x<sub>min</sub> denote the maximum and minimum values for each level, respectively.</p>
+</div>
+<div id="JKOSME_2023_v47n6_317_sec2-6">
+<h3 class="1">2.6. Artificial Neural Network, ANN</h3>
+<p>The ANN model employs supervised learning through the back-propagation algorithm. In this study, it is designed to accept four inputs: temperature, pH, salinity concentration, and polarization potential. It then produces an output corresponding to the corrosion current density. As illustrated in <span class="xref"><a href="#JKOSME_2023_v47n6_317_F2">Figure 2</a></span>, the ANN architecture is a multilayer perceptron, consisting of an input layer with four nodes, several hidden layers, and a single-node output layer. The activation function used in each hidden layer is the hyperbolic tangent (tanh) as given by <span class="xref"><a href="#S3">Equation (3)</a></span>.</p>
+<div class="fig iconblock ten_col whole_rhythm clearfix" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F2" id="JKOSME_2023_v47n6_317_F2"><a class="icnblk_img figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F2" rid-figpopup="JKOSME_2023_v47n6_317_F2" rid-ob="ob-JKOSME_2023_v47n6_317_F2">
+<img class="small-thumb" alt="Figure 2:" title="Figure 2:" src="/xml/39261/JKOSME_2023_v47n6_317_f002.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f002.jpg"></a>
+<div class="icnblk_cntnt" id="lgnd_JKOSME_2023_v47n6_317_F2"><div><a class="figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F2" rid-figpopup="JKOSME_2023_v47n6_317_F2" rid-ob="ob-JKOSME_2023_v47n6_317_F2" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F2">Figure 2:</a></div><div><div class="caption"><p>Schematic diagram for ANN architecture</p></div></div></div></div><div class="disp-formula" style="margin-bottom:10px;" id="S3"><table style="width:100%;"><tr><td style="width:90%;"><math xmlns="http://www.w3.org/1998/Math/MathML" exclude-result-prefixes="util xsl xlink mml"><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="EQ3" display="block"><mml:mi>Φ</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:mi>v</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mfenced separators="|"><mml:mrow><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mo>∧</mml:mo></mml:mrow></mml:msup><mml:mn>2</mml:mn><mml:mi>v</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfenced><mml:mo>/</mml:mo><mml:mfenced separators="|"><mml:mrow><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mo>∧</mml:mo></mml:mrow></mml:msup><mml:mn>2</mml:mn><mml:mi>v</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:math></math></td><td style="text-align:right;"><span class="label">(3)&#160;
+				</span></td></tr></table></div><p>For the ANN, the data was split into training, validation, and test sets in proportions of 80%, 10%, and 10%, respectively. This division was randomly executed during the training phase. The ANN was implemented in Python 3.7, using the TensorFlow 2.0 library.</p>
+</div>
+</div>
+
+<hr class="section-rule">
+<div class="sec">
+<h2 class="head no_bottom_margin" id="JKOSME_2023_v47n6_317_sec3">3. Results and Discussion</h2>
+<div id="JKOSME_2023_v47n6_317_sec3-1">
+<h3 class="1">3.1 Potentiodynamic Curves</h3>
+<p>To generate training data for the ANN model, potentiodynamic tests were performed with factor combinations, as listed in <span class="xref"><a href="#JKOSME_2023_v47n6_317_T2">Table 2</a></span>. The results for the 27 conditions are depicted in <span class="xref"><a href="#JKOSME_2023_v47n6_317_F3">Figure 3</a></span>. All curves illustrate a rapid increase in the current density in the anodic range, which is attributed to the oxidation reaction on the WE. Some curves displayed stagnation in the corrosion current density in the cathodic section owing to oxygen concentration limitations. This phenomenon is known as "oxygen concentration polarization,” indicating that the current density plateaus approximately at 10<sup>-1</sup> mA/cm<sup>2</sup>, which results from oxygen diffusion constraints within the cathodic range [<span class="xref"><a href="#JKOSME_2023_v47n6_317_B13">13</a></span>]. Consequently, the polarization curves revealed complex patterns influenced by factor variables and electrochemical reactions.</p>
+<div class="fig iconblock ten_col whole_rhythm clearfix" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F3" id="JKOSME_2023_v47n6_317_F3"><a class="icnblk_img figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F3" rid-figpopup="JKOSME_2023_v47n6_317_F3" rid-ob="ob-JKOSME_2023_v47n6_317_F3">
+<img class="small-thumb" alt="Figure 3:" title="Figure 3:" src="/xml/39261/JKOSME_2023_v47n6_317_f003.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f003.jpg"></a>
+<div class="icnblk_cntnt" id="lgnd_JKOSME_2023_v47n6_317_F3"><div><a class="figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F3" rid-figpopup="JKOSME_2023_v47n6_317_F3" rid-ob="ob-JKOSME_2023_v47n6_317_F3" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F3">Figure 3:</a></div><div><div class="caption"><p>Potentiodynamic curves with corrosion parameter combination</p></div></div></div></div><p><span class="xref"><a href="#JKOSME_2023_v47n6_317_T3">Table 3</a></span> lists the <i>I<sub>corr</sub></i>., <i>E<sub>corr</sub></i>., and <i>mpy</i> values obtained using the Tafel extrapolation method. The samples exhibited an <i>mpy</i> range from a minimum of 9.7 to a maximum of 192.8. Factors had varying influences based on the mean and variance of the response. The order is as follows: factor B (pH), factor A (temperature), and factor C (salt conc.).</p>
+<div class="table-wrap iconblock ten_col whole_rhythm clearfix" id="JKOSME_2023_v47n6_317_T3"><a class="table img_link icnblk_img figpopup" target="table" href="#JKOSME_2023_v47n6_317_T3" rid-figpopup="JKOSME_2023_v47n6_317_T3" rid-ob="ob-JKOSME_2023_v47n6_317_T3" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_T3"><img class="small-thumb" alt="" src="../img/npr_tablethum.jpg" title="Table 3:"></a><div class="icnblk_cntnt"><div><a class="figpopup" target="table" href="#JKOSME_2023_v47n6_317_T3" rid-figpopup="JKOSME_2023_v47n6_317_T3" rid-ob="ob-JKOSME_2023_v47n6_317_T3" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_T3">Table 3:</a></div><div class="caption"><p>Icorr, Ecorr, and mpy derived through the Tafel extrapolation method</p></div></div></div><p>This suggests that each factor and its level affect both the polarization curve and the corrosion characteristics. Consequently, they can serve as inputs for the ANN to produce significant outputs.</p>
+</div>
+<div id="JKOSME_2023_v47n6_317_sec3-2">
+<h3 class="1">3.2 Optimal Parameters of ANN</h3>
+<p>Determining the optimal parameters for the ANN model is significant to ensure superior performance during the training, validation, and test phases. These parameters can depend on various factors including the network structure, activation function, learning rate, and data acquisition. Finding the optimal combination typically involves multiple iterations and adjustments. In our study, we employed an ANN with a 4-50-50-1 architecture. The mean squared error (MSE), as presented in <span class="xref"><a href="#S4">Equation (4)</a></span>, was the chosen loss function for training the model.</p>
+<div class="disp-formula" style="margin-bottom:10px;" id="S4"><table style="width:100%;"><tr><td style="width:90%;"><math xmlns="http://www.w3.org/1998/Math/MathML" exclude-result-prefixes="util xsl xlink mml"><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="EQ4" display="block"><mml:mfrac><mml:mrow><mml:mo>,</mml:mo></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:mfrac><mml:mrow><mml:msubsup><mml:mo stretchy="true">∑</mml:mo><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msubsup><mml:mrow><mml:msup><mml:mrow><mml:mfenced separators="|"><mml:mrow><mml:mi>X</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:mfenced><mml:mo>-</mml:mo><mml:msup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">'</mml:mi></mml:mrow></mml:msup><mml:mfenced separators="|"><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mrow><mml:mo>,</mml:mo></mml:math></math></td><td style="text-align:right;"><span class="label">(4)&#160;
+				</span></td></tr></table></div><p>where, <i>n</i> is the number of outputs for the training set, <i>X</i>(<i>t</i>) is the actual value, and <i>X</i>′(<i>t</i>) is the predicted value. The MSE is used as a loss function for the regression results in the ANN model and represents the difference between the actual and predicted values. Consequently, one of the primary objectives of model training is to minimize MSE through iterative learning.</p>
+<p><span class="xref"><a href="#JKOSME_2023_v47n6_317_F4">Figure 4</a></span> depicts the MSE in relation to the number of epochs for the ANN model. The MSE decreased sharply up to 100 epochs, after which the reduction proceeded more gradually. At a maximum of 500 epochs, the MSE values were found to be 0.0018 and 0.0016, with no further significant decline beyond more epochs. This trend suggests that the ANN model reached an optimal level of training at approximately 100 epochs, where additional training did not markedly enhance the performance.</p>
+<div class="fig iconblock ten_col whole_rhythm clearfix" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F4" id="JKOSME_2023_v47n6_317_F4"><a class="icnblk_img figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F4" rid-figpopup="JKOSME_2023_v47n6_317_F4" rid-ob="ob-JKOSME_2023_v47n6_317_F4">
+<img class="small-thumb" alt="Figure 4:" title="Figure 4:" src="/xml/39261/JKOSME_2023_v47n6_317_f004.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f004.jpg"></a>
+<div class="icnblk_cntnt" id="lgnd_JKOSME_2023_v47n6_317_F4"><div><a class="figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F4" rid-figpopup="JKOSME_2023_v47n6_317_F4" rid-ob="ob-JKOSME_2023_v47n6_317_F4" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F4">Figure 4:</a></div><div><div class="caption"><p>MSE in relation to the number of epochs for the ANN model</p></div></div></div></div></div>
+<div id="JKOSME_2023_v47n6_317_sec3-3">
+<h3 class="1">3.3 Validation for ANN model</h3>
+<p><span class="xref"><a href="#JKOSME_2023_v47n6_317_F5">Figure 5</a></span> illustrates both the actual and predicted curves. For a total of 27 polarization curves, the ANN presented curves that closely resembled the actual shape, as <span class="xref"><a href="#JKOSME_2023_v47n6_317_F5">Figure 5(a)-(c)</a></span>.</p>
+<div class="fig iconblock ten_col whole_rhythm clearfix" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F5" id="JKOSME_2023_v47n6_317_F5"><a class="icnblk_img figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F5" rid-figpopup="JKOSME_2023_v47n6_317_F5" rid-ob="ob-JKOSME_2023_v47n6_317_F5">
+<img class="small-thumb" alt="Figure 5:" title="Figure 5:" src="/xml/39261/JKOSME_2023_v47n6_317_f005.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f005.jpg"></a>
+<div class="icnblk_cntnt" id="lgnd_JKOSME_2023_v47n6_317_F5"><div><a class="figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F5" rid-figpopup="JKOSME_2023_v47n6_317_F5" rid-ob="ob-JKOSME_2023_v47n6_317_F5" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F5">Figure 5:</a></div><div><div class="caption"><p>Experimental and ANN predicted potentiodynamic curves for some condition</p></div></div></div></div><p>However, as observed in experiments no. 6 and 19, there were slight deviations at some data points. The ANN showed a very high learning performance on the entire training dataset; however, the cathode region exhibited a slightly lower learning performance than the anode region. Given that ANN models are trained to minimize the loss function, they may emphasize learning in certain regions over others, depending on the range or distribution of the output value [<span class="xref"><a href="#JKOSME_2023_v47n6_317_B14">14</a></span>]. In this study, the output of the ANN model was the current density. The current density in the anodic region in the data was up to two orders of magnitude higher than that in the cathodic region. Therefore, it is possible that the ANN model was trained to preferentially reduce the MSE for the data in the anode region.</p>
+<p><span class="xref"><a href="#JKOSME_2023_v47n6_317_F6">Figure 6</a></span> illustrates the correlation between the actual values and ANN’s predictions, providing empirical evidence of the model's performance across the training, validation, and test data. Most data points were concentrated near the best-fit regression line (Y=T), demonstrating a high correlation, with a coefficient of determination close to 1. The correlation coefficients R<sup>2</sup> for the training, validation, and test phases were 0.999, 0.9847, and 0.984, respectively, indicating a robust model fitness. Although there are minor deviations between the actual and predicted data at specific points, the overall predictions were consistent and reliable. This indicates the potential of the ANN model to learn the pattern of the polarization curve in complex combinations of factors.</p>
+<div class="fig iconblock ten_col whole_rhythm clearfix" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F6" id="JKOSME_2023_v47n6_317_F6"><a class="icnblk_img figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F6" rid-figpopup="JKOSME_2023_v47n6_317_F6" rid-ob="ob-JKOSME_2023_v47n6_317_F6">
+<img class="small-thumb" alt="Figure 6:" title="Figure 6:" src="/xml/39261/JKOSME_2023_v47n6_317_f006.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f006.jpg"></a>
+<div class="icnblk_cntnt" id="lgnd_JKOSME_2023_v47n6_317_F6"><div><a class="figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F6" rid-figpopup="JKOSME_2023_v47n6_317_F6" rid-ob="ob-JKOSME_2023_v47n6_317_F6" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F6">Figure 6:</a></div><div><div class="caption"><p>Actual value vs. ANN predicted values for log(i)</p></div></div></div></div><p>However, a high degree of correlation coefficient might indicate a potential risk of overfitting. Overfitting means that the model might be too closely tailored to the training data, leading to decreased performance with new data. Therefore, external validation using datasets that are not included in the training phase is essential.</p>
+</div>
+<div id="JKOSME_2023_v47n6_317_sec3-4">
+<h3 class="1">3.4 Prediction Performance</h3>
+<p><span class="xref"><a href="#JKOSME_2023_v47n6_317_F7">Figure 7</a></span> shows a comparison of the actual polarization and prediction curves from the ANN model for the new test conditions excluded from the ANN training data. For Test Condition 3 in <span class="xref"><a href="#JKOSME_2023_v47n6_317_F7">Figure 7(c)</a></span>, the ANN generated a polarization curve that was very similar to the actual curve. In addition, <i>E<sub>corr</sub></i>. and <i>I<sub>corr</sub></i>. also showed very similar values, and the actual and predicted <i>mpy</i> values were found to be 42.109 and 35.369, respectively. In contrast, test conditions 1 and 2, illustrated in <span class="xref"><a href="#JKOSME_2023_v47n6_317_F7">Figure 7(a, b)</a></span>, exhibited similar <i>E<sub>corr</sub></i>. values However, a noticeable deviation in the current density between the anode and cathode is evident. This deviation is further emphasized by the significant <i>mpy</i> variation displayed in <span class="xref"><a href="#JKOSME_2023_v47n6_317_F7">Figure 7(d)</a></span>. Such outcomes underline the capacity of the ANN model to yield precise predictions for certain Test Conditions, while also revealing its limitations under other conditions, such as Test Conditions 1 and 2.</p>
+<div class="fig iconblock ten_col whole_rhythm clearfix" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F7" id="JKOSME_2023_v47n6_317_F7"><a class="icnblk_img figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F7" rid-figpopup="JKOSME_2023_v47n6_317_F7" rid-ob="ob-JKOSME_2023_v47n6_317_F7">
+<img class="small-thumb" alt="Figure 7:" title="Figure 7:" src="/xml/39261/JKOSME_2023_v47n6_317_f007.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f007.jpg"></a>
+<div class="icnblk_cntnt" id="lgnd_JKOSME_2023_v47n6_317_F7"><div><a class="figpopup" target="figure" href="#JKOSME_2023_v47n6_317_F7" rid-figpopup="JKOSME_2023_v47n6_317_F7" rid-ob="ob-JKOSME_2023_v47n6_317_F7" co-legend-rid="lgnd_JKOSME_2023_v47n6_317_F7">Figure 7:</a></div><div><div class="caption"><p>Actual and ANN curves (These conditions not included in Table 2)</p></div></div></div></div><p>The observed discrepancies can be attributed to inherent differences or potential noise in the test conditions, suggesting the need for more extensive data collection and model optimization. In summary, the ANN model in its present configuration demonstrates considerable capability in corrosion prediction, particularly in reproducing polarization curves, while emphasizing the need for ongoing optimization to enhance its wider application.</p>
+</div>
+</div>
+
+<hr class="section-rule">
+<div class="sec">
+<h2 class="head no_bottom_margin" id="JKOSME_2023_v47n6_317_sec4">4. Conclusion</h2>
+<p>In this study, we employed an ANN model to analyze the corrosion patterns of carbon steel based on potentiodynamic tests conducted within a structured experimental matrix defined by a three-level full factorial design. This systematic approach produced 27 distinct polarization curves, each containing 100 data points covering variables such as the temperature, pH, salinity, and polarization potential. Overall, this provided a robust dataset of 2700 data points for training and optimizing our ANN model.</p>
+<p>The results demonstrated that the ANN model exhibited robust learning performance in predicting the polarization curve patterns of carbon steel, especially when exposed to environments influenced by a combination of various conditions. In this study, the ANN model displayed notable accuracy, with a correlation coefficient exceeding 0.98 between the training dataset and the predicted outcomes. However, when analyzing data points outside the scope of the training set, the model showed significant discrepancies. It is thus clear that ANNs possess the capability to address the complexities of predicting corrosion behaviors, especially in settings marked by diverse environmental conditions. To further enhance the precision of the ANN model, ongoing efforts focusing on expanding training datasets, improving data preprocessing techniques, and optimizing the model's architecture remain essential.</p>
+</div>
+
+
+
+
+
+<div class="sec"><h2 id="__ack_title">Acknowledgments</h2>
+<p>This work was supported by the ‘Autonomous Ship Technology Development Program (20011164, Development of Performance Monitoring and Failure Prediction and Diagnosis Technology for Engine System of Autonomous Ships)’ funded by the Ministry of Trade, Industry &amp; Energy (MOTIE, Korea).</p>
+<div>
+<h3 class="1">Author Contributions</h3>
+<p>Conceptualization, K. H. Jung and J. H Lee; Methodology, K. H. Jung; Software, K. H. Jung; Validation, K. H. Jung; Formal Analysis, K. H. Jung; Investigation, K. H. Jung; Resources, J. H Lee; Data Curation, K. H. Jung; Writing—Original Draft Preparation, K. H. Jung; Writing—Review &amp; Editing, J. H Lee; Visualization, K. H. Jung; Supervision, J. H Lee; Project Administration, J. H Lee; Funding Acquisition, J. H Lee.</p>
+</div>
+</div><div id="__ref-list" class="sec"><h2 class="head no_bottom_margin" id="__ref-list_title">References</h2>
+<ul class="back-ref-list" style="list-style-type:decimal;">
+<li id="JKOSME_2023_v47n6_317_B1">
+<span>X. Hou, L. Gao, Z. Cui, and J. Yin, “Corrosion and protection of metal in the seawater desalination,” IOP Conference Series: Earth and Environmental Science, vol. 108, no. 2, p. 022037, 2018. [Online]. Available: https://iopscience.iop.org/article/10.1088/1755-1315/108/2/022037/meta<span>
+			[https://doi.org/10.1088/1755-1315/108/2/022037]
+		</span><a target="_blank" href="https://doi.org/10.1088/1755-1315/108/2/022037"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B2">
+<span>X. Jiang, Y. Yan, and Y. Su, “Data-driven pitting evolution prediction for corrosion-resistant alloys by time-series analysis,” npj Materials Degradation, vol. 6, no. 1, p. 92, 2022. [Online].<span>
+			[https://doi.org/10.1038/s41529-022-00307-4]
+		</span><a target="_blank" href="https://doi.org/10.1038/s41529-022-00307-4"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B3">
+<span>C. Wang, W. Li, Y. Wang, X. Yang, and S. Xu, “Study of electrochemical corrosion on Q235A steel under stray current excitation using combined analysis by electrochemical impedance spectroscopy and artificial neural network,” Construction and Building Materials, vol. 247, p. 118562, 2020. [Online].<span>
+			[https://doi.org/10.1016/j.conbuildmat.2020.118562]
+		</span><a target="_blank" href="https://doi.org/10.1016/j.conbuildmat.2020.118562"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B4">
+<span>Y. Liu, X. Han, L. Kang, and Q. Li, “Prediction of corrosion rates of Ni-TiN composite coating using a radial basis function neural network,” International Journal of Electrochemical Science, vol. 17, no. 6, p. 220626, 2022. [Online].<span>
+			[https://doi.org/10.20964/2022.06.15]
+		</span><a target="_blank" href="https://doi.org/10.20964/2022.06.15"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B5">
+<span>J. Y, Park and B. S Seo, “A study on resilient back-propagation neural network model for estimation of welding properties of flux cored wire,” Journal of the Korean Society of Marine Engineering, vol. 42, no. 7, pp. 531-538, 2018 (in Korean). [Online]. Available: https://www.e-jamet.org/xml/15811/15811.pdf, .<span>
+			[https://doi.org/10.5916/jkosme.2018.42.7.531]
+		</span><a target="_blank" href="https://doi.org/10.5916/jkosme.2018.42.7.531"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B6">
+<span>A. A. Dastgerdi, A. Brenna, M. Ormellese, M. Pedeferri, and F. Bolzoni, “Experimental design to study the influence of temperature, pH, and chloride concentration on the pitting and crevice corrosion of UNS S30403 stainless steel,” Corrosion Science, vol. 159, p. 108160, 2019. [Online].<span>
+			[https://doi.org/10.1016/j.corsci.2019.108160]
+		</span><a target="_blank" href="https://doi.org/10.1016/j.corsci.2019.108160"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B7">
+<span>A. H. Alamri, “Localized corrosion and mitigation approach of steel materials used in oil and gas pipelines–An overview,” Engineering Failure Analysis, vol. 116, p. 104735, 2020. [Online].<span>
+			[https://doi.org/10.1016/j.engfailanal.2020.104735]
+		</span><a target="_blank" href="https://doi.org/10.1016/j.engfailanal.2020.104735"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B8">
+<span>F. Arjmand and A. Adriaens, “Influence of pH and chloride concentration on the corrosion behavior of unalloyed copper in NaCl solution: A comparative study between the micro and macro scales,” Materials, vol. 5, no. 12, pp. 2439-2464, 2012. [Online].<span>
+			[https://doi.org/10.3390/ma5122439]
+		</span><a target="_blank" href="https://doi.org/10.3390/ma5122439"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B9">
+<span>C. G. Soares, Y. Garbatov, A. Zayed, and G. Wang, “Influence of environmental factors on corrosion of ship structures in marine atmosphere,” Corrosion Science, vol. 51, no. 9, pp. 2014-2026, 2009. [Online].<span>
+			[https://doi.org/10.1016/j.corsci.2009.05.028]
+		</span><a target="_blank" href="https://doi.org/10.1016/j.corsci.2009.05.028"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B10">
+<span>M. T. Gudze and R. E. Melchers, “Operational based corrosion analysis in naval ships,” Corrosion science, vol. 50, no. 12, pp. 3296-3307, 2008. [Online].<span>
+			[https://doi.org/10.1016/j.corsci.2008.08.048]
+		</span><a target="_blank" href="https://doi.org/10.1016/j.corsci.2008.08.048"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B11">
+<span>A. Heyer, F. D'Souza, C. F. Leon Morales, G. Ferrari, J. M. C. Mol, and J. H. W. de Wit, “Ship ballast tanks a review from microbial corrosion and electrochemical point of view,” Ocean Engineering, vol. 70, pp. 188-200, 2013. [Online].<span>
+			[https://doi.org/10.1016/j.oceaneng.2013.05.005]
+		</span><a target="_blank" href="https://doi.org/10.1016/j.oceaneng.2013.05.005"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B12">
+<span>D. A. Jones, Principles and Prevention of Corrosion, 2nd edition: Prentice Hall, 1996.</span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B13">
+<span>X. L. Zhang, Z. H. Jiang, Z. P. Yao, Y. Song, and Z. D. Wu, “Effects of scan rate on the potentiodynamic polarization curve obtained to determine the Tafel slopes and corrosion current density,” Corrosion Science, vol. 51, no. 3, pp. 581-587, 2009. [Online].<span>
+			[https://doi.org/10.1016/j.corsci.2008.12.005]
+		</span><a target="_blank" href="https://doi.org/10.1016/j.corsci.2008.12.005"><img class="crossref_img" src="/_common/images/crossref.gif"></a></span>
+</li>
+<li id="JKOSME_2023_v47n6_317_B14">
+<span>A. H. Jiang, D. L. K. Wong, G. Zhou, D. G. Andersen, J. Dean, G. R. Ganger, and <i>et al</i>., “Accelerating deep learning by focusing on the biggest losers,” arXiv preprint arXiv:1910.00762, , 2019. [Online].</span>
+</li></ul></div>
+
+</article>
+
+
+
+
+
+<article data-type="fig" id="ob-JKOSME_2023_v47n6_317_F1"><div class="anchored whole_rhythm" id="JKOSME_2023_v47n6_317_F1"><h3>Figure 1:</h3><div class="fig"><img title="" style="max-width:80%" alt="Figure 1:" src="/xml/39261/JKOSME_2023_v47n6_317_f001.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f001.jpg"></div><div class="caption">Tafel extrapolation for determining electrochemical corrosion parameters</div></div>
+</article>
+
+
+<article data-type="fig" id="ob-JKOSME_2023_v47n6_317_F2"><div class="anchored whole_rhythm" id="JKOSME_2023_v47n6_317_F2"><h3>Figure 2:</h3><div class="fig"><img title="" style="max-width:80%" alt="Figure 2:" src="/xml/39261/JKOSME_2023_v47n6_317_f002.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f002.jpg"></div><div class="caption">Schematic diagram for ANN architecture</div></div>
+</article>
+
+
+<article data-type="fig" id="ob-JKOSME_2023_v47n6_317_F3"><div class="anchored whole_rhythm" id="JKOSME_2023_v47n6_317_F3"><h3>Figure 3:</h3><div class="fig"><img title="" style="max-width:80%" alt="Figure 3:" src="/xml/39261/JKOSME_2023_v47n6_317_f003.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f003.jpg"></div><div class="caption">Potentiodynamic curves with corrosion parameter combination</div></div>
+</article>
+
+
+<article data-type="fig" id="ob-JKOSME_2023_v47n6_317_F4"><div class="anchored whole_rhythm" id="JKOSME_2023_v47n6_317_F4"><h3>Figure 4:</h3><div class="fig"><img title="" style="max-width:80%" alt="Figure 4:" src="/xml/39261/JKOSME_2023_v47n6_317_f004.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f004.jpg"></div><div class="caption">MSE in relation to the number of epochs for the ANN model</div></div>
+</article>
+
+
+<article data-type="fig" id="ob-JKOSME_2023_v47n6_317_F5"><div class="anchored whole_rhythm" id="JKOSME_2023_v47n6_317_F5"><h3>Figure 5:</h3><div class="fig"><img title="" style="max-width:80%" alt="Figure 5:" src="/xml/39261/JKOSME_2023_v47n6_317_f005.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f005.jpg"></div><div class="caption">Experimental and ANN predicted potentiodynamic curves for some condition</div></div>
+</article>
+
+
+<article data-type="fig" id="ob-JKOSME_2023_v47n6_317_F6"><div class="anchored whole_rhythm" id="JKOSME_2023_v47n6_317_F6"><h3>Figure 6:</h3><div class="fig"><img title="" style="max-width:80%" alt="Figure 6:" src="/xml/39261/JKOSME_2023_v47n6_317_f006.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f006.jpg"></div><div class="caption">Actual value vs. ANN predicted values for log(i)</div></div>
+</article>
+
+
+<article data-type="fig" id="ob-JKOSME_2023_v47n6_317_F7"><div class="anchored whole_rhythm" id="JKOSME_2023_v47n6_317_F7"><h3>Figure 7:</h3><div class="fig"><img title="" style="max-width:80%" alt="Figure 7:" src="/xml/39261/JKOSME_2023_v47n6_317_f007.jpg" src-large="/xml/39261/JKOSME_2023_v47n6_317_f007.jpg"></div><div class="caption">Actual and ANN curves (These conditions not included in Table 2)</div></div>
+</article>
+<article data-type="table-wrap" id="ob-JKOSME_2023_v47n6_317_T1"><div class="table-wrap anchored whole_rhythm" id="JKOSME_2023_v47n6_317_T1"><h3>Table 1:</h3><div class="caption"><p>Designed factors and their levels</p></div><div class="large_tbl"><table class="bm" cellpadding="3" frame="hsides" rules="groups" style="margin-top:-8px; margin-bottom:10px;table-layout: auto;min-width:400px !important;">
+<thead><tr><th style="background-color:#f2f2f2;" align="center" rowspan="2">Factors</th>
+<th style="background-color:#f2f2f2;" align="center" rowspan="2">Unit</th>
+<th style="background-color:#f2f2f2;border-bottom:1px solid #000;" align="center" colspan="3">Level (Normalized value)</th>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">1</th>
+<th style="background-color:#f2f2f2;" align="center">2</th>
+<th style="background-color:#f2f2f2;" align="center">3</th>
+</tr>
+</thead>
+<tr><td valign="center" align="center">Temp. (A)</td>
+<td valign="center" align="center">℃</td>
+<td valign="center" align="center">10</td>
+<td valign="center" align="center">25</td>
+<td valign="center" align="center">40</td>
+</tr>
+<tr><td valign="center" align="center">pH (B)</td>
+<td valign="center" align="center"></td>
+<td valign="center" align="center">3</td>
+<td valign="center" align="center">5</td>
+<td valign="center" align="center">7</td>
+</tr>
+<tr><td valign="center" align="center">NaCl(C)</td>
+<td valign="center" align="center">%</td>
+<td valign="center" align="center">3.5</td>
+<td valign="center" align="center">5.25</td>
+<td valign="center" align="center">7</td>
+</tr>
+
+</table>
+</div></div></article>
+<article data-type="table-wrap" id="ob-JKOSME_2023_v47n6_317_T2"><div class="table-wrap anchored whole_rhythm" id="JKOSME_2023_v47n6_317_T2"><h3>Table 2:</h3><div class="caption"><p>Experiment condition in a full factorial design</p></div><div class="large_tbl"><table class="bm" cellpadding="3" frame="hsides" rules="groups" style="margin-top:-8px; margin-bottom:10px;table-layout: auto;min-width:400px !important;">
+<thead><tr><th style="background-color:#f2f2f2;" align="center" rowspan="2">Exp.<br>
+No.</th>
+<th style="background-color:#f2f2f2;border-bottom:1px solid #000;" align="center" colspan="3">Factor</th>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">Temp., ℃</th>
+<th style="background-color:#f2f2f2;" align="center">pH</th>
+<th style="background-color:#f2f2f2;" align="center">NaCl, %</th>
+</tr>
+</thead>
+<tr><th style="background-color:#f2f2f2;" align="center">1</th>
+<td valign="center" align="center">10</td>
+<td valign="center" align="center">3</td>
+<td valign="center" align="center">3.5</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">2</th>
+<td valign="center" align="center">10</td>
+<td valign="center" align="center">3</td>
+<td valign="center" align="center">5.25</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">3</th>
+<td valign="center" align="center">10</td>
+<td valign="center" align="center">3</td>
+<td valign="center" align="center">7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">4</th>
+<td valign="center" align="center">10</td>
+<td valign="center" align="center">5</td>
+<td valign="center" align="center">3.5</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">5</th>
+<td valign="center" align="center">10</td>
+<td valign="center" align="center">5</td>
+<td valign="center" align="center">5.25</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">6</th>
+<td valign="center" align="center">10</td>
+<td valign="center" align="center">5</td>
+<td valign="center" align="center">7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">7</th>
+<td valign="center" align="center">10</td>
+<td valign="center" align="center">7</td>
+<td valign="center" align="center">3.5</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">8</th>
+<td valign="center" align="center">10</td>
+<td valign="center" align="center">7</td>
+<td valign="center" align="center">5.25</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">9</th>
+<td valign="center" align="center">10</td>
+<td valign="center" align="center">7</td>
+<td valign="center" align="center">7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">10</th>
+<td valign="center" align="center">25</td>
+<td valign="center" align="center">3</td>
+<td valign="center" align="center">3.5</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">11</th>
+<td valign="center" align="center">25</td>
+<td valign="center" align="center">3</td>
+<td valign="center" align="center">5.25</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">12</th>
+<td valign="center" align="center">25</td>
+<td valign="center" align="center">3</td>
+<td valign="center" align="center">7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">13</th>
+<td valign="center" align="center">25</td>
+<td valign="center" align="center">5</td>
+<td valign="center" align="center">3.5</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">14</th>
+<td valign="center" align="center">25</td>
+<td valign="center" align="center">5</td>
+<td valign="center" align="center">5.25</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">15</th>
+<td valign="center" align="center">25</td>
+<td valign="center" align="center">5</td>
+<td valign="center" align="center">7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">16</th>
+<td valign="center" align="center">25</td>
+<td valign="center" align="center">7</td>
+<td valign="center" align="center">3.5</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">17</th>
+<td valign="center" align="center">25</td>
+<td valign="center" align="center">7</td>
+<td valign="center" align="center">5.25</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">18</th>
+<td valign="center" align="center">25</td>
+<td valign="center" align="center">7</td>
+<td valign="center" align="center">7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">19</th>
+<td valign="center" align="center">40</td>
+<td valign="center" align="center">3</td>
+<td valign="center" align="center">3.5</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">20</th>
+<td valign="center" align="center">40</td>
+<td valign="center" align="center">3</td>
+<td valign="center" align="center">5.25</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">21</th>
+<td valign="center" align="center">40</td>
+<td valign="center" align="center">3</td>
+<td valign="center" align="center">7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">22</th>
+<td valign="center" align="center">40</td>
+<td valign="center" align="center">5</td>
+<td valign="center" align="center">3.5</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">23</th>
+<td valign="center" align="center">40</td>
+<td valign="center" align="center">5</td>
+<td valign="center" align="center">5.25</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">24</th>
+<td valign="center" align="center">40</td>
+<td valign="center" align="center">5</td>
+<td valign="center" align="center">7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">25</th>
+<td valign="center" align="center">40</td>
+<td valign="center" align="center">7</td>
+<td valign="center" align="center">3.5</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">26</th>
+<td valign="center" align="center">40</td>
+<td valign="center" align="center">7</td>
+<td valign="center" align="center">5.25</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">27</th>
+<td valign="center" align="center">40</td>
+<td valign="center" align="center">7</td>
+<td valign="center" align="center">7</td>
+</tr>
+
+</table>
+</div></div></article>
+<article data-type="table-wrap" id="ob-JKOSME_2023_v47n6_317_T3"><div class="table-wrap anchored whole_rhythm" id="JKOSME_2023_v47n6_317_T3"><h3>Table 3:</h3><div class="caption"><p>Icorr, Ecorr, and mpy derived through the Tafel extrapolation method</p></div><div class="large_tbl"><table class="bm" cellpadding="3" frame="hsides" rules="groups" style="margin-top:-8px; margin-bottom:10px;table-layout: auto;min-width:400px !important;">
+<thead><tr><th style="background-color:#f2f2f2;" align="center">Test</th>
+<th style="background-color:#f2f2f2;" align="center"><i>E<sub>corr</sub></i>., <sub>mV</sub></th>
+<th style="background-color:#f2f2f2;" align="center"><i>I<sub>corr</sub></i>., <sub>μA</sub></th>
+<th style="background-color:#f2f2f2;" align="center"><i>mpy</i></th>
+</tr>
+</thead>
+<tr><th style="background-color:#f2f2f2;" align="center">1</th>
+<td valign="center" align="center">-628.4</td>
+<td valign="center" align="center">159.8</td>
+<td valign="center" align="center">72.1</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">2</th>
+<td valign="center" align="center">-620.1</td>
+<td valign="center" align="center">136.9</td>
+<td valign="center" align="center">62.8</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">3</th>
+<td valign="center" align="center">-631.9</td>
+<td valign="center" align="center">151.1</td>
+<td valign="center" align="center">68.2</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">4</th>
+<td valign="center" align="center">-531.0</td>
+<td valign="center" align="center">54.4</td>
+<td valign="center" align="center">24.5</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">5</th>
+<td valign="center" align="center">-559.1</td>
+<td valign="center" align="center">62.8</td>
+<td valign="center" align="center">28.3</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">6</th>
+<td valign="center" align="center">-556.9</td>
+<td valign="center" align="center">21.6</td>
+<td valign="center" align="center">9.7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">7</th>
+<td valign="center" align="center">-558.4</td>
+<td valign="center" align="center">54.8</td>
+<td valign="center" align="center">24.7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">8</th>
+<td valign="center" align="center">-548.3</td>
+<td valign="center" align="center">52.3</td>
+<td valign="center" align="center">23.6</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">9</th>
+<td valign="center" align="center">-549.7</td>
+<td valign="center" align="center">47.0</td>
+<td valign="center" align="center">21.2</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">10</th>
+<td valign="center" align="center">-678.7</td>
+<td valign="center" align="center">160.9</td>
+<td valign="center" align="center">72.7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">11</th>
+<td valign="center" align="center">-678.4</td>
+<td valign="center" align="center">193.6</td>
+<td valign="center" align="center">87.4</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">12</th>
+<td valign="center" align="center">-688.9</td>
+<td valign="center" align="center">180.8</td>
+<td valign="center" align="center">81.6</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">13</th>
+<td valign="center" align="center">-573.3</td>
+<td valign="center" align="center">76.1</td>
+<td valign="center" align="center">34.4</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">14</th>
+<td valign="center" align="center">-586.1</td>
+<td valign="center" align="center">48.0</td>
+<td valign="center" align="center">21.7</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">15</th>
+<td valign="center" align="center">-599.9</td>
+<td valign="center" align="center">31.2</td>
+<td valign="center" align="center">14.1</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">16</th>
+<td valign="center" align="center">-587.0</td>
+<td valign="center" align="center">69.5</td>
+<td valign="center" align="center">31.4</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">17</th>
+<td valign="center" align="center">-569.5</td>
+<td valign="center" align="center">51.6</td>
+<td valign="center" align="center">23.3</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">18</th>
+<td valign="center" align="center">-582.6</td>
+<td valign="center" align="center">49.6</td>
+<td valign="center" align="center">22.4</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">19</th>
+<td valign="center" align="center">-656.7</td>
+<td valign="center" align="center">426.9</td>
+<td valign="center" align="center">192.8</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">20</th>
+<td valign="center" align="center">-669.2</td>
+<td valign="center" align="center">386.6</td>
+<td valign="center" align="center">174.6</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">21</th>
+<td valign="center" align="center">-665.1</td>
+<td valign="center" align="center">381.5</td>
+<td valign="center" align="center">172.3</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">22</th>
+<td valign="center" align="center">-533.2</td>
+<td valign="center" align="center">159.6</td>
+<td valign="center" align="center">72.0</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">23</th>
+<td valign="center" align="center">-573.4</td>
+<td valign="center" align="center">122.8</td>
+<td valign="center" align="center">55.4</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">24</th>
+<td valign="center" align="center">-569.3</td>
+<td valign="center" align="center">126.4</td>
+<td valign="center" align="center">57.1</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">25</th>
+<td valign="center" align="center">-554.7</td>
+<td valign="center" align="center">122.4</td>
+<td valign="center" align="center">55.2</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">26</th>
+<td valign="center" align="center">-552.9</td>
+<td valign="center" align="center">142.1</td>
+<td valign="center" align="center">64.2</td>
+</tr>
+<tr><th style="background-color:#f2f2f2;" align="center">27</th>
+<td valign="center" align="center">-558.8</td>
+<td valign="center" align="center">106.5</td>
+<td valign="center" align="center">48.1</td>
+</tr>
+
+</table>
+</div></div></article>
+
+
+</div>
+<div xmlns="" id="jr-scripts">
+<script src="../lib/js/jquery-1.7.2.js" type="text/javascript"></script><script src="../lib/js/modernizr.jr.js" type="text/javascript"></script><script src="../lib/js/jquery.throttle.js" type="text/javascript"></script><script src="../lib/js/jquery.mousewheel.js?x=1" type="text/javascript"></script><script src="../lib/js/rangeinput.js" type="text/javascript"></script><script src="../lib/js/jquery.touchSwipe.js" type="text/javascript"></script><script src="../lib/js/jquery.hoverIntent.js" type="text/javascript"></script><script src="../lib/js/figpopup.js" type="text/javascript"></script><script src="../js/jr.utils.js" type="text/javascript"></script><script src="../js/jquery.jr.ft.js" type="text/javascript"></script><script src="../js/jquery.jr.pagemanager.js" type="text/javascript"></script><script src="../js/jquery.jr.paginationstatus.js" type="text/javascript"></script><script src="../js/jquery.jr.pageturnsensor.js" type="text/javascript"></script><script src="../js/jquery.jr.pageprogressbar.js" type="text/javascript"></script><script src="../js/jquery.jr.links.js" type="text/javascript"></script><script src="../js/jquery.jr.historykeeper.js" type="text/javascript"></script><script src="../js/jquery.jr.objectbox.js" type="text/javascript"></script><script src="../js/jquery.jr.switcher.js" type="text/javascript"></script><script src="../js/jquery.jr.panel.js" type="text/javascript"></script><script src="../js/jquery.jr.panel.typo.js" type="text/javascript"></script><script src="../js/jquery.jr.panel.cmap.js" type="text/javascript"></script><script src="../js/jquery.jr.panel.istrip.js" type="text/javascript"></script><script src="../js/jquery.jr.fip.js" type="text/javascript"></script><script src="../js/jats.reader.js" type="text/javascript"></script><script src="../js/nuripr.js" type="text/javascript"></script>
+<script type="text/x-mathjax-config">
+              MathJax.Hub.Config({
+                SVG: {
+                  scale: 90,
+                  linebreaks: {
+                    automatic: true,
+                    width: "container"
+                  }
+                },
+                showProcessingMessages: false,
+                messageStyle: "none"
+              });
+              // 축소됨
+            </script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+
+</div>
+</body>
+
+</html>

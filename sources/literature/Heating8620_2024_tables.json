@@ -1,0 +1,140 @@
+[
+  [
+    [
+      "Element",
+      "Cr",
+      "Ni",
+      "Mn",
+      "Mo",
+      "Si",
+      "C",
+      "S",
+      "P",
+      "Fe"
+    ],
+    [
+      "Wrought 8620",
+      "0.4",
+      "0.4",
+      "0.7",
+      "0.15",
+      "0.15",
+      "0.18",
+      "0.04",
+      "0.035",
+      "Bal."
+    ]
+  ],
+  [
+    [
+      "Samples",
+      "E corr (mV)",
+      "i corr (μA/cm 2 )",
+      "β A (mV/Decade)",
+      "β C (mV/Decade)",
+      "R P (Ω·cm 2 )",
+      "Corrosion Rate (mpy)"
+    ],
+    [
+      "No-HT",
+      "−872.3 ± 24.9",
+      "12.15 ± 0.95",
+      "805.1 ± 79.4",
+      "246.8 ± 36.0",
+      "6.72 ± 0.75",
+      "5.55 ± 0.43"
+    ],
+    [
+      "SR",
+      "−851.3 ± 14.2",
+      "6.36 ± 0.53",
+      "760.3 ± 58.9",
+      "196.9 ± 15.9",
+      "9.51 ± 1.12",
+      "2.91 ± 0.23"
+    ],
+    [
+      "FR",
+      "−870.9 ± 7.3",
+      "9.91 ± 0.44",
+      "1035 ± 99.7",
+      "214.6 ± 38.6",
+      "7.72 ± 0.78",
+      "4.53 ± 0.20"
+    ],
+    [
+      "Temp SR",
+      "−935.5 ± 18.1",
+      "5.39 ± 0.95",
+      "552.4 ± 33.2",
+      "127.1 ± 10.6",
+      "8.52 ± 1.87",
+      "2.91 ± 0.69"
+    ],
+    [
+      "Temp FR",
+      "−839.2 ± 2.6",
+      "3.97 ± 0.46",
+      "511.4 ± 13.1",
+      "162.1 ± 08.1",
+      "13.51 ± 1.05",
+      "1.81 ± 0.21"
+    ]
+  ],
+  [
+    [
+      "Samples",
+      "Polarization Resistance (Ω)",
+      "Y 0 (μS-s α cm −2 )",
+      "α (0 < α < 1)",
+      "C dl (F × 10 4 )",
+      "Goodness of Fit (10 −2 )"
+    ],
+    [
+      "No-HT",
+      "945.2 ± 157.6",
+      "522 ± 54",
+      "0.839 ± 0.015",
+      "3.055",
+      "2.61 ± 1.6"
+    ],
+    [
+      "SR",
+      "1377.2 ± 59.8",
+      "497 ± 59",
+      "0.822 ± 0.007",
+      "5.003",
+      "0.33 ± 0.01"
+    ],
+    [
+      "FR",
+      "931.1 ± 171.6",
+      "479 ± 81",
+      "0.801 ± 0.020",
+      "7.589",
+      "2.46 ± 1.61"
+    ],
+    [
+      "Temp SR",
+      "989.8 ± 165.4",
+      "285 ± 54",
+      "0.837 ± 0.012",
+      "6.601",
+      "1.05 ± 0.96"
+    ],
+    [
+      "Temp FR",
+      "1234.0 ± 158.2",
+      "273 ± 8",
+      "0.870 ± 0.028",
+      "3.600",
+      "1.34 ± 0.98"
+    ]
+  ],
+  [
+    [
+      "",
+      "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+    ]
+  ]
+]

@@ -1,0 +1,16 @@
+{
+  "rows": 314,
+  "papers": 19,
+  "updated_cells": 2714,
+  "changed_rows": 224,
+  "source_csv_sha256": "7e60a965b8fa8bc337438c469e9efc3af829215201d333144b790f08f86f0cdf",
+  "author_thesis_sha256": "8aaa714911507f2940964e3ba0c9f6836ac07beceae0bb7a1fccb1a0d5c116a0",
+  "targets_unchanged": true,
+  "completeness_claim": "314 source-linked measured rows, NOT 300 rows with fully verified chemistry and manufacturing history.",
+  "unresolved": [
+    "216 rebar rows lack verified exact steel chemistry and numeric PDP temperature.",
+    "RH sequences and exposure-time measurements may reuse physical specimens; rows are not independent specimens.",
+    "Most RE studies still lack numeric pH and manufacturing detail.",
+    "No unreported chemistry, temperature or heat-treatment values were synthesized."
+  ]
+}

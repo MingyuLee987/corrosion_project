@@ -1,0 +1,184 @@
+[
+  {
+    "reference_id": "Sensitized304_2022",
+    "doi": "10.3390/ma15238543",
+    "source_url": "https://www.mdpi.com/1996-1944/15/23/8543",
+    "status": "archived_for_verification",
+    "bytes": 52307,
+    "tables": 7,
+    "source_text_sha256": "7d9d055683f84b5845483220fff205f299ac8b231ce5f465884f2659dd990564",
+    "source_html_sha256": "04b36d91c90e5167dd390c1950507c4a7e5f3b6f169068926d1329a32460d606"
+  },
+  {
+    "reference_id": "SLM17_4_2025",
+    "doi": "10.3390/met15030232",
+    "source_url": "https://www.mdpi.com/2075-4701/15/3/232",
+    "status": "archived_for_verification",
+    "bytes": 77779,
+    "tables": 8,
+    "source_text_sha256": "d249a40ebd33d1a064a37145fb4de60b41da86c1ea92702afd54badb93446424",
+    "source_html_sha256": "9e0adf919b7f9f0dea4f3cf8025373134e3fd26ad6711250078176f93ab68597"
+  },
+  {
+    "reference_id": "Nitriding17_7_2024",
+    "doi": "10.3390/met14091061",
+    "source_url": "https://www.mdpi.com/2075-4701/14/9/1061",
+    "status": "archived_for_verification",
+    "bytes": 60869,
+    "tables": 4,
+    "source_text_sha256": "4eace0123c8e9e7a4df1d3b9195dc2c2e02565a50a92aa8b6cbd3c950706a827",
+    "source_html_sha256": "61b7ff0e8a8e9350799c0471eb7564b095abf22076a8005f41186cea3f967751"
+  },
+  {
+    "reference_id": "Heating8620_2024",
+    "doi": "10.3390/cmd5030016",
+    "source_url": "https://www.mdpi.com/2624-5558/5/3/16",
+    "status": "archived_for_verification",
+    "bytes": 98336,
+    "tables": 4,
+    "source_text_sha256": "7c1526204ec707106c6a9325074d1d2eb825f05c446e658fe0b81758b52808c5",
+    "source_html_sha256": "c329833a3f8eb190af0b63d1be99614a2eabd6c96bf32409285c50db7973d18f"
+  },
+  {
+    "reference_id": "S275_2022",
+    "doi": "10.3390/met12081386",
+    "source_url": "https://www.mdpi.com/2075-4701/12/8/1386",
+    "status": "archived_for_verification",
+    "bytes": 76339,
+    "tables": 9,
+    "source_text_sha256": "f6b45a5528ac0f28b228c5366af3ca0c5ab8c3ee44ccc1882e2850c549bb9e2a",
+    "source_html_sha256": "d0ea4eee1480c47d2783d9bed7ad7feb316caf6975c5cdc215b47ac13cc58007"
+  },
+  {
+    "reference_id": "PassivationPH_2022",
+    "doi": "10.3390/met12061033",
+    "source_url": "https://www.mdpi.com/2075-4701/12/6/1033",
+    "status": "archived_for_verification",
+    "bytes": 90191,
+    "tables": 6,
+    "source_text_sha256": "1f6c722d3fdf2b8d32e0b5c6fef0bbf0b70e70539107e1a8655da933f9eb2719",
+    "source_html_sha256": "c3e43de605b29d3c1b8513249e0b86b8b9454dbb2a880127630a1e6073b943b0"
+  },
+  {
+    "reference_id": "UCS23",
+    "doi": "10.3390/met13010066",
+    "source_url": "https://www.mdpi.com/2075-4701/13/1/66",
+    "status": "archived_for_verification",
+    "bytes": 41105,
+    "tables": 7,
+    "source_text_sha256": "0857ef2180add30d1054e3be47ac232c7ef7549828efa48837f1dc0854de9ceb",
+    "source_html_sha256": "e11b95c9525e7a7e87660a7a2ae196ae2c3583a37f470b16f919fa6dd0193183"
+  },
+  {
+    "reference_id": "Zhang2025",
+    "doi": "10.3390/ma18010069",
+    "source_url": "https://www.mdpi.com/1996-1944/18/1/69",
+    "status": "archived_for_verification",
+    "bytes": 49065,
+    "tables": 5,
+    "source_text_sha256": "fa3f2d4ae7dfcbc1fcca916de1167190a5b671367eac036cc02219595f0a9d30",
+    "source_html_sha256": "5ad8f79cb4d33b22526de565b81f2099f39e253806a4b9a1bf5eaca277af77dc"
+  },
+  {
+    "reference_id": "Bridge25",
+    "doi": "10.3390/met15010085",
+    "source_url": "https://www.mdpi.com/2075-4701/15/1/85",
+    "status": "archived_for_verification",
+    "bytes": 71146,
+    "tables": 9,
+    "source_text_sha256": "c2d4b82ed9d14c1c3d0aa3e471e403c298e4ad59e8c80d7c53cde9fea416f91b",
+    "source_html_sha256": "e69f78ca6430a328d9d6f718232edfb5c712b635b808562a708dbfb017ed1a1e"
+  },
+  {
+    "reference_id": "Vanadis6_2021",
+    "doi": "10.3390/ma14133759",
+    "source_url": "https://www.mdpi.com/1996-1944/14/13/3759",
+    "status": "text_archived_html_unusable",
+    "bytes": 91138,
+    "source_text_sha256": "3884fcaf1ff3a6b1131889241d06cc6b87ef64c3762b3e04131e80eaf0bd8d47"
+  },
+  {
+    "reference_id": "Coat24",
+    "doi": "10.3390/coatings14040413",
+    "source_url": "https://www.mdpi.com/2079-6412/14/4/413",
+    "status": "archived_for_verification",
+    "bytes": 60273,
+    "tables": 5,
+    "source_text_sha256": "a63024ede8723d16d024897b09fe769a45e98f8aa3403bcf2e52991ebc65565a",
+    "source_html_sha256": "17d5af1467d1b699ba10d34826a95e7bf2224a809611fa2cb1e93c1981b269c5"
+  },
+  {
+    "reference_id": "Tempering5Cr15_2024",
+    "doi": "10.3390/met14030322",
+    "source_url": "https://www.mdpi.com/2075-4701/14/3/322",
+    "status": "text_archived_html_unusable",
+    "bytes": 75953,
+    "source_text_sha256": "b29fc7f122e91a4ac4ba0f31420aeb6f46a529f4554b2ab59c9f613fac50cd0b"
+  },
+  {
+    "reference_id": "Nitriding430_2022",
+    "doi": "10.3390/coatings12101404",
+    "source_url": "https://www.mdpi.com/2079-6412/12/10/1404",
+    "status": "text_archived_html_unusable",
+    "bytes": 80968,
+    "source_text_sha256": "6d5045434abfb3ea90f9d5487dfa5c9eb869bb3d3d400b2211dce1d74a4d4fc8"
+  },
+  {
+    "reference_id": "QuenchLowC_2020",
+    "doi": "10.3390/cryst10060508",
+    "source_url": "https://www.mdpi.com/2073-4352/10/6/508",
+    "status": "text_archived_html_unusable",
+    "bytes": 55698,
+    "source_text_sha256": "d112bfa3f41315f90703a0491667c802a1e75d17bd66048eda3b46a50bfe6638"
+  },
+  {
+    "reference_id": "JAMET_AH32_2023",
+    "doi": "10.5916/jamet.2023.47.6.317",
+    "source_url": "https://e-jamet.org/_PR/view/index.php?aidx=39261&bidx=3536",
+    "status": "archived_for_verification",
+    "bytes": 30914,
+    "tables": 8,
+    "source_text_sha256": "6806b34b44c2d2db3451c4ddbce298fe06884ed1ddfa09184aca3bc67424e9af",
+    "source_html_sha256": "32cae3daee18965bf5a5976336b707bb70bfa0c50273ec77913f9f70dd6eb918"
+  },
+  {
+    "reference_id": "Tempering9Cr_2024",
+    "doi": "10.3390/ma17204960",
+    "source_url": "https://www.mdpi.com/1996-1944/17/20/4960",
+    "status": "text_archived_html_unusable",
+    "bytes": 59829,
+    "source_text_sha256": "fef39c8e12d2fd06eed03498c128330a5546dcb093317d58a59fb2c7eacba9db"
+  },
+  {
+    "reference_id": "S32101_2025",
+    "doi": "10.3390/ma18091921",
+    "source_url": "https://www.mdpi.com/1996-1944/18/9/1921",
+    "status": "text_archived_html_unusable",
+    "bytes": 77518,
+    "source_text_sha256": "8e10eab5f37f42e3bc5c4f133bd80a11b890f06a9a247a8895436f63b6c28a07"
+  },
+  {
+    "reference_id": "AustemperHighSi_2021",
+    "doi": "10.3390/ma14020288",
+    "source_url": "https://www.mdpi.com/1996-1944/14/2/288",
+    "status": "text_archived_html_unusable",
+    "bytes": 65175,
+    "source_text_sha256": "0d6e8d6d45c68d00978ce642c1c32e522962ea47465493f42993cfb41cb355ac"
+  },
+  {
+    "reference_id": "QP9254_2025",
+    "doi": "10.3390/met15050509",
+    "source_url": "https://www.mdpi.com/2075-4701/15/5/509",
+    "status": "text_archived_html_unusable",
+    "bytes": 70669,
+    "source_text_sha256": "a30d3150c26db041fc1fe5789d2c2f0550de56f2bd33830c6a8229fc424bf6da"
+  },
+  {
+    "reference_id": "AISI1010Sulfolane_2020",
+    "doi": "10.3390/ma13112563",
+    "source_url": "https://www.mdpi.com/1996-1944/13/11/2563",
+    "status": "text_archived_html_unusable",
+    "bytes": 62961,
+    "source_text_sha256": "734e376141998e6c412818f1abb15c8fe756158a8b7b8fbdf31066c7fb2d210d"
+  }
+]

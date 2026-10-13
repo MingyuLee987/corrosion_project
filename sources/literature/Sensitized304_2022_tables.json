@@ -1,0 +1,154 @@
+[
+  [
+    [
+      "",
+      "Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    ]
+  ],
+  [
+    [
+      "Cr",
+      "Ni",
+      "Mn",
+      "N",
+      "C",
+      "Si",
+      "P",
+      "S",
+      "Fe"
+    ],
+    [
+      "18.00",
+      "8.01",
+      "1.40",
+      "0.075",
+      "0.027",
+      "0.38",
+      "0.031",
+      "0.004",
+      "balance"
+    ]
+  ],
+  [
+    [
+      "Component",
+      "Content (wt %)",
+      "Temperature (°C)",
+      "Time (s)",
+      "Current Density (A.cm −2 )"
+    ],
+    [
+      "oxalic acid demineralized water",
+      "10 90",
+      "20 ± 3",
+      "90",
+      "1.0"
+    ]
+  ],
+  [
+    [
+      "Component",
+      "Volume (mL)",
+      "Temperature (°C)",
+      "Time (min)"
+    ],
+    [
+      "HF HNO 3 H 2 O",
+      "2 15 to 100 mL",
+      "50",
+      "10"
+    ]
+  ],
+  [
+    [
+      "Type of Surface",
+      "Specimen Designation"
+    ],
+    [
+      "Sensitized (heat tinted)",
+      "S"
+    ],
+    [
+      "Sensitized and pickled (without high-temperature oxides)",
+      "SP"
+    ],
+    [
+      "Original non-treated",
+      "As received"
+    ]
+  ],
+  [
+    [
+      "Specimen Designation and Temperature (°C)",
+      "Corrosion Potential E corr (V vs. SCE)",
+      "Corrosion Current Density i corr (10 −3 mA/cm 2 )",
+      "Pitting Potential E p (V vs. SCE)"
+    ],
+    [
+      "As received 20",
+      "−0.23 ± 0.02",
+      "-",
+      "0.22 ± 0.01"
+    ],
+    [
+      "S 20",
+      "−0.39 ± 0.03",
+      "12.1 ± 0.49",
+      "-"
+    ],
+    [
+      "SP 20",
+      "−0.27 ± 0.02",
+      "-",
+      "−0.05 ± 0.04"
+    ],
+    [
+      "As received 50",
+      "−0.38 ± 0.03",
+      "-",
+      "0.09 ± 0.03"
+    ],
+    [
+      "S 50",
+      "−0.41 ± 0.03",
+      "24.0 ± 0.61",
+      "-"
+    ],
+    [
+      "SP 50",
+      "−0.43 ± 0.03",
+      "80.5 ± 1.02",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Specimen Designation and Temperature (°C)",
+      "Average Corrosion Rate (g/(m 2 h))"
+    ],
+    [
+      "As received 20",
+      "1.84 ± 0.51"
+    ],
+    [
+      "S 20",
+      "12.77 ± 0.49"
+    ],
+    [
+      "SP 20",
+      "14.41 ± 0.89"
+    ],
+    [
+      "As received 50",
+      "15.14 ± 0.31"
+    ],
+    [
+      "S 50",
+      "21.02 ± 0.37"
+    ],
+    [
+      "SP 50",
+      "21.59 ± 0.38"
+    ]
+  ]
+]

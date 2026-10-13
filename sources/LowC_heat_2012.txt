@@ -1,0 +1,564 @@
+PDF_PAGE 1
+  
+Int. J. Electrochem. Sci., 7 (2012) 6677 - 6692 
+ 
+International Journal of 
+ELECTROCHEMICAL 
+SCIENCE 
+www.electrochemsci.org 
+ 
+ 
+Influence of Heat and Laser Treatments on the Corrodibility of 
+the Reinforced Carbon Steel 
+ 
+G. A. El-Mahdy1,2,*,  M. M. Hegazy1, M. M. Eissa3, A. M. Fathy3, F. M. Sayed,1  
+N. El-Manakhly4 and Hamad –Al-Lohedan2 
+1 Chemistry Department, Faculty of Science, Helwan University, Cairo, Egypt 
+2 Surfactants research Chair, Chemistry Department, College of Science, King Saud University, 
+P.O.Box - 2455, Riyadh - 11451, Saudi Arabia 
+3 Steel Technology Department – Central Metallurgical Research & Development Institute (CMRDI) 
+4 Electrochemistry and Corrosion lab., National Research Centre (NRC), Egypt. 
+*E-mail: gamalmah2000@yahoo.com 
+ 
+Received:  5 July 2012  /  Accepted:  16 July 2012  /  Published: 1 August 2012 
+ 
+ 
+The influence of heat and laser treatments on the corrosion behavior of reinforced carbon steel was 
+investigated in calcium hydroxide solution using weight loss, photodynamic polarization 
+measurements, X -ray diffraction (XRD) and Scanning Electron Microscope (SEM).  Heat and laser 
+treatments play an important role for improvement of the mechanical an d corrosion resistance of the 
+reinforced carbon steel. The corrosion rate of laser alloyed sample is very close to that of the sample 
+treated with low heat treatment (900 oC) and is lower than that experienced for the sample treated at 
+higher one (1200 oC).  The results may be attributed to uneven distribution of Ti and V micro -alloying 
+element throughout the surface and low grain refinement for treated sample at high heat treatment 
+(1200 oC). 
+ 
+ 
+Keywords: Heat treatment, Laser, Micro-alloyed steel, Titanium, Vanadium, XRD, Polarization, SEM 
+ 
+ 
+1. INTRODUCTION 
+Construction and design problems have led to an early deterioration of concrete structures, 
+reducing their residual service life as the infrastructure is aged in a corrosive environment. Corrosion 
+of reinforcement steels is one of the main causes for the deterioration [1,2] and pitting corrosion of 
+reinforcement steels and is considered as the most disastrous form of corrosion  due to an extremely 
+difficult to be predicted [3]. A lot of work has been done  to investigate compositions of different types 
+of concrete and their effect on the corrosion behavior of steels [4 –12]  and  the  electrochemical 
+PDF_PAGE 2
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6678 
+behavior of  reinforcing steel in simulated concrete pore conditions in Ca(OH) 2 solutions [10,13-14]. 
+Several work have been also carried out using a mixture of Ca(OH) 2, Na(OH) and K(OH) solutions 
+[15,16] containing different ions such as Na +, K + and (SO4) 2- depending on the type of cement and 
+supplementary cementing materials [5,12]. Electrochemical measurement such as  potentiodynamic 
+polarization was  widely used for studying corrosion behavior of carbon steels in different solutions 
+[16,17–21]. A little work has been done to improve the mechanical properties and corrosion resistance 
+of reinforcing steel by dua l phase heat treatment [22 -24]. Laser surface melting has various 
+advantageous as homogenization, dissolution of the precipitated or  segregated phases and rapid 
+quenching from the melt leading to fine microstructure and consequently improvement of the 
+mechanical and corrosion resistance   properties. There is growing interest in application of laser 
+melting in carbon steel aimed at enhancing mechanical and corrosion resistance properties [25 -30].  In 
+our recent preceding paper [31] on this research, it was  found with experimental results that an 
+improvement in the corrosion resistant was achieved by micro -alloying additions of titanium (Ti) and 
+vanadium (V) to reinforced carbon steel.  In present work, the influence of heat and laser treatments on 
+the micro structure and corrodibility of the reinforced carbon steel will be investigated using weight 
+loss, potentiodynamic polarization measurements, XRD and SEM analysis.  
+ 
+ 
+ 
+2. EXPERMENTAL 
+2.1 Chemical composition 
+Table (1) represents the chemical composition of investigated heat treated steels. Ti and V were 
+added as micro-alloying elements to improve the mechanical and electrochemical properties. 
+ 
+Table 1. Chemical composition of the investigated non -micro-alloyed (X), V -micro-alloyed (V1, V2) 
+and  Ti-micro-alloyed (T1, T2) steels. 
+ 
+Steel 
+No 
+Chemical composition, wt% 
+C Mn Si P S Cr Ni Al V Ti 
+X 0.214 0.94 0.26 0.011 0.042 0.112 0.01 0.005 -- -- 
+V1 0.21 1 0.28 0.031 0.033 0.122 0.001 0.003 0.12 -- 
+V2 0.195 1.27 0.32 0.012 0.008 0.053 0.001 0.004 0.22 -- 
+T1 0.214 1.02 0.28 0.022 0.04 0.138 0.087 0.047 -- 0.12 
+T2 0.23 0.98 0.37 0.04 0.02 0.1 0.01 0.1 -- 0.2 
+ 
+2.2 Heat and laser treatments   
+Five samples were selected   for heat treatments. One non -micro-alloyed steel (X), two V -
+micro-alloyed steels, V (with d ifferent V-contents) and two Ti -micro-alloyed steels, T (with different 
+Ti-contents). All the specimens subjected to heat treatment process have the same C -content. Two heat 
+PDF_PAGE 3
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6679 
+treatments processes were used on the selected five samples. In the first one, the  steel samples were 
+reheated to 900oC for 1 hour and followed by quickly quenching in water. The quenched steel samples 
+were then tempered at 600 oC for 1 hour and followed by normal air cooling. In the second heat 
+treatment process, the steel samples were reheated to 1200 oC for 1hour and followed by quickly 
+quenching in water. The quenched steel samples were then tempered at 600 oC for 1 hour and followed 
+by normal air cooling  [4]. Three carbon steel samples were selected to apply laser surface hardening.  
+These employed samples are (V2, T1 and T2). The laser surface hardening process had been 
+implemented with Power 3 kW at pressure 0.6 Mpa.  
+ 
+2.3. Weight loss measurements 
+The weight loss versus time was monitored for Triplicate specimens in aqueous solution of 
+Ca(OH)2+0.6M NaCl adjusted to pH 12 and the average weight loss was determined.  
+ 
+2.4 Materials and test solutions  
+The area of the steel samples used in weight loss and electrochemical measurements were 0.15 
+cm2. They were fitted into glass tubing of a ppropriate internal diameter by an epoxy resin (Araldite 
+type), leaving only the front surface areas to contact the test solutions. The surface of the electrodes 
+were mechanically polished with emery papers of different grades down to 4/0, degreased with acetone 
+then thoroughly rinsed with bi-distilled water and eventually dried with air. The test solution (Ca(OH) 2 
+solution (pH = 12) containing  0.6 M NaCl was prepared from bi -distilled water and reagent grade 
+chemicals. 
+ 
+2.5 Potentiondynamic polarization measurements 
+All potentials were measured with respect to a saturated calomel reference electrode (SCE). A 
+spiral platinum electrode with large surface area served as a counter electrode. All electrochemical 
+measurements were performed using VOLTA LAB 40 (M odel PGZ301).  The polarization resistance 
+Rp  and  corrosion current  will be  calculated  with the aid of software (VoltaMaster 4 version 7.08).  
+ 
+2.6. X-ray Diffraction (XRD) and SEM analysis 
+The XRD patterns of the immersed specimens  were recorded usi ng a computer controlled X -
+ray powder diffractometer system, PANALYTICAL X PERTPRO (Holland) with Cu target radiation 
+(Ni filtered, wavelength =1.5418 A°) at a rating of 45 kV, 40 mA. The peak search and search match 
+programs (built in software) were used to identify the peak -table, and ultimately for identification of 
+the peaks. The scan rate was 0.05 - 20° per step and the measuring time was 1 sec. per step. 
+The film formed on the surface of the specimens after the immersion on the tested solution 
+regions was investigated using scanning electron microscope (SEM). The employed SEM was Jeal 
+PDF_PAGE 4
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6680 
+JSM-5410 scanning microscope (Japan). The filament was pre -centered tungsten hairpin type with an 
+accelerating voltage of 3.0 to 30 kV. The energy source was secondary el ectron and the magnification 
+used is 2000X. 
+ 
+ 
+ 
+3. RESULTS AND DISCUSSION  
+3.1. Influence of heat treatments on microstructure of carbon steel  
+Figure 1 shows the optical microscope examination of quenched -tempered heat treated 
+specimen. It can be seen the presence of martensite microstructure in all investigated reinforced carbon 
+steels. However, it is clear that  V (V1and V2) and Ti microalloyed steels (T1and T2)  exhibit finer 
+microstructure than non micro-alloyed steel (X) in the same heat treatment condition. 
+ 
+Steel X2 (non-micro-alloyed steel) after HT at  
+(1200ºC) 
+Steel X1 (non-micro-alloyed steel) after HT 
+at (900ºC) 
+ Steel V1 (V micro-alloyed steel) after HT  at 
+(1200ºC) 
+ Steel V1 (V micro-alloyed steel) after HT at  
+(900ºC) 
+PDF_PAGE 5
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6681 
+ Steel V2 (V micro-alloyed steel) after HT  at  
+(1200ºC) 
+ Steel V2 (V micro-alloyed steel) after HT at  
+(900ºC) 
+ Steel T2 (Ti micro-alloyed steel) after HT at 
+(1200ºC) 
+ Steel T2 (Ti micro-alloyed steel) after HT at  
+(900ºC) 
+ 
+Figure 1.  Microstructure of non -micro-alloyed steel (X ), V -micro-alloyed steels (V) and Ti -micro-
+alloyed steel (Ti) after quenching -tempering processes at two different heat treatments: At 900  
+oC (X1, V1, T1) At 1200 oC (X2, V2, T2) 
+ 
+This grain refinement may be attributed to the pinning effect of carbides an d   nitrides. 
+Moreover, the presence of Ti and V as micro-alloying elements on austenite and inhibition of austenite 
+grain growth during austenitizing process enhance the grain refinement. It can be concluded that the 
+heat treatment assist the grain refinement for the same micro-alloying composition of carbon steel.   
+ 
+3.2 Monitoring of the weight loss at different heat treatments  
+Figures 2 -4 show the monitoring data of the mass loss vs. time for examined carbon steel 
+samples immersed in aqueous solution  of Ca(OH)2 + 0.6M NaCl at pH 12 before heat treatment, after 
+heat treatment at 900 oC and at 1200 oC, respectively. It is clear that the mass loss of the sample 
+decreases in the following order: before heat treatment > after heat treatment at 1200 oC > aft er heat 
+PDF_PAGE 6
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6682 
+treatment at 900 oC. The corrosion rate of the samples was calculated at the different conditions and 
+quoted in table (2).  
+ 
+ 
+ 
+Figure 2. Monitoring data of the weight loss versus immersion time before heat treatment for non -
+micro-alloyed (X) V-micro-alloyed steels (V) and Ti-micro-alloyed (Ti) carbon steel  immersed  
+in Ca(OH)2 solution +0.6M NaCl at pH 12. 
+ 
+ 
+ 
+Figure 3. Monitoring data of the weight loss versus immersion time after heat treatment at 900  oC for 
+non-micro-alloyed (X) V -micro-alloyed steels (V) and Ti -micro-alloyed (Ti)  carbon steel 
+immersed in Ca(OH)2 solution +0.6M NaCl at pH 12.  
+PDF_PAGE 7
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6683 
+ 
+ 
+Figure 4. Monitoring data of the weight loss versus immersion time after heat treatment at 1200  oC 
+for non-micro-alloyed (X) V -micro-alloyed steels (V) and Ti -micro-alloyed (Ti)  carbon steel 
+immersed  in Ca(OH)2 solution +0.6M NaCl at pH 12 
+ 
+Table 2. Corrosion rate for of the investigated non -micro-alloyed (X1 and X2), V -micro-alloyed (V1, 
+V2) and Ti-micro-alloyed (T1, T2) steels in  Ca(OH)2 + 0.6 M NaCl at pH=12 at different heat 
+treatments. 
+ 
+Sample Corrosion rate mg/y 
+X (X1) HT at 900ºC 0.0349 
+(X2) HT at 1200ºC 0.0351 
+V1 HT at 900ºC 0.0235 
+HT at  1200ºC 0.0236 
+V2 HT at  900ºC 0.0187 
+HT at  1200ºC 0.020 
+T1 HT at  900ºC 0.0193 
+HT at  1200ºC 0.0213 
+T2 HT at  900ºC 0.0184 
+HT at  1200ºC 0.0198 
+ 
+It is interesting to note that the alloyed surface is highly sensitive to heat treatment.  The higher 
+corrosion rate experienced by the untreated sp ecimen can be attributed to the low grain refinement. 
+The results showed that the resistance of reinforced steel to corrosion for the sample treated at high 
+heat treatment (1200 oC) is substantially higher than that treated at low one (900 oC). It was concluded 
+that the treatment of the sample at low heat treatment is accompanied by an increase in ductility of the 
+surface layer, which in turn improve the resistance of the specimen to corrosion, since a more ductile 
+surface layer is less sensitive to the act ion of corrosive media.  Moreover, the addition of micro -
+PDF_PAGE 8
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6684 
+alloyimg elements like V and Ti to the reinforced carbon steel is playing an important role in the 
+improvement of the mechanical properties and corrosion resistance of the micro -alloyed carbon steel.  
+V and Ti additions enhance the grain size refinement, which is the main factor of decreasing the 
+corrosion rate of the micro -alloyed carbon steel samples. The micro -addition of V is a good aspect of 
+alloying elements of the steel. It exists on crystal and  grain boundary, which inhibit the grain growing 
+and dissolves much less in ferrite than in austenite leading to grain refinement.  The presence of Ti as 
+micro-alloying element can form a number of compounds that provide grain refinement and 
+strengthening the precipitation. A small amount of Ti is effective to enhance grain refinement in 
+reheated or continually cast steels since; it retards the grain growth of re-crystallized austenite. 
+ 
+3.3 Influence of heat and laser treatments on potentiodynamic polarization  
+ 
+ 
+Figure 5. Cathodic and anodic polarization curves for heat treated carbon steel samples at 900°C in 
+saturated Ca(OH)2 solution + 0.6 M NaCl at pH 12. 
+ 
+ 
+ 
+Figure 6. Cathodic and anodic polarization curves for heat treated carbon steel samples at 12 00°C in 
+saturated Ca(OH)2 solution + 0.6 M NaCl at pH 12. 
+PDF_PAGE 9
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6685 
+The results of cathodic and anodic potentiodynamic polarization curves for untreated sample 
+(US),  heat treated sample (HTS) of carbon steel electrodes at 900 and 1200  oC recorded at scan rate 
+0.5mVs-1 in saturated Ca(OH)2 solution + 0.6 M NaCl at pH 12 are  shown in Figs. 5 -6,  respectively. 
+Samples electrodes were immersed in the test solution for 90 minutes until a steady state potential was 
+attained then anodic polarization was subsequently comm enced from the open circuit potential. 
+Generally, all scans exhibit similar performance over the potential domain examined versus SCE. The 
+cathodic curves are almost similar, indicating that the same cathodic reaction takes place on the steel 
+surface. The current in the active region increases with the onset of the anodic polarization due to 
+metal dissolution. The anodic portion of the curve shows an active dissolution with a passive region.  
+The electrochemical dissolution parameters including the corrosio n potential (E corr.) and the corrosion 
+current density (Icorr.) were estimated and presented in table 3.   
+ 
+Table 3. Polarization parameters for the investigated non-micro-alloyed (X1 and X2), V-micro-alloyed 
+(V1, V2) and Ti-micro-alloyed (T1, T2) steels i n Ca(OH)2 + 0.6 M NaCl at pH=12 at different 
+heat treatments. 
+ 
+ Sample TAFEL CALCULATIONS 
+Corrosion 
+Rate mg/y 
+Icorr 
+µA/cm2 β anodic V/decade β cathodic  V/decade E (Inital) 
+ mV 
+E 
+(Final) 
+mV 
+X (X1) HT at 900ºC 8.9 19.58 1.65E-01 2.16E-01 -603.5 -393 
+(X2) HT at 
+1200ºC 
+9.246 20.35 1.00E-01 2.26E-01 -575.5 -371.5 
+V1 HT at  900ºC 4.831 10.63 1.30E-01 2.09E-01 -575 -373 
+HT at  1200ºC 5.477 15.76 1.71E-01 1.71E-01 -599 -357 
+V2 HT at  900ºC 2.439 5.368 1.90E-01 1.66E-01 -524 -300.5 
+HT at  1200ºC 3.598 7.917 2.86E-01 1.82E-01 -589.5 -337.5 
+T1 HT at  900ºC 1.988 4.375 1.32E-01 6.21E-02 -577.5 -374 
+HT at  1200ºC 3.313 7.291 1.83E-01 1.96E-01 -601 -355.5 
+T2 HT at  900ºC 4.391 9.662 1.24E-01 1.87E-01 -503.5 -348.5 
+HT at  1200ºC 4.779 10.52 2.68E-01 2.15E-01 -602 -337.5 
+ 
+It is clear  that the untreated specimen (US), has higher corrosion rate than that of HTS.  The 
+anodic dissolution current of US, is higher than that of HTS indicating that the dissolution rate was 
+greatly influenced by heat treatment. T herefore, the second phase particles induced by heat treatment 
+seem to be responsible for the lower corrosion rate. The higher corrosion rate experienced by US  can 
+be attributed to  a  larger number of active sites in US and uneven distributions of Ti and  V along the 
+surface as well as to low grain refinement.  HTS have uniform distributions of Ti and V alloying 
+element with a more refinement of the particles. The corrosion rate observed for the treated specimen 
+at high heat treatment  (1200 oC) is higher than that experienced at low heat treatment (900 oC). The 
+results may be attributed to the uneven distributions of Ti and V alloying element with a low 
+refinement of the particles due to an increase in the degree of Ti and V particles overlap. It can be 
+PDF_PAGE 10
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6686 
+concluded that the corrosion rate of steel samples austenized at 1200°C is higher than that of steel 
+samples austenized at 900°C. The results indicated clearly that E corr. shifts towards more negative and 
+the rate of corrosion I corr  increases with increasing the heat of treatment. The presence of V and Ti as 
+micro-alloying elements decreases the corrosion rate of carbon steel, while the influence of Ti addition 
+is more effective than the influence of V addition.  The micro -addition of V increases the strengt h, 
+hardness, creep resistance, impact resistance due to formation of hard vanadium carbides and reducing 
+the grain size of the steel. The main advantageous of the micro-addition of Ti as an alloying element in 
+steel is carbide stabilization. It combines wi th carbon to form titanium carbides, which are quite stable   
+and hard to dissolve in steel and tends to minimize the occurrence of inter -granular corrosion.  It may 
+be expected that the corrosion resistance of reinforced carbon steel in calcium hydroxide solution 
+should be increased in presence of Ti and V as micro -alloying elements due to  passivating – 
+promoting action of these elements. The length of passive region for the different samples decreases in 
+the following order: HTS at 900 oC > HTS at 1200 oC > US.   In addition, the polarization resistance, 
+which is proportional to the inverse of the instantaneous corrosion rate, decreases with an increase in 
+heat treatment.  
+ 
+ 
+Figure 7.  Cathodic and anodic polarization curves for laser  treated carbon steel samples immersed  in 
+saturated Ca(OH)2 solution + 0.6 M NaCl at pH 12. 
+ 
+The results of heat treatment indicated that the corrosion resistance of the carbon steel is 
+substantially improved by heat treatment are in good agreement with the results reported  in the 
+literature for an improvement of the corrosion resistance of the carbon steel with heat treatment due to 
+its improvement of the   micro-hardness of carbon steel with heat treatments [22-24, 32-33].     
+ 
+ 
+PDF_PAGE 11
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6687 
+The presence of chloride ions is the major f actor, which causes the occurrence of corrosion of 
+reinforces carbon steel in concrete. It was reported previously that the corrosion rate of steels is 
+enhanced by chloride ions, and the effects of chloride ions on carbon steel have been studied and 
+different mechanisms have been suggested [34]. The penetration of the chloride ion into the oxide film 
+through pores or defects is easier than other ions. It is widely known that chlorides ions accelerate 
+corrosion rate of steel obviously and induces the corrosi on of reinforcing steel in concrete by causing 
+breakdown of the passi ve film on the steel surface [35 ]. Chlorides may be introduced into concrete 
+within the mix ingredients of concrete (e.g. aggregates), or by the use of a chloride -containing 
+admixture (e.g. calcium chloride as an accelerator) or saline water as mixing water (when fresh water 
+is not available).  Chlorides in concrete most often come also from the service environment to which 
+the concrete structure is exposed (e.g., exposure to marine environment) [36]. 
+            The corrosion rate of laser treated surface (LTS) sample is lower than that of the untreated 
+surface (US) . Fig. 7 indicates that the corrosion and the passivation behavior were similar to that of 
+HTS sample treated at low heat treatment (900 oC).  However transpassive potential of LTS is  lower 
+that that of   HTS sample treated  at low heat treatment (900 oC), which was obviously due to more  
+formation of oxide  films for the laser  treated  specimen. The uniform distributions of T i and V among 
+the micro -dendrites during laser treatment are responsible for the lower corrosion rate of LTS. The 
+results of laser treatment are in consistent with t he results reported previously for an improvement of 
+corrosion resistance with laser treatment of steel [25-30, 37] 
+            The variation of corrosion rate and the corresponding dissolution   current are quoted in table 4.   
+ 
+Table 4. Polarization parameters for Laser  surface treated  Vanadium (V2) micro -alloyed steel and 
+Titanium micro-alloyed steel (T1 and T2) in saturated Ca(OH)2 solution + 0.6M NaCl at pH 12 
+ 
+Sample Tafel Calculations 
+Corrosion 
+Rate µm/y 
+Icorr 
+µA/cm2 β anodic V/decade β cathodic V/decade E(initial) mV E(final) 
+mV 
+V2 2.346 7.819 2.39E-01 1.74E-01 -572 -327 
+T1 2.476 9.099 1.42E-01 2.03E-01 -567.5 -355 
+T2 2.046 4.501 1.00E-01 1.00E-01 -506 -332 
+ 
+Table 5. Influence of heat and laser treatments on the Corrosion rate for Vanadium (V2) micro-alloyed 
+steel and Titanium micro-alloyed steel (T1 and T2) in saturated Ca(OH) 2 solution + 0.6M NaCl 
+at pH 12 
+ 
+Corrosion rate mg/y V2 T1 T2 
+Hot Rolled 3.420 3.290 2.910 
+Heat Treated Process at 900ºC 2.439  4.391  1.988  
+Heat Treated Process at 
+1200ºC 
+3.598  4.779  3.313  
+Laser  Treated 2.346  2.476  2.046  
+PDF_PAGE 12
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6688 
+The data presented in ta ble 5 indicated that  the corrosion rate for sample treated at high  heat 
+treatment (1200 oC) is higher  than that experienced by sample treated at low heat treatment (900 oC) 
+and Laser treated  specimen.  This may be attributed to uneven distributions of Ti and V alloying 
+element with a low grain refinement due to an increase in the degree of Ti and V particles overlap.  It 
+was confirmed that that the corrosion resistance of the reinforced carbon steel increases with laser 
+treatment and decreasing the heat treatment.  
+ 
+3.4 Corrosion products analysis  
+ 
+Figure 8. X-ray diffraction patterns for heat treated samples of carbon steel at 900°C after immersion 
+in Ca(OH)2 solution + 0.6 M NaCl at pH =12. 
+ 
+ 
+Figure 9. X-ray diffraction patterns for heat treated samples of carbon steel at 1200°C after immersion 
+in Ca(OH)2 solution + 0.6 M NaCl at pH =12. 
+ 
+PDF_PAGE 13
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6689 
+The chemical compositions of the corrosion products are   investigated by XRD for all the 
+examined heat treated micro -alloyed carbon steel samples after immersion in  Ca(OH)2 solution + 0.6 
+M NaCl for 672 hours.  Figures 8 -9 show the XRD pattern for the heat treated micro -alloyed carbon 
+steel samples at 900 and 1200 oC, respectively. XRD data reveals the presence of iron cubic peak with 
+different intensities.   The int ensity of the iron peak can be arranged in the following order: steel X > 
+steel V > steel T.  The results can be attributed to an increase in the amount of iron dissolution and is 
+accompanied by increasing the corrosion rate for the sample treated at high heat treatment 1200 oC.  
+The XRD data give an evidence and support for an improvement of the corrosion resistance of the 
+micro-alloyed carbon steel with heat treatments.  The lowest corrosion rate experienced by carbon steel 
+alloyed with Ti during heat tre atment can be attributed to an increase in the interstitial content of 
+carbon picked up during heat treatment to form carbides and consequent increase in strain hardening 
+and strain rate hardening, which in turn improve the corrosion resistance with het treatment.  
+ 
+X1 (non-micro-alloyed steel) after 
+HT at  900°C  
+ 
+X2 (non-micro-alloyed steel) after HT 
+at  1200°C 
+ 
+  
+ 
+V1 (V micro-alloyed steel) after HT 
+at  900°C 
+V1 (V micro-alloyed steel) after HT at  
+1200°C 
+ 
+ 
+ 
+  
+V2 (V micro-alloyed steel) after HT 
+at  900°C 
+V2 (V micro-alloyed steel) after HT at  
+1200°C 
+ 
+PDF_PAGE 14
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6690 
+ 
+  
+ 
+T1 (Ti micro- alloyed steel) after 
+HT at  900°C 
+ 
+T1 (Ti micro-alloyed steel) after HT at  
+1200°C 
+ 
+  
+  
+T2 (Ti micro-alloyed steel) after HT 
+at  900°C 
+T2 (Ti micro-alloyed steel) after HT at  
+1200°C 
+ 
+ 
+  
+ 
+Figure 10.  SEM micrographs  for non -micro-alloyed (X) V -micro-alloyed steels (V) and Ti -micro-
+alloyed (Ti)  carbon steel after immersion  in Ca(OH) 2 solution +0.6M NaCl at pH 12 and heat 
+treatment at two different heat treatments.  
+ 
+Scanning e lectron microscopy were used to examine the surface of the micro -alloyed heat 
+treated carbon steel samples,  which had been naturally immersed for 672 hours in test solution 
+containing Ca(OH)2 solution + 0.6M NaCl at pH =12 .  SEM micrographs for the micro -alloyed heat 
+treated carbon steel specimen are presented in figures 10.  The micrographs show characteristic 
+inclusion, which probably an oxide film. Also, the surface was damaged strongly and the grain 
+boundaries edges appear clearly. The white areas in t he micrograph represent the ferrite phase, while 
+PDF_PAGE 15
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6691 
+the dark areas represent mixture of ferrite and cementite (Fe 3C) in a lamellar form (pearlite).  It is 
+evident that the attack in the heat treated samples at 900 oC is lesser than that experienced by treated  
+sample at high heat treatment 1200 oC. It can be seen that the grain size of the sample treated at low 
+heat treatment  have a smaller grain size than the samples treated at higher heat treatment at 1200ºC. 
+The micrograph indicates that the grain size of t he micro-alloyed carbon steel samples containing Ti 
+and V is smaller than the unalloyed carbon steel samples.  Hence,   it reduces the grain size and 
+improving the electrochemical behavior of the carbon steel.  The attack can be arranged in the in the 
+following order: Steel X > Steel V >Steel T. It can be concluded that the data obtained from the 
+analysis of the corrosion products   using XRD and SEM give an evidence and support for the data 
+obtained from the weight loss and polarization measurements for an  improvement of the corrosion 
+resistance of the micro-alloyed carbon steel with heat and laser treatments.   
+ 
+4. CONCLUSIONS 
+1- Heat and laser treatments play an important role for improvement of the mechanical and 
+corrosion resistance of the reinforced carbon steel.   
+2- The corrosion rate of laser alloyed sample is close to that of the sample treated with low heat 
+treatment (900 oC) and is lower than that for  the sample treated at high heat treatment (1200 oC).  
+3- Treatment of sample at high heat treatment (1200 oC) is accompanied by uneven distribution 
+of Ti and V micro -alloying element throughout the surface and lowering the refinement of the 
+particles. 
+4- The corrosion products formed on the reinforced carbon steel is loosely bound to the surface, 
+which gives low corrosion protection and allowing the alloy to be actively corroded.  
+ 
+ 
+ACKNOWLEDGMENT  
+This Project was supported by King Saud University, Deanship of Scientific Research, College of 
+Science and Research Center. 
+ 
+ 
+References 
+ 
+1. J.P. Broomfield, D.B. Kevin, K. Hladky, Cem. Conc. Compos. 24 (2002) 27. 
+2. J. Rodriguez, L.M. Ortega, J. Casal, Const. Build. Mater. 11 (1997) 239. 
+3. M.N. Boucherit, D. Tebib, Anti-Corros. Met. Mater. 52 (2005) 365. 
+4. C.L. Page, N.R. Short, W.R. Holden, Cem. Conc. Res. 16 (1986) 79. 
+5. A. Moragues, A. Macias, C. Andrade, Cem. Conc. Res. 17 (1987) 173. 
+6. M. Moreno, W. Morris, M.G. Alvarez, G. S. Duffó, Corros. Sci. 46 (2004) 2681. 
+7. S. Goni, C. Andrade, Cem. Conc. Res. 20 (1990) 525–539. 
+8. P. Ghods, O.B. Isgor, G. Mcrae, T. Miller, Cem. Conc. Compos. 31 (2009) 2. 
+9. D.J. Anstice, C.L. Page, M.M. Page  Cem. Conc. Res., 35 (2005) 377. 
+10. M. Saremi, E. Mahallati, Cem. Conc. Res. 32 (2002) 1915. 
+11. F. Schmidt, F.S. Rostasy, Cem. Conc. Res.  23 (1993) 1159. 
+12. K. Andersson, B. Allard, M. Bengtsson, B. Magnusson, Cem. Conc. Res.  19 (1989) 327. 
+13. G. Blanco, A. Bautista, H. Takenouti, Cem. Conc. Compos 28 (2006) 212. 
+PDF_PAGE 16
+Int. J. Electrochem. Sci., Vol. 7, 2012 
+  
+6692 
+14. C. Monticelli, A. Frignani, G. Trabanelli, Cem. Conc. Res.  30 (2000) 635. 
+15. C.J. Kitowski, H.G. Wheat, Corrosion 53 (1997) 216–226. 
+16. X.M. Liu, Z.M. Shi, H.C. Lin, G.L. Song, C.N. Cao, J.  Chin. Soc. Corros. Prot. 17 (1997) 19. 
+17. V.A. Alves, C.M.A. Brett, Electrochim. Acta 47 (2002) 2081. 
+18. R.G. Du, R.G. Hu, R.S. Huang, C.J. Lin, Anal. Chem. 78 (2006) 3179. 
+19. E. Sosa, R. Cabrera-Sierra, M.T. Oropeza, F. Hernandez, N. Casillas, R. Tremont, C. Cabrera, I. 
+Gonzalez, Electrochim. Acta 48 (2003) 1665. 
+20. S.L. Wu, Z.D. Cui, G.X. Zhao, M.L. Yan, S.L. Zhu, X.J. Yang, Appl. Surf. Sci. 228 (2004) 17. 
+21. J.M. Zhao, Y. Zuo, Corros. Eng. Sci. Tech. 42 (2007) 203. 
+22. M. Aksoy , A. Esin . J.  Mater. Eng., 10 (1988) 281. 
+23. D.  Trejo ,P.  Monteiro  G. Thomas G,  Cem. Conc. Res., 24 (1994)1245. 
+24. O. Kelestemur , S. Yildiz , Const.  Build. Mater. 23(2009)78. 
+25. M. Carbucchio, G. meazza, G. Palom-Barini and G.Sabogna,  J. Mater. Sci. 18 (1983) 1543. 
+26. M.F. Ashby and K.E.Easterling  Acta Met. 32 (1984) 1935. 
+27. M.F. Ashby and K.E.Easterling  Acta Met. 34 (1986) 1533. 
+28. M. Carbucchio and  G. PalomBarini ,  J. Mater. Sci. 21 (1986) 75. 
+29. P. Canova and E.Ramous J. Mater. Sci. 21 (1986) 2143. 
+30. J. M. Pelletier , D. Pergue and F. Fouquet J. Mater. Sci. 24 (1989) 4343. 
+31. G. A. El-Mahdy, Ayman M Atta, M. M. Hegazy, M. M. Eissa, A. M. Fathy, F. M. Sayed  A.K.F. 
+Deyab and Hamad –Al-Lohedan, accepted for publication in Int. J. Electrochem. Sci. 7 (2012) (in 
+press).  
+32. I. I. Vaselinko, I. P. Vyval and G. V. Karpenko, F. Khim. Mek. Mater.  2 (1966) 227.  
+33. O. Kelesternur , M H. Kelestemur, S. Yildiz,  J. Ir.  St.  Res., Inter. 16 ( 2009) 55. 
+34.R.E. Melchers and C.Q. Li, Corrosion, 65 ( 2009)554. 
+35.D.A.Lopeza, T.Perez, S.N.Simison,  Mater. Des. 24 (2003) 561.  
+36.J. K. Boah, S. K. Somuah and P. Leblanc, Corrosion, 46 (1990) 153. 
+37.B. Abdolahi, H.R. Shahverdi, M.J. Torkamany, M. Emami,  Appl. Surf. Sci. 257 (2011) 9921. 
+ 
+ 
+ 
+© 2012 by ESG (www.electrochemsci.org) 
+ 

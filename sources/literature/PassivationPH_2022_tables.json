@@ -1,0 +1,234 @@
+[
+  [
+    [
+      "",
+      "Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+    ]
+  ],
+  [
+    [
+      "PHSS",
+      "Elements"
+    ],
+    [
+      "Cr",
+      "Ni",
+      "Mo",
+      "Mn",
+      "Cu",
+      "Ti",
+      "Nb",
+      "N",
+      "Si",
+      "S",
+      "C",
+      "Fe"
+    ],
+    [
+      "Martensitic",
+      "14.0–16.0",
+      "5.0–7.0",
+      "0.50–1.0",
+      "1.00",
+      "1.25–1.75",
+      "0.90–1.40",
+      "0.5–0.75",
+      "≤0.1",
+      "1.00",
+      "0.030",
+      "≤0.05",
+      "Balance"
+    ],
+    [
+      "Semi-austenitic",
+      "16.0–17.0",
+      "4.0–5.0",
+      "2.50–3.25",
+      "0.50–1.25",
+      "–",
+      "–",
+      "–",
+      "0.07–0.13",
+      "≤0.50",
+      "0.030",
+      "0.07–0.11",
+      "Balance"
+    ]
+  ],
+  [
+    [
+      "PHSS",
+      "Passivation Baths",
+      "Time (min)",
+      "Temperature (°C)",
+      "Nomenclature Samples *"
+    ],
+    [
+      "semi-austenitic",
+      "C 6 H 8 O 7",
+      "50",
+      "49",
+      "semi-austenitic-CA-75 min-49 °C"
+    ],
+    [
+      "HNO 3",
+      "50",
+      "70",
+      "semi-austenitic-NA–50 min-70 °C"
+    ],
+    [
+      "HNO 3",
+      "50",
+      "70",
+      "semi-austenitic-NA–50 min-70 °C"
+    ],
+    [
+      "C 6 H 8 O 7",
+      "75",
+      "49",
+      "semi-austenitic-CA–75 min-49 °C"
+    ],
+    [
+      "martensitic",
+      "HNO 3",
+      "75",
+      "70",
+      "martensitic-NA–75 min–70 °C"
+    ],
+    [
+      "HNO 3",
+      "50",
+      "49",
+      "martensitic-NA–50 min–49 °C"
+    ],
+    [
+      "C 6 H 8 O 7",
+      "50",
+      "49",
+      "martensitic-CA–50 min–49 °C"
+    ],
+    [
+      "C 6 H 8 O 7",
+      "75",
+      "49",
+      "martensitic-CA-75 min-49 °C"
+    ]
+  ],
+  [
+    [
+      "PHSS",
+      "Cr",
+      "Mo",
+      "N",
+      "PREN"
+    ],
+    [
+      "Martensitic",
+      "14.0–16.0",
+      "0.50–1.0",
+      "≤0.1",
+      "17.26"
+    ],
+    [
+      "Semi-austenitic",
+      "16.0–17.0",
+      "2.50–3.25",
+      "0.07–0.13",
+      "25.37"
+    ]
+  ],
+  [
+    [
+      "Sample",
+      "E corr (Volts)",
+      "E pitt (Volts)",
+      "i corr (µA·cm −2 )",
+      "i pass (µA·cm −2 )",
+      "Range Passive (Volts)",
+      "CR (mm/yr)"
+    ],
+    [
+      "Semi-austenitic-CA–50 min–49 °C",
+      "−0.365",
+      "0.422",
+      "7.82 × 10 −1",
+      "0.352",
+      "0.736",
+      "1.26 × 10 −3"
+    ],
+    [
+      "Semi-austenitic-NA–50 min–70 °C",
+      "−0.234",
+      "0.934",
+      "1.58 × 10 −1",
+      "0.082",
+      "1.119",
+      "2.55 × 10 −4"
+    ],
+    [
+      "Martensitic-NA–75 min–70 °C",
+      "−0.234",
+      "0.565",
+      "1.37 × 10 −1",
+      "0.119",
+      "0.740",
+      "2.25 × 10 −4"
+    ],
+    [
+      "Martensitic-CA–50 min–49 °C",
+      "−0.384",
+      "0.401",
+      "3.44 × 10 −1",
+      "0.480",
+      "0.688",
+      "5.65 × 10 −3"
+    ]
+  ],
+  [
+    [
+      "Sample",
+      "E corr (Volts)",
+      "E pitt (Volts)",
+      "i corr (µA·cm −2 )",
+      "i pass (µA·cm −2 )",
+      "Range passive (Volts)",
+      "CR (mm/yr)"
+    ],
+    [
+      "Semi-austenitic-CA–75 min–49 °C",
+      "−0.314",
+      "0.875",
+      "0.7 × 10 −1",
+      "9.837",
+      "1.055",
+      "1.13 × 10 −2"
+    ],
+    [
+      "Semi-austenitic-NA–50 min–70 °C",
+      "−0.226",
+      "0.766",
+      "2.24 × 10 −1",
+      "0.506",
+      "0.692",
+      "3.62 × 10 −4"
+    ],
+    [
+      "Martensitic-NA–50 min–49 °C",
+      "−0.282",
+      "0.898",
+      "2.25 × 10 −1",
+      "8.529",
+      "0.899",
+      "3.69 × 10 −2"
+    ],
+    [
+      "Martensitic-CA–75 min–49 °C",
+      "−0.349",
+      "0.857",
+      "5.37 × 10 −1",
+      "8.193",
+      "0.880",
+      "8.82 × 10 −2"
+    ]
+  ]
+]

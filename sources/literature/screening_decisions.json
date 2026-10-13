@@ -1,0 +1,135 @@
+[
+  {
+    "reference_id": "Sensitized304_2022",
+    "status": "strict_ready",
+    "rows": 3,
+    "reason": "XRF composition, 650C/40h/slow-air sensitization, surface treatment, PDP temperature, electrolyte and scan rate verified. Only three tabulated icorr values; other curves do not report icorr."
+  },
+  {
+    "reference_id": "Heating8620_2024",
+    "status": "verified_values_partial_conditions",
+    "rows": 5,
+    "reason": "Commercial scalar chemistry and heat schedule transcribed; numeric PDP temperature unreported. Chemistry assay method unreported. Mean n=3 is one row, not three replicated rows."
+  },
+  {
+    "reference_id": "LowC_heat_2012",
+    "status": "verified_values_partial_conditions",
+    "rows": 10,
+    "reason": "Composition and 900/1200C austenitizing +600C tempering schedules complete; scan0.5mV/s verified PDFp9; numeric PDP temperature unreported. Laser rows excluded for incomplete thermal history."
+  },
+  {
+    "reference_id": "SpringSteel_2023",
+    "status": "verified_values_partial_conditions",
+    "rows": 6,
+    "reason": "GDS composition and Q/QT schedule verified; numeric PDP temperature and scan rate unreported. Identical QT3.5% icorr in Tables3/4 counted once. g/solution-volume basis not relabeled mass%. Inhibitor rows excluded."
+  },
+  {
+    "reference_id": "S32101_2025",
+    "status": "verified_values_partial_conditions",
+    "rows": 32,
+    "reason": "Scalar composition and cold-rolled condition reported; upstream heat and rolling reduction unknown. Chemistry assay method not stated. Typical process liquor composition not used as exact electrolyte chemistry."
+  },
+  {
+    "reference_id": "SLM17_4_2025",
+    "status": "excluded_from_strict300",
+    "rows": 0,
+    "potential_reported_targets": 9,
+    "reason": "Table2 omits C and P; missing values cannot be set to zero. Detailed SLM/aging conditions alone do not meet complete chemistry requirement."
+  },
+  {
+    "reference_id": "PassivationPH_2022",
+    "status": "excluded_from_strict300",
+    "rows": 0,
+    "reason": "Table1 explicitly nominal compositions with ranges/upper limits; Midpoints now permitted as model inputs by user request; not exact measured chemistry. Row-label/time inconsistencies also exist.",
+    "range_composition_policy": "allowed_as_midpoint_model_input_preserve_bounds"
+  },
+  {
+    "reference_id": "Nitriding17_7_2024",
+    "status": "excluded_from_strict300",
+    "rows": 0,
+    "reason": "P/S absent and Icorr unit printed A/um2 conflicts with plausible magnitude. No unverified unit correction applied."
+  },
+  {
+    "reference_id": "JAMET_AH32_2023",
+    "status": "excluded_from_strict300",
+    "rows": 0,
+    "potential_reported_targets": 27,
+    "reason": "Mn reported0.9-1.6 wt% and P absent. 2700 polarization points are not 2700 independent icorr targets.",
+    "range_composition_policy": "allowed_as_midpoint_model_input_preserve_bounds"
+  },
+  {
+    "reference_id": "Tempering5Cr15_2024",
+    "status": "excluded_from_strict300",
+    "rows": 0,
+    "reason": "Measured chemistry has S printed dash; cannot assume zero. Only tabulated corrosion values can be used, not all111 physical samples stated in experiment."
+  },
+  {
+    "reference_id": "Tempering9Cr_2024",
+    "status": "excluded_from_strict300",
+    "rows": 0,
+    "potential_reported_targets": 5,
+    "reason": "P/S unreported in ingot formula; ambient PDP temperature not numeric. 45C humidity-chamber exposure is not PDP temperature."
+  },
+  {
+    "reference_id": "Vanadis6_2021",
+    "status": "needs_composition_verification",
+    "rows": 0,
+    "reason": "Quantitative cryogenic/tempering schedule exists; need complete scalar chemistry and source tables. Repeated same condition across Tables3-6 must be deduplicated."
+  },
+  {
+    "reference_id": "QP9254_2025",
+    "status": "verified_values_partial_conditions",
+    "rows": 4,
+    "reason": "Complete scalar chemistry and Q&P schedule and four targets now verified. Only room temperature reported for PDP; numeric temperature not invented."
+  },
+  {
+    "reference_id": "ColdRollX2_2022",
+    "status": "verified_values_partial_conditions",
+    "rows": 6,
+    "reason": "Scalar chemistry, 50/90% rolling reduction and 720/740/770C annealing30min with air cooling verified. Numeric PDP temperature unreported."
+  },
+  {
+    "reference_id": "AustemperHighSi_2021",
+    "status": "needs_target_table_verification",
+    "rows": 0,
+    "reason": "Scalar full chemistry and quantitative schedules available; current values require source table verification. PDP room temperature not converted to25C."
+  },
+  {
+    "reference_id": "Nitriding430_2022",
+    "status": "needs_target_definition_verification",
+    "rows": 0,
+    "reason": "Scalar chemistry and treatment schedule available, but table labels target Ip; establish whether corrosion current or passive current before admission."
+  },
+  {
+    "reference_id": "QuenchLowC_2020",
+    "status": "needs_composition_and_target_table_verification",
+    "rows": 0,
+    "reason": "Quantitative heat schedule exists, source tables unavailable in cached text/blocked live HTML; no invented chemistry or target."
+  },
+  {
+    "reference_id": "AISI1010Sulfolane_2020",
+    "status": "needs_complete_composition_and_process_verification",
+    "rows": 0,
+    "reason": "Four measured corrosion-current values exist but need complete chemistry and manufacturing verification; sulfolane environment differs from target RE studies."
+  },
+  {
+    "reference_id": "HKU_Ji_2024_dataset",
+    "doi": "10.25442/hku.25422139.v1",
+    "status": "excluded_from_strict300",
+    "rows": 0,
+    "reason": "Workbook contains mortar/binder and electrochemical variables, not steel chemical composition or full steel manufacturing conditions. Do not repeat the previous216-row chemistry-missing expansion."
+  },
+  {
+    "reference_id": "Soil_Dong_2024",
+    "doi": "10.1038/s41598-024-68562-w",
+    "status": "excluded_from_PDP_collection",
+    "rows": 0,
+    "reason": "1428 modeled targets primarily LPR time-series measurements; not1428 independent PDP targets or varying manufacturing experiments."
+  },
+  {
+    "reference_id": "RebarLi2023",
+    "status": "excluded_from_strict300",
+    "rows": 0,
+    "reason": "Exact steel chemistry and numeric PDP temperature unverified even after author-thesis protocol enrichment. Stored separately in314-row exploratory dataset."
+  }
+]

@@ -1,0 +1,232 @@
+[
+  [
+    [
+      "",
+      "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+    ]
+  ],
+  [
+    [
+      "Sample",
+      "C",
+      "Si",
+      "Mn",
+      "P",
+      "S",
+      "Cr",
+      "Cu",
+      "Ni",
+      "Ce",
+      "La"
+    ],
+    [
+      "UCS-Q235BRE(C)",
+      "0.023",
+      "0.15",
+      "0.40",
+      "0.020",
+      "0.004",
+      "0.032",
+      "0.087",
+      "0.028",
+      "0.0025",
+      "0.0015"
+    ],
+    [
+      "UCS-Q235BRE(R)",
+      "0.023",
+      "0.15",
+      "0.40",
+      "0.020",
+      "0.004",
+      "0.032",
+      "0.087",
+      "0.028",
+      "0.0025",
+      "0.0015"
+    ],
+    [
+      "UCS-Q235B(R)",
+      "0.023",
+      "0.17",
+      "0.58",
+      "0.015",
+      "0.004",
+      "0.023",
+      "0.076",
+      "0.031",
+      "—",
+      "—"
+    ],
+    [
+      "UCS-SPA-H(R)",
+      "0.020",
+      "0.24",
+      "0.76",
+      "0.080",
+      "0.005",
+      "0.37",
+      "0.28",
+      "0.042",
+      "—",
+      "—"
+    ]
+  ],
+  [
+    [
+      "Sample",
+      "UCS Q235BRE(C)",
+      "UCS Q235BRE(R)",
+      "UCS Q235B(R)",
+      "UCS SPA-H(R)"
+    ],
+    [
+      "Microstructure",
+      "PF",
+      "PF + 2% P",
+      "PF + 2% P",
+      "PF + 32%GB + 11%BF"
+    ]
+  ],
+  [
+    [
+      "",
+      "R el /MPa",
+      "R m /MPa",
+      "A/%"
+    ],
+    [
+      "UCS-Q235BRE(C)",
+      "242",
+      "352",
+      "33"
+    ],
+    [
+      "UCS-Q235BRE(R)",
+      "259",
+      "378",
+      "34"
+    ],
+    [
+      "UCS-Q235B(R)",
+      "247",
+      "354",
+      "33"
+    ],
+    [
+      "UCS-SPA-H(R)",
+      "380",
+      "489",
+      "24"
+    ]
+  ],
+  [
+    [
+      "Sample",
+      "24 h",
+      "48 h",
+      "72 h",
+      "120 h"
+    ],
+    [
+      "UCS-Q235BRE(C)",
+      "4.689",
+      "3.654",
+      "3.102",
+      "2.345"
+    ],
+    [
+      "UCS-Q235BRE(R)",
+      "4.982",
+      "3.225",
+      "2.680",
+      "2.088"
+    ],
+    [
+      "UCS-Q235B(R)",
+      "3.530",
+      "3.882",
+      "3.904",
+      "3.226"
+    ],
+    [
+      "UCS-SPA-H(R)",
+      "4.137",
+      "4.151",
+      "3.902",
+      "2.808"
+    ]
+  ],
+  [
+    [
+      "Specimen",
+      "E corr (mV)",
+      "I corr (mA/cm 2 )"
+    ],
+    [
+      "UCS-Q235BRE(C)",
+      "−615.1",
+      "2.02"
+    ],
+    [
+      "UCS-Q235BRE(R)",
+      "−614.1",
+      "1.35"
+    ],
+    [
+      "UCS-Q235B(R)",
+      "−614.8",
+      "3.84"
+    ],
+    [
+      "UCS-SPA-H(R)",
+      "−619.8",
+      "4.41"
+    ]
+  ],
+  [
+    [
+      "Specimen",
+      "Rs (Ω cm 2 )",
+      "Rct (Ω cm 2 )",
+      "CPE dl",
+      "χ 2 × 10 −3"
+    ],
+    [
+      "Q × 10 −5 (Ω −1 S n cm −2 )",
+      "n"
+    ],
+    [
+      "UCS-Q235BRE(C)",
+      "26.73",
+      "1179",
+      "42.60",
+      "0.78",
+      "4.2"
+    ],
+    [
+      "UCS-Q235BRE(R)",
+      "23.55",
+      "1365",
+      "56.53",
+      "0.82",
+      "2.57"
+    ],
+    [
+      "UCS-Q235B(R)",
+      "32.53",
+      "593",
+      "30.03",
+      "0.79",
+      "2.98"
+    ],
+    [
+      "UCS-SPA-H(R)",
+      "22.94",
+      "876",
+      "42.91",
+      "0.83",
+      "3.38"
+    ]
+  ]
+]

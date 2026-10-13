@@ -1,0 +1,120 @@
+[
+  [
+    [
+      "",
+      "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+    ]
+  ],
+  [
+    [
+      "Sample",
+      "Fe",
+      "C",
+      "Si",
+      "Mn",
+      "P",
+      "S",
+      "RE"
+    ],
+    [
+      "0# (EH36)",
+      "Bal.",
+      "0.1118",
+      "0.1994",
+      "1.5595",
+      "0.0156",
+      "0.0039",
+      "0"
+    ]
+  ],
+  [
+    [
+      "1# (La Steel)",
+      "2# (Ce Steel)",
+      "3# (Pr Steel)"
+    ],
+    [
+      "0.0031",
+      "0.0024",
+      "0.0001"
+    ]
+  ],
+  [
+    [
+      "Time (d)",
+      "0#",
+      "1#",
+      "2#",
+      "3#"
+    ],
+    [
+      "7",
+      "0.1509",
+      "0.1314",
+      "0.1352",
+      "0.1401"
+    ],
+    [
+      "14",
+      "0.1465",
+      "0.1278",
+      "0.1342",
+      "0.1336"
+    ],
+    [
+      "21",
+      "0.1371",
+      "0.1256",
+      "0.1320",
+      "0.1262"
+    ],
+    [
+      "28",
+      "0.1300",
+      "0.1234",
+      "0.1220",
+      "0.1239"
+    ],
+    [
+      "35",
+      "0.1226",
+      "0.1138",
+      "0.1177",
+      "0.1189"
+    ],
+    [
+      "63",
+      "0.0891",
+      "0.0632",
+      "0.0804",
+      "0.0825"
+    ]
+  ],
+  [
+    [
+      "Sample",
+      "7 d",
+      "63 d"
+    ],
+    [
+      "0#",
+      "9.06 × 10 2",
+      "1.54 × 10 3"
+    ],
+    [
+      "1#",
+      "1.34 × 10 3",
+      "1.98 × 10 3"
+    ],
+    [
+      "2#",
+      "1.25 × 10 3",
+      "1.88 × 10 3"
+    ],
+    [
+      "3#",
+      "1.05 × 10 3",
+      "1.73 × 10 3"
+    ]
+  ]
+]

@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-13",
+  "files": [
+    {
+      "path": "sources/slm_raw.html",
+      "reason": "Exact duplicate of sources/literature/SLM17_4_2025.html",
+      "bytes": 692946,
+      "sha256": "9e0adf919b7f9f0dea4f3cf8025373134e3fd26ad6711250078176f93ab68597"
+    },
+    {
+      "path": "sources/slm_table.md",
+      "reason": "Exact duplicate of sources/literature/SLM17_4_2025.md",
+      "bytes": 77779,
+      "sha256": "d249a40ebd33d1a064a37145fb4de60b41da86c1ea92702afd54badb93446424"
+    },
+    {
+      "path": "sources/literature/AISI1010Sulfolane_2020.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2202,
+      "sha256": "bd8155c68805211ef22c51882b04d19dc2959f12d835d8680d4d92f13ea09f87"
+    },
+    {
+      "path": "sources/literature/AustemperHighSi_2021.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2192,
+      "sha256": "3be8ac2669100ca7e856eb04d0aee8703cac0eb035e3b4cd9fe7cf27671ca2ef"
+    },
+    {
+      "path": "sources/literature/LaCe_JMRT_2025.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2576,
+      "sha256": "cdedcad4187c8222e7af31caad0a592cd76d95aa40760edce6b58416cbef46f6"
+    },
+    {
+      "path": "sources/literature/Nitriding430_2022.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2200,
+      "sha256": "8038fa1c9728a1f348f7c9b149a6487014a6e36291777c1f37a63e63b7273d3f"
+    },
+    {
+      "path": "sources/literature/Q370_RE_2025.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2201,
+      "sha256": "9bda0c39a36f98562fe65d9cf486a96352b959773478ba9a7983e34bf268b984"
+    },
+    {
+      "path": "sources/literature/QP9254_2025.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2198,
+      "sha256": "8a8a50e09ecc5dac5ecf4a01cc001c9a82045b0e48775807f9505b644e253470"
+    },
+    {
+      "path": "sources/literature/QuenchLowC_2020.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2191,
+      "sha256": "e3582913e4b7bb79a211b852c1ad78c39df673e083c3eff9f0338c63a57a1bf6"
+    },
+    {
+      "path": "sources/literature/S32101_2025.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2194,
+      "sha256": "fa641d7721eca05eda11453167c82caccde4fed1c77bdf701a2b092c6df835cf"
+    },
+    {
+      "path": "sources/literature/Tempering5Cr15_2024.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2198,
+      "sha256": "3d667b2ab3491f147a3f14f9e27e5ec7355a9a7768fb14da28c93ea178893cd7"
+    },
+    {
+      "path": "sources/literature/Tempering9Cr_2024.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2202,
+      "sha256": "58c5e814c713cf1258eb7102923933008f98265ac8b540d154ad1157941406e3"
+    },
+    {
+      "path": "sources/literature/Vanadis6_2021.html",
+      "reason": "Blocked or failed HTML response; usable source text retained separately",
+      "bytes": 2200,
+      "sha256": "4b4b38744f6251c9ac99fa54fafa51a87a1f9cd3f57d8ca3b92a5d96056f573d"
+    },
+    {
+      "path": "sources/literature/Nitriding430_2022_tables.json",
+      "reason": "Empty extracted table list; usable source text retained separately",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "sources/literature/QuenchLowC_2020_tables.json",
+      "reason": "Empty extracted table list; usable source text retained separately",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "sources/literature/Tempering5Cr15_2024_tables.json",
+      "reason": "Empty extracted table list; usable source text retained separately",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "sources/literature/Vanadis6_2021_tables.json",
+      "reason": "Empty extracted table list; usable source text retained separately",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "sources/literature/LaCe_JMRT_2025.md",
+      "reason": "404 or access challenge page; contains no usable article",
+      "bytes": 2394,
+      "sha256": "ea3794b96e49b97d3bb1b230c7cb7233b2b56dc622b41538b15123682811d6e6"
+    },
+    {
+      "path": "sources/literature/LaCe_JMRT_full_2025.md",
+      "reason": "404 or access challenge page; contains no usable article",
+      "bytes": 112998,
+      "sha256": "e5237fd52d6ec3870bffd615bbfb70bf16e2d5b624e9172767d7448a95972e17"
+    },
+    {
+      "path": "sources/literature/TowerQ355_RE_2026.md",
+      "reason": "404 or access challenge page; contains no usable article",
+      "bytes": 112997,
+      "sha256": "3df7b5a46e71015ac75f6482c55bfb65e5d030128bb8faa83974814d7829404b"
+    }
+  ],
+  "total_bytes": 1023676,
+  "status": "deleted_and_verified"
+}

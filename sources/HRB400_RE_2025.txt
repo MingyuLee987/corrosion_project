@@ -1,0 +1,534 @@
+PDF_PAGE 1
+第 46 卷第 3 期
+2025 年 5 月
+Vol. 46. No. 3
+May 2025
+特殊钢
+SPECIAL STEEL
+稀土含量对 HRB400 钢组织与耐蚀性能的影响
+陈 浩 1， 孙益斌 2， 谢庆敏 1， 刘小龙 1， 张存帅 2， 彭志贤 2， 程朝阳 2， 刘 静 2，3
+（1 广东金晟兰冶金科技有限公司 ，云浮 527329；2 武汉科技大学材料学部 ，
+武汉 430081；3 深圳大学材料学院 ，深圳 518071）
+摘 要：通过添加微量镧（La）和铈（Ce）稀土元素，制备了成本低 、耐蚀性优异的钢筋 。利用电化学工作站 、X 射线衍
+射（XRD）和扫描电子显微镜（SEM）等手段 ，研究了稀土添加量对耐蚀钢的组织和耐蚀性能的影响 。结果表明 ，稀
+土元素细化了晶粒尺寸 ，促使长条状 、形状不规则的 MnS 和 Al2O3·SiO2 复合型夹杂物转变为尺寸更小 、形态更规则
+的球形夹杂物（Ce，La）2O2S。添加稀土元素后 ，耐蚀钢的腐蚀电位发生正向移动 ，降低了腐蚀电流 。此外，稀土元素
+可以使腐蚀产物中不稳定的  γ-FeOOH 含量减少 ，形成更多稳定的 α-FeOOH，增强了锈层的稳定性 、致密性和附着
+能力。随着稀土含量的增加 ，耐蚀钢的耐腐蚀性能呈现出逐渐提高的趋势 ，其中，0. 01% 稀土添加量的耐蚀钢表现
+出最佳的耐腐蚀性能 。
+关键词：稀土合金化 ； 耐蚀钢； 夹杂物改性 ； 腐蚀性能
+DOI:10. 20057/j. 1003-8620. 2024-00280  中图分类号 ：TG174. 2+2
+Effect of Rare Earth Content on Microstructure and 
+Corrosion Resistance of HRB 400 Steel
+Chen　Hao1， Sun 　Yibin2， Xie 　Qingmin1， Liu 　Xiaolong1， Zhang 　Cunshuai2， 
+Peng　Zhixian2， Cheng 　Zhaoyang2， Liu 　Jing2，3
+（1 Guangdong Jinshenglan Metallurgical Technology Co .， Ltd.， Yunfu 527329， China ；2 Faculty of Materials 
+Science， Wuhan University of Science and Technology ， Wuhan 430081， China ；3 School of 
+Materials Science ， Shenzhen University ， Shenzhen 518071， China）
+Abstract： The steel rebar with low cost and excellent corrosion resistance were prepared by adding trace lanthanum （La） 
+and cerium （Ce） rare earth elements .  The effect of rare earth addition on the microstructure and corrosion resistance of cor ⁃
+rosion resistant steel was studied by means of electrochemical workstation ， X-ray diffraction （XRD） and scanning electron 
+microscope （SEM）.  The results show that rare earth elements refine the grain size and promote the transformation of MnS 
+and Al 2O3 ·SiO2 composite inclusions with long and irregular shape into spherical inclusions （Ce，La） 2O2S with smaller 
+size and more regular shape .  Following the addition of rare earth elements ， the corrosion potential of the steel shifts posi ⁃
+tively， while the corrosion current is reduced .  Furthermore ， rare earth elements contribute to the reduction of unstable γ
+-FeOOH in the corrosion products ， promoting the formation of more stable α-FeOOH， which enhances the stability ， com⁃
+pactness， and adhesion of the rust layer .  As the rare earth content increases ， the corrosion resistance of the steel gradually 
+improves， with the optimal performance observed in the steel containing 0. 01% rare earth elements .
+Key Words ： Rare Earth Alloying ； Corrosion Resistant Steel ； Inclusion Modification ； Corrosive Properties
+钢铁材料应用广泛 ，但普遍面临严重的腐蚀问
+题［1-4］。我国每年因材料腐蚀造成的经济损失约占
+总 GDP 的 3.4%~4.0%［5］，特别是在基础设施领域 ，长
+期暴露于大气中的钢材腐蚀尤为严重 ［6-9］。目前，通
+过涂覆防腐涂层是防止腐蚀的一种常见方法 ［10］。
+然而 ，这种方法存在环境污染 、成本较高等问题 。
+另一方面 ，是钢材本身微观组织的优化 ，通过添加
+合金元素来提高钢筋的耐腐蚀性能 ［11-13］。这种方法
+可以显著提高钢材的使用寿命 ，同时 ，减少对环境
+的污染 。而稀土元素在众多合金中被称为“工业维
+生素”和“新材料之母 ”［14］。在钢中加入稀土可以起
+到改善凝固组织 、细化组织 、改变夹杂物形态和分
+布等作用［15-16］，从而显著提高钢的韧性 、耐腐蚀性
+能、抗疲劳性能 、耐热性能等［17-19］。
+研究表明［20-23］，稀土元素如镧（La） 、铈（Ce）等能
+够通过改变钢中夹杂物的性质 、细化晶粒尺寸以及
+基金项目： 国家自然科学基金（52231003，52201084） 、湖北省重大项目（JD）(2023BAA019）
+作者简介： 陈 浩（1986—） ，男，本科，高级工程师 ； E-mail : 3679495008@qq.com；  收稿日期： 2024-12-23
+通信作者： 刘小龙（1972—） ，男，本科，高级工程师 ； E-mail : 3866983430@qq.com
+··58
+PDF_PAGE 2
+第 3 期 陈 浩等 ：稀土含量对 HRB400 钢组织与耐蚀性能的影响
+影响锈层的稳定性等方式提升钢材的耐腐蚀性能 。
+Huang［24］等研究发现 ，未添加稀土元素的 HRB400E
+钢夹杂物主要为 MnS 和 MnO-SiO2，长度 3～4 μm，为
+块状或长条状且分布不均 ；而添加稀土元素后 ，夹
+杂物变为（Ce，La）2O3+MnS 和（Ce，La）2O2S+MnS 复合
+夹杂物，尺寸减至 1～2 μm，形状主要为球形或椭圆
+形。刘锦文［25］等研究发现在稀土含量为 0.08% 时，
+稀土能够充分发挥其细化组织 、变质夹杂物和增强
+锈层保护能力的作用 ，而过量的稀土则可能导致夹
+杂物的聚集和粗化 ，反而对材料的耐腐蚀性能产生
+不利影响 。由此可见 ，对于稀土元素在钢材中的最
+佳添加量尚未达成共识 。不同研究者的实验结果
+存在差异 ，有些研究认为微量稀土即可显著提升耐
+蚀性，而有的研究认为需要添加一定量的稀土才能
+达到理想效果［26］。
+本研究旨在添加不同含量稀土元素优化钢的
+耐腐蚀性 ，研究了稀土对组织 、夹杂物形态及耐蚀
+性能的影响规律及机理 ，明确了较佳的稀土元素添
+加量，制备了成本低 、耐蚀性优异的钢筋 。
+1　实验材料与方法
+通过 50 kg 真空感应炉 ，在实验室冶炼了稀土含
+量（质量分数 ，下同）为 0%、0.003%，0.010% 的耐蚀
+钢筋，其轧制工艺参数见表 1，化学成分见表 2，3 个
+成分试样分别标记为 0RE，0.003RE，0.01RE。RE 中
+La 和 Ce 的比例为 3∶1。
+金相试样经过机械研磨 、抛光后 ，用 4% 的硝酸
+酒精溶液腐蚀 ，用光学显微镜（OM） 、扫描电子显微
+镜（SEM）和能量色散 X 射线光谱（EDS）分析组织和
+夹杂物结构与形态变化 。在 HV-1000B 型维氏硬度
+机上测试不同稀土含量实验钢的维氏硬度 ，测试时
+载荷为 0.3 Kgf，保压 10 s。室温下使用拉伸试验机
+测量试样的力学性能 ，拉伸试样尺寸如图 1 所示，拉
+伸方向与轧制方向垂直 。
+为了研究不同稀土含量实验钢的耐腐蚀性能 ，
+在 3.5%（质量分数）NaCl 溶液，室温 25 ℃，将实验钢
+浸泡了 168 h，采用失重法计算了实验钢的腐蚀速
+率，并且对腐蚀产物形貌和物相分别用扫描电镜
+（SEM）和能谱仪（XRD）进行分析 、表征 。电化学试
+样的尺寸为 10 mm×10 mm，将导线焊在试样表面 ，
+样品冷镶并使其能够导电 ，试样在砂纸上研磨抛光
+后，用科斯特电化学工作站测定了实验钢的交流阻
+抗和极化曲线 ，测试采用传统的三电极测试体系 ，
+饱和甘汞电极作参比电极 ，铂片为辅助电极 ，不同
+稀土含量的实验钢作为工作电极 。扫描区间为 ：
+-0.25 V～0.25 V（相对开路 ） ，扫描速度为 1 mV/s 。 
+阻抗 测 试 的 赫 兹 范 围 为105~10-2 Hz ，交 流 振 幅 为
+10 mv。
+2　结果与讨论
+2. 1　稀土含量对耐蚀钢显微组织的影响
+图 2 为不同稀土含量下三种实验钢的金相组织
+图。由图 2 可知，随着稀土含量增加 ，组织结构没有
+明显的变化 ，主要为铁素体和珠光体 ，其中珠光体
+沿 着 轧 制 方 向 呈 现 一 定 的 带 状 分 布［27］。利 用Im⁃
+ageJ 和截线法统计了 15 张 200 倍的实验钢的晶粒大
+小 ，发 现 在 0RE 的 实 验 钢 中 ，平 均 晶 粒 尺 寸 为
+19.9 μm，在添加 0.003% 的稀土后 ，平均晶粒尺寸为
+17.5 μm，添加0.010%后，尺寸进一步下降，为15.5 μm。
+2. 2　稀土含量对耐蚀钢夹杂物形态的影响
+为了解释不同稀土含量对实验钢腐蚀性能的
+表 1　HRB400 钢轧制过程工艺参数
+Table 1　Process parameters of HRB 400 steel rolling pro ⁃
+cess
+工艺
+保温温度/℃
+保温时间/min
+开轧温度/℃
+终轧温度/℃
+冷床入口温度/℃
+冷却方式
+参数
+1 050
+40
+1 050
+950～990
+950
+空冷
+图 1　拉伸试样尺寸图
+Fig.  1　Size diagram of tensile specimen
+表 2　实验钢的化学成分（质量分数）
+Table 2　Chemical composition of experimental steel  %
+实验钢
+0RE
+0.003RE
+0.010RE
+C
+0.11
+0.10
+0.11
+Si
+0.38
+0.39
+0.42
+Mn
+1.29
+1.30
+1.29
+Cu
+0.28
+0.28
+0.29
+Cr
+0.92
+0.89
+0.90
+V
+0.022
+0.023
+0.027
+RE
+-
+0.003
+0.010
+··59
+PDF_PAGE 3
+第 46 卷 特殊钢
+作用机制 ，对三种实验钢进行了夹杂物分析 ，结果
+如图 3 所示 。EDS 结果显示 ，在没有添加稀土元素
+时，耐蚀钢中主要为 MnS 和 Al2O3·SiO2 复合型的夹
+杂物 ，形状多为棒状 ，而在添加 0.003% 的稀土元素
+后，钢中的夹杂物主要是由 （Ce，La）2O2S+MnS 型和
+Al2O3·SiO2 组成的复合夹杂物 ，形状大多不规则 ；当
+加 入 0.010% 稀 土 后 ，部 分 Ce 和 La 会 将 原 有 的
+Al2O3·SiO2 和 MnS 夹 杂 物 改 性 为 高 熔 点 的（Ce，
+La）2O2S 型夹杂物 ，其形状多为球型 。 进一步的对
+夹杂物进行统计 ，其结果如图 4 所示。由图 4 可见，
+三种不同稀土含量的夹杂物尺寸主要集中在1～3 μm，
+但是在不添加稀土元素时 ，数量较为稀少 ，而在添
+加稀土元素后 ，夹杂物尺寸在 1~3 μm 时，夹杂物的
+数量有一个显著的上升 。夹杂物尺寸＞ 5 μm 的范
+围内，稀土元素的添加大大减少了大尺寸夹杂物的
+出现。
+2. 3　稀土含量对耐蚀钢力学性能的影响
+对耐蚀钢在室温下进行了力学性能测试 ，其测
+试结果如图 5 示。未添加稀土的耐蚀钢其抗拉强度
+为 652 MPa ，而 屈 服 强 度 为 482 MPa 。 当 添 加
+0.003% 的稀土后 ，钢的抗拉强度提升了 35 MPa，屈
+服强度提升了 12 MPa，表现出明显的增强效果 。然
+而 ，当 稀 土 含 量 增 加 到 0.010% 时 ，抗 拉 强 度 为
+693 Pa，而屈服强度为 524 MPa。添加稀土后 ，晶粒
+有一定程度的细化 ，从而引起了强度的上升 。
+在伸长率方面 ，随着稀土含量的增加 ，三种钢
+的延伸率都呈现出下降的趋势 。这表明稀土的添
+加虽然可以提升钢的强度 ，但可能会牺牲一部分材
+料的塑性［28］。一方面 ，稀土元素的加入改变了钢中
+的夹杂物形态和分布 ，使得夹杂物对位错滑移的阻
+碍作用增强 ，从而降低了钢的塑性变形能力 ［29-30］。
+另一方面 ，稀土元素的加入还可能促进了某些脆性
+相的形成 ，如稀土氧化物等 ，这些相在拉伸过程中
+容易开裂或断裂 ，导致钢的塑性下降 ［21］。对于硬度
+的贡献 ，数据表明在一定范围内稀土含量的变化对
+耐蚀钢筋的硬度有一定的上升 。
+2. 4　稀土含量对耐蚀钢电化学性能的影响
+比较不同稀土含量耐蚀钢的电化学腐蚀试验
+结果及电极表面的等效电路示意图 ，如图 6 所示，可
+以明显看出 ，三种实验钢表现出相似的阻抗谱 ，阻
+抗 特 性 均 展 现 为 容 抗。 相 较 于 不 添 加 稀 土 时，
+0.003RE 的 圆 弧 半 径 有 一 定 的 增 大，而 在0.010RE
+时，圆弧半径进一步增大 ，说明耐蚀钢表面阻碍电
+子交换能力随稀土含量增加逐渐增大 ，耐蚀性逐渐
+增强 。等效电路图中 ，Rs 为腐蚀溶液电阻 ，CPE 为
+常相角元件（CPE-T 反映了电极表面的电荷传输能
+力等特性 ，而 CPE-P 主要用于衡量  CPE 元件与理想
+电容或其他元件的相似程度 ，体现了电极表面的非
+理想特性或弥散效应） ，Rp 为极化电阻 ，各参数的拟
+合结果见表 3 所示［14］。由于腐蚀介质相同 ，所以溶
+液的电阻变化不大 ，但极化电阻 Rp 随着稀土元素含
+量的提高而增大 。当稀土含量达到 0.010% 时，极化
+电阻达到最大值 ，为 1 102Rp/（Ω·cm2） 。与未添加
+稀土的耐蚀钢相比 ，极化电阻 Rp 增加了 12.4%。这
+意味着金属表面的反应动力学减慢 ，即腐蚀速率
+降低［14］。
+在分析图 7 所示的极化曲线时 ，随稀土元素添
+加量增加 ，极化曲线逐渐向左上方移动 。这表明 ，
+随稀土含量增加 ，耐蚀钢的自腐蚀电位呈现出增大
+的趋势 ，而自腐蚀电流则相应减小 。导致这一现象
+出现的原因是由于不同相存在显著的电位差 ，并在
+腐蚀介质中构成微电偶腐蚀电池 ［14，18，31-32］。同时，氯
+离子（Cl−）的强渗透性及其在金属表面的吸附能力 ，
+能够形成强大的电场 ，加速阳极反应过程 ，从而导
+致夹杂物从基体上剥离 。然而，当添加了质量分数
+为 0.003% 的稀土元素后 ，由于稀土元素与氧 、硫的
+图 2　不同稀土含量下实验钢的组织 ： （a）0RE， （b）0. 003RE， （c）0. 010RE
+Fig.  2　Microstructure of experimental steel with different rare earth contents ： （a） 0RE， （b） 0. 003RE， （c） 0. 01RE
+··60
+PDF_PAGE 4
+第 3 期 陈 浩等 ：稀土含量对 HRB400 钢组织与耐蚀性能的影响
+亲和力较大 ，促使钢中的夹杂物转化为稀土氧硫化
+物，其形态变为不规则状 ，大尺寸夹杂物数量略有
+下降 ，从而减小了与基体的接触面积 ，进而缩小了
+腐蚀反应的活性区域 ［14］，减少了点蚀发生的概率 ，
+有效地抑制了腐蚀过程［33-34］。当稀土含量继续增加
+到 0.01% 时，夹杂物的形态从不规则状转变为球状 ，
+大尺寸夹杂物数量进一步减少 ，从而进一步提升了
+材料的耐蚀性 。这一现象充分说明了稀土元素在
+改善耐蚀钢的耐腐蚀性能方面发挥了积极作用 ，能
+够有效提高钢材的抗腐蚀能力 。
+所 以 在 钢 中 添 加 稀 土 元 素，可 以 有 效 地 变 质
+MnS 等夹杂物 ，进而减弱微区电化学腐蚀活动 ［35］。
+在相同的环境条件下 ，MnS 夹杂物的自然腐蚀电位
+相对较低 ，因此，更容易受到腐蚀 ，从而成为点蚀的
+源头。相比之下 ，稀土夹杂物展现出较高的自腐蚀
+电位，这一特性有助于缩小其与钢基体之间的电极
+电位差［36］。这种电位差的减小对于抑制夹杂物诱
+导点蚀的能力是有益的 。进一步地 ，考虑到稀土氧
+化物和硫化物具备阳极性 ，它们能够作为电偶腐蚀
+微电池中的阳极 ［37］，并优先发生溶解 ，从而在一定
+程度上保护钢基体免受腐蚀侵害［38-39］。
+图 3　不同稀土含量下实验钢夹杂物的结构及 EDS： （a）0RE， （b）0. 003RE， （c）0. 010RE
+Fig.  3　 Structure and EDS of inclusions in experimental steel with different rare earth contents ： （a） 0RE， （b） 0. 003RE， （c） 
+0. 01RE
+图 4　不同稀土含量下实验钢夹杂物统计
+Fig.  4　Inclusion statistics of experimental steel with different 
+rare earth content
+··61
+PDF_PAGE 5
+第 46 卷 特殊钢
+通过对极化曲线进行拟合分析 ，获得了腐蚀电
+位和腐蚀电流密度的数值 ，见表 4。从这些数据中
+可以观察到一个明显的趋势 ：在 3.5%NaCl 溶液中 ，
+无论是未添加稀土的耐蚀钢还是添加了稀土元素
+的试验钢 ，均未表现出明显的钝化区 。然而 ，与未
+添加稀土的耐蚀钢相比 ，添加了稀土元素的试验钢
+在腐蚀电位上呈现出正向移动的趋势 ，并且腐蚀电
+流也有所减小 。研究结果显示 ，添加稀土元素显著
+增强了钢的耐腐蚀性 ，进而有效减缓了腐蚀进程 。
+当稀土质量分数达到 0.01% 时，腐蚀电位最为正向 ，
+为-0.644 V，同时腐蚀电流密度也达到最小值 ，仅为
+4.727×10-6 A/cm-2。 此 时，钢 的 耐 蚀 性 能 达 到 最 佳
+状态。
+2. 5　稀土含量对耐蚀钢腐蚀产物的影响
+为了分析不同稀土含量的实验钢腐蚀产物膜
+的相组成，进行了 XRD 测试以确定其相成分 ，如图 8
+所示。在不同稀土含量的实验钢中 ，腐蚀产物的成
+分构成基本相似 ，其主要包含 α-FeOOH、β-FeOOH、
+图 5　不同稀土含量下实验钢的力学性能 ： （a）应力-应变曲线， （b）强度与伸长率 ， （c）硬度
+Fig.  5　Mechanical properties of experimental steel with different rare earth contents ： （a） stress-strain curve ， （b） strength and elon ⁃
+gation， （c） hardness
+图 6　三种实验钢在 3. 5%（质量分数）NaCl 溶液下的 Nyquist
+图及等效电路 ： （a） Nyquist 图， （b） 等效电路
+Fig.  6　Nyquist diagram and equivalent circuit of three experi ⁃
+mental steels in 3. 5% （wt） NaCl solution ： （a） Nyquist dia ⁃
+gram， （b） equivalent circuit
+表 3　等效电路中各参数的拟合结果
+Table 3　Fitting results of the parameters in the equivalent 
+circuit
+实验钢
+0RE
+0.003RE
+0.010RE
+Rs/
+(Ω·cm2)
+6.00
+5.87
+5.59
+CPE-T/
+(F·cm2）
+0.0018
+0.0027
+0.0025
+CPE-P/
+(F·cm2）
+0.542
+0.548
+0.585
+Rp/
+(Ω·cm2)
+980
+1030
+1102
+图 7　不同稀土含量实验钢的极化曲线
+Fig.  7　Polarization curves of experimental steels with different 
+rare earth content
+表 4　耐蚀钢筋的极化曲线拟合结果
+Table 4　 Polarization curve fitting results of corrosion-
+resistant steel rebar
+实验钢
+0RE
+0.003RE
+0.010RE
+Ecorr/V
+-0.698
+-0.654
+-0.644
+Icorr/(10-6A·cm-2)
+7.612
+4.937
+4.727
+··62
+PDF_PAGE 6
+第 3 期 陈 浩等 ：稀土含量对 HRB400 钢组织与耐蚀性能的影响
+γ-FeOOH、γ-Fe2O3 和 Fe3O4 等相。研究表明［40］，随着
+腐蚀周期的延长 ，钢表面会形成保护性的锈层 ，使
+电位分布变得相对均匀 ，进而降低腐蚀速率 。而随
+着稀土元素的加入 ，能在一定条件下使 γ-FeOOH 转
+变为 α-FeOOH［14，41-42］。
+图 9 展示了不同稀土含量的耐蚀钢浸泡后的腐
+蚀产物形貌变化 。未添加稀土时 ，腐蚀产物主要为
+多孔疏松的 γ-FeOOH，其稳定性较差 ，当稀土含量
+增加至 0.003% 时，腐蚀产物的形态变为颗粒状 ，主
+要为 α-FeOOH，周围仍有部分 γ-FeOOH 存在 。与
+未添加稀土的情况相比 ，加入 0.003% 稀土后的腐
+蚀产物更加致密 ，表面裂纹减少 。进一步观察发
+现，当稀土质量分数达到 0.010% 时，表面裂纹最为
+细小 ，腐蚀产物呈细小颗粒状 ，周围未见明显的褶
+皱状 γ-FeOOH。可见稀土元素添加能够优化腐蚀
+产物的结构 ，减少电化学活性物质 γ-FeOOH 的生
+成 ，促 进 锈 层 中 的 颗 粒 聚 集 和 融 合 形 成 致 密 的α
+-FeOOH［14］，这一转变显著提升了钢材料的耐腐蚀
+性能 。α-FeOOH 展现出较高的稳定性和较低的活
+性［14］，其结构致密性能够有效阻碍电荷的传递 ，表
+现出绝缘体的特性 ，从而抑制了电化学反应的发
+生，对试验钢的保护效果显著 。
+图 10 展示了不同稀土含量下耐蚀钢浸泡后锈
+层截面的形貌 。在不含有稀土的实验钢中 ， “锈层-
+基体 ”界面呈现出较大的不平整性 ，这表明基体表
+面不同区域的腐蚀程度存在显著差异 。此外，这些
+锈层中还存在较多的裂纹遍布在基体与锈层界面 。
+虽然在图 10（b）中添加 0.003% 的实验钢锈层平均
+厚度下降 ，但锈层与基体的附着情况更为良好 ，且
+“锈层-基体”界面相对平整 。在图 11（c）中， “锈层-
+基体 ”界面更为平整 ，且锈层平均厚度达到 69 μm。
+这些现象说明稀土元素的加入有助于提高锈层的
+致密性和均匀性 ，减少缺陷的产生 ，有利于提高钢
+的耐腐蚀性能 。
+此外，通过对三种耐蚀钢进行浸泡实验进一步
+验证其耐蚀性情况 ，其实验结果如图 11。当稀土添
+加量达到 0.003% 时，尽管腐蚀速率有所下降 ，但与
+未添加稀土的情况相比 ，变化并不显著 。然而 ，当
+稀土含量增加到 0.010% 后，腐蚀速率相较于未添加
+稀土的情况有了显著的下降 。这进一步证实了在
+一定范围内 ，增加稀土含量能够有效提升耐蚀钢的
+腐蚀性能。
+3　结论
+通过添加微量稀土元素 ，制备了成本低 、耐蚀
+性优异的钢筋合金化的耐蚀钢 ，探讨了稀土元素对
+耐蚀钢筋的组织 、夹杂物及耐蚀性能的影响规律及
+机理。
+1）稀土元素的加入能够细化晶粒 ，对于改善钢
+中夹杂物的形态具有显著效果 。具体而言 ，稀土能
+够将 MnS 和 Al2O3·SiO2 这些通常呈长条状且形状不
+图 8　不同稀土含量的耐蚀钢电化学腐蚀产物 XRD
+Fig.  8　Electrochemical corrosion product XRD of corrosion re ⁃
+sistant steel with different rare earth contents
+图 9　不同稀土含量的耐蚀钢经电化学腐蚀后的腐蚀产物形貌 ： （a）0RE， （b）0. 003RE， （c）0. 01RE
+Fig.  9　 Morphology of corrosion products of corrosion resistant steels with different rare earth contents after electrochemical corro ⁃
+sion ： （a） 0RE， （b） 0. 003RE， （c） 0. 01RE
+··63
+PDF_PAGE 7
+第 46 卷 特殊钢
+规则的夹杂物转变为规则的球形 ，并减小其尺寸与
+数量。
+2）随着稀土含量的增加 ，耐蚀钢的腐蚀电位发
+生 正 移，电 流 密 度 减 小。 当 稀 土 质 量 分 数 达 到
+0.010% 时，耐蚀钢呈现出优异的耐腐蚀性能 ，腐蚀
+电位较正，腐蚀电流密度较低 。
+3）腐 蚀 产 物 的 主 要 成 分 包 括 α -FeOOH、β
+-FeOOH、γ-FeOOH、γ-Fe2O3 和 Fe3O4。在加入稀土元
+素后，腐蚀产物中具有较高电化学活性的 γ-FeOOH
+颗粒聚集 、融合 ，形成更加紧密的颗粒状 α-FeOOH
+结构 ，锈层的稳定性和致密性得到提升 ，从而更有
+效地阻碍电荷转移 ，减少了活性区的面积 ，进而抑
+制了腐蚀的发生 。
+参考文献
+［1］ 吕涛涛 .  2020 年重点钢铁企业粗钢产量变化对钢材品种产量
+影响分析［J］.  冶金管理， 2021（6） ： 17-22.
+［2］ 徐　萌 .  嵌入环境绩效的 N 钢铁公司综合绩效评价研究 ［D］.  
+南京： 南京理工大学 ， 2021.
+［3］ 杨绍鹏， 张月峰 .  加强全链条统筹  持续做好钢铁行业节能降碳
+［J］.  中国经贸导刊 ， 2023（12） ： 43-45.
+［4］ 李宇信 .  破局铁矿石高价困境的废钢政策探讨 ［J］.  冶金管理 ， 
+2020（16） ： 4-7.
+［5］ 江　蒙 .  微/纳米多孔微球制备及其应用研究 ［D］.  合肥 ： 中国
+科学技术大学 ， 2019.
+［6］ 张朝生 .  新型耐大气腐蚀性能钢板处理技术的开发 ［J］.  宽厚
+板， 1999， 5（5） ： 21-24.
+［7］ 刘　冰 .  建筑钢材的腐蚀问题与防护对策［J］.  中华建设 ， 2014
+（4） ： 126-127.
+［8］ 魏欢欢 ， 陈 晨 ， 郑东东 ， 等 .  海洋腐蚀环境下高强度钢材研
+究现状及发展趋势［J］.  人民珠江， 2023， 44（8） ： 82-92.
+［9］ 马秀敏 ， 郑　萌 ， 徐玮辰 ， 等 .  腐蚀成本及控制策略研究 ［J］.  
+海洋科学， 2021， 45（2） ： 161-168.
+［10］ 郭大伟 .  热镀锌合金化镀层腐蚀行为及机理研究 ［D］.  北京 ： 
+钢铁研究总院 ， 2014.
+［11］ Křivý V ， Kubzová M ， Konečný P ， et al .  Corrosion processes on 
+weathering steel bridges influenced by deposition of de -icing salts
+［J］.  Materials， 2019， 12（7） ： 1089.
+［12］ 李志彬， 黄毓祥， 陈鹏飞， 等 .  隔水导管腐蚀分析及维护补救
+措施探讨［J］.  海洋石油， 2022， 42（1） ： 100-107.
+［13］ 刘志勇， 汪　兵， 陈吉清 .  一种超低碳耐候钢的组织和性能研
+究［J］.  热加工工艺 ， 2020， 49（2） ： 56-58.
+［14］ 戴　玥， 张金玲， 于彦冲， 等 .  稀土对 A572 Gr. 65 钢电化学腐
+蚀行为的影响［J］.  表面技术， 2020， 49（8） ： 217-223.
+［15］ 鞍钢股份有限公司 .  一种耐海洋潮差区腐蚀用高性能钢板及
+其生产方法 .  CN202110726. 5［P］.  2022-06-10.
+［16］ 江　鹏 .  Ce 变质 Sn-Ag-Zn 共晶合金组织及其连接界面形成规
+律［D］.  天津： 天津大学， 2009.
+［17］ 胥继华 ， 路　岩 .  稀 土 元 素 对 耐 热 钢 热 强 性 能 影 响 的 研 究
+［J］.  金属热处理 ， 1999， 24（8） ： 1-2+9.
+［18］ 张风林， 任鸿儒， 原春阳， 等 .  Ce 对 0. 2C-0. 5Si-1. 5Mn 钢液洁
+净度与夹杂物变性的研究 ［J］.  太原理工大学学报 ， 2012， 43
+（5） ：595-602.
+图 10　不同稀土含量的耐蚀钢经电化学腐蚀后的腐蚀产物形貌 ： （a）0RE， （b）0. 003RE， （c）0. 01RE
+Fig.  10　Morphology of corrosion products of corrosion resistant steels with different rare earth contents after electrochemical corro ⁃
+sion ： （a） 0RE， （b） 0. 003RE， （c） 0. 01RE
+图 11　实验钢在 3. 5%（质量分数 ）NaCl 溶液下的浸泡腐蚀
+速率
+Fig.  11　 Immersion corrosion rate of experimental steel in 
+3. 5% （wt） NaCl solution
+··64
+PDF_PAGE 8
+第 3 期 陈 浩等 ：稀土含量对 HRB400 钢组织与耐蚀性能的影响
+［19］ 董　瀚， 廉心桐， 胡春东， 等 .  钢的高性能化理论与技术进展
+［J］.  金属学报， 2020， 56（4） ： 558-582.
+［20］ Wang L M ， Lin Q ， Yue L J ， et al .  Study of application of rare 
+earth elements in advanced low alloy steels ［J］.  Journal of Alloys 
+and Compounds ， 2008， 451（1-2） ： 534-537.
+［21］ 雷元素， 董瑞峰， 母志鹏， 等 .  稀土元素对耐蚀钢腐蚀性能影
+响的研究综述［J］.  山东冶金， 2024， 46（1） ： 28-33+38.
+［22］ Wei J ， Dong J H ， Zhou Y T ， et al .  Influence of the secondary 
+phase on micro galvanic corrosion of low carbon bainitic steel in 
+NaCl solution ［J］.  Materials Characterization ， 2018， 139： 
+401-410.
+［23］ Geng R M ， Li J， Shi C B .  Influence of cerium treatment on inclu ⁃
+sion modification and as -cast microstructure of high -strength low -
+alloy steel［J］.  Journal of Iron and Steel Research International ， 
+2022， 29（10） ： 1659-1668.
+［24］ Huang F ， Li J ， Geng R ， et al .  Effect of rare earth on inclusion 
+evolution and corrosion resistance of HRB 400E steel［J］.  Materi ⁃
+als and Corrosion ， 2022， 74（1） ： 53-67.
+［25］ 刘锦文， 唐海燕， 李 根 ， 等 .  稀土对高强耐蚀钢中夹杂物的
+影响［J］.  钢铁， 2023， 58（5） ： 70-82+9.
+［26］ Li Y ， Yuan X ， Wang P ， et al .  Rare earth alloy nanomaterials in 
+electrocatalysis［J］.  Journal of Energy Chemistry ， 2023， 83： 
+574-594.
+［27］ 李德成， 李志宏， 韩利明 .  碎煤加压气化炉爆炸事故分析［J］.  
+煤， 2012， 21（8） ： 63-65.
+［28］ 沈利群 .  稀土元素对金属材料性能的影响 ［J］.  兵器材料科学
+与工程， 1994， 17（2） ： 19-22.
+［29］ 白国君， 杨吉春， 梁文京 .  稀土加入时机对重轨钢成分及夹杂
+物影响［J］.  炼钢， 2023， 39（2） ： 82-88.
+［30］ 李 杰 ， 向 锋 .  高温处理对高 Co-Ni 超高强度钢拉伸性能的
+影响［J］.  湖南工程学院学报（自然科学版） ， 2022， 32（3） ： 26-31.
+［31］ 陈 孟 ， 刘承军， 姜茂发 .  稀土对含铜铁素体不锈钢中非金属
+夹杂物的影响 .  东北大学多金属共生矿生态化冶金教育部重
+点实验室， 2013： 5.
+［32］ 张　芳， 杨吉春 .  稀土元素镧对 20 钢组织和性能的影响 ［J］.  
+特殊钢， 2009， 30（1） ： 63-65.
+［33］ Park I J ， Lee S M ， Kang M ， et al .  Pitting corrosion behavior in 
+advanced high strength steels ［J］.  Journal of Alloys and Com ⁃
+pounds， 2015， 619： 205-210.
+［34］ Zheng S ， Li C ， Qi Y ， et al .  Mechanism of （Mg，Al，Ca）-oxide 
+inclusion-induced pitting corrosion in 316 L stainless steel ex ⁃
+posed to sulphur environments containing chloride ion ［J］.  Corro⁃
+sion Science ， 2013， 67： 20-31.
+［35］ 赵晓栋， 姜　江， 李国宝， 等 .  钢中大尺寸稀土夹杂物的形成
+动力学研究［J］.  中国稀土学报 ， 2004， 22（1） ： 142-144.
+［36］ 陈基权， 董瑞峰， 于宛鹭， 等 .  稀土元素对低合金钢耐腐蚀性
+能影响的研究现状［J］.  江西冶金， 2023， 43（2） ： 106-113.
+［37］ 李　伟， 吴健鹏， 徐静波， 等 .  非金属夹杂物对耐候钢耐大气
+腐蚀性能的影响［J］.  稀土， 2016， 37（1） ： 91-97.
+［38］ 高学中， 杨吉春， 刘　晓 .  稀土对 2Cr13 不锈钢夹杂物形态和
+耐 腐 蚀 性 能 的 影 响［J］.  科 技 情 报 开 发 与 经 济， 2007（18） ： 
+150-152.
+［39］ 唐有根 ， 韩红涛 ， 谢正和 .  稀土 Ce 掺杂铝合金阳极的结构和
+电 化 学 性 能［J］.  中 南 大 学 学 报（自 然 科 学 版） ， 206（4） ： 
+737-741.
+［40］ 雷元素， 董瑞峰， 母志鹏， 等 .  稀土元素对低合金钢腐蚀性能
+作用机理［J］.  包钢科技， 2023， 49（5） ： 33-36.
+［41］ 张大征 .  海洋平台用 690 MPa 级中锰钢组织性能及海水腐蚀
+行为研究［D］.  沈阳： 东北大学， 2016.
+［42］ 吴　群， 刘　玉， 杜荣归， 等 .  氯离子对模拟混凝土孔溶液中
+钢 筋 钝 性 影 响 的 电 化 学 研 究［J］.  金 属 学 报， 2008， 44（3） ： 
+346-350.
+··65

@@ -1,0 +1,462 @@
+PDF_PAGE 1
+PROCEEDINGS OF THE TECHNICAL UNIVERSITY OF SOFIA, ISSN: 2738-8549, VOL. 73, Special Issue, YEAR 2 023 
+  
+Abstract — The aim of this research was to analyze the 
+corrosion behavior of low-alloy steel 51CrV4. To accomplish 
+this, a series of electrochemical tests were conducted to estimate 
+the corrosion rate of the steel samples. These tests were carried 
+out in a 3.5% NaCl solution both before and after subjecting the 
+steel to specific heat treatments, which included quenching, as 
+well as quenching and tempering. 
+Furthermore, an additional set of electrochemical tests was 
+performed on 51CrV4 low-alloy steel samples that had 
+previously undergone quenching and tempering process. These 
+tests were designed to evaluate the corrosion rate under various 
+environmental conditions, encompassing tap water, a 1% NaCl 
+solution, a 3.5% NaCl solution, and a 5% NaCl solution. 
+Additionally, a separate electrochemical test was conducted in a 
+3.5% NaCl solution, introducing two distinct inhibitors: glycerol 
+and sodium thiosulfate pentahydrate. 
+From the experimental results, it can be concluded that 
+samples immersed in solutions with a higher NaCl concentration 
+exhibited a higher corrosion rate than those in solutions with a 
+lower concentration. It can also be concluded that sodium 
+thiosulfate pentahydrate served as an effective corrosion 
+inhibitor. In contrast, glycerol proved to be an ineffective 
+inhibitor and actually increased the corrosion rate. 
+ 
+Index Terms — Corrosion, Corrosion rate, Electrochemical 
+testing, Heat treatment, Inhibitors 
+ 
+I. INTRODUCTION 
+51CrV4 is a low-alloy steel known for its excellent 
+mechanical properties, especially in applications requiring 
+high strength and toughness. This steel is mainly used for the 
+production of various mechanical components and springs, as 
+it can withstand high loads and maintains its mechanical 
+properties even under stress. 
+Heat treatment plays a crucial role in improving the 
+mechanical properties of 51CrV4 steel. The most common 
+heat treatment processes for this steel include quenching and 
+tempering [1]. Quenching is rapid cooling of a steel from a 
+high (austenitization) temperature. In the case of 51CrV4, the 
+austenitization temperature is about 850°C. Quenching 
+results in increased hardness and strength, but low ductility. 
+After quenching, a steel is tempered by reheating to a lower 
+temperature (usually in the range of 400-600°C) followed by 
+air cooling. Tempering helps to reduce the brittleness caused 
+by rapid cooling while maintaining a desirable balance 
+between hardness and toughness. 
+ 
+Received: 14.11.2023  
+Published: 22.12.2023 
+h
+ttps://doi.org/10.47978/TUS.2023.73.04.002 
+S. Smokvina Hanza  is with the University of Rijeka, Faculty of 
+Engineering, Vukovarska 58, Rijeka, Croatia (suncana@riteh.hr). 
+Although the main purpose of heat treatment is to change 
+the 
+mechanical properties, heat treatment can also change the 
+corrosion properties of 51CrV4 steel. Appropriate heat 
+treatment can improve its corrosion resistance [2]. 
+Corrosion is a complex phenomenon driven by the natural 
+tendency of substances to react with each other, especially 
+when a metal is exposed to its environment. This process is 
+influenced by a number of factors, which are divided into 
+internal and external factors. Internal factors include material 
+properties, while external factors include the properties of the 
+environment. Microstructural constituents are the most 
+important material parameters that can affect the corrosion 
+resistance of quenched and tempered steels [2]. 
+Electrochemical corrosion is a redox process that occurs on 
+the surface of a metallic material when it is exposed to an 
+electrolyte, a medium that can conduct electricity. This type 
+of corrosion occurs due to potential differences between the 
+cathodic and anodic sites on the metal surface immersed in 
+the electrolyte. 
+The formation of a corrosion article is the result of two 
+different processes: oxidation and reduction. Oxidation takes 
+place at the anode, where the metal loses valence electrons. 
+This process leads to an increase in the oxidation number of 
+the metal as it undergoes chemical reactions with the 
+environment. Reduction takes place at the cathode, where 
+substances in the electrolyte absorb the electrons released 
+during the oxidation process. This leads to a decrease in the 
+oxidation number of the substances at the cathode. 
+In summary, this research focused on conducting 
+electrochemical tests to evaluate the corrosion behavior of 
+low-alloy 51CrV4 steel. It investigated the influence of 
+microstructure, surrounding medium and inhibitors on the 
+corrosion rate of the steel in a 3.5% NaCl solution and shed 
+light on the factors affecting the susceptibility of the material 
+to electrochemical corrosion. 
+II. EXPERIMENTAL INVESTIGATIONS 
+A. Material and Heat Treatment 
+The material subjected to this test is low-alloy 51CrV4 
+steel. In the normalized state, 51CrV4 steel has a ferrite-
+pearlite microstructure, as shown in Fig. 1. The proportion of 
+pearlite (darker phase) in this microstructure is significantly 
+higher than that of ferrite (lighter phase). The proportion of 
+pearlite and ferrite was determined from a structural diagram 
+and is as follows: 64% pearlite and 36% ferrite in the 
+microstructure. 
+M. Uljar  is with the University of Rijeka, Faculty of Engineering, 
+Vukovarska 58, Rijeka, Croatia (mirta.uljar@gmail.com). 
+D. Kvrgić  is with the University of Rijeka, Faculty of Engineering, 
+Vukovarska 58, Rijeka, Croatia (dkvrgic@riteh.hr). 
+ 
+The Corrosion Behavior of Low-Alloy Steel 
+51CrV4 
+Sunčana Smokvina Hanza, Mi rta Uljar, Dario Kvrgić 
+9
+PDF_PAGE 2
+S. Smokvina Hanza, M. Uljar, D. Kvr gić: The Corrosion Behavior of Low-Alloy Steel 51CrV4 
+It can be seen from Fig. 1 that the microstructure of 
+51CrV4 steel is characterized by its fineness, which is due to 
+the presence of vanadium in its chemical composition. It is 
+known that vanadium contributes to the refinement of the 
+microstructure of steel, resulting in smaller and more uniform 
+grain sizes [3]. 
+ 
+ 
+Fig. 1. Ferrite-pearlite microstructure of 51CrV4 steel [4] 
+ 
+Investigated samples were prepared by cutting ϕ16 steel 
+bars of normalized 51CrV4 steel into smaller pieces 
+measuring 4 mm in length. The chemical composition of 
+51CrV4 steel was determined using a glow discharge 
+spectrometer LECO GDS 500 A (Table 1). 
+ 
+TABLE 1 
+THE MASS FRACTION OF CHEMICAL ELEMENTS 
+Chemical element Mass fraction [%] 
+Carbon (C) 0.564 
+Silicon (Si) 0.299 
+Manganese (Mn) 0.865 
+Phosphorus (P) 0.0153 
+Sulfur (S) 0.0162 
+Nickel (Ni) 0.0381 
+Chromium (Cr) 1.15 
+Molybdenum (Mo) 0.0176 
+Copper (Cu) 0.0260 
+Aluminum (Al) 0.0306 
+Vanadium (V) 0.139 
+Iron (Fe) 96.8 
+ 
+Th
+e hardening processes applied in this research are shown 
+in Fig. 2: quenching (Q) and quenching and tempering (QT); 
+Ta is the austenitizing temperature and Tt is the tempering 
+temperature.  
+ 
+ 
+ 
+Fig. 2. Hardening processes: a) Q, b) QT 
+ 
+The values of the heat treatment parameters are listed in 
+Table 2. The time of 15 min or 60 min is the time the samples 
+are in the furnace. 
+ 
+TABLE 2 
+HEAT TREATMENT PARAMETERS 
+Heat treatment 
+Parameters 
+Temperature / time 
+/coo
+ling medium 
+Quenching (Q) 850 °C / 15 min / oil 
+Quenching and 
+temp
+ering (QT) 
+Q: 850 °C / 15 min / oil 
+T: 6
+00 °C / 60 min / air 
+ 
+B. E
+lectrochemical investigation 
+Prior to the electrochemical tests, the surfaces of the 
+samples were prepared by grinding and polishing on 
+sandpapers. First, the samples were grinded on Presi 
+sandpaper of fineness P320, and then P600. Afterwards, the 
+samples were degreased in ethanol. 
+The equipment for the electrochemical corrosion tests 
+includes a computer with the special software PowerSuite, a 
+potentiostat from the company Parrstat, and a five-necked test 
+cell containing: a working electrode with an exposed area of 
+1 cm2, a saturated calomel electrode (SCE) placed in a Luggin 
+capillary as a reference electrode, and graphite counter 
+electrodes. 
+The results of the electrochemical investigation were 
+obtained in the form of a diagram with the curves of the 
+stationary potential of the open circuit and Tafel curves 
+(potentiodynamic polarization curves). Measurements of the 
+open circuit potential, EOC, were made as a function of time 
+over a 1 h period. The potentiodynamic polarization was 
+performed over a potential range of EOC – 250 mV, starting 
+with the most negative potential. 
+The corrosion rate was calculated from polarization curves, 
+based on the corrosion current density, icorr, known equivalent 
+weight ( EW=27,714 g), and density ( ρ=7,85 g/cm 3) of 
+51CrV4 steel, according to the expression: 
+𝑣𝑐𝑜𝑟𝑟 =
+0,0033×𝑖𝑐𝑜𝑟𝑟×𝐸𝑊
+𝜌   [mmpy]     (1) 
+II
+I. RESULTS AND DISCUSSION 
+A. The influence of the microstructure on the corrosion 
+behavior of 51CrV4 steel 
+The electrochemical testing involved three distinct 
+samples. One of them remained in its as-received normalized 
+10
+PDF_PAGE 3
+PROCEEDINGS OF THE TECHNICAL UNIVERSITY OF SOFIA, ISSN: 2738-8549, VOL. 73, Special Issue, YEAR 2 023 
+state without any heat treatment (N), while the other two 
+underwent different heat treatments: quenching (Q) or 
+quenching and tempering (QT). All three samples were 
+immersed in a 3.5% NaCl solution, prepared by mixing 26.25 
+g of NaCl with 0.75 l of distilled water [5]. 
+The potentiodynamic polarization curves, presented in a 
+semi-logarithmic format, exhibit both cathodic and anodic 
+branches, reflecting the electrochemical reactions within the 
+system [1]. The anodic branch of the polarization curve 
+describes the dissolution of iron in the NaCl solution and can 
+be expressed using Eq. 2: 
+Fe → Fe2+ + 2e-        (2) 
+The cathodic branch of the polarization curve describes the 
+oxygen reduction reaction, which is given by Eq. 3: 
+‰ O2 + H2O + 2e- → 2 OH-      (3) 
+Fig. 3 shows the obtained curves of the dependence of the 
+open-circuit potential on time for three given samples. For all 
+samples, the open circuit potential drops to more negative 
+values. This drop is due to the development of corrosion 
+processes, i.e. the active state of the surface of the samples. 
+For the 51CrV4 steel sample, which is in the normalized state 
+(blue curve), the curve shows relative signs of a stable trend 
+only towards the end of the test, while the steel sample heat 
+treated by quenching (green curve) and the steel sample 
+quenched and tempered at 600 °C (black curve) show a stable 
+trend after about 25 minutes and the slight drop in the curve 
+continues until the end of the test. 
+ 
+ 
+Fig. 3. The open circuit potential vs. time - the influence of the 
+microstructure 
+ 
+The quenched steel sample shows more positive potential 
+values towards the end of the test compared to the normalized 
+sample, but also compared to the sample that was heat treated 
+by quenching and tempering. 
+Fig. 4 shows the obtained potentiodynamic polarization 
+curves, while Table 3 shows a comparison of the obtained 
+results. The corrosion potential values are as expected, i.e. the 
+corrosion potential is the most negative for normalized steel 
+with a ferrite-pearlite microstructure, and the most positive 
+for quenched sample with a martensite microstructure. 
+ 
+ 
+Fig. 4. Potentiodynamic polarization curves - the influence of the 
+microstructure 
+ 
+TABLE 3 
+THE RESULTS OF ELECTROCHEMICAL TESTING (FIG. 4) 
+Obtained values Sample 1 N Sample 2 Q Sample 3 QT  
+Corrosion potential 
+Ecor
+r [mV] -690.59 -647.16 -675.79 
+Corrosion current 
+de
+nsity 
+jcorr [µA/cm2] 
+13.01 16.25 49.87 
+Corrosion rate 
+vcor
+r [mmpy] 0.15 0.19 0.58 
+ 
+Ex
+pected values were obtained for some of the corrosion 
+rates. The value of the corrosion rate of quenched steel is 
+three times lower than the corrosion rate of quenched and 
+tempered steel, because quenched steel has a martensite 
+microstructure, while quenched and tempered steel contains 
+carbides formed during tempering, which can lead to the 
+appearance of microgalvanic articles. The corrosion rate of 
+normalized steel is the lowest, which is unexpected. 
+ 
+B. The influence of the medium on the corrosion behavior 
+of quenched and tempered 51CrV4 steel 
+Electrochemical tests included three quenched and 
+tempered samples immersed in tap water, 1% NaCl solution, 
+3.5% NaCl solution, and 5% NaCl solution [6]. 
+Fig. 5 shows the curves of the open circuit potential as a 
+function of test time in each of the above media. The lowest 
+values of the open circuit potential are shown by the sample 
+immersed in tap water (blue curve). For this sample, the 
+steepest drop is seen in the first 15 minutes of the 
+measurement. After that, the trend stabilizes and the potential 
+value is almost constant until the end of the measurement. 
+The sample immersed in a 3.5% NaCl solution (black curve) 
+shows the smallest drop in the open circuit potential, as its 
+curve is the most positive. For the sample immersed in a 5% 
+NaCl solution (brown curve), an uneven drop is observed, 
+i.e., there is an uncontrolled rise and fall of the potential, 
+which was not the case for the other three samples. Since the 
+open circuit potential drops negatively for all samples, it can 
+be concluded that corrosion takes place in all measurements, 
+regardless of the type of medium and the percentage of NaCl 
+11
+PDF_PAGE 4
+S. Smokvina Hanza, M. Uljar, D. Kvr gić: The Corrosion Behavior of Low-Alloy Steel 51CrV4 
+concentration.
+ 
+Fig. 5. The open circuit potential vs. time - the influence of the medium 
+ 
+For comparison purposes, the potentiodynamic 
+polarization curves of all four measurements are shown in 
+Fig. 6. 
+ 
+ 
+Fig. 6. Potentiodynamic polarization curves - the influence of the medium 
+ 
+The highest corrosion potential is present in the sample 
+immersed in a 5% NaCl solution and the lowest in the sample 
+immersed in tap water. The corrosion current and corrosion 
+rate values are lowest when measured in tap water and 
+continue to increase with increasing NaCl concentration. 
+ 
+TABLE 4 
+THE RESULTS OF ELECTROCHEMICAL TESTING (FIG. 6) 
+Obtained 
+va
+lues 
+Sample 1 
+ta
+p water 
+Sample 2 
+1% 
+NaCl 
+Sample 3 
+3.
+5% NaCl 
+Sample 4 
+5% 
+NaCl 
+Ecor r [mV] -729.46 -698.50 -657.79 -464.40 
+jcor r 
+[µA/cm2] 5.24 10.79 49.87 650.80 
+vcor r [mmpy] 0.06 0.13 0.58 7.56 
+ 
+C. Th
+e influence of inhibitors on the corrosion behavior of 
+51CrV4 steel in a 3.5% NaCl solution 
+In this experiment, samples of quenched and tempered 
+steel were immersed in a 3.5% NaCl solution to which 
+inhibitors were later added. Corrosion inhibitors are 
+substances of inorganic or organic origin that are added to an 
+aggressive medium and, at low concentrations, can greatly 
+reduce the corrosion rate of alloys and metals to certain 
+optimum levels. The inhibitors used in this test are neither 
+toxic nor dangerous to handle, unlike most inhibitors which 
+should be used with caution. 
+The tests were performed with two inhibitors: glycerol and 
+sodium thiosulfate pentahydrate at concentrations of 4% by 
+weight of inhibitor per 750 ml of distilled water [7]. Glycerol 
+is an organic compound in the form of a clear, yellowish 
+liquid with no odor and a sweet taste. Sodium thiosulfate 
+pentahydrate (Na 2S2O3  5H 2O) is a chemical compound of 
+sodium, sulfur and oxygen. This compound is in the form of 
+crystals, is colorless and odorless, and is soluble in water. 
+Fig. 7 shows the open circuit potential curves as a function 
+of time for all two tests with the application of the mentioned 
+inhibitors compared to the measurements where no inhibitors 
+were applied. The potential curve when Glycerol is used 
+(green curve) initially shows an increased value, but drops 
+very quickly and then remains approximately constant. It can 
+also be seen that the open circuit potential curve of the sample 
+tested in a solution containing sodium thiosulfate 
+pentahydrate inhibitor (black curve) continues to rise after a 
+certain time, in contrast to the sample tested in a 3.5% NaCl 
+solution without inhibitor (blue curve), indicating surface 
+passivation. 
+ 
+ 
+Fig. 7. The open circuit potential vs. time - the influence of inhibitors 
+ 
+Fig. 8 shows the potentiodynamic polarization curves of 
+the above tests, while Table 5 lists the results of the 
+electrochemical corrosion tests. 
+ 
+12
+PDF_PAGE 5
+PROCEEDINGS OF THE TECHNICAL UNIVERSITY OF SOFIA, ISSN: 2738-8549, VOL. 73, Special Issue, YEAR 2 023 
+ 
+Fig. 8. Potentiodynamic polarization curves - the influence of inhibitors 
+ 
+TABLE 5 
+THE RESULTS OF ELECTROCHEMICAL TESTING (FIG. 8) 
+Inhibitor Ecor r [mV] jcor r [µA/cm2] vcor r [mmpy] 
+no inhibtor -675.787 49.9 0.579 
+glycerol -472.519 703 8.16 
+sodium 
+thio
+sulfate 
+pentahydrat 
+-687.746 1.3 0.0151 
+ 
+Steel 5
+1CrV4 immersed in a 3.5% NaCl solution is 
+susceptible to corrosion and therefore has a lower durability, 
+while the use of glycerol as an inhibitor is useless. Glycerol 
+increases the corrosion rate by 14 times. 
+Sodium thiosulfate pentahydrate showed effective 
+protection in a 3.5% NaCl solution, where it reduced the 
+corrosion rate 38-fold. It can be concluded that steel 51CrV4 
+is stable in this solution. 
+IV. CONCLUSIONS 
+The corrosion behavior of low-alloy 51CrV4 steel was 
+analyzed by electrochemical corrosion tests. The test was 
+conducted in three parts: the influence of microstructure on 
+corrosion behavior, the influence of medium on corrosion 
+behavior, and the influence of inhibitors on corrosion 
+behavior of low-alloy steel in 3.5% NaCl solution. 
+In studying the influence of microstructure on the 
+corrosion behavior of 51CrV4 steel, it was found that 
+quenched steel has the most positive corrosion potential, 
+while normalized steel has the most negative potential. The 
+corrosion rate of quenched steel is three times lower than the 
+corrosion rate of steel quenched and tempered due to the 
+homogeneous martensite microstructure, while carbides are 
+formed during tempering, which may be the cause of the 
+appearance of microgalvanic articles. 
+When investigating the influence of the medium on the 
+corrosion behavior of the low-alloy steel 51CrV4, it was 
+found that the concentration of NaCl solution is an important 
+factor in the corrosion behavior of the steel. Samples 
+immersed in solutions with higher concentration exhibited 
+higher corrosion rate compared to samples with lower 
+concentration. 
+The study of the influence of inhibitors on the corrosion 
+behavior of the low-alloy steel 51CrV4 showed that sodium 
+thiosulfate pentahydrate can be used as a corrosion inhibitor, 
+while glycerol is not an inhibitor and even increases the 
+corrosion rate. 
+REFERENCES 
+[1] A. Kubita, M. Buciora , W. Zieleckia, F. Stachowicz, “The impact of 
+heat treatment and shot peening on the fatigue strength of 51CrV4 steel”, 
+in 21st European Conference on Fracture ECF21, Catania, Italy, 2016. 
+[2] S. Smokvina Hanza, L. Štic, L. Liverić, V. Špada, “Corrosion behaviour 
+of tempered 42CrMo4 steel”, in Materials and Technology 55 (2021) 3, 
+427-433. DOI: 10.17222/MIT.2021.014 
+[3] M. Uljar, Microstructure characterization of low-alloy steel  (bachelor 
+degree thesis), Rijeka, Croatia, 2021. (in Croatian) 
+[4] F. Mansfeld, U. Bertocci (Eds.) , “Electrochemical corrosion testing “, 
+Vol. 727, ASTM International, 1981. 
+[5] M. Uljar, Effect of microstructure on the corrosion behavior of low-alloy 
+steel (master degree thesis), Rijeka, Croatia, 2023. (in Croatian) 
+[6] R. Ramljak, Analysis of the Influence of Media on the Corrosion 
+Behavior of Low-alloy Steel (master degree thesis), Rijeka, Croatia, 
+2023. (in Croatian) 
+[7] H. Dundović, Effect of Inhibitors on the Corrosion Behavior of Low-
+alloy Steel in a 3.5% NaCl solution  (master degree thesis), Rijeka, 
+Croatia, 2023. (in Croatian) 
+ 
+13

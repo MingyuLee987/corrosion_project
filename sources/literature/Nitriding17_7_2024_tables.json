@@ -1,0 +1,107 @@
+[
+  [
+    [
+      "",
+      "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+    ]
+  ],
+  [
+    [
+      "C",
+      "Cr",
+      "Ni",
+      "Si",
+      "Mn",
+      "Al",
+      "Fe"
+    ],
+    [
+      "0.032",
+      "16.58",
+      "7.42",
+      "0.50",
+      "0.29",
+      "1.23",
+      "Bal."
+    ]
+  ],
+  [
+    [
+      "SN (μm)",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    [
+      "142.25",
+      "140.07",
+      "141.71",
+      "138.97",
+      "140.88",
+      "141.16",
+      "141.65",
+      "142.79",
+      "138.43",
+      "132.98"
+    ],
+    [
+      "HN (μm)",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    [
+      "107.25",
+      "105.63",
+      "106.78",
+      "107.25",
+      "107.43",
+      "110.55",
+      "107.84",
+      "111.12",
+      "107.85",
+      "107.53"
+    ]
+  ],
+  [
+    [
+      "Samples",
+      "Ecorr (mV)",
+      "Icorr (A/μm 2 )"
+    ],
+    [
+      "S",
+      "−169 ± 4",
+      "0.176 ± 0.01"
+    ],
+    [
+      "H",
+      "−294 ± 6",
+      "0.279 ± 0.01"
+    ],
+    [
+      "SN",
+      "−524 ± 5",
+      "11.429 ± 0.03"
+    ],
+    [
+      "HN",
+      "−459 ± 5",
+      "5.177 ± 0.02"
+    ]
+  ]
+]
