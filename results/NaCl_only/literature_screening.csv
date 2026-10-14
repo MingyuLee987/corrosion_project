@@ -1,0 +1,19 @@
+﻿doi,decision,new_rows_or_pending,reason,source_url
+10.1016/j.jmrt.2024.03.025,added,6,304L LPBF; composition Table1; nA/cm2 means Table4; N2 purged,https://nano.xjtu.edu.cn/202412.pdf
+10.3390/ma17204960,added,5,9Cr tempered; chemistry Sec2.1; uA/cm2 Table1,https://doi.org/10.3390/ma17204960
+10.3390/ma18010069,duplicate,0,Ce316L already Zhang2025; no duplicate append,https://www.mdpi.com/1996-1944/18/1/69
+10.3390/coatings14040413,duplicate_further_graphs_pending,0,EH36 already Coat24; temperature/concentration graphs require validated icorr digitization,https://www.mdpi.com/2079-6412/14/4/413
+10.1007/s11663-026-04267-x,pending,2,Q355B NaCl abstract currents verified; full chemistry and final RE assay not verified,https://link.springer.com/article/10.1007/s11663-026-04267-x
+10.1016/j.jmrt.2026.02.234,pending,3,RE304 chemistry verified; numeric icorr not verified; passive current not substituted,https://www.sciencedirect.com/science/article/pii/S2238785426004849
+10.1080/00084433.2026.2656834,pending_full_text,0,Ce microalloy steel NaCl; abstract compositions Ce0/.015/.045; target table unavailable,https://www.tandfonline.com/doi/full/10.1080/00084433.2026.2656834
+10.1016/j.jre.2020.06.015,pending_full_text,0,Ce HSLA NaCl; no validated chemistry+icorr table retrieved,https://www.sciencedirect.com/science/article/abs/pii/S1002072120303045
+10.1515/rams-2022-0284,pending_methods_tables,0,Hyperduplex RE; icorr mentioned; exact electrolyte and full table not retrieved,https://www.degruyterbrill.com/document/doi/10.1515/rams-2022-0284/html
+10.1016/j.jmst.2021.03.014,pending_target,0,13Cr4Ni RE chemistry retrieved; numeric icorr not verified,https://www.jmst.org/EN/10.1016/j.jmst.2021.03.014
+10.16490/j.cnki.issn.1001-3660.2020.08.025,pending_full_chemistry,0,A572 RE=.0047; abstract icorr2.77e-6; full chemistry unavailable,https://www.surface-techj.com/CN/10.16490/j.cnki.issn.1001-3660.2020.08.025
+10.3390/ma18051048,not_compatible_target,0,Ce bridge study examined: EIS/weight loss; no numeric icorr table,https://www.mdpi.com/1996-1944/18/5/1048
+10.3390/ma17051022,pending_full_chemistry,0,Uncoated press-hardened2currents verified; full chemistry not provided; AlSicoated excluded,https://www.mdpi.com/1996-1944/17/5/1022
+10.1038/s41529-025-00680-w,separate_method_pending,0,API microalloy NaCl LPR-derived icorr; method needs harmonization before PDP integration,https://www.nature.com/articles/s41529-025-00680-w
+10.3390/met10091174,excluded_environment,0,Wet-dryRE NaHSO3; not NaCl,https://www.mdpi.com/2075-4701/10/9/1174
+10.1007/s11663-025-03792-5,excluded_environment,0,NaCl+Na2S mixed electrolyte,https://research.birmingham.ac.uk/en/publications/effect-of-rare-earth-metal-alloying-on-pitting-corrosion-resistan/
+10.1016/j.mtcomm.2025.111799,pending_method_target,0,RE N80 NaCl Raman corrosion; no confirmed PDPicorr label,https://www.sciencedirect.com/science/article/abs/pii/S2352492825003113
+10.3390/met15020195,excluded_inhibitor,0,"Rare earth is dissolved inhibitor, not alloy RE",https://www.mdpi.com/2075-4701/15/2/195

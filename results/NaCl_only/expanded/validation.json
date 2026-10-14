@@ -1,0 +1,145 @@
+{
+  "rows_trained": 139,
+  "RE_positive_rows": 30,
+  "search_configs": 4,
+  "best_exploratory_config": [
+    "semantic_matrix",
+    0.3,
+    "scale",
+    1.0
+  ],
+  "selection_objective": "log10_R2",
+  "best_exploratory": {
+    "log10_R2": 0.15565885594985052,
+    "log10_MAE": 0.5632049880316323,
+    "paper_balanced_log10_MAE": 0.5811876410401662
+  },
+  "nested": {
+    "log10_R2": 0.13217254114603838,
+    "log10_MAE": 0.5712193968454943,
+    "paper_balanced_log10_MAE": 0.5912056520574932
+  },
+  "training_all_rows": {
+    "log10_R2": 0.7758782979950587,
+    "log10_MAE": 0.31628828444674745,
+    "paper_balanced_log10_MAE": 0.30477619252682336
+  },
+  "training_RE_only": {
+    "log10_R2": 0.7229636944538853,
+    "log10_MAE": 0.2607687925773233,
+    "paper_balanced_log10_MAE": 0.263716101370607
+  },
+  "selections": [
+    {
+      "held": "Bridge25",
+      "config": [
+        "semantic_matrix",
+        0.1,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Ce75Cr1_24",
+      "config": [
+        "semantic_matrix",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Coat24",
+      "config": [
+        "semantic_matrix",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "GCr23",
+      "config": [
+        "semantic_matrix",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "HRB400_RE_2025",
+      "config": [
+        "semantic_matrix",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "LaCe304_2025",
+      "config": [
+        "semantic_matrix",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "LaCe75Cr1_2023",
+      "config": [
+        "semantic_matrix",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "ShanghaiCe_2025",
+      "config": [
+        "semantic_matrix",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Tang2019",
+      "config": [
+        "semantic_matrix",
+        0.1,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "UCS23",
+      "config": [
+        "semantic_matrix",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Y_X100_2018",
+      "config": [
+        "semantic_matrix",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Zhang2025",
+      "config": [
+        "semantic_matrix",
+        0.3,
+        "scale",
+        1.0
+      ]
+    }
+  ],
+  "input_sha256": "fbdc8712c1fdbef7eb1c4b3d462ae55e60a5c89dafd3432e2ab8bf99e388e70a",
+  "actual_final_training_rows": 139,
+  "caution": "Training R2 is resubstitution, not generalization. Search is exploratory after previous experiments; nested splits reduce selection leakage but do not replace independent new-paper validation."
+}

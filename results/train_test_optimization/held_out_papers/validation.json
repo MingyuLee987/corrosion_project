@@ -1,0 +1,69 @@
+{
+  "split": "held_out_papers",
+  "seed": 42,
+  "train_rows": 116,
+  "test_rows": 23,
+  "test_RE_papers": 2,
+  "selected_config": [
+    "compact",
+    "ExtraTrees",
+    {
+      "n_estimators": 160,
+      "min_samples_leaf": 6,
+      "max_features": 1.0,
+      "random_state": 42,
+      "n_jobs": 1
+    }
+  ],
+  "training_cv_RE": {
+    "candidate": 17,
+    "feature": "compact",
+    "model": "ExtraTrees",
+    "params": "{\"n_estimators\": 160, \"min_samples_leaf\": 6, \"max_features\": 1.0, \"random_state\": 42, \"n_jobs\": 1}",
+    "n": 26,
+    "log10_R2": 0.41328213892746246,
+    "log10_MAE": 0.5334544150712951,
+    "within_2x_pct": 34.61538461538461,
+    "within_3x_pct": 50.0,
+    "within_5x_pct": 69.23076923076923,
+    "within_10x_pct": 80.76923076923077
+  },
+  "training_all": {
+    "n": 116,
+    "log10_R2": 0.8658734581529258,
+    "log10_MAE": 0.28586054835681945,
+    "within_2x_pct": 65.51724137931035,
+    "within_3x_pct": 81.03448275862068,
+    "within_5x_pct": 93.10344827586206,
+    "within_10x_pct": 96.55172413793103
+  },
+  "test_all": {
+    "n": 23,
+    "log10_R2": -4.385152092901161,
+    "log10_MAE": 1.066406200341984,
+    "within_2x_pct": 4.3478260869565215,
+    "within_3x_pct": 21.73913043478261,
+    "within_5x_pct": 26.08695652173913,
+    "within_10x_pct": 39.130434782608695
+  },
+  "training_RE": {
+    "n": 26,
+    "log10_R2": 0.8809944575241376,
+    "log10_MAE": 0.24598104275734572,
+    "within_2x_pct": 69.23076923076923,
+    "within_3x_pct": 84.61538461538461,
+    "within_5x_pct": 100.0,
+    "within_10x_pct": 100.0
+  },
+  "test_RE": {
+    "n": 4,
+    "log10_R2": -9.435622453866381,
+    "log10_MAE": 1.4344710552980335,
+    "within_2x_pct": 0.0,
+    "within_3x_pct": 0.0,
+    "within_5x_pct": 0.0,
+    "within_10x_pct": 0.0
+  },
+  "caveat": "One fixed split; small RE holdout. Historical dataset already explored. Not prospective external validation.",
+  "input_sha256": "fbdc8712c1fdbef7eb1c4b3d462ae55e60a5c89dafd3432e2ab8bf99e388e70a"
+}

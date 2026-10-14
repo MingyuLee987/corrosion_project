@@ -1,0 +1,225 @@
+{
+  "selected": "main_composition",
+  "training_paper_cv": [
+    {
+      "feature_set": "current",
+      "n": 27,
+      "log10_R2": -0.48167988769145675,
+      "log10_MAE": 0.8957269765485901,
+      "within_2x_pct": 22.22222222222222,
+      "within_3x_pct": 29.629629629629626,
+      "within_5x_pct": 29.629629629629626,
+      "within_10x_pct": 51.85185185185185
+    },
+    {
+      "feature_set": "main_composition",
+      "n": 27,
+      "log10_R2": -0.4125494681771338,
+      "log10_MAE": 0.8720863890652731,
+      "within_2x_pct": 22.22222222222222,
+      "within_3x_pct": 25.925925925925924,
+      "within_5x_pct": 37.03703703703704,
+      "within_10x_pct": 55.55555555555556
+    },
+    {
+      "feature_set": "extended_composition",
+      "n": 27,
+      "log10_R2": -0.432866481798615,
+      "log10_MAE": 0.8880431320226693,
+      "within_2x_pct": 14.814814814814813,
+      "within_3x_pct": 33.33333333333333,
+      "within_5x_pct": 44.44444444444444,
+      "within_10x_pct": 51.85185185185185
+    }
+  ],
+  "results": [
+    {
+      "feature_set": "current",
+      "selected_by_training_cv": false,
+      "input_columns": [
+        "C_wt_pct",
+        "Cr_wt_pct",
+        "Ni_wt_pct",
+        "Mo_wt_pct",
+        "RE_log1p_ppm",
+        "high_Cr_indicator",
+        "chloride_molar_verified",
+        "temperature_C",
+        "log_pre_exposure_verified",
+        "TP_scan_rate_mV_s",
+        "log_OCP_s",
+        "RE_element_cat",
+        "matrix_family_reported",
+        "gas_condition_cat"
+      ],
+      "training_all": {
+        "n": 116,
+        "log10_R2": 0.9474976117948504,
+        "log10_MAE": 0.15328233065664243,
+        "within_2x_pct": 89.65517241379311,
+        "within_3x_pct": 96.55172413793103,
+        "within_5x_pct": 98.27586206896551,
+        "within_10x_pct": 100.0
+      },
+      "training_RE": {
+        "n": 27,
+        "log10_R2": 0.9826320903367544,
+        "log10_MAE": 0.087647386152645,
+        "within_2x_pct": 100.0,
+        "within_3x_pct": 100.0,
+        "within_5x_pct": 100.0,
+        "within_10x_pct": 100.0
+      },
+      "historical_test_all": {
+        "n": 28,
+        "log10_R2": 0.8406310982051975,
+        "log10_MAE": 0.3447314811130501,
+        "within_2x_pct": 57.14285714285714,
+        "within_3x_pct": 67.85714285714286,
+        "within_5x_pct": 92.85714285714286,
+        "within_10x_pct": 96.42857142857143
+      },
+      "historical_test_RE": {
+        "n": 6,
+        "log10_R2": 0.8052479971133932,
+        "log10_MAE": 0.26956963486020546,
+        "within_2x_pct": 66.66666666666666,
+        "within_3x_pct": 83.33333333333334,
+        "within_5x_pct": 100.0,
+        "within_10x_pct": 100.0
+      }
+    },
+    {
+      "feature_set": "main_composition",
+      "selected_by_training_cv": true,
+      "input_columns": [
+        "C_wt_pct",
+        "Cr_wt_pct",
+        "Ni_wt_pct",
+        "Mo_wt_pct",
+        "RE_log1p_ppm",
+        "high_Cr_indicator",
+        "chloride_molar_verified",
+        "temperature_C",
+        "log_pre_exposure_verified",
+        "TP_scan_rate_mV_s",
+        "log_OCP_s",
+        "Si_wt_pct",
+        "Mn_wt_pct",
+        "P_wt_pct",
+        "S_wt_pct",
+        "Cu_wt_pct",
+        "RE_element_cat",
+        "matrix_family_reported",
+        "gas_condition_cat"
+      ],
+      "training_all": {
+        "n": 116,
+        "log10_R2": 0.9476933779260572,
+        "log10_MAE": 0.15218333384141933,
+        "within_2x_pct": 88.79310344827587,
+        "within_3x_pct": 96.55172413793103,
+        "within_5x_pct": 98.27586206896551,
+        "within_10x_pct": 100.0
+      },
+      "training_RE": {
+        "n": 27,
+        "log10_R2": 0.980862774477668,
+        "log10_MAE": 0.08773548314501028,
+        "within_2x_pct": 96.29629629629629,
+        "within_3x_pct": 100.0,
+        "within_5x_pct": 100.0,
+        "within_10x_pct": 100.0
+      },
+      "historical_test_all": {
+        "n": 28,
+        "log10_R2": 0.8572827870104891,
+        "log10_MAE": 0.3115644279407939,
+        "within_2x_pct": 60.71428571428571,
+        "within_3x_pct": 82.14285714285714,
+        "within_5x_pct": 92.85714285714286,
+        "within_10x_pct": 96.42857142857143
+      },
+      "historical_test_RE": {
+        "n": 6,
+        "log10_R2": 0.9597142550596157,
+        "log10_MAE": 0.12013598555145293,
+        "within_2x_pct": 100.0,
+        "within_3x_pct": 100.0,
+        "within_5x_pct": 100.0,
+        "within_10x_pct": 100.0
+      }
+    },
+    {
+      "feature_set": "extended_composition",
+      "selected_by_training_cv": false,
+      "input_columns": [
+        "C_wt_pct",
+        "Cr_wt_pct",
+        "Ni_wt_pct",
+        "Mo_wt_pct",
+        "RE_log1p_ppm",
+        "high_Cr_indicator",
+        "chloride_molar_verified",
+        "temperature_C",
+        "log_pre_exposure_verified",
+        "TP_scan_rate_mV_s",
+        "log_OCP_s",
+        "Si_wt_pct",
+        "Mn_wt_pct",
+        "P_wt_pct",
+        "S_wt_pct",
+        "Cu_wt_pct",
+        "N_wt_pct",
+        "Al_wt_pct",
+        "Nb_wt_pct",
+        "V_wt_pct",
+        "Ti_wt_pct",
+        "Co_wt_pct",
+        "O_wt_pct",
+        "RE_element_cat",
+        "matrix_family_reported",
+        "gas_condition_cat"
+      ],
+      "training_all": {
+        "n": 116,
+        "log10_R2": 0.9478443493332538,
+        "log10_MAE": 0.14953292566944906,
+        "within_2x_pct": 88.79310344827587,
+        "within_3x_pct": 96.55172413793103,
+        "within_5x_pct": 98.27586206896551,
+        "within_10x_pct": 100.0
+      },
+      "training_RE": {
+        "n": 27,
+        "log10_R2": 0.9797874909524483,
+        "log10_MAE": 0.08979446028905681,
+        "within_2x_pct": 96.29629629629629,
+        "within_3x_pct": 100.0,
+        "within_5x_pct": 100.0,
+        "within_10x_pct": 100.0
+      },
+      "historical_test_all": {
+        "n": 28,
+        "log10_R2": 0.8383962747055551,
+        "log10_MAE": 0.3368735655623399,
+        "within_2x_pct": 60.71428571428571,
+        "within_3x_pct": 78.57142857142857,
+        "within_5x_pct": 89.28571428571429,
+        "within_10x_pct": 92.85714285714286
+      },
+      "historical_test_RE": {
+        "n": 6,
+        "log10_R2": 0.9420220335973611,
+        "log10_MAE": 0.16412447322601795,
+        "within_2x_pct": 100.0,
+        "within_3x_pct": 100.0,
+        "within_5x_pct": 100.0,
+        "within_10x_pct": 100.0
+      }
+    }
+  ],
+  "training_rows": 116,
+  "test_rows": 28,
+  "caveat": "Only composition inputs changed; fixed GBR parameters. Training-only paper CV used for selection. Historical random-row test reused, 6 RE rows; exploratory comparison, not independent external validation. Missing compositions are not zero-filled."
+}

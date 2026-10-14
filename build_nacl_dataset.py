@@ -4,7 +4,6 @@ import hashlib
 import json
 import numpy as np
 import pandas as pd
-from sklearn.metrics import r2_score
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'results/NaCl_only'
@@ -87,6 +86,34 @@ def main():
     assert expanded.record_id.is_unique and expanded.icorr_A_cm2.gt(0).all()
     assert not set(add.doi) & set(original.doi.dropna())
     expanded.to_csv(ROOT/'data/training_RE_NaCl_expanded.csv',index=False,encoding='utf-8-sig')
+    pending=[]
+    for sample,re,current in [('control',0.,4.13e-5),('RE',.007,2.92e-5)]:
+        pending.append(dict(record_id=f'PENDING_Q355B_2026_{sample}',reference_id='CeLaQ355B_2026',sample_id=sample,
+            alloy_system='Q355B steel',RE_wt_pct=re,RE_nominal_wt_pct=re,RE_element_cat='La+Ce',
+            RE_content_status='abstract_addition_amount_not_verified_final_assay',
+            icorr_A_cm2=current,log_icorr=np.log10(current),NaCl_wt_pct=3.5,electrolyte_family='NaCl',
+            doi='10.1007/s11663-026-04267-x',source_url='https://link.springer.com/article/10.1007/s11663-026-04267-x',
+            target_locator='publisher abstract',icorr_status='reported_abstract',primary_eligible=False,
+            exclusion_reason='full chemistry and PDP conditions unavailable; RE addition versus final assay not resolved',
+            training_role='pending_not_used',remarks='Published 2026-09-08; no chemistry inferred from steel grade. Inclusion mean diameter 2.84/2.16 um; number density 9.18/7.63 mm^-2 reported in abstract.',
+            inclusion_number_density_mm2=9.18 if re==0 else 7.63))
+    # Chemistry of a new RE study is verified, but passive current is not an icorr label.
+    for sample,chem,re,bounds in [
+        ('REE-0',[.027,8.113,18.064,.864,.024,.345,.002,.004,.236],0.,'not intentionally added'),
+        ('REE-1',[.020,8.14,18.242,.854,.052,.456,.009,.006,.203],.005,'0.004-0.006 wt%'),
+        ('REE-2',[.019,8.014,18.349,1.004,.05,.435,.009,.005,.206],.010,'0.009-0.011 wt%')]:
+        r=dict(record_id=f'PENDING_RE304_2026_{sample}',reference_id='RE304_2026',sample_id=sample,
+            RE_wt_pct=re,RE_element_cat='La+Ce',NaCl_wt_pct=3.5,electrolyte_family='NaCl',
+            alloy_system='304 austenitic stainless steel',doi='10.1016/j.jmrt.2026.02.234',
+            source_url='https://www.sciencedirect.com/science/article/pii/S2238785426004849',
+            composition_basis='Table1; RE range midpoint used; original range preserved in remarks',
+            primary_eligible=False,training_role='pending_not_used',
+            exclusion_reason='icorr not verified; passive-region current, pitting potential and EIS not substituted',
+            remarks=f'Table1 RE={bounds}; Sn=0.003 wt% (no Sn schema column). No assumed icorr.',
+            casting_method_cat='continuous_casting',processing_state_cat='hot_rolled',rolled_thickness_mm=20.)
+        r.update(dict(zip(['C_wt_pct','Ni_wt_pct','Cr_wt_pct','Mn_wt_pct','Cu_wt_pct','Si_wt_pct','Mo_wt_pct','Al_wt_pct','Co_wt_pct'],chem)))
+        pending.append(r)
+    pd.DataFrame(pending,columns=original.columns).to_csv(ROOT/'data/NaCl_RE_pending.csv',index=False,encoding='utf-8-sig')
     audit=dict(original_rows=len(original),baseline_rows=len(baseline),excluded_rows=len(excluded),
         columns=len(original.columns),new_rows=len(add),expanded_rows=len(expanded),
         RE_rows=int(baseline.RE_wt_pct.gt(0).sum()),RE_papers=int(baseline.loc[baseline.RE_wt_pct.gt(0),'reference_id'].nunique()),

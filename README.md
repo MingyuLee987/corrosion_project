@@ -1,5 +1,29 @@
 # 강재 부식전류밀도 예측
 
+<!-- composition CV -->
+19입력 GBR의 시험 28행을 제외하고 116행에서 4분할 교차검증했다. **행 단위 검증 R²: 전체 0.8217·희토류 0.7782**, **논문 단위 검증 R²: 전체 −0.2428·희토류 −0.4125**이다. 검증 예측을 모아 계산한 R²이며, 입력 선택에 사용한 개발용 검증으로 독립 중첩 검증은 아니다. [검증 방법·시험과의 차이·적중률](results/composition_inputs/cross_validation/report.md).
+<!-- /composition CV -->
+
+<!-- composition inputs -->
+조성 입력을 확장한 비교에서 **Si·Mn·P·S·Cu를 추가한 19입력 GBR**를 학습 내 논문별 CV로 선택했다. 같은 시험 행에서 전체 R²는 **0.8406 → 0.8573**, 희토류 R²는 **0.8052 → 0.9597**이고 희토류 2배 이내 적중은 **6/6**이다. 단, 희토류 시험은 6행이며 학습 내 논문별 CV R²는 **−0.4125**로 새 문헌 일반화는 여전히 부족하다. [조성 컬럼·결측률·비교 결과](results/composition_inputs/report.md).
+<!-- /composition inputs -->
+
+
+<!-- RE new literature -->
+NaCl 자료에 원 논문 수치가 확인된 **5행(희토류 첨가 3행·대조군 2행)**을 추가하여 **144행·196컬럼**으로 재학습했다. 약 20행 목표에는 아직 도달하지 못했다. 기존 시험 28행을 고정한 전체 시험 R²는 **0.8392 → 0.8406**, 희토류 시험 6행의 R²는 **0.8173 → 0.8052**였다. 희토류 5배 이내 적중은 5/6 → 6/6이지만 2배 이내 적중은 5/6 → 4/6이므로 전반적 개선으로 해석하지 않는다. [추가 자료](data/training_RE_NaCl_REexpanded.csv), [출처·보류 문헌·학습과 시험 결과](results/RE_NaCl_new_literature/report.md)를 확인할 수 있다.
+<!-- /RE new literature -->
+
+
+<!-- train-test experiment -->
+NaCl139행에서 학습내4분할 검증으로54후보를 비교한 뒤 고정80:20 시험을 평가했다. 선택된 GBR의 **전체 학습/시험 R²=0.9458/0.8392**, **희토류 학습/시험 R²=0.9797/0.8173**이다. 희토류 시험은6행뿐이며 같은 논문의 시료가 학습과 시험에 함께 존재할 수 있다. 별도 논문전체 제외 시험에서는 희토류4행 R²=−9.4356이므로 새논문 예측 문제는 해결되지 않았다. [학습·시험 상세 결과와 사용법](results/train_test_optimization/report.md)에 함께 기록했다. 기본모델은 유지한다.
+<!-- /train-test experiment -->
+
+
+<!-- NaCl-only experiment -->
+NaCl 단독 환경으로 제한한 자료128행에 일반강 원문2편11행을 추가해 **139행·기존196컬럼**을 만들었다. 희토류30행·12편의 논문 단위 중첩 검증 R²는 **0.1101 → 0.1322**다. [NaCl 현재 실험 자료](data/training_RE_NaCl_expanded.csv), [같은30행 비교·적중률·재현방법](results/NaCl_only/report.md), [문헌18편 검토 기록](results/NaCl_only/literature_screening.csv)을 참고한다. 새희토류5행은 [확인 대기](data/NaCl_RE_pending.csv)로 분리했으며 학습에는 쓰지 않았다. 기본 예측모델은 유지했다.
+<!-- /NaCl-only experiment -->
+
+
 품질 점검에서 원문 내 수치 환산이 불일치하는 일반강2행을 보류했다. [현재 품질 보류 후458행](data/training_RE_clean.csv)과 [보류 행](data/targets_quarantined.csv)을 분리했다. 희토류 검증47행은 유지했으며 중첩R²는−0.0660→−0.0651로 거의 같았다. 추가 튜닝은 배수 적중률을 올렸지만 R²가−0.2993으로 악화해 기본 모델을 교체하지 않았다. [품질 판단·전체 비교](results/quality_cleanup/report.md)를 참고한다.
 
 컬럼의 단위·시험 단계·기지상 의미를 점검하고 근사 염화물 환산값을 제외한 새 설계를 검증했다. 같은 희토류47행에서 중첩R²는 **−0.1678→−0.0660**, 5배 적중률은 **51.1%→61.7%**였다. 입력·후보 설정이 함께 변경된 탐색이며, 여전히 음수R²이므로 기본335행 모델은 유지한다. [컬럼 의미와 사용 기준](results/semantic_audit/column_meanings.md), [수정·검증 결과·다음 우선순위](results/semantic_corrected/report.md)를 참고한다.

@@ -1,0 +1,95 @@
+{
+  "base_rows": 139,
+  "added_rows": 5,
+  "added_RE_rows": 3,
+  "expanded_rows": 144,
+  "expanded_RE_rows": 33,
+  "columns": 196,
+  "model_config": [
+    "compact",
+    "GBR",
+    {
+      "n_estimators": 120,
+      "max_depth": 2,
+      "learning_rate": 0.1,
+      "loss": "huber",
+      "random_state": 42
+    }
+  ],
+  "training_rows": 116,
+  "test_rows": 28,
+  "new_papers_before_retraining": {
+    "n": 5,
+    "log10_R2": 0.6256375538380488,
+    "log10_MAE": 0.781382077803997,
+    "within_2x_pct": 20.0,
+    "within_3x_pct": 20.0,
+    "within_5x_pct": 40.0,
+    "within_10x_pct": 60.0
+  },
+  "new_RE_before_retraining": {
+    "n": 3,
+    "log10_R2": 0.6388622427201263,
+    "log10_MAE": 0.891707729597944,
+    "within_2x_pct": 0.0,
+    "within_3x_pct": 0.0,
+    "within_5x_pct": 33.33333333333333,
+    "within_10x_pct": 66.66666666666666
+  },
+  "training_all": {
+    "n": 116,
+    "log10_R2": 0.9474976117948504,
+    "log10_MAE": 0.15328233065664243,
+    "within_2x_pct": 89.65517241379311,
+    "within_3x_pct": 96.55172413793103,
+    "within_5x_pct": 98.27586206896551,
+    "within_10x_pct": 100.0
+  },
+  "training_RE": {
+    "n": 27,
+    "log10_R2": 0.9826320903367544,
+    "log10_MAE": 0.087647386152645,
+    "within_2x_pct": 100.0,
+    "within_3x_pct": 100.0,
+    "within_5x_pct": 100.0,
+    "within_10x_pct": 100.0
+  },
+  "historical_test_all_before": {
+    "n": 28,
+    "log10_R2": 0.8391587131170837,
+    "log10_MAE": 0.3520942352246033,
+    "within_2x_pct": 53.57142857142857,
+    "within_3x_pct": 71.42857142857143,
+    "within_5x_pct": 89.28571428571429,
+    "within_10x_pct": 96.42857142857143
+  },
+  "historical_test_all_after": {
+    "n": 28,
+    "log10_R2": 0.8406310982051975,
+    "log10_MAE": 0.3447314811130501,
+    "within_2x_pct": 57.14285714285714,
+    "within_3x_pct": 67.85714285714286,
+    "within_5x_pct": 92.85714285714286,
+    "within_10x_pct": 96.42857142857143
+  },
+  "historical_test_RE_before": {
+    "n": 6,
+    "log10_R2": 0.8173439975697445,
+    "log10_MAE": 0.23505816297361473,
+    "within_2x_pct": 83.33333333333334,
+    "within_3x_pct": 83.33333333333334,
+    "within_5x_pct": 83.33333333333334,
+    "within_10x_pct": 100.0
+  },
+  "historical_test_RE_after": {
+    "n": 6,
+    "log10_R2": 0.8052479971133932,
+    "log10_MAE": 0.26956963486020546,
+    "within_2x_pct": 66.66666666666666,
+    "within_3x_pct": 83.33333333333334,
+    "within_5x_pct": 100.0,
+    "within_10x_pct": 100.0
+  },
+  "caveat": "Existing 28 test IDs unchanged. Configuration frozen before adding new papers; no test tuning. Historical test is reused and only 6 RE rows; not new independent validation. New-paper metrics use old model before fitting. Extraction JSON hash identifies curated facts, not an original PDF hash.",
+  "input_sha256": "1a290f75e4df043457c4dfc16ba47aaa25c89383c299f02a66b0d0566615d8f6"
+}

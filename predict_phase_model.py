@@ -21,7 +21,13 @@ def main():
         data=prepare(data)
     missing=[col for col in bundle['input_columns'] if col not in data]
     if missing:data=pd.concat([data,pd.DataFrame(np.nan,index=data.index,columns=missing)],axis=1)
-    x=o.transform(data)
+    if bundle.get('preprocessing')=='semantic_only':
+        x=data.copy()
+        for nums,cats in bundle['feature_sets'].values():
+            for col in nums:x[col]=pd.to_numeric(x[col],errors='coerce')
+            for col in cats:x[col]=x[col].replace(['unknown','not_reported','unreported',''],np.nan)
+    else:
+        x=o.transform(data)
     for name,_,columns in bundle['model'].named_steps['prep'].transformers_:
         if name=='cat':
             for col in columns:x[col]=x[col].astype(object)
