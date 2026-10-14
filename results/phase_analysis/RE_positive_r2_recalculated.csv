@@ -1,0 +1,4 @@
+﻿feature,RE_positive_rows,papers,log10_R2,raw_icorr_R2
+drop_P_S_add_manufacturing,41,13,0.21110833481833724,-0.08172296799051981
+manufacturing_plus_phase,41,13,0.14906263766530858,-0.07653392807159243
+manufacturing_plus_phase_grain,41,13,-0.003690433198018761,-0.10367532451173167

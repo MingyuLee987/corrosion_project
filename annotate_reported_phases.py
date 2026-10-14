@@ -25,6 +25,13 @@ def annotate(data):
     assign(d.reference_id.eq('Bridge25'),'ferrite','polygonal_ferrite+pearlite','optical_metallography',
         'https://www.mdpi.com/2075-4701/15/1/85','Sec2 Figure1: three test steels',
         'sources/literature/Bridge25.md')
+    for re,structure in [(.0067,'pearlite+polygonal_ferrite+granular_bainite+quasi_polygonal_ferrite'),
+                         (.011,'pearlite+polygonal_ferrite+granular_bainite'),
+                         (.023,'acicular_ferrite'),(.031,'pearlite+acicular_ferrite')]:
+        assign(d.reference_id.eq('La24Q355')&np.isclose(d.RE_wt_pct,re),'ferrite',structure,
+            'metallography','https://www.mdpi.com/1996-1944/17/18/4467',
+            'Sec3.1 Figure2a-d: sample-specific constituents explicitly described; list not exhaustive',
+            'sources/literature/La24Q355.md')
     for sample,grain in [('UCS-Q235BRE(R)',24.),('UCS-Q235B(R)',41.)]:
         assign(d.reference_id.eq('UCS23')&d.sample_id.eq(sample),'ferrite','polygonal_ferrite+pearlite',
             'optical_metallography_ImagePro','https://www.mdpi.com/2075-4701/13/1/66','Sec3.1 Figure2b-c Table2',

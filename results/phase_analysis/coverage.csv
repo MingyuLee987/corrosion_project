@@ -1,6 +1,6 @@
 ﻿dataset,rows,verified_phase_rows
-training_PDP_augmented,314,9
-training_RE_expanded,50,9
-training_process_curated,314,9
-training_RE_all_journals,326,21
+training_PDP_augmented,314,13
+training_RE_expanded,50,13
+training_process_curated,314,13
+training_RE_all_journals,326,25
 RE_all_journals_additions,12,12
