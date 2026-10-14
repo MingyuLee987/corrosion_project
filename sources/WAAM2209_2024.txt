@@ -1,0 +1,514 @@
+PDF_PAGE 1
+DOI: https://doi.org/10.24425/amm.2024.149796
+Long Zhang 1*, Liang Liu 1, Feihong Liu 1, Jian Sun 2*, DongSheng Wang 2
+EffEct of Post-HEat trEatmEnt on tHE  mEcHanical ProPErtiEs and corrosion BEHa vior of duPlEx 
+stainlEss stEEl f aBricatEd By WirE  arc additivE  manufacturing
+in this study, the effect of heat treatment on the microstructure and mechanical properties of 2209 duplex stainless steel fab-
+ricated by wire arc additive was analyzed. it was found that solution treatment at 1100°C for 2 hours and tempering at 300°C for 
+2 hours can effectively improve the grain inhomogeneity of 2209 duplex stainless steel, eliminate γ2 and harmful brittle phases, and 
+take into account the mechanical properties and corrosion resistance. Compared with the original deposition state, the hardness and 
+yield strength increased by 10% and 31.8% to 245.6 hV and 499.7 MPa, which meet the requirements of engineering propellers. 
+electron back-scattered diffraction studies showed that the grains became refined and austenite maintained <101>//Z orientation 
+after solution heat treatment. Many small-angle grain boundaries were present in both the original sample and the solid solution, 
+but further tempering transformed the small-angle grain boundaries into large-angle grain boundaries.
+Keywords: arc additive manufacturing; 2209 duplex stainless steel; heat treatment; microstructure properties
+1. introduction
+Duplex stainless steel (DSS) is a stainless steel with two 
+phases austenite (γ ) and ferrite (α ), which has excellent me-
+chanical properties and corrosion resistance compared to other 
+stainless steels and therefore has a wide range of applications in 
+petroleum and marine propulsion [1,2]. however, conventional 
+DSS production requires a high-cost fabrication process for very 
+complex shapes. Wire arc additive manufacturing (W aaM), 
+due to its efficient productivity and low cost, has attracted the 
+attention of researchers [3-5].
+WaaM is an additive manufacturing technique based on 
+multilayer metal deposition, by which metal wires are processed 
+and shaped by an electric arc heat source, resulting in higher 
+material utilization than conventional manufacturing. There -
+fore, the WaaM process is preferred for manufacturing large 
+and medium-sized complex geometry parts. at the same time, 
+it has a higher deposition rate and is more cost-effective than 
+powder-based additive manufacturing techniques [6]. however, 
+high deposition rates also lead to the production of parts with 
+defects such as cracks and shrinkage; because arc additive 
+manufacturing is performed by layer-by-layer stacking, there are 
+imbalances in the heating and cooling processes of each layer, 
+which can lead to residual stresses and harmful equivalent defects 
+within the material, and the presence of these defects can lead 
+to lower mechanical properties of WaaM products than forged 
+products [7]. Posch et al. [8] produced an impeller blade from 
+eR2209 DSS using Cold Metal Transition Wire arc additive 
+Manufacturing (CMT-WaaM). They found that the main prob-
+lem in the DSS WaaM process was the presence of deleterious 
+phases such as Cr2n, σ and χ phases, which made the tensile 
+properties of the DSS produced by WaaM poor. Wu et al. [9] 
+pointed out that the solidification mode of commonly used DSS 
+(including 2205, 2209, and 2507) is L → δ → δ + γ. Therefore, 
+the arc heat input must be controlled in the WaaM process to 
+reduce the austenite ratio and balance the ferrite/austenite ratio. 
+in response to the above problems, the scientists and technicians 
+have mainly solved them by changing the process, developing 
+new wires, and post-heat treatment. Zhang et al. [10] designs 
+a new type of flux-cored wire for WaMM of DSS, and this wire 
+arc additive duplex stainless steel (FCWa-aM DSS) produced 
+by this flux-cored wire has significantly improved yield strength 
+and ultimate tensile strength compared with W aaM DSS us-
+ing ordinary wire. Moreover far beyond the rolling and casting 
+DSS strength requirements. Wu et al. [9] found that variable 
+polarity cold metal transfer (VP-CMT) could better control the 
+1 anhui uniVeRSiTy oF  TeChnoLogy , SChooL  oF MeTaLLuRgiCaL  engineeRing, Ma ’anShan 243002, China
+2 TongLing uniVeRSiTy , Key LaboRa ToRy oF ConSTRuCTion hyDRauLiC  RoboTS  oF anhui higheR  eDuCaTion inSTiTuTeS , TongLing 244061, China
+* Corresponding authors: longzhang@ahut.edu.cn, sjxa0913@163.com
+Arch. Metall. Mater. 69 (2024), 2, 667-674
+BY NC
+© 2024. The author(s). This is an open-access article distributed under the terms of the Creative Commons attribution-nonCom-
+mercial License (CC by-nC 4.0, https://creativecommons.org/licenses/by-nc/4.0/deed.en which permits the use, redistribution of 
+the material in any medium or format, transforming and building upon the material, provided that the article is properly cited, the 
+use is noncommercial, and no modifications or adaptations are made.
+
+PDF_PAGE 2
+668
+ferrite/austenite ratio of 2209 DSS. nikam et al. [11] developed 
+eR2594 super duplex stainless steel using CMT-WaaM, and the 
+tensile properties in different directions (including horizontal, 
+45°, and vertical) with tensile properties superior to those of 6a 
+SDSS in the cast state of aSTM a890 standard.
+at present, studies on the mechanical properties of duplex 
+stainless steels fabricated by the arc addition method mainly 
+focus on the effects of different processes on the material tis-
+sue properties. in contrast, relatively few studies have been 
+conducted on improving the mechanical properties of W aaM 
+DSS by heat treatment. in addition, previous studies on heat 
+treatment of DSS were mainly aimed at increasing the austenite 
+content [12,13] or removing unfavorable secondary phases such 
+as Cr2n and σ-phase [14]. The traditional approach to improve 
+the mechanical properties of duplex stainless steels tends to solid 
+solution treatment, which re-dissolves the precipitated phases 
+into the matrix. The solid solution temperature during solid solu-
+tion treatment not only changes the ratio of ferrite to austenite in 
+duplex stainless steel but also leads to changes in the grain size 
+of duplex stainless steel at different solid solution temperatures, 
+and such tissue changes can have a significant impact on the 
+mechanical properties of duplex stainless steel. generally, the 
+proportion of single phase in duplex stainless steel should not 
+be less than 30%, and the corresponding solid solution tempera-
+ture should be between 1100°C and 1300°C. Zhang et al. [15] 
+performed a heat treatment of W aaM 2209 DSS. The results 
+showed that the pitting properties of 2209 DSS were significantly 
+improved by heat treatment of the solution at 1300°C for 1 h, 
+followed by water quenching. Meanwhile, the crystal structure 
+and microstructure indicated that the heat treatment at 1300°C 
+could balance the ratio of the two phases and improve the me-
+chanical properties of 2209 DSS. Therefore, an attempt is made 
+in this study to improve the mechanical properties of W aaM 
+DSS using heat treatment. The yield strength and tensile strength 
+of WaaM 2209 duplex stainless steel were improved by using 
+a new heat treatment (solution plus tempering), so that the yield 
+strength of the heat-treated duplex stainless steel is ≥450 MPa 
+and the tensile strength is ≥620 MPa, and at the same time there 
+is better corrosion resistance, which meets the requirements of 
+the application of a kind of engineering propeller material.
+2. Experimental
+as shown in Fig. 1(a, b), the material used for the experi-
+ments was 2209 DSS (Chemical composition of commercial raw 
+wires: ni 9, Si 0.8, Mn 0.9, Mo 3.2, Cr 22.7, C 0.03, n 0.13, Fe-
+bal wt-%) produced by arc additive manufacturing, and it can be 
+seen that the samples have a good deposition effect. The interme-
+diate zone – Xoy surface was selected as the object of study. The 
+effects on the structure and mechanical properties of 2209 DSS 
+were investigated by different heat treatment processes, selecting 
+the solid solution and low-temperature tempering temperature 
+that do not change the austenite/ferrite ratio. The solid solution 
+temperature used in the experiments was 1100°C, held for 1 h 
+to ensure the removal of residual stresses, followed by water 
+cooling. in contrast, the solid solution + tempering was 1100°C 
+held in solid solution for 1 h, and then tempered at 300°C for 2 h.
+in order to analyze the effect of heat treatment on the three 
+sets of specimens, the middle region was selected for the study, 
+and the sampling locations are shown in Fig. 1(c). Region “1” 
+is the tensile specimen region, and the tensile specimen size is 
+shown in Fig. 1(d), and region “2” is the other experimental 
+characterization region. Small specimens with dimensions of 
+Fig. 1. (a, b) Photographs of the 2209 DSS thin-walled assembly made by WaaM in different orientations; (c) schematic diagram of a thin-wall 
+component and the sample location; (d) tensile sample dimensions
+PDF_PAGE 3
+669
+10 mm × 10 mm × 7 mm were cut from three sets of specimens 
+using a DK7735 eDM wire cutter. The samples were ground 
+and polished, etched using ferric chloride hydrochloride solution 
+(5 g FeCl3 + 50 ml hCl + 50 ml h2o), and observed metallo -
+graphically using an oLyMPuS bX51 optical microscope (oa). 
+The electron back-scattered diffraction (ebSD) experiment first 
+electrolyzed the polished sample in a 10% room temperature ox-
+alic acid electrolyte at 15 V for 50 s. after the surface was bright 
+and free of scratches, it was observed with a SigMa 500 scan-
+ning electron microscope, measuring an area of 500 μm × 500 μm 
+in steps of 1.5 μm, and the experimental data were processed 
+with channel5. The electrochemical experiments were performed 
+on a Chi-760e constant potential meter with a test solution of 
+3.5 wt% naCl at 25°C and a 10 mV/min scan rate. a saturated 
+calomel electrode (SCe) was used as a reference electrode, 
+a platinum sheet was used as an auxiliary electrode, and the 
+specimen was used as a working electrode. The hardness of the 
+specimens was measured using an hV-1000 microhardness tester 
+with a load of 200 g and a duration of 15 s. according to gb/
+T228.1-2010 Standard for Tensile Testing of Metallic Materials, 
+the tensile tests were performed on a WnW-30g testing machine 
+at a constant tensile speed of 1 mm/min at room temperature, 
+and then the fracture morphology of the samples was observed 
+using a JSM-6490LV S eM scanning electron microscope. 
+Three specimens measuring 10 mm × 10 mm × 0.3 mm were 
+cut from different samples, mechanically thinned to 50 μm, and 
+then thinned to 10 μm using a Gatan 695 precision ion polish in 
+system. The bright-field was observed using an Fei Talos F200S 
+g2 transmission electron microscopy (TeM).
+3. results
+3.1. microstructural characterization
+Fig. 2 shows the microstructure of WaaM 2209 DSS under 
+different heat treatments, indicating that austenite is distributed 
+on the ferrite matrix. 2209 DSS generally has four different 
+forms of austenite, grain boundary austenite (gba) located at 
+the ferrite grain boundaries, Weiss austenite (W a) extending 
+towards the inner ferrite grain boundaries, intragranular austenite 
+(iga) with inhomogeneous nucleation inside the ferrite grain 
+boundaries, and secondary austenite (γ2). gba, Wa and iga are 
+also known as primary austenite [16]. as shown in Fig. 2, in the 
+deposited state, the size grains of austenite are inhomogeneous, 
+and the Wa and iga grains are large, which is detrimental to the 
+performance. also present is γ2, formed during the heat input of 
+subsequent layers in arc additive manufacturing. although its 
+grain size is much smaller than that of the native austenite, γ2 is 
+often accompanied by the generation of deleterious phases, such 
+as the σ phase [17]. after the solid solution and tempering heat 
+treatments, the organization becomes homogeneous and the del-
+eterious phases at the austenite grain boundaries are significantly 
+reduced. according to the phase diagram [15], it was found that 
+at the temperature chosen for a solid solution, the ferrite matrix 
+still belongs to the supersaturated state, austenite still by the 
+increasing trend, γ2 merged with other austenite grows, or grows 
+by itself, there is much tiny intragranular austenite.
+The inverse pole figure of the Z-direction (iPF-Z) of the 
+sample austenite is shown in Fig. 3. in the samples with deposited 
+Fig. 2. Microstructure of the (a) as-deposited, (b) solid solution, (c) solid solution + tempering
+Fig. 3. iPF-Z of (a) as-deposited, (b) solid solution, (c) solid solution + tempering
+PDF_PAGE 4
+670
+and solid solution ebSD, most of the austenite is green, indicat-
+ing that it has <101> // Z texture. however, there is no obvious 
+crystal orientation for the tempered samples.
+The grain boundary characteristic diagram of the sample 
+is shown in Fig. 4. The grain boundaries can be divided into 
+low-angle grain boundaries (L agbs) and high-angle grain 
+boundaries (hagbs). in general, the orientation angle of the 
+low-angle grain boundaries is less than 15°, while the orienta -
+tion angle of the high-angle grain boundaries is greater than 
+15° [18]. as can be seen from TabLe 1, the austenite content 
+of the three specimens does not differ significantly, but the low 
+and high-angle grain boundaries differ. The Lagbs dominate 
+in the as-deposited and solid solution states, and the Lagbs 
+are mainly distributed on the gba  and Wa grains, while the 
+hagbs are mainly distributed on the contact interface between 
+the ferrite and austenite phases. after tempering, the organization 
+becomes homogeneous and the large-angle grain boundaries 
+increase significantly. in general, hagb has good resistance to 
+deformation but poor corrosion resistance [19].
+The Kernel average Misorientation (KaM) measures the 
+number of local particle dislocations, usually derived from 
+ebSD data, and can be used to illustrate the local dislocation 
+density [20]. The KaM distribution of the deposited and heat-
+treated samples is shown in Fig. 5, where it can be seen that the 
+dislocation density of WaaM 2209 DSS decreases significantly 
+after heat treatment due to the low temperature of tempering, and 
+the dislocation density is consistent with solid solution.
+3.2. mechanical properties
+Fig. 6 shows the mechanical properties of the 2009 DSS 
+samples fabricated with the three different processes of arc ad-
+ditives. as can be seen from Fig. 6, the yield strength and tensile 
+Fig. 4. grain boundary characteristics of (a) as-deposited, (b) solid solution, (c) solid solution + tempering
+Fig. 5. KaM distribution of (a) as-deposited, (b) solid solution, (c) solid solution + tempering
+TabLe 1
+Phase and Lagbs ratio of different treated samples
+sample
+austenite (%) ferrite (%)
+ratio lagBs ratio ratio lagBs ratio
+as-deposited 62.8 89.1 37.2 94.4
+Solid solution 63.8 83.9 36.2 90.6
+Solid solution + Tempering 64.5 55.9 35.5 30.5
+PDF_PAGE 5
+671
+strength of the solid solution + tempered samples were the best, 
+at 499.7 MPa and 687.7 MPa, respectively, with a 31.8% increase 
+in yield strength and a slight increase in tensile strength compared 
+to 379 MPa and 667 MPa in the deposited state. The mechanical 
+properties of the solution heat treatment showed a slight decrease 
+in tensile strength but an increase in yield strength compared to 
+the original state. as shown in Fig. 6, the deposited, solid solution 
+and solid solution + tempered samples all have good elongation, 
+with elongation above 50%, which indicates that the 2209 DSS 
+produced by arc additive manufacturing has good plasticity and 
+does not reduce the elongation at break after heat treatment, while 
+improving the strength of the material. Comparing the hardness 
+in Fig. 6, it is found that the hardness of the samples after heat 
+treatment has increased, and the average microhardness of the 
+samples in the three treatment states are 223.6 hV , 240.2 hV 
+and 245.6 hV , respectively, while the hardness of the solid solu-
+tion + tempered state is 10% higher than the as-deposited state.
+The fractures of the samples are shown in Fig. 7, and it can 
+be clearly seen that all three samples exhibit toughness fracture 
+with obvious dimples and tearing ridges. The size distribution of 
+the dimples in the as-deposited samples is not uniform, but the 
+presence of many fine γ2 in itself contributes to the plastic tough-
+ness of the material. after heat treatment, the size of the dimples 
+in the tissue became uniform, and the dimples combined with 
+each other into an equiaxed dimple network, which enhanced 
+the plastic toughness of the material.
+Fig. 7. The images of tensile fracture of samples under different condition: (a) as-deposited, (b) solid solution, (c) solid solution + tempering
+Fig. 8. Potentiodynamic polarization curves of the as-deposited and 
+heat-treated WaaM DSS in 3.5 wt% naCl solution
+Fig. 6. Mechanical properties for the as-deposited, solid solution and 
+solid solution + tempering
+3.3. Electrochemical behavior
+The polarization curves of the as-deposited and heat-treated 
+WaaM DSS are shown in Fig. 8. in order to evaluate the corro-
+sion characteristics of the specimens, the following electrochemi-
+cal parameters were obtained: self-corrosion potential (Ecorr), 
+self-corrosion current (Icorr) and passivation current density 
+(Ipass), and the results are shown in TabLe 2. Theoretically, 
+a higher Ecorr implies a lower electrochemical activity and 
+a higher corrosion resistance [21]. however, the self-corrosion 
+potential can only represent the corrosion resistance tendency 
+of the material, while the self-corrosion current can indicate the 
+actual corrosion rate of the material in solution. The magnitude 
+of the passivation current density can reflect the stability of the 
+material passivation film, and the higher the passivation current 
+density indicates the poor stability of the passivation film. among 
+the as-deposited and heat-treated W aaM DSS samples, the 
+highest Ecorr and the lowest Icorr and Ipass for the as-deposited 
+PDF_PAGE 6
+672
+corrosion samples indicate that the as-deposited samples have 
+good corrosion resistance and can quickly form a stable passiva-
+tion film. after solid solution treatment, the corrosion resistance 
+decreased, and there was no significant Ipass, but the corrosion 
+resistance improved after further tempering treatment.
+TabLe 2
+Corrosion parameters of the polarization curves  
+in 3.5 wt% naCl solution
+sample Ecorr / (vscE) Icorr /  (a/cm2) Ipass /  (a/cm2) 
+as-deposited 0.299 5.42e-8 6.80e-7
+solid solution 0.092 3.61e-7 —
+solid solution + tempering 0.201 1.05e-7 2.58e-6
+4. discussion
+The mechanism of σ-phase precipitation in DSS is related 
+to γ2, which is usually a co-precipitation reaction at the ferrite-
+austenite phase interface, where the precipitation of Cr-rich 
+carbonation causes a decrease in the stability of ferrite and 
+thus transforms into γ 2. The growth of γ 2 releases excess Cr, 
+Mo and other elements in the phase, creating conditions for the 
+precipitation of the σ-phase. a study by Westin [22] noted that 
+the formation temperature of γ 2 is lower than that of primary 
+austenite. Therefore, due to the non-isothermal thermal treat -
+ment, the samples in the original deposited state are prone to 
+produce re-precipitated σ-phase at the grain boundaries. After 
+solid solution treatment, the deleterious phase dissolves in the 
+ferrite phase and the austenite distribution becomes homo-  
+geneous [23,24].
+Due to the heat dissipation in the middle of W aaM with 
+a specific orientation, the corresponding grains produced a per-
+ticular selective orientation, as shown in Fig. 3. The solid solu-
+tion treatment did not change the orientation of the austenite. 
+however, after further tempering, it was found that the selective 
+orientation disappeared and the grain orientation showed a ran-
+dom orientation. it is generally believed that low-temperature 
+tempering does not change the grain orientation, which may 
+be related to the selected location, such as the weld layer [25]. 
+Solid solution treatment, on the one hand, eliminates thermal 
+stresses, returns the distorted lattice, and recrystallizes the 
+elongated and broken grains, but the tensile strength decreases 
+and elongation increases; on the other hand, it maximizes the 
+elimination of precipitation phases and improves the plasticity, 
+toughness, and pitting resistance of DSS. Subsequent temper -
+ing improves tissue stability and eliminates internal stresses, 
+while some fine-grained metal compounds will precipitate, 
+which increases hardness and strength and hardens the speci-
+men twice. The bright-field transmission images under different 
+locations are shown in Fig. 9. in WaaM, firstly, many disloca-
+tions are accumulated inside the material under thermal stress. 
+The density of dislocations gradually increases and entangles 
+with each other to form dislocation walls, which can further 
+develop into small-angle grain boundaries. Due to the low solid 
+solution temperature, recrystallization is incomplete, which 
+cannot effectively eliminate dislocations. Therefore, a large 
+number of solute elements dissolved into the grain interior, 
+causing lattice distortion, which is not conducive to corrosion 
+performance. Small-angle grain boundaries are not stable, and 
+after uniform tempering, they absorb dislocations and gradually 
+transform into large-angle grain boundaries. Due to the austenite 
+content being higher than 60%, these three specimens exhibit 
+good plasticity. however, due to the inhomogeneous structure 
+and thermal stress of the as-deposited sample, the deforma-
+tion is uncoordinated, and the tendency of stress concentra-
+tion is high during the tensile process, which results in a low  
+yield strength.
+5. conclusions
+in this paper, the effect of heat treatment on the tissue 
+properties of 2209 DSS produced by arc additive manufactur -
+ing is investigated, and the conclusions can be drawn as follow:
+(1) heat treatment can effectively improve the grain inhomo-
+geneity of WaaM 2209 DSS, reduce the amount of Weiss 
+Fig. 9. bright-field transmission images under different processing: (a) as-deposited, (b) solid solution, (c) solid solution + tempering
+PDF_PAGE 7
+673
+austenite, eliminate γ 2 and harmful brittle phases, and 
+improve the mechanical properties of 2209 DSS.
+(2) Solution heat treatment at 1100°C does not change the 
+preferential grain orientation of austenite in the Z-direction, 
+showing <101>//Z orientation distribution, but the pref-
+erential orientation disappears after solution + tempering 
+heat treatment, which is related to the growth of grains. 
+The deposited and solid solution states are mainly Lagbs. 
+however, after tempering, the Lagbs absorb dislocations 
+and become hagbs, the number of hagbs gradually 
+increases, and the dislocation density decreases. 
+(3) The mechanical properties of the solid solution + tempered 
+specimens were improved after heat treatment. The hard-
+ness, yield strength and tensile strength reached 245.6 hV , 
+499.7 MPa and 687.7 MPa, respectively, while having 
+a good elongation of 52.5%. The hardness and yield strength 
+increased by 10% and 31.8%, respectively, compared with 
+the as-deposited state.
+(4) The as-deposited sample has good corrosion performance, 
+but the corrosion performance decreases after solid so-
+lution, and there is no apparent passivation zone. after 
+solid solution + tempering, the corrosion performance was  
+improved.
+acknowledgments
+This work was jointly supported by grants from anhui Provincial natural 
+Science Foundation (grant no. 2108085Me173), Key Laboratory of Con-
+struction hydraulic Robots of anhui higher education institutes, Tongling 
+university (grant no. TLXyChR-o-21yb03), and open founds from 
+anhui Province Key Laboratory of Metallurgical engineering & Resources 
+Recycling (grant no. SKF20-05).
+ReFeRenCeS
+[1] S. Sasaki, T. Katsumura, J. yanagimoto, grain refinement tech-
+nology for duplex stainless steel using rapid cooling immediately 
+before hot working. J. Mater. Process. Tech. 281, 116614 (2020). 
+Doi: https://doi.org/10.1016/j.jmatprotec.2020.116614
+[2] y .Q. Wang, J. han, h.C. Wu, b. yang, X.T. Wang , effect of 
+sigma phase precipitation on the mechanical and wear properties 
+of Z3Cn20.09M cast duplex stainless steel. nucl. eng. Des. 259, 
+1-7 (2013). 
+ Doi: http://dx.doi.org/10.1016/j.nucengdes.2013.02.037
+[3] D. Zhang, a. Liu, b. yin, P. Wen, additive manufacturing of 
+duplex stainless steels – a critical review. J. Manuf. Process. 73, 
+ 496-517 (2022). 
+ Doi: https://doi.org/10.1016/j.jmapro.2021.11.036
+[4] S.i. evans, J. Wang, J. Qin, y. he, P. Shepherd, J. Ding, a review 
+of WaaM for steel construction – Manufacturing, material and 
+geometric properties, design, and future directions. Structures 44, 
+1506-1522 (2022). 
+ Doi: https://doi.org/10.1016/j.istruc.2022.08.084
+[5] S. Singh, S.K. Sharma, D.W. Rathod, a review on process plan-
+ning strategies and challenges of WaaM. Mater. Today Proc. 47, 
+ 6564-6575 (2021). 
+ Doi: https://doi.org/10.1016/j.matpr.2021.02.632
+[6] a. Rajesh Kannan, n. Siva Shanmugam, V . Rajkumar, M. Vish-
+nukumar, insight into the microstructural features and corrosion 
+properties of wire arc additive manufactured super duplex stainless 
+steel (eR2594). Mater. Lett. 270, 127680 (2020). 
+ Doi: https://doi.org/10.1016/j.matlet.2020.127680
+[7] b. Parvaresh, R. Miresmaeili, M. yazdizadeh, Characterization of 
+wire arc additive manufactured products: a comparison between 
+as-deposited and inter-layer cold worked specimens, J. Manuf. 
+Process. 57, 61-71 (2020). 
+ Doi: https://doi.org/10.1016/j.jmapro.2020.05.053
+[8] g. Posch, K. Chladil, h. ChladilL, Material properties of CMT 
+– metal additive manufactured duplex stainless steel blade-like 
+geometries, Weld World 61, 873-882 (2017). 
+ Doi: https://doi.org/10.1007/s40194-017-0474-
+[9] K. Wu, X. hua, C. Shen, y.n Ding, J. Xin, g. Mou, L. Wang, 
+y. Zhang, W. Zhou, K.M. Reddy, effect of variable polarity during 
+cold metal transfer on microstructure and mechanical properties 
+of directed energy deposition-arc built 2209 duplex stainless steel. 
+addit. Manuf. 103750 (2023). 
+ Doi: https:// doi.org/10.1016/j.addma.2023.103750 
+[10] y . Zhang, S. Wu, F. Cheng, a duplex stainless steel (DSS) with 
+striking tensile strength and corrosion resistance produced through 
+wire arc-additive manufacturing (WaaM) using a newly devel-
+oped flux-cored wire. Mater. Lett. 313, 131760 (2022). 
+ Doi: https://doi.org/10.1016/j.matlet.2022.131760
+ [11] P.P. nikam, D. arun, K.D. Ramkumar, n. Sivashanmugam, Mi-
+crostructure characterization and tensile properties of CMT-based 
+wire plus arc additive manufactured eR2594. Mater. Charact. 169, 
+110671 (2020). 
+ Doi: https://doi.org/10.1016/j.matchar.2020.110671 
+[12] Z. Zhang, h. Jimg, L. Xu, y. han, L. Zhao, effect of post-weld 
+heat treatment on microstructure evolution and pitting corrosion 
+resistance of electron beam-welded duplex stainless steel. Corros. 
+Sci. 141, 30-45 (2018). 
+ Doi: https://doi.org/10.1016/j.corsci.2018.06.030
+[13] Z. Zhang, h. Zhao, h. Zhang, J. hu, J. Jin, Microstructure evolu-
+tion and pitting corrosion behavior of unS S32750 super duplex 
+stainless steel welds after short-time heat treatment. Corros Sci, 
+121, 22-31 (2017). 
+ Doi: http://dx.doi.org/10.1016/j.corsci.2017.02.006
+[14] S.T. Kim, S.h. Jang, i.S. Lee, y.S. Park, effects of solution heat-
+treatment and nitrogen in shielding gas on the resistance to pitting 
+corrosion of hyper duplex stainless steel welds. Corros. Sci. 53, 
+1939-4197 (2011). Doi: http://doi:10.1016/j.corsci.2011.02.013
+[15] y . Zhang, F. Cheng, S. Wu, improvement of pitting corrosion 
+resistance of wire arc additive manufactured duplex stainless steel 
+through post-manufacturing heat-treatment. Mater. Charact. 171, 
+110743 (2021). 
+ Doi: https://doi.org/10.1016/j.matchar.2020.110743
+[16] a. eghlimi, M. Shamanian, M. eskandarian, a. Zabolian, 
+J.a. Szpunar, Characterization of microstructure and texture across 
+PDF_PAGE 8
+674
+dissimilar super duplex/austenitic stainless steel weldment joint 
+by super duplex filler metal. Mate. Charact. 106, 27-35 (2015). 
+Doi: http://dx.doi.org/10.1016/j.matchar.2015.05.017
+[17] Z. Zhang, h. Jing, L. Xu, y. han, L. Zhao, influence of micro-
+structure and elemental partitioning on pitting corrosion resistance 
+of duplex stainless steel welding joints. appl. Surf. Sci. 394,  
+297-314 (2017). 
+ Doi: http://dx.doi.org/10.1016/j.apsusc.2016.10.047
+[18] y . Zhang, S. Cheng, S. Wu, F. Chen, The evolution of microstruc-
+ture and intergranular corrosion resistance of duplex stainless 
+steel joint in multi-pass welding. J. Mater. Process. Technol. 277, 
+116471 (2020). 
+ Doi: https://doi.org/10.1016/j.jmatprotec.2019.116471
+[19] y . Shi, W. Li, L. Tian, y. Sun, J. Zhang, h. Jing, L. Zhao, L. Xu, 
+y. han, effect of ferrite and grain boundary characteristics on 
+corrosion properties of thermal simulated 316 L heat affected 
+zone, Corros. Sci. 222, 111384 (2023). 
+ Doi: https://doi.org/10.1016/j.corsci.2023.111384
+[20] M. Vishnukumar, V . Muthupandi, S. Jerome, effect of post-heat 
+treatment on the mechanical and corrosion behaviour of SS316L 
+fabricated by wire arc additive manufacturing. Mater. Lett. 307, 
+131015 (2022). 
+ Doi: https://doi.org/10.1016/j.matlet.2021.131015
+[21] L.n. Zhang, o.a. ojo, Corrosion behavior of wire arc additive 
+manufactured inconel 718 superalloy. J. alloys. Compd. 829, 
+154455 (2020). 
+ Doi: https://doi.org/10.1016/j.jallcom.2020.154455
+[22] e. Westin, Microstructure and properties of welds in the lean 
+duplex stainless steel LDX 2101. Metallurgi och Metalliska 
+Material, (2010).
+[23] a.J. Ramirez, S.D. brandi, J.C. Lippold, Secondary austenite and 
+chromium nitride precipitation in simulated heat affected zones 
+of duplex stainless steels. Sci. Technol. Weld. Joi. 9 (4), 301-13 
+(2013). Doi: https://doi: 10.1179/136217104225021715
+[24] C.h.X.M. Magalhães, g.L.D. Faria, L.e. Lageiro, J.D. Silva, 
+Characterization of the austenite Reformation Mechanisms as 
+a Function of the initial Ferritic State in a unS S32304 Duplex 
+Stainless Steel. Mater. Res. 20 (6), 1470-1479 (2017). 
+ Doi: http://dx.doi.org/10.1590/1980-5373-MR-2016-1122
+[25] X. Zhang, K. Wang, Q. Zhou, J. Kong, y. Peng, J. Ding, J. Diao, 
+C. Diao, D. yang, y. huang, T. Zhang, S.W. Williams, element 
+partitioning and electron backscatter diffraction analysis from 
+feeding wire to as-deposited microstructure of wire and arc addi-
+tive manufacturing with super duplex stainless steel. Mater. Sci. 
+eng. a 773, 138856 (2020). 
+ Doi: https://doi.org/10.1016/j.msea.2019.138856

@@ -1,0 +1,643 @@
+L. LIVERI] et al.: CORROSION BEHAVIOUR OF ANNEALED 42CrMo4 STEEL
+111–117
+CORROSION BEHAVIOUR OF ANNEALED 42CrMo4 STEEL
+KOROZIJSKO OBNA[ANJE @ARJENEGA JEKLA VRSTE 42CrMo4
+Lovro Liveri}1*, Dario Iljki}1, Zoran Jurkovi}1, Nik{a ^atipovi}2,
+Pawe³ Nuckowski3, Oktawian Bialas4
+1University of Rijeka, Faculty of Engineering, Vukovarska 58, 51000 Rijeka, Croatia
+2University of Split, Faculty of Electrical Engineering, Mechanical Engineering and Naval Architecture,
+Ru|era Bo{kovi}a 32, 21000 Split, Croatia
+3Materials Research Laboratory, Faculty of Mechanical Engineering, Silesian University of Technology,
+ul. Konarskiego 18a, Gliwice 44-100, Poland
+4Department of Engineering Materials and Biomaterials, Faculty of Mechanical Engineering, Silesian University of Technology,
+ul. Konarskiego 18a, Gliwice 44-100, Poland
+Prejem rokopisa – received: 2022-09-14; sprejem za objavo – accepted for publication: 2023-01-20
+doi:10.17222/mit.2022.624
+In this paper, the corrosion behaviour of 42CrMo4 low-alloy steel after normalizing, soft annealing, spheroidizing annealing and
+full annealing is investigated. 42CrMo4 is steel for quenching and tempering, and one of the widely used and studied steels due
+to its good combination of mechanical properties. Sometimes, it is used in the annealed condition. Nevertheless, the corrosion
+properties of 42CrMo4 steel are poorly studied, especially in the annealed condition. The main objective of this work is to in-
+crease the knowledge about the corrosion behaviour of the investigated alloy. The mechanical and microstructure properties of
+the samples after different annealing processes were characterised with hardness testing, optical and scanning electron micros-
+copy (SEM) and X-ray diffraction (XRD). Measurements of the open-circuit potential and potentiodynamic polarisation of the
+samples after different annealing processes were carried out in a naturally aerated solution. It was found that the corrosion rate
+of the soft annealed samples was higher than that of the spherical and full annealed samples. Moreover, full annealing resulted
+in a significant improvement in the corrosion resistance.
+Keywords: heat treatment, annealing, corrosion, 42CrMo4 steel, microstructure
+V ~lanku je opisano korozijsko obna{anje malo legiranega jekla 42CrMo4 po normalizaciji, mehkem `arjenju, sferoidizacijskem
+`arjenju in procesu popolne toplotne obdelave. Jeklo 42CrMo4 se po kaljenju in popu{~anju zelo veliko uporablja zaradi dobre
+kombinacije mehanskih lastnosti, v~asih se uporablja tudi v `arjenem stanju. V preteklosti so korozijske lastnosti tega jekla
+redko raziskovali, {e posebej v `arjenem stanju. Glavni namen raziskave je bilo izbolj{anje znanja o korozijskem obna{anju
+jekla 42CrMo4. Mehanske in mikrostrukturne lastnosti vzorcev preiskovanega jekla so dolo~ili s pomo~jo merilnika trdote,
+opti~nega in vrsti~nega elektronskega mikroskopa (SEM) ter z rentgensko difrakcijo (XRD). Po razli~nih postopkih `arjenja
+vzorcev so s pomo~jo potenciodinami~ne polarizacije in metode dolo~itve potenciala odprtega tokokroga v naravno prezra~eni
+raztopini dolo~ili njihovo odpornost proti koroziji. Na osnovi analiz so ugotovili, da je hitrost korozije mehko `arjenih vzorcev
+ve~ja kot tistih, ki so bili sferoidizacijsko ali popolnoma od`arjeni. Poleg tega so ugotovili, da imajo popolnoma od`arjeni
+vzorci pomembno izbolj{ano korozijsko odpornost.
+Klju~ne besede: toplotna obdelava, `arjenje, korozija, jeklo 42CrMo4, mikrostruktura
+1 INTRODUCTION
+Low-alloy 42CrMo4 steel (AISI 4140) is a medium
+carbon steel alloyed with chromium and molybdenum,
+often used for dynamic loads and in impact areas.1 In a
+heat-treated condition, it offers various application possi-
+bilities such as high tensile strength and toughness.
+Steels
+with
+a
+medium
+carbon
+content
+between
+0.30–0.55 % C and 0.60–1.65 % Mn are used when
+higher mechanical properties are desired. They are usu-
+ally hardened and strengthened with heat treatment or
+cold working. This group of materials is widely used for
+certain types of cold-formed parts that require annealing,
+normalizing or quenching and tempering before use.1–4
+Steel 42CrMo4 is steel for quenching and tempering, and
+one of the widely used and studied steels due to its good
+combination of mechanical properties.1 Sometimes, it is
+used in the annealed condition.
+Normalizing is the heat treatment performed by
+austenitizing and air cooling to produce a uniform, fine
+ferrite/pearlite microstructure in steel. The higher
+austenitizing temperatures used in normalizing ensure
+that most carbides are dissolved. Upon cooling, the aus-
+tenite transforms into a coarse, non-uniform fer-
+rite/pearlite microstructure. This microstructure provides
+an excellent starting point for subsequent hardening heat
+treatments.5,6
+Heat treatments that produce microstructures consist-
+ing of spherical carbide particles, uniformly distributed
+in a ferrite matrix are called spheroidizing or spheroidiz-
+ing annealing heat treatments. Spheroidized microstruc-
+tures are the most stable microstructures found in steels,
+formed in any structure heated at sufficiently high tem-
+peratures and for sufficiently long times to allow diffu-
+sion-dependent nucleation and growth of spherical parti-
+Materiali in tehnologije / Materials and technology 57 (2023) 2, 111–117
+111
+UDK 628.483:669-153
+ISSN 1580-2949
+Original scientific article/Izvirni znanstveni ~lanek
+MTAEC9, 57(2)111(2023)
+*Corresponding author's e-mail:
+lliveric@riteh.hr (Lovro Liveri})
+
+cles. Therefore, there are many different heat treatment
+processes for producing spheroidized microstructures.6,7
+There are two stages of the microstructural change asso-
+ciated with the formation of a spheroidized micro-
+structure. The first stage is the formation of spherical
+carbide particles from other microstructures. A common
+starting point is pearlite, where cementite is present in
+essentially plate-like lamellae with a very large interfa-
+cial area per unit volume. The initial spherical micro-
+structures consist of highly dense, very fine particles.
+Therefore, the second stage of spheroidization begins
+when the fine particles with small radii of the curvature
+dissolve and coarse particles grow, presenting in turn an
+interfacial energy-reduction mechanism. Diffusion-de-
+pendent spheroidization can take many hours depending
+on the alloy content, spheroidizing temperature and the
+degree of coarsening required. The slowest sphero-
+idization is associated with coarse pearlitic microstruc-
+tures. Many other methods of spheroidization are used to
+speed up the process.6,7
+Soft annealing and spheroidize annealing have essen-
+tially the same process mechanism for producing sphero-
+idized microstructures, but with the main difference be-
+ing the cooling time. In the case of soft annealing, the
+cooling in air is slow, while in the case of spheroidize
+annealing, the cooling in a furnace is much slower.1–7
+Full annealing can be described as a process, in
+which steels are heated to just above the AC3 temperature
+for low and medium carbon steels and then slowly
+cooled in furnaces after the heating is complete. The
+slow cooling causes an austenite transformation into fer-
+rite and pearlite near the AC3 and AC1 temperatures, re-
+spectively, and ensures that coarse-grained equiaxed fer-
+rite and pearlite with coarse interlamellar spacing form,
+resulting in a microstructure with high ductility and
+moderate strength. Once the austenite has transformed
+into ferrite and pearlite, the cooling rate can be increased
+to reduce the processing time and thus increase produc-
+tivity. Although ferrite and pearlite microstructures are
+most often formed with full annealing at the above tem-
+peratures, microstructures of spheroidized carbide parti-
+cles can sometimes also form in ferrite.6,7
+Although the main purpose of heat treatment is to
+change the mechanical properties,8–13 heat treatment also
+changes the corrosion properties of a material.14,15
+Electrochemical corrosion is a destructive attack on a
+metallic material via an electrochemical reaction with
+the environment that negatively affects the critical me-
+chanical properties of components. Seawater is a nearly
+universal fluid for evaluating the corrosion resistance of
+metallic materials.1–4,7–17 Any material that exhibits good
+corrosion resistance in seawater is considered satisfac-
+tory for important aqueous applications.9–17 Corrosion is
+affected by external and internal factors. External factors
+are corrosive medium parameters such as corrosive me-
+dium composition, pH, temperature and velocity, while
+internal factors are material parameters.8–11
+Microstructural constituents are the most important
+material parameters that can affect the corrosion resis-
+tance of steels. A heterogeneous ferrite-pearlite micro-
+structure of annealed steel forms anodic and cathodic
+sites that lead to corrosion. Alloy additions of less than
+5 % have little effect on corrosion by seawater.13,14,17
+In this work, the corrosion behaviour of 42CrMo4
+steel subjected to different annealing processes was stud-
+ied. The aim of this work was to increase the knowledge
+about the corrosion resistance of 42CrMo4 steel after
+normalizing (N), soft annealing (A), spheroidizing (AC)
+and full annealing (fA). The main objective was to inves-
+tigate which process of the previously mentioned heat
+treatments exhibits the best corrosion resistance of an-
+nealed 42CrMo4 steel.
+For this purpose, chemical composition, microstruc-
+tural characterization and electrochemical studies were
+carried out. The chemical composition was determined
+using a glow discharge optical emission spectrometer
+(GDOES). The microstructure was studied with optical
+and electron microscopy. A phase analysis was per-
+formed using an X-ray diffractometer. Measurements of
+the open-circuit potential and potentiodynamic polariza-
+tion of the annealed samples were performed using a
+computer-controlled potentiostat with three electrodes in
+a 0.6 M NaCl naturally aerated solution.
+2 EXPERIMENTAL PART
+2.1 Materials
+Investigated samples were prepared by cutting manu-
+factured ø16 mm steel bars of normalized 42CrMo4 steel
+into smaller pieces measuring 4 mm in length. An LECO
+GDS 500 A glow discharge optical emission spectrome-
+ter was used to determine the chemical composition of
+steel (Table 1).
+2.2 Heat treatment
+The thermal processes applied in this research are
+schematically compared in Figure 1. The heat treatment
+parameters are shown in Table 2.
+The heat treatment parameters performed on the sam-
+ples are shown in Table 2. The AC3 temperature is
+790 °C, while AC1 is 745°C. The cooling rate and temper-
+atures of the processes made the difference in the
+L. LIVERI] et al.: CORROSION BEHAVIOUR OF ANNEALED 42CrMo4 STEEL
+112
+Materiali in tehnologije / Materials and technology 57 (2023) 2, 111–117
+Table 1: Chemical composition of 42CrMo4 steel (balance Fe)
+Chemical composition, w/%
+C
+Si
+Mn
+P
+S
+Ni
+Cr
+Mo
+Cu
+Al
+Ti
+V
+0.427
+0.214
+0.846
+0.0056
+0.0173
+0.0407
+1.07
+0.183
+0.167
+0.0386
+0.0089
+0.0106
+
+microstructure that is later observed. Normalization con-
+sisted of heating beyond the Ac3 temperature and slow
+air-cooling after a similar holding time. A similar treat-
+ment with heating beyond the Ac3 temperature is full an-
+nealing, using a slightly lower temperature in compari-
+son to normalization, and then cooling below the Ac1
+temperature. The cooling consisted of very slow furnace
+cooling, fallowed by air cooling from a certain point.
+With that combination of cooling, the microstructure
+changed, resulting in a drop in the hardness. Comparing
+the soft and spheroidizing annealing process, we find
+that the holding temperature of annealing was nearly the
+same, but a big difference was distinguished between the
+cooling processes. Soft-annealing cooling included
+air-cooling of the samples to room temperature, while in
+spheroidising, the cooling process took place in the fur-
+nace and was way slower then air cooling. In this pro-
+cess, the microstructure change reflected on the mechan-
+ical and corrosion properties of the material. However,
+the hardness was not the best example for comparing the
+two methods.
+2.3 Hardness test
+The hardness after the heat treatment processes was
+measured for the purpose of checking the processes. The
+hardness of the specimens was measured using a
+ZHU 187.5 universal hardness tester with a Rockwell B
+(HRB) hardness 1.588 mm diameter steel carbide ball in-
+denter. Before the measurements, the carburized layer
+was removed. The hardness results in Table 2 are given
+in average values of five measurements with the standard
+deviation. The hardness values obtained after the anneal-
+ing processes are in accordance with experimental litera-
+ture data.8 The results show that samples 1, 2 and 3 have
+similar hardness values, while sample 4 shows a lower
+value.
+2.4 Microstructure characterization
+The importance of microstructure for the properties
+of metal materials has long been recognized. Therefore,
+a microstructural characterization was done after the an-
+nealing processes to understand the connection between
+the microstructure and corrosion resistance of 42CrMo4
+steel. The microstructure of annealed samples was ob-
+served using an Axio Vert A1 light Zeiss microscope
+with an AxioCam ERc 5s microscope module and a FEG
+QUANTA 250 SEM FEI scanning electron microscope
+with an EDS OXFORD detector.
+Metallographic samples were prepared by grinding
+and polishing them with a STRUERS LABOPOL device,
+Materiali in tehnologije / Materials and technology 57 (2023) 2, 111–117
+113
+L. LIVERI] et al.: CORROSION BEHAVIOUR OF ANNEALED 42CrMo4 STEEL
+Figure 1: Thermal processes: a) normalizing (N), b) soft annealing (A), c) spheroidizing (AC) and d) full annealing (fA)
+Table 2: Heat treatment parameters
+Sample
+No:
+Heat treatment
+Parameters
+Hardness
+Temperature
+Time
+Cooling medium
+1
+Normalizing (N)
+870 °C
+120 min
+Air
+90 HRB ±3 HRB
+2
+Soft annealing (A)
+720 °C
+120 min
+Air
+90 HRB ±3 HRB
+3
+Spheroidizing annealing (AC)
+735 °C
+120 min
+Furnace cooling
+89 HRB ±3 HRB
+4
+Full annealing (fA)
+820 °C
+120 min
+From 820 °C furnace
+cooling to 670°C, then air 75 HRB ±3 HRB
+
+grinding on an MD-Piano 220 resin bonded diamond
+disc, followed by using an MD-Allegro composite disc
+with different diamond suspensions. The samples were
+polished with an MD-Dac polishing cloth with DiaPro
+Dac 3- and 1-micron diamond suspension, followed by
+an MD-Chem polishing cloth with OP-U NonDry colloi-
+dal silica suspension. The samples were etched using
+Nital 3 % solution for 10–20 s.
+X-ray diffraction was carried out on a PANalytical
+X’Pert Pro MPD diffractometer, with the use of filtered
+X-ray lamp radiation (Fe filter) with a cobalt anode
+(K Co = 0.17909 nm), powered by a voltage of 40 kV
+and with a filament current intensity of 30 mA. X-ray
+diffraction
+measurements
+were
+performed
+in
+the
+Bragg-Brentano geometry in an angular scope of
+20–120° [2] with a step of 0.05° and a step count time
+of 100 s. The obtained diffractograms were analysed by
+means of the X’Pert HighScore Plus software (v. 3.0e)
+with a dedicated Inorganic Crystal Structure Database –
+ICSD (FIZ, Karlsruhe, Germany).
+2.5 Electrochemical corrosion behaviour
+Electrochemical investigations were performed using
+a computer-controlled Princeton Applied Research
+potentiostat, Parstat 2263. A three-electrode set-up was
+used: the working electrode with an exposed area of
+1 cm2, a saturated calomel electrode (SCE) placed in a
+Luggin capillary as the reference electrode and the
+graphite counter electrode. Before the electrochemical
+investigations, the samples were ground with the P320,
+P600,
+P800,
+P1200
+and
+P2400
+sandpapers,
+then
+degreased in ethanol and rinsed with deionized water. All
+the measurements were conducted at room temperature
+(20 ± 2 °C), in a 0.6 M NaCl naturally aerated solution,
+prepared from analytical grade NaCl and deionized wa-
+ter. Open circuit potential, EOC, measurements were per-
+formed as a function of time for a period of 2 h. Po-
+tentiodynamic polarization was performed at a scan rate
+of 0.166 mVs–1, over a potential range of EOC ± 250 mV,
+starting from the most negative potential. The corrosion
+rate was calculated from polarization curves, based on
+the corrosion current density, icorr, known equivalent
+weight (EW = 28.558 g) and density ( = 7.85 gcm–3) of
+42CrMo4 steel, in accordance with the expression:
+v
+i
+EW
+corr
+corr
+=
+⋅
+⋅
+0 0033
+.
+
+(1)
+3 RESULTS AND DISCUSSION
+Figure 2 shows the microstructures of 42CrMo4 steel
+after different annealing processes taken with the optical
+microscope with 200× magnification lens. The heteroge-
+neous microstructure of the normalized 42CrMo4 steel
+comprised of ferrite crystals among the colonies of
+pearlite is shown in Figure 2a. The microstructures of
+L. LIVERI] et al.: CORROSION BEHAVIOUR OF ANNEALED 42CrMo4 STEEL
+114
+Materiali in tehnologije / Materials and technology 57 (2023) 2, 111–117
+Figure 2: Optical-microscope micrographs of annealed samples: a) Sample 1 (N), b) Sample 2 (A), c) Sample 3 (AC), d) Sample 4 (fA)
+
+the samples contain distinguished pearlite and ferrite
+phases. The annealing process produced uniformly dis-
+tributed pearlite in the matrix of ferrite, with pearlite in
+larger fractions as previously reported by Lu et al.15
+Pearlite is dark and ferrite is light. The ratio of the
+pearlite/ferrite phases depends mainly on the chemical
+composition (% C) and heat treatment parameters where
+the cooling rate is critical.
+The observed and compared microstructures are gen-
+erally similar. They consist of pearlite randomly distrib-
+uted in the matrix of ferrite, with differences in the grain
+size. Comparing the microstructures of differently
+heat-treated samples, we can see the influence of differ-
+ent cooling rates on diffusion-dependent nucleation and
+growth of spherical cementite particles in pearlite. In
+Sample 2 (Figure 2b), we can see the beginning of the
+second stage of spheroidization when the fine particles
+with small radii of curvature dissolve and coarse parti-
+cles grow. While the micrographs from Figure 2 were
+obtained with optical microscopy, Figure 3 shows scan-
+ning-electron micrographs.
+SEM images also show that the samples have similar
+grain and boundary structures, but differ in the ratio of
+the phases. The largest grain size is found in the normal-
+ized sample, Sample 1 (Figure 3a), while the smallest
+grain size and the largest number of grains are found in
+the spheroidized annealed sample, Sample 3 (Figure 3c).
+The fully annealed sample (Figure 3d) shows the biggest
+amount of precipitation in the microstructure.
+To simplify the estimation of the relative amounts of
+the phases present and to identify the phases, the relative
+intensity from the XRD results is given, on a scale, in
+Figure 4. The following phases are indexed on the fig-
+ure: # –  iron (-Fe), * – cementite (Fe3C). The patterns
+are given in the units of reticular distances. All the sam-
+ples have the iron alpha phase (-Fe), known as ferrite,
+and cementite (Fe3C). As can be seen from the distribu-
+tion of the phases in Figure 4, the densities of the phases
+in the structure are similar. General differences can be
+seen in the distribution of cementite, which is due to dif-
+ferent cooling rates of the samples during heat treatment.
+Potentiodynamic polarization curves presented with a
+semi-logarithmic plot (Figure 5) are composed of cath-
+odic and anodic branches, resulting from the electro-
+chemical reactions in the system. The anodic branch of a
+polarization curve describes the anodic dissolution of
+iron in the NaCl solution, while the cathodic part of the
+polarization curve represents the oxygen reduction reac-
+tion. Compared to normalized steel (Sample 1), whose
+state is solid on a large scale, annealed Samples 2 and 3
+have an anodic current density that increases much faster
+with the potential, indicating active dissolution, while the
+cathodic current density increases much slower, being
+characteristic of a diffusion-controlled process, which is
+L. LIVERI] et al.: CORROSION BEHAVIOUR OF ANNEALED 42CrMo4 STEEL
+Materiali in tehnologije / Materials and technology 57 (2023) 2, 111–117
+115
+Figure 4: XRD patterns of samples: a) Sample 1 (N), b) Sample 2
+(A), c) Sample 3 (AC), d) Sample 4 (fA)
+Figure 3: SEM, LFD micrographs of annealed-sample microstruc-
+tures: a) Sample 1 (N), b) Sample 2 (A), c) Sample 3 (AC), d) Sample
+4 (fA)
+Figure 5: Potentiodynamic polarization curves for samples in 0.6 M
+NaCl solution: a) Sample 1 (N), b) Sample 2 (A), c) Sample 3 (AC),
+d) Sample 4 (fA)
+
+reversed compared to Sample 4 as it is similar to the nor-
+malized sample.14,15 It can be seen that the values of the
+anodic current, ia, are much higher than those of the cath-
+odic current, ic, at high overvoltage values. This indicates
+that the reduction process is slower than the oxidation
+process so that the cathodic reaction controls the electro-
+chemical corrosion of 42CrMo4 steel.
+Corrosion parameters obtained from the polarization
+measurements are shown in Table 3. All the tested sam-
+ples have a low corrosion current density, icorr, indicating
+a low corrosion rate, vcorr. When comparing Sample 1 and
+annealed Sample 2, they show similar corrosion rates,
+while the corrosion rates of Samples 3 and 4 are up to
+twice lower. Similar observations for annealed 42CrMo4
+steel was found in the literature.1–4,9–17 The corrosion re-
+sistance of the samples can be explained with the density
+ratio of the pearlite phase and with the grain size of the
+pearlite/ferrite structure. As seen in Figures 2 and 3, the
+grain size and density ratio of the pearlite phase in the
+microstructure are similar in Samples 1 and 2, and in
+Samples 3 and 4.
+Among the annealed samples, Sample 4 had the cor-
+rosion rate lower than 0.16 mmpy, which was consis-
+tently obtained for full annealing at 820 °C for 120 min,
+followed by very slow furnace cooling from 820 °C to
+670 °C and air cooling to room temperature.
+Moreover, this sample showed a pronounced corro-
+sion-potential shift in the positive direction upon heat
+treatment. Overall, all the samples have low corrosion
+rates, which may indicate the influence of surface
+passivation due to the presence of chromium and molyb-
+denum in the steel.1,10 Another reason may be the effect
+of the spheroidization process on the coarsening and
+spheroidization of cementite that are more pronounced at
+a slower cooling time, leading to a smaller cathodic reac-
+tivity and to a reduction in the cementite-to-ferrite area.
+It can be concluded that the influences of the grain size,
+density ratio of the pearlite phase and ratio of the
+pearlite/ferrite structure of the annealed 42CrMo4 steel
+can influence the corrosion resistance, especially after a
+longer cooling time after heat treatment.
+5 CONCLUSIONS
+The corrosion behaviour of low-alloy 42CrMo4 steel
+after different annealing processes was analysed with
+potentiodynamic polarization. In addition, the electro-
+chemical corrosion behaviour was examined with a
+hardness test, optical and electron microscopy and XRD
+analyses. The following conclusions can be drawn:
+• Annealed 42CrMo4 steel samples have similar hard-
+ness values, characteristic for annealed steel.
+• The observed morphology of the annealed samples
+shows a uniform arrangement of pearlite and ferrite
+phases. Soft and spheroidized annealed samples show
+different stages of the spheroidization of the pearlite
+phases.
+• XRD results show that the structures of the annealed
+samples consist of the iron alpha phase (-Fe),
+known as ferrite, and the cementite phase (Fe3C).
+Moreover, XRD results show that the distributions
+and densities of the phases in the structures are simi-
+lar.
+• The parameters of the annealing process influence
+the corrosion behaviour of 42CrMo4 steel. The fully
+annealed 42CrMo4 steel sample exhibits the best cor-
+rosion resistance, while the soft annealed 42CrMo4
+steel sample exhibits the lowest corrosion resistance.
+• The differences between the sample results can be
+explained with the effects on the coarsening and
+spheroidization of cementite, which are more pro-
+nounced at slower cooling, leading to a smaller cath-
+odic reactivity and a reduction in the cementite-to-
+ferrite area.
+Acknowledgment
+This work has been supported in part by University
+of Rijeka under the project number uniri-tehnic-18-293.
+6 REFERENCES
+1 S. Smokvina Hanza, L. [tic, L. Liveri}, V. [pada, Corrosion behav-
+iour of tempered 42CrMo4 steel, Mater. Tehnol., 55 (2021) 3,
+doi:10.17222/mit.2021.014
+2 G. Krauss, Steels: Heat Treatment and Processing Principles, ASM
+International, 1990
+3 Y. Totik, The Corrosion Behavior of AISI 4140 Steel Subjected to
+Different Heat Treatments, Corrosion Reviews, 23 (2005) 4–6,
+379–390, doi:10.1515/corrrev.2005.23.4-5-6.379
+4 Y. Totik, The corrosion behaviour of manganese phosphate coatings
+applied to AISI 4140 steel subjected to different heat treatments, Sur-
+face
+and
+Coatings
+Technology,
+200
+(2006)
+8,
+2711–2717,
+doi:10.1016/j.surfcoat.2004.10.004
+5 G. E. Totten, Steel Heat Treatment: Metallurgy and Technologies,
+2nd ed., CRC Press, Taylor & Francis Group, 2007
+L. LIVERI] et al.: CORROSION BEHAVIOUR OF ANNEALED 42CrMo4 STEEL
+116
+Materiali in tehnologije / Materials and technology 57 (2023) 2, 111–117
+Table 3: Corrosion parameters of the samples taken from potentiodynamic polarization curves
+Sample No.
+Ecorr
+icorr
+âc[1]
+âa[2]
+vcorr
+Potential range
+(mV)
+(μA cm–2)
+(mV dec–1)
+(mV dec–1)
+(mmpy)
+(mV)
+1.
+–570.90
+41.72
+–1009.339
+119.967
+0.32240
+–841, –341
+2.
+–621.26
+52.72
+–1591.233
+134.522
+0.40740
+–882, –382
+3.
+–595.95
+26.91
+–1327.532
+89.908
+0.20800
+–876, –376
+4.
+–554.07
+20.52
+–1254.861
+66.100
+0.15860
+–836, –412
+[1] cathodic Tafel slope; [2] anodic Tafel slope
+
+6 G. Krauss, Steels: Processing, structure, and performance, ASM In-
+ternational, 2016
+7 K. E. Thelning, Steel and its heat treatment, Butterworths, 1984
+8 M. Fattah, F. Mahboubi, Microstructure Characterization and Corro-
+sion Properties of Nitrocarburized AISI 4140 Low Alloy Steel, Jour-
+nal of Materials Engineering and Performance, 21 (2011) 4,
+548–552, doi:10.1007/s11665-011-9922-3
+9 M. Khani Sanij, S. Ghasemi Banadkouki, A. Mashreghi, M.
+Moshrefifar, The effect of single and double quenching and temper-
+ing heat treatments on the microstructure and mechanical properties
+of AISI 4140 steel, Materials and Design, 42 (2012), 339–346,
+doi:10.1016/j.matdes.2012.06.017
+10 P. Katiyar, S. Misra, K. Mondal, Corrosion Behavior of Annealed
+Steels with Different Carbon Contents (0.002, 0.17, 0.43 and 0.7%
+C) in Freely Aerated 3.5% NaCl Solution, Journal of Materials Engi-
+neering and Performance, 28 (2019) 7, 4041–4052, doi:10.1007/
+s11665-019-04137-5
+11 M. Hafeez, A. Farooq, Effect of Heat Treatments on the Mechanical
+and Electrochemical Corrosion Behavior of 38CrSi and AISI 4140
+Steels, Metallography, Microstructure, and Analysis, 8 (2019) 4,
+479–487, doi:10.1007/s13632-019-00556-x
+12 M. Szala, G. Winiarski, £. Wójcik, T. Bulzak, Effect of Annealing
+Time and Temperature Parameters on the Microstructure, Hardness,
+and Strain-Hardening Coefficients of 42CrMo4 Steel, Materials, 13
+(2020) 9, 2022, doi:10.3390/ma13092022
+13 A. Çalýk, O. Dokuzlar, N. Uçar, The effect of heat treatment on me-
+chanical properties of 42CrMo4 steel, Journal of Achievements in
+Materials and Manufacturing Engineering, 1 (2020) 98, 5–10,
+doi:10.5604/01.3001.0014.0811
+14 F. Sarýoðlu, The effect of tempering on susceptibility to stress corro-
+sion cracking of AISI 4140 steel in 33% sodium hydroxide at 80°C,
+Materials Science and Engineering: A, 315 (2001) 1–2, 98–102,
+doi:10.1016/s0921-5093(01)01198-4
+15 F. Zhu, X. Luo, F. Chai, C. Yang, Z. Zhang, Effect of double quench-
+ing process and tempering temperature on the microstructure and
+mechanical properties of a High Strength Low Alloy Steel, IOP Con-
+ference Series: Materials Science and Engineering, 772 (2020) 1,
+012010, doi:10.1088/1757-899x/772/1/012010
+16 Surface Morphology of Metal Electrodeposits, In: Fundamental As-
+pects
+of
+Electrometallurgy,
+Springer,
+Boston,
+MA,
+2002,
+doi:10.1007/0-306-47564-2_3
+17 J. Wei, Y. Zhou, J. Dong, X. He, W. Ke, Effect of cementite
+spheroidization on improving corrosion resistance of pearlitic steel
+under simulated bottom plate environment of cargo oil tank,
+Materialia, 6 (2019), 100316, doi:10.1016/j.mtla.2019.100316
+L. LIVERI] et al.: CORROSION BEHAVIOUR OF ANNEALED 42CrMo4 STEEL
+Materiali in tehnologije / Materials and technology 57 (2023) 2, 111–117
+117

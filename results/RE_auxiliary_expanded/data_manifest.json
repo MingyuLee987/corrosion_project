@@ -1,0 +1,18 @@
+{
+  "base_rows": 335,
+  "additional_auxiliary_rows": 66,
+  "combined_rows": 401,
+  "RE_positive_rows": 47,
+  "additional_papers": {
+    "ColdRollX2_2022": 6,
+    "Heating8620_2024": 5,
+    "LowC_heat_2012": 10,
+    "QP9254_2025": 4,
+    "S32101_2025": 32,
+    "Sensitized304_2022": 3,
+    "SpringSteel_2023": 6
+  },
+  "base_sha256": "54ec4f3e62a51034e85b51ed310281d39139f9154f0dabf09030911e337c11ad",
+  "auxiliary_sha256": "fde0610b478eb16f18068cd21d1bd0e0d2f9a32a6beaa1ee52880452892d3111",
+  "note": "66 previously curated rows newly integrated into this RE model; not 66 newly discovered RE rows. No intentional RE addition is reported, not an assayed residual RE zero."
+}

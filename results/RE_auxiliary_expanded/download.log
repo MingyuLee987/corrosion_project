@@ -1,0 +1,4 @@
+Annealed20MnCr5_2025 HTTP Error 403: Forbidden
+Annealed42CrMo4_2023 <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+Vanadis6_full HTTP Error 403: Forbidden
+('WAAM2209_2024', 8)

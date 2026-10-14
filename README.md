@@ -1,84 +1,52 @@
-﻿# 희토류 첨가 강재의 부식전류 예측
+# 강재 부식전류밀도 예측
 
-본 프로젝트는 문헌에서 수집한 강재의 원소 조성, 제조공정 및 미세조직 정보를 이용하여 부식전류밀도(`icorr`)를 예측한다. 최종 분석에는 방사기저함수(RBF) 커널을 사용하는 서포트 벡터 회귀(SVR)를 적용하였다. **전체 326행으로 학습한 모델의 희토류 첨가 시편 41행에 대한 학습 R²는 0.8158이며, 모델 선택을 포함한 중첩 논문 제외 검증 R²는 0.1292이다.** 두 수치는 모두 `log10(icorr_A_cm2)`를 기준으로 계산하였다.
+문헌의 원소 조성·공정·미세조직으로 `log10(icorr_A_cm2)`를 예측한다. 최신 통합 데이터는 **412행**이며, 희토류 첨가 시편 **47행**을 논문 단위로 검증한다. 검증 논문의 대조군도 학습에서 함께 제외한다.
 
-## 데이터 구성 및 전처리
+자료 확대 후 일부 배수 적중률은 상승했지만 검증 R²와 큰 오차가 악화하여, 기본 모델은 335행 기준 SVR로 유지했다. 학습 적합도는 새 시편의 예측 정확도를 뜻하지 않는다.
 
-학습 자료는 희토류 첨가 시편, 동일 논문의 미첨가 대조군 및 일반강 보조 자료를 포함한 326행으로 구성하였다. 희토류 첨가 강재의 예측 성능은 13편의 논문에서 확보한 실제 희토류 첨가 시편 41행(`RE_wt_pct > 0`)을 대상으로 평가하였다. 문헌 선정에는 Q1·Q2 저널 제한을 적용하지 않았으며, 각 측정값의 출처와 표·절 위치를 기록하였다.
+| 지표 | 기준 SVR | 412행 SVR·Ridge 비교 |
+|---|---:|---:|
+| 검증 R² | 0.0587 | −0.2049 |
+| 2배 이내 | 19.1% | 21.3% |
+| 3배 이내 | 31.9% | 31.9% |
+| 5배 이내 | 55.3% | 57.4% |
+| 10배 이내 | 83.0% | 76.6% |
 
-부식전류밀도의 분포와 값의 범위를 고려하여 예측 목표를 다음과 같이 정의하였다.
+[상세 비교·한계](results/RE_auxiliary_final/report.md)에 전체 실험을 기록했다. 독립적인 신규 문헌 검증이 필요하다.
 
-```text
-y = log10(icorr_A_cm2)
-```
+## 남긴 데이터
 
-조성이 두 경계의 범위로 보고된 경우에는 중간값을 모델 입력으로 사용하고 원문 범위, 하한·상한 및 변환 여부를 보존하는 규칙을 적용하였다. 이 값은 실측 단일 조성과 구분한다. 결측값의 대치, 수치 입력의 표준화 및 범주형 입력의 인코딩은 각 검증 단계의 학습 자료에서만 수행하였다. 희토류 함량은 `log1p(RE_wt_pct × 10000)`으로 변환하였다. 미첨가 자료의 함량 0 표시는 의도적인 희토류 첨가가 보고되지 않았음을 의미하며, 잔류 희토류를 실측하여 0으로 확인했다는 의미는 아니다.
-
-326행은 서로 독립적인 326개 강 조성을 의미하지 않는다. 동일 강재의 조건별·시간별·반복 측정이 포함되며, 특히 공개 철근 자료 216행에는 시편군의 재측정이 포함된다. 또한 모든 행에 완전한 조성과 공정 조건이 확보된 것은 아니다. 조성과 핵심 공정이 모두 확인된 약 300행 수집 목표는 아직 충족하지 못하였다.
-
-## 조성·공정·상 정보의 입력
-
-최종 SVR의 입력은 다음과 같다.
-
-| 구분 | 모델 입력 |
+| 파일 | 역할 |
 |---|---|
-| 원소 조성 | C, Si, Mn, 변환된 희토류 함량, 희토류 종류 |
-| 제조공정 | 가공 상태, 용해 경로, 냉각 방식, 최종 열처리 온도·시간 |
-| 시험환경 | 전해질 계열 |
-| 상·미세조직 | 보고된 기지 상, 보고된 조직 구성요소 |
+| [training_RE_auxiliary_max.csv](data/training_RE_auxiliary_max.csv) | 최신 412행 통합 자료 |
+| [training_RE_collection_latest.csv](data/training_RE_collection_latest.csv) | 채택 모델 재현용 335행 기준 |
+| [training_RE_with_auxiliary.csv](data/training_RE_with_auxiliary.csv) | 401행 비교 실험 |
+| [process_literature_verified.csv](data/process_literature_verified.csv) | 출처 검증된 보조 66행 |
+| [ordinary_steel_additions_20261014.csv](data/ordinary_steel_additions_20261014.csv) | 추가 전사한 일반강 11행 |
+| [RE_graph_readings_quarantined.csv](data/RE_graph_readings_quarantined.csv) | 단위 미확정 그래프 판독값 |
+| [RE_weld_targets_pending_composition.csv](data/RE_weld_targets_pending_composition.csv) | 최종 RE 조성 확인 대기 |
 
-P와 S는 원자료에 보존하되 최종 후보의 입력에서는 제외하였다. 결정립 크기와 페라이트 분율을 추가한 조합도 비교하였으나 최종 고정 후보에는 포함하지 않았다. 논문 ID와 동일 부식시험에서 산출되는 부식전위·Tafel 기울기·저항 및 부식 후 생성물은 예측 입력으로 사용하지 않았다.
+일반강의 RE=0은 의도적 첨가 미보고를 뜻하며 잔류 함량의 실측 0은 아니다. 조성 범위는 중간값과 원문 범위를 보존한다. 결측·미확정 단위는 임의로 채우지 않는다. 412행은 독립적인 412개 조성이 아니다. 문헌 원본과 검증 근거는 `sources/`에 보존한다.
 
-상 정보는 논문에서 해당 실험 시편에 대해 명시한 경우에만 기록하였다. 조성이나 열처리 조건만으로 상을 추정하지 않았으며, 이전 열처리 단계의 모상과 부식시험 전 조직을 구분하였다. 페라이트·오스테나이트 등의 기지 상은 `phase_reported`, 펄라이트·베이나이트 등의 조직 구성요소는 `microstructure_constituents_reported`에 분리하여 기록하였다. 상·조직 정보가 확보된 행은 확장 데이터에서 25행이며, 미보고 값은 별도의 `unreported` 범주로 처리하였다. 보고된 구성요소 목록에 없다는 이유로 해당 상이 존재하지 않는다고 판단하지 않았다.
+## 실행
 
-문헌에서는 희토류 첨가에 따른 조직 미세화, 조직 구성요소의 변화 및 개재물 변성이 내식성 변화와 함께 관찰되었다. 다만 조성·공정·결정립·개재물 효과가 동시에 변하므로 이를 특정 상의 독립적인 인과효과로 해석하지 않았다. 관련 시편별 근거는 [상 정보 분석](results/phase_analysis/report.md)과 [추가 조직 확인](results/phase_algorithms_v2/report.md)에 정리하였다.
-
-## 모델 학습 및 검증 방법
-
-상·조직 입력과 결정립·분율 추가 여부를 고려하여 SVR, Random Forest 및 Extra Trees의 12개 설정을 비교하였다. 최종 고정 후보는 SVR이며, 하이퍼파라미터는 `C=0.1`, `gamma=scale`, `epsilon=0.1`이다. 희토류 연구와 일반강 보조 자료를 모두 학습에 사용하되, 한 논문의 많은 측정 행이 학습을 지배하지 않도록 논문별 행 수의 역수에 기반한 표본 가중치를 적용하였다. 최종 후보의 비희토류 보조 자료 가중치 계수는 1이었다.
-
-성능 평가는 논문을 단위로 분리하였다. 바깥쪽 검증에서는 희토류 연구 논문 한 편을 통째로 제외하고, 제외된 논문의 첨가 시편에 대해 예측을 수행하였다. 같은 논문의 미첨가 대조군도 함께 제외하였다. 모델 설정의 선택은 바깥쪽 학습 자료 안에서 추가로 논문을 제외하는 내부 검증으로 수행하였다. 따라서 바깥쪽 평가 논문은 전처리, 학습 및 설정 선택에 사용되지 않았다. 검증이 끝난 후 최종 고정 후보는 전체 326행으로 다시 학습하여 저장하였다.
-
-## 결과
-
-결정계수는 `R² = 1 − Σ(y − ŷ)² / Σ(y − 평균(y))²`로 계산하였다. MAE의 단위는 `log10(A/cm²)`이다. 중첩 검증 결과는 각 바깥쪽 단계에서 선택된 모델의 예측을 합친 값이며, 저장된 단일 최종 모델을 독립 자료로 시험한 결과와는 구분한다.
-
-| 평가 방식 | 평가 행 수 | log10 R² | log10 MAE |
-|---|---:|---:|---:|
-| 전체 행 학습 후 동일 희토류 첨가 시편 재예측 | 41 | **0.8158** | 0.2298 |
-| 전체 행 학습 후 동일 전체 자료 재예측 | 326 | 0.2125 | 0.6505 |
-| 최고 고정 설정의 논문 제외 검증 — 탐색 결과 | 41 | 0.1932 | 0.6204 |
-| 설정 선택을 포함한 중첩 논문 제외 검증 | 41 | **0.1292** | 0.6651 |
-
-전체 자료로 학습한 SVR은 희토류 첨가 학습 시편에 대해 R²=0.8158을 나타냈다. 그러나 중첩 논문 제외 검증에서는 R²=0.1292로 낮아져, 학습 자료에 대한 적합도에 비해 새로운 문헌에 대한 일반화 성능이 제한적이었다. 따라서 학습 R²를 새로운 시편에 대한 예측 정확도나 희토류 첨가의 인과적 효과로 해석할 수 없다. 또한 로그 변환 목표에 대한 R²이므로 원래 부식전류 단위의 설명력과 동일하지 않다.
-
-추가 조직 확인 및 모델 비교 후 중첩 검증은 이전 실행의 −0.1087에서 0.1292로 증가하였다. 다만 데이터의 상 정보와 후보 설정이 함께 변경되었으므로 개선을 상 정보의 효과만으로 귀속하지 않는다. 상을 제외한 이전 최고 탐색값 0.2111도 초과하지 않았다. 상 정보의 결측, 논문별 시험 조건 차이, 특정 출처에 집중된 반복 측정 및 동일 자료에 대한 반복 탐색을 고려할 때, 독립적인 신규 문헌을 통한 추가 검증이 필요하다.
-
-## 파일 및 재현 방법
-
-최신 중첩 검증의 실제값 대비 예측 배수 적중률은 2배 이내14.6%(6/41), 3배36.6%(15/41), 5배56.1%(23/41), 10배82.9%(34/41)이다. 이는 허용 오차를 정했을 때의 관측 적중률이며 R²나 개별 예측의 신뢰확률과 다르다. 같은 학습41행 재예측의 2배 적중률78.0%와 큰 차이가 있다. 오류 분석과 개선 우선순위는 [검증 진단 및 개선 계획](results/prediction_diagnostics/improvement_plan.md)에 정리하였다.
-
-| 파일 | 용도 |
-|---|---|
-| [training_RE_all_journals.csv](data/training_RE_all_journals.csv) | 최신 326행 학습 자료 |
-| [training_PDP_augmented.csv](data/training_PDP_augmented.csv) | 기존 314행 자료; 상 정보 13행 보완 |
-| [training_RE_expanded.csv](data/training_RE_expanded.csv) | 기존 희토류 연구·대조군 50행 |
-| [comparison.csv](results/phase_algorithms_v2/comparison.csv) | 최신 12개 설정의 검증 점수 |
-| [validation.json](results/phase_algorithms_v2/validation.json) | 하이퍼파라미터, 검증 결과 및 입력 파일 해시 |
-| [predictions.csv](results/phase_algorithms_v2/predictions.csv) | 시편별 학습·논문 제외·중첩 검증 예측 |
-| [model_all326.joblib](results/phase_algorithms_v2/model_all326.joblib) | 전체 326행으로 학습한 최종 SVR 후보 |
-
-기존 데이터와 문헌 파일이 준비된 환경에서 최신 상 정보를 적용하고 모델을 다시 학습하려면 다음을 실행한다.
+기본 모델 예측:
 
 ```powershell
-.venv/Scripts/python.exe -X utf8 -B annotate_reported_phases.py
-.venv/Scripts/python.exe -X utf8 -B tune_phase_model.py --algorithms
+.venv/Scripts/python.exe -X utf8 -B predict_phase_model.py input.csv output.csv
 ```
 
-저장된 최신 모델로 예측하려면 입력 CSV에 기존 데이터와 동일한 이름·단위의 컬럼을 사용한다.
+`실행.bat` 또는 `run.ps1`은 기준 SVR과 확대 자료 모델을 비교한다. 전체 실험 재현:
 
 ```powershell
-.venv/Scripts/python.exe -X utf8 -B predict_phase_model.py input.csv output.csv --model results/phase_algorithms_v2/model_all326.joblib
+.venv/Scripts/python.exe -X utf8 -B tune_phase_model.py --latest --svr-only
+.venv/Scripts/python.exe -X utf8 -B tune_phase_model.py --latest --improve --accuracy
+.venv/Scripts/python.exe -X utf8 -B tune_phase_model.py --expanded --improve --accuracy
+.venv/Scripts/python.exe -X utf8 -B tune_phase_model.py --improve --focused
+.venv/Scripts/python.exe -X utf8 -B tune_phase_model.py --improve --transfer
+.venv/Scripts/python.exe -X utf8 -B report_auxiliary_expansion.py
 ```
 
-`실행.bat`과 `run.ps1`은 기존 47/50/98/314행 분석을 위한 실행 경로이며, 위 최신 326행 분석과 구분한다. 이전 탐색·검증 결과는 삭제하지 않고 [기존 성능 검토](results/performance_summary/summary.md), [공정 컬럼 분석](results/process_optimization/process_feature_report.md), [문헌 확대 기록](results/RE_all_journals/report.md), [이전 상 포함 탐색](results/phase_tuning/report.md)에 보존하였다. 최신 결과의 상세한 비교는 [추가 상 검증 및 모델 비교](results/phase_algorithms_v2/report.md)를 참고한다.
+`build_auxiliary_training.py`와 `add_ordinary_steel_batch.py`는 데이터 통합, `optimize_process_features.py`는 입력 변환·평가 지표, `composition_values.py`는 조성 범위 변환을 담당한다.
+
+구버전 데이터·일회성 스크립트·이전 실험 결과는 정리했다. [삭제 기록](results/cleanup/project_consolidation_20261014.json)에 경로·크기·해시를 남겼다.

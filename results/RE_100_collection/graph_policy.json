@@ -1,0 +1,15 @@
+{
+  "user_authorized_graph_approximations": true,
+  "required_fields": [
+    "source_figure",
+    "source_file",
+    "source_sha256",
+    "target_value_basis",
+    "graph_reading_uncertainty_abs",
+    "reported_axis_unit"
+  ],
+  "inclusion_rule": "Use scalar icorr graphs with verified scale and matched composition/condition. Do not use polarization-curve minima as icorr. Unknown unit multipliers remain quarantined.",
+  "comparison_rule": "Compare reported-numeric-only and graph-inclusive SVR with identical paper splits, frozen candidate grid, and matched historical evaluation rows.",
+  "current_graph_readings": 20,
+  "current_training_eligible_graph_readings": 0
+}

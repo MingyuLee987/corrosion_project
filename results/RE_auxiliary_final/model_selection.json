@@ -1,0 +1,6 @@
+{
+  "selected_experiment": "335_reference",
+  "expanded_model_improved": false,
+  "model_sha256": "6b05a99e8379d70198028177346a06f62b41f92fe53651adee73b9cdfac9a362",
+  "note": "Selection compares repeated exploratory experiments; independent external validation still required. Dataset size differs from fitted subset for environment-focused candidates."
+}

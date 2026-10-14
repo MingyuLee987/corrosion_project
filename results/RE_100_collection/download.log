@@ -1,0 +1,6 @@
+{'reference_id': 'WeatheringRE_2022', 'status': 'failed', 'reason': 'HTTP Error 403: Forbidden', 'url': 'https://content.ampp.org/themeredirect/corrosion/article-pdf/78/5/437/3050841/4002.pdf'}
+{'reference_id': 'Coat24_full', 'status': 'failed', 'reason': 'HTTP Error 403: Forbidden', 'url': 'https://mdpi-res.com/d_attachment/coatings/coatings-14-00413/article_deploy/coatings-14-00413-v3.pdf'}
+{'reference_id': 'OffshoreCe_2025', 'status': 'failed', 'reason': 'HTTP Error 403: Forbidden', 'url': 'https://mdpi-res.com/d_attachment/materials/materials-18-02443/article_deploy/materials-18-02443.pdf'}
+{'reference_id': 'WeldRE_2018', 'status': 'failed', 'reason': 'HTTP Error 403: Forbidden', 'url': 'https://downloads.hindawi.com/journals/ijc/2018/4071352.pdf'}
+{'reference_id': 'Ce304_Xi_2020', 'status': 'failed', 'reason': 'HTTP Error 429: ', 'url': 'https://www.sciengine.com/doi/pdf/1A5B7FE5080146C1AA05F96C6AF0F4BE'}
+{'reference_id': 'HRB500Ce_2024', 'status': 'downloaded', 'pages': 16, 'url': 'https://www.nature.com/articles/s41598-024-67799-9.pdf'}

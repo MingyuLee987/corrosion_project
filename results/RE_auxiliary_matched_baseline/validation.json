@@ -1,0 +1,180 @@
+{
+  "rows_trained": 335,
+  "RE_positive_rows": 47,
+  "search_configs": 12,
+  "best_exploratory_config": [
+    "phase",
+    1.0,
+    "scale",
+    1.0
+  ],
+  "selection_objective": "log10_MAE",
+  "best_exploratory": {
+    "log10_R2": 0.036706674043681886,
+    "log10_MAE": 0.6319737927746942,
+    "paper_balanced_log10_MAE": 0.7014642656039999
+  },
+  "nested": {
+    "log10_R2": -0.056127069103941496,
+    "log10_MAE": 0.7069804753558118,
+    "paper_balanced_log10_MAE": 0.7591828503007526
+  },
+  "training_all_rows": {
+    "log10_R2": 0.5604409547096482,
+    "log10_MAE": 0.48663107268880595,
+    "paper_balanced_log10_MAE": 0.15588905821510862
+  },
+  "training_RE_only": {
+    "log10_R2": 0.9378615073094776,
+    "log10_MAE": 0.12896590053206786,
+    "paper_balanced_log10_MAE": 0.11704201245635615
+  },
+  "selections": [
+    {
+      "held": "Al10_26",
+      "config": [
+        "phase",
+        0.1,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Bridge25",
+      "config": [
+        "phase",
+        0.1,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Ce75Cr1_24",
+      "config": [
+        "phase",
+        1.0,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Coat24",
+      "config": [
+        "phase",
+        1.0,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "GCr23",
+      "config": [
+        "phase",
+        1.0,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "HRB400_RE_2025",
+      "config": [
+        "phase",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "La24Q355",
+      "config": [
+        "phase",
+        0.1,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "LaCe304_2025",
+      "config": [
+        "phase",
+        1.0,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "LaCe75Cr1_2023",
+      "config": [
+        "phase",
+        1.0,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "MDPI26LaCe",
+      "config": [
+        "phase",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Ma19FSS",
+      "config": [
+        "phase",
+        0.3,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "ShanghaiCe_2025",
+      "config": [
+        "phase",
+        1.0,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Tang2019",
+      "config": [
+        "phase",
+        1.0,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "UCS23",
+      "config": [
+        "phase",
+        1.0,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Y_X100_2018",
+      "config": [
+        "phase",
+        1.0,
+        "scale",
+        1.0
+      ]
+    },
+    {
+      "held": "Zhang2025",
+      "config": [
+        "phase",
+        0.1,
+        "scale",
+        1.0
+      ]
+    }
+  ],
+  "input_sha256": "54ec4f3e62a51034e85b51ed310281d39139f9154f0dabf09030911e337c11ad",
+  "caution": "Training R2 is resubstitution, not generalization. Search is exploratory after previous experiments; nested splits reduce selection leakage but do not replace independent new-paper validation."
+}

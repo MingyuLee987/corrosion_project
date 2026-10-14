@@ -1,0 +1,22 @@
+candidate,doi,status,reason
+LaCe304_2025,10.1007/s42243-025-01553-x,added_4,Four numerical PDP targets; chemistry same heat LF outlet stage retained
+HRB500Ce_2024,10.1038/s41598-024-67799-9,quarantined,PDF current units contradict polarization scale; body and conclusion C2 values disagree
+OffshoreCe_2025,10.3390/ma18112443,pending,Multiple polarization curves but scalar icorr values not verified
+HighMnCe_2019,10.2355/isijinternational.ISIJINT-2019-248,pending,Full chemistry verified; polarization curves without reported numerical icorr
+Ce304_ISIJ_2023,10.2355/isijinternational.ISIJINT-2022-333,excluded_target,Inclusion and pitting measurements do not supply verified icorr targets
+WetDryRE_2020,10.3390/met10091174,excluded_target,Weight loss and EIS cannot replace PDP icorr
+CrRE_HRB400_2022,10.3390/ma15228269,excluded_target,Passive and EIS quantities not equivalent to icorr
+SuperFerriticRE_2024,10.3969/j.issn.1674-165X.2024.02.015,pending,RE comparison is EIS; temperature current graph needs numerical extraction
+Ce434_2018,10.1515/htmp-2017-0094,pending,No numerical icorr verified
+YMarine_JMRT_2024,10.1016/j.jmrt.2023.12.189,access_blocked,Publisher full text blocked; metadata alone insufficient for row extraction
+LaCe_JMRT_2025,10.1016/j.jmrt.2025.01.207,access_blocked,Full text blocked; EIS and sensor time series not substituted as PDP rows
+NiCeData_2025,10.1016/j.jmrt.2025.11.079,access_blocked,Full text blocked; original data available on request
+WeatheringRE_2022,10.5006/4002,access_blocked,Publisher PDF inaccessible
+ModifiedInclusionsRE_2022,10.1007/s40195-022-01404-8,pending,Numerical PDP target not verified
+Q420RE_2023,10.1016/j.ijoes.2023.100242,access_blocked,No accessible full source with paired chemistry and targets
+WeldRE_2018,10.1155/2018/4071352,pending,Five numerical targets exist; flux RE dosage must not be treated as measured weld composition
+WindTowerRE_2026,S2238785426007799,pending,Two abstract targets exist; matching composition and methods require full source
+PureIronCe_2026,10.1016/j.corsci.2026.114142,excluded_scope,Pure iron is outside current steel collection
+CN108893687A,CN108893687A,excluded_source_type,Patent not included in requested paper dataset
+Coat24,10.3390/coatings14040413,already_present,Existing source not counted as new rows
+Bridge25,10.3390/met15010085,already_present,Existing source not counted as new rows

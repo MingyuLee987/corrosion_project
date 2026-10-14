@@ -1,0 +1,187 @@
+﻿{
+    "date":  "2026-10-14",
+    "files":  [
+                  {
+                      "path":  "sources/literature/Ce434_2018.md",
+                      "bytes":  880,
+                      "sha256":  "6F2842E9CBB634F0DCA483F6C402BC82C281D9E1A4C5235EA5BB0BD6BA228BB3",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/Ce434_2018_original.md",
+                      "bytes":  875,
+                      "sha256":  "7F98BEF55AE6659322737267C2686E4F7F91DB7DBA7E7379915D5004CD09A822",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/La24Q355.html",
+                      "bytes":  2203,
+                      "sha256":  "74EB37973E7E4809A4F10D508A0B5B1E8AD617D4AF19957FCC8D3F192B100DE2",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/LaCe304_2025.html",
+                      "bytes":  260,
+                      "sha256":  "85F63B2D15FF2AF595C78EBD8A705F92534027DD6205B0C262296F7080505EBC",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/LaCe_JMRT_DOI_2025.html",
+                      "bytes":  2575,
+                      "sha256":  "6F067C88E263A909C8388E4BFC0538D9C2F6D4414A648467CF23063ED62C03A6",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/LaCe_JMRT_DOI_2025.md",
+                      "bytes":  2394,
+                      "sha256":  "EA3794B96E49B97D3BB1B230C7CB7233B2B56DC622B41538B15123682811D6E6",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/LaCe_JMRT_public_2025.md",
+                      "bytes":  113008,
+                      "sha256":  "FC55E7916361329561279D1A167728FC3661A15200581241206DE0BBAB480187",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/MarineInitiationRE_2025.md",
+                      "bytes":  112998,
+                      "sha256":  "51FBB1FD0C7C0C5CFDD084A631C185817E83682850137E118053BD1B23F05ADA",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/NiCeData_2025.md",
+                      "bytes":  112999,
+                      "sha256":  "3BF16140464BA459159383159F0F8928F27AB62A41E7B8026D09C9441BE77410",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/OffshoreCe_2025.html",
+                      "bytes":  2203,
+                      "sha256":  "8500668F923A08DA20FC0BBDC0D2F55A02FD10BF8777DD661363059A048B7E5A",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/Q420RE_2023.html",
+                      "bytes":  2615,
+                      "sha256":  "B158C476D9179FDE91B0656F195F30C50F7D5650B1D21A105D7594CFE64708E9",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/Q420RE_2023.md",
+                      "bytes":  2395,
+                      "sha256":  "05EC3FE6E8474E56DEA34E2AB6B2A491669527CC89CC57A6FE421453268E63AC",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/Tang2019.html",
+                      "bytes":  2202,
+                      "sha256":  "5911599AB51FC65761633D81710F5B233C269630E4986377BF38AF86C64DC68D",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/WeatheringRE_2022.md",
+                      "bytes":  536,
+                      "sha256":  "3DD629DD25FF58521EDF026B09CB4FB502CAFC03546123D84236879999A6E890",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/WeldRE2018_verified.md",
+                      "bytes":  512,
+                      "sha256":  "68A07A8B74078A76F94E7993A9057749F4A4EA2E6C21F249C1F7BD672B33BFAB",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/WeldRE_2018.md",
+                      "bytes":  517,
+                      "sha256":  "594A1B3B367358E471925689D086FA6258AE1154448990B6A6369A7BEED049CC",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/WetDryRE_2020.html",
+                      "bytes":  2194,
+                      "sha256":  "E723040CF8848E4423AAE49BF8D831DCAF82454194340FDC3CDDADC662946902",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/YMarine_JMRT_2024.html",
+                      "bytes":  2571,
+                      "sha256":  "F46AFAB1D3D294F70E931F1FAF215950B560566DF8836CA13A2EF87861F9EC03",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/literature/YMarine_JMRT_2024.md",
+                      "bytes":  2394,
+                      "sha256":  "D7E1222F3D77B4A91DF87EDBEF1331703941609C540EFEFEA0253F316B241B40",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "sources/YMarine_elsevier_response.xml",
+                      "bytes":  1977,
+                      "sha256":  "15DF94F503DE9D2E0C4DEBF5E2E4A0C1B3D92C0027113859CAFE66CB27F822A3",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "results/RE_prediction_accuracy/prediction_smoke.csv",
+                      "bytes":  668021,
+                      "sha256":  "0A981FA025A7C189F2DAD8C39AF7D0D315DC5E3BD42B2738A3D94D550A3C2438",
+                      "reason":  "Unusable source response or temporary verification output"
+                  },
+                  {
+                      "path":  "results\\phase_algorithms_v2\\errors.log",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "reason":  "Empty error log"
+                  },
+                  {
+                      "path":  "results\\phase_tuning\\errors.log",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "reason":  "Empty error log"
+                  },
+                  {
+                      "path":  "results\\RE_100_collection\\download_errors.log",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "reason":  "Empty error log"
+                  },
+                  {
+                      "path":  "results\\RE_100_collection\\svr_errors.log",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "reason":  "Empty error log"
+                  },
+                  {
+                      "path":  "results\\RE_literature_20261014\\errors.log",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "reason":  "Empty error log"
+                  },
+                  {
+                      "path":  "results\\RE_prediction_accuracy\\errors.log",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "reason":  "Empty error log"
+                  },
+                  {
+                      "path":  "results\\RE_prediction_improvement\\errors.log",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "reason":  "Empty error log"
+                  },
+                  {
+                      "path":  "results\\RE_SVR_baseline_20261014\\errors.log",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "reason":  "Empty error log"
+                  },
+                  {
+                      "path":  "results\\RE_SVR_literature_20261014\\errors.log",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "reason":  "Empty error log"
+                  }
+              ],
+    "total_files":  30,
+    "total_bytes":  1036329
+}

@@ -1,0 +1,8 @@
+Title: 稀土元素对超级铁素体不锈钢组织及性能的影响
+
+URL Source: https://mf.mw1950.com/cn/article/doi/10.3969/j.issn.1674-165X.2024.02.015
+
+Markdown Content:
+**摘要:** 以超级铁素体不锈钢为研究对象,通过添加稀土元素来改善其组织和性能,主要研究了稀土对试验钢夹杂物、组织、力学性能及耐蚀性的影响.结果表明:当稀土加入量(质量分数)≤0.106％时,稀土能有效地净化钢液,具体表现为显著降低钢中T.O(Total Oxygen,钢中氧元素的全部含量)和S含量;同时,稀土能显著地细化夹杂物,使大尺寸多边形夹杂物转变为近似球形的细小夹杂物,并且稀土能改性钢中夹杂物,将硬质Al2O3夹杂物转变为Re-O、Re-S及复杂的RE-P-S-O夹杂物;另外,当稀土加入量≤0.106％时,稀土还对试验钢起到细化晶粒的效果,且对试验钢的拉伸性能影响较小;最后,稀土能有效地改善试验钢的耐晶间腐蚀性能.
+
+**Abstract:** Taking super ferritic stainless steel as the research object,the microstructure and properties are improved by adding rare earth elements.The main study focused on the effects of rare earth on the inclusions,microstructure,mechanical properties,and corrosion resistance of experimental steel.The results indicate that when the amount of rare earth added is≤0.106％,rare earth can effectively purify molten steel,specifically by significantly reducing the content of T.O(Total oxygen,the total content of oxygen elements in steel)and S.At the same time,an appropriate amount of rare earth can significantly refine inclusions,transforming large-sized polygonal inclusions into nearly spherical small inclusions.And rare earth can modify inclusions in steel,transforming hard Al2O3 inclusions into Re-O,Re-S,and complex RE-P-S-O inclusions.On the other hand,when the amount of rare earth added is≤0.106％,rare earth can refine the grain size of the experimental steel.The influence of rare earth on the tensile properties of experimental steel is relatively small.Finally,rare earth elements can effectively improve the intergranular corrosion resistance of experimental steel.

@@ -11,12 +11,13 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('input_csv')
     parser.add_argument('output_csv')
-    parser.add_argument('--model',default=str(ROOT/'results/phase_tuning/model_all326.joblib'))
+    parser.add_argument('--model',default=str(ROOT/'results/RE_auxiliary_final/model.joblib'))
     args=parser.parse_args()
     bundle=joblib.load(args.model)
+    o.FEATURE_SETS.update(bundle.get('feature_sets',{}))
     data=pd.read_csv(args.input_csv)
-    for col in bundle['input_columns']:
-        if col not in data:data[col]=np.nan
+    missing=[col for col in bundle['input_columns'] if col not in data]
+    if missing:data=pd.concat([data,pd.DataFrame(np.nan,index=data.index,columns=missing)],axis=1)
     x=o.transform(data)
     for name,_,columns in bundle['model'].named_steps['prep'].transformers_:
         if name=='cat':

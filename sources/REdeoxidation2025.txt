@@ -1,0 +1,4179 @@
+PDF_PAGE 1
+第36卷第11期 
+2024年11月  
+钢 铁 研 究 学 报
+Journal
+ 
+of
+ 
+Iron
+ 
+and
+ 
+Steel
+ 
+Research
+ Vol.36,No.11,p1471-1483
+November
+ 
+2024
+基金项目:广西科技重大专项资助项目(AA22068080);科技部重点研发计划资助项目(2022YFB4201500);山东泰山产业领军人才 工 程 蓝 色 人
+才专项资助项目(2020007);111计划资助项目(D18018)
+ 
+作者简介:于盼盼(1998—),女,硕士生;  E-mail:ypp1019@163.com;
+ 
+收稿日期:2024-03-19
+ 
+通讯作者:王智慧(1997—),女,博士生;  E-mail:wangzhihui@wust.edu.cn
+吴开明(1966—),男,博士,教授;  E-mail:wukaiming@wust.edu.cn
+ 
+DOI:10.13228/j.boyuan.issn1001-0963.20240077
+ 
+微量稀土元素对奥氏体不锈钢耐海水点蚀性能的影响
+  
+于盼盼1, 王智慧1, 程 石1, 黄 磊2, 黄学忠2, 吴开明1
+ 
+(1.武汉科技大学国际钢铁研究院、高性能钢铁材料及应用省部共建协同创新中心,
+ 
+湖北
+ 
+武汉
+ 
+430081;
+2.广西北港新材料有限公司广西特钢新材料重点实验室,
+ 
+广西
+ 
+北海
+ 
+536000)
+ 
+摘 要:采用电化学阻抗谱 和 动 电 位 极 化 等 方 法 研 究 了 微 量 稀 土 元 素 对 奥 氏 体 不 锈 钢 在 质 量 分 数 为 3.5% 的
+NaCl溶液中耐点蚀性能的影响。利用扫描电子显微镜(SEM)、能量色散 X 射线能谱(EDS)等技术对夹杂 物 形 貌
+和成分组成进行了表征。未添加稀土的不锈钢的夹杂物主要为(Al,Mg,Si)-Ox 的 复 合 夹 杂 物;添 加 质 量 分 数 为
+0.0035%的微量稀土后夹杂物改性为含稀土类复合夹杂物。电化学 测 试 结 果 表 明,稀 土 微 处 理 钢 的 点 蚀 电 位 增
+大,有助于提高材料的耐点蚀性;Mott-Schottky测量结果 也 表 明,奥 氏 体 不 锈 钢 钝 化 膜 致 密 性 增 强,载 流 子 浓 度
+下降,钝化膜呈 n型半导体,耐蚀性增加。稀土微处理奥氏体不锈钢耐海水点蚀性能的提高主要是因为形成的 稀
+土复合硫氧化物降低了夹杂物的腐蚀活性。
+ 
+关键词:奥氏体不锈钢;
+ 
+微量稀土;
+ 
+耐点蚀性;
+ 
+钝化膜;
+ 
+夹杂物
+ 
+中图分类号:TG142.71,TG172.5  文献标志码:
+ 
+A  文章编号:
+ 
+1001-0963(2024)11-1471-13
+Effect
+ 
+of
+ 
+trace
+ 
+rare
+ 
+earth
+ 
+elements
+ 
+on
+ 
+spot
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+austenitic
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+seawater
+ 
+YU
+  
+Panpan
+1, WANG
+  
+Zhihui
+1, CHENG
+  
+Shi
+1, HUANG
+  
+Lei
+2, HUANG
+  
+Xuezhong
+2, 
+WU
+  
+Kaiming
+1
+ 
+(1.International
+ 
+Research
+ 
+Institute
+ 
+for
+ 
+Steel
+ 
+Technology,
+ 
+Collaborative
+ 
+Innovation
+ 
+Center
+ 
+for
+ 
+Advanced
+ 
+Steels,
+ 
+Wuhan
+ 
+University
+ 
+of
+ 
+Science
+ 
+and
+ 
+Technology,
+ 
+Wuhan
+ 
+430081,
+ 
+Hubei,
+ 
+China; 2.Guangxi
+ 
+Key
+ 
+Laboratory
+ 
+of
+ 
+Special
+ 
+Steel
+ 
+and
+ 
+New
+ 
+Materials,
+ 
+Guangxi
+ 
+BG
+ 
+New
+ 
+Materials
+ 
+Co.,
+ 
+Ltd.,
+ 
+Beihai
+ 
+536000,
+ 
+Guangxi,
+ 
+China)
+ 
+Abstract:
+ 
+The
+ 
+effect
+ 
+of
+ 
+trace
+ 
+rare
+ 
+earth
+ 
+treatment
+ 
+on
+ 
+the
+ 
+pitting
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+austenitic
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+a
+ 
+3.5
+ 
+wt.%
+ 
+NaCl
+ 
+solution
+ 
+was
+ 
+studied
+ 
+using
+ 
+electrochemical
+ 
+impedance
+ 
+spectroscopy
+ 
+and
+ 
+potentiodynamic
+ 
+polarization
+ 
+methods.
+ 
+The
+ 
+morphology
+ 
+and
+ 
+composition
+ 
+of
+ 
+inclusions
+ 
+were
+ 
+characterized
+ 
+using
+ 
+techniques
+ 
+such
+ 
+as
+ 
+scanning
+ 
+electron
+ 
+microscopy
+ 
+(SEM)
+ 
+and
+ 
+energy
+ 
+dispersive
+ 
+X-ray
+ 
+spectroscopy
+ 
+(EDS).
+ 
+The
+ 
+inclusions
+ 
+in
+ 
+stainless
+ 
+steel
+ 
+without
+ 
+rare
+ 
+earth
+ 
+addition
+ 
+are
+ 
+mainly
+ 
+composite
+ 
+inclusions
+ 
+of
+ 
+(Al,
+ 
+Mg,
+ 
+Si)-Ox ;
+ 
+after
+ 
+adding
+ 
+0.0035%
+ 
+trace
+ 
+rare
+ 
+earth
+ 
+elements,
+ 
+the
+ 
+inclusions
+ 
+were
+ 
+modified
+ 
+to
+ 
+composite
+ 
+inclusions
+ 
+containing
+ 
+rare
+ 
+earth
+ 
+elements.
+ 
+The
+ 
+electrochemical
+ 
+test
+ 
+results
+ 
+show
+ 
+that
+ 
+the
+ 
+pitting
+ 
+potential
+ 
+of
+ 
+rare
+ 
+earth
+ 
+micro
+ 
+treated
+ 
+steel
+ 
+increases,
+ 
+which
+ 
+helps
+ 
+to
+ 
+improve
+ 
+the
+ 
+material's
+ 
+pitting
+ 
+resistance.
+ 
+The
+ 
+Mott-Schottky
+ 
+measurement
+ 
+results
+ 
+also
+ 
+indicate
+ 
+that
+ 
+the
+ 
+density
+ 
+of
+ 
+the
+ 
+passive
+ 
+film
+ 
+on
+ 
+austenitic
+ 
+stainless
+ 
+steel
+ 
+is
+ 
+enhanced,
+ 
+the
+ 
+carrier
+ 
+concentration
+ 
+decreases,
+ 
+the
+ 
+passive
+ 
+film
+ 
+appears
+ 
+as
+ 
+an
+ 
+n-type
+ 
+semiconductor,
+ 
+and
+ 
+the
+ 
+corrosion
+ 
+resistance
+ 
+increases.
+ 
+The
+ 
+improvement
+ 
+of
+ 
+seawater
+ 
+pitting
+ 
+resistance
+ 
+of
+ 
+austenitic
+ 
+stainless
+ 
+steel
+ 
+treated
+ 
+with
+ 
+trace
+ 
+rare
+ 
+earth
+ 
+elements
+ 
+is
+ 
+mainly
+ 
+attributed
+ 
+to
+ 
+the
+ 
+formation
+ 
+of
+ 
+rare
+ 
+earth
+ 
+composite
+ 
+sulfur
+ 
+oxides,
+ 
+which
+ 
+reduces
+ 
+the
+ 
+corrosion
+ 
+activity
+ 
+of
+ 
+inclusions.
+  
+Key
+ 
+words:austenitic
+ 
+stainless
+ 
+steel;
+ 
+trace
+ 
+rare
+ 
+earth;
+ 
+spot
+ 
+corrosion
+ 
+resistance;
+ 
+passive
+ 
+film;
+ 
+inclusion
+ 
+PDF_PAGE 2
+钢 铁 研 究 学 报 第36卷
+  奥氏体不锈钢是现有5大类不锈钢中综合性能
+最好、应用范围最广的一类不锈钢,被广泛应用于石
+油化工、海洋 工 程、航 空 航 天 等 领 域
+[1-3]。 它 具 有 优
+异的耐腐蚀性能和 良 好 的 力 学 性 能,其 优 良 的 耐 腐
+蚀性能是由于表面 形 成 一 层 致 密 的 钝 化 膜,钝 化 膜
+的稳定性 和 致 密 性 主 要 取 决 于 合 金 元 素 和 腐 蚀 环
+境
+[4-5]。点蚀通常是不锈钢失效的主要原因之一,它
+会对钝化膜造成破化,降低耐蚀能力,从而造成严重
+的后果。一般来说,点 蚀 通 常 发 生 在 表 面 具 有 不 均
+匀夹杂物和缺陷的 位 置,钢 中 夹 杂 物 是 影 响 性 能 的
+有害成分,也是 生 产 过 程 中 无 法 避 免 的 副 产 物
+[6-7]。
+因此,为了提高奥氏体不锈钢的耐点蚀性能,优化其
+化学成分是十分重要的。
+大量 研 究 表 明,钢 中 的 稀 土 元 素 不 仅 能 净 化 钢
+液,还 能 修 饰 夹 杂 物,有 效 提 高 钢 铁 材 料 的 耐 蚀
+性
+[8-13]。不锈钢中加入微量稀 土 元 素 可 以 显 著 抑 制
+钢中有害夹杂物如硫化物和氧化 物 的 形 成
+[14],通 过
+改性不锈钢夹杂物 来 影 响 其 点 蚀 行 为,进 而 达 到 优
+化材料性能的目的。近年来,一些研究表明,稀土元
+素的加入提高了 不 锈 钢 的 抗 点 蚀 能 力
+[15-17],有 利 于
+形 成 稀 土 改 性 氧 化 夹 杂 物,从 而 降 低 熔 点,改 善
+SiO2 和 Al2O3 等夹杂物的可变形性,从而改善钢的
+性能
+[18-22]。Zhang 等 人[23]比 较 研 究 了 3 种 不 同 稀
+土含量试验钢在模 拟 海 洋 飞 溅 区 的 耐 蚀 性 能,发 现
+钢中 微 量 添 加 Ce能 细 化 晶 粒 尺 寸,提 高 钢 的 耐 蚀
+性。在含 Al钢 中 加 入 稀 土 元 素 后,可 在 钢 中 形 成
+(RE)AlO3 夹 杂 物
+[24]。 钢 中 添 加 稀 土 元 素 可 以 使
+夹杂物 尺 寸 减 小,形 状 由 不 规 则 变 为 球 状 或 椭 球
+形
+[25],从而提高材料性能。
+不锈 钢 的 耐 蚀 性 也 与 钝 化 膜 的 组 成 有 关,研 究
+发现,钢中主要由 Fe和 Cr的 氧 化 物 以 及 氢 氧 化 物
+组成致密的钝化膜组成
+[26],表面形成的 Cr2O3 氧化
+层起主要耐蚀作用
+[27-29]。Ma等人[30]发现添加稀土
+Ce后显著增加 了 钝 化 膜 厚 度,可 以 形 成 缺 陷 更 少、
+性质更稳定的钝化膜
+[31],从而提高耐点蚀性能。
+本文研究了微量稀土对奥氏体不锈钢夹杂物的
+形貌、成 分 的 影 响,分 析 了 在 3.5% (质 量 分 数,余
+同)的 NaCl溶 液 中 点 蚀 行 为 和 钝 化 膜 的 影 响。 本
+论文使用的稀土元素(RE)由 La和 Ce组 成。 采 用
+动电位极化和电化 学 阻 抗 谱(EIS)对 试 样 的 抗 点 蚀
+性能进行检测。利用 扫 描 电 镜(SEM)、能 量 色 散 X
+射线能谱(EDS)对夹杂物形貌和点蚀形貌进行了表
+征。利用 恒 电 位 极 化、XPS 技 术 和 Mott-Schottky
+测量谱(MS)对 钝 化 膜 进 行 了 分 析。 在 上 述 电 化 学
+试验和微观表征的基础上,对所得结果进行了讨论,
+探究了微量稀土元 素 对 不 锈 钢 耐 点 蚀 性 的 影 响,对
+钢中稀土 工 业 应 用 的 推 广 提 供 了 理 论 基 础 与 技 术
+支持。
+1 试验材料与方法
+1.1 材料制备
+  研究样品钢由 广 西 北 港 新 材 料 有 限 公 司 研 制,
+采用硅铁进行脱 氧,以 降 低 钢 中 O 和 S 的 含 量,制
+备出2种稀土含量不同的海洋工程用钢。采用电感
+耦合等离子体原子发射光谱仪(ICP-AES)进行定量
+分析,其主要化学 成 分 如 表 1 所 示。 本 文 所 添 加 的
+稀土元素由 La和 Ce组成,样 品 分 别 命 名 为1 号 和
+2号试验钢。
+表1 试验钢的化学成分表(质量分数)
+Table
+ 
+1 Chemical
+ 
+composition
+ 
+of
+ 
+tested
+ 
+steel %
+试样 C Si Mn P S Cr Ni Al RE Fe
+1号 0.025 0.407 0.783 0.016 0.001 18.121 8.118 0.006 — 余量
+2号 0.024 0.327 0.746 0.018 0.002 18.090 8.023 0.006 0.0035 余量
+  为 了 进 行 电 化 学 测 试,将 样 品 切 成 10mm×
+10mm 的规格,样品的5 个 非 暴 露 面 用 环 氧 树 脂 封
+装,并在工作表 面 的 另 一 端 焊 接 铜 导 线。 将 试 样 用
+碳化硅砂纸逐级打磨至2000目(6.5μm),再用金相
+抛光膏(W2.5)抛光。最后,将样品用无水乙醇进行
+超声清洗并干燥,制 备 好 的 样 品 放 在 干 燥 皿 中 保 存
+备用。
+1.2 夹杂物表征与统计
+  由于夹杂物的 电 位 高 于 基 体,可 通 过 电 解 的 方
+式使基体溶解从而获得夹杂物的完整形貌。本试验
+采用非水溶液电解 技 术 对 夹 杂 物 进 行 萃 取,具 体 的
+分离方法如下:配置500mL 电解质溶液,其中5.0g
+四甲基 氯 化 铵,3.0g 无 水 氧 化 钡,50mL 乙 酰 丙 酮
+和450mL 无水甲醇。将样品在0~5℃的非水溶液
+(pH≈8)中进 行 电 解,将 夹 杂 物 从 铁 基 体 中 分 离 出
+来,以进行夹杂物 形 貌 观 察 和 成 分 分 析。采 用 EDS
+和场发射扫 描 电 子 显 微 镜(Apreo
+ 
+S
+ 
+HiVac,
+ 
+Ther-
+moFisher,
+ 
+America)对 样 品 内 的 夹 杂 物 进 行 分 析,
+·2741·
+PDF_PAGE 3
+第11期 于盼盼等:微量稀土元素对奥氏体不锈钢耐海水点蚀性能的影响
+并对样品中同一面 积 下 的 夹 杂 物 尺 寸、数 量 与 种 类
+进行统计。
+将制 备 好 的 试 样 在 腐 蚀 液 中 进 行 腐 蚀 处 理,参
+照俄罗斯标准,腐 蚀 液 的 成 分 如 下:100mL 乙 醇 溶
+液中含有5mL 浓 盐 酸,0.10g
+ 
+CuCl2,0.05g
+ 
+SnCl2
+和3g
+ 
+FeCl3,腐 蚀1min 后,吹 干 试 样,在 光 学 显 微
+镜(BX51M,
+ 
+Olympus,
+ 
+Japan)下 对 样 品 表 面 的 夹
+杂物点蚀坑数量进行分析统计。
+1.3 电化学测试方法
+  使用 Zahner
+ 
+Zennium 电 化 学 工 作 站 对 抛 光 好
+的样品在3.5%的 NaCl溶 液 中 进 行 电 化 学 分 析 测
+试
+[32],电极采用传统的三电极,铂 电 极 为 对 电 极,饱
+和甘汞电极(SCE)为 参 比 电 极,试 样 上 1cm2 的 暴
+露区域为 工 作 电 极。 为 了 保 证 电 化 学 结 果 的 准 确
+性,在所有电化学 试 验 之 前,均 在 -0.8V
+ 
+vs.
+ 
+SCE
+下进行300s的 阴 极 预 极 化
+[26],以 消 除 空 气 对 表 面
+的影响,然后进行 开 路 电 位 测 试,待 开 路 电 位 稳 定,
+依次进行 EIS 测 试 和 动 电 位 极 化 曲 线 测 量,其 中,
+扫描频率范围为10-2~105 Hz,振幅10mV,阻抗数
+据用 Zsimpwin软件进行 分 析 动 电 位 极 化 测 量 时 扫
+描电位 相 对 于 开 路 电 位 为-0.6~1.2V,扫 描 频 率
+为0.5mV/s。 每 个 试 验 至 少 重 复 3 次,以 确 保 重
+复性。
+Mott-Schottky曲线在-0.6~0.4V 范 围 内 测
+量
+[33-34]。在3.5% 的 NaCl溶 液 中,扫 描 速 率 为 50
+mV/s,频率为1kHz。采用 ESCALAB250XI
+ 
+Kα射
+线光 电 子 能 谱 仪 (ThermoFisher
+ 
+Scientific,
+ 
+USA)
+对钝化薄膜进行 了 表 征,并 用 Al-Kα射 线 源 激 发 光
+电子,并利用 Avantage分析了 XPS光谱数据,分析
+了钝 化 膜 中 不 同 化 合 物 的 类 型 和 含 量。 曲 线 拟
+合
+[33]采用高斯-洛伦兹 函 数 和 雪 莉 背 景 减 影。 根 据
+C1s峰(284.8eV)
+[34]的标准结合能对结合能进行修
+正。在进行 莫 特-肖 特 基 和 XPS 试 验 之 前,对 样 品
+在3.5%的 NaCl溶液 中 施 加 0.15V
+ 
+(vs.
+ 
+SCE)的
+恒定电位5400s,形 成 稳 定 的 钝 化 膜。 所 有 电 化 学
+试验均使用暴露表面积为1cm2 的样品。
+2 试验结果
+2.1 微观组织表征
+  图1显示了2种试验钢显微组织的 TEM 明 场
+图像,在晶界的表面无沉淀相。图1(a)、(b)显 示 试
+样的选定区域电子衍射(SAED)图 案 为 面 心 立 方 相
+(FCC)结构,表 明 添 加 稀 土 元 素 不 影 响 奥 氏 体 不 锈
+钢的相组成和晶体结构。
+图1 试验钢的明场 TEM 图
+Fig.1 Bright
+ 
+field
+ 
+graphs
+ 
+of
+ 
+TEM
+ 
+of
+ 
+test
+ 
+steels
+2.2 夹杂物表征与统计
+  由于炼钢技术的限制,夹杂物不可能完全去除,
+可以通过 改 性 夹 杂 物,降 低 其 对 材 料 性 能 的 影 响。
+图2为1号试样经过非水溶液电解提取后得到典型
+夹杂 物 三 维 形 貌 图,其 夹 杂 物 形 状 近 似 球 形。 由
+EDS图谱证实,图 2 中 夹 杂 物 具 体 成 分 主 要 由 O、
+Al、Mg、Si元素组成,通过大量的 EDS图谱,可以推
+测1号 不 锈 钢 中 的 夹 杂 物 主 要 为 (Al,Si,Mg)-Ox
+夹杂物,其尺寸较 大;其 中,夹 杂 物 中 镁 元 素 的 存 在
+可能与 炼 钢 中 含 镁 耐 火 砖 与 钢 液 发 生 反 应 有 关。
+Al2O3 是钢液中典 型 的 夹 杂 物 种 类,这 种 夹 杂 物 由
+于其非常坚硬且通 常 呈 不 规 则 状,容 易 引 起 钢 表 面
+的缺陷从而发生 点 蚀,降 低 材 料 的 耐 点 蚀 性 能。 本
+试验采用硅铁作为脱氧剂,Si和 O 具有很大的化学
+·3741·
+PDF_PAGE 4
+钢 铁 研 究 学 报 第36卷
+图2 1号试验钢中的夹杂物表征
+Fig.2 Characterization
+ 
+of
+ 
+inclusions
+ 
+in
+ 
+test
+ 
+steel
+ 
+No.1
+亲和力,可以结合生成 SiO2。研究发 现 稀 土 能 使 钢
+中夹 杂 物 改 性 成 球 形 或 纺 锤 形 的 稀 土 化 合 物,图 3
+为2 号 钢 中 夹 杂 物 的 SEM 形 貌 和 对 应 的 EDS 图
+谱。根据结果可知添加稀土元素后2号钢中夹杂物
+的类型主 要 为 (Al,Mg,Si,Re)-Ox + MnS 复 合 型
+   
+硫氧 夹 杂 物,夹 杂 物 尺 寸 较 小,(Al,Si,Mg)-Ox 和
+MnS夹杂物逐渐被稀土 La和 Ce所包裹,改性钢中
+有害夹杂物的成分,生成熔点较高的含稀土夹杂物,
+其化学稳定性好,能够均匀分散在钢中,使钢的耐点
+蚀性能在一定程度上得到提高。
+图3 2号试验钢中的夹杂物表征
+Fig.3 Characterization
+ 
+of
+ 
+inclusions
+ 
+in
+ 
+test
+ 
+steel
+ 
+No.2
+图4 试验钢中的夹杂物尺寸分布(a)及夹杂物所占比例(b)
+Fig.4 Size
+ 
+distribution
+ 
+of
+ 
+inclusions(a)
+ 
+and
+ 
+proportion
+ 
+of
+ 
+inclusions(b)
+  对30mm2 面积范围内的 试 样 采 用 扫 描 电 子 显
+微镜进行夹杂物统计分析,包括统计夹杂物的类型、
+尺寸和数 量,其 结 果 如 图 4 和 表 2 所 示。2 种 试 验
+钢中的夹 杂 物 主 要 分 为 3 类,即:硫 化 物(M-Sx )氧
+化物(M-Ox)、以及氧硫化物(M-OxSy),由于钢中 S
+含量较低,因 此,2 种 试 验 钢 中 氧 化 物 占 比 最 多,其
+·4741·
+PDF_PAGE 5
+第11期 于盼盼等:微量稀土元素对奥氏体不锈钢耐海水点蚀性能的影响
+次为氧硫化物、硫化物。由图4(a)可知,2种试验钢
+的夹杂物尺寸主要集中在1~5μm 范围内。由图4
+(b)可以看出,1号钢中主要为(Al,Si,Mg)-Ox 夹杂
+物,其比 例 占 63.2%,钢 中 未 发 现 单 独 的 MnS 夹
+杂,这可能是由于其 扫 描 分 析 的 夹 杂 物 最 小 尺 寸 为
+1μm。加入微 量 稀 土 元 素 后,钢 中(Al,Si,Mg)-Ox
+夹杂物的数量减少,主 要 以 稀 土 形 成 的 氧 化 物 和 复
+合的氧硫化 物 的 形 式 存 在。 由 表 2 所 知,1 号 试 验
+钢的数密度为12.03个/mm2,2 号 试 验 钢 的 数 密 度
+为11.45个/mm2,添加 微 量 稀 土 元 素 处 理 后,钢 中
+夹杂物密度略有降 低,夹 杂 物 被 改 性 为 较 稳 定 的 含
+稀土化合物。适当添加稀土元素有助于形成一系列
+高熔点化合物,净化钢水,提高钢的性能
+[26]。
+表2 钢中夹杂物的统计学分布结果
+Table
+ 
+2 Results
+ 
+of
+ 
+statistical
+ 
+distribution
+ 
+of
+ 
+inclusions
+ 
+in
+ 
+steel
+试样 类型 数密度/(个·mm-2)
+单个 整体
+M-Sx 0
+1号 M-Ox 12.03 12.03
+M-OxSy 0
+M-Sx 0.81
+2号 M-Ox 5.38 11.45
+M-OxSy 5.26
+2.3 腐蚀活性夹杂物密度
+  本工作对试验 钢 进 行 腐 蚀 活 性 夹 杂 物 的 检 验,
+   
+本试验采用的腐蚀 液 模 拟 海 洋 腐 蚀 环 境,包 括 氯 离
+子、海水中如 Cu2+ ,Sn2+ 和 Fe3+ 等 阳 离 子 对 钢 中 夹
+杂物的影响
+[35]。 对 2 种 试 验 钢 中 腐 蚀 活 性 夹 杂 物
+的密度进行了统计 分 析,检 验 的 金 相 显 微 照 片 如 图
+5所示。试验 钢 进 行 腐 蚀 处 理 后,其 引 发 点 蚀 的 夹
+杂物发生脱落或溶解,表面出现黑色点状的点蚀坑,
+对样品中一定区域内的表面腐蚀活性夹杂物密度分
+别进行统计,得出1 号 和 2 号 钢 的 腐 蚀 活 性 夹 杂 物
+密度分别为 0.59 和 0.43 个/mm2。试 验 中 选 取 含
+有最多夹杂物点蚀 坑 的 视 野 场 来 进 行 表 征,若 视 野
+场的点蚀 坑 数 量 小 于 3 个/mm2,则 认 为 该 试 验 钢
+耐点蚀性能好。夹 杂 物 点 蚀 坑 数 量 越 多,则 耐 点 蚀
+性能越 差。1 号 试 验 钢 中 腐 蚀 活 性 夹 杂 物 密 度 为
+0.59个/mm2,由统计分析结果可知,添加微 量 稀 土
+元素 处 理 后,2 号 试 验 钢 中 腐 蚀 活 性 夹 杂 物 密 度 低
+于1号试验钢。
+2.4 恒电位极化测试
+  恒电位极化试验是参照俄罗斯中央黑色冶金研
+究院的腐蚀评定标 准《基 于 电 化 学 方 法 测 定 腐 蚀 介
+质中碳钢和低合金 钢 阳 极 溶 解 的 饱 和 电 流 密 度》进
+行的,其饱和电流密度如图6所示,1 号 和2 号 不 锈
+钢的饱和电流 密 度 值 分 别 为6.76 和4.19mA/cm2
+其i 为电容。随 着 极 化 时 间 的 增 大,材 料 的 腐 蚀 电
+流密度值先 急 剧 增 大,之 后 逐 渐 趋 于 平 缓,其 中,1
+号试验钢的饱 和 电 流 密 度 值 为 6.76mA/cm2,2 号
+试验钢的 饱 和 电 流 密 度 值 为 4.19mA/cm2。 在 同
+   
+(a)
+ 
+1号钢;
+ 
+ (b)
+ 
+2号钢。
+图5 试验钢腐蚀活性夹杂物光学显微组织
+Fig.5 Optical
+ 
+microstructure
+ 
+of
+ 
+corrosion
+ 
+active
+ 
+inclusion
+ 
+of
+ 
+test
+ 
+steel
+一时间中,饱和电流密度值越小,说明试验钢的耐蚀
+性越好。参照俄罗斯的腐蚀标准
+[35],在含 Cl- 的液态
+环境下,当饱和电流密度值小于8mA/cm2,材料的耐
+腐蚀性能合格,当饱和电流密度值小于6mA/cm2,认
+为材料的耐腐蚀性能优秀。由图6可以看出,在相同
+的时间内,2 号 钢 的 饱 和 电 流 密 度 明 显 低 于1 号 钢,
+说明通过添加微量稀土元素,可以有效降低不锈钢表
+面的饱和电流密度值,提高材料的耐蚀性能
+[36]。
+·5741·
+PDF_PAGE 6
+钢 铁 研 究 学 报 第36卷
+图6 2种不锈钢的恒电位极化曲线
+Fig.6 Potentiostatic
+ 
+polarization
+ 
+curves
+ 
+of
+  
+two
+ 
+stainless
+ 
+steel
+2.5 动电位极化测试
+  图7为2 种 试 验 钢 在 3.5% 的 NaCl溶 液 中 的
+动电位极化的曲线,表 3 为 试 验 钢 相 应 的 动 电 位 极
+化拟合结果。通过动电位极 化 曲 线 进 行 Tafel拟 合
+得到试验钢的自腐 蚀 电 位,可 以 用 来 评 判 钢 的 腐 蚀
+速率的变化趋势。 由 图 7 发 现,极 化 曲 线 上 的 电 流
+波动非常明显,说明 在 此 过 程 中 形 成 了 亚 稳 态 点 蚀
+坑,从钝化区可 以 得 到 钝 化 电 流 密 度(ip)。 自 腐 蚀
+电位的大小可以反 映 材 料 的 发 生 腐 蚀 的 倾 向,其 数
+值越大,材料耐蚀 性 越 好,当 到 达 一 定 的 临 界 值 时,
+表面上的钝化膜会被局部击穿,形成点蚀坑,样品的
+电流密度急剧增大,此 时 的 临 界 电 位 被 称 为 击 穿 电
+位 Ep,击穿电位 越 高,意 味 着 生 成 的 钝 化 膜 稳 定 性
+越好,说明样品发生点蚀的行为越困难,材料的耐蚀
+性越好。由图 7 和 表 3 可 以 看 出,2 号 钢 比 1 号 钢
+具有更高的击穿电 位,因 此 添 加 微 量 稀 土 元 素 处 理
+后的不锈钢的耐蚀性能更好。
+图7 试验钢在的动电位极化曲线
+Fig.7 Potentiodynamic
+ 
+polarization
+ 
+curves
+ 
+of
+ 
+test
+ 
+steels
+表3 试验钢的动电位极化曲线参数
+Table
+ 
+3 Electrochemical
+ 
+corrosion
+ 
+parameters
+ 
+of
+ 
+test
+ 
+steels
+试样 ip/(A·cm-2) Ecorr/V Ep/V
+1号 8.71×10-5 -0.0065 0.23
+2号 2.13×10-5 0.068 0.32
+2.6 电化学阻抗谱
+  图8为2 种 试 验 钢 在 3.5% 的 NaCl溶 液 中 的
+电化学阻抗 谱 图。 从 图 8(a)可 以 看 出 2 种 试 验 钢
+的阻抗曲线均表现 一 个 典 型 的 容 抗 弧,容 抗 弧 的 直
+径反映出电荷转移电阻大小,容抗弧的直径越大,说
+明电荷转移电阻大,材料的耐 腐 蚀 性 越 好
+[37]。在 高
+频区域,相位角接近 于0°,说 明 存 在 溶 液 电 阻,在 中
+频区域,相位角接近 于90°,显 示 出 钝 化 膜 的 典 型 电
+容特性,但总是小于90°,表 明 它 偏 离 了 理 想 电 容 特
+性,这可能与表面的不均匀性和粗糙度有关,恒相位
+元件(CPE)的阻抗值 ZCPE 由式(1)给出:
+ZCPE = 1Y0(iω)n (1)
+式中:Y0 为拟 合 参 数;ω 为 角 频 率 (rad/s);i2= -1
+为虚数;n 为 CPE 指 数。CPE 是 指 理 想 的 电 容、电
+阻和 Warburg阻抗;n 的 变 化 与 钝 化 膜 表 面 的 粗 糙
+度有关。
+由图8(b)和(c)的 Bode图 可 以 看 出 2 种 钢 均
+表现出单一的时间 常 数,说 明 样 品 与 溶 液 之 间 只 存
+在一个反应,选择了图8(d)中的 Rs(QdlRct)等效电
+路图对曲线进行拟合。其 中,Rs 为 溶 液 的 电 阻;Qdl
+为 在 样 品 表 面 和 与 溶 液 之 间 形 成 了 双 电 层 电
+容
+[38-40];Rct 表示电荷 转 移 电 阻。 与 纯 电 容 器 相 比,
+CPE 更 适 合 描 述 由 表 面 不 规 则 性 引 起 的 色 散 效
+应
+[39]。如果电势 是 电 极 系 统 中 唯 一 的 变 量,则 Rct
+表示极化 电 阻。 极 化 电 阻(Rp)是 表 征 腐 蚀 过 程 动
+力学的重要参数,可 反 映 出 材 料 的 耐 蚀 性。 表 4 给
+出了2个 试 验 钢 的 拟 合 参 数。 由 拟 合 结 果 可 以 看
+出,2号钢 Rct 值大于1 号 钢 的 值,说 明2 号 钢 中 的
+电荷转移电阻数值更高,表面质量好,钝化膜的保护
+性强,具有较好的耐腐蚀性能,这一结果与动电位极
+化和恒电位极化的结果相一致。
+2.7 Mott-Schottky曲线分析
+  图9显示了试验钢在0.15V 下的 Mott-Schot-
+tky曲线。空 间 电 荷 层 电 容(C)与 应 用 势(E)之 间
+的关系可 通 过 莫 特-肖 特 基 方 程
+[41]计 算,并 可 用 于
+计算载流子浓度 Nd 和带势 Efb。
+1
+C
+2 = 1εε0eNd E -Efb -KTe  (2)
+·6741·
+PDF_PAGE 7
+第11期 于盼盼等:微量稀土元素对奥氏体不锈钢耐海水点蚀性能的影响
+(a)
+ 
+Nyquist图;
+ 
+ (b)、(c)
+ 
+Bode图;
+ 
+ (d)
+ 
+拟合的等效电路图。
+图8 在3.5%的 NaCl溶液中试验钢的电化学阻抗谱图
+Fig.8 Electrochemical
+ 
+impedance
+ 
+profiles
+ 
+of
+ 
+test
+ 
+steel
+ 
+in
+ 
+3.5
+ 
+wt.%
+ 
+NaCl
+表4 在3.5%的 NaCl溶液中交流阻抗拟合的电化学参数
+Table
+ 
+4 Electrochemical
+ 
+parameters
+ 
+deduced
+ 
+by
+ 
+EIS
+ 
+method
+ 
+in
+ 
+3.5
+ 
+wt.%
+ 
+NaCl
+ 
+solution
+试样 1号 2号
+Rs/(Ω·cm-2) 6.911 6.657
+Y0/(Sn·cm-2) 8.65×10-5 5.10×10-5
+n 0.8536 0.9215
+Rct/(Ω·cm-2) 2.36×104 4.44×104
+式中:ε 为钝化膜 的 相 对 介 电 常 数,取 12;E 为 外 加
+电位;ε0 为真 空 介 电 常 数,8.854×10-12 F/m;e 为
+电子 电 荷,1.6×10-19 C;K 为 玻 尔 兹 曼 常 数
+(1.38×10-23J/k);T 为温度[42]。根据下式:
+Nd = 2Seεε0 (3)
+式中:S 为莫特-肖特基图中线性区 域 的 斜 率。由 图
+9可以发现,在钝化区域(0~0.2V)内,拟 合 线 斜 率
+均为正,说明试样的 钝 化 膜 为 n 型 半 导 体。 在 钢 中
+添加微量稀土元 素 处 理 后,斜 率 值 增 大。 从 线 性 区
+域的斜率计算出 Nd。通过斜率计算得到 Nd 和 Efb
+的值 见 表 5,其 值 在 不 锈 钢 钝 化 膜 载 流 子 浓 度 的 报
+道范围内
+[43]。添加 稀 土 元 素 后,Nd 减 小,其 中 Nd
+图9 试验钢的莫特-肖特基曲线
+Fig.9 Mott-Schottky
+ 
+curves
+ 
+of
+ 
+test
+ 
+steels
+反映了钝化膜 的 抗 形 核 能 力
+[44]。 因 此,1 号 试 样 对
+点蚀的敏感性高,缺陷密度高,2号 试 样 的 钝 化 膜 稳
+定性更好。
+Efb 决定了电解质 中 电 活 性 离 子 氧 化 还 原 电 位
+的能带位置
+[45],由 表 5 可 知,钢 中 添 加 微 量 稀 土 元
+素,使 Efb 向负方向偏移,表明稀土元素的添加可以
+使不锈钢形成了更 稳 定 的 钝 化 膜,从 而 提 高 了 材 料
+的耐蚀性。
+·7741·
+PDF_PAGE 8
+钢 铁 研 究 学 报 第36卷
+表5 试验钢形成的钝化膜的缺陷密度
+Table
+ 
+5 Donor
+ 
+densities
+ 
+of
+ 
+passive
+ 
+films
+ 
+formed
+ 
+from
+ 
+test
+ 
+steels
+参数 1号 2号
+Nd/cm-3 1.86×1021 1.79×1021
+Efb/V -0.267 -0.280
+2.8 XPS分析
+  钝化膜的化学组成对其耐腐蚀性具有很大的影
+响,对 XPS数据进行各种峰的拟合。其中,图10为
+2种试验 钢 钝 化 膜 中 O1s的 XPS 光 谱 图。 表 6 是
+钢中钝化膜 中 O1s光 谱 的 拟 合 结 果。 在 2 个 试 样
+钢中,O 元素均表现 出 3 个 峰,其 对 应 的 结 合 能 为:
+O
+2- (529.9±0.1)eV、OH- (531.4±0.1)eV、H2O
+(532.6±0.1)eV。 铁 和 铬 的 氧 化 物 作 为 钝 化 膜 的
+主要组成成分,可 以 有 效 起 到 保 护 层 的 作 用。 通 过
+表6 中 O2-/OH- 的 值,可 以 看 出 2 号 试 验 钢 的 值
+比1 号 试 验 钢 高,O2-/OH- 比 值 的 增 加 表 明 钝 化
+膜的金属氧化物含 量 增 多,提 高 了 钝 化 膜 的 保 护 性
+能,减少了点蚀
+[46-47]。
+(a)
+ 
+1号;
+ 
+ 
+ 
+(b)
+ 
+2号。
+图10 2种不锈钢钝化膜中 O1s的 XPS光谱
+Fig.10 XPS
+ 
+spectra
+ 
+of
+ 
+O1s
+ 
+in
+  
+passive
+ 
+films
+ 
+of
+ 
+two
+ 
+stainless
+ 
+steels
+表6 2种不锈钢 O1s的 XPS光谱中得到的组成数据
+(原子数分数)
+Table
+ 
+6 Composition
+ 
+data
+ 
+from
+ 
+XPS
+ 
+spectra
+ 
+of
+ 
+O1s
+ 
+for
+ 
+two
+ 
+stainless
+ 
+steels %
+试样 O2- OH- H2O O2-/OH-
+1号 27.35 53.23 19.42 0.51
+2号 29.66 52.42 17.92 0.57
+  图11显示了2种试验钢表面钝化膜中 Cr2p和
+Fe2p的 XPS光谱,表7是钢中钝化膜 Cr2p和 Fe2p
+光谱的拟合结果。在2 种 试 验 钢 中,Cr元 素 均 有 3
+个峰,对 应 的 结 合 能 分 别 为 Cr(574.4±0.1)eV、
+Cr2O3(576.4±0.1)eV 和 Cr(OH)3(577.4±0.3)
+eV。通过对比,可以发现2 号 钢 表 面 钝 化 膜 的 基 本
+成分 Cr和 Cr2O3 的相对含 量 与1 号 试 验 钢 相 比 有
+所增加。研究表明
+[48],钝化膜中铬 氢 氧 化 物 的 比 例
+如果较高,会导致材料的耐蚀性降低。Cr元 素 在 形
+成 钝 化 膜 的 这 个 阶 段 可 能 发 生 的 反 应 可 以
+写为
+[41,49]:
+4Cr
+3+
++3O2+6H2O+12e→4Cr(OH)3 (4)
+4Cr(OH)3+4Cr+3O2→4Cr2O3+6H2O (5)
+图11(a)、(c)为 2 种 试 验 钢 钝 化 膜 中 Fe2p3/2
+的 XPS光谱,Fe元素呈现 出4 个 峰,对 应 的 结 合 能
+分别为金 属 Fe
+ 
+(707.1±0.3)eV、Fe3O4
+ 
+(709.9±
+0.3)eV、Fe2O3
+ 
+(710.7 ± 0.3)eV 和 FeOOH
+ 
+(712.9±0.4)eV。由 表7 发 现,1 号 钢 中 金 属 铁 含
+量较高,Fe3O4、Fe2O3 和 FeOOH 均 是 铁 钝 化 膜 的
+主要组成成分,2号试验钢与1号 相 比,主 要 组 成 成
+分的增加使钝化膜的保护性更好。
+3 讨论
+  为探究微量稀土元素对奥氏体不锈钢耐点蚀性
+能的影响,分别进行了恒电位极化曲线、电化学阻抗
+谱、动电位极化曲 线 测 试,由 得 到 的 结 果 可 以 看 出,
+添加微量稀土后的 不 锈 钢 的 饱 和 电 流 密 度 值、钝 化
+电流密度均明 显 低 于 未 添 加 稀 土 的 不 锈 钢 (1 号),
+含稀土元素的钢具 有 较 宽 的 钝 化 区 间,说 明 加 入 微
+量稀土可对材料的 钝 化 膜 起 到 改 善 的 效 果,明 显 提
+高奥氏体不锈钢在海水环境中的耐点蚀性能。
+·8741·
+PDF_PAGE 9
+第11期 于盼盼等:微量稀土元素对奥氏体不锈钢耐海水点蚀性能的影响
+(a)、(b)
+ 
+1号;
+  
+ (c)、(d)
+ 
+2号。
+图11 2种不锈钢钝化膜中 Cr2p和 Fe2p的 XPS光谱
+Fig.11 XPS
+ 
+spectra
+ 
+of
+ 
+Cr2p
+ 
+and
+ 
+Fe2p
+ 
+in
+  
+passive
+ 
+films
+ 
+of
+ 
+two
+ 
+stainless
+ 
+steels
+表7 2种不锈钢 Cr2p和 Fe2p的 XPS光谱中得到的组成数据(原子数分数)
+Table
+ 
+7 Composition
+ 
+data
+ 
+from
+ 
+XPS
+ 
+spectra
+ 
+of
+ 
+Cr2p
+ 
+and
+ 
+Fe2p
+ 
+for
+ 
+two
+ 
+stainless
+ 
+steels %
+试样 Cr2p Fe2p
+Cr Cr2O3 Cr
+ 
+(OH)3 Fe Fe3O4 Fe2O3 FeOOH
+1号 14.52 23.54 61.93 9.06 17.76 28.95 44.22
+2号 15.06 48.89 36.05 5.18 46.26 28.89 19.67
+3.1 稀土元素对夹杂物改性的影响
+  由于稀土元素 的 性 质 较 为 活 泼,在 冶 炼 过 程 中
+会先于和 S、O 等元素结合成稀土氧硫化物,然后从
+钢液中析出,达到净化钢液的 效 果。由 图2、图3 以
+及图4发现,1 号 钢 中 主 要 存 在(Al,Mg,Si)-Ox 夹
+杂物和单独的 Al2O3 夹 杂 物,此 类 夹 杂 物 由 于 硬 度
+较高、尺寸较大,容易在压制过程中使基体处发生晶
+格畸变,极易 诱 发 和 扩 展 点 蚀
+[50],添 加 稀 土 元 素 可
+以明显改性钢中夹 杂 物,这 种 改 性 可 能 包 括 将 硬 质
+大型夹杂物转化为稳定的稀土氧化物以及复合氧硫
+化物,将钢中 Al2O3 和 SiO2 夹 杂 物,改 性 为 含 RE
+的铝酸盐和硅酸盐
+[51],并改变了钢中 夹 杂 物 的 存 在
+形貌,细化和分散 夹 杂 物,这 可 以 锚 定 晶 界,并 形 成
+精细、致密和均匀 的 结 构,降 低 有 害 夹 杂 物 的 尺 寸,
+防止夹杂物聚集长大,减少点蚀的发生,从而提高材
+料的耐点蚀性能
+[52]。
+采用不同脱氧和微合金化方式对钢中夹杂物进
+行改性处理,不仅 影 响 夹 杂 物 的 化 学 成 分、大 小、尺
+寸,而且还影响微观界面的残余应力等,进而影响其
+局部腐蚀活性,导致腐蚀性能的差异。Wranglen等
+人
+[53]提出硫化物对点蚀的影响分为活性和非活性2
+种,活性夹杂物作为阳极发生溶解,非活性的夹杂物
+则不会发生 溶 解。Tyurin 等 人
+[54]发 现 在 腐 蚀 性 介
+质 中 夹 杂 物 的 溶 解 顺 序 为 MgS→CaS→ MnS→
+mCaO·nAl2O3 →mCaO·nSiO2 → Al2O3 →SiO2。
+Reformatskaya等人
+[55]研究表明含硅酸盐夹杂物的
+·9741·
+PDF_PAGE 10
+钢 铁 研 究 学 报 第36卷
+腐蚀性比含硫化锰夹杂物的腐蚀性弱。
+本文中通过添加微量稀土元素进行复合脱氧与
+微合金化,得到了稀土复合氧硫化物,稀土元素不仅
+细化和球化了夹杂 物,而 且 改 变 了 夹 杂 物 的 腐 蚀 活
+性,钢的饱和电流密度小,稳定性好,而且,添加微量
+稀土后降低了钢的 腐 蚀 活 性 夹 杂 物 密 度,提 高 了 钢
+材在海水环境中耐点蚀的能力。
+3.2 奥氏体不锈钢的耐点蚀机制
+  非金属夹杂物 是 钢 发 生 点 蚀 的 主 要 诱 发 源,在
+本试验中所用不锈 钢 的 S 含 量 较 低,钢 中 夹 杂 物 主
+要以氧 化 物 夹 杂 为 主。(Al,Mg,Si)-Ox 夹 杂 物 与
+基体之间会存在微 间 隙,导 致 钝 化 膜 在 此 处 处 于 薄
+弱地位,使腐蚀介质更容易穿过薄弱处而腐蚀材料,
+最终导致基体表面 的 钝 化 膜 遭 到 破 坏,并 造 成 钝 化
+膜的不连续
+[11]。钢中添加稀土元 素,形 成 稳 定 的 稀
+土类夹 杂 物,钢 中 的 稀 土 类 型 的 夹 杂 物 暴 露 在 含
+Cl
+- 的环境中,由于稀土夹杂物的导电性能差,可 以
+减缓 Cl- 对基体的腐蚀,在腐蚀初期,包裹在稀土夹
+杂物周 围 的 MnS 优 先 发 生 溶 解,具 体 溶 解 反 应
+如下:
+MnS+ H2O-e→ Mn
+2+
++SO4
+2-
++ H
++ (6)
+MnS+ H
++
+→ Mn
+2+
++ HS
+- (7)
+阳极 溶 解 所 产 生 的 阳 离 子 会 发 生 水 解 (式
+(10)),使 pH 降 低,环 境 酸 化,更 多 的 Cl- 进 入 间
+隙,形成具有自催化特征的腐蚀环境。
+Fe→ Fe
+2+
++2e (8)
+Cr→ Cr
+3+
++3e (9)
+Fe
+2+
++2H2O → Fe(OH)2 +2H+ (10)
+在此 条 件 下,稀 土 氧 硫 化 物 和 稀 土 硫 化 物 会 被
+化学溶解,使 Cr3+ 、RE3+ 离 子 富 集 在 点 蚀 坑 内,而
+稀土氧化物则不 容 易 被 溶 解,这 一 理 论 在 Zhang等
+人
+[56]通过第一 性 原 理 计 算 对 比 夹 杂 物 的 功 函 数 得
+到解释,稀土加入可 以 提 高 硫 化 夹 杂 物 的 耐 腐 蚀 性
+能。根 据 以 往 的 研 究
+[57],RE3+ 可 作 为 环 保 型 的 缓
+蚀剂,通过阻断活性位点,从而降低阳极和阴极的活
+性,达到抑制材料腐蚀的目的。因此,形成的稀土离
+子可以抑制腐蚀坑 的 持 续 生 长,从 而 促 进 点 蚀 坑 的
+再钝化,从而提 高 不 锈 钢 的 抗 点 蚀 性。 不 易 被 溶 解
+的稀土氧化物的力学性能与基体 相 似
+[56],所 以 夹 杂
+物与基体周围几乎不出现微缝隙,随着腐蚀的进行,
+稀土氧化夹杂物最终脱落,促进了钢的点蚀形核,从
+而形成稳定的点蚀坑。
+通过 XPS分析可以 发 现 在3.5% 的 NaCl溶 液
+中形成的钝化膜主 要 由 Fe和 Cr的 氧 化 物 组 成,可
+以作为保护层防止腐蚀离子的侵蚀。稀土元素的加
+入可以对钝化膜的 稳 定 性 起 积 极 作 用,这 一 逻 辑 可
+以解 释 在 莫 特-肖 特 基 曲 线 分 析
+[57-58]中 观 察 到 的 较
+低的缺陷密度。众 所 周 知,对 于 大 多 数 金 属 或 合 金
+来说,钝化膜的厚度 是 评 价 其 耐 蚀 性 的 一 个 重 要 参
+数,钝化膜越厚,钝化膜的阻隔 效 果 越 好。根 据 表4
+的等效电路拟合数据估算钝化膜厚度,其中,电路中
+的电容可根据式(11)计算
+[38]:
+C =
+(Y0·Rct)
+1
+n
+Rct
+(11)
+在合金上形成的薄膜可以近似用以下公式计算
+其形成的厚度(L)
+[30,59]:
+L =ε0·εC (12)
+根据 计 算,其 钝 化 膜 厚 度 的 估 计 值 通 常 在 几 十
+纳米范围内,其中未 添 加 稀 土 的 不 锈 钢 钝 化 膜 厚 度
+为11nm,含稀土不锈钢 的 钝 化 膜 厚 度 为19.4
+ 
+nm。
+由此可以 发 现 微 量 稀 土 的 加 入 增 加 了 钝 化 膜 的 厚
+度,使其具备更好的耐腐蚀性。
+4 结论
+  (1)常规奥氏 体 不 锈 钢 中 主 要 存 在 尺 寸 较 大 的
+复杂氧化物夹杂,添 加 微 量 稀 土 元 素 使 具 有 强 腐 蚀
+活性的 MnS与稀土元素形成了复合氧硫化物,促进
+了夹杂物的球化和细化;另外,稀土微合金化处理降
+低了奥氏体不锈钢中的腐蚀活性夹杂物密度。
+(2)添加微量稀土元素降低了钝化电流密度,提
+高了点蚀电位,从而 提 高 了 奥 氏 体 不 锈 钢 的 耐 海 水
+点蚀性能,这主要是 由 于 稀 土 处 理 后 增 加 了 材 料 的
+电阻值,形成的钝化膜更加稳定,能有效抑制点蚀行
+为的发生。
+(3)添加微量稀土抑制了钝化膜的溶解速率,并
+促进了膜中 Fe和 Cr的 氧 化 物 形 成,钝 化 膜 的 保 护
+性更好,使钝化膜的耐腐蚀性增加,增强了材料的耐
+海水点蚀性能。
+ 
+参考文献:
+[1] Cvitanovic
+ 
+C,Hobday
+ 
+A
+ 
+J,van
+ 
+Kerkhoff
+ 
+L,et
+ 
+al.Improving
+ 
+knowledge
+ 
+exchange
+ 
+among
+ 
+scientists
+ 
+and
+ 
+decision-makers
+ 
+to
+ 
+facilitate
+ 
+the
+ 
+adaptive
+ 
+governance
+ 
+of
+ 
+marine
+ 
+resources:a
+ 
+review
+ 
+of
+ 
+knowledge
+ 
+and
+ 
+research
+ 
+needs[J].Ocean
+ 
+and
+ 
+Coastal
+ 
+Management,2015,112:25.
+[2] 黄永昌,张建旗.现代材料 腐 蚀 与 防 护[M].上 海:上 海 交 通 大
+学出版社,2012.
+(Huang
+ 
+Y
+ 
+C,Zhang
+ 
+J
+ 
+Q.Corrosion
+ 
+and
+ 
+Protection
+ 
+of
+ 
+Modern
+ 
+·0841·
+PDF_PAGE 11
+第11期 于盼盼等:微量稀土元素对奥氏体不锈钢耐海水点蚀性能的影响
+Materials[M].Shanghai:Shanghai
+ 
+Jiao
+ 
+Tong
+ 
+University
+ 
+Press,2012.)
+[3] 隋荣娟.奥氏体不锈钢设备腐蚀与防护[M].北京:化学 工 业 出
+版社,2020.
+(Sui
+ 
+R
+ 
+J.Corrosion
+ 
+and
+ 
+Protection
+ 
+of
+ 
+Austenitic
+ 
+Stainless
+ 
+Steel
+ 
+Equipment[M].Beijing:Chemical
+ 
+Industry
+ 
+Press,2020.)
+[4] Shan
+ 
+L,Wang
+ 
+Y
+ 
+X,Zhang
+ 
+Y
+ 
+R,et
+ 
+al.Tribocorrosion
+ 
+behaviors
+ 
+of
+ 
+PVD
+ 
+CrN
+ 
+coated
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+seawater[J].Wear,2016,
+362-363:97.
+[5] 陆世英.不锈钢概论[M].北京:化学工业出版社,2013.
+(Lu
+ 
+S
+ 
+Y.Introduction
+ 
+to
+ 
+Stainless
+ 
+Steel[M].Beijing:Chemical
+ 
+Industry
+ 
+Press,2013.)
+[6] Dong
+ 
+R
+ 
+F,Li
+ 
+H,Deng
+ 
+X
+ 
+T,et
+ 
+al.Effect
+ 
+of
+ 
+ultra-trace
+ 
+rare
+ 
+earth
+ 
+elements
+ 
+on
+ 
+continuous
+ 
+cooling
+ 
+transformation
+ 
+curve
+ 
+of
+ 
+low
+ 
+carbon
+ 
+steel[J].Materials
+ 
+Research
+ 
+Express,2020,7
+(12):125801.
+[7] Dong
+ 
+R
+ 
+F,Li
+ 
+H,Zhang
+ 
+X
+ 
+Y,et
+ 
+al.The
+ 
+influence
+ 
+of
+ 
+rare
+ 
+earth
+ 
+elements
+ 
+lanthanum
+ 
+on
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+steel
+ 
+plate
+ 
+for
+ 
+offshore
+ 
+platform[J].Materials
+ 
+Research
+ 
+Express,2021,8
+(9):096526.
+[8] Jeon
+ 
+S
+ 
+H,Kim
+ 
+S
+ 
+T,Choi
+ 
+M
+ 
+S,et
+ 
+al.Effects
+ 
+of
+ 
+cerium
+ 
+on
+ 
+the
+ 
+compositional
+ 
+variations
+ 
+in
+ 
+and
+ 
+around
+ 
+inclusions
+ 
+and
+ 
+the
+ 
+initiation
+ 
+and
+ 
+propagation
+ 
+of
+ 
+pitting
+ 
+corrosion
+ 
+in
+ 
+hyperduplex
+ 
+stainless
+ 
+steels[J].Corrosion
+ 
+Science,2013,75:367.
+[9] Cai
+ 
+G
+ 
+J,Pang
+ 
+Y
+ 
+T,Huang
+ 
+Y
+ 
+R,et
+ 
+al.Roles
+ 
+of
+ 
+inclusion,
+texture
+ 
+and
+ 
+grain
+ 
+boundary
+ 
+in
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+low-
+nickel
+ 
+austenite
+ 
+stainless
+ 
+steel
+ 
+containing
+ 
+Ce[J].ISIJ
+ 
+International,2019,59(12):2302.
+[10] Kim
+ 
+S
+ 
+T,Jeon
+ 
+S
+ 
+H,Lee
+ 
+I
+ 
+S,et
+ 
+al.Effects
+ 
+of
+ 
+rare
+ 
+earth
+ 
+metals
+ 
+addition
+ 
+on
+ 
+the
+ 
+resistance
+ 
+to
+ 
+pitting
+ 
+corrosion
+ 
+of
+ 
+super
+ 
+duplex
+ 
+stainless
+ 
+steel-Part
+ 
+1[J].Corrosion
+ 
+Science,2010,52
+(6):1897.
+[11] Wang
+ 
+C
+ 
+G,Ma
+ 
+R
+ 
+Y,Zhou
+ 
+Y
+ 
+T,et
+ 
+al.Effects
+ 
+of
+ 
+rare
+ 
+earth
+ 
+modifying
+ 
+inclusions
+ 
+on
+ 
+the
+ 
+pitting
+ 
+corrosion
+ 
+of
+ 
+13Cr4Ni
+ 
+martensitic
+ 
+stainless
+ 
+steel[J].Journal
+ 
+of
+ 
+Materials
+ 
+Science
+ 
+&
+ 
+Technology,2021,93:232.
+[12] Liu
+ 
+C,Revilla
+ 
+R
+ 
+I,Liu
+ 
+Z
+ 
+Y,et
+ 
+al.Effect
+ 
+of
+ 
+inclusions
+ 
+modified
+ 
+by
+ 
+rare
+ 
+earth
+ 
+elements
+ 
+(Ce,La)on
+ 
+localized
+ 
+marine
+ 
+corrosion
+ 
+in
+ 
+Q460NH
+ 
+weathering
+ 
+steel[J].Corrosion
+ 
+Science,2017,
+129:82.
+[13] Wang
+ 
+M
+ 
+J,Li
+ 
+Y
+ 
+M,Wang
+ 
+Z
+ 
+X,et
+ 
+al.Effect
+ 
+of
+ 
+rare
+ 
+earth
+ 
+elements
+ 
+on
+ 
+the
+ 
+thermal
+ 
+cracking
+ 
+resistance
+ 
+of
+ 
+high
+ 
+speed
+ 
+steel
+ 
+rolls[J].Journal
+ 
+of
+ 
+Rare
+ 
+Earths,2011,29(5):489.
+[14] 武悦,马迅,王鹏,等.稀土在钢中作用的研究进展[J].材 料 热
+处理学报,2023,44(2):1.
+(Wu
+ 
+Y,Ma
+ 
+X,Wang
+ 
+P,et
+ 
+al.Research
+ 
+progress
+ 
+of
+ 
+function
+ 
+of
+ 
+rare
+ 
+earths
+ 
+in
+ 
+steel[J].Transactions
+ 
+of
+ 
+Materials
+ 
+and
+ 
+Heat
+ 
+Treatment,2023,44(2):1.)
+[15] Yang
+ 
+H
+ 
+J,Yang
+ 
+K,Zhang
+ 
+B
+ 
+C.Pitting
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+La
+ 
+added
+ 
+316L
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+simulated
+ 
+body
+ 
+fluids[J].
+Materials
+ 
+Letters,2007,61(4/5):1154.
+[16] Ma
+ 
+Q
+ 
+Q,Wu
+ 
+C
+ 
+C,Cheng
+ 
+G
+ 
+G,et
+ 
+al.Characteristic
+ 
+and
+ 
+formation
+ 
+mechanism
+ 
+of
+ 
+inclusions
+ 
+in
+ 
+2205
+ 
+duplex
+ 
+stainless
+ 
+steel
+ 
+containing
+ 
+rare
+ 
+earth
+ 
+elements[J].Materials
+ 
+Today:
+Proceedings,2015,2:S300.
+[17] Yue
+ 
+L
+ 
+J,Wang
+ 
+L
+ 
+M,Han
+ 
+J
+ 
+S.Effects
+ 
+of
+ 
+rare
+ 
+earth
+ 
+on
+ 
+inclusions
+ 
+and
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+10PCuRE
+ 
+weathering
+ 
+steel[J].Journal
+ 
+of
+ 
+Rare
+ 
+Earths,2010,28(6):952.
+[18] Liu
+ 
+Y
+ 
+Q,Wang
+ 
+L
+ 
+J,Chou
+ 
+K.Effect
+ 
+of
+ 
+cerium
+ 
+on
+ 
+the
+ 
+cleanliness
+ 
+of
+ 
+spring
+ 
+steel
+ 
+used
+ 
+in
+ 
+fastener
+ 
+of
+ 
+high-speed
+ 
+railway[J].Journal
+ 
+of
+ 
+Rare
+ 
+Earths,2014,32(8):759.
+[19] Szummer
+ 
+A,Janik-Czachor
+ 
+M,Hofmann
+ 
+S.Discontinuity
+ 
+of
+ 
+the
+ 
+passivating
+ 
+film
+ 
+at
+ 
+nonmetallic
+ 
+inclusions
+ 
+in
+ 
+stainless
+ 
+steels[J].Materials
+ 
+Chemistry
+ 
+and
+ 
+Physics,1993,34(2):181.
+[20] Suter
+ 
+T,Böhni
+ 
+H.Microelectrodes
+ 
+for
+ 
+corrosion
+ 
+studies
+ 
+in
+ 
+microsystems[J].Electrochimica
+ 
+Acta,2001,47(1/2):191.
+[21] Krawiec
+ 
+H,Vignal
+ 
+V,Heintz
+ 
+O,et
+ 
+al.Influence
+ 
+of
+ 
+the
+ 
+dissolution
+ 
+of
+ 
+MnS
+ 
+inclusions
+ 
+under
+ 
+free
+ 
+corrosion
+ 
+and
+ 
+potentiostatic
+ 
+conditions
+ 
+on
+ 
+the
+ 
+composition
+ 
+of
+ 
+passive
+ 
+films
+ 
+and
+ 
+the
+ 
+electrochemical
+ 
+behaviour
+ 
+of
+ 
+stainless
+ 
+steels[J].
+Electrochimica
+ 
+Acta,2006,51(16):3235.
+[22] Wang
+ 
+W
+ 
+F.Effect
+ 
+of
+ 
+MnS
+ 
+powder
+ 
+addition
+ 
+and
+ 
+sintering
+ 
+temperature
+ 
+on
+ 
+the
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+sintered
+ 
+303LSC
+ 
+stainless
+ 
+steels[J].Corrosion
+ 
+Science,2003,45(5):957.
+[23] Zhang
+ 
+X
+ 
+Y,Dong
+ 
+R
+ 
+F,Gao
+ 
+B,et
+ 
+al.Effect
+ 
+of
+ 
+trace
+ 
+rare
+ 
+earth
+ 
+elements
+ 
+(Ce)on
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+high
+ 
+strength
+ 
+steel
+ 
+used
+ 
+for
+ 
+offshore
+ 
+platform[J].Materials
+ 
+Research
+ 
+Express,
+2023,10(3):036514.
+[24] Adabavazeh
+ 
+Z,Hwang
+ 
+W
+ 
+S,Su
+ 
+Y
+ 
+H.Effect
+ 
+of
+ 
+adding
+ 
+cerium
+ 
+on
+ 
+microstructure
+ 
+and
+ 
+morphology
+ 
+of
+ 
+Ce-based
+ 
+inclusions
+ 
+formed
+ 
+in
+ 
+low-carbon
+ 
+steel[J].Scientific
+ 
+Reports,2017,
+7:46503.
+[25] Gao
+ 
+J
+ 
+Z,Fu
+ 
+P
+ 
+X,Liu
+ 
+H
+ 
+W,et
+ 
+al.Effects
+ 
+of
+ 
+rare
+ 
+earth
+ 
+on
+ 
+the
+ 
+microstructure
+ 
+and
+ 
+impact
+ 
+toughness
+ 
+of
+ 
+H13
+ 
+steel[J].
+Metals,2015,5(1):383.
+[26] Wang
+ 
+Y,Yang
+ 
+W,Zhang
+ 
+L
+ 
+F.Effect
+ 
+of
+ 
+cooling
+ 
+rate
+ 
+on
+ 
+oxide
+ 
+inclusions
+ 
+during
+ 
+solidification
+ 
+of
+ 
+304
+ 
+stainless
+ 
+steel[J].Steel
+ 
+Research
+ 
+International,2019,90(7):1900027.
+[27] Li
+ 
+J
+ 
+S,Mao
+ 
+Q
+ 
+Z,Chen
+ 
+M,et
+ 
+al.Enhanced
+ 
+pitting
+ 
+resistance
+ 
+through
+ 
+designing
+ 
+a
+ 
+high-strength
+ 
+316L
+ 
+stainless
+ 
+steel
+ 
+with
+ 
+heterostructure[J].Journal
+ 
+of
+ 
+Materials
+ 
+Research
+ 
+and
+ 
+Technology,2021,10:132.
+[28] Wang
+ 
+J
+ 
+X,Shi
+ 
+W,Xiang
+ 
+S,et
+ 
+al.Study
+ 
+of
+ 
+the
+ 
+corrosion
+ 
+behaviour
+ 
+of
+ 
+sensitized
+ 
+904L
+ 
+austenitic
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+Cl-
+solution[J].Corrosion
+ 
+Science,2021,181:109234.
+[29] 曹超,蒋成洋,鲁 金 涛,等.不 同 Cr含 量 的 奥 氏 体 不 锈 钢 在
+700℃ 煤 灰/高 硫 烟 气 环 境 中 的 腐 蚀 行 为 [J].金 属 学 报,
+2022,58(1):67.
+(Cao
+ 
+C,Jiang
+ 
+C
+ 
+Y,Lu
+ 
+J
+ 
+T,et
+ 
+al.Corrosion
+ 
+behavior
+ 
+of
+ 
+austenitic
+ 
+stainless
+ 
+steel
+ 
+with
+ 
+different
+ 
+Cr
+ 
+contents
+ 
+in
+ 
+700℃
+ 
+coal
+ 
+ash/high
+ 
+sulfur
+ 
+flue-gas
+ 
+environment[J]. Acta
+ 
+Metallurgica
+ 
+Sinica,2022,58(1):67.)
+[30] Ma
+ 
+M
+ 
+Y,He
+ 
+C
+ 
+L,Chen
+ 
+L
+ 
+Q,et
+ 
+al.Effect
+ 
+of
+ 
+W
+ 
+and
+ 
+Ce
+ 
+additions
+ 
+on
+ 
+the
+ 
+electrochemical
+ 
+corrosion
+ 
+behaviour
+ 
+of
+ 
+444-
+·1841·
+PDF_PAGE 12
+钢 铁 研 究 学 报 第36卷
+type
+ 
+ferritic
+ 
+stainless
+ 
+steel[J].Corrosion
+ 
+Engineering,Science
+ 
+and
+ 
+Technology,2018,53(3):199.
+[31] Zhang
+ 
+Z
+ 
+C,Lan
+ 
+A
+ 
+D,Zhang
+ 
+M,et
+ 
+al.Effect
+ 
+of
+ 
+Ce
+ 
+on
+ 
+the
+ 
+pitting
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+non-equiatomic
+ 
+high-entropy
+ 
+alloy
+ 
+Fe40Mn20Cr20Ni20
+ 
+in
+ 
+3.5wt%
+ 
+NaCl
+ 
+solution[J].
+Journal
+ 
+of
+ 
+Alloys
+ 
+and
+ 
+Compounds,2022,909:164641.
+[32] 王绍尉,黄德军,李成涛,等.温 度 对904L 不 锈 钢 耐 点 蚀 性 能
+的影响[J].腐蚀与防护,2017,38(9):689.
+(Wang
+ 
+S
+ 
+W,Huang
+ 
+D
+ 
+J,Li
+ 
+C
+ 
+T,et
+ 
+al.Effect
+ 
+of
+ 
+temperature
+ 
+on
+ 
+pitting
+ 
+corrosion
+ 
+behavior
+ 
+of
+ 
+the
+ 
+904L
+ 
+stainless
+ 
+steel[J].
+Corrosion
+ 
+&
+ 
+Protection,2017,38(9):689.)
+[33] Guo
+ 
+L
+ 
+Q,Lin
+ 
+M
+ 
+C,Qiao
+ 
+L
+ 
+J,et
+ 
+al.Duplex
+ 
+stainless
+ 
+steel
+ 
+passive
+ 
+film
+ 
+electrical
+ 
+properties
+ 
+studied
+ 
+by
+ 
+in
+ 
+situ
+ 
+current
+ 
+sensing
+ 
+atomic
+ 
+force
+ 
+microscopy[J].Corrosion
+ 
+Science,2014,
+78:55.
+[34] Feng
+ 
+H,Li
+ 
+H
+ 
+B,Jiang
+ 
+Z
+ 
+H,et
+ 
+al.Designing
+ 
+for
+ 
+high
+ 
+corrosion-resistant
+ 
+high
+ 
+nitrogen
+ 
+martensitic
+ 
+stainless
+ 
+steel
+ 
+based
+ 
+on
+ 
+DFT
+ 
+calculation
+ 
+and
+ 
+pressurized
+ 
+metallurgy
+ 
+method
+[J].Corrosion
+ 
+Science,2019,158:108081.
+[35] 杨恒,吴开明,王宇 航,等.高 强 度 海 工 钢 中 腐 蚀 活 性 夹 杂 物
+与耐海水腐蚀性能研究[J].钢铁研究学报,2021,33(7):610.
+(Yang
+ 
+H,Wu
+ 
+K
+ 
+M,Wang
+ 
+Y
+ 
+H,et
+ 
+al.Study
+ 
+on
+ 
+corrosion-
+active
+ 
+inclusions
+ 
+and
+ 
+seawater
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+high
+ 
+strength
+ 
+marine
+ 
+steel[J].Journal
+ 
+of
+ 
+Iron
+ 
+and
+ 
+Steel
+ 
+Research,
+2021,33(7):610.)
+[36] Liu
+ 
+Z,Lian
+ 
+X
+ 
+T,Liu
+ 
+T
+ 
+S,et
+ 
+al.Effects
+ 
+of
+ 
+rare
+ 
+earth
+ 
+elements
+ 
+on
+ 
+corrosion
+ 
+behaviors
+ 
+of
+ 
+low-carbon
+ 
+steels
+ 
+and
+ 
+weathering
+ 
+steels[J].Materials
+ 
+and
+ 
+Corrosion,2019,71(2):258.
+[37] Mohammadi
+ 
+F,Nickchi
+ 
+T,Attar
+ 
+M
+ 
+M,et
+ 
+al.EIS
+ 
+study
+ 
+of
+ 
+potentiostatically
+ 
+formed
+ 
+passive
+ 
+film
+ 
+on
+ 
+304
+ 
+stainless
+ 
+steel
+[J].Electrochimica
+ 
+Acta,2011,56(24):8727.
+[38] Luo
+ 
+H,Dong
+ 
+C
+ 
+F,Li
+ 
+X
+ 
+G,et
+ 
+al.The
+ 
+electrochemical
+ 
+behaviour
+ 
+of
+ 
+2205
+ 
+duplex
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+alkaline
+ 
+solutions
+ 
+with
+ 
+different
+ 
+pH
+ 
+in
+ 
+the
+ 
+presence
+ 
+of
+ 
+chloride[J].
+Electrochimica
+ 
+Acta,2012,64:211.
+[39] Beaunier
+ 
+L,Epelboin
+ 
+I,Lestrade
+ 
+J
+ 
+C,et
+ 
+al.Etude
+ 
+electrochimique,et
+ 
+par
+ 
+microscopie
+ 
+electronique
+ 
+a
+ 
+balayage,
+du
+ 
+fer
+ 
+recouvert
+ 
+de
+ 
+peinture[J].Surface
+ 
+Technology,1976,4
+(3):237.
+[40] Naderi
+ 
+R,Mahdavian
+ 
+M,Attar
+ 
+M
+ 
+M.Electrochemical
+ 
+behavior
+ 
+of
+ 
+organic
+ 
+and
+ 
+inorganic
+ 
+complexes
+ 
+of
+ 
+Zn(II)as
+ 
+corrosion
+ 
+inhibitors
+ 
+for
+ 
+mild
+ 
+steel:solution
+ 
+phase
+ 
+study[J].
+Electrochimica
+ 
+Acta,2009,54(27):6892.
+[41] Yang
+ 
+Y
+ 
+Y,Liu
+ 
+Y
+ 
+Y,Cheng
+ 
+M
+ 
+L,et
+ 
+al.Enhancements
+ 
+of
+ 
+passive
+ 
+film
+ 
+and
+ 
+pitting
+ 
+resistance
+ 
+in
+ 
+chloride
+ 
+solution
+ 
+for
+ 
+316LX
+ 
+austenitic
+ 
+stainless
+ 
+steel
+ 
+after
+ 
+Sn
+ 
+alloying[J].Acta
+ 
+Metallurgica
+ 
+Sinica
+ 
+(English
+ 
+Letters),2019,32(1):98.
+[42] Cheng
+ 
+H
+ 
+X,Luo
+ 
+H,Wang
+ 
+X
+ 
+F,et
+ 
+al.Electrochemical
+ 
+corrosion
+ 
+and
+ 
+passive
+ 
+behavior
+ 
+of
+ 
+a
+ 
+new
+ 
+high-nitrogen
+ 
+austenitic
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+chloride
+ 
+environment[J].
+Materials
+ 
+Chemistry
+ 
+and
+ 
+Physics,2022,292:126837.
+[43] Feng
+ 
+H,Dai
+ 
+J,Li
+ 
+H
+ 
+B,et
+ 
+al.Sn
+ 
+microalloying
+ 
+enhances
+ 
+corrosion
+ 
+resistance
+ 
+of
+ 
+stainless
+ 
+steel
+ 
+by
+ 
+accelerating
+ 
+heterogeneous
+ 
+nucleation
+ 
+of
+ 
+passive
+ 
+film[J].Corrosion,2022,
+201:110279.
+[44] Sun
+ 
+H,Wu
+ 
+X
+ 
+Q,Han
+ 
+E
+ 
+H.Effects
+ 
+of
+ 
+temperature
+ 
+on
+ 
+the
+ 
+oxide
+ 
+film
+ 
+properties
+ 
+of
+ 
+304
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+high
+ 
+temperature
+ 
+lithium
+ 
+borate
+ 
+buffer
+ 
+solution[J].Corrosion
+ 
+Science,2009,51(12):2840.
+[45] Dean
+ 
+M
+ 
+H,Stimming
+ 
+U.The
+ 
+electronic
+ 
+properties
+ 
+of
+ 
+disordered
+ 
+passive
+ 
+films[J].Corrosion
+ 
+Science,1989,29(2/
+3):199.
+[46] Xu
+ 
+S,Gao
+ 
+F
+ 
+Y,Han
+ 
+J
+ 
+Y,et
+ 
+al.Corrosion
+ 
+behaviors
+ 
+of
+ 
+Fe-
+22Cr-16Mn-0.55N
+ 
+high-nitrogen
+ 
+austenitic
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+3.5%
+ 
+NaCl
+ 
+solution[J].Coatings,2022,12(11):1769.
+[47] Sun
+ 
+S
+ 
+C,Wei
+ 
+S
+ 
+F,Wang
+ 
+G
+ 
+Y,et
+ 
+al.The
+ 
+synthesis
+ 
+and
+ 
+electrochemical
+ 
+behavior
+ 
+of
+ 
+high-nitrogen
+ 
+nickel-free
+ 
+austenitic
+ 
+stainless
+ 
+steel[J].Journal
+ 
+of
+ 
+Materials
+ 
+Engineering
+ 
+and
+ 
+Performance,2014,23(11):3957.
+[48] Liu
+ 
+J,Zhang
+ 
+T,Li
+ 
+H
+ 
+B,et
+ 
+al.Modeling
+ 
+of
+ 
+the
+ 
+critical
+ 
+pitting
+ 
+temperature
+ 
+between
+ 
+the
+ 
+laboratory-scale
+ 
+specimen
+ 
+and
+ 
+the
+ 
+large-scale
+ 
+specimen[J].Journal
+ 
+of
+ 
+the
+ 
+Electrochemical
+ 
+Society,2018,165(7):C328.
+[49] Xu
+ 
+J,Wu
+ 
+X
+ 
+Q,Han
+ 
+E
+ 
+H.The
+ 
+evolution
+ 
+of
+ 
+electrochemical
+ 
+behaviour
+ 
+and
+ 
+oxide
+ 
+film
+ 
+properties
+ 
+of
+ 
+304
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+high
+ 
+temperature
+ 
+aqueous
+ 
+environment[J].Electrochimica
+ 
+Acta,2012,71:219.
+[50] Liu
+ 
+C,Jiang
+ 
+Z
+ 
+H,Zhao
+ 
+J
+ 
+B,et
+ 
+al.Influence
+ 
+of
+ 
+rare
+ 
+earth
+ 
+metals
+ 
+on
+ 
+mechanisms
+ 
+of
+ 
+localised
+ 
+corrosion
+ 
+induced
+ 
+by
+ 
+inclusions
+ 
+in
+ 
+Zr-Ti
+ 
+deoxidised
+ 
+low
+ 
+alloy
+ 
+steel[J].Corrosion,
+2020,166:108463.
+[51] Wang
+ 
+H,Bao
+ 
+Y
+ 
+P,Zhao
+ 
+M,et
+ 
+al.Effect
+ 
+of
+ 
+Ce
+ 
+on
+ 
+the
+ 
+cleanliness,microstructure
+ 
+and
+ 
+mechanical
+ 
+properties
+ 
+of
+ 
+high
+ 
+strength
+ 
+low
+ 
+alloy
+ 
+steel
+ 
+Q690E
+ 
+in
+ 
+industrial
+ 
+production
+ 
+process[J].International
+ 
+Journal
+ 
+of
+ 
+Minerals,Metallurgy
+ 
+and
+ 
+Materials,2019,26(11):1372.
+[52] Li
+ 
+Y,Sun
+ 
+M,Jiang
+ 
+Z
+ 
+H,et
+ 
+al.Inclusion
+ 
+modification
+ 
+in
+ 
+C104Cr
+ 
+saw
+ 
+wire
+ 
+steel
+ 
+with
+ 
+different
+ 
+cerium
+ 
+contents[J].
+Metals,2019,9(1):54.
+[53] Wranglen
+ 
+G.Pitting
+ 
+and
+ 
+sulphide
+ 
+inclusions
+ 
+in
+ 
+steel[J].
+Corrosion
+ 
+Science,1974,14(5):331.
+[54] Tyurin
+ 
+A
+ 
+G,Pyshmintsev
+ 
+I
+ 
+Y,Kostitsyna
+ 
+I
+ 
+V,et
+ 
+al.
+Thermodynamics
+ 
+of
+ 
+chemical
+ 
+and
+ 
+electrochemical
+ 
+stability
+ 
+of
+ 
+corrosion
+ 
+active
+ 
+nonmetal
+ 
+inclusions[J].Protection
+ 
+of
+ 
+Metals,
+2007,43(1):34.
+[55] Reformatskaya
+ 
+I
+ 
+I,Rodionova
+ 
+I
+ 
+G,Beilin
+ 
+Y
+ 
+A,et
+ 
+al.The
+ 
+effect
+ 
+of
+ 
+nonmetal
+ 
+inclusions
+ 
+and
+ 
+microstructure
+ 
+on
+ 
+local
+ 
+corrosion
+ 
+of
+ 
+carbon
+ 
+and
+ 
+low-alloyed
+ 
+steels[J].Protection
+ 
+of
+ 
+Metals,2004,40(5):447.
+[56] Zhang
+ 
+X,Wei
+ 
+W
+ 
+Z,Cheng
+ 
+L,et
+ 
+al.Effects
+ 
+of
+ 
+niobium
+ 
+and
+ 
+rare
+ 
+earth
+ 
+elements
+ 
+on
+ 
+microstructure
+ 
+and
+ 
+initial
+ 
+marine
+ 
+corrosion
+ 
+behavior
+ 
+of
+ 
+low-alloy
+ 
+steels[J].Applied
+ 
+Surface
+ 
+Science,
+2019,475:83.
+[57] Lv
+ 
+J
+ 
+L,Luo
+ 
+H
+ 
+Y.Effect
+ 
+of
+ 
+nano/ultrafine
+ 
+grain
+ 
+with
+ 
+·2841·
+PDF_PAGE 13
+第11期 于盼盼等:微量稀土元素对奥氏体不锈钢耐海水点蚀性能的影响
+orientation
+ 
+obtained
+ 
+by
+ 
+reversion
+ 
+transformation
+ 
+on
+ 
+tensile
+ 
+behaviour
+ 
+of
+ 
+austenitic
+ 
+stainless
+ 
+steel[J].Materials
+ 
+Science
+ 
+and
+ 
+Technology,2013,29(4):456.
+[58] Lv
+ 
+J
+ 
+L,Luo
+ 
+H
+ 
+Y.Comparison
+ 
+of
+ 
+corrosion
+ 
+properties
+ 
+of
+ 
+passive
+ 
+films
+ 
+formed
+ 
+on
+ 
+phase
+ 
+reversion
+ 
+induced
+ 
+nano/
+ultrafine-grained
+ 
+321
+ 
+stainless
+ 
+steel[J].Applied
+ 
+Surface
+ 
+Science,2013,280:124.
+[59] Nicic
+ 
+I,MacDonald
+ 
+D
+ 
+D.The
+ 
+passivity
+ 
+of
+ 
+Type
+ 
+316L
+ 
+stainless
+ 
+steel
+ 
+in
+ 
+borate
+ 
+buffer
+ 
+solution[J].Journal
+ 
+of
+ 
+Nuclear
+ 
+Materials,2008,379(1/2/3):54.
+ 􀤕
+􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 􀤕 
+Journal
+ 
+of
+ 
+Iron
+ 
+and
+ 
+Steel
+ 
+Research
+ 
+International征稿启事
+Journal
+ 
+of
+ 
+Iron
+ 
+and
+ 
+Steel
+ 
+Research
+ 
+International(中文刊名:钢铁研究学报(英文版),下文简称JISRI)是由中国钢铁工业协
+会主管、中国钢研科技集团有限公司主办的冶金领域学术期刊(CN
+ 
+11-3678/TF,ISSN
+ 
+1006-706X)。JISRI于1994 年 创 刊,月
+刊,主编为田志凌教授。JISRI被 SCI科学引文索引、EI工程索引、美国化学文摘(CAS)、JST 日 本 科 学 技 术 振 兴 机 构 数 据 库、
+中国科学引文数据库(CSCD)等国内外著名检索机构及数据库收录;自2012年至今,连续12年入选中国知网和清华大学图书
+馆联合发布的“中国最具国际影响力学术期刊”(自然科学与工程技术),入选中国金属学会2020年发布的"冶金工程技术与金
+属材料"高质量科技期刊分级目录冶金工程技术领域 T1期刊,入选中国材料研究学会2021年 发 布 的 高 质 量 科 技 期 刊 分 级 目
+录材料科学-综合类 T1期刊。
+1
+ 
+征稿对象
+在科研单位、大专院校、生产企业等部门从事钢 铁 冶 金 流 程、金 属 基 材 料 基 础 研 究、生 产、加 工 和 使 用 的 专 家、学 者、工 程
+技术人员、研究生、管理人员等。
+2
+ 
+征稿范围
+(1)冶金与金属加工
+冶金工业节能环保、冶金资源综合利用、炼铁、炼钢、连铸、铸造、凝固、锻 压、轧 制 及 后 续 热 处 理、冶 金 物 理 化 学、钢 铁 冶 金
+新工艺等。
+(2)材料科学与技术
+金属基材料,涵盖但不限于:先进钢铁材料、高 品 质 特 殊 钢、高 温 合 金、新 一 代 金 属 间 化 合 物、金 属 功 能 材 料、粉 末 冶 金 材
+料、结构用钛合金、功能与结构复合型材料、非晶与高熵合金、金属纳米材 料 等 的 基 础 研 究,腐 蚀、焊 接、摩 擦 磨 损、疲 劳 断 裂 等
+服役性能研究。
+3
+ 
+投稿和联系方式
+所投稿件需符合JISRI的“Instruction
+ 
+for
+ 
+Authors”和“Guide
+ 
+for
+ 
+the
+ 
+Preparation
+ 
+of
+ 
+a
+ 
+Manuscript”的要求。请登录http://
+www.editorialmanager.com/isri注册投稿,欢迎访问 http://www.chinamet.cn/或 http://www.springer.com/journal/42243
+了解期刊详情。
+优秀文章、综合论述文章一经录用优先在线发表!
+联系人:王远琦、邵燕静、胡蝶      邮箱:gtyjxb-e@163.com,
+ 
+jisri@chinamet.cn   电话:010-62182295
+通讯地址:北京市海淀区学院南路76号 邮编:100081
+·3841·

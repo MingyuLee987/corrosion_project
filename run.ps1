@@ -12,9 +12,8 @@ if ($LASTEXITCODE -ne 0) {
     & $taskPython -m pip install -r requirements.txt
     if ($LASTEXITCODE -ne 0) { throw 'Dependency installation failed' }
 }
-& $taskPython -B corrosion_re_expand.py
+& $taskPython -B tune_phase_model.py --latest --svr-only
 if ($LASTEXITCODE -ne 0) { throw 'Analysis failed' }
-& $taskPython -B evaluate_ml.py
+& $taskPython -B tune_phase_model.py --improve --transfer
 if ($LASTEXITCODE -ne 0) { throw 'ML evaluation failed' }
-Write-Host 'Completed: results/RE_expanded'
-Write-Host 'ML evaluation: results/ML_evaluation'
+Write-Host 'Completed: baseline and expanded-data comparison'
