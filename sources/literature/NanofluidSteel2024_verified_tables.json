@@ -1,0 +1,99 @@
+{
+  "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1155/ijco/5531986",
+  "doi": "10.1155/ijco/5531986",
+  "retrieval_date": "2026-10-14",
+  "retrieval_method": "primary publisher full text via web; Tables1,2,5,6 and Sec2.8",
+  "chemistry_wt_pct": {
+    "C": 0.432,
+    "Si": 0.175,
+    "Mn": 0.829,
+    "P": 0.0157,
+    "S": 0.0165
+  },
+  "table_target_unit": "A/cm2",
+  "temperatures_C": [
+    25,
+    35,
+    45,
+    55
+  ],
+  "tables": {
+    "NaCl": {
+      "as_received": [
+        1.5347e-05,
+        2.5683e-05,
+        2.5491e-05,
+        2.445e-05
+      ],
+      "tap_water": [
+        8.0799e-06,
+        7.6291e-06,
+        4.4398e-06,
+        6.1892e-06
+      ],
+      "CuO": [
+        5.367e-06,
+        3.54e-06,
+        4.815e-06,
+        8.298e-06
+      ],
+      "Al2O3": [
+        1.543e-05,
+        6.5239e-06,
+        7.658e-06,
+        9.2515e-06
+      ],
+      "Al2O3_T": [
+        6.6492e-06,
+        1.2605e-05,
+        7.253e-06,
+        8.2179e-06
+      ],
+      "CuO_T": [
+        2.936e-06,
+        7.8241e-06,
+        8.292e-06,
+        3.257e-06
+      ]
+    },
+    "NaCl_CO2": {
+      "as_received": [
+        4.44e-05,
+        9.456e-05,
+        0.000253,
+        0.000364
+      ],
+      "tap_water": [
+        5.846e-05,
+        0.000119,
+        0.000307,
+        0.000631
+      ],
+      "CuO": [
+        5.216e-05,
+        9.06e-05,
+        0.000248,
+        0.0009355
+      ],
+      "Al2O3": [
+        5.462e-05,
+        0.000159,
+        0.000144,
+        0.000476
+      ],
+      "Al2O3_T": [
+        5.613e-05,
+        0.0001516,
+        0.0003767,
+        0.000604
+      ],
+      "CuO_T": [
+        5.67e-05,
+        0.000159,
+        0.000171,
+        0.000486
+      ]
+    }
+  },
+  "caveat": "48 condition combinations in one paper and one base chemistry, not 48 independent compositions. Cr/Mo/Ni dashes remain missing."
+}

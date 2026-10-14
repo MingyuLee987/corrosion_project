@@ -1,0 +1,51 @@
+Al10_26 ('semantic_matrix', 0.3, 'scale', 1.0)
+Bridge25 ('semantic_matrix', 0.3, 'scale', 0.1)
+Ce75Cr1_24 ('semantic_matrix', 0.3, 'scale', 0.1)
+Coat24 ('semantic_matrix', 0.3, 'scale', 1.0)
+GCr23 ('semantic_matrix', 0.3, 'scale', 0.1)
+HRB400_RE_2025 ('semantic_matrix', 0.3, 'scale', 1.0)
+La24Q355 ('semantic_matrix', 0.3, 'scale', 0.1)
+LaCe304_2025 ('semantic_matrix', 0.3, 'scale', 0.1)
+LaCe75Cr1_2023 ('semantic_matrix', 0.3, 'scale', 0.1)
+MDPI26LaCe ('semantic_matrix', 0.3, 'scale', 1.0)
+Ma19FSS ('semantic_matrix', 0.3, 'scale', 1.0)
+ShanghaiCe_2025 ('semantic_matrix', 0.3, 'scale', 0.1)
+Tang2019 ('semantic_matrix', 0.1, 'scale', 1.0)
+UCS23 ('semantic_matrix', 0.3, 'scale', 0.1)
+Y_X100_2018 ('semantic_matrix', 0.3, 'scale', 0.1)
+Zhang2025 ('semantic_matrix', 0.3, 'scale', 0.1)
+{
+  "rows_trained": 458,
+  "RE_positive_rows": 47,
+  "search_configs": 4,
+  "best_exploratory_config": [
+    "semantic_matrix",
+    0.3,
+    "scale",
+    0.1
+  ],
+  "selection_objective": "log10_R2",
+  "best_exploratory": {
+    "log10_R2": 0.030297502949074073,
+    "log10_MAE": 0.6599388301641586,
+    "paper_balanced_log10_MAE": 0.7305688607478034
+  },
+  "nested": {
+    "log10_R2": -0.06509200609799026,
+    "log10_MAE": 0.7173856813044486,
+    "paper_balanced_log10_MAE": 0.7648262001301867
+  },
+  "training_all_rows": {
+    "log10_R2": 0.15530563172853074,
+    "log10_MAE": 0.7058342163408107,
+    "paper_balanced_log10_MAE": 0.38003669589496486
+  },
+  "training_RE_only": {
+    "log10_R2": 0.9665015292270093,
+    "log10_MAE": 0.1161303409929787,
+    "paper_balanced_log10_MAE": 0.10704526015261251
+  },
+  "input_sha256": "5008f44dfa42d66fab528433679147130a6610e4d1036354ab3a4a1c744f453d",
+  "actual_final_training_rows": 458,
+  "caution": "Training R2 is resubstitution, not generalization. Search is exploratory after previous experiments; nested splits reduce selection leakage but do not replace independent new-paper validation."
+}

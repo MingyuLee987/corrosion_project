@@ -1,0 +1,51 @@
+Al10_26 ('phase', 0.1, 'scale', 1.0)
+Bridge25 ('phase', 0.1, 'scale', 1.0)
+Ce75Cr1_24 ('phase', 0.3, 'scale', 1.0)
+Coat24 ('phase', 0.3, 'scale', 1.0)
+GCr23 ('phase', 0.3, 'scale', 1.0)
+HRB400_RE_2025 ('phase', 0.1, 'scale', 1.0)
+La24Q355 ('phase', 0.1, 'scale', 1.0)
+LaCe304_2025 ('phase', 0.1, 'scale', 0.25)
+LaCe75Cr1_2023 ('phase', 0.1, 'scale', 1.0)
+MDPI26LaCe ('phase', 0.3, 'scale', 1.0)
+Ma19FSS ('phase', 0.3, 'scale', 1.0)
+ShanghaiCe_2025 ('phase', 0.3, 'scale', 1.0)
+Tang2019 ('phase', 0.1, 'scale', 0.25)
+UCS23 ('phase', 0.1, 'scale', 1.0)
+Y_X100_2018 ('phase', 0.1, 'scale', 1.0)
+Zhang2025 ('phase', 0.1, 'scale', 0.25)
+{
+  "rows_trained": 412,
+  "RE_positive_rows": 47,
+  "search_configs": 4,
+  "best_exploratory_config": [
+    "phase",
+    0.1,
+    "scale",
+    1.0
+  ],
+  "selection_objective": "log10_R2",
+  "best_exploratory": {
+    "log10_R2": -0.01485854329579972,
+    "log10_MAE": 0.6878145956509281,
+    "paper_balanced_log10_MAE": 0.7125855803244014
+  },
+  "nested": {
+    "log10_R2": -0.13069803751085685,
+    "log10_MAE": 0.7247025329603819,
+    "paper_balanced_log10_MAE": 0.7556845488072994
+  },
+  "training_all_rows": {
+    "log10_R2": 0.2715728843470814,
+    "log10_MAE": 0.6667936023181024,
+    "paper_balanced_log10_MAE": 0.4919221842107085
+  },
+  "training_RE_only": {
+    "log10_R2": 0.6992552433609505,
+    "log10_MAE": 0.31629729746139973,
+    "paper_balanced_log10_MAE": 0.31947699714524336
+  },
+  "input_sha256": "f2786961031750ff2db085ddc561491c244f892459c1a741b9f9512a5c54b9db",
+  "actual_final_training_rows": 412,
+  "caution": "Training R2 is resubstitution, not generalization. Search is exploratory after previous experiments; nested splits reduce selection leakage but do not replace independent new-paper validation."
+}

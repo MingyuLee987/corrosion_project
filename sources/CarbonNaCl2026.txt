@@ -1,0 +1,1043 @@
+                   CHEMICAL PROBLEMS  2026 no. 1 (24)       ISSN 2221-8688                         21   
+www.chemprob.org                                                          CHEMICAL PROBLEMS 2026 no. 1 (24) 
+ 
+ 
+EFFECT OF CHLORIDE IONS OF SALINE MEDIA ON CORROSION RATE OF 
+CARBON STEEL IN SIMULATED CONCRETE SOLUTION 
+ 
+N.A. Khudhair1, D.A. Challoob2, M.K. Mohammed1, A.J. Khaleel2, M.F. Abbood2,  
+K.A. Abdulqader3 
+ 
+1 University of Baghdad, College of Sciences, Department of chemistry, Baghdad, Iraq 
+noor.ali1105@sc.uobaghdad.edu.iq; mays.hasan@sc.uobaghdad.edu.iq 
+2 University of Naharain / College of Sciences / Department of chemistry / Baghdad / Iraq 
+Dhuha.Abdulkareem@nahrainuniv.edu.iq; aeshah.Jamal@nahrainuniv.edu.iq; 
+marwah.fawzi@nahrainuniv.edu.iq 
+3 University of Naharain / College of Pharmacy / Department of chemistry / Baghdad / Iraq. 
+kany.azad@ced.nahrainuniv.edu.iq 
+ 
+Received 23.08.2024 
+Accepted 02.05.2025 
+ 
+Abstract :  In this study the corrosion behaviors of carbon steel (CS) in simulated concrete solution (KOH, 
+NaOH, Ca(OH)2) was investigated. Current density of corrosion (icorr), potential of corrosion (Ea), anodic and 
+cathodic Tafel slopes (βa, βc) were used to determine the resistance of polarization (Rp). The result indicated 
+that the temperature increasing of the concrete electrolyte has slightly increased the  rate of corrosion for the 
+CS .This study also showed that the corrosion current of the polarized of CSRBs always increased linearly 
+with chloride concentration in the rang 0.5 to 4.5% NaCl, the corrosion current are between 27 and 98 x10-6 
+A/cm2 for CS, these the corrosion rate values were not too high in comparison with the rates of the electrolyte 
+free of chloride ions (25 - 62 x10-6 A/cm2). 
+Keywords:  Chloride ions, Corrosion, Carbon steel, Platinum Auxiliary Electrode, Potentiostat. 
+DOI: 10.65382/2221-8688-2026-1-21-30 
+Introduction 
+ 
+ Corrosion 
+is 
+the 
+deterioration 
+or 
+destruction and consequent loss of alloys or 
+metals during electrochemical or chemical 
+reaction with surrounding media [1]. Several 
+factors affected on corrosion rate: moisture, 
+temperature, atmospheric pollutants (chloride 
+and sulfur), material type (different steel grade), 
+techniques of protection, crevice presence and 
+pollutants or stress [2]. Ex. iron rusting, the 
+formation of green shells on copper vessels, etc. 
+Metallic Corrosion has two main groups: 
+  Wet corrosion: Liquids (electrolyte) is the 
+corrosive media and an electrochemical 
+corrosion            process is undergone [3]. 
+ Dry corrosion: Dry gas is the corrosive 
+media; it’s also called chemical corrosion [4, 5]. 
+Metal dissolution during the oxidation 
+process is considering an electrochemical 
+corrosion. The chemical reactions of reduction 
+and oxidation happened together and correlating. 
+Corrosion occurs on oxidation reaction sites 
+only. Electrochemical corrosion was caused by 
+electrical current in which the electrons 
+transferred among oxidation (loss of electrons) 
+and reduction site (gain of electrons) [6, 7].  
+An important aspect of engineering 
+component design is the selection of an 
+appropriate surface engineering technology. The 
+first step in modification technique of the surface 
+is determined the substance and surface 
+engineering supplies which include the following 
+properties: erosion and corrosion resistance, 
+wear resistance, pitting and fatigue resistance, 
+thermal resistance etc. The different surface 
+treatment, for the most part, used in engineering 
+practice and presented as under. Surface 
+engineering involves the enhancement of certain 
+properties of the component surface separately 
+from 
+those 
+of 
+its 
+bulk. 
+The 
+required 
+improvements are related to surface corrosion 
+and wear resistance and optical properties. The 
+surface engineering processes of the component 
+can be divided in to three essential groups [8, 9]: 
+
+22                                                        N.A. KHUDHAIR et al. 
+CHEMICAL PROBLEMS 2026 no. 1 (24) 
+1. The first group includes surface modifying 
+without 
+changing 
+in 
+the 
+surface 
+composition, ex. transformation hardening 
+and surface re-melting.  
+2. The 
+second 
+group 
+includes 
+surface 
+modifying with changing in the surface 
+composition a critical feature of the 
+process.  
+3. The third group includes coating processes 
+of a suitable new material to the surface, 
+such as: chemical vapor deposition (CVD) 
+and electroplating processes [8]. 
+Corrosion measurement is a practical 
+quantitative method used to determine the 
+corrosion current by immersing electrodes in a 
+corrosive medium and continuously exposing 
+them to this environment [10, 11] . 
+In this research we studied the effect of 
+NaCl different concentration (0.5, 2.5, 4.5%) on 
+the corrosion rate of CS in simulated concrete 
+solution at temperature range 0f (293-323K). 
+The Chemistry of Cement. Cement is a 
+finely 
+powdered 
+powder 
+that 
+undergoes 
+hydrolysis when combined with water, resulting 
+in a chemical reaction. Hydration results in the 
+formation of a highly durable and robust binding 
+material for the aggregate particles. The choice 
+of cement for a certain concrete or mortar will 
+depend on the specific qualities needed. While 
+there have been improvements in the synthesis of 
+cement, the fundamental process has remained 
+unchanged.  
+The cement raw materials mixture are:  
+1- Rocks of Calcareous (CaCO3 > 75%, ex. 
+chalk, marl and limestone,),  
+2- Rocks of Argillaceous (CaCO3 < 40%, ex. 
+shale and clay),  
+3- Rocks of Argillocalcareous (40-75% 
+CaCO3, ex. clayey limestone, clayey and marl). 
+Cement contains over 90% of the oxides. Table 
+(1) shows the composition of the oxide in the 
+traditional cement [12]. 
+ 
+Table 1. The oxide composition of traditional Portland cement [12] 
+Common name 
+Oxide 
+Abbreviation Approximate composition  
+Limits, (%) 
+Lime 
+CaO 
+C 
+60-66 
+Silica 
+SiO2 
+S 
+19-25 
+Alumina 
+Al2O3 
+A 
+3-8 
+Iron oxide 
+Fe2O3 
+F 
+1-5 
+Magnesia 
+MgO 
+M 
+0-5 
+Alkalis 
+ 
+ 
+ 
+soda 
+Na2O 
+N 
+0.5-1 
+Potash 
+K2O 
+K 
+0.5-1 
+Sulfur trioxide 
+SO3 
+S 
+1-3 
+ 
+Four basic factors described the cement's 
+physical properties. 
+1. The fineness. On the cement particles 
+surface, a chemical reaction has been started 
+between water and cement. That means the 
+hydration increases with increasing cement 
+surface area. Therefore, the fine cement will 
+improve strength and develop heat more rapidly 
+than coarse cement [13-15].  
+2. The hydration. The hydration process is 
+water and cement chemical combination to 
+produce a very strong and hard binding media for 
+particle aggregation in concrete. Heat is evolved 
+at the hydration process end, and it is defined as 
+Cal/gm. In typical construction cases when 
+structural members are not very big, heat 
+dissipation is no problem. In the context of the 
+concreting in the cold weather, this heat is 
+beneficial. However, at high temperatures and 
+during the construction of large concrete 
+structures, this heat produced might lead to the 
+formation of thermal cracks, which must be 
+prevented. The process of hydration of cement 
+can be measured by quantifying Ca(OH)₂ content 
+in the dough and measuring the heat generated 
+during hydration. On the other hand, there are 
+other important parameters that are important, 
+including the quantity of anhydrate paste of 
+cement, anhydrate cement paste specific gravity, 
+and the quantity of chemically combined water 
+[16-20]. 
+3. The strength. The most significant 
+cement property is the hardened strength. The 
+rate of cement solidification is influenced by the 
+
+                                  EFFECT OF CHLORIDE IONS OF SALINE MEDIA                             23 
+                                                                                         CHEMICAL PROBLEMS 2026 no. 1 (24) 
+physical and chemical characteristics of the 
+cement, the conditions in which it is cured, and 
+the amount of water to cement [21]. 
+4. The soundness. Soundness is a 
+characteristic of cement paste that refers to its 
+capacity to maintain its volume once it has 
+finished setting. The lack of soundness is caused 
+by the existence of unbound CaO and unbound 
+MgO in cement. The hydration of these 
+components occurs at a slower rate following the 
+cement's 
+solidification. 
+Expansion 
+occurs 
+because Mg(OH)₂ and Ca(OH)₂ have a higher 
+volume [22]. 
+ 
+Experimental part 
+ 
+Material and Methods. The experimental 
+work consisted of the following three stages: 
+1) Surface Preparation. Carbon steel samples 
+were 
+cleaned 
+by 
+immersing 
+them 
+in 
+concentrated hydrochloric acid (HCl) to 
+remove surface oxides and impurities. After 
+acid treatment, the samples were rinsed 
+thoroughly with distilled water. Subsequently, 
+they were prepared for placement in the 
+experimental setup. 
+2) Electrochemical Setup. A carbon steel  
+specimen with a surface area of 1 cm² was 
+mounted as the working electrode and 
+positioned in the electrochemical testing 
+apparatus. The test solution used was a blank 
+simulated pore solution, composed of sodium 
+hydroxide 
+(NaOH, 
+8 
+mg), 
+potassium 
+hydroxide (KOH, 22.44 mg), and calcium 
+hydroxide (Ca(OH)₂, 2g) dissolved in 1 liter 
+of distilled water, replicating the chemical 
+environment of concrete. 
+ 
+ 
+Fig. 1. Electrochemical cell of corrosion consists of three electrodes 
+ 
+                                     Fig. 2. Modern electrochemical system. 
+ 
+3) Addition of Chloride Ions. To investigate the 
+effect of chloride concentration, NaCl was 
+added to the blank solution at three different 
+concentrations: 0.5%, 2.5%, and 4.5% by 
+
+24                                                        N.A. KHUDHAIR et al. 
+CHEMICAL PROBLEMS 2026 no. 1 (24) 
+weight. For each concentration, a separate 
+carbon steel sample—cleaned using the same 
+procedure described in step 1—was used in 
+the corrosion testing. 
+Electrochemical 
+system. 
+The 
+electrochemical 
+system 
+used 
+for 
+electropolymerization 
+and 
+corrosion 
+measurements 
+consists 
+of 
+three 
+main 
+components: a potentiostat, an electrochemical 
+cell, and electrodes (Fig.s 1 and 2). 
+Potentiostat. Electrochemical experiments 
+were 
+performed 
+using 
+a 
+potentiostat 
+manufactured by WENKING M Lab, Bank 
+Elektronik-Intelligent Controls GmbH. The M 
+Lab 
+system 
+is 
+a 
+multichannel 
+potentiostat/galvanostat that interfaces with a 
+computer via an RS-232 cable. It includes a 
+hardware control board and supports three 
+operational modes for each channel: 
+ 
+Galvanostatic mode (constant current), 
+ 
+Potentiostatic mode (constant 
+potential), 
+ 
+Open-circuit mode (no imposed current 
+or voltage). 
+These modes allow precise control and 
+monitoring of the electrochemical processes 
+involved in both electropolymerization and 
+corrosion testing. 
+Cell. The Pyrex cell has a capacity of 1 liter 
+and consists of two vessels, an exterior and an 
+internal one.  
+Electrodes. The potential of the working 
+electrode is determined vs. the reference 
+electrode. It is important to keep the gradient of 
+ohmic resistance reduced, and the flows of the 
+electrical current are between the working 
+electrode and the auxiliary electrode. The 
+composition of the cell constituents and its 
+assignment are expressed below.  
+Platinum 
+Auxiliary 
+Electrode. 
+The 
+auxiliary electrode used in this study was made 
+of high-purity platinum. Due to its excellent 
+catalytic activity and high corrosion resistance, 
+platinum is ideal for serving as an auxiliary 
+(counter) electrode. Its primary function is to 
+complete the electrical circuit by carrying the 
+current to or from the working electrode during 
+electrochemical measurements. 
+Reference 
+Electrodes. 
+The 
+working 
+electrode potential is determined based on the 
+potential of the reference electrode. The potential 
+of the reference electrodes is widely recognized 
+and specific, measuring 0.244V at a temperature 
+of 25°C, this electrode has two tubes; the outer 
+one consists of the media of corrosion. The inner 
+one consisting of Hg/ Hg2Cl2, KCl. The distance 
+between the working electrode and reference 
+electrode must be 2 mm. 
+The potential of the working electrode is 
+measured relative to a reference electrode with a 
+well-defined and stable potential. In this study, a 
+saturated calomel electrode (SCE) was used, 
+which has a standard potential of +0.244 V 
+versus the standard hydrogen electrode (SHE) at 
+25°C. The reference electrode consists of two 
+concentric tubes: the outer tube contains the 
+corrosion medium, while the inner tube is filled 
+with a mercury/mercurous chloride (Hg/Hg₂Cl₂) 
+system in saturated potassium chloride (KCl) 
+solution. 
+For accurate measurements, the distance 
+between the working and reference electrodes 
+was maintained at 2 mm to minimize potential 
+drop (iR drop) in the electrolyte. 
+Working Electrode. The working electrode 
+used in this study was a circular flat specimen 
+with a diameter of 2.5 cm, mounted in a disk-fix 
+electrode holder designed for planar samples. 
+The specimen was positioned between an 
+electrically conductive brass backing plate and a 
+masking cover with a defined aperture, exposing 
+a specific surface area to the electrolyte—
+typically 1 cm², which is preferred for 
+standardized testing. To prevent leakage and 
+ensure the specimen remains dry on the non-
+exposed side, a washer was employed to seal the 
+interior of the disk-fix holder. Prior to 
+polarization testing, the electrode was immersed 
+in the electrolyte for a fixed period to allow 
+stabilization of the electrochemical interface. 
+This stabilization step is critical for obtaining 
+reliable 
+and 
+reproducible 
+corrosion 
+measurements. 
+Chiller. To maintain a constant and 
+controlled temperature during the experiment, 
+the solution circulating through the external 
+vessel was cooled using a chiller device. This 
+ensured 
+thermal 
+stability 
+throughout 
+the 
+electrochemical measurements. 
+Magnetic Stirrer. A magnetic stirrer was 
+employed to ensure uniform mixing of the 
+electrolyte solution. It operates by generating a 
+rotating magnetic field that drives a stir bar 
+placed 
+within 
+the 
+solution. 
+During 
+the 
+
+                                  EFFECT OF CHLORIDE IONS OF SALINE MEDIA                             25 
+                                                                                         CHEMICAL PROBLEMS 2026 no. 1 (24) 
+experiments, the stirring speed was maintained 
+between 300 and 600 revolutions per minute 
+(rpm) to ensure consistent distribution of ions 
+and prevent concentration gradients. 
+ 
+Results and discussion 
+ 
+The results of this work study the corrosion 
+behaviors of carbon steel (CS) in simulated 
+concrete solution (KOH, NaOH, Ca(OH)2) and 
+study the effect of chloride ions at increasing 
+temperatures up to 323 K, using the Tafel 
+extrapolation procedure.  
+Corrosion Behavior of Carbon Steel in 
+Simulated 
+Concrete 
+Solution. 
+The 
+electrochemical corrosion kinetics of carbon 
+steel (CS) in simulated concrete pore solutions 
+were evaluated using Tafel polarization curves 
+(potential E vs. logarithm of current density i). 
+Key parameters extracted from the Tafel plots 
+include the corrosion potential (Ecorr), anodic and 
+cathodic Tafel slopes (βa and βc, respectively), 
+and the corrosion current density (icorr). These 
+values were used to calculate the polarization 
+resistance (Rp) of the system. 
+The corrosion rate was subsequently 
+converted into Faradaic corrosion rate units 
+(mm/year) 
+using 
+standard 
+electrochemical 
+equations [23]. 
+The corrosion rate measurements for 
+carbon steel (CS) showed relatively low values 
+under the tested conditions (see Tafel plots in 
+Fig. 3 [24]). However, a slight increase in the 
+corrosion rate was observed with increasing 
+temperature 
+of 
+the 
+simulated 
+concrete 
+electrolyte, 
+indicating 
+the 
+temperature 
+dependence of the corrosion process. This trend 
+is clearly demonstrated in Table 2. 
+ 
+ 
+Fig. 3. Tafel plots of CS in simulated concrete solution at 293, 303, 313, and 323 K 
+ 
+Table 2. Corrosion rate parameters of CS in simulated concrete solution at 293, 303, 313, and 323 K 
+*CR(WL) corrosion rate as weight loss,  
+**CR(PL) corrosion rate as penetration loss 
+ 
+The slopes of the anodic and cathodic 
+branches of the Tafel polarization curves were 
+used to determine the anodic (βa) and cathodic 
+(βc) Tafel slopes, as presented in Table 2. These 
+values reflect the electrochemical kinetics of the 
+corrosion process and indicate that the system 
+exhibits quasi-reversible behavior. 
+The corrosion current density (icorr) of 
+carbon steel was found to be higher at 323 K 
+compared to 293 K, suggesting an acceleration of 
+Sample 
+T(K) 
+Ecorr 
+(mV) 
+icorr 
+(*10-6 A/cm2) 
+ßc 
+(mV/Dec) 
+ßa  
+(mV/Dec) 
+Rp 
+(Ω.cm2) 
+CR(WL) 
+g.m-2d-1 
+ 
+CR(PL) 
+mmpy 
+0%NaCl 
+ 
+293 
+-341 
+25.7 
+-122.6 
+138.3 
+1158.493 
+7.25 
+1.481 
+303 
+-380.3 
+32.97 
+-130.2 
+178 
+1032.11 
+9.07 
+1.565 
+313 
+-421.8 
+40.54 
+-90.6 
+167.8 
+650.177 
+10.96 
+1.653 
+323 
+-393.9 
+62.95 
+-83.5 
+187.6 
+405.982 
+16.6 
+1.913 
+
+26                                                        N.A. KHUDHAIR et al. 
+CHEMICAL PROBLEMS 2026 no. 1 (24) 
+the 
+corrosion 
+process 
+with 
+increasing 
+temperature. This difference is attributed to 
+variations 
+in 
+the 
+calculated 
+polarization 
+resistance (Rp). The measurement of Rp shares 
+similar methodological requirements with full 
+Tafel analysis but offers a faster means of 
+assessing corrosion activity. It is particularly 
+useful for detecting corrosion upsets and 
+implementing timely corrective actions [25, 26]. 
+The effect of chloride ions on Corrosion  
+behavior of CS. The effect of chloride ion 
+content in the artificial concrete solution on the 
+corrosion behavior of CS was studied using 
+chloride concentration at a range of 0.5% to 4.5% 
+weight percent, and the effect of rising 
+electrolyte temperature was also followed at a 
+range of 293 to 323 K. 
+Fig.s 4, 5, and 6 represented Tafel plots of 
+CS in chloride-containing concrete solutions at 
+different temperatures, respectively. 
+ 
+ 
+   Fig. 4. Tafel plots of CS in chloride-containing simulated concrete solution (0.5% NaCl) at 293, 
+303, 313, and 323 K 
+ 
+   Fig. 5. Tafel plots of CS in chloride containing simulated concrete solution (2.5% NaCl) at 293, 
+303, 313, and 323 K 
+ 
+The data in Tables 3 showed that the 
+corrosion current of the polarized CSRBs always 
+increased linearly with chloride concentration in 
+the range of 0.5 to 4.5% NaCl; the corrosion 
+currents are between 27 and 98 x 10-6 A/cm2 for 
+CS. These corrosion rate values were not too high 
+in comparison with the rates of the electrolyte 
+free of chloride ions (25 - 62 x10-6 A/cm2), as 
+shown previously in Table 2. 
+ 
+
+                                  EFFECT OF CHLORIDE IONS OF SALINE MEDIA                             27 
+                                                                                         CHEMICAL PROBLEMS 2026 no. 1 (24) 
+ 
+Fig. 6. Tafel plots of CS in chloride-containing simulated concrete solution (4.5% NaCl) at 293, 
+303, 313, and 323 K. 
+ 
+Table 3. Corrosion rate parameters of CS in simulated concrete solution containing chloride ions at 
+293, 303, 313 and 323 K. 
+NaCl % 
+T(K) 
+Ecorr 
+(mV) 
+icorr 
+(*10-6 A/cm2) 
+ßc 
+(mV/Dec) 
+ßa 
+(mV/Dec) 
+Rp 
+(Ω.cm2) 
+CR(WL) 
+g.m-2d-1 
+ 
+CR(PL) 
+mmpy 
+0.5 
+293 
+-440.2 
+27.66 
+-82.9 
+147.4 
+673.89 
+5.41 
+0.324 
+303 
+-432.5 
+35.3 
+-97.1 
+159.5 
+967.41 
+7.32 
+0.413 
+313 
+-397.2 
+45.4 
+-104.3 
+171.7 
+1323.1 
+9.8 
+0.53 
+323 
+-372 
+69.67 
+-115.9 
+215.5 
+2324.34 
+15.9 
+0.812 
+2.5 
+ 
+293 
+-475.5 
+40.35 
+-96.4 
+170 
+1118.79 
+8.6 
+0.472 
+303 
+-474 
+43.1 
+-103.7 
+173.9 
+1259.97 
+9.3 
+0.503 
+313 
+-435.4 
+71.48 
+-137.9 
+226 
+2714.73 
+16.4 
+0.833 
+323 
+-411.9 
+76.24 
+-105.7 
+185.9 
+2268.14 
+17.6 
+0.888 
+ 
+4.5 
+ 
+ 
+293 
+-538.2 
+53.12 
+-117.1 
+196.1 
+1740.42 
+11.8 
+0.62 
+303 
+-512.7 
+67.61 
+-133.4 
+137 
+2039.65 
+15.4 
+8079.98 
+313 
+-509.4 
+95.65 
+-144 
+176 
+3347.16 
+22.4 
+1.11 
+323 
+-499.2 
+98.38 
+-115 
+155.7 
+2867.29 
+23.1 
+1.15 
+ 
+The indicated Rp decreased as the 
+concentration of NaCl increased, providing 
+strong evidence that nonconductive oxide rust 
+products, rather than chlorides, formed on the 
+surface of the CSRB [27-29]. 
+The electrodeposited layers were examined 
+by AFM; the surface morphology of a protective 
+coated layer plays a great role in enhancing the 
+corrosion protection efficiency. More uniform 
+compacted grains may lead to more inhibition 
+results. 3D views of AFM images for all applied 
+layers were estimated in addition to the statistical 
+determination of the particle size distribution 
+figures. The AFM images with 3D views clarify 
+the surface roughness and morphology views 
+[30] (Fig. 7). 
+The obtained values from the polarization 
+experiments are supported by the rising dark area 
+in the optical images above with the NaCl [31]. 
+As the concentration rises, the 3D view 
+morphology inferred from AFM analysis shows 
+increasing attack of chloride ions [32] (Fig. 7). 
+ 
+ 
+ 
+ 
+
+28                                                        N.A. KHUDHAIR et al. 
+CHEMICAL PROBLEMS 2026 no. 1 (24) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 7.  AFM images in three dimensions showing the polarization of CSRB in an artificial concrete 
+solution with varying NaCl concentrations 
+ 
+Conclusion 
+ 
+The following conclusions can be drawn 
+from 
+this 
+investigation: 
+Atomic 
+force 
+microscopy 
+(AFM) 
+analysis 
+strongly 
+corroborated the findings obtained from the Tafel 
+polarization plots. The corrosion rates of carbon 
+steel rebars (CSRB) increased with rising NaCl 
+concentration within the range of 0.5% to 4.5%. 
+Furthermore, the corrosion rates also exhibited 
+an increasing trend with elevated temperatures in 
+the simulated concrete solution. 
+ 
+References 
+ 
+1. Zaki A. Principles of corrosion engineering 
+and corrosion control; 1st ed. Elsevier. 2006. 
+656 p. DOI: 10.1016/B978-0-7506-5924-
+6.X5000-4 
+2. Luigi D., Armin M., George K., The effect of 
+atmospheric corrosion on steel structures: A 
+state of the art and case study. Buildings, 
+2021, 
+Vol. 
+11, 
+571. 
+DOI: 
+10.3390/buildings11120571 
+3. Makhlouf 
+A.S.H. 
+Handbook 
+of 
+Smart 
+Coatings for Materials Protection. Elsevier 
+Science, 2014. 628 p. 
+4. Frame Project Team, A Guide To Corrosion 
+Protection; Cracking Down on Corrosion, 
+American Iron and Steel Institute, 2000 Town 
+Center, Suite 320, Southfield, 1999. 
+5. Einar 
+B. 
+Corrosion 
+and 
+protection–
+engineering 
+materials 
+and 
+processes. 
+Springer-Verlag London Limited. 2004. 5 p. 
+6. Norio S. Basics of corrosion chemistry. 
+Wiley-VCH Verlag GmbH & Co. KGaA. 
+2011. 1 p.  
+7. Mohammad 
+H. 
+Modeling 
+of 
+pipeline 
+corrosion control by cathodic protection. 
+Ph.D. Thesis, Department of Production 
+Engineering and Metallurgy, University of 
+Technology, Iraq, 2006. 
+0% NaCl 
+0.5% NaCl 
+ 
+2.5% NaCl 
+4.5% NaCl 
+
+                                  EFFECT OF CHLORIDE IONS OF SALINE MEDIA                             29 
+                                                                                         CHEMICAL PROBLEMS 2026 no. 1 (24) 
+8. Mellor B. Surface coatings for protection 
+against wear. Woodhead publishing limited: 
+Cambridge England. 2006. 
+9. Tadeusz B., Tadeusz W. Surface engineering 
+of metals principles, equipment, technologies. 
+CRC Press. 1998. 1-3 p.  
+10. Metal Samples Company “Introduction to 
+Corrosion 
+Monitoring”, 
+Discovered 
+Available 
+online: 
+http://www.alspi.com/corrosion-intro. 
+11. Lietai 
+Y. 
+Techniques 
+for 
+corrosion 
+monitoring. Woodhead Publishing Limited. 
+2008. 2 p. 
+12. Brunauer S., Copeland L., The chemistry of 
+concrete. Scientific American. 1964, Vol. 
+210(4), p. 80-93. 
+13. Ehikhuenmen S., Igbal U., Balogunl O., 
+Oyebisi S. The influence of cement fineness 
+on the structural characteristics of normal 
+concrete. IOP Conference Series: Materials 
+Science and Engineering. 2019, Vol. 640ç 
+DOI: 10.1088/1757-899X/640/1/012043. 
+14. Bharadwaj N., Nayak A. Manual on 
+concrete laboratory. Burla: Department of 
+Civil Engineering, Veer Surendra Sai 
+University of Technology. 1 p. 
+15. Ali M., Arif E., Burak F., Kambiz R., Effect 
+of cement fineness on properties of 
+cementitious materials containing high 
+range water reducing admixture. Journal of 
+Green Building. 2017, Vol. 12(1), p. 142-
+167. DOI: 10.3992/1552-6100.12.1.142. 
+16. Carmona J., Garcés P., Climent M., 
+Efficiency of a conductive cement-based 
+anodic system for the application of cathodic 
+protection, 
+Cathodic 
+prevention 
+and 
+electrochemical 
+chloride 
+extraction 
+to 
+control corrosion in reinforced concrete 
+structures. Corrosion Science. 2015, Vol. 
+96, 
+p. 
+102-111. 
+DOI: 
+10.1016/j.corsci.2015.04.012. 
+17. Jiong H., Zhi G., Kejin W. Influence of 
+cement fineness and water-to-cement ratio 
+on mortar early-age heat of hydration and set 
+times. Construction and Building Materials. 
+2014, 
+Vol. 
+50, 
+p. 
+657-663. 
+DOI: 
+10.1016/j.conbuildmat.2013.10.011. 
+18. Abdel Rahim M. The effect of admixtures on 
+concrete properties. M.Sc thesis, University 
+of Khartoum, Faculty of Engineering 
+Department, 3 p. 
+19. Steven H., Kosmatka Beatrix K., William C.  
+Design and control of concrete mixtures. 
+Portland Cement Association. 2002. 4 p. 
+20. Gupta O. Element of Chemical Process 
+Technology. Khanna Publishing House - 
+Technology & Engineering. 2018. 319 p. 
+21. Metwally 
+A., 
+Compressive 
+strength 
+prediction of Portland cement concrete with 
+age using a new model. Housing and 
+Building National Research Center. 2014, 
+Vol. 
+10(2), 
+p. 
+145-155. 
+DOI: 
+10.1016/j.hbrcj.2013.09.005. 
+22. Kabira H., Hootona R., Popoffb N. 
+Evaluation of cement soundness using the 
+ASTM C151 autoclave expansion. Cement 
+and Concrete Research. 2020, Vol. 136, p. 
+1-16. 
+DOI: 
+10.1016/j.cemconres.2020.106159. 
+23. Fletcher S. Tafel slopes from first principles. 
+Journal of Solid State Electrochemistry. 
+2009, 
+Vol. 
+13, 
+p. 
+537-549. 
+DOI: 
+10.1007/S10008-008-0670-8. 
+24. Liu X., Niu D., Li X., Lv Y., Fu Q. Pore 
+solution pH for the corrosion initiation of 
+rebars embedded in concrete under a long-
+term natural carbonation reaction. Applied 
+Sciences. 2018, Vol. 8(1), p. 128. DOI: 
+10.3390/app8010128. 
+25. Cho J., Schaab S., Roether J., Boccaccini A. 
+Nanostructured 
+carbon 
+nanotube/TiO2 
+composite coatings using electrophoretic 
+deposition (EPD). Journal of Nanoparticle 
+Research. 2008, Vol. 10(1), p. 99-105. DOI: 
+10.1007/s11051-007-9230-x. 
+26. Haider A. Study the effect of punica 
+granatum as oral antifungal on the corrosion 
+inhibition of dental amalgam alloy in saliva. 
+Journal of Materials and Environmental 
+Sciences. 2018, Vol. 9(2), p. 662-671. DOI: 
+10.26872/jmes.2018.9.2.73. 
+27. Osial M., Wiliński D. Organic substances as 
+corrosion inhibitors for steel in concrete–an 
+overview. Journal of Building Chemistry. 
+2016, 
+Vol. 
+1, 
+p. 
+43-53. 
+DOI: 
+10.17461/j.buildchem.2016.107. 
+28. Serdar M., Stipanović O., Bjegović D. 
+Primjena nehrđajućih čelika kao armature u 
+betonu. Građevinar. 2010, Vol. 62(3), p. 
+219-227. 
+29. Chauhan A., Sharma U. Influence of 
+temperature and relative humidity variations 
+on non-uniform corrosion of reinforced 
+concrete in structures. Structures. 2019, Vol. 
+
+30                                                        N.A. KHUDHAIR et al. 
+CHEMICAL PROBLEMS 2026 no. 1 (24) 
+19, 
+p. 
+296-308. 
+DOI: 
+doi.org/10.1016/j.istruc.2019.01.016. 
+30. Khudhair N., Ali T., Mayasa I., Marwah H. 
+Synthesis, identification and experimental 
+studies for carbon steel corrosion in 
+hydrochloric acid solution for polyimide 
+derivatives. In AIP Conference Proceedings. 
+2020, Vol. 2290. DOI: 10.1063/5.0027443. 
+31. Khudhair 
+N., 
+Al-Sammarraie 
+A., 
+Investigation on the effect of origin of 
+carbon steel reinforcing bar on the corrosion 
+behavior in artificial concrete solution. 
+Journal of Global Pharma Technology. 
+2019, Vol. 11(5), p. 76-81. 
+32. Khudhair N., Kadhim M., Khadom A. Effect 
+of trimethoprim drug dose on corrosion 
+behavior of stainless steel in simulated 
+human body environment: experimental and 
+theoretical investigations. Journal of Bio-
+and Tribo-Corrosion. 2021, Vol. 7(124), 
+124. DOI: 10.1007/s40735-021-00559-8. 
+ 
+ 
+ 
+ 

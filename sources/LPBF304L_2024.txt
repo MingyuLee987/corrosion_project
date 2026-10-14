@@ -1,0 +1,1150 @@
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+Available online 8 March 2024
+2238-7854/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC license (http://creativecommons.org/licenses/by-
+nc/4.0/).
+The effects of heat treatment and surface state on the corrosion resistance of 
+laser powder bed fusion 304L stainless steel in 3.5 wt% NaCl solution 
+Shihao Zhang a,1, Mengyao Jia a,1,2, Wei Wang b, Juan Hou c, Wenjun Kuang a,* 
+a Center for Advancing Materials Performance from the Nanoscale (CAMP-Nano), State Key Laboratory for Mechanical Behavior of Materials, Xi’an Jiaotong University, 
+Xi’an, 710049, PR China 
+b State Key Laboratory for Mechanical Behavior of Materials, Xi’an Jiaotong University, Xi’an, 710049, PR China 
+c School of Materials Science and Chemistry, University of Shanghai for Science and Technology, Shanghai, 200093, PR China   
+A R T I C L E I N F O  
+Handling editor: L Murr  
+Keywords: 
+Laser powder bed fusion 
+304L stainless steel 
+Corrosion resistance 
+Heat treatment 
+Surface state 
+A B S T R A C T  
+The corrosion resistance of laser powder bed fusion (LPBF) 304L stainless steel (SS) in 3.5 wt% NaCl solution was 
+evaluated at room temperature through potentiodynamic polarization and electrochemical impedance spec­
+troscopy tests. For electropolished samples, annealing at 1200 ◦C slightly enhanced the corrosion resistance due 
+to changes in crystal orientation and inclusion composition, and reduced residual strain. In contrast, annealing at 
+1050 ◦C significantly reduced the corrosion resistance mainly due to the disappearance of dislocation cells and 
+the remained residual dislocations. Residual stress/strain and martensitic transformation induced by sandpaper 
+grinding can also deteriorate the corrosion resistance. Only the as-received sample shows stable passivation 
+regardless of the surface conditions.   
+1. Introduction 
+Additive manufacturing, also known as 3D printing, has been 
+developed rapidly in the past two decades. Compared with traditional 
+manufacturing methods, 3D printing has many advantages, including 
+high material utilization rate, short processing cycles and high produc­
+tion efficiency [1]. With the increasing demand for structural 
+complexity of various components, the application opportunities of 3D 
+printing in aerospace, medical, military and other fields have signifi­
+cantly increased [2–7]. Stainless steel (SS) is a widely used material 
+thanks to its good corrosion resistance and mechanical properties. It is 
+desirable to fabricate complex SS components using 3D printing, as this 
+technique can significantly reduce cutting and other processing pro­
+cedures and shorten the manufacturing cycles. However, it should be 
+noted that the rapid heating and cooling during the manufacturing 
+process can cause 3D printed materials to form microstructures different 
+from the conventional wrought materials, which inevitably affects the 
+properties of the printed materials [8–10]. Given that good corrosion 
+resistance is a key feature of SS, it is necessary to evaluate the corrosion 
+behavior of 3D printed SS and determine the correlation between the 
+corrosion resistance and the microstructure features imparted by this 
+manufacturing technique. 
+In recent years, some studies have been conducted on the corrosion 
+resistance of 3D printed metallic materials. Kong et al. [11] found that 
+the corrosion resistance of 3D printed 316L SS decreases due to the 
+widespread pores, which leads to localized acidification and aggressive 
+ion enrichment inside the pores. Cellular dislocation is a characteristic 
+microstructure feature of 3D printed materials [12]. It has been reported 
+that the enhanced passivity of laser powder bed fusion (LPBF) 316L SS is 
+due to the electrical potential difference between the cellular boundary 
+and the cellular interior, which leads to the micro-galvanic coupling 
+effect that drives rapid growth of the intracellular passive film [12–14]. 
+Chao et al. [15] found that the typical MnS inclusions in wrought 316L 
+SS no longer exist in LPBF 316L SS, but are replaced by nano-scale in­
+clusions of manganese oxide and silicon oxide. Thus, Cr depletion 
+around MnS can be eliminated and the passivation performance is 
+enhanced via LPBF compared with the wrought counterparts. However, 
+Ettefagh et al. [16] found that due to the presence of residual stress in 
+LPBF 316L SS, the martensite in the stressed zones can be easily 
+corroded and acts as the anodic region, promoting localized corrosion. 
+In addition, different cooling rates in different directions can lead to 
+microstructural anisotropy during printing [17,18], resulting in 
+* Corresponding author. 
+E-mail address: wjkuang66@gmail.com (W. Kuang).   
+1 These authors have contributed equally to this work.  
+2 Present address: School of Materials Science and Engineering, Tsinghua University, Beijing 100084, P. R. China. 
+Contents lists available at ScienceDirect 
+Journal of Materials Research and Technology 
+journal homepage: www.elsevier.com/locate/jmrt 
+https://doi.org/10.1016/j.jmrt.2024.03.025 
+Received 24 January 2024; Received in revised form 3 March 2024; Accepted 4 March 2024   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5621
+anisotropic corrosion behavior [19–21]. 
+Due to the differences in manufacturing processes, the same type of 
+SS printed in different laboratories often shows different microstructural 
+features, inevitably leading to different properties. Therefore, the prin­
+ted SS should be evaluated case by case. Due to the potential use of LPBF 
+304L SS in a broad range of fields including nuclear industry [22], 
+investigating its corrosion resistance is imperative [23–25]. Heat treat­
+ment is normally used to tune the as-printed microstructure [26,27], but 
+the impact of such microstructure change on the corrosion resistance has 
+not been unanimously recognized [28,29]. Meanwhile, the surface 
+conditions of the material can also affect its corrosion performance and 
+should be taken into consideration [30,31]. In addition, grinding and 
+electropolishing (EP) are commonly used to reduce the surface rough­
+ness of AM parts. Currently, there are many reports on the corrosion 
+performance of sandpaper-ground AM samples [11,15], but the impact 
+of electropolishing on the corrosion performance is still unclear. In this 
+work, the corrosion resistance of LPBF 304L SS was evaluated through 
+potentiodynamic polarization and electrochemical impedance spec­
+troscopy (EIS) tests in NaCl 3.5 wt% (0.6 M) solution at room temper­
+ature. The influences of heat treatment and surface state on the 
+passivation behavior of the material were investigated. The evolution in 
+microstructure of the LPBF 304L SS was characterized and the chemical 
+composition of the passive film was analyzed. The corrosion resistance 
+of LPBF 304L SS was discussed with respect to the microstructure 
+features. 
+2. Experimental details 
+2.1. Sample preparation 
+The LPBF 304L SS studied in this work was provided by the Centre 
+for Additive Manufacturing, University of Shanghai for Science and 
+Technology. The powder particle size ranged from 10 μm to 53 μm. A 
+LPBF 304L SS block with a relative density greater than 99.9% was 
+produced by an EOS M290 machine (220W, 40 μm layer thickness, 1.2 
+m/s scan speed) [3]. The oxygen content was controlled below 2000 
+ppm under the protection of argon gas. The chemical composition of the 
+as-received LPBF 304L SS was measured by Inductively Coupled Clasma 
+Atomic Emission Spectrometry (ICP-AES) and given in Table 1. The 
+LPBF 304L SS has lower Si (0.065 wt%) and Mn (0.054 wt%) contents 
+but higher Mo (0.83 wt%) content compared to conventional 304/304L 
+SS [10]. 
+In addition to the as-received state, two small rods (with a height of 
+70 mm and a diameter of ~12 mm) were cut from the LPBF 304L SS 
+block, annealed at 1050 ◦C and 1200 ◦C for 0.5 h respectively, and then 
+water quenched. 1050 ◦C/0.5 h was selected to remove the dislocation 
+cell. 1200 ◦C heat treatment was used to produce an annealed micro­
+structure. Therefore, comparing the corrosion behavior of these samples 
+helps to distinguish the role of different microstructure features in 
+corrosion. These samples were machined into small cylindrical elec­
+trodes for electrochemical test. The studied surface was perpendicular to 
+the building direction, i.e. the x-y plane. The studied surfaces were 
+ground via SiC sandpaper up to 2000-grit, as with previous works [17, 
+32]. Some of the samples were further electropolished at room tem­
+perature in 10% (volume fraction) perchloric acid in ethanol at a voltage 
+of 35 V for 30 s to remove the surface hardened layer. Electropolished 
+samples are often used to test the intrinsic corrosion performance of 
+materials [10]. Then a copper wire was soldered on the back of sample. 
+Finally, the untested surfaces of the electrode were insulated with 
+light-curing resins. 
+2.2. Microstructural characterization 
+The microstructures of LPBF 304L SSs were examined by Scanning 
+Electron Microscope (SEM), (Scanning) Transmission Electron Micro­
+scopy ((S)TEM) and optical microscope (OM). SEM analysis was con­
+ducted at 15 kV using a FEI Verios 460 SEM with secondary electron (SE) 
+and backscattered electron (BSE) detectors. The average inclusion size 
+was measured using the image processing software Image J. Four areas 
+of each sample were examined at a magnification of 25000X. The 
+morphological features of the corrosion pits on the surfaces of LPBF 
+304L SSs after potentiodynamic polarization test were also analyzed. 
+The dislocation structure and inclusions were characterized at 200 kV 
+using a JEM-2100F S/TEM. STEM energy dispersive X-ray spectroscopy 
+(EDS) analysis (with a spot diameter of 0.7 nm) was carried out on 
+multiple inclusions for each sample. 
+Electron back-scattered diffraction (EBSD) used for evaluating the 
+residual strain was performed in a FEI Helios 600 SEM equipped with an 
+Oxford Nordlays EBSD detector. The EBSD analysis was conducted with 
+a step size of 0.5 μm and a working distance of 8.5 mm. Kernel Average 
+Misorientation (KAM) maps were used to qualitatively assess the local 
+residual plastic strain. A KAM map shows the mean value of the mis­
+orientations between a point and its neighboring points. The KAM values 
+were determined from an 11 × 11 kernel (Channel5, Oxford). The 
+average grain size and texture inverse pole figure of each sample were 
+obtained from EBSD data, sampled from an area of 200 × 250 μm2. 
+X-ray diffraction (XRD) measurements were performed to identify 
+the phase of LPBF 304L SSs, using a Bruker D8 ADVANCE equipment. 
+The diffraction angle 2θ was scanned from 20◦to 100◦, with a step size 
+of 0.02◦and a scanning rate of 12◦⋅min−1. 
+The porosity analysis was performed per ASTM E2109. Porosity 
+analysis was conducted on the polished surface (with a sampling area 
+greater than 40 mm2) using a ZEISS Axio Scope.A1 optical microscope 
+with a relatively large field of view which can provide significant 
+contrast between the matrix and pores. Area percentage of pores was 
+determined by measuring the area of the exposed pores. Only large pores 
+(diameter >5 μm) were counted because of the resolution limit of OM 
+and the small pore had little effect on pitting [33]. The uncertainty of the 
+area percentage of pores and the mean pore size was evaluated via 
+standard deviations. 
+To measure the surface topography and roughness of the samples, an 
+OLS5100 laser scanning confocal microscope was used on both the 
+electropolished and 2000# sandpaper-ground samples. 
+2.3. Micro-hardness tests 
+The intrinsic hardness of samples was determined through micro- 
+hardness testing on the electropolished sample (the surface hardened 
+layer was removed by electropolishing). The micro-hardness tests were 
+performed using an HXD-1000TMC/LCD micro-hardness tester with a 
+load of 200 g and a holding time of 15 s based on ASTM E384. At least 10 
+evenly distributed hardness indentations were made on each sample and 
+the mean value was obtained. 
+2.4. Electrochemical tests 
+Potentiodynamic polarization and EIS tests were conducted in a 3.5 
+wt% NaCl solution at room temperature using a Gamry Reference 600+
+electrochemical workstation. In this work, saturated calomel electrode 
+(SCE) was used as a reference electrode. The potentials in this paper, if 
+not specified, were all relative to the reference electrode. A 15 mm × 15 
+Table 1 
+Chemical compositions (wt. %) of LPBF 304L SS.  
+Material 
+C 
+N 
+Si 
+Mn 
+P 
+S 
+Cr 
+Ni 
+Mo 
+O 
+Fe 
+LPBF 304L 
+0.014 
+0.013 
+0.065 
+0.054 
+0.027 
+0.003 
+19.07 
+9.62 
+0.83 
+0.031 
+Bal  
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5622
+mm Pt sheet was used as a counter electrode, and the insulated sample 
+with an exposed area of ~100 mm2 was used as the working electrode. 
+Prior to each electrochemical test, nitrogen gas was purged into the 
+electrochemical cell to remove the dissolved oxygen from the solution, 
+thereby minimizing the interference of the oxygen redox reaction. Open 
+circuit potential (Eoc) was measured to monitor the process of deoxy­
+genation. Normally Eoc was stabilized after purging for 60 min. Then 
+potentiodynamic polarization test was conducted from −0.3 V vs Eoc at 
+a scanning rate of 0.167 mV s−1. The test was stopped manually when 
+the current rapidly increased (indicating pitting corrosion occurred). 
+Nitrogen gas was continuously purged throughout the test. The test for 
+each sample was tested for three times and a representative curve for 
+each condition is presented. 
+In order to evaluate the performance of the passivation film within 
+the passivation range, EIS testing was conducted on samples that have 
+passivation range, including as-received + EP, as-received + sandpaper 
+ground and 1200 + EP samples. Before conducting the EIS test, the so­
+lutions were deoxygenated and the samples were subjected to 1 h of 
+potentiostatic polarization in the passive range to establish a stable 
+passive film. The as-received + EP, as-received + sandpaper ground and 
+1200 + EP samples were polarized at 0.2, 0.1 and 0.2 V vs. Eref, 
+respectively. The impedance was measured over a frequency range of 
+105 Hz to 10−2 Hz as in previous works [34,35], with a perturbation of 
+sinusoidal waveform (10 mV in amplitude). Gamry Echem Analyst 
+software was used for EIS data analysis. Causality and linearity of the 
+impedance was checked via Kramers-Kronig transformation. The good­
+ness of Kramers-Kronig analysis is below 3*10−5, indicating that the 
+system has reached a steady-state condition. 
+2.5. XPS measurement 
+X-ray photoelectron spectroscopy (XPS) was used to measure the 
+chemical composition of passive films formed on LPBF 304L SSs after EIS 
+test. A Thermo Fisher ESCALAB Xi+ instrument equipped with a 
+monochromatic Al Kα radiation of 1486.68 eV was used for the XPS 
+analysis. Depth sputtering was performed using 2000 eV Ar+ in a high 
+current mode and the raster width was 2.5 mm. The profiles of Cr, Fe, Ni 
+and O were acquired from the surface of passive films to the interior of 
+matrix. 
+3. Results 
+3.1. Original microstructures 
+The SEM-BSE micrographs of different heat-treated LPBF 304L SSs 
+before electrochemical tests are shown in Fig. 1, and the average grain 
+sizes are listed in Table 2. The tested surface of the sample is the x-y 
+plane. From Fig. 1(a1, b1), the grain sizes of the as-received and 1050 ◦C 
+heat-treated samples are similar (8.0 ± 1.29 μm vs 9.9 ± 1.22 μm). This 
+indicates that the grain size didn’t change significantly after the heat- 
+Fig. 1. SEM-BSE images of LPBF 304L SS (x-y plane) under different conditions: (a1, a2, a3) as-received; (b1, b2, b3) 1050 ◦C heat-treated for 0.5 h; (c1, c2, c3) 1200 ◦C 
+heat-treated for 0.5 h. The inclusions are marked by the red dashed circle. (For interpretation of the references to colour in this figure legend, the reader is referred to 
+the Web version of this article.) 
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5623
+treatment at 1050 ◦C. However, the heat-treatment at 1200 ◦C notably 
+increased the grain size to 46.9 ± 16.99 μm (Fig. 1c1). The grain 
+morphology changes from fine grains with curly grain boundaries (Fig. 1 
+(a2, b2)) to equiaxed grains with almost straight grain boundaries (Fig. 1 
+(c1, c2)). The average inclusion sizes measured from the SEM images are 
+presented in Table 2. As shown in Fig. 1(a2, a3, b2, b3), nano-scale 
+spherical inclusions can be observed in both the as-received and 
+1050 ◦C heat-treated samples at higher magnifications. Nano-inclusions 
+with higher density and smaller size (average size of 51 nm) are 
+dispersed in the as-received samples, while the sample heat-treated at 
+1050 ◦C shows fewer but larger inclusions (average size of 67 nm) (Fig. 1 
+(a2, b2)). Largest inclusions (average size of 234 nm) were observed in 
+the 1200 ◦C heat-treated samples (Fig. 1(c1)). The area percentage 
+porosity and mean diameter of pores in LPBF 304L SS with different heat 
+treatment are basically the same (Table 2). 
+KAM maps overlapped with grain boundary network obtained from 
+three different states of LPBF 304L SSs are shown in Fig. 2(a1, b1 and c1). 
+The grain boundary characteristics and micro-hardness values of three 
+different states of LPBF 304L SSs are also summarized in Table 2. The 
+1200 ◦C heat-treated sample exhibits equiaxed coarse grains with 60.8% 
+twin boundaries, which is higher than those of the as-received (35.5%) 
+and 1050 ◦C heat-treated (34.1%) samples. The TEM characterization of 
+Σ3 twin boundaries are shown in Fig. S1. The average KAM values of the 
+as-received, 1050 ◦C and 1200 ◦C heat-treated samples are 0.864, 0.729 
+and 0.719, respectively, indicating that the residual strain decreases 
+with increasing annealing temperature. The average micro-hardness 
+values of the as-received, 1050 ◦C and 1200 ◦C heat-treated samples 
+are 225.6 ± 8.3, 205.5 ± 6.3 and 180.1 ± 8.3 HV, consistent with the 
+decreasing trend of the average KAM values. EBSD characterization 
+reveals an obvious texture in the three types of LPBF 304L SS samples. 
+The <101> crystallographic direction tends to align with the building 
+direction (Fig. 2(d1-d3)). As the heat treatment temperature increases, 
+the <101> texture is enhanced. 
+To characterize the dislocations of different heat-treated LPBF 304L 
+SSs, TEM bright and dark field images were captured (Fig. 3). Fig. 3(a1) 
+shows that the dislocation cells in the as-received sample are composed 
+of highly entangled dislocations. Fig. 3(b1) shows that after heat- 
+treatment at 1050 ◦C, partial recovery occurred and the dislocation 
+density notably decreased with dislocation migration and annihilation. 
+Fig. 3(c1) shows that after heat-treatment at 1200 ◦C, the dislocation 
+density further decreases with the increase of dislocation mobility. The 
+chemical compositions of typical inclusions are listed in Table 3. STEM- 
+EDS results show that the morphology (Supplementary materials 
+Fig. S2) and chemical composition of the inclusions of the as-received 
+samples changed after heat-treatments at different temperatures. The 
+inclusions in the as-received sample are mostly spherical Si-rich nano 
+oxide particles with relatively low oxygen content, while some in­
+clusions are slightly Cr-enriched. With the increase in heat-treatment 
+temperature, the morphology of inclusions transforms into poly­
+hedron, and the content of O also increases. When heat-treatment is 
+performed at 1200 ◦C, the inclusions become rich in Cr (Cr: 51.29 at. %) 
+(Table 3). No MnS inclusions were found under any of the three 
+conditions. 
+The surface topography of the sample surfaces is shown in Fig. 4. The 
+electropolished sample (Fig. 4a and c) has a relatively smooth surface 
+with a fluctuation about 300 nm over a hundred microns. In contrast, the 
+Table 2 
+Microstructure characteristics and micro-hardness for as-received, 1050 ◦C heat-treated and 1200 ◦C heat-treated samples.  
+Condition 
+Average grain size 
+(μm) 
+Proportion of Σ3 twin boundarie to grain 
+boundary (%) 
+Average inclusions size 
+(nm) 
+Micro-hardness 
+(HV) 
+Area percentage 
+porosity (%) 
+Mean pore size 
+(μm) 
+As-received 
+8.0 ± 1.29 
+35.5 
+51 ± 24.2 
+225.6 ± 8.3 
+0.041 ± 0.03 
+18 ± 6.6 
+1050 ◦C, 
+0.5h 
+9.9 ± 1.22 
+34.1 
+67 ± 52.0 
+205.5 ± 6.3 
+0.041 ± 0.03 
+21 ± 5.8 
+1200 ◦C, 
+0.5h 
+46.9 ± 16.99 
+60.8 
+234 ± 194.9 
+180.1 ± 8.3 
+0.039 ± 0.02 
+21 ± 6.5  
+Fig. 2. KAM maps overlapped with grain boundary network of electropolished (a1) as-received; (b1) 1050 ◦C heat-treated; (c1) 1200 ◦C heat-treated LPBF 304L SS. 
+The black and red lines represent the grain boundaries with a misorientation angle >10◦and 60◦< 111> Σ3 twin boundaries, respectively. Texture analysis of LPBF 
+304L SS in build direction: (a2) As-received, (b2) 1050 ◦C heat-treated and (c2) 1200 ◦C heat-treated samples. (For interpretation of the references to colour in this 
+figure legend, the reader is referred to the Web version of this article.) 
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5624
+surface of the sandpaper-ground sample (Fig. 4b and c) is not smooth at 
+the micrometer scale. The surface roughness and area are quantified 
+with arithmetical mean height of the scale limited surface (Sa) and the 
+developed interfacial area ratio (Sdr). Sdr represents the actual increase 
+in interfacial area relative to the projected area of the interface. The 
+surface roughness Ra and the developed interfacial area ratio Sdr of 
+these two samples are very similar. The low Sdr value suggests that 
+neither surface treatment significantly increased the surface area of the 
+samples. 
+XRD patterns obtained from the as-received and two heat-treated 
+LPBF 304L SSs with different surface conditions are shown in Fig. 5. 
+The peaks correspond to either austenite or martensite. All the electro­
+polished samples only show austenite peaks. Comparing the XRD results 
+of three electropolished samples, it can be found that the relative in­
+tensity of the γ (220) peak (using the intensity of the (111) peak as a 
+reference) significantly increased in the heat-treated samples (Fig. 5a). 
+The relative intensity of the γ (220) increases from 0.395 to 0.540, and 
+then to 0.758. From the partial enlarged spectrum on the right side of 
+Fig. 5a, it can be seen that with the increase of temperature, the (220) 
+peak intensity becomes higher and the peak width becomes narrower, 
+indicating that the grain orientation of the material is changed and the 
+residual stress is decreased. The sandpaper-ground samples (Fig. 5b) 
+have a weak martensite peak near the austenite peak γ (111), suggesting 
+that the transformation of γ austenite to α′ martensite occurred on the 
+surface during the grinding. From the enlarged spectrum of Fig. 5b, the 
+1200 ◦C heat-treated sample has a relatively stronger peak of α’ 
+Fig. 3. TEM two-beam bright and dark field imaging of dislocations: (a1, a2) As-received, (b1, b2) 1050 ◦C heat-treated and (c1, c2) 1200 ◦C heat-treated samples.  
+Table 3 
+The STEM-EDS results (at.%) of inclusions of As-received, 1050 ◦C heat-treated and 1200 ◦C heat-treated samples.  
+Condition 
+Type 
+O K 
+Si K 
+Cr K 
+Mn K 
+Fe K 
+Ni K 
+Mo K 
+As-received 
+Si-rich 
+29.99 
+5.26 
+17.54 
+0.29 
+39.75 
+6.67 
+0.50 
+Si–Cr-rich 
+8.27 
+1.98 
+24.98 
+0.15 
+57.65 
+6.53 
+0.43 
+1050 ◦C, 0.5h 
+Cr-rich 
+44.38 
+0.20 
+37.33 
+0.07 
+15.99 
+1.95 
+0.02 
+Fe–Cr-rich 
+25.01 
+1.02 
+26.64 
+2.69 
+39.49 
+4.73 
+0.43 
+1200 ◦C, 0.5h 
+Cr-rich 
+46.00 
+0.08 
+51.29 
+0.17 
+2.23 
+0.21 
+0.02  
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5625
+Fig. 4. The surface topography of the (a) electropolished sample and (b) 2000# sandpaper-ground sample. (c) Two-dimensional height profiles along the dash lines 
+in a and b. 
+Fig. 5. XRD patterns of (a) electropolished and (b) 2000# grit sandpaper-ground LPBF 304L stainless steel. The standard pattern of γ-iron is shown on the bottom of 
+a. The relative intensity values of some peaks are listed on the left side of their respective peak. α′ martensite and α ferrite phases show similar peaks in XRD. 
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5626
+martensite (0.715 vs 0.524 and 0.556). The background noise is mainly 
+caused by the high residual stress introduced on the sample surface 
+during the sandpaper grinding process. 
+3.2. Results of electrochemical tests 
+Fig. 6 shows the potentiodynamic polarization curves of the as- 
+received and heat-treated LPBF 304L SSs in a 3.5 wt% NaCl solution 
+at room temperature. The sample surfaces were all electropolished. Each 
+sample was tested three times, and one representative curve for each 
+condition is shown here. From the curves, it can be seen that the as- 
+received LPBF 304L SS and the 1200 ◦C heat-treated samples show a 
+broad passivation range, indicating that they both possess good corro­
+sion resistance. Unexpectedly, the 1050 ◦C heat-treated samples show 
+no clear passivation range. The passivation range is defined as the po­
+tential range with low anodic current density (normally below 1 μA/ 
+cm2) and barely changes, as shown in Fig. 6. 
+In addition, the Tafel ranges of the polarization curves were fitted to 
+obtain the corrosion current of each sample. The fitting results and the 
+average width of the passivation range are listed in Table 4. Table 4 
+shows that compared to 1050 ◦C heat-treated sample, the as-received 
+and 1200 ◦C heat-treated samples have relatively lower corrosion cur­
+rent and wider passive ranges. And they show comparable corrosion 
+currents and widths of passivation range, although the 1200 ◦C heat- 
+treated sample exhibits larger variation. The 1050 ◦C heat-treated 
+samples can hardly be passivated. 
+In order to investigate the effect of surface state on corrosion 
+behavior, the potentiodynamic polarization curves of sample surfaces 
+after electropolished and sandpaper ground (2000# grit) were measured 
+on samples heat-treated under different conditions. The results are 
+shown in Fig. 7 and Table 4. From the curves, it can be seen that the 
+electropolished samples all exhibit better corrosion resistance than their 
+sandpaper-ground counterparts. Specifically, the corrosion currents of 
+the electropolished samples are all lower than samples ground with 
+sandpapers, and the passive ranges are also wider for the electropolished 
+samples. It should be noted that for the sandpaper-ground surface con­
+dition, only the as-received sample shows stable passivation and much 
+lower corrosion current density than the other two thermally treated 
+samples. 
+After potentiodynamic polarization tests, the surfaces of the elec­
+tropolished samples were examined by OM (Supplementary materials 
+Fig. S3) and SEM (Fig. 8). Fig. S3 shows the appearance of surface pitting 
+after polarization tests. Due to the lack of stable passivation, the 1050 ◦C 
+heat-treated sample shows the most corrosion pits. Fig. 8(a1, b1 and c1) 
+show similar morphology of pits on the three samples at low magnifi­
+cation. At higher magnification, the cellular sub-structures are observed 
+at the bottom of the corrosion pits of the as-received LPBF 304L SS 
+(Fig. 8a2). The average cell diameter is about 500 nm. As depicted in 
+Fig. 8(b2 and c2), the cellular structure disappeared after the heat 
+treatments. In addition, almost no inclusions can be seen in the pits of 
+the as-received or the 1050 ◦C heat-treated samples, which may be 
+attributed to the dissolution or shedding of inclusions. The 1200 ◦C heat- 
+treated sample maintains the same inclusion density as its original 
+microstructure at the bottom of the corrosion pits (Fig. 1(c1, c2)). 
+As shown in the potentiodynamic polarization curves (Figs. 6 and 7), 
+only the as-received samples and 1200 ◦C heat-treated sample with 
+electropolished surfaces can be passivated in 3.5 wt% NaCl solution at 
+room temperature. Fig. 9 displays the EIS results from these samples. 
+The Nyquist plots (Fig. 9a) for the three samples demonstrate the partial 
+capacitive semicircles. The 1200.EP sample shows the largest arc radius, 
+followed by as-received.EP and as-received.sandpaper sample. The 
+equivalent circuit (as shown in Fig. 9c) was used to fit the EIS data. The 
+electrical equivalent circuit consists of a solution resistance (Rs), a 
+charge transfer resistance (Rt), and a constant phase element (CPE). The 
+CPE can be interpreted as a capacitor with non-ideal properties, and its 
+impedance can be expressed as: 
+Z = 1
+Q0
+(jω)−n  
+Where Q0 represent CPE amplitude; j represent imaginary unit; ω 
+represent angular frequency; n is the depression coefficient (0< n <1). 
+Fig. 6. Potentiodynamic polarization curves of the as-received and two heat- 
+treated LPBF 304L SS samples in 3.5 wt% NaCl solution at room temperature, 
+with a scan rate of 0.167 mV s−1. The sample surfaces were electropolished. 
+Table 4 
+Tafel fitting results and passive ranges obtained from the potentiodynamic po­
+larization curves.  
+Condition 
+Suface state 
+Corrosion current 
+density (nA⋅cm−2) 
+Passive range 
+width (mV) 
+As-received 
+Electreopolished 
+21.2 ± 7.6 
+543.3 ± 112.0 
+Sandpaper 
+ground 
+64.5 ± 9.8 
+373.1 ± 79.7 
+1050 ◦C, 
+0.5h 
+Electreopolished 
+117.1 ± 64.9 
+/ 
+Sandpaper 
+ground 
+224.3 ± 10.3 
+/ 
+1200 ◦C, 
+0.5h 
+Electreopolished 
+23.2 ± 12.5 
+648.9 ± 366.8 
+Sandpaper 
+ground 
+1610.7 ± 1040.8 
+/  
+Fig. 7. Potentiodynamic polarization curves of LPBF 304L SS samples with 
+different surface states in 3.5 wt% NaCl solution at room temperature, with a 
+scan rate of 0.167 mV s−1. (EP- electropolished). 
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5627
+The fitting results of EIS data are listed in Table 5. The goodness of the 
+fitting is on the order of 10−4, which suggests good consistency between 
+the experimental results and the equivalent circuit model. 
+As shown in Fig. 9, the electropolished 1200 ◦C heat-treated sample 
+shows the highest impedance, followed by the electropolished as- 
+received sample, and then the sandpaper-ground as-received sample. 
+As listed in Table 5, the passive film formed on the electropolished 
+1200 ◦C heat-treated sample has the highest charge transfer resistance, 
+while the sandpaper-ground as-received sample has the lowest. There­
+fore, for the electropolished surface state, the passive film formed on 
+1200 ◦C heat-treated sample is more protective than that on the as- 
+received counterpart. For the as-received LPBF 304L SS, the electro­
+polished sample shows slightly higher corrosion resistance than the 
+sandpaper-ground sample. 
+3.3. The chemical composition of passive film 
+The depth profiles (in wt. %) of the main elements (Fe, Cr, Ni, O) in 
+the passive films were measured using XPS, as shown in Fig. 10. All the 
+profiles show the enrichment of Cr and the depletion of Fe and Ni in the 
+passive films. Fig. 10d shows the Cr profiles in the passive films of 
+different LPBF 304L SSs. It is found that the maximum Cr concentration 
+is comparable between these two electropolished samples, which is 
+significantly higher than that of the ground sample (34 wt% vs. 26 wt%). 
+The thickness of the passive film can be estimated from the O profile 
+which roughly corresponds to the depth where the O content drops to 
+half. The estimated film thicknesses based on the oxygen profile and the 
+sputtering rate (0.24 nm/s, based on Ta2O5) are as follows: 3.12 nm for 
+sandpaper ground as-received sample, 4.93 nm for electropolished as- 
+received sample and 8.25 nm for electropolished 1200 ◦C heat-treated 
+sample. Therefore, the electropolished 1200 ◦C heat-treated sample 
+has the thickest passive film, followed by the electropolished as-received 
+sample, and then the sandpaper ground as-received sample. 
+3.4. Summary of the electrochemical properties 
+According to the potentiodynamic polarization curves (Figs. 6 and 7) 
+and Tafel fitting results (Table 4), the order of decrease in corrosion 
+resistance for the electropolished samples is 1200 ◦C heat-treated LPBF 
+304L SS, the as-received sample, and finally the 1050 ◦C heat-treated 
+sample. However, for the sandpaper-ground surface state, the as- 
+received sample shows the highest corrosion resistance while the 
+other two samples can not be passivated. Under the same heat treatment 
+condition, the electropolished samples all show better corrosion resis­
+tance than their sandpaper-ground counterparts. The results of the EIS 
+tests (Fig. 9, Table 5) exhibit a consistent trend, indicating that the 
+passive film of the electropolished 1200 ◦C heat-treated sample has the 
+best performance, followed by the electropolished as-received counter­
+part, and finally the sandpaper-ground as-received sample. 
+4. Discussion 
+One of the novel aspects of this study is the use of electropolishing as 
+a sample preparation process, which is also commonly used in the ad­
+ditive manufacturing industry to process various parts [36]. Electro­
+polishing can greatly avoid the microstructure changes caused by the 
+Fig. 8. SEM micrographs of electropolished sample surfaces after the polarization test (current density: 1–10 A cm−2): (a1, a2) as-received, (b1, b2) heat-treated at 
+1050 ◦C for 0.5 h and (c1, c2) heat-treated at 1200 ◦C for 0.5 h. 
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5628
+sandpaper-grinding process, including grain refinement, deformation 
+induced martensite, twinning, and increased dislocation density [31, 
+37–39], enabling a more accurate assessment of the material’s corrosion 
+behavior. In this study, the electropolished samples were used to 
+investigate the effect of heat treatment on corrosion behavior. Addi­
+tionally, the influence of two surface states, i.e., electropolishing and 
+sandpaper grinding, on corrosion behavior was also examined. The ef­
+fects of heat treatment and surface state on corrosion resistance will be 
+discussed separately below. 
+4.1. Effects of annealing treatment on the corrosion resistance of LPBF SS 
+Changes in microstructure after heat-treatment are responsible for 
+the changes in the corrosion resistance of LPBF 304L SS. Compared with 
+the as-received sample, the 1050 ◦C heat-treated one has a comparable 
+grain size but reduced residual strain (Fig. 2). More importantly, the 
+dislocation cells disappeared after heat treatment. Dislocation cells are 
+composed of entangled dislocations, and there is a small amount of el­
+ements with high melting point (such as Mo or Cr) segregate at the 
+dislocation cell wall [12,40]. High density of dislocations can increase 
+the reactivity and diffusivity of elements [41]. During the passivation 
+process, the dislocation cells can promote the formation of the compact 
+film, as it was found that the dislocation cells can provide more sites for 
+passive film nucleation. Kong et al. [27] found that LPBF 316L SS with 
+dislocation cells can form a thicker passive film than the wrought 316L 
+SS in a 0.04 M borate buffer solution. They proposed that the chemical 
+heterogeneity near the dislocation cells can induce micro-galvanic 
+couple which accelerates the formation of stable passive film on LPBF 
+316L SS. Consistently, Man et al. [42] proposed that sub-grain bound­
+aries and dislocations in LPBF 316L SS promote the formation of passive 
+film in a simulated body fluid. Thus, the absence of dislocation cell 
+impairs the passivation ability of 1050 ◦C heat-treated sample, and there 
+is no stable passivation range for this material (Fig. 6). Despite the 
+largely diminished dislocation cells, there are still some dislocations and 
+residual strain remained in the 1050 ◦C heat-treated sample (Figs. 2 and 
+3). The density of these remnant dislocations is not sufficient to promote 
+passivation as in the as-received sample, but it may be detrimental to the 
+corrosion resistance of sample as the remnant dislocations may induce a 
+more defective passive film. Consistently, it has been widely reported 
+that the dislocation pile up caused by cold working can lead to degra­
+dation of the corrosion resistance of stainless steels [43–46]. 
+When the heat treatment temperature was increased to 1200 ◦C, the 
+material was completely recrystallized. Compared with the as-received 
+and the 1050 ◦C heat-treated samples, both the grain size of the 
+1200 ◦C heat-treated sample and inclusion size increase, and the grains 
+become equiaxed. In addition, the {101} texture is further enhanced, 
+and the residual strain is further reduced (Fig. 2). The higher pitting 
+potential, broader passivation range and higher impedance values of the 
+1200 ◦C heat-treated sample (Fig. 6, Tables 4 and 5) suggest that the 
+microstructure changes induced by the 1200 ◦C annealing result in 
+higher corrosion resistance. 
+The further reduced residual strain in the 1200 ◦C heat-treated 
+sample would help to enhance the corrosion resistance of material as 
+the dislocation pile ups were further relieved. The grain orientation also 
+plays a role. The as-received sample exhibits a <101> crystallographic 
+texture due to preferential grain growth along the building direction, 
+which has also been reported in some LPBF SSs [21]. After 1200 ◦C heat 
+treatment (Fig. 5), both the relative intensities of γ (200) and γ (220) 
+become higher than those of the non-textured γ PDF card (standard 
+pattern) [47]. Moreover, the intensity of (220) peak increases more 
+significantly (from 0.227 to 0.758) than that of (200) peak (from 0.451 
+to 0.666). The {101} texture was significantly enhanced after 1200 ◦C 
+heat treatment. Previous studies [48] have shown that the crystallo­
+graphic planes that close to {101} or {111} have higher pitting resis­
+tance compared with those close to {100} orientation. Kong et al. [32] 
+proposed that more γ (101) grains on the surface of LPBF 316L SS after 
+heat treatment can improve its corrosion resistance. Thus, the increase 
+of the {101} oriented crystal plane may be an important factor in 
+Fig. 9. EIS results for electropolished as-received, sandpaper-ground as- 
+received and electropolished 1200 ◦C heat-treated LPBF 304L SS in 3.5 wt% 
+NaCl solution at room temperature: (a) Nyquist plots; (b) Bode plots (The fitting 
+lines are represented in solid lines. ep-electropolished); (c) equivalent circuit for 
+data fitting. 
+Table 5 
+Impedance parameters through equivalent circuits fitting for three samples with passivation ranges.  
+Condition 
+Surface state 
+Rs (Ω⋅cm2) 
+Rt (106 Ω cm2) 
+Q0 (10−6 Ω−1⋅sn⋅cm−2) 
+n 
+Goodness (10−6) 
+As-received 
+Sandpaper ground 
+6.58 
+2.36 
+13.43 
+0.94 
+644.1 
+Electropolished 
+7.52 
+2.83 
+14.85 
+0.94 
+779.2 
+1200 ◦C, 0.5h 
+Electropolished 
+7.92 
+4.13 
+13.38 
+0.93 
+782.8  
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5629
+improving the corrosion resistance of 1200 ◦C heat-treated sample. 
+The inclusion may also play an important role in the corrosion 
+behavior of LPBF SS [49]. However, most of the existing electrochemical 
+results of LPBF SS focus on materials with conventional chemical com­
+positions, which usually contain more than 0.1 wt% Si and Mn [50,51]. 
+There are numerous studies showing that inclusions tend to change 
+(such as changes in size, composition, and distribution) with the in­
+crease of heat treatment temperature [52,53]. However, limited work 
+has been done to study the effects of changes in inclusions on the 
+corrosion resistance of LPBF SS. Laleh et al. [29] found that the pitting 
+corrosion resistance of LPBF 316L SS (0.56 wt% Si and 1.11 wt% Mn) 
+decreased drastically after thermal treated at temperatures above 
+1000 ◦C, which was due to the formation of detrimental MnS inclusions. 
+In this work, the Si and Mn contents of LPBF 304L SS (containing 0.065 
+wt% Si and 0.054 wt% Mn) are lower than those of other SSs in the 
+literature [50,54]. Therefore, the chemical composition of inclusions in 
+this LPBF 304L SS is quite different from those in previous LPBF SS, as 
+listed in Table 3. The inclusions in the as-received sample are Si-riched 
+oxides. Previous studies have reported that Si can also exist in the form 
+of silicates [55–57]. Prismatic-shaped inclusions are found in the two 
+heat-treated samples (Fig. S2), which are confirmed to be mainly Cr-rich 
+oxides, consistent with other reports [52,54]. Zhang et al. investigated 
+the corrosion behavior of inclusion of LPBF 316L SS in FeCl3 solution 
+and found that the Mn–Si-rich (manganese silicate) inclusions are prone 
+to anodic dissolution [58]. Silicates are chemically and structurally 
+different from typical protective passive films that naturally form on the 
+sample surface. These silicates may also impede the formation of natural 
+passivation films, thus leading to localized corrosion when samples are 
+exposed to corrosive environments [59]. However, the inclusion size is 
+small and the density is high, making the corrosion quite uniform on the 
+sample surface and no stable pit remains. That may be why the LPBF SS 
+shows a stable passive range. For the heat-treated samples, although the 
+inclusion size increases, the inclusion becomes enriched in Cr which is 
+close to the chemical composition of stable passive film. Such inclusions 
+will not form any galvanic couples with the surrounding matrix once 
+passive film forms elsewhere. Thus, the 1200 ◦C heat-treated sample can 
+also form stable passive films. 
+Grain size should also be considered as one of the vital factors 
+influencing the corrosion behavior. The 1050 ◦C and 1200 ◦C heat- 
+treated samples have different grain sizes (9.9 ± 1.22 vs 46.9 ± 16.99 
+μm). However, the influence of grain size on corrosion resistance is still 
+controversial at present, even for the same alloy [30,60,61]. Ralston 
+et al. [60] proposed that if an electrolyte elicits active behavior from a 
+course-grained sample, then grain refinement tends to make the surface 
+“more” active and enhances corrosion. Conversely, if a coarse-grained 
+microstructure is passive in a given electrolyte, then finer grain results 
+in an even more stable passive film. In this work, coarse-grained 1200 ◦C 
+heat-treated sample exhibits a good passivation behavior. Thus, refining 
+the grain is more likely to enhance the passivation ability of this mate­
+rial. Nevertheless, the LPBF SS doesn’t show higher corrosion resistance 
+than the 1200 ◦C heat-treated sample, which may probably due to the 
+conflicting effects of other factors mentioned above. 
+Overall, the good corrosion resistance of as-received samples is 
+mainly due to the presence of dislocation cells, consistent with previous 
+findings [12,17]. However, the effect of heat treatment on corrosion 
+resistance in LPBF 304L SS differs from that observed in conventional 
+AM SSs. For conventional AM SSs, formation of Si/Mn-rich inclusions 
+and annihilation of cellular dislocations normally occur during heat 
+treatment, resulting in reduced corrosion resistance [55,62]. In contrast, 
+this LPBF 304L SS behaves differently. At 1050 ◦C, the disappearance of 
+dislocation cells leads to residual dislocations and strain, diminishing 
+the passivation ability. Conversely, heat treatment at 1200 ◦C results in 
+reduced residual dislocations and strain, grain growth, formation of 
+Cr-rich inclusion and enhanced {101} texture, thus effectively 
+enhancing the corrosion resistance. 
+4.2. Effects of surface state on corrosion resistance 
+Surface state plays a critical role in determining the corrosion 
+properties of materials, as it affects the microstructure and topography 
+of materials that comes into direct contact with the corrosive medium. 
+As mentioned in Section 4.1, the electropolished samples were used to 
+study the influence of intrinsic microstructure on corrosion behavior. In 
+this section, the corrosion behavior of samples with electropolished and 
+Fig. 10. The XPS depth profiles of passive films formed on LPBF 304L SS: (a) electropolished as-received; (b) sandpaper-ground as-received; (c) electropolished 
+1200 ◦C heat-treated; (d) The depth profiles of Cr. 
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5630
+2000# sandpaper-ground surfaces is compared, and the influence of 
+surface state on corrosion resistance is discussed. 
+During the grinding process, when the hard particles on the sand­
+paper come in contact with the sample surface, the surface of the ma­
+terial will be subjected to simultaneous interaction of compressive stress 
+and shearing force, resulting in a change in surface roughness. Due to the 
+complex stress state generated during the grinding process, the surface 
+grains are refined and large residual strain/stress is produced. Strain 
+induced phase transformation can even occur in some materials [63]. 
+These microstructure changes in material can affect the corrosion 
+performance. 
+In addition to the increased surface roughness, the three sandpaper- 
+ground LPBF 304L SS samples all show feature peaks of α′-martensite 
+(Fig. 5b), indicating that the strain-induced martensite phase trans­
+formation occurs on the surface during the grinding process. Compared 
+with the electropolished sample, the XRD spectrum of sandpaper-ground 
+samples shows an increase in the background noise and wider diffraction 
+peaks, which is due to the residual stress generated on the sample sur­
+face during grinding [64]. In addition, grinding can also lead to the 
+formation of an ultrafine-grained layer on the sample surface. By 
+assessing the extent of XRD peak broadening of sandpaper-ground 
+samples [65], the grain size of surface ultrafine-grained layer can be 
+roughly estimated to be less than 30 nm. Chang et al. [38] also reported 
+that the 1200# sandpaper-ground surface has a thin ultrafine-grained 
+layer (about 0.2–0.4 μm in thickness). Therefore, the thickness of the 
+ultrafine-grained layer on the sample surface after grinding with the 
+2000# sandpapers in this work should not be more than 0.4 μm. 
+The potentiodynamic polarization curves and EIS results also show 
+that for both the as-received and heat-treated LPBF 304L SS samples, the 
+sandpaper-ground surfaces show inferior corrosion resistance than the 
+electropolished counterparts (Figs. 7 and 9). Especially for the 1200 ◦C 
+heat-treated sample, the sandpaper-ground surface even doesn’t show 
+stable passivation range (Fig. 7). Therefore, the corrosion resistance can 
+be significantly degraded by sandpaper grinding due to changes in 
+microstructure. Similarly, Schaller et al. [66] investigated the effect of 
+surface conditions on the corrosion resistance of LPBF 304L SS in 1 M 
+NaCl solution and found that the corrosion resistance decreases with the 
+increase of the mesh number of sandpaper. The surface of 
+sandpaper-ground samples contains a layer of highly deformed ultrafine 
+grains mixed with strain-induced martensite. As mentioned above, grain 
+refinement helps to enhance the corrosion resistance of the material by 
+increasing the stability of the passivation film. But the dislocation piling 
+up due to cold working is detrimental to corrosion resistance. In addi­
+tion, martensite significantly deteriorates the corrosion performance of 
+materials, which has been confirmed in previous studies. For example, Li 
+et al. [67] studied the effect of strain-induced martensite on the tribo 
+corrosion of 316L SS in artificial seawater, and found that the formation 
+of martensite reduces the corrosion potential. More importantly, the 
+galvanic effect between austenite and martensite degrades the stability 
+and integrity of passive film. Lv et al. [68,69] demonstrated that 
+inhibiting the strain-induced α′-martensite transformation could ease 
+the galvanic effect and improve the corrosion resistance of stainless steel 
+in borate buffer solution. 
+In fact, during sandpaper grinding, changes in roughness, grain size, 
+residual strain/stress state and martensitic transformation can occur at 
+the same time. Therefore, the possible effects on corrosion behavior are 
+often a mixture of multiple factors. However, according to the current 
+research, it is confirmed that the corrosion resistance of the materials is 
+significantly reduced after sandpaper grinding, which is mainly due to 
+the formation of martensite and increased residual strain/stress. Elec­
+tropolishing can eliminate the damaged layer caused by surface 
+grinding. More importantly, it can cause enrichment of Cr on the sample 
+surface, thereby enhancing the passivation. Therefore, the passive film 
+formed on the electropolished surface and contains higher Cr content is 
+thicker than that on the ground surface (Fig. 10). It should be noted that 
+for the ground surface state, only the as-printed sample is able to 
+passivate, suggesting the passivation ability of this sample is more 
+resilient to surface condition. 
+5. Conclusions 
+This work systematically investigated the influences of heat treat­
+ment and surface state on the corrosion resistance of a LPBF 304L SS 
+containing low Si/Mn in 3.5 wt% NaCl solution. Detailed microstruc­
+tural analysis was combined with electrochemical testing to provide a 
+comprehensive understanding of the corrosion behavior of this LPBF 
+304L SS. The main findings are:  
+(1) Heat treatment impact: Cellular dislocation structure in the as- 
+received LPBF 304L SS can enhance the passivation. However, 
+1050 ◦C-0.5 h heat treatment significantly decreases the corro­
+sion resistance (the passive range disappears), mainly due to the 
+disappearance of cellular structure and the presence of residual 
+dislocations/strain. 1200 ◦C-0.5 h heat treatment slightly en­
+hances the corrosion resistance thanks to the enhancement of 
+{101} texture, formation of Cr-rich inclusion, and further 
+reduction of residual strain.  
+(2) Surface state impact: The electropolished sample shows higher 
+corrosion resistance than the ground counterpart. This is because 
+electropolishing eliminates the surface deformation layer and 
+induces slight Cr enrichment. In contrast, sandpaper grinding 
+induces high residual stress/strain and martensitic trans­
+formation which in turn reduces the stability of passive film. Only 
+the as-received LPBF 304L SS retains the ability to passivate after 
+sandpaper grinding. 
+Data availability 
+The raw/processed data required to reproduce these findings cannot 
+be shared at this time as the data also forms part of an ongoing study. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+The authors gratefully acknowledge the financial support of National 
+Natural Science Foundation of China (No. 52271068), Development 
+Program of the Ministry of Science and Technology of China (No. 
+2019YFA0209900) and Young Talent Support Plan of Xi’an Jiaotong 
+University. The authors thank Research Fellow Wei Wang, Shengwu Guo 
+and Yanhuai Li of Xi’an Jiaotong University for their help of SEM, TEM 
+and XRD characterization, Chenyu Liang at Instrument Analysis Center 
+of Xi’an Jiaotong University for her help on XPS characterization, and 
+Chaowei Guo at Center for Advancing Materials Performance from the 
+Nanoscale (CAMP-Nano) of Xi’an Jiaotong University for their assis­
+tance with SEM analysis. The authors would like to thank Qiao Liu and 
+Shaojun Wu of Xi’an Jiaotong University for their assistance with the 
+experiments. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.jmrt.2024.03.025. 
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5631
+References 
+[1] Ngo TD, Kashani A, Imbalzano G, Nguyen KTQ, Hui D. Additive manufacturing (3D 
+printing): a review of materials, methods, applications and challenges. Composites 
+Part B 2018;143:172–96. 
+[2] DebRoy T, Wei HL, Zuback JS, Mukherjee T, Elmer JW, Milewski JO, Beese AM, 
+Wilson-Heid A, De A, Zhang W. Additive manufacturing of metallic components - 
+process, structure and properties. Prog Mater Sci 2018;92:112–224. 
+[3] Hou J, Chen W, Chen Z, Zhang K, Huang A. Microstructure, tensile properties and 
+mechanical anisotropy of selective laser melted 304L stainless steel. J Mater Sci 
+Technol 2020;48:63–71. 
+[4] Wu H, Fan G. An overview of tailoring strain delocalization for strength-ductility 
+synergy. Prog Mater Sci 2020;113:100675. 
+[5] Frazier WE. Metal additive manufacturing: a review. J Mater Eng Perform 2014;23 
+(6):1917–28. 
+[6] Sun C, Wang Y, McMurtrey MD, Jerred ND, Liou F, Li J. Additive manufacturing for 
+energy: a review. Appl Energy 2021;282:116041. 
+[7] Yap CY, Chua CK, Dong ZL, Liu ZH, Zhang DQ, Loh LE, Sing SL. Review of selective 
+laser melting: materials and applications. Appl Phys Rev 2015;2(4):21. 
+[8] Gu D, Hagedorn Y-C, Meiners W, Meng G, Batista RJS, Wissenbach K, Poprawe R. 
+Densification behavior, microstructure evolution, and wear performance of 
+selective laser melting processed commercially pure titanium. Acta Mater 2012;60 
+(9):3849–60. 
+[9] Wu AS, Brown DW, Kumar M, Gallegos GF, King WE. An experimental 
+investigation into additive manufacturing-induced residual stresses in 316L 
+stainless steel. Metall Mater Trans A 2014;45(13):6260–70. 
+[10] Zhang S, Wang S, Feng X, Ning Z, Hou J, Kuang W. Insights into the stress corrosion 
+cracking resistance of a selective laser melted 304L stainless steel in high- 
+temperature hydrogenated water. Acta Mater 2022:118561. 
+[11] Kong DC, Dong CF, Ni XQ, Zhang L, Yao JZ, Man C, Cheng XQ, Xiao K, Li XG. 
+Mechanical properties and corrosion behavior of selective laser melted 316L 
+stainless steel after different heat treatment processes. J Mater Sci Technol 2019;35 
+(7):1499–507. 
+[12] Kong D, Dong C, Wei S, Ni X, Zhang L, Li R, Wang L, Man C, Li X. About metastable 
+cellular structure in additively manufactured austenitic stainless steels. Addit 
+Manuf 2021;38:101804. 
+[13] Trelewicz JR, Halada GP, Donaldson OK, Manogharan G. Microstructure and 
+corrosion resistance of laser additively manufactured 316L stainless steel. J Occup 
+Med 2016;68(3):850–9. 
+[14] Laleh M, Sadeghi E, Revilla RI, Chao Q, Haghdadi N, Hughes AE, Xu W, De 
+Graeve I, Qian M, Gibson I, Tan MY. Heat treatment for metal additive 
+manufacturing. Prog Mater Sci 2023;133:101051. 
+[15] Chao Q, Cruz V, Thomas S, Birbilis N, Collins P, Taylor A, Hodgson PD, Fabijanic D. 
+On the enhanced corrosion resistance of a selective laser melted austenitic stainless 
+steel. Scripta Mater 2017;141:94–8. 
+[16] Hemmasian Ettefagh A, Guo S. Electrochemical behavior of AISI316L stainless steel 
+parts produced by laser-based powder bed fusion process and the effect of post 
+annealing process. Addit Manuf 2018;22:153–6. 
+[17] Sander G, Tan J, Balan P, Gharbi O, Feenstra DR, Singer L, Thomas S, Kelly RG, 
+Scully JR, Birbilis N. Corrosion of additively manufactured alloys: a review. 
+Corrosion 2018;74(12):1318–50. 
+[18] Revilla RI, Van Calster M, Raes M, Arroud G, Andreatta F, Pyl L, Guillaume P, De 
+Graeve I. Microstructure and corrosion behavior of 316L stainless steel prepared 
+using different additive manufacturing methods: a comparative study bringing 
+insights into the impact of microstructure on their passivity. Corrosion Sci 2020; 
+176:108914. 
+[19] Lin KJ, Gu DD, Xi LX, Yuan LH, Niu SQ, Lv P, Ge Q. Selective laser melting 
+processing of 316L stainless steel: effect of microstructural differences along 
+building direction on corrosion behavior. Int J Adv Manuf Technol 2019;104(5–8): 
+2669–79. 
+[20] Sander G, Babu AP, Gao X, Jiang D, Birbilis N. On the effect of build orientation 
+and residual stress on the corrosion of 316L stainless steel prepared by selective 
+laser melting. Corrosion Sci 2021;179:109149. 
+[21] Song M, Wang M, Lou X, Rebak RB, Was GS. Radiation damage and irradiation- 
+assisted stress corrosion cracking of additively manufactured 316L stainless steels. 
+J Nucl Mater 2019;513:33–44. 
+[22] Tuo LF, Zhou GS, Yu ZQ, Kang XT, Wang BW. Extrusion process of 304L H-shaped 
+stainless steel used in passive residual heat removal heat exchanger. Nucl Sci Tech 
+2019;30(4). 
+[23] Yeh CP, Tsai KC, Huang JY. Effects of relative humidity on crevice corrosion 
+behavior of 304L stainless-steel nuclear material in a chloride environment. Metals 
+2019;9(11):1185. 
+[24] Suresh G, Mudali UK, Raj B. Corrosion monitoring of type 304L stainless steel in 
+nuclear near-high level waste by electrochemical noise. J Appl Electrochem 2011; 
+41(8):973–81. 
+[25] Yang F, Zhu D, Jiang M, Liu H, Guo S, Wang Q, Wang H, Zhang K, Huang A, Hou J. 
+Effect of heat treatment on the microstructure, mechanical properties and 
+corrosion resistance of selective laser melted 304L stainless steel. Acta Metall Sin 
+(Engl Lett) 2022;35(10):1688–702. 
+[26] Voisin T, Forien J-B, Perron A, Aubry S, Bertin N, Samanta A, Baker A, Wang YM. 
+New insights on cellular structures strengthening mechanisms and thermal stability 
+of an austenitic stainless steel fabricated by laser powder-bed-fusion. Acta Mater 
+2021;203:116476. 
+[27] Kong DC, Dong CF, Ni XQ, Zhang L, Luo H, Li RX, Wang L, Man C, Li XG. The 
+passivity of selective laser melted 316L stainless steel. Appl Surf Sci 2020;504:12. 
+[28] Ettefagh AH, Guo S. Electrochemical behavior of AISI316L stainless steel parts 
+produced by laser-based powder bed fusion process and the effect of post annealing 
+process. Addit Manuf 2018;22:153–6. 
+[29] Laleh M, Hughes AE, Xu W, Cizek P, Tan MY. Unanticipated drastic decline in 
+pitting corrosion resistance of additively manufactured 316L stainless steel after 
+high-temperature post-processing. Corrosion Sci 2020;165:108412. 
+[30] Wang XY, Li DY. Mechanical and electrochemical behavior of nanocrystalline 
+surface of 304 stainless steel. Electrochim Acta 2002;47(24):3939–47. 
+[31] Balusamy T, Sankara Narayanan TSN, Ravichandran K, Park IS, Lee MH. Influence 
+of surface mechanical attrition treatment (SMAT) on the corrosion behaviour of 
+AISI 304 stainless steel. Corrosion Sci 2013;74:332–44. 
+[32] Kong D, Ni X, Dong C, Zhang L, Man C, Yao J, Xiao K, Li X. Heat treatment effect on 
+the microstructure and corrosion behavior of 316L stainless steel fabricated by 
+selective laser melting for proton exchange membrane fuel cells. Electrochim Acta 
+2018;276:293–303. 
+[33] Sander G, Thomas S, Cruz V, Jurg M, Birbilis N, Gao X, Brameld M, Hutchinson CR. 
+On the corrosion and metastable pitting characteristics of 316L stainless steel 
+produced by selective laser melting. J Electrochem Soc 2017;164(6):C250–7. 
+[34] Yin Y, Li H, Pan S, Zhang J, Han Q, Yang S. Electrochemical behaviour of 
+passivation film formed on SLM-fabricated Hastelloy X superalloy surface in 10 wt 
+% NaNO3 solution. Corrosion Sci 2022;206:110494. 
+[35] Kong D, Ni X, Dong C, Lei X, Zhang L, Man C, Yao J, Cheng X, Li X. Bio-functional 
+and anti-corrosive 3D printing 316L stainless steel fabricated by selective laser 
+melting. Mater Des 2018;152:88–101. 
+[36] Mu J, Sun T, Leung CLA, Oliveira JP, Wu Y, Wang H, Wang H. Application of 
+electrochemical polishing in surface treatment of additively manufactured 
+structures: a review. Prog Mater Sci 2023;136:101109. 
+[37] Chang L, Volpe L, Wang YL, Burke MG, Maurotto A, Tice D, Lozano-Perez S, 
+Scenini F. Effect of machining on stress corrosion crack initiation in warm-forged 
+type 304L stainless steel in high temperature water. Acta Mater 2019;165:203–14. 
+[38] Chang L, Burke MG, Scenini F. Understanding the effect of surface finish on stress 
+corrosion crack initiation in warm-forged stainless steel 304L in high-temperature 
+water. Scripta Mater 2019;164:1–5. 
+[39] Chang L, Burke MG, Scenini F. Stress corrosion crack initiation in machined type 
+316L austenitic stainless steel in simulated pressurized water reactor primary 
+water. Corrosion Sci 2018;138:54–65. 
+[40] Deng P, Yin H, Song M, Li D, Zheng Y, Prorok BC, Lou X. On the thermal stability of 
+dislocation cellular structures in additively manufactured austenitic stainless 
+steels: roles of heavy element segregation and stacking fault energy. J Occup Med 
+2020;72(12):4232–43. 
+[41] Legros M, Dehm G, Arzt E, Balk TJ. Observation of giant diffusivity along 
+dislocation cores. Science 2008;319(5870):1646–9. 
+[42] Man C, Dong C, Liu T, Kong D, Wang D, Li X. The enhancement of microstructure 
+on the passive and pitting behaviors of selective laser melting 316L SS in simulated 
+body fluid. Appl Surf Sci 2019;467–468:193–205. 
+[43] Barbucci A, Cerisola G, Cabot PL. Effect of cold-working in the passive behavior of 
+304 stainless steel in sulfate media. J Electrochem Soc 2002;149(12):B534–42. 
+[44] Peguet L, Malki B, Baroux B. Influence of cold working on the pitting corrosion 
+resistance of stainless steels. Corrosion Sci 2007;49(4):1933–48. 
+[45] Lv JL, Guo WL, Liang TX. The effect of pre-deformation on corrosion resistance of 
+the passive film formed on 2205 duplex stainless steel. J Alloys Compd 2016;686: 
+176–83. 
+[46] Monrrabal G, Bautista A, Guzman S, Gutierrez C, Velasco F. Influence of the cold 
+working induced martensite on the electrochemical behavior of AISI 304 stainless 
+steel surfaces. J Mater Res Technol 2019;8(1):1335–46. 
+[47] Nishihara Y, Nakajima Y, Akashi A, Tsujino N, Takahashi E, Funakoshi K, Higo Y. 
+Isothermal compression of face-centered cubic iron. Am Mineral 2012;97(8–9): 
+1417–20. 
+[48] Zhang LN, Szpunar JA, Dong JX, Ojo OA, Wang X. Dependence of crystallographic 
+orientation on pitting corrosion behavior of Ni-Fe-Cr alloy 028. Metall Mater Trans 
+B 2018;49(3):919–25. 
+[49] Ryan MP, Williams DE, Chater RJ, Hutton BM, McPhail DS. Why stainless steel 
+corrodes. Nature 2002;415(6873):770–4. 
+[50] Zhou C, Hu S, Shi Q, Tao H, Song Y, Zheng J, Xu P, Zhang L. Improvement of 
+corrosion resistance of SS316L manufactured by selective laser melting through 
+subcritical annealing. Corrosion Sci 2020;164:108353. 
+[51] Choudhary S, Cruz V, Pandey A, Thomas S, Birbilis N. Element-resolved 
+electrochemical analysis of the passivity of additively manufactured stainless steel 
+316L. Corrosion Sci 2021;189:109576. 
+[52] Deng P, Karadge M, Rebak RB, Gupta VK, Prorok BC, Lou X. The origin and 
+formation of oxygen inclusions in austenitic stainless steels manufactured by laser 
+powder bed fusion. Addit Manuf 2020;35:101334. 
+[53] Yan F, Xiong W, Faierson E, Olson GB. Characterization of nano-scale oxides in 
+austenitic stainless steel processed by powder bed fusion. Scripta Mater 2018;155: 
+104–8. 
+[54] Lou X, Andresen PL, Rebak RB. Oxide inclusions in laser additive manufactured 
+stainless steel and their effects on impact toughness and stress corrosion cracking 
+behavior. J Nucl Mater 2018;499:182–90. 
+[55] Wang K, Chao Q, Annasamy M, Hodgson PD, Thomas S, Birbilis N, Fabijanic D. On 
+the pitting behaviour of laser powder bed fusion prepared 316L stainless steel upon 
+post-processing heat treatments. Corrosion Sci 2022;197:110060. 
+[56] Duan Z, Man C, Dong C, Cui Z, Kong D, wang L, Wang X. Pitting behavior of SLM 
+316L stainless steel exposed to chloride environments with different 
+aggressiveness: pitting mechanism induced by gas pores. Corrosion Sci 2020;167: 
+108520. 
+S. Zhang et al.                                                                                                                                                                                                                                   
+
+Journal of Materials Research and Technology 29 (2024) 5620–5632
+5632
+[57] Hemmasian Ettefagh A, Guo S, Raush J. Corrosion performance of additively 
+manufactured stainless steel parts: a review. Addit Manuf 2021;37:101689. 
+[58] Zhang Z, Zhao Z, Li X, Wang L, Liu B, Bai P. Effect of heat treatments on metastable 
+pitting of 316L stainless steel fabricated by selective laser melting. J Mater Res 
+Technol 2022;21:1903–14. 
+[59] Laleh M, Hughes AE, Xu W, Gibson I, Tan MY. A critical review of corrosion 
+characteristics of additively manufactured stainless steels. Int Mater Rev 2021;66 
+(8):563–99. 
+[60] Ralston KD, Birbilis N. Effect of grain size on corrosion: a review. Corrosion 2010; 
+66(7):075005. 
+[61] Wang XY, Li DY. Mechanical, electrochemical and tribological properties of nano- 
+crystalline surface of 304 stainless steel. Wear 2003;255(7):836–45. 
+[62] Bedmar J, García-Rodríguez S, Rold´an M, Torres B, Rams J. Effects of the heat 
+treatment on the microstructure and corrosion behavior of 316 L stainless steel 
+manufactured by Laser Powder Bed Fusion. Corrosion Sci 2022;209:110777. 
+[63] Ghosh S, Kumar MK, Kain V. High temperature oxidation behavior of AISI 304L 
+stainless steel—effect of surface working operations. Appl Surf Sci 2013;264: 
+312–9. 
+[64] Prevey PSJAI. ASM handbook. X-ray diffraction residual stress techniques 1986;10: 
+380–92. 
+[65] Salim ET, Ismail RA, Halbos HT. Growth of Nb2O5 film using hydrothermal 
+method: effect of Nb concentration on physical properties. Mater Res Express 2019; 
+6(11):116429. 
+[66] Schaller RF, Mishra A, Rodelas JM, Taylor JM, Schindelholz EJ. The role of 
+microstructure and surface finish on the corrosion of selective laser melted 304L. 
+J Electrochem Soc 2018;165(5):C234–42. 
+[67] Liu EY, Zhang YX, Zhu LF, Zeng ZX, Gao RP. Effect of strain-induced martensite on 
+the tribocorrosion of AISI 316L austenitic stainless steel in seawater. RSC Adv 
+2017;7(71):44923–32. 
+[68] Lv J, Luo H, Liang T, Guo W. The effects of grain refinement and deformation on 
+corrosion resistance of passive film formed on the surface of 304 stainless steels. 
+Mater Res Bull 2015;70:896–907. 
+[69] Lv J, Liang T, Wang C, Dong L. Effect of ultrafine grain on tensile behaviour and 
+corrosion resistance of the duplex stainless steel. Mater Sci Eng C 2016;62:558–63. 
+S. Zhang et al.                                                                                                                                                                                                                                   

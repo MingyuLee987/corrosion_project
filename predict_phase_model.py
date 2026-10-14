@@ -16,6 +16,9 @@ def main():
     bundle=joblib.load(args.model)
     o.FEATURE_SETS.update(bundle.get('feature_sets',{}))
     data=pd.read_csv(args.input_csv)
+    if bundle.get('semantic_transform'):
+        from semantic_features import prepare
+        data=prepare(data)
     missing=[col for col in bundle['input_columns'] if col not in data]
     if missing:data=pd.concat([data,pd.DataFrame(np.nan,index=data.index,columns=missing)],axis=1)
     x=o.transform(data)

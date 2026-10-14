@@ -1,0 +1,15 @@
+{
+  "original_rows": 460,
+  "clean_rows": 458,
+  "quarantined_ids": [
+    "AUX_NanofluidSteel2024_NaCl_CO2_CuO_55",
+    "AUX_NanofluidSteel2024_NaCl_CO2_CuO_T_55"
+  ],
+  "RE_evaluation_rows": 47,
+  "input_sha256": "d27bfe5c5566b2867d12cadd1f26270a9892c5f8d92e16131cf91649890582f5",
+  "invalid_nonpositive_targets": 0,
+  "duplicate_record_ids": 0,
+  "rule": "Source inconsistency only. No filtering by residual, R2 contribution, or held-out predictions.",
+  "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1155/ijco/5531986",
+  "source_locator": "Table6; comparison of icorr and corrosion rate across same alloy"
+}

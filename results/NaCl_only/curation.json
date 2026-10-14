@@ -1,0 +1,12 @@
+{
+  "original_rows": 458,
+  "baseline_rows": 128,
+  "excluded_rows": 330,
+  "columns": 196,
+  "new_rows": 11,
+  "expanded_rows": 139,
+  "RE_rows": 30,
+  "RE_papers": 12,
+  "filter": "electrolyte_family == NaCl and no recorded added acid/base pH adjustment",
+  "limitations": "Existing metadata filter is not a complete original-paper re-audit. N2/air condition permitted; CO2-saturated solutions excluded. No synthetic rows; original file preserved."
+}

@@ -43,12 +43,21 @@ def main():
         OUT.mkdir(parents=True,exist_ok=True)
     if focused:input_path=ROOT/'data/training_RE_auxiliary_max.csv'
     if transfer:input_path=ROOT/'data/training_RE_auxiliary_max.csv'
+    if '--input' in sys.argv:input_path=Path(sys.argv[sys.argv.index('--input')+1])
     d=pd.read_csv(input_path)
     n,c=o.FEATURE_SETS['drop_P_S_add_manufacturing']
     features={'phase':(n,c+['phase_reported','microstructure_constituents_reported']),
               'phase_grain':(n+['matrix_grain_size_um','polygonal_ferrite_fraction_pct'],c+['phase_reported','microstructure_constituents_reported'])}
     improve='--improve' in sys.argv
     accuracy='--accuracy' in sys.argv
+    semantic='--semantic' in sys.argv
+    if semantic:
+        import semantic_features as sf
+        d=sf.prepare(d)
+        features.update(sf.FEATURES)
+        for nums,cats in sf.FEATURES.values():
+            for col in nums+cats:
+                if col not in d:d[col]=np.nan
     if improve:
         OUT=ROOT/'results/RE_prediction_improvement'
         OUT.mkdir(parents=True,exist_ok=True)
@@ -76,6 +85,8 @@ def main():
         needed={col for nums,cats in features.values() for col in nums+cats}
         missing=sorted(needed-set(d.columns))
         if missing:d=pd.concat([d,pd.DataFrame(np.nan,index=d.index,columns=missing)],axis=1)
+    if '--output' in sys.argv:
+        OUT=Path(sys.argv[sys.argv.index('--output')+1]);OUT.mkdir(parents=True,exist_ok=True)
     o.FEATURE_SETS.update(features);x=o.transform(d)
     y=np.log10(d.icorr_A_cm2.to_numpy(float));g=d.reference_id.to_numpy()
     positive=d.RE_wt_pct.gt(0).to_numpy();idx=np.flatnonzero(positive)
@@ -84,6 +95,9 @@ def main():
     if advanced:
         configs=[(f,leaf,kind,.25) for f in features for leaf in [3,8] for kind in ['extra_trees','random_forest']] + [('phase',C,'scale',w) for C in [.1,.3] for w in [.25,1.]]
     if svr_only:configs=[('phase',C,'scale',w) for C in [.1,.3] for w in [.25,1.]]
+    if semantic:configs=[(f,C,'scale',w) for f in sf.FEATURES for C in [.1,.3] for w in [.1,1.]]
+    if '--conservative' in sys.argv:configs=[('semantic_matrix',C,'scale',w) for C in [.1,.3] for w in [.1,1.]]
+    if '--refine' in sys.argv:configs=[('semantic_matrix',C,'scale',w) for C in [.1,.3] for w in [.1,1.]]+ [('semantic_matrix',C,gamma,.1) for C in [1.,3.] for gamma in ['scale',.01]]
     if improve:
         configs=[('phase',C,'scale',w) for C in [.1,.3] for w in [.25,1.]]+[(f,C,'scale',w) for f in ['alloy_phase','alloy_environment','alloy_environment_protocol'] for C in [.3,1.] for w in [.25,1.]]
         if accuracy:
@@ -128,7 +142,7 @@ def main():
     table=pd.DataFrame(rows).sort_values('log10_R2',ascending=False);table.to_csv(OUT/'comparison.csv',index=False,encoding='utf-8-sig')
     best=min(configs,key=lambda conf:o.metrics(y[idx],fixed[conf][idx],g[idx])['log10_MAE']) if accuracy else max(configs,key=lambda conf:o.metrics(y[idx],fixed[conf][idx],g[idx])['log10_R2'])
     model=fit(np.arange(len(d)),best)
-    joblib.dump(dict(model=model,config=best,input_columns=list(x.columns),feature_sets=features,preprocessing='optimize_process_features.transform plus phase feature declarations'),OUT/f'model_all{len(d)}.joblib')
+    joblib.dump(dict(model=model,config=best,input_columns=list(x.columns),feature_sets=features,semantic_transform=semantic,preprocessing='optimize_process_features.transform plus phase feature declarations'),OUT/f'model_all{len(d)}.joblib')
     pred=model.predict(x)
     report=dict(rows_trained=len(d),RE_positive_rows=len(idx),search_configs=len(configs),best_exploratory_config=best,
         selection_objective='log10_MAE' if accuracy else 'log10_R2',
