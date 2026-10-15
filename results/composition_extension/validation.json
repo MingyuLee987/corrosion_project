@@ -1,0 +1,117 @@
+{
+  "added_columns": [
+    "Co_wt_pct"
+  ],
+  "raw_input_count": 20,
+  "search_candidates": [
+    "N_wt_pct",
+    "Al_wt_pct",
+    "Nb_wt_pct",
+    "V_wt_pct",
+    "Ti_wt_pct",
+    "Co_wt_pct",
+    "O_wt_pct",
+    "La_wt_pct",
+    "Ce_wt_pct"
+  ],
+  "baseline_paper_cv_RE": {
+    "n": 27,
+    "log10_R2": -0.4125494681771338,
+    "log10_MAE": 0.8720863890652731,
+    "within_2x_pct": 22.22222222222222,
+    "within_3x_pct": 25.925925925925924,
+    "within_5x_pct": 37.03703703703704,
+    "within_10x_pct": 55.55555555555556
+  },
+  "selected_paper_cv_RE": {
+    "n": 27,
+    "log10_R2": -0.37300639822254356,
+    "log10_MAE": 0.8627159028175194,
+    "within_2x_pct": 22.22222222222222,
+    "within_3x_pct": 22.22222222222222,
+    "within_5x_pct": 40.74074074074074,
+    "within_10x_pct": 55.55555555555556
+  },
+  "selected_paper_cv_all": {
+    "n": 116,
+    "log10_R2": -0.24231185384232523,
+    "log10_MAE": 0.9010857108912044,
+    "within_2x_pct": 19.82758620689655,
+    "within_3x_pct": 23.275862068965516,
+    "within_5x_pct": 42.241379310344826,
+    "within_10x_pct": 54.310344827586206
+  },
+  "selected_row_cv_RE": {
+    "n": 27,
+    "log10_R2": 0.7226686787968174,
+    "log10_MAE": 0.3221949580867652,
+    "within_2x_pct": 55.55555555555556,
+    "within_3x_pct": 74.07407407407408,
+    "within_5x_pct": 92.5925925925926,
+    "within_10x_pct": 92.5925925925926
+  },
+  "selected_row_cv_all": {
+    "n": 116,
+    "log10_R2": 0.7859295166719239,
+    "log10_MAE": 0.31164546837151225,
+    "within_2x_pct": 61.206896551724135,
+    "within_3x_pct": 78.44827586206897,
+    "within_5x_pct": 90.51724137931035,
+    "within_10x_pct": 94.82758620689656
+  },
+  "training_all": {
+    "n": 116,
+    "log10_R2": 0.9458726307552807,
+    "log10_MAE": 0.15439354423487642,
+    "within_2x_pct": 87.93103448275862,
+    "within_3x_pct": 95.6896551724138,
+    "within_5x_pct": 98.27586206896551,
+    "within_10x_pct": 100.0
+  },
+  "training_RE": {
+    "n": 27,
+    "log10_R2": 0.9791994822347364,
+    "log10_MAE": 0.08770577528737968,
+    "within_2x_pct": 96.29629629629629,
+    "within_3x_pct": 100.0,
+    "within_5x_pct": 100.0,
+    "within_10x_pct": 100.0
+  },
+  "baseline_test_all": {
+    "n": 28,
+    "log10_R2": 0.8572827870104891,
+    "log10_MAE": 0.3115644279407939,
+    "within_2x_pct": 60.71428571428571,
+    "within_3x_pct": 82.14285714285714,
+    "within_5x_pct": 92.85714285714286,
+    "within_10x_pct": 96.42857142857143
+  },
+  "baseline_test_RE": {
+    "n": 6,
+    "log10_R2": 0.9597142550596157,
+    "log10_MAE": 0.12013598555145293,
+    "within_2x_pct": 100.0,
+    "within_3x_pct": 100.0,
+    "within_5x_pct": 100.0,
+    "within_10x_pct": 100.0
+  },
+  "selected_test_all": {
+    "n": 28,
+    "log10_R2": 0.8480565738491803,
+    "log10_MAE": 0.32842084600126115,
+    "within_2x_pct": 53.57142857142857,
+    "within_3x_pct": 78.57142857142857,
+    "within_5x_pct": 92.85714285714286,
+    "within_10x_pct": 96.42857142857143
+  },
+  "selected_test_RE": {
+    "n": 6,
+    "log10_R2": 0.9066090712878763,
+    "log10_MAE": 0.17666909065586692,
+    "within_2x_pct": 66.66666666666666,
+    "within_3x_pct": 100.0,
+    "within_5x_pct": 100.0,
+    "within_10x_pct": 100.0
+  },
+  "caveat": "Exploratory forward selection using reused development paper CV; selected CV is optimistic, not independent nested validation. Historical test reused and only 6 RE rows. No test-based selection. Missing elements not zero-filled; observed La/Ce only, no inferred fractions. Data remain 144 rows and 196 columns."
+}
